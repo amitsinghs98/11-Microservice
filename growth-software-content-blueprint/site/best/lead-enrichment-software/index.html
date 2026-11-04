@@ -54,18 +54,10 @@
         },
         {
           "@type": "Question",
-          "name": "Can enrichment replace form fields?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Partly. Many teams ask only for a work email and enrich company size and industry, but keep any field a vendor can't know, such as consent or the buyer's timeline."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Do small teams need a waterfall?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Only if one provider leaves important gaps in your segment. Run a sample first; if a single source fills most fields correctly, a waterfall adds cost and complexity for little gain."
+            "text": "Only if one provider leaves important gaps in your segment. If a single source fills most fields correctly in your sample, a waterfall adds cost for little gain."
           }
         },
         {
@@ -116,35 +108,24 @@
       <section id="which-tool-should-you-choose">
         <h2>Which enrichment tool should you choose?</h2>
         <p>Pick Clay if someone on your team will own multi-provider waterfalls and per-field rules, and pick Apollo.io if you're a small sales team that wants enrichment, a contact database and sequencing on one bill. Choose a specialist (ZoomInfo, Cognism, People Data Labs) only when its coverage or delivery model matches a gap you can name.</p>
-        <p>Our editorial picks, based on the product information reviewed:</p>
-        <ul>
-          <li><strong>Most control over sources and logic:</strong> Clay.</li>
-          <li><strong>Enrichment bundled with a database and outreach:</strong> Apollo.io.</li>
-          <li><strong>Broad firmographic, technographic and intent coverage with an annual contract:</strong> ZoomInfo.</li>
-          <li><strong>Native enrichment for HubSpot shops:</strong> HubSpot's Breeze Intelligence (built on the Clearbit acquisition).</li>
-          <li><strong>Phone-led selling into the UK and Europe:</strong> Cognism.</li>
-          <li><strong>Quick lookups by individual reps:</strong> Lusha.</li>
-          <li><strong>Raw records for engineers:</strong> People Data Labs.</li>
-          <li><strong>Waterfall contact finding without building it yourself:</strong> FullEnrich.</li>
-        </ul>
+        <p>For HubSpot-only stacks, HubSpot's native Breeze Intelligence is the simplest route. Lusha suits individual reps who want quick lookups, and FullEnrich suits teams that want waterfall contact finding without building it.</p>
       </section>
 
       <section id="when-does-enrichment-help">
         <h2>When does enrichment help, and when is it wasted?</h2>
-        <p>Enrichment earns its cost when a downstream process needs fields that humans won't type reliably: routing rules, fit scoring, territory assignment or outbound lists that need a verified email. It's wasted when the CRM has no agreed account model, when you enrich every record once and never refresh it, or when nobody uses the fields you're paying to fill.</p>
-        <p>Three uses cover most B2B teams. Short inbound forms can ask only for a work email and fill company size, industry and country in the background. Fit scoring and routing need firmographic fields that are consistent across records. Outbound needs contact details checked close to the time of sending.</p>
-        <p>The layers are worth separating before you shop. Firmographic data describes the company (headcount, industry, revenue band, location). Technographic data lists the software a company appears to run. Person-level data covers role, seniority, email and phone. A waterfall tries several providers in turn for the same field and stops at the first acceptable answer. If you're still choosing the system the data will live in, start with our <a href="/best/crm-software-for-small-business/">guide to CRM software for small businesses</a>, and see the wider <a href="/categories/crm-lead-gen/">CRM and lead generation hub</a> for neighbouring categories.</p>
+        <p>Enrichment earns its cost when a downstream process needs fields that humans won't type reliably: routing, fit scoring, territories or outbound lists that need a verified email. It's wasted when the CRM has no agreed account model, when records are enriched once and never refreshed, or when nobody uses the fields.</p>
+        <p>Separate the layers before you shop. Firmographic data describes the company (headcount, industry, location), technographic data lists the software it appears to run, and person-level data covers role, email and phone. A waterfall tries several providers in turn for one field and stops at the first acceptable answer. If you're still choosing the system the data will live in, start with our <a href="/best/crm-software-for-small-business/">guide to CRM software for small businesses</a>, and see the wider <a href="/categories/crm-lead-gen/">CRM and lead generation hub</a> for neighbouring categories.</p>
       </section>
 
       <section id="how-did-we-choose">
         <h2>How did we choose these tools?</h2>
         <p>We compared each tool on the data layers it fills, whether it can fall back to another source on a miss, API access, CRM writeback controls and how usage is metered. Evidence came from official product and pricing pages; no hands-on testing was done, and the order follows the control each tool gives over sourcing and writeback, not payment.</p>
-        <p>Vendor pricing pages could not be re-fetched from the drafting environment for this version, so this page describes pricing models rather than prices. Every figure you'll need is on the official page linked in each block, and you should confirm it there before you budget. The research log for this page records which claims still need a dated check.</p>
+        <p>Vendor pricing pages could not be re-fetched for this version, so this page describes pricing models rather than prices. Confirm current figures on the official page linked in each block before you budget.</p>
       </section>
 
       <section id="how-do-they-compare">
         <h2>How do the tools compare?</h2>
-        <p>The biggest split is between tools that orchestrate several data sources (Clay, FullEnrich, Apollo's waterfall option) and tools that sell one proprietary database (ZoomInfo, Cognism, Lusha). The second biggest is between tools with a sales interface and raw data you integrate yourself.</p>
+        <p>The biggest split is between tools that orchestrate several data sources (Clay, FullEnrich) and tools that sell one proprietary database (ZoomInfo, Cognism, Lusha). The second is between sales apps and raw data you integrate yourself.</p>
         <table>
           <caption>Lead enrichment software at a glance (based on official product information; confirm prices on vendor pages)</caption>
           <thead>
@@ -222,15 +203,15 @@
         <p>Most teams should shortlist two: one orchestration or bundled tool and one specialist that covers their weakest segment. The blocks below give best-for and skip-it-if guidance so you can cut the list quickly.</p>
 
         <h3>Clay: best for teams that want to control every source</h3>
-        <p>Clay works like a spreadsheet where each column can call a data provider, a formula or an AI research step. Its appeal is that you decide which provider fills each field, in what order, and when to stop paying for further lookups.</p>
-        <p><strong>Pricing model:</strong> tiered platform plans with usage credits; the <a href="https://www.clay.com/pricing" target="_blank" rel="noopener noreferrer">Clay pricing page</a> sets out what each plan meters and which plans include CRM sync. <strong>Strengths:</strong> flexible waterfalls and the option to bring API keys for providers you already license. <strong>Limitations:</strong> usage is harder to forecast than a flat seat price, and the tool rewards someone who enjoys building tables. <strong>Skip it if</strong> nobody will own the logic after launch. Our <a href="/compare/clay-vs-apollo/">Clay vs Apollo breakdown</a> goes deeper on the trade-off.</p>
+        <p>Clay works like a spreadsheet where each column can call a data provider, a formula or an AI research step, so you decide which provider fills each field and in what order.</p>
+        <p><strong>Pricing model:</strong> tiered platform plans with usage credits; the <a href="https://www.clay.com/pricing" target="_blank" rel="noopener noreferrer">Clay pricing page</a> sets out what each plan meters and which plans include CRM sync. <strong>Strengths:</strong> flexible waterfalls and the option to bring your own provider API keys. <strong>Limitations:</strong> usage is harder to forecast than a flat seat price. <strong>Skip it if</strong> nobody will own the logic after launch. Our <a href="/compare/clay-vs-apollo/">Clay vs Apollo breakdown</a> goes deeper on the trade-off.</p>
 
         <h3>Apollo.io: best for small teams that want one bill</h3>
-        <p>Apollo pairs its own people and company database with enrichment of CSV files, CRM records and API calls, plus sequencing. For a five-rep team, that removes at least one subscription.</p>
+        <p>Apollo pairs its own people and company database with enrichment of CSV files, CRM records and API calls, plus sequencing.</p>
         <p><strong>Pricing model:</strong> per seat with credit allowances and a free tier; see the <a href="https://www.apollo.io/pricing" target="_blank" rel="noopener noreferrer">Apollo pricing page</a> for current allowances and how many credits an email or phone lookup costs. <strong>Strengths:</strong> low entry cost and one place to find, enrich and contact. <strong>Limitations:</strong> mobile numbers consume allowances faster than emails, so phone-heavy teams outgrow entry plans quickly. <strong>Skip it if</strong> you already pay for a sequencer and only need enrichment. Our <a href="/alternatives/apollo/">roundup of Apollo alternatives</a> covers other routes.</p>
 
         <h3>ZoomInfo: best for depth from a single vendor</h3>
-        <p>ZoomInfo is a broad sales intelligence platform covering firmographic, technographic, intent and org-chart data, with tools for keeping CRM and marketing automation records updated and for enriching forms.</p>
+        <p>ZoomInfo is a broad sales intelligence platform covering firmographic, technographic, intent and org-chart data, with tools for keeping CRM records updated and enriching forms.</p>
         <p><strong>Pricing model:</strong> quote-based, usually on annual contracts; request figures through <a href="https://www.zoominfo.com/pricing" target="_blank" rel="noopener noreferrer">ZoomInfo's pricing page</a>. <strong>Strengths:</strong> company-level breadth in one relationship. <strong>Limitations:</strong> a single database can't fall back to another source on a miss, and the contract suits larger teams. <strong>Skip it if</strong> you have a handful of reps and no admin; our list of <a href="/alternatives/zoominfo/">ZoomInfo alternatives for SMB teams</a> is the better starting point.</p>
 
         <h3>HubSpot Breeze Intelligence: best for HubSpot-only stacks</h3>
@@ -238,31 +219,31 @@
         <p><strong>Pricing model:</strong> tied to HubSpot subscriptions and HubSpot's credit system, which has been repackaged since the acquisition; check the <a href="https://www.hubspot.com/products/artificial-intelligence/breeze-intelligence" target="_blank" rel="noopener noreferrer">Breeze Intelligence product page</a> for what your tier includes today. <strong>Strengths:</strong> nothing to integrate. <strong>Limitations:</strong> it helps only inside HubSpot and offers no second source. <strong>Skip it if</strong> your CRM is Salesforce, Pipedrive or anything else.</p>
 
         <h3>Cognism: best for calling into Europe</h3>
-        <p>Cognism sells person-level contact data with an emphasis on mobile numbers and on data handling for European markets, delivered through a browser extension, a web app and CRM integrations.</p>
+        <p>Cognism sells person-level contact data with an emphasis on mobile numbers and European markets, delivered through a browser extension, web app and CRM integrations.</p>
         <p><strong>Pricing model:</strong> quote-based; see <a href="https://www.cognism.com/pricing" target="_blank" rel="noopener noreferrer">Cognism's pricing page</a>. <strong>Strengths:</strong> a clear regional focus. <strong>Limitations:</strong> less suited to very small budgets, and coverage in other regions should be judged on your own sample. <strong>Skip it if</strong> nearly all your buyers are in North America and email is your only channel.</p>
 
         <h3>Lusha: best for quick rep lookups</h3>
-        <p>Lusha provides emails, phone numbers and basic company details through a browser extension, a web app and CRM integrations. Reps can adopt it in an afternoon.</p>
+        <p>Lusha provides emails, phone numbers and basic company details through a browser extension, a web app and CRM integrations.</p>
         <p><strong>Pricing model:</strong> credit tiers with a free plan; see <a href="https://www.lusha.com/pricing/" target="_blank" rel="noopener noreferrer">Lusha pricing</a>. <strong>Strengths:</strong> speed to value. <strong>Limitations:</strong> lighter on technographic depth and scheduled bulk enrichment than platform tools. <strong>Skip it if</strong> you need rules-based enrichment across tens of thousands of CRM records.</p>
 
         <h3>People Data Labs: best for builders</h3>
-        <p>People Data Labs is a developer-first provider that returns structured person and company records through an API or bulk files, for teams that will match and store data in their own warehouse or product.</p>
+        <p>People Data Labs is a developer-first provider of person and company records through an API or bulk files.</p>
         <p><strong>Pricing model:</strong> usage tiers, including a free developer tier; see <a href="https://www.peopledatalabs.com/pricing" target="_blank" rel="noopener noreferrer">People Data Labs pricing</a>. <strong>Strengths:</strong> warehouse-friendly and flexible. <strong>Limitations:</strong> writeback, deduplication and governance are entirely your job. <strong>Skip it if</strong> you don't have engineering time.</p>
 
         <h3>FullEnrich: best for waterfall contact finding with little setup</h3>
-        <p>FullEnrich positions itself as an aggregator that queries several contact-data providers in sequence and returns the first result it finds, so you get waterfall behaviour without building it.</p>
+        <p>FullEnrich positions itself as an aggregator that queries several contact-data providers in sequence, giving you waterfall behaviour without building it.</p>
         <p><strong>Pricing model:</strong> credits; check <a href="https://fullenrich.com/pricing" target="_blank" rel="noopener noreferrer">FullEnrich pricing</a> for how unsuccessful lookups are billed. <strong>Strengths:</strong> coverage with minimal configuration. <strong>Limitations:</strong> contact fields only, and you depend on upstream providers you don't contract with directly. <strong>Skip it if</strong> routing and scoring need company-level fields.</p>
       </section>
 
       <section id="what-do-1k-and-10k-records-cost">
         <h2>How many credits do 1,000 and 10,000 records use?</h2>
         <p>Under the assumptions below, a 1,000-record inbound job needs about 1,800 email-equivalent units and a 10,000-record outbound job between 16,000 and 26,000, depending almost entirely on how many phone numbers you request. Multiply by your vendor's real unit price to get a budget.</p>
-        <p>This is a hypothetical model, not vendor data. Assume one email lookup costs one unit, one mobile lookup costs eight units (a ratio chosen for illustration; check your vendor's actual ratio), every record gets an email lookup, and phones are requested for a share of records.</p>
+        <p>This is a hypothetical model, not vendor data. Assume an email lookup costs one unit and a mobile lookup eight (an illustrative ratio; check your vendor's), and every record gets an email lookup.</p>
         <ul>
           <li><strong>1,000 inbound leads, phones for the top 10%:</strong> 1,000 email units plus 100 × 8 phone units = 1,800 units. Restricting phones to fit-qualified leads keeps it there; requesting phones for everyone would make it 9,000.</li>
           <li><strong>10,000 outbound records, phones for 20%:</strong> 10,000 plus 2,000 × 8 = 26,000 units. Dropping phones to the 7.5% of records in tier-one accounts brings it to 16,000.</li>
         </ul>
-        <p>Two lessons hold whatever the vendor. Phones dominate cost, so request them only for records that pass your fit rules. And ask whether a lookup that returns nothing is charged, because on a cold list with a low find rate that single term can change the bill more than the headline price.</p>
+        <p>Two lessons hold whatever the vendor: request phones only for records that pass your fit rules, and ask whether a lookup that returns nothing is charged, because on a cold list that term can move the bill more than the headline price.</p>
       </section>
 
       <section id="first-hand-experience">
@@ -276,11 +257,10 @@
         <h2>How do you stop enrichment from corrupting the CRM?</h2>
         <p>Write a short field rulebook before you switch on automated writeback: who wins for each field, when an overwrite is allowed, and which fields enrichment may never touch. Then deduplicate before you enrich, because enriching duplicates doubles the bill and makes merges harder.</p>
         <ul>
-          <li><strong>Source of truth per field.</strong> Decide whether rep-entered, form-submitted or vendor data wins for job title, employee count and industry.</li>
-          <li><strong>Overwrite policy.</strong> Choose fill-blanks-only, overwrite-if-stale or never-overwrite per field. Owner, lifecycle stage and opt-out status are never enrichment's to change.</li>
-          <li><strong>Provenance.</strong> Store the enrichment source and a last-enriched date beside key fields so you can audit and refresh.</li>
+          <li><strong>Source of truth per field.</strong> Decide whether rep, form or vendor data wins for title, headcount and industry.</li>
+          <li><strong>Overwrite policy.</strong> Fill-blanks-only, overwrite-if-stale or never-overwrite, per field. Owner, lifecycle stage and opt-out status are never enrichment's to change.</li>
+          <li><strong>Provenance.</strong> Store the source and a last-enriched date beside key fields.</li>
           <li><strong>Match keys.</strong> Match companies on normalised domain rather than name, and people on email first.</li>
-          <li><strong>No record creation.</strong> Enrichment should update records, not spawn new companies from a parent-company lookup.</li>
           <li><strong>Quarantine.</strong> Send low-confidence results to a review view instead of live fields.</li>
         </ul>
         <p>If duplicates are already a problem, our guide to <a href="/best/crm-data-quality-and-deduplication-tools/">CRM data quality and deduplication tools</a> covers cleanup first. Scored and routed leads depend on these fields, which is why the downstream side lives in our <a href="/best/lead-scoring-software/">lead scoring software picks</a>, and the boundary between the two jobs is explained in <a href="/guides/lead-scoring-vs-lead-enrichment/">lead scoring vs lead enrichment</a>.</p>
@@ -292,7 +272,6 @@
         <ul>
           <li>Are we charged when a lookup returns nothing, or a result we reject?</li>
           <li>Which fields can we lock against overwrite, and is there a change log?</li>
-          <li>Do unused credits roll over, and what do top-ups cost?</li>
           <li>Which sub-processors supply the data, and how are opt-out requests passed on?</li>
           <li>What may we keep in our CRM after the contract ends?</li>
         </ul>
@@ -301,23 +280,21 @@
 
       <section id="faq">
         <h2>What else do buyers ask about lead enrichment?</h2>
-        <p>Most remaining questions are about overlap with contact databases, refresh cadence and compliance. Short answers follow.</p>
+        <p>Most remaining questions concern overlap with contact databases, refresh cadence and compliance. Short answers follow.</p>
         <h3>Is lead enrichment the same as a contact database?</h3>
         <p>They overlap but do different jobs. A contact database is where you search for new people, while enrichment fills gaps in records you already hold, and many vendors sell both.</p>
         <h3>How often should records be re-enriched?</h3>
         <p>There's no universal interval. A sensible default is to refresh open-pipeline accounts quarterly, the rest of the database once or twice a year, and any record on demand when it enters a sequence.</p>
-        <h3>Can enrichment replace form fields?</h3>
-        <p>Partly. Many teams ask only for a work email and enrich company size and industry, but keep any field a vendor can't know, such as consent or the buyer's timeline.</p>
         <h3>Do small teams need a waterfall?</h3>
-        <p>Only if one provider leaves important gaps in your segment. Run a sample first; if a single source fills most fields correctly, a waterfall adds cost and complexity for little gain.</p>
+        <p>Only if one provider leaves important gaps in your segment. If a single source fills most fields correctly in your sample, a waterfall adds cost for little gain.</p>
         <h3>Is enriched data automatically GDPR-compliant?</h3>
         <p>No. You remain responsible for your lawful basis, transparency and handling objections, so review each vendor's data processing terms with your own counsel.</p>
       </section>
 
       <section id="verdict">
         <h2>What's the verdict?</h2>
-        <p>In our editorial assessment, Clay is the strongest choice when someone will own the logic, and Apollo.io is the practical default for small teams that also need a database and outreach. ZoomInfo and Cognism earn their cost only where their coverage fits your market, and HubSpot's native enrichment is the simplest route for HubSpot shops.</p>
-        <p>Whatever you pick, write the field rules first; that decision does more for data quality than the choice of vendor. Next, see how enrichment fits the full pipeline in our guide to <a href="/guides/b2b-lead-generation-stack/">building a B2B lead generation stack</a>, then start a trial from the vendor's official site with your own sample of records.</p>
+        <p>In our editorial assessment, Clay wins when someone will own the logic, and Apollo.io is the practical default for small teams that also need outreach. ZoomInfo and Cognism earn their cost only where their coverage fits your market. Whatever you pick, write the field rules first; they do more for data quality than the vendor choice.</p>
+        <p>Next, see how enrichment fits the full pipeline in our guide to <a href="/guides/b2b-lead-generation-stack/">building a B2B lead generation stack</a>, then start a trial from the vendor's official site with your own sample of records.</p>
       </section>
     </article>
   </main>

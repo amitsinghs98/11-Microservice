@@ -1,0 +1,11 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A072,Pipedrive (official pricing),https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Product exists; tiered per-seat plans, some capabilities as add-ons",Needs verification,Fetch blocked on 2026-11-04 (scraper out of credits; host denied by session network policy). No figures published
+A072,HubSpot Sales Hub,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Free tools then per-seat tiers; Marketing Hub separate",Needs verification,Fetch blocked; v1 figures ($90-$100 Professional; $1,500 onboarding; workflow caps) cut
+A072,ActiveCampaign,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,Priced by plan and contact count; CRM/deal features,Needs verification,Fetch blocked; no figures published
+A072,Close,https://www.close.com/pricing,official-pricing,2026-11-04,"Per seat; built-in calling, SMS, email and sequences",Needs verification,Fetch blocked; no figures published
+A072,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Per user by edition; customization and process management",Needs verification,Fetch blocked; no figures published
+A072,Salesforce small-business suites,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,Per user; suites with automation and API caps,Needs verification,Fetch blocked; v1 figures ($25 Starter Suite; $100 Pro Suite; 5 flows) cut
+A072,Attio,https://attio.com/pricing,official-pricing,2026-11-04,"Per seat; flexible data model, custom objects, email/calendar enrichment",Needs verification,Fetch blocked; no figures published
+A072,Bigin by Zoho CRM,https://www.bigin.com/,official-site,2026-11-04,Pipeline-centred CRM for small teams,Needs verification,Fetch blocked; no figures published
+A072,Switch triggers,,editorial-knowledge,2026-11-04,Common decision patterns,Needs verification,Explicitly labelled as editorial assessment; no survey data
+A072,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
