@@ -1,0 +1,21 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A046,Source retrieval blocked during drafting,,editorial-knowledge,2026-11-04,"Vendor domains refused by session network policy and Firecrawl credits exhausted; no official page could be fetched",Not stated,All prices and credit counts cut; re-fetch every row below before publication
+A046,ZeroBounce,https://www.zerobounce.net/,official-site,2026-11-04,"Bulk validation, real-time API, integrations; statuses incl. catch-all, unknown, spam trap, abuse, do-not-mail; catch-all scoring and deliverability add-ons",Needs verification,From general product knowledge; page not fetched
+A046,ZeroBounce pricing model,https://www.zerobounce.net/email-validation-pricing,official-pricing,2026-11-04,Pay-as-you-go credits plus subscription options,Needs verification,No figures stated; v1 draft also quoted none
+A046,NeverBounce,https://neverbounce.com/,official-site,2026-11-04,"Bulk and real-time verification, native integrations, API; result codes valid/invalid/disposable/catch-all/unknown",Needs verification,
+A046,NeverBounce pricing model,https://neverbounce.com/pricing,official-pricing,2026-11-04,Per-email pricing with volume tiers,Needs verification,Ask whether integration syncs consume credits
+A046,Kickbox,https://kickbox.com/,official-site,2026-11-04,"Bulk and API verification; deliverable/undeliverable/risky/unknown plus per-address quality score",Needs verification,
+A046,Kickbox pricing model,https://kickbox.com/pricing/,official-pricing,2026-11-04,Credit packs,Needs verification,
+A046,Emailable,https://emailable.com/,official-site,2026-11-04,"List upload, real-time API, integrations; deliverable/undeliverable/risky/unknown",Needs verification,
+A046,Emailable pricing model,https://emailable.com/pricing/,official-pricing,2026-11-04,Credits or monthly plans,Needs verification,
+A046,Bouncer,https://www.usebouncer.com/,official-site,2026-11-04,"Poland-based; GDPR-oriented data handling; bulk, API, integrations, toxicity check",Needs verification,Confirm HQ and EU processing statement
+A046,Bouncer pricing model,https://www.usebouncer.com/pricing/,official-pricing,2026-11-04,Credits and subscriptions,Needs verification,
+A046,MillionVerifier,https://www.millionverifier.com/,official-site,2026-11-04,"Low-cost bulk verifier with API, narrower feature set",Needs verification,
+A046,MillionVerifier pricing model,https://www.millionverifier.com/pricing,official-pricing,2026-11-04,Credit packs,Needs verification,
+A046,Clearout,https://clearout.io/,official-site,2026-11-04,"Bulk and real-time verification, email finder, form protection",Needs verification,
+A046,Clearout pricing model,https://clearout.io/pricing/,official-pricing,2026-11-04,Credit-based with subscription options,Needs verification,
+A046,Hunter,https://hunter.io/,official-site,2026-11-04,"Email finder; Email Verifier in web app, API and bulk; uses plan credits",Needs verification,
+A046,Hunter pricing model,https://hunter.io/pricing,official-pricing,2026-11-04,Monthly plans with shared credits,Needs verification,
+A046,Amazon SES email validation price (v1 claim),https://aws.amazon.com/ses/pricing/,official-pricing,2026-11-04,v1 draft stated per-address validation prices,Not stated,Removed from v2 because the page could not be re-fetched
+A046,"How SMTP verification, catch-all domains and spam traps work",,editorial-knowledge,2026-11-04,General mechanism description; no statistics,Needs verification,
+A046,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
