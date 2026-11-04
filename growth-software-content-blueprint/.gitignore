@@ -1,0 +1,26 @@
+# Source strategy document (kept locally, never committed)
+*.docx
+inputs/*.docx
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*token*
+credentials*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Python / temp
+__pycache__/
+*.pyc
+.tmp/
+build/
