@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Content Workflow: Roles, Handoffs and Human Checks | BRAND_NAME</title>
+  <meta name="description" content="A repeatable, auditable AI content process: who briefs, who drafts, who verifies claims and rights, and the quality gate every piece passes before it is published.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/guides/ai-content-workflow/">
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A038" data-content-type="guide" data-cluster="2">
+      <header>
+        <p>AI content software</p>
+        <h1>How to Build an AI Content Workflow with Human Editorial Checks</h1>
+        <p>Most AI content problems are process problems: nobody owned the source list, nobody checked the statistic, nobody signed off. This guide sets out a nine-stage workflow with named owners and a quality gate you can audit later.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. See how we evaluate software and our disclosure policy before launch.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#the-problem">Why ad hoc AI drafting fails</a></li>
+          <li><a href="#roles">Roles and handoffs</a></li>
+          <li><a href="#workflow-stages">The nine-stage workflow</a></li>
+          <li><a href="#ai-vs-human">What AI may draft and what a human approves</a></li>
+          <li><a href="#quality-gate">Quality gate checklist</a></li>
+          <li><a href="#worked-example">Worked example</a></li>
+          <li><a href="#common-mistakes">Common mistakes</a></li>
+          <li><a href="#tools-by-step">Tools by step</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#next-steps">Next steps</a></li>
+        </ol>
+      </nav>
+
+      <section id="the-problem">
+        <h2>Why ad hoc AI drafting fails</h2>
+        <p>When a writer opens a chat window, asks for an article and pastes the result into the CMS, three things go missing: a record of where each claim came from, a person accountable for accuracy, and a point at which someone could have said no. The draft may read well. That is exactly why errors survive.</p>
+        <p>An auditable workflow restores all three. It doesn't need new software. It needs defined stages, a minimum source standard, and a sign-off that is written down.</p>
+      </section>
+
+      <section id="roles">
+        <h2>Roles and handoffs</h2>
+        <p>Small teams combine roles, but every role must still be assigned. One person can be writer and editor; nobody should be writer and final approver of the same piece.</p>
+        <table>
+          <caption>Content workflow roles and what each hands on</caption>
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">Owns</th>
+              <th scope="col">Hands on</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Strategist</th>
+              <td>Topic, audience, search intent</td>
+              <td>Approved brief</td>
+            </tr>
+            <tr>
+              <th scope="row">Researcher</th>
+              <td>Source pack and claim list</td>
+              <td>Sources with dates and links</td>
+            </tr>
+            <tr>
+              <th scope="row">Writer (AI operator)</th>
+              <td>Outline, prompts, draft</td>
+              <td>Draft with claims marked</td>
+            </tr>
+            <tr>
+              <th scope="row">Subject expert</th>
+              <td>Technical correctness, experience</td>
+              <td>Annotated draft</td>
+            </tr>
+            <tr>
+              <th scope="row">Editor</th>
+              <td>Claim verification, structure, voice</td>
+              <td>Edited draft and claim log</td>
+            </tr>
+            <tr>
+              <th scope="row">Approver</th>
+              <td>Final sign-off, legal and brand risk</td>
+              <td>Publish decision</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="workflow-stages">
+        <h2>The nine-stage workflow</h2>
+        <ol>
+          <li><strong>Brief.</strong> Audience, search intent, the question the piece must answer, angle, required sections and exclusions. Our roundup of <a href="/best/ai-content-brief-tools/">AI tools for SEO content briefs</a> compares tools that assemble SERP data for this step.</li>
+          <li><strong>Source pack.</strong> Define the minimum standard before drafting. For product or pricing content, that means official vendor pages, each with the date checked. For statistics, the original publisher, not a blog that quotes it. Third-party sources are labelled as context.</li>
+          <li><strong>Outline.</strong> AI may propose a structure; the writer checks it against the brief and removes sections that pad rather than answer.</li>
+          <li><strong>Draft.</strong> Prompt from the brief and the source pack, not from the model's general knowledge. Ask the model to flag every factual claim it makes. The <a href="/best/ai-blog-writing-tools/">guide to AI blog writing tools</a> covers tools with research and citation modes.</li>
+          <li><strong>Claim verification.</strong> The editor builds a claim log: every number, name, date, quote and product fact, with its source and a status of verified, rewritten or removed. Anything without a source is cut or softened.</li>
+          <li><strong>Rights check.</strong> Confirm images, quotes, screenshots and data are licensed or original. Check the commercial-use terms of any AI image or video tool used.</li>
+          <li><strong>Edit.</strong> Structure, voice, originality and usefulness. Add the expert's experience the model could not supply.</li>
+          <li><strong>Approval.</strong> The approver signs off against the quality gate below, and the sign-off is recorded with the date.</li>
+          <li><strong>Publish and log.</strong> Store the brief, source pack, claim log and approval record with the published URL. Set a review date.</li>
+        </ol>
+      </section>
+
+      <section id="ai-vs-human">
+        <h2>What AI may draft and what a human approves</h2>
+        <table>
+          <caption>Division of work between AI and human reviewers</caption>
+          <thead>
+            <tr>
+              <th scope="col">Task</th>
+              <th scope="col">AI may draft</th>
+              <th scope="col">Human must approve</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Outlines and headings</th>
+              <td>Yes</td>
+              <td>Fit to brief and intent</td>
+            </tr>
+            <tr>
+              <th scope="row">Summaries of supplied sources</th>
+              <td>Yes</td>
+              <td>Accuracy against the original</td>
+            </tr>
+            <tr>
+              <th scope="row">Prices, limits, statistics</th>
+              <td>No; insert from verified sources</td>
+              <td>Every figure, with date checked</td>
+            </tr>
+            <tr>
+              <th scope="row">Quotes and testimonials</th>
+              <td>Never</td>
+              <td>Source and permission</td>
+            </tr>
+            <tr>
+              <th scope="row">Recommendations and verdicts</th>
+              <td>First pass only</td>
+              <td>Editorial judgement and stated criteria</td>
+            </tr>
+            <tr>
+              <th scope="row">Images and media</th>
+              <td>With licensed tools</td>
+              <td>Rights, trademarks and likeness</td>
+            </tr>
+            <tr>
+              <th scope="row">Legal, medical or financial claims</th>
+              <td>No</td>
+              <td>Qualified reviewer</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="quality-gate">
+        <h2>Quality gate checklist</h2>
+        <p>A piece passes only when every item is ticked. Partial passes go back a stage, not forward with a note.</p>
+        <ul>
+          <li>The piece answers the brief's core question in the first few paragraphs.</li>
+          <li>Every factual claim appears in the claim log with a source and status.</li>
+          <li>Prices and limits carry a checked-on date and link to the official page.</li>
+          <li>No invented quotes, case studies, testing or statistics.</li>
+          <li>Media rights and AI tool usage terms are confirmed.</li>
+          <li>The subject expert's input is reflected, not only acknowledged.</li>
+          <li>Voice matches the style guide; banned phrases are absent.</li>
+          <li>Internal links point to live, relevant pages.</li>
+          <li>The approver's name and date are recorded.</li>
+        </ul>
+        <p>To score drafts consistently rather than tick boxes, use the scorecard in our guide on <a href="/guides/evaluate-ai-content-quality/">evaluating AI content for accuracy, usefulness and brand safety</a>.</p>
+      </section>
+
+      <section id="worked-example">
+        <h2>Worked example</h2>
+        <p>This scenario is hypothetical. A three-person agency writes a buying guide on email verification tools for a SaaS client. The strategist writes the brief on Monday. The writer, who also acts as researcher, builds a source pack of eight official vendor pages, each dated, and drafts with an AI assistant using only that pack.</p>
+        <p>The editor's claim log lists 34 claims. Twenty-six are verified, five are rewritten to remove unsupported numbers, and three are cut because the vendor page no longer mentions them. The client's product manager reviews as subject expert and adds a paragraph on their own migration. The agency lead approves on Thursday, and the full record is filed with the URL and a 90-day review date.</p>
+      </section>
+
+      <section id="common-mistakes">
+        <h2>Common mistakes</h2>
+        <ul>
+          <li><strong>Verifying the draft instead of the claims.</strong> Reading for flow misses wrong numbers. Check claims one by one against sources.</li>
+          <li><strong>Letting the model choose sources.</strong> Citations generated without a supplied source pack may be inaccurate or non-existent.</li>
+          <li><strong>Collapsing writer and approver.</strong> Self-approval removes the only independent check.</li>
+          <li><strong>No record.</strong> Without a stored claim log, a correction request six months later means redoing the research.</li>
+          <li><strong>Treating optimisation scores as quality.</strong> Content scores are directional. Our <a href="/best/content-optimization-tools/">content optimization tools guide</a> explains what they do and don't measure.</li>
+        </ul>
+      </section>
+
+      <section id="tools-by-step">
+        <h2>Tools by step</h2>
+        <p>The workflow matters more than the stack, but the right tool at each stage removes friction. For drafting, start with the <a href="/best/ai-writing-tools/">best AI writing tools for marketing teams</a>. For briefs and SERP research, see the brief tools guide linked above. To move handoffs between stages automatically, such as creating a review task when a draft is marked ready, our comparison of <a href="/best/workflow-automation-tools-for-marketing-agencies/">workflow automation tools for agencies</a> covers the connectors. The <a href="/categories/ai-content/">AI content software category overview</a> maps every other tool type in this space.</p>
+      </section>
+
+      <section id="faqs">
+        <h2>FAQs</h2>
+        <h3>How long does the human review add?</h3>
+        <p>It varies with claim density. A product comparison with dozens of figures takes far longer to verify than an opinion piece. Track hours per stage for a month to get your own baseline.</p>
+        <h3>Do we need to disclose AI involvement?</h3>
+        <p>That depends on your sector, client contracts and any rules that apply in your market. Decide a policy, apply it consistently, and record it in the style guide.</p>
+        <h3>Can one person run this workflow alone?</h3>
+        <p>They can run every stage except independent approval. A freelancer can use the client as approver, or pair with a peer for final review.</p>
+      </section>
+
+      <section id="next-steps">
+        <h2>Next steps</h2>
+        <p>Write down your source standard and the claim log format this week. Run the next three pieces through all nine stages, time each stage, and adjust ownership where work piles up. Once the process is stable, decide which stages are worth tooling.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

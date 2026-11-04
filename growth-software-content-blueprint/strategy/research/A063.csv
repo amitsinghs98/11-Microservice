@@ -1,0 +1,9 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A063,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Lite US$14, Growth US$39, Premium US$59, Ultimate US$79 per seat per month billed annually",Verified,Fetched 2026-11-04
+A063,HubSpot Sales Hub,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Per-seat tiers; forecasting on Professional+; custom objects on Enterprise; parent-child companies",Needs verification,Fetch blocked; confirm tier placement of forecasting and custom objects
+A063,Salesforce Sales Cloud,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,"Per-user editions on annual contracts; hierarchies, forecasting, territory management",Needs verification,Fetch blocked
+A063,Attio,https://attio.com/pricing,official-pricing,2026-11-04,"Custom objects, lists, workflows, email/calendar sync; free plan",Needs verification,Free plan stated from prior knowledge; forecasting depth unconfirmed
+A063,Close,https://www.close.com/pricing,official-pricing,2026-11-04,"Built-in calling, SMS, email sequences; per-user tiers",Needs verification,Fetch blocked
+A063,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Custom modules, Blueprint, forecasting on higher editions",Needs verification,Fetch blocked
+A063,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A063,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

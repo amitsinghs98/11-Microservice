@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zapier vs Make vs n8n: Cost, Control and Self-Hosting | BRAND_NAME</title>
+  <meta name="description" content="Zapier, Make and n8n compared on one lead-routing and one content workflow: build effort, error handling, self-hosting and cost at three monthly volumes.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/compare/zapier-vs-make-vs-n8n/">
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A091" data-content-type="comparison" data-cluster="5">
+      <header>
+        <p>Marketing automation and analytics</p>
+        <h1>Zapier vs Make vs n8n: Workflow Automation Compared</h1>
+        <p>The three platforms bill for completely different units: tasks, credits and whole workflow runs. We modelled the same two marketing automations on each to show where that difference changes the bill and the maintenance load.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. See how we evaluate software and our disclosure policy before launch.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#quick-verdict">Quick verdict</a></li>
+          <li><a href="#what-we-checked">What we checked</a></li>
+          <li><a href="#positioning">How each platform is positioned</a></li>
+          <li><a href="#side-by-side">Side-by-side comparison</a></li>
+          <li><a href="#same-two-workflows">The same two workflows on each platform</a></li>
+          <li><a href="#errors-and-data">Error handling and data handling</a></li>
+          <li><a href="#cost-at-three-volumes">Cost at three monthly volumes</a></li>
+          <li><a href="#self-hosting">When self-hosting shifts work to you</a></li>
+          <li><a href="#limitations">Limitations of all three</a></li>
+          <li><a href="#scenario-fit">Which fits which team</a></li>
+          <li><a href="#switching">Switching considerations</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#verdict">Verdict</a></li>
+        </ol>
+      </nav>
+
+      <section id="quick-verdict">
+        <h2>Quick verdict</h2>
+        <ul>
+          <li><strong>Choose Zapier</strong> if the people building automations are marketers rather than technical operators, you need a connector for a niche app, and predictable setup time matters more than the lowest unit cost.</li>
+          <li><strong>Choose Make</strong> if you want a visual canvas with routers, iterators and explicit error routes, and your workflows run often enough that per-unit pricing matters.</li>
+          <li><strong>Choose n8n</strong> if someone on the team is comfortable with JSON, code steps and APIs, your workflows have many steps per run, or data residency pushes you toward self-hosting.</li>
+        </ul>
+        <p>None of the three wins on every axis. The cheapest tool on paper can be the most expensive once you count who maintains it.</p>
+      </section>
+
+      <section id="what-we-checked">
+        <h2>What we checked</h2>
+        <p>We reviewed the official pricing pages of <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">Zapier</a>, <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">Make</a> and <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">n8n</a> on 4 November 2026, plus n8n's hosting documentation. No hands-on testing was done for this draft. The two workflows below are modelled from each vendor's published billing rules, not built and timed in a live account.</p>
+        <p>This page sits in our <a href="/categories/automation-analytics/">marketing automation and analytics hub</a>. If you are still deciding whether you need a connector platform at all, or a marketing automation suite with built-in workflows, start with our <a href="/best/marketing-automation-software/">guide to marketing automation software for small teams</a>.</p>
+      </section>
+
+      <section id="positioning">
+        <h2>How each platform is positioned</h2>
+        <p><strong>Zapier</strong> is the connector-first option. Its pricing page cites more than 9,000 app integrations, and its builder is a linear list of steps with Filters and Paths for branching. It now bundles Tables, Forms, AI steps and an MCP server into the same task allowance.</p>
+        <p><strong>Make</strong> is the visual-canvas option. Scenarios are drawn as connected modules, with routers, iterators, aggregators and dedicated error-handler modules. Its pricing page lists 3,500+ apps and bills in credits, which it describes as the billing unit since 27 August.</p>
+        <p><strong>n8n</strong> is the developer-friendly option. It offers a hosted cloud service and a self-hosted Community Edition published on GitHub. Its pricing counts a full workflow run as one execution regardless of how many steps it contains, which is the biggest structural difference in this comparison.</p>
+      </section>
+
+      <section id="side-by-side">
+        <h2>Side-by-side comparison</h2>
+        <table>
+          <caption>Zapier, Make and n8n on criteria taken from official pricing pages (checked 4 November 2026)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Criterion</th>
+              <th scope="col">Zapier</th>
+              <th scope="col">Make</th>
+              <th scope="col">n8n</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Billing unit</th>
+              <td>Tasks (each successful action)</td>
+              <td>Credits (most module actions use 1)</td>
+              <td>Executions (one full workflow run)</td>
+            </tr>
+            <tr>
+              <th scope="row">Free option</th>
+              <td>Free plan: 100 tasks/month, two-step Zaps</td>
+              <td>Free plan: 1,000 credits/month, 2 active scenarios</td>
+              <td>Self-hosted Community Edition; cloud is trial-based</td>
+            </tr>
+            <tr>
+              <th scope="row">Entry paid plan as listed</th>
+              <td>Professional from $19.99/month</td>
+              <td>Core $9/month at the 10,000-credit tier</td>
+              <td>Starter $20/month billed annually, 2,500 executions</td>
+            </tr>
+            <tr>
+              <th scope="row">Multi-user collaboration</th>
+              <td>Team plan from $69/month, 25 users</td>
+              <td>Unlimited users on all plans; team roles on Teams</td>
+              <td>Unlimited users; shared projects limited by plan</td>
+            </tr>
+            <tr>
+              <th scope="row">Fastest scheduled interval</th>
+              <td>15 min Free, 2 min Professional, 1 min Team</td>
+              <td>15 min Free, 1 min paid</td>
+              <td>See official documentation</td>
+            </tr>
+            <tr>
+              <th scope="row">Self-hosting</th>
+              <td>No</td>
+              <td>No (on-prem agent on Enterprise)</td>
+              <td>Yes: Community Edition, Business, Enterprise</td>
+            </tr>
+            <tr>
+              <th scope="row">Hosted data location</th>
+              <td>See official documentation</td>
+              <td>AWS, EU or North America</td>
+              <td>Cloud hosted in Frankfurt, Germany</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="same-two-workflows">
+        <h2>The same two workflows on each platform</h2>
+        <p>Both workflows are hypothetical but typical of a small B2B marketing team. They are the kind of automation covered in our roundup of <a href="/best/workflow-automation-tools-for-marketing-agencies/">workflow automation tools for agencies</a>.</p>
+        <h3>Workflow 1: lead routing</h3>
+        <p>A demo-request form fires a webhook. The workflow looks up company data from an enrichment service, finds or creates the contact in the CRM, assigns an owner by region, and posts a Slack alert to that rep's channel. One branch per region, three regions.</p>
+        <ul>
+          <li><strong>Zapier:</strong> a webhook trigger, one enrichment action, Paths for the three regions, then CRM and Slack actions inside each path. It's quick to build, but each path duplicates its CRM and Slack steps, so a field change means editing three places.</li>
+          <li><strong>Make:</strong> a webhook module, an HTTP enrichment call, a router with three filtered routes and shared downstream modules where the mapping allows. The canvas shows the whole branch structure at once, which makes later edits easier to reason about.</li>
+          <li><strong>n8n:</strong> a Webhook node, an HTTP Request node, a Switch node and CRM and Slack nodes. A Code node can replace the Switch if the routing table grows. It's the most flexible build but expects comfort with expressions and JSON item structures.</li>
+        </ul>
+        <h3>Workflow 2: content notification</h3>
+        <p>When a blog post is published, the workflow posts the title and URL to a Slack channel and adds the item to a newsletter draft queue. This is the low-complexity, high-frequency end of marketing automation, and it pairs naturally with an <a href="/guides/ai-content-workflow/">AI-assisted content workflow with human review steps</a>.</p>
+        <p>All three handle it in a few minutes. The differences show up in cost, not effort: two Zapier tasks per post, about three Make credits (the trigger module counts), and one n8n execution.</p>
+        <h3>Maintenance over twelve months</h3>
+        <p>In our editorial assessment, maintenance cost tracks two things: how visible the logic is, and who can fix a broken connector. Zapier's linear editor is the easiest for a non-technical marketer to read. Make's canvas is the easiest to debug once branches multiply. n8n puts the most power in a builder's hands, but a workflow written by one technical person can become a single point of failure.</p>
+      </section>
+
+      <section id="errors-and-data">
+        <h2>Error handling and data handling</h2>
+        <p>Lead routing is unforgiving. A dropped lead is a lost meeting, so error handling matters more than build speed here.</p>
+        <ul>
+          <li><strong>Zapier</strong> lists autoreplay, custom error notifications, flood protection and version history on paid plans. Its FAQ states that a failed action does not count against your task limit.</li>
+          <li><strong>Make</strong> offers dedicated error-handler modules (Rollback, Break, Resume, Commit, Ignore), which its FAQ says do not consume credits. Execution logs are kept for 7 days on Free and 30 days on Core, Pro and Teams. If you run out of credits, scenarios stop, and incoming webhooks queue up to your plan's queue allowance.</li>
+          <li><strong>n8n</strong> lists automatic retries, error workflows and execution logging on every cloud plan. Execution log retention is listed as 7 days on Starter and 30 days on Pro. Hitting a saved-execution limit removes older history rather than stopping workflows.</li>
+        </ul>
+        <p>On data handling, Make lists AWS hosting in the EU or North America. n8n says hosted data is stored in Frankfurt, and on a self-hosted instance it is wherever you deploy. For Zapier, check its security documentation for residency options before routing personal data.</p>
+      </section>
+
+      <section id="cost-at-three-volumes">
+        <h2>Cost at three monthly volumes</h2>
+        <p>Assumptions: the lead-routing workflow uses 4 Zapier tasks per run (Paths, Filters and the trigger don't count as tasks, according to Zapier's pricing FAQ), about 5 Make credits (the webhook module counts and the router does not), and 1 n8n execution. The content workflow uses 2 tasks, about 3 credits or 1 execution per post. Enrichment-vendor fees are excluded.</p>
+        <table>
+          <caption>Modelled monthly usage for both workflows combined (hypothetical volumes; billing rules checked 4 November 2026)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Volume</th>
+              <th scope="col">Zapier tasks</th>
+              <th scope="col">Make credits</th>
+              <th scope="col">n8n executions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Low: 500 leads, 40 posts</th>
+              <td>2,080</td>
+              <td>2,620</td>
+              <td>540</td>
+            </tr>
+            <tr>
+              <th scope="row">Mid: 2,500 leads, 150 posts</th>
+              <td>10,300</td>
+              <td>12,950</td>
+              <td>2,650</td>
+            </tr>
+            <tr>
+              <th scope="row">High: 10,000 leads, 400 posts</th>
+              <td>40,800</td>
+              <td>51,200</td>
+              <td>10,400</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>How those volumes map to the plans listed on 4 November 2026:</p>
+        <ul>
+          <li><strong>Zapier:</strong> the Free plan's 100 tasks and two-step limit rule it out at every volume. Low volume sits just above the 2,000-task Professional tier, mid needs the 20,000-task tier and high needs the 50,000-task tier. Zapier shows prices per tier with a selector, so check the exact figure for your tier and billing period. Past the limit, its pay-per-task billing applies at a higher rate than included tasks, if you turn it on.</li>
+          <li><strong>Make:</strong> low volume fits inside the 10,000-credit tier that the page prices at $9 (Core), $16 (Pro) or $29 (Teams) per month. Mid and high volumes need a larger credit tier or extra credit bundles. Check whether the displayed figure assumes annual billing, since the page marks those plans "Save 15%".</li>
+          <li><strong>n8n cloud:</strong> low volume fits Starter (2,500 executions, $20/month billed annually). Mid volume just exceeds Starter, so it needs Pro (10,000 executions, $50/month billed annually). High volume just exceeds that Pro allowance. It points to a larger Pro size, the Business plan ($800/month billed annually, 40,000 executions, currently self-hosted only), or the free Community Edition on your own server.</li>
+        </ul>
+        <p>The pattern is the point: the more steps per run, the more n8n's per-execution model helps. A three-step workflow narrows the gap a lot, and a fifteen-step enrichment chain widens it. Our <a href="/pricing/marketing-automation/">marketing automation pricing guide</a> covers how task and contact pricing interact once you add an email platform.</p>
+      </section>
+
+      <section id="self-hosting">
+        <h2>When self-hosting shifts work to you</h2>
+        <p>n8n's Community Edition has no subscription fee, which makes it look like the obvious answer at high volume. What you actually do is swap a vendor bill for operator work. Someone has to provision the server and database, apply updates, back up workflows and credentials, watch disk usage from saved executions, and keep webhooks reachable over HTTPS.</p>
+        <p>n8n's pricing page also notes that Business and Enterprise licence keys ping its licence server daily and report production execution counts, and that telemetry is on by default on self-hosted instances unless you disable it. Read <a href="https://docs.n8n.io/hosting/" target="_blank" rel="noopener noreferrer">n8n's hosting documentation</a> before you commit.</p>
+        <p>Self-hosting is a good fit for teams that already run infrastructure, need data to stay in a specific environment, or handle volumes where execution fees would dominate. Consider another option if nobody on the team owns servers, because a silent outage in lead routing costs more than a subscription.</p>
+      </section>
+
+      <section id="limitations">
+        <h2>Limitations of all three</h2>
+        <ul>
+          <li><strong>Zapier:</strong> unit cost rises quickly with step count, and the Free and Professional plans are single-user. Included code runtime per step is listed as 1 second on Free and 30 seconds on Professional and Team.</li>
+          <li><strong>Make:</strong> credits expire at the end of each term, Code app steps cost 2 credits per second and aren't available on Free, and the Free plan allows only two active scenarios. Credit maths is harder to forecast for iterator-heavy scenarios.</li>
+          <li><strong>n8n:</strong> cloud plans include forum support only below Enterprise, according to its pricing page. Fewer prebuilt connectors means more HTTP Request nodes that you maintain yourself. Its licence is not a conventional open-source licence, so review the terms if you plan to embed it in a client product.</li>
+        </ul>
+      </section>
+
+      <section id="scenario-fit">
+        <h2>Which fits which team</h2>
+        <p><strong>A two-person marketing team with no developer:</strong> Zapier, because the people who build the automation can also fix it. Keep step counts low and lean on free Filters and Formatter steps.</p>
+        <p><strong>An agency running similar automations for many clients:</strong> Make, for visible branch logic and shareable scenario templates on its Teams plan. Our list of <a href="/best/no-code-automation-platforms/">no-code automation platforms for marketing operations</a> covers other candidates in this role.</p>
+        <p><strong>A B2B SaaS team with a technical RevOps lead:</strong> n8n, especially where lead routing feeds a wider stack. Pair it with the handoff design in our <a href="/guides/b2b-lead-generation-stack/">guide to building a B2B lead generation stack from data to meeting</a>.</p>
+      </section>
+
+      <section id="switching">
+        <h2>Switching considerations</h2>
+        <p>Don't assume workflows carry over between platforms. Check whether the destination offers any import tooling, and plan your budget around a rebuild. Inventory every active workflow, its trigger, the apps it touches and who owns it. Run old and new versions in parallel for at least one full business cycle, comparing outputs record by record, before switching off the original.</p>
+        <p>A migration is also a good moment to delete automations nobody uses. Our <a href="/guides/marketing-stack-audit/">marketing stack audit method</a> helps you find them.</p>
+      </section>
+
+      <section id="faqs">
+        <h2>FAQs</h2>
+        <h3>Is n8n cheaper than Zapier?</h3>
+        <p>Usually per run, especially for long workflows, because n8n counts one execution per run while Zapier counts each successful action. For a two-step automation the gap is small, and self-hosting adds labour costs that never show up on an invoice.</p>
+        <h3>Does Make count the trigger as a credit?</h3>
+        <p>Make's FAQ says reading data from an app or webhook counts, while routers and error-handler modules do not. Check how your specific trigger behaves in the scenario's execution history.</p>
+        <h3>Can a non-technical marketer use n8n?</h3>
+        <p>Simple workflows, yes. Branching on nested data and writing expressions takes more technical comfort than Zapier asks for, so budget for training or a technical owner.</p>
+        <h3>Which tool has the most integrations?</h3>
+        <p>Zapier's pricing page cites 9,000+ apps and Make's cites 3,500+. n8n relies more on its HTTP Request node for anything without a dedicated node.</p>
+      </section>
+
+      <section id="verdict">
+        <h2>Verdict</h2>
+        <p>Zapier buys speed and accessibility at a higher unit cost. Make offers the best balance of visual control and per-unit pricing for teams that will learn its canvas. n8n gives the most control and the most favourable billing for long workflows, provided someone technical owns it, and especially if that person is willing to run a server. Model your real step counts at your real volumes before deciding. The table above is a template, not a quote.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

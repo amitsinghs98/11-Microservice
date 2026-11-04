@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A062,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Growth US$39 and Premium US$59 per seat per month billed annually",Verified,Fetched 2026-11-04
+A062,Pipedrive Projects and Smart Docs add-ons,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Projects and Smart Docs add-ons listed with starting-from prices",Verified,Add-on prices not repeated; billing unit unclear
+A062,Pipedrive cost model at 5/10 seats,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Seats x verified monthly price x 12,Verified,Excludes tax and add-ons
+A062,Pipedrive multiple pipelines,https://www.pipedrive.com/en/pricing,editorial-knowledge,2026-11-04,Supports several pipelines,Needs verification,Confirm which tiers allow multiple pipelines
+A062,HubSpot,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Per-seat tiers by hub; multiple pipelines on paid tiers; attribution via Marketing Hub",Needs verification,Fetch blocked
+A062,monday CRM,https://monday.com/crm/pricing,official-pricing,2026-11-04,Per-seat pricing in seat bundles; automations to create boards,Needs verification,Fetch blocked
+A062,Productive,https://productive.io/pricing/,official-pricing,2026-11-04,"Agency management: pipeline, budgets, time tracking, resourcing, invoicing; per-user tiers",Needs verification,Fetch blocked
+A062,Insightly,https://www.insightly.com/pricing/,official-pricing,2026-11-04,"Opportunity-to-project conversion; per-user tiers",Needs verification,Fetch blocked
+A062,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Per-user editions; custom modules; Zoho Projects and Campaigns separate",Needs verification,Fetch blocked
+A062,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A062,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

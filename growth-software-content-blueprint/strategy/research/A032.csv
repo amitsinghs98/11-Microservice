@@ -1,0 +1,15 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A032,Jasper,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Jasper IQ: Brand Voices, Knowledge, Audiences, Style Guide (Business), Visual Guidelines; 100+ agents; Remix; image suite; extension; Copyscape add-on; 30+ languages",Verified,
+A032,Jasper Pro price and limits,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"$69/seat/mo monthly or $59 yearly; 2 Brand Voices, 5 Knowledge assets, 3 Audiences; single user",Verified,
+A032,Jasper Business features,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Custom pricing; unlimited IQ assets, Studio, Grid, API, admin controls, SSO, SCIM, CSM, collaboration and user management",Verified,
+A032,Jasper version history,https://www.jasper.ai/pricing,official-pricing,2026-11-04,History and backups restore versions going back 7 days,Verified,
+A032,Writer,https://writer.com/,official-site,2026-11-04,"Enterprise AI platform with own models, style guide, terminology, company knowledge and agent builder",Needs verification,writer.com not reachable from session network; stated from prior knowledge; price omitted
+A032,Typeface,https://www.typeface.ai/,official-site,2026-11-04,"Enterprise brand content platform with brand kits and enterprise integrations; sales-led pricing",Needs verification,Not fetched
+A032,Claude Team price,https://claude.com/pricing,official-pricing,2026-11-04,"Standard seat $20/seat/mo annual or $25 monthly; 2 to 150 seats; Projects",Verified,Fetched via WebFetch summary
+A032,Claude Team 10-seat arithmetic,https://claude.com/pricing,official-pricing,2026-11-04,10 x $20 x 12 = $2400 per year,Verified,Derived from verified price
+A032,ChatGPT Business,https://chatgpt.com/pricing,official-pricing,2026-11-04,"Per-user business plan with custom GPTs, projects and shared workspace",Needs verification,chatgpt.com blocked by session network; price omitted
+A032,Gemini in Google Workspace,https://workspace.google.com/pricing,official-pricing,2026-11-04,"Gemini AI bundled into Workspace plans, varies by edition",Needs verification,Not fetched
+A032,Copy.ai Chat and Growth prices,https://www.copy.ai/prices,official-pricing,2026-11-04,"Chat $29/mo monthly or $24/mo annual, 5 seats; Growth $1,000/mo billed $12,000/yr with workflow credits",Verified,
+A032,Writesonic plans,https://writesonic.com/pricing,official-pricing,2026-11-04,"Starter $79/mo annual, 1 user, 15 articles, 1 writing style; Growth $399/mo annual, 3 users, 10 writing styles",Verified,
+A032,Grammarly,https://www.grammarly.com/plans,official-pricing,2026-11-04,"Team plans include shared style guides and brand tones; works across apps",Needs verification,Not fetched; price omitted
+A032,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

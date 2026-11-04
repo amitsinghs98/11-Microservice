@@ -1,0 +1,19 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A031,Jasper,https://www.jasper.ai/,official-site,2026-11-04,"Brand-governed marketing content platform with Jasper IQ (Brand Voices, Knowledge, Audiences, Style Guide)",Verified,Positioning taken from pricing page fetched 2026-11-04
+A031,Jasper Pro price,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Pro $69 per seat per month billed monthly; $59 per seat per month billed yearly; includes 1 seat; 7-day free trial",Verified,Pricing page FAQ also states $59 yearly / $69 monthly
+A031,Jasper Pro limits,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"2 Brand Voices, 5 Knowledge assets, 3 Audiences; User logins listed as Single user",Verified,
+A031,Jasper Business features,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Custom pricing; unlimited IQ customization, Style Guide, Studio, Grid, API, GEO agents, document collaboration, user management, SSO, SCIM, dedicated CSM",Verified,
+A031,Jasper integrations,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Webflow, Google Docs, Slack integrations; Chrome and Edge extension; 100+ marketing agents",Verified,
+A031,Copy.ai,https://www.copy.ai/,official-site,2026-11-04,GTM AI platform with Chat and Workflows,Verified,Positioning from pricing page
+A031,Copy.ai Chat plan price,https://www.copy.ai/prices,official-pricing,2026-11-04,"$29/mo billed monthly; $24/mo billed annually ($288/yr); 5 seats; unlimited words in chat; OpenAI, Anthropic and Gemini models",Verified,No workflow credits listed for Chat
+A031,Copy.ai Growth/Expansion/Scale,https://www.copy.ai/prices,official-pricing,2026-11-04,"Growth $1,000/mo billed $12,000/yr, 75 seats, 20K workflow credits/mo; Expansion $2,000/mo, 150 seats, 45K credits; Scale $3,000/mo, 200 seats, 75K credits",Verified,
+A031,Copy.ai free plan,https://www.copy.ai/prices,official-pricing,2026-11-04,No free plan listed on the pricing page reviewed,Verified,Page may omit a free option shown elsewhere in-app; recheck
+A031,Copy.ai Enterprise,https://www.copy.ai/prices,official-pricing,2026-11-04,"Guided Jumpstart implementation, API access and bulk workflow runs, 20+ tech integrations",Verified,
+A031,Writesonic,https://writesonic.com/,official-site,2026-11-04,AI search visibility platform with SEO content and site audits,Verified,
+A031,Writesonic plan prices,https://writesonic.com/pricing,official-pricing,2026-11-04,"Starter $79, Basic $199, Growth $399 per month billed annually; Enterprise custom; annual saves 20%",Verified,Monthly prices not shown in scraped plan cards; meta description says self-serve from $99/mo (not used)
+A031,Writesonic plan limits,https://writesonic.com/pricing,official-pricing,2026-11-04,"Users 1/2/3; prompts 50/100/200; AI articles 15/25/50 per month; writing styles 1/5/10; add-on users $50/user/mo on Basic (up to 3) and Growth (up to 2)",Verified,
+A031,Writesonic Enterprise-only features,https://writesonic.com/pricing,official-pricing,2026-11-04,"9 AI platforms, content optimization, GA4, Looker Studio, user access control, SSO/SAML on Enterprise; sentiment from Growth",Verified,Fair usage policy applies per page
+A031,Writesonic free trial,https://writesonic.com/pricing,official-pricing,2026-11-04,Free trial with no credit card needed,Verified,
+A031,Claude Team price,https://claude.com/pricing,official-pricing,2026-11-04,"Standard seat $20/seat/mo billed annually or $25 monthly; teams of 2 to 150",Verified,Fetched via WebFetch summary
+A031,Three-person scenario,,editorial-knowledge,2026-11-04,"Hypothetical annual list-cost arithmetic from verified prices",Verified,"Writesonic add-on billing basis assumed same as plan; labelled as assumption"
+A031,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

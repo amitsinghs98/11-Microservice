@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>How to Build a Compliant B2B Outreach Stack | BRAND_NAME</title>
+  <meta name="description" content="A suppression-first B2B outreach stack: lawful data sources, verification, sending controls, opt-out sync, CRM status, retention rules and monitoring.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/guides/compliant-b2b-outreach-stack/">
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A059" data-content-type="guide" data-cluster="3">
+      <header>
+        <p>Email marketing and outbound growth</p>
+        <h1>How to Build a Compliant B2B Outreach Stack</h1>
+        <p>Respectful outbound is mostly plumbing: knowing where every contact came from, checking it before sending, and making sure an opt-out in one tool stops messages from every other tool. This guide lays out that plumbing.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. See how we evaluate software and our disclosure policy before launch.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#the-problem">The problem with tool-first outbound</a></li>
+          <li><a href="#legal-review">Start with jurisdiction-specific legal review</a></li>
+          <li><a href="#stack-layers">The seven layers of the stack</a></li>
+          <li><a href="#suppression-workflow">A suppression-first workflow</a></li>
+          <li><a href="#status-exchange">How systems exchange status</a></li>
+          <li><a href="#retention-access">Data retention and access controls</a></li>
+          <li><a href="#worked-example">Worked example</a></li>
+          <li><a href="#common-mistakes">Common mistakes</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#next-steps">Next steps</a></li>
+        </ol>
+      </nav>
+
+      <section id="the-problem">
+        <h2>The problem with tool-first outbound</h2>
+        <p>Most outbound stacks are assembled one subscription at a time: a database, a sequencer, a CRM, perhaps an enrichment tool. Each holds its own copy of the contact and its own idea of whether that person has opted out. The result is the most avoidable compliance failure in B2B: someone unsubscribes from one sequence and is emailed again from another.</p>
+        <p>Designing the stack around suppression and provenance first, then choosing tools that support that design, prevents most of it. No stack design can promise inbox placement; it can only reduce the behaviours that damage it.</p>
+      </section>
+
+      <section id="legal-review">
+        <h2>Start with jurisdiction-specific legal review</h2>
+        <p>Rules for unsolicited business email differ by country and sometimes by the type of recipient. This guide is not legal advice. Before launching, ask counsel to confirm the rules for every country you will send to and every country you send from. Examples of the questions that arise:</p>
+        <ul>
+          <li><strong>United States:</strong> the CAN-SPAM Act sets requirements on identification, honest subject lines, a postal address and honouring opt-outs. The <a href="https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business" target="_blank" rel="noopener noreferrer">FTC's CAN-SPAM compliance guide</a> is the official summary.</li>
+          <li><strong>United Kingdom:</strong> PECR and UK GDPR both apply, and the rules can differ between corporate subscribers and sole traders. The <a href="https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/" target="_blank" rel="noopener noreferrer">ICO's direct marketing guidance</a> explains the distinction.</li>
+          <li><strong>European Union:</strong> GDPR governs processing of business contacts' personal data, and national e-privacy rules govern the email itself. If relying on legitimate interests, document the assessment.</li>
+          <li><strong>Canada:</strong> CASL generally requires consent for commercial electronic messages, including many B2B messages, subject to specific exceptions.</li>
+        </ul>
+        <p>Record the conclusions as rules your tools can enforce: which countries are excluded, which need consent evidence, and what every email must contain.</p>
+      </section>
+
+      <section id="stack-layers">
+        <h2>The seven layers of the stack</h2>
+        <ol>
+          <li><strong>Data sources.</strong> Use providers that document how data is collected and support deletion and suppression requests. Store the source and acquisition date on every record. Our <a href="/best/b2b-contact-database-tools/">comparison of B2B contact databases</a> looks at provenance and compliance support.</li>
+          <li><strong>Verification.</strong> Check addresses before they enter a sequence. Verification reduces bounces; it does not establish consent. The <a href="/best/email-verification-tools/">list cleaning and verification guide</a> explains what results like "catch-all" do and do not mean.</li>
+          <li><strong>Suppression.</strong> One master suppression list covering unsubscribes, complaints, hard bounces, legal requests, existing customers you should not prospect, and excluded regions.</li>
+          <li><strong>Sending controls.</strong> Authenticated domains (SPF, DKIM, DMARC), per-mailbox daily limits, throttling and business-hours sending. Platforms in our <a href="/best/cold-email-software/">cold email software comparison</a> vary in how granular these controls are.</li>
+          <li><strong>Opt-out handling.</strong> A visible, working opt-out in every message, plus a process for reply-based opt-outs ("please remove me"), which a human or a reply classifier must catch.</li>
+          <li><strong>CRM.</strong> The system of record for contact status, ownership and activity. See the <a href="/best/crm-for-b2b-saas/">CRM guide for B2B sales teams</a> for options with solid outbound integrations.</li>
+          <li><strong>Monitoring.</strong> Bounce and complaint rates, blocklist checks, DMARC reports and Google Postmaster Tools. The <a href="/best/email-deliverability-tools/">deliverability monitoring tools roundup</a> covers dedicated options.</li>
+        </ol>
+      </section>
+
+      <section id="suppression-workflow">
+        <h2>A suppression-first workflow</h2>
+        <ol>
+          <li>Import or enrich a prospect list into a staging area, not straight into a sequence.</li>
+          <li>Check every record against the master suppression list and the CRM's do-not-contact flag. Drop matches.</li>
+          <li>Apply jurisdiction rules: remove excluded countries; route consent-required regions to a separate path.</li>
+          <li>Verify addresses. Remove invalid results and decide a policy for risky or catch-all results.</li>
+          <li>Push the cleaned list to the sending platform with source and date fields intact.</li>
+          <li>Sync opt-outs, bounces and complaints back to the master suppression list at least daily, and ideally in real time.</li>
+          <li>Re-check the suppression list immediately before each scheduled step sends, not only at import.</li>
+        </ol>
+        <p>Step 7 is what catches someone who opted out from another rep's sequence yesterday.</p>
+      </section>
+
+      <section id="status-exchange">
+        <h2>How systems exchange status</h2>
+        <table>
+          <caption>Status events and where they must propagate</caption>
+          <thead>
+            <tr>
+              <th scope="col">Event</th>
+              <th scope="col">Captured in</th>
+              <th scope="col">Must update</th>
+              <th scope="col">Timing</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Unsubscribe link clicked</th>
+              <td>Sending platform</td>
+              <td>Master suppression list, CRM, all other sequencers</td>
+              <td>Real time or same day</td>
+            </tr>
+            <tr>
+              <th scope="row">Reply asking to be removed</th>
+              <td>Mailbox or reply inbox</td>
+              <td>Same as above, plus stop active sequence</td>
+              <td>Same day, human-checked</td>
+            </tr>
+            <tr>
+              <th scope="row">Hard bounce</th>
+              <td>Sending platform</td>
+              <td>Suppression list, data provider feedback if supported</td>
+              <td>Daily</td>
+            </tr>
+            <tr>
+              <th scope="row">Spam complaint</th>
+              <td>Sending platform or feedback loop</td>
+              <td>Suppression list, CRM, incident review</td>
+              <td>Real time</td>
+            </tr>
+            <tr>
+              <th scope="row">Positive reply or meeting</th>
+              <td>Sending platform</td>
+              <td>CRM owner and stage; stop sequence</td>
+              <td>Real time</td>
+            </tr>
+            <tr>
+              <th scope="row">Erasure request</th>
+              <td>Any channel</td>
+              <td>Delete in every tool; keep minimal suppression entry if counsel advises</td>
+              <td>Within your legal deadline</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Native integrations rarely cover every row. Where they do not, a workflow tool can bridge the gap; our <a href="/compare/zapier-vs-make-vs-n8n/">Zapier, Make and n8n comparison</a> covers the trade-offs. Test each path with a dummy address before launch.</p>
+      </section>
+
+      <section id="retention-access">
+        <h2>Data retention and access controls</h2>
+        <ul>
+          <li>Set a retention period for prospects who never engage, then delete or anonymise them. Keep only the hashed or minimal entry needed to stay suppressed, if counsel agrees.</li>
+          <li>Limit export rights. Few people need to download whole prospect lists.</li>
+          <li>Use role-based access in the CRM and sequencer, and remove departed users the day they leave.</li>
+          <li>Keep data processing agreements with every vendor that holds personal data.</li>
+          <li>Log where each list came from, who imported it and when.</li>
+        </ul>
+      </section>
+
+      <section id="worked-example">
+        <h2>Worked example</h2>
+        <p>This is a hypothetical. A 12-person software company sells to operations leaders in the US and UK. It uses a contact database, a verification tool, a sequencer and a CRM.</p>
+        <p>Counsel confirms the rules for both countries and excludes sole traders in the UK from cold email. The team adds a "country" and "entity type" field to staging, blocks Canadian addresses entirely until a consent process exists, and keeps the master suppression list in the CRM. The sequencer checks a CRM do-not-contact flag before every send via a native integration, and a workflow tool copies reply-based opt-outs tagged by reps into the CRM within an hour. Weekly, the team reviews bounce and complaint rates per mailbox and pauses any mailbox that drifts upward.</p>
+        <p>Nothing here guarantees deliverability. It does make the programme defensible and easier to fix when a metric moves.</p>
+      </section>
+
+      <section id="common-mistakes">
+        <h2>Common mistakes</h2>
+        <ul>
+          <li>Treating a verified address as a consented address.</li>
+          <li>Keeping a separate unsubscribe list in each tool.</li>
+          <li>Letting reps import their own lists without the staging check.</li>
+          <li>Scaling mailboxes to raise volume instead of improving targeting. The <a href="/pricing/cold-email-software/">cold email cost guide</a> shows why every extra mailbox adds cost as well as risk.</li>
+          <li>Measuring sends and opens rather than qualified conversations.</li>
+        </ul>
+      </section>
+
+      <section id="faqs">
+        <h2>FAQs</h2>
+        <h3>Is cold B2B email legal?</h3>
+        <p>It depends on the countries involved and the type of recipient. In some jurisdictions it is permitted with conditions; in others consent is generally required. Get advice for your specific markets.</p>
+        <h3>Do sales engagement platforms handle compliance for me?</h3>
+        <p>They provide tools such as opt-out links, suppression lists and sending limits. Configuring and enforcing them is still your responsibility. Our <a href="/best/sales-engagement-platforms/">sales engagement platform guide</a> compares governance features.</p>
+        <h3>Should suppression live in the CRM or the sequencer?</h3>
+        <p>In whichever system every other tool can read from reliably. For most teams that is the CRM, with sequencers syncing to it.</p>
+      </section>
+
+      <section id="next-steps">
+        <h2>Next steps</h2>
+        <p>Draw your current stack, mark where each status event is captured, and check whether it reaches every other tool. Fix suppression gaps before buying anything new. For the wider data-to-meeting workflow, read our <a href="/guides/b2b-lead-generation-stack/">guide to building a B2B lead generation stack</a>, and use the <a href="/best/email-marketing-software/">email marketing software pillar guide</a> and the <a href="/categories/email-outreach/">email and outreach category hub</a> to see how outbound fits beside opted-in email programmes.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

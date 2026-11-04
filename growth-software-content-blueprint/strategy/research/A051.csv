@@ -1,0 +1,21 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A051,Instantly (official site),https://instantly.ai/,official-site,2026-11-04,Product exists; outreach + credits + CRM modules,Verified,Pricing page fetched 2026-11-04
+A051,Smartlead (official site),https://www.smartlead.ai/,official-site,2026-11-04,Product exists; cold email platform with add-ons,Verified,Pricing page fetched 2026-11-04
+A051,Instantly Outreach plan prices and limits,https://instantly.ai/pricing,official-pricing,2026-11-04,"Growth $47/mo 5,000 emails 1,000 contacts; Hypergrowth $107/mo 125,000 emails 25,000 contacts; Light Speed $358/mo 500,000 emails 100,000 contacts",Verified,Also confirmed via instantly.ai/pricing.md; annual Growth $37.6 and Hypergrowth $85.58 (about 20% saving)
+A051,Instantly no overage and Outreach add-on,https://instantly.ai/pricing,official-pricing,2026-11-04,"Upgrade tiers rather than overage; add-on $87/mo for +25,000 contacts and +125,000 emails on eligible plans",Verified,
+A051,Instantly trial,https://instantly.ai/pricing,official-pricing,2026-11-04,"14-day trial, no card, 250 contacts and 1,000 emails",Verified,
+A051,Instantly CRM and webhooks gating,https://instantly.ai/pricing,official-pricing,2026-11-04,"CRM included from Hypergrowth; Growth 14-day CRM trial; webhooks Hypergrowth and above; Unibox preview-only on Growth",Verified,
+A051,Instantly SISR on Light Speed,https://instantly.ai/pricing,official-pricing,2026-11-04,Dedicated/private server and IP rotation on Light Speed,Verified,
+A051,Instantly mailbox and domain resale prices,https://instantly.ai/pricing,official-pricing,2026-11-04,"Domain $15/yr; pre-warmed Google $10/mo; done-for-you Google $5/mo; done-for-you/Airmail $4/mo",Verified,
+A051,Instantly credits plans and expiry,https://instantly.ai/pricing,official-pricing,2026-11-04,"Growth credits $47-77/mo for 1,500-2,000 credits; monthly-plan credits expire after 2 months",Verified,
+A051,Instantly client workspace pricing,https://instantly.ai/pricing,official-pricing,2026-11-04,Not described on pricing page,Not stated,Article tells readers to request a quote
+A051,Smartlead plan prices and limits,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"Base $39 (6,000 sends, 2,000 contacts); Pro $94 (90,000 sends, 30,000 contacts); Unlimited Smart $174 (150,000 sends, unlimited contacts); Unlimited Prime $379 (500,000 sends)",Verified,Also confirmed via smartlead.ai/pricing.md (generated 2026-11-02); 17% annual saving
+A051,Smartlead feature gating,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"CRM access and API/webhooks from Pro; none on Base; warm-up pool tiers",Verified,
+A051,Smartlead client workspaces,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"$29/mo per workspace from Pro; 3 included on Unlimited Prime",Verified,
+A051,Smartlead SmartServers,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"$39/server/mo from Pro; 3 included on Prime",Verified,
+A051,Smartlead SmartSenders mailbox prices,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"Fresh Google/Outlook $4.50/mo, $13/domain/yr; pre-warmed $9/mo, $18/domain/yr; SMTP from $3.99/mo",Verified,
+A051,Smartlead SmartDelivery and verification credits,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"SmartDelivery from $49/mo; verification from $15/mo for 6,000 monthly; 24,000 monthly $59; verified prospect emails add-on $59/mo on Base/Pro",Verified,
+A051,Smartlead promotion,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,50% off first month for new sign-ups,Verified,Excluded from scenarios
+A051,Per-mailbox daily send assumption (30/day),,editorial-knowledge,2026-11-04,Planning assumption only,Needs verification,Labelled in article as editorial assumption not vendor rule
+A051,"Mailbox provider bulk-sender requirements and CAN-SPAM/GDPR/PECR applicability",,editorial-knowledge,2026-11-04,General compliance context,Needs verification,Stated generally without specific thresholds
+A051,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

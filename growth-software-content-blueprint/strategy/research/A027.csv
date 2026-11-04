@@ -1,0 +1,18 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A027,Descript,https://www.descript.com/,official-site,2026-11-04,"Transcript-based video editing, filler-word removal, Studio Sound, AI voice, AI editing assistant",Needs verification,"Stated from prior knowledge; vendor pages not fetchable from drafting environment"
+A027,Descript pricing model,https://www.descript.com/pricing,official-pricing,2026-11-04,Per-seat plans with transcription and AI usage allowances,Needs verification,"Pricing model only; no figures stated"
+A027,Opus Clip,https://www.opus.pro/,official-site,2026-11-04,"AI clip selection from long video, vertical reframing, animated captions",Needs verification,Stated from prior knowledge
+A027,Opus Clip pricing model,https://www.opus.pro/pricing,official-pricing,2026-11-04,Credit-based pricing tied to processing time,Needs verification,"Pricing model only; no figures stated"
+A027,VEED,https://www.veed.io/,official-site,2026-11-04,"Browser editor with auto subtitles, translation, brand kits, templates, AI avatars",Needs verification,Stated from prior knowledge
+A027,VEED pricing model,https://www.veed.io/pricing,official-pricing,2026-11-04,Per-seat plans; export resolution and watermark vary by plan,Needs verification,"Pricing model only; no figures stated"
+A027,Kapwing,https://www.kapwing.com/,official-site,2026-11-04,"Collaborative browser editing, auto subtitles, silence removal, repurposing",Needs verification,Stated from prior knowledge
+A027,Kapwing pricing model,https://www.kapwing.com/pricing,official-pricing,2026-11-04,Per-member pricing,Needs verification,"Pricing model only; no figures stated"
+A027,CapCut,https://www.capcut.com/,official-site,2026-11-04,"Auto captions, templates, effects on desktop, web and mobile; paid plans; commercial-use status of assets varies; owned by ByteDance",Needs verification,"Advise readers to check commercial-use terms; no specific restrictions asserted"
+A027,Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,official-site,2026-11-04,"Speech-to-text captions, speech enhancement, Firefly-powered Generative Extend; Creative Cloud subscription with generative credits",Needs verification,Stated from prior knowledge
+A027,Runway,https://runwayml.com/,official-site,2026-11-04,"Text- and image-to-video generation, video-to-video, AI editing tools",Needs verification,Stated from prior knowledge
+A027,Runway pricing model,https://runwayml.com/pricing,official-pricing,2026-11-04,Credit-based plans,Needs verification,"Pricing model only; no figures stated"
+A027,Synthesia,https://www.synthesia.io/,official-site,2026-11-04,"Script-to-video with AI avatars and voices, templates, brand settings",Needs verification,Stated from prior knowledge
+A027,Synthesia pricing model,https://www.synthesia.io/pricing,official-pricing,2026-11-04,Plans with video-minute allowances; enterprise by quote,Needs verification,"Pricing model only; no figures stated"
+A027,HeyGen (mentioned as comparable),https://www.heygen.com/,official-site,2026-11-04,AI avatar video generator comparable to Synthesia,Needs verification,"Mentioned in passing; not linked"
+A027,Subtitle accuracy,"",editorial-knowledge,2026-11-04,No accuracy rates claimed,Not stated,"No testing performed; page tells readers to proofread captions"
+"A027","Affiliate program","","","2026-11-04","","Not confirmed","No affiliate links used"

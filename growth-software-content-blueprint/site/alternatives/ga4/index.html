@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GA4 Alternatives: Replace, Supplement or Sit Alongside | BRAND_NAME</title>
+  <meta name="description" content="GA4 alternatives sorted by job: full replacements, lightweight privacy-first analytics, product analytics and event pipelines, with migration caveats.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/alternatives/ga4/">
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A092" data-content-type="alternatives" data-cluster="5">
+      <header>
+        <p>Marketing automation and analytics</p>
+        <h1>GA4 Alternatives and Complementary Analytics Tools</h1>
+        <p>Most teams searching for a GA4 replacement don't need one tool that does everything GA4 does. They need to fix one specific gap. This guide sorts the options by that gap and is honest about what you lose when you leave.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. See how we evaluate software and our disclosure policy before launch.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#short-answer">Short answer by switch reason</a></li>
+          <li><a href="#what-ga4-does-well">What GA4 does well</a></li>
+          <li><a href="#why-teams-look-elsewhere">Why teams look elsewhere</a></li>
+          <li><a href="#how-we-selected">How we selected these tools</a></li>
+          <li><a href="#comparison-table">Comparison table</a></li>
+          <li><a href="#full-replacements">Full analytics replacements</a></li>
+          <li><a href="#lightweight-analytics">Lightweight, privacy-first analytics</a></li>
+          <li><a href="#product-analytics">Product analytics</a></li>
+          <li><a href="#event-pipelines">Event pipelines</a></li>
+          <li><a href="#complementary-stacks">Complementary stack options</a></li>
+          <li><a href="#migration-caveats">Migration and historical data caveats</a></li>
+          <li><a href="#switching-checklist">Switching checklist</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+        </ol>
+      </nav>
+
+      <section id="short-answer">
+        <h2>Short answer by switch reason</h2>
+        <ul>
+          <li><strong>You want data ownership and a GA-style feature set:</strong> look at Matomo or Piwik PRO.</li>
+          <li><strong>You want simple, cookieless traffic reports:</strong> look at Plausible or Fathom.</li>
+          <li><strong>You need to understand in-app user behaviour:</strong> look at Mixpanel, Amplitude or PostHog, usually alongside GA4 rather than instead of it.</li>
+          <li><strong>You want to collect events once and send them everywhere:</strong> look at an event pipeline such as Segment or RudderStack.</li>
+          <li><strong>You run a large, multi-brand enterprise programme:</strong> Adobe Analytics belongs on the shortlist.</li>
+        </ul>
+      </section>
+
+      <section id="what-ga4-does-well">
+        <h2>What GA4 does well</h2>
+        <p><a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener noreferrer">Google Analytics 4</a> is free at its standard tier, and it connects directly to Google Ads, Search Console and BigQuery. That combination is hard to replace for paid-search teams: audiences built in GA4 can feed ad campaigns, and conversions flow back for bidding. Its event-based model also handles web and app data in one property.</p>
+        <p>If your main need is Google Ads optimisation, leaving GA4 altogether usually costs more than it saves. The better question is what to add next to it.</p>
+      </section>
+
+      <section id="why-teams-look-elsewhere">
+        <h2>Why teams look elsewhere</h2>
+        <p>The reasons we see most often in buyer questions are structural, not anecdotal:</p>
+        <ul>
+          <li><strong>Privacy and consent:</strong> some organisations want first-party or self-hosted analytics, EU hosting, or cookieless measurement that reduces reliance on consent banners. Get legal advice on what your jurisdiction requires.</li>
+          <li><strong>Reporting effort:</strong> the event-and-parameter model is flexible, but answering basic marketing questions often means building explorations or a Looker Studio dashboard.</li>
+          <li><strong>Product questions:</strong> retention cohorts, feature adoption and user-level journeys are not GA4's strength.</li>
+          <li><strong>Data access:</strong> teams that want raw event data in a warehouse they control may prefer a pipeline-first setup.</li>
+        </ul>
+      </section>
+
+      <section id="how-we-selected">
+        <h2>How we selected these tools</h2>
+        <p>We grouped tools by the job they replace and judged them on event model, out-of-the-box reporting, hosting and privacy options, historical import, and pricing model. Evidence comes from official product sites. No hands-on testing was done, and order within each group follows our fit criteria, not payment. We have not stated prices, because they vary by traffic or event volume. Each entry links its official site.</p>
+        <p>For wider shortlists, see our <a href="/best/privacy-friendly-web-analytics-tools/">privacy-conscious web analytics roundup</a> and the broader <a href="/best/marketing-analytics-software/">marketing analytics software comparison for performance teams</a>. Both sit within our <a href="/categories/automation-analytics/">automation and analytics hub</a>.</p>
+      </section>
+
+      <section id="comparison-table">
+        <h2>Comparison table</h2>
+        <table>
+          <caption>GA4 alternatives by role (qualitative, based on official product information)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Tool</th>
+              <th scope="col">Role</th>
+              <th scope="col">Data model</th>
+              <th scope="col">Self-host option</th>
+              <th scope="col">Pricing model</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Matomo</th><td>Full replacement</td><td>Sessions and events</td><td>Yes</td><td>Free self-hosted; paid cloud</td></tr>
+            <tr><th scope="row">Piwik PRO</th><td>Full replacement</td><td>Sessions and events</td><td>See official site</td><td>Free tier and quote-based</td></tr>
+            <tr><th scope="row">Adobe Analytics</th><td>Enterprise replacement</td><td>Custom variables and events</td><td>No</td><td>Quote-based</td></tr>
+            <tr><th scope="row">Plausible</th><td>Lightweight</td><td>Pageviews and goals</td><td>Yes</td><td>Subscription by traffic</td></tr>
+            <tr><th scope="row">Fathom</th><td>Lightweight</td><td>Pageviews and events</td><td>No</td><td>Subscription by traffic</td></tr>
+            <tr><th scope="row">Mixpanel</th><td>Product analytics</td><td>User-level events</td><td>No</td><td>Free tier; usage-based</td></tr>
+            <tr><th scope="row">Amplitude</th><td>Product analytics</td><td>User-level events</td><td>No</td><td>Free tier; tiered</td></tr>
+            <tr><th scope="row">PostHog</th><td>Product analytics suite</td><td>User-level events</td><td>Yes</td><td>Usage-based with free allowance</td></tr>
+            <tr><th scope="row">Segment</th><td>Event pipeline</td><td>Tracked events routed to destinations</td><td>No</td><td>Free tier; volume-based</td></tr>
+            <tr><th scope="row">RudderStack</th><td>Event pipeline</td><td>Warehouse-native events</td><td>Open-source core</td><td>Free tier; volume-based</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="full-replacements">
+        <h2>Full analytics replacements</h2>
+        <h3>Matomo</h3>
+        <p><strong>Fit:</strong> teams that want GA-style reports with full data ownership. <strong>Strengths:</strong> open-source, self-hostable or cloud-hosted, with familiar acquisition, goal and ecommerce reports and options for cookieless tracking. <strong>Weaknesses:</strong> self-hosting at high traffic needs real database tuning, and some advanced features are paid plugins. <strong>Migration note:</strong> Matomo offers a Google Analytics importer, but check exactly which properties and dimensions it supports. <a href="https://matomo.org/" target="_blank" rel="noopener noreferrer">Matomo official site</a>.</p>
+        <h3>Piwik PRO</h3>
+        <p><strong>Fit:</strong> regulated or privacy-sensitive organisations that want analytics, tag management and consent management from one vendor. <strong>Strengths:</strong> an integrated suite with hosting-location choices. <strong>Weaknesses:</strong> the free tier is narrower than the paid suite, and enterprise features are quote-based. <strong>Migration note:</strong> plan to re-implement tags, since there is no shortcut from GA4 tag configuration. <a href="https://piwik.pro/" target="_blank" rel="noopener noreferrer">Piwik PRO official site</a>.</p>
+        <h3>Adobe Analytics</h3>
+        <p><strong>Fit:</strong> enterprises already invested in Adobe Experience Cloud. <strong>Strengths:</strong> deep segmentation, flexible variables and analysis workspaces. <strong>Weaknesses:</strong> quote-based pricing, heavy implementation, and the need for trained analysts. Skip it if you are a small team. <a href="https://business.adobe.com/products/analytics/adobe-analytics.html" target="_blank" rel="noopener noreferrer">Adobe Analytics official site</a>.</p>
+      </section>
+
+      <section id="lightweight-analytics">
+        <h2>Lightweight, privacy-first analytics</h2>
+        <h3>Plausible</h3>
+        <p><strong>Fit:</strong> content sites and small businesses that want one readable dashboard. <strong>Strengths:</strong> a small, cookieless script, open-source code with a self-hosted edition, and simple goals and UTM reporting. <strong>Weaknesses:</strong> no user-level journeys and limited funnel depth, so it is not a substitute for product analytics. <strong>Migration note:</strong> Plausible documents a Google Analytics import. Confirm its GA4 coverage before relying on it. <a href="https://plausible.io/" target="_blank" rel="noopener noreferrer">Plausible official site</a>.</p>
+        <h3>Fathom</h3>
+        <p><strong>Fit:</strong> teams that want a hosted, privacy-first tool and no server to manage. <strong>Strengths:</strong> a simple dashboard, event tracking and an emphasis on compliance. <strong>Weaknesses:</strong> paid only, with no self-hosting and shallow analysis compared with GA4. <a href="https://usefathom.com/" target="_blank" rel="noopener noreferrer">Fathom official site</a>.</p>
+      </section>
+
+      <section id="product-analytics">
+        <h2>Product analytics</h2>
+        <p>These tools answer "what do signed-in users do?" rather than "where did visitors come from?". SaaS teams choosing a CRM in parallel should read our <a href="/best/crm-for-b2b-saas/">B2B SaaS CRM shortlist</a>, because product events often feed lead scoring.</p>
+        <h3>Mixpanel</h3>
+        <p><strong>Fit:</strong> product and growth teams that want fast funnels, retention and cohorts. <strong>Strengths:</strong> an interface built for non-analysts and a free tier for getting started. <strong>Weaknesses:</strong> marketing acquisition reporting is secondary, and costs track event volume. <a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">Mixpanel pricing</a>.</p>
+        <h3>Amplitude</h3>
+        <p><strong>Fit:</strong> product-led companies with a growing analytics practice. <strong>Strengths:</strong> behavioural cohorts, journey analysis, and add-on session replay and experimentation. <strong>Weaknesses:</strong> it takes more governance to keep event taxonomies clean, and upper tiers are sales-led. <a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">Amplitude pricing</a>.</p>
+        <h3>PostHog</h3>
+        <p><strong>Fit:</strong> engineering-led startups that want analytics, session replay, feature flags and experiments in one place. <strong>Strengths:</strong> usage-based pricing with a free monthly allowance and an open-source heritage. <strong>Weaknesses:</strong> marketers may find it developer-oriented, and multiple products mean multiple usage meters to watch. <a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">PostHog pricing</a>.</p>
+      </section>
+
+      <section id="event-pipelines">
+        <h2>Event pipelines</h2>
+        <p>Pipelines don't replace a reporting interface. They collect events once and send them to analytics tools, ad platforms and your warehouse, which makes the next analytics switch far cheaper.</p>
+        <h3>Segment</h3>
+        <p><strong>Fit:</strong> teams that send the same events to several destinations. <strong>Strengths:</strong> a broad destination catalogue and tracking-plan governance. <strong>Weaknesses:</strong> volume-based pricing can climb quickly. <a href="https://segment.com/pricing/" target="_blank" rel="noopener noreferrer">Segment pricing</a>.</p>
+        <h3>RudderStack</h3>
+        <p><strong>Fit:</strong> warehouse-first teams that want the warehouse as the source of truth. <strong>Strengths:</strong> an open-source core and warehouse-native design. <strong>Weaknesses:</strong> it assumes data-engineering capacity. <a href="https://www.rudderstack.com/pricing/" target="_blank" rel="noopener noreferrer">RudderStack pricing</a>.</p>
+      </section>
+
+      <section id="complementary-stacks">
+        <h2>Complementary stack options</h2>
+        <ul>
+          <li><strong>Paid-search-heavy SMB:</strong> keep GA4 for Ads integration, and add Plausible for a dashboard that stakeholders actually read.</li>
+          <li><strong>B2B SaaS:</strong> GA4 or Plausible for acquisition, Mixpanel or PostHog for in-app behaviour, and a pipeline once you have three or more destinations.</li>
+          <li><strong>Conversion-focused team:</strong> analytics plus a behaviour tool. Our <a href="/alternatives/hotjar/">guide to Hotjar alternatives</a> and the <a href="/best/cro-tools-for-landing-pages/">CRO tools for landing pages</a> cover that layer.</li>
+          <li><strong>Agency reporting to clients:</strong> pair analytics with a reporting tool from our <a href="/best/seo-reporting-software/">SEO reporting software list</a> rather than rebuilding dashboards in each platform.</li>
+        </ul>
+        <p>Whichever stack you choose, don't expect any tool to settle channel credit on its own. Our <a href="/guides/marketing-attribution-tools-for-small-business/">attribution guide for small teams</a> explains why.</p>
+      </section>
+
+      <section id="migration-caveats">
+        <h2>Migration and historical data caveats</h2>
+        <ul>
+          <li><strong>History rarely moves cleanly.</strong> Importers bring across aggregated reports at best. Session definitions, attribution models and bot filtering differ, so year-on-year comparisons across tools will not match.</li>
+          <li><strong>Export GA4 data before you need it.</strong> GA4's BigQuery export is the most complete raw-data option, but it only collects from the day you enable it. Also check your property's data retention setting, which limits how far back explorations can reach.</li>
+          <li><strong>Run in parallel.</strong> Run both tools for at least one full reporting cycle, and document the expected variance before stakeholders see the new numbers.</li>
+          <li><strong>Rebuild conversions deliberately.</strong> Map every GA4 key event to its equivalent goal or event, including any imported into Google Ads.</li>
+        </ul>
+      </section>
+
+      <section id="switching-checklist">
+        <h2>Switching checklist</h2>
+        <ol>
+          <li>Write down the decision you can't make today with GA4.</li>
+          <li>Pick the category (replacement, lightweight, product or pipeline) that solves it.</li>
+          <li>List the events, conversions and audiences that must exist on day one.</li>
+          <li>Confirm hosting location, consent approach and data processing terms.</li>
+          <li>Enable GA4's BigQuery export or schedule exports for the history you need.</li>
+          <li>Install the new tool in parallel and reconcile weekly for a month.</li>
+          <li>Update dashboards, client reports and any Ads conversion imports.</li>
+          <li>Decide formally whether GA4 stays as a complement or is removed.</li>
+        </ol>
+      </section>
+
+      <section id="faqs">
+        <h2>FAQs</h2>
+        <h3>Can I import my GA4 history into another tool?</h3>
+        <p>Partially at best. Some tools, including Matomo and Plausible, document Google Analytics importers, but coverage varies and definitions differ. Treat imported history as a reference, not as continuous data.</p>
+        <h3>Is a cookieless tool automatically compliant?</h3>
+        <p>No. Cookieless measurement reduces some consent requirements in some jurisdictions, but compliance depends on your configuration, contracts and local law.</p>
+        <h3>Should I remove GA4 if I add product analytics?</h3>
+        <p>Usually not. They answer different questions, and GA4 remains the simplest link to Google Ads.</p>
+        <h3>When is a pipeline worth it?</h3>
+        <p>When the same events need to reach three or more destinations, or when you expect to change analytics vendors again.</p>
+      </section>
+
+      <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Replace GA4 only when the problem is GA4 itself: ownership, hosting or day-to-day usability. Otherwise, add the tool that answers your missing question and keep GA4 where it is strongest. Start from the decision you can't make today, choose the category, then the vendor. For the wider analytics stack, return to our <a href="/best/marketing-automation-software/">marketing automation pillar for small teams</a>, and if session recordings are the gap, compare the <a href="/best/heatmap-session-replay-tools/">heatmap and session replay options</a>.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
