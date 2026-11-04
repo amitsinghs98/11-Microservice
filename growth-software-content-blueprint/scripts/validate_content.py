@@ -205,7 +205,30 @@ def main():
     sys.exit(1 if bad else 0)
 
 
+def update_status(pages, results):
+    """Status ladder: planned -> drafted -> QA-passed -> approved -> published.
+    Automated QA can only move pages between planned/drafted/QA-passed; approved and
+    published are set by a human editor and are never downgraded here except when the file is missing."""
+    man_path = os.path.join(ROOT, "strategy", "url-manifest.json")
+    for p in pages:
+        r = results[p["id"]]
+        if not r["exists"]:
+            p["status"] = "planned"
+        elif p["status"] not in ("approved", "published"):
+            p["status"] = "drafted" if r["errors"] else "QA-passed"
+    json.dump({"pages": pages}, open(man_path, "w"), indent=1)
+    csv_path = os.path.join(ROOT, "strategy", "100-article-master-map.csv")
+    rows = list(csv.reader(open(csv_path, encoding="utf-8")))
+    idx = rows[0].index("status")
+    st = {p["id"]: p["status"] for p in pages}
+    for row in rows[1:]:
+        row[idx] = st.get(row[0], row[idx])
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        csv.writer(f).writerows(rows)
+
+
 def write_reports(pages, results, dup_titles, dup_metas):
+    update_status(pages, results)
     log = os.path.join(ROOT, "strategy", "research-source-log.csv")
     flagged = {}
     if os.path.exists(log):

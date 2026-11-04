@@ -1,0 +1,7 @@
+# Draft robots.txt: nothing is disallowed by default.
+# LAUNCH REVIEW: confirm the sitemap URL below uses the real domain (scripts/apply_config.py),
+# and consider disallowing internal QA paths if any are deployed. Do not deploy qa/ or strategy/.
+User-agent: *
+Disallow:
+
+Sitemap: https://YOUR-DOMAIN.example/sitemap.xml
