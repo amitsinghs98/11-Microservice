@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A080,Definitions of lead enrichment and lead scoring,,editorial-knowledge,2026-11-04,General definitions of inputs and outputs; no vendor claims,Needs verification,Conceptual content; no statistics
+A080,Comparison table (system requirements),,editorial-knowledge,2026-11-04,"Typical pricing basis described generically (credits/records for enrichment; CRM tier or separate tool for scoring)",Needs verification,No vendor named; no figures
+A080,Predictive scoring needs historical deal data,,editorial-knowledge,2026-11-04,General statement,Needs verification,No thresholds stated
+A080,Hypothetical B2B example and decision tree,,editorial-knowledge,2026-11-04,Labelled hypothetical,Needs verification,No results implied
+A080,Vendor prices and features,,editorial-knowledge,2026-11-04,,Not stated,No vendor-specific claims made; vendor pages could not be fetched
+A080,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
