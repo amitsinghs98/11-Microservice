@@ -30,3 +30,4 @@ Resume here after any interruption. Read this file, `strategy/url-manifest.json`
 - 2026-11-04: A016–A020 and A031–A035 v2 done. The v1 SEO pricing figures for A016–A018 had no research log, so they were removed and logged as Not stated. A017 (pricing guide) needs the biggest re-fetch pass.
 - 2026-11-04: A036–A040 and A051–A055 v2 done. QA: spot-check A037's claim that Claude Max is $100 and the $200 tier is 'Ultra' against claude.com/pricing.
 - 2026-11-04: A061–A065 v2 done.
+- 2026-11-04: A006–A010 v2 done.
