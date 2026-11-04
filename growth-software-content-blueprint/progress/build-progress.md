@@ -34,3 +34,4 @@ Resume here after any interruption. Read this file, `strategy/url-manifest.json`
 - 2026-11-04: A066–A070 v2 done.
 - 2026-11-04: A001–A005 v2 done (0 fetched; v1 figures removed and logged as Not stated).
 - 2026-11-04: A056–A060 v2 done. Their claims were checked with WebSearch restricted to official domains, not a direct fetch. QA: give these rows their own status ('Verified via official-domain search'), and re-fetch the claims before publishing.
+- 2026-11-04: A021–A025 v2 done. **Neutrality risk:** Claude is the only product with confirmed prices (anthropic.com was the only reachable site), so cluster-2 tables carry numbers for Claude alone. QA: either restore the other vendors' figures (A031 log or a re-fetch), or move Claude's prices out of the tables, so the tables don't look tilted.

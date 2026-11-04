@@ -1,0 +1,13 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A106,WordPress.org (official site),https://wordpress.org/,official-site,2026-11-04,Open-source CMS software installable on any host,Needs verification,Fetch failed 2026-11-04 (Firecrawl out of credits; host blocked by drafting network); no figures quoted
+A106,WordPress.com (official site),https://wordpress.com/pricing/,official-site,2026-11-04,Hosted WordPress service with tiered plans; plugin/code access varies by plan,Needs verification,Fetch failed 2026-11-04 (Firecrawl out of credits; host blocked by drafting network); no figures quoted
+A106,Webflow (official site),https://webflow.com/pricing,official-site,2026-11-04,Hosted visual development platform with CMS and hosting; site plans plus workspace seats,Needs verification,Fetch failed 2026-11-04 (Firecrawl out of credits; host blocked by drafting network); no figures quoted
+A106,WordPress plugin directory,https://wordpress.org/plugins/,official-site,2026-11-04,Large directory of free plugins,Needs verification,No plugin count quoted
+A106,Webflow apps marketplace,https://webflow.com/apps,official-site,2026-11-04,Webflow offers an apps marketplace,Needs verification,Fetch failed 2026-11-04 (Firecrawl out of credits; host blocked by drafting network); no figures quoted
+A106,"WordPress core roles, revisions, scheduling, block editor",,editorial-knowledge,2026-11-04,Built-in core features,Needs verification,"General knowledge, stated cautiously"
+A106,Webflow separates designer canvas from content editing mode,,editorial-knowledge,2026-11-04,Editor/designer separation,Needs verification,"General knowledge, stated cautiously"
+A106,Webflow CMS item/collection limits by plan,,editorial-knowledge,2026-11-04,Limits exist; figures not stated,Needs verification,"General knowledge, stated cautiously"
+A106,Webflow localization is a paid add-on,,editorial-knowledge,2026-11-04,Described only as add-on to check,Needs verification,"General knowledge, stated cautiously"
+A106,Webflow export: static code and CMS data exportable; CMS editing layer does not travel,,editorial-knowledge,2026-11-04,Exit harder than WordPress,Needs verification,"General knowledge, stated cautiously"
+A106,Webflow and WordPress.com plan prices,https://webflow.com/pricing,official-pricing,2026-11-04,Not quoted in article,Not stated,Pricing page could not be fetched; article links to official page instead
+A106,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
