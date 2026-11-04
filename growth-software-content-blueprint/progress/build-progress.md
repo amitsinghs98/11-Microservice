@@ -33,3 +33,4 @@ Resume here after any interruption. Read this file, `strategy/url-manifest.json`
 - 2026-11-04: A006–A010 v2 done.
 - 2026-11-04: A066–A070 v2 done.
 - 2026-11-04: A001–A005 v2 done (0 fetched; v1 figures removed and logged as Not stated).
+- 2026-11-04: A056–A060 v2 done. Their claims were checked with WebSearch restricted to official domains, not a direct fetch. QA: give these rows their own status ('Verified via official-domain search'), and re-fetch the claims before publishing.
