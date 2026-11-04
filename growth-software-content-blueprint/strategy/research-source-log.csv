@@ -1,0 +1,190 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A006,BrightLocal,https://www.brightlocal.com/,official-site,2026-11-04,"Local SEO platform with Track, Manage and Grow plans",Verified,Plan names and feature split confirmed on pricing page
+A006,BrightLocal pricing by location band,https://www.brightlocal.com/pricing/,official-pricing,2026-11-04,"1 location Track $41/mo monthly or $369/yr; 11-20 locations Track $104/mo or $936/yr; 11-20 Grow $197/mo or $1,772/yr; 100+ on request",Verified,Annual billing listed as saving 25%
+A006,BrightLocal Track plan limits,https://www.brightlocal.com/pricing/,official-pricing,2026-11-04,Local rank tracking up to 100 keywords and four competitors per location; geo-grid for up to five keywords,Verified,
+A006,BrightLocal Citation Builder cost,https://www.brightlocal.com/pricing/,official-pricing,2026-11-04,"Pay-as-you-go from $3.20 per site, as low as $2 with bulk credits",Verified,
+A006,BrightLocal trial and country coverage,https://www.brightlocal.com/pricing/,official-pricing,2026-11-04,"14-day trial, no card; platform works in USA, UK, Canada and Australia",Verified,White-label plan placement not legible in scrape; article tells readers to confirm
+A006,Local Falcon,https://www.localfalcon.com/,official-site,2026-11-04,Geo-grid local rank tracking on Google and Apple Maps,Verified,Grid sizes 3x3 to 21x21 confirmed on pricing page
+A006,Local Falcon credit pricing,https://www.localfalcon.com/pricing,official-pricing,2026-11-04,"1 credit = 1 grid point; monthly packages $24.99 (7,500 credits) to $199.99 (63,150); Pro $99.99 for 31,250 credits; monthly credits expire; Falcon AI 25 credits per report",Verified,Scenario math (12 locations x 10 keywords x 49 points weekly) is editorial calculation
+A006,Whitespark,https://whitespark.ca/,official-site,2026-11-04,"Citation finder, local rank tracker, review tooling, citation-building service",Needs verification,Stated from prior knowledge; pricing not verified
+A006,Yext,https://www.yext.com/,official-site,2026-11-04,"Listings syndication to publisher network, reviews, location pages; quote-based",Needs verification,Stated from prior knowledge
+A006,Uberall,https://uberall.com/,official-site,2026-11-04,"Multi-location listings, reviews, posts and locator pages; quote-based",Needs verification,Stated from prior knowledge
+A006,Birdeye,https://birdeye.com/,official-site,2026-11-04,"Review requests and monitoring, messaging, surveys, listings; quote-based per location",Needs verification,Stated from prior knowledge
+A006,Semrush Local,https://www.semrush.com/prices/,official-pricing,2026-11-04,"Per-location local add-on with listings, GBP management and map rank tracking",Needs verification,Pricing and country coverage not verified (vendor site not reachable from drafting environment)
+A006,Moz Local,https://moz.com/products/local,official-site,2026-11-04,Per-location listings distribution and monitoring,Needs verification,URL and tiers not verified
+A006,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A007,Semrush,https://www.semrush.com/prices/,official-pricing,2026-11-04,"Keyword, ranking and audit data with AI assistant, content tools and separately sold AI visibility toolkit; tiered per-user pricing with add-ons",Needs verification,Vendor site not reachable from drafting environment; feature names deliberately kept generic
+A007,Ahrefs,https://ahrefs.com/pricing,official-pricing,2026-11-04,Link index and keyword data; AI content features; Brand Radar for AI-answer mentions; tiered pricing with add-ons,Needs verification,Brand Radar sampling method described cautiously; confirm before launch
+A007,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,"Content Editor scoring against top-ranking pages, AI drafting, content audit, AI visibility tracker; tiered subscription",Needs verification,surferseo.com not reachable from drafting environment
+A007,Frase,https://www.frase.io/pricing,official-pricing,2026-11-04,"SERP research, outline builder, AI writing and optimization; tiered subscription",Needs verification,
+A007,MarketMuse,https://www.marketmuse.com/pricing/,official-pricing,2026-11-04,"Topic modelling across content inventory, gap analysis, briefs; higher tiers via sales",Needs verification,
+A007,InLinks,https://inlinks.com/,official-site,2026-11-04,"Entity analysis, internal link and schema suggestions; usage-based subscription",Needs verification,Confirm domain and link insertion method
+A007,Link Whisper,https://linkwhisper.com/,official-site,2026-11-04,WordPress plugin for internal link suggestions and orphan reports; licence by number of sites,Needs verification,
+A007,Screaming Frog SEO Spider,https://www.screamingfrog.co.uk/seo-spider/,official-site,2026-11-04,Desktop crawler; can connect to AI providers via user's own API key; annual per-user licence with limited free mode,Needs verification,Exact free-mode URL limit deliberately omitted
+A007,Specific plan prices for all products,,editorial-knowledge,2026-11-04,,Not stated,No prices stated because vendor pricing pages could not be fetched on 2026-11-04
+A007,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A026,Planable,https://planable.io/,official-site,2026-11-04,"Collaboration-first social planner with in-context client approvals, multi-level approval workflows, per-client workspaces and AI writing assistant",Needs verification,Stated from prior knowledge; planable.io could not be fetched from the drafting environment (network restriction)
+A026,Planable pricing model,https://planable.io/pricing/,official-pricing,2026-11-04,Tiered plans; how users and workspaces are counted,Not stated,No price or limit stated on page; reader directed to official pricing
+A026,Sprout Social,https://sproutsocial.com/,official-site,2026-11-04,"Management suite with AI Assist for post copy and replies, inbox, reporting, approvals",Needs verification,Stated from prior knowledge
+A026,Sprout Social pricing model,https://sproutsocial.com/pricing/,official-pricing,2026-11-04,Per-seat pricing,Needs verification,Pricing model only; no figures stated
+A026,Hootsuite,https://www.hootsuite.com/,official-site,2026-11-04,"OwlyWriter AI for captions, ideas and rewrites inside composer",Needs verification,Stated from prior knowledge
+A026,Hootsuite pricing model,https://www.hootsuite.com/plans,official-pricing,2026-11-04,Per-user plans; team and enterprise tiers via sales,Needs verification,Pricing model only; no figures stated
+A026,Buffer,https://buffer.com/,official-site,2026-11-04,"AI assistant in composer for ideas, rewrites and repurposing",Needs verification,buffer.com could not be fetched from the drafting environment
+A026,Buffer pricing model,https://buffer.com/pricing,official-pricing,2026-11-04,Pricing based on number of connected channels,Needs verification,Pricing model only; no figures stated
+A026,ContentStudio,https://contentstudio.io/,official-site,2026-11-04,"Content discovery, AI writing and image generation, planner, approvals, multiple workspaces on agency plans",Needs verification,Stated from prior knowledge
+A026,ContentStudio pricing model,https://contentstudio.io/pricing,official-pricing,2026-11-04,Tiered plans with AI credit allowances,Needs verification,Pricing model only; no figures stated
+A026,Later,https://later.com/,official-site,2026-11-04,"Visual planner and grid preview, AI caption tools",Needs verification,Stated from prior knowledge
+A026,Later pricing model,https://later.com/pricing/,official-pricing,2026-11-04,Plans tiered by social sets and users,Needs verification,Pricing model only; no figures stated
+A026,Canva,https://www.canva.com/,official-site,2026-11-04,"Magic Studio AI text, design and image generation, resize, brand kits, content planner scheduling",Needs verification,Stated from prior knowledge
+A026,Canva pricing model,https://www.canva.com/pricing/,official-pricing,2026-11-04,Per-person paid plans,Needs verification,Pricing model only; no figures stated
+A026,Predis.ai,https://predis.ai/,official-site,2026-11-04,"Generates posts, carousels and short videos with captions and hashtags; scheduling",Needs verification,predis.ai could not be fetched from the drafting environment
+A026,Predis.ai pricing model,https://predis.ai/pricing/,official-pricing,2026-11-04,Credit-based tiers,Needs verification,Pricing model only; no figures stated
+A026,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A027,Descript,https://www.descript.com/,official-site,2026-11-04,"Transcript-based video editing, filler-word removal, Studio Sound, AI voice, AI editing assistant",Needs verification,Stated from prior knowledge; vendor pages not fetchable from drafting environment
+A027,Descript pricing model,https://www.descript.com/pricing,official-pricing,2026-11-04,Per-seat plans with transcription and AI usage allowances,Needs verification,Pricing model only; no figures stated
+A027,Opus Clip,https://www.opus.pro/,official-site,2026-11-04,"AI clip selection from long video, vertical reframing, animated captions",Needs verification,Stated from prior knowledge
+A027,Opus Clip pricing model,https://www.opus.pro/pricing,official-pricing,2026-11-04,Credit-based pricing tied to processing time,Needs verification,Pricing model only; no figures stated
+A027,VEED,https://www.veed.io/,official-site,2026-11-04,"Browser editor with auto subtitles, translation, brand kits, templates, AI avatars",Needs verification,Stated from prior knowledge
+A027,VEED pricing model,https://www.veed.io/pricing,official-pricing,2026-11-04,Per-seat plans; export resolution and watermark vary by plan,Needs verification,Pricing model only; no figures stated
+A027,Kapwing,https://www.kapwing.com/,official-site,2026-11-04,"Collaborative browser editing, auto subtitles, silence removal, repurposing",Needs verification,Stated from prior knowledge
+A027,Kapwing pricing model,https://www.kapwing.com/pricing,official-pricing,2026-11-04,Per-member pricing,Needs verification,Pricing model only; no figures stated
+A027,CapCut,https://www.capcut.com/,official-site,2026-11-04,"Auto captions, templates, effects on desktop, web and mobile; paid plans; commercial-use status of assets varies; owned by ByteDance",Needs verification,Advise readers to check commercial-use terms; no specific restrictions asserted
+A027,Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,official-site,2026-11-04,"Speech-to-text captions, speech enhancement, Firefly-powered Generative Extend; Creative Cloud subscription with generative credits",Needs verification,Stated from prior knowledge
+A027,Runway,https://runwayml.com/,official-site,2026-11-04,"Text- and image-to-video generation, video-to-video, AI editing tools",Needs verification,Stated from prior knowledge
+A027,Runway pricing model,https://runwayml.com/pricing,official-pricing,2026-11-04,Credit-based plans,Needs verification,Pricing model only; no figures stated
+A027,Synthesia,https://www.synthesia.io/,official-site,2026-11-04,"Script-to-video with AI avatars and voices, templates, brand settings",Needs verification,Stated from prior knowledge
+A027,Synthesia pricing model,https://www.synthesia.io/pricing,official-pricing,2026-11-04,Plans with video-minute allowances; enterprise by quote,Needs verification,Pricing model only; no figures stated
+A027,HeyGen (mentioned as comparable),https://www.heygen.com/,official-site,2026-11-04,AI avatar video generator comparable to Synthesia,Needs verification,Mentioned in passing; not linked
+A027,Subtitle accuracy,,editorial-knowledge,2026-11-04,No accuracy rates claimed,Not stated,No testing performed; page tells readers to proofread captions
+A027,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A031,Jasper,https://www.jasper.ai/,official-site,2026-11-04,"Brand-governed marketing content platform with Jasper IQ (Brand Voices, Knowledge, Audiences, Style Guide)",Verified,Positioning taken from pricing page fetched 2026-11-04
+A031,Jasper Pro price,https://www.jasper.ai/pricing,official-pricing,2026-11-04,Pro $69 per seat per month billed monthly; $59 per seat per month billed yearly; includes 1 seat; 7-day free trial,Verified,Pricing page FAQ also states $59 yearly / $69 monthly
+A031,Jasper Pro limits,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"2 Brand Voices, 5 Knowledge assets, 3 Audiences; User logins listed as Single user",Verified,
+A031,Jasper Business features,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Custom pricing; unlimited IQ customization, Style Guide, Studio, Grid, API, GEO agents, document collaboration, user management, SSO, SCIM, dedicated CSM",Verified,
+A031,Jasper integrations,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Webflow, Google Docs, Slack integrations; Chrome and Edge extension; 100+ marketing agents",Verified,
+A031,Copy.ai,https://www.copy.ai/,official-site,2026-11-04,GTM AI platform with Chat and Workflows,Verified,Positioning from pricing page
+A031,Copy.ai Chat plan price,https://www.copy.ai/prices,official-pricing,2026-11-04,"$29/mo billed monthly; $24/mo billed annually ($288/yr); 5 seats; unlimited words in chat; OpenAI, Anthropic and Gemini models",Verified,No workflow credits listed for Chat
+A031,Copy.ai Growth/Expansion/Scale,https://www.copy.ai/prices,official-pricing,2026-11-04,"Growth $1,000/mo billed $12,000/yr, 75 seats, 20K workflow credits/mo; Expansion $2,000/mo, 150 seats, 45K credits; Scale $3,000/mo, 200 seats, 75K credits",Verified,
+A031,Copy.ai free plan,https://www.copy.ai/prices,official-pricing,2026-11-04,No free plan listed on the pricing page reviewed,Verified,Page may omit a free option shown elsewhere in-app; recheck
+A031,Copy.ai Enterprise,https://www.copy.ai/prices,official-pricing,2026-11-04,"Guided Jumpstart implementation, API access and bulk workflow runs, 20+ tech integrations",Verified,
+A031,Writesonic,https://writesonic.com/,official-site,2026-11-04,AI search visibility platform with SEO content and site audits,Verified,
+A031,Writesonic plan prices,https://writesonic.com/pricing,official-pricing,2026-11-04,"Starter $79, Basic $199, Growth $399 per month billed annually; Enterprise custom; annual saves 20%",Verified,Monthly prices not shown in scraped plan cards; meta description says self-serve from $99/mo (not used)
+A031,Writesonic plan limits,https://writesonic.com/pricing,official-pricing,2026-11-04,Users 1/2/3; prompts 50/100/200; AI articles 15/25/50 per month; writing styles 1/5/10; add-on users $50/user/mo on Basic (up to 3) and Growth (up to 2),Verified,
+A031,Writesonic Enterprise-only features,https://writesonic.com/pricing,official-pricing,2026-11-04,"9 AI platforms, content optimization, GA4, Looker Studio, user access control, SSO/SAML on Enterprise; sentiment from Growth",Verified,Fair usage policy applies per page
+A031,Writesonic free trial,https://writesonic.com/pricing,official-pricing,2026-11-04,Free trial with no credit card needed,Verified,
+A031,Claude Team price,https://claude.com/pricing,official-pricing,2026-11-04,Standard seat $20/seat/mo billed annually or $25 monthly; teams of 2 to 150,Verified,Fetched via WebFetch summary
+A031,Three-person scenario,,editorial-knowledge,2026-11-04,Hypothetical annual list-cost arithmetic from verified prices,Verified,Writesonic add-on billing basis assumed same as plan; labelled as assumption
+A031,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A032,Jasper,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Jasper IQ: Brand Voices, Knowledge, Audiences, Style Guide (Business), Visual Guidelines; 100+ agents; Remix; image suite; extension; Copyscape add-on; 30+ languages",Verified,
+A032,Jasper Pro price and limits,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"$69/seat/mo monthly or $59 yearly; 2 Brand Voices, 5 Knowledge assets, 3 Audiences; single user",Verified,
+A032,Jasper Business features,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Custom pricing; unlimited IQ assets, Studio, Grid, API, admin controls, SSO, SCIM, CSM, collaboration and user management",Verified,
+A032,Jasper version history,https://www.jasper.ai/pricing,official-pricing,2026-11-04,History and backups restore versions going back 7 days,Verified,
+A032,Writer,https://writer.com/,official-site,2026-11-04,"Enterprise AI platform with own models, style guide, terminology, company knowledge and agent builder",Needs verification,writer.com not reachable from session network; stated from prior knowledge; price omitted
+A032,Typeface,https://www.typeface.ai/,official-site,2026-11-04,Enterprise brand content platform with brand kits and enterprise integrations; sales-led pricing,Needs verification,Not fetched
+A032,Claude Team price,https://claude.com/pricing,official-pricing,2026-11-04,Standard seat $20/seat/mo annual or $25 monthly; 2 to 150 seats; Projects,Verified,Fetched via WebFetch summary
+A032,Claude Team 10-seat arithmetic,https://claude.com/pricing,official-pricing,2026-11-04,10 x $20 x 12 = $2400 per year,Verified,Derived from verified price
+A032,ChatGPT Business,https://chatgpt.com/pricing,official-pricing,2026-11-04,"Per-user business plan with custom GPTs, projects and shared workspace",Needs verification,chatgpt.com blocked by session network; price omitted
+A032,Gemini in Google Workspace,https://workspace.google.com/pricing,official-pricing,2026-11-04,"Gemini AI bundled into Workspace plans, varies by edition",Needs verification,Not fetched
+A032,Copy.ai Chat and Growth prices,https://www.copy.ai/prices,official-pricing,2026-11-04,"Chat $29/mo monthly or $24/mo annual, 5 seats; Growth $1,000/mo billed $12,000/yr with workflow credits",Verified,
+A032,Writesonic plans,https://writesonic.com/pricing,official-pricing,2026-11-04,"Starter $79/mo annual, 1 user, 15 articles, 1 writing style; Growth $399/mo annual, 3 users, 10 writing styles",Verified,
+A032,Grammarly,https://www.grammarly.com/plans,official-pricing,2026-11-04,Team plans include shared style guides and brand tones; works across apps,Needs verification,Not fetched; price omitted
+A032,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A051,Instantly (official site),https://instantly.ai/,official-site,2026-11-04,Product exists; outreach + credits + CRM modules,Verified,Pricing page fetched 2026-11-04
+A051,Smartlead (official site),https://www.smartlead.ai/,official-site,2026-11-04,Product exists; cold email platform with add-ons,Verified,Pricing page fetched 2026-11-04
+A051,Instantly Outreach plan prices and limits,https://instantly.ai/pricing,official-pricing,2026-11-04,"Growth $47/mo 5,000 emails 1,000 contacts; Hypergrowth $107/mo 125,000 emails 25,000 contacts; Light Speed $358/mo 500,000 emails 100,000 contacts",Verified,Also confirmed via instantly.ai/pricing.md; annual Growth $37.6 and Hypergrowth $85.58 (about 20% saving)
+A051,Instantly no overage and Outreach add-on,https://instantly.ai/pricing,official-pricing,2026-11-04,"Upgrade tiers rather than overage; add-on $87/mo for +25,000 contacts and +125,000 emails on eligible plans",Verified,
+A051,Instantly trial,https://instantly.ai/pricing,official-pricing,2026-11-04,"14-day trial, no card, 250 contacts and 1,000 emails",Verified,
+A051,Instantly CRM and webhooks gating,https://instantly.ai/pricing,official-pricing,2026-11-04,CRM included from Hypergrowth; Growth 14-day CRM trial; webhooks Hypergrowth and above; Unibox preview-only on Growth,Verified,
+A051,Instantly SISR on Light Speed,https://instantly.ai/pricing,official-pricing,2026-11-04,Dedicated/private server and IP rotation on Light Speed,Verified,
+A051,Instantly mailbox and domain resale prices,https://instantly.ai/pricing,official-pricing,2026-11-04,Domain $15/yr; pre-warmed Google $10/mo; done-for-you Google $5/mo; done-for-you/Airmail $4/mo,Verified,
+A051,Instantly credits plans and expiry,https://instantly.ai/pricing,official-pricing,2026-11-04,"Growth credits $47-77/mo for 1,500-2,000 credits; monthly-plan credits expire after 2 months",Verified,
+A051,Instantly client workspace pricing,https://instantly.ai/pricing,official-pricing,2026-11-04,Not described on pricing page,Not stated,Article tells readers to request a quote
+A051,Smartlead plan prices and limits,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"Base $39 (6,000 sends, 2,000 contacts); Pro $94 (90,000 sends, 30,000 contacts); Unlimited Smart $174 (150,000 sends, unlimited contacts); Unlimited Prime $379 (500,000 sends)",Verified,Also confirmed via smartlead.ai/pricing.md (generated 2026-11-02); 17% annual saving
+A051,Smartlead feature gating,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,CRM access and API/webhooks from Pro; none on Base; warm-up pool tiers,Verified,
+A051,Smartlead client workspaces,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,$29/mo per workspace from Pro; 3 included on Unlimited Prime,Verified,
+A051,Smartlead SmartServers,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,$39/server/mo from Pro; 3 included on Prime,Verified,
+A051,Smartlead SmartSenders mailbox prices,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"Fresh Google/Outlook $4.50/mo, $13/domain/yr; pre-warmed $9/mo, $18/domain/yr; SMTP from $3.99/mo",Verified,
+A051,Smartlead SmartDelivery and verification credits,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"SmartDelivery from $49/mo; verification from $15/mo for 6,000 monthly; 24,000 monthly $59; verified prospect emails add-on $59/mo on Base/Pro",Verified,
+A051,Smartlead promotion,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,50% off first month for new sign-ups,Verified,Excluded from scenarios
+A051,Per-mailbox daily send assumption (30/day),,editorial-knowledge,2026-11-04,Planning assumption only,Needs verification,Labelled in article as editorial assumption not vendor rule
+A051,Mailbox provider bulk-sender requirements and CAN-SPAM/GDPR/PECR applicability,,editorial-knowledge,2026-11-04,General compliance context,Needs verification,Stated generally without specific thresholds
+A051,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A055,lemlist (official site),https://www.lemlist.com/,official-site,2026-11-04,Product exists; email and multichannel outreach,Verified,Pricing page fetched 2026-11-04
+A055,Reply.io (official site),https://reply.io/,official-site,2026-11-04,Product exists; multichannel sales engagement and AI SDR,Verified,Pricing page fetched 2026-11-04
+A055,lemlist Email plan price,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"$69/mo monthly, $55/mo yearly at 50,000 emails/mo; unlimited users and senders",Verified,Price varies with selected email volume; yearly saves 20%
+A055,lemlist Multichannel plan price,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"$109 per user/mo monthly, $87 yearly; 5 senders per user; LinkedIn, SMS, dialer; WhatsApp add-on",Verified,Per-user basis taken from page FAQ ('Pricing is based on the number of users')
+A055,lemlist data add-ons,https://www.lemlist.com/pricing,official-pricing,2026-11-04,Enrichment $20/mo ($16 yearly) for 2k credits (400 emails or 100 phones); intent signals $29/mo ($21 yearly) for 100 signals; credits roll over while subscribed,Verified,Whether add-on is per user or per workspace not stated; article assumes one shared pack
+A055,lemlist Enterprise gating,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"Custom roles, activity logs, SSO/SAML, use from CRM, dedicated AM on Enterprise",Verified,
+A055,lemlist trial,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"14-day trial with Multichannel features except in-app calls, 200 credits",Verified,Page also showed a creator-linked 30-day promo; ignored
+A055,lemlist CRM integrations,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"HubSpot, Salesforce, Pipedrive on all plans",Verified,
+A055,Reply.io Email Volume pricing,https://reply.io/pricing/,official-pricing,2026-11-04,"From $59/mo monthly ($49 annual) at 1,000 active contacts; per user to 5,000; unlimited users from 10,000 at $179/mo monthly",Verified,
+A055,Reply.io Multichannel pricing,https://reply.io/pricing/,official-pricing,2026-11-04,"$99 per user/mo monthly, $89 annual; LinkedIn and calls/SMS included; 50 live data credits/mo",Verified,Mailbox count shown as 5 (monthly card and comparison table) and 10 (annual card); article flags discrepancy
+A055,Reply.io add-ons,https://reply.io/pricing/,official-pricing,2026-11-04,LinkedIn $69/mo/account; Calls & SMS $29/mo/account; extra mailbox $29/mo; domain from $6/yr + $5/mailbox/mo; pre-warmed from $25/yr + $15/mailbox/mo,Verified,
+A055,Reply.io Agency Core and Jason AI SDR,https://reply.io/pricing/,official-pricing,2026-11-04,Agency Core from $210/mo; Jason AI SDR from $500/mo billed annually,Verified,A comparison row also showed Agency 'from $166'; likely annual; article uses $210
+A055,Reply.io additional live data credit pricing,https://reply.io/pricing/,official-pricing,2026-11-04,Prices not rendered in fetched content,Not stated,Article says see official pricing
+A055,Telephony minute and phone number fees,,editorial-knowledge,2026-11-04,Not itemised on either pricing page,Not stated,Readers told to ask vendors
+A055,LinkedIn User Agreement restricts automation,,editorial-knowledge,2026-11-04,General policy statement,Needs verification,Stated generally; readers told to read LinkedIn's current terms
+A055,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A061,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Plans Lite US$14, Growth US$39, Premium US$59, Ultimate US$79 per seat per month billed annually",Verified,Fetched 2026-11-04; US-dollar page; monthly-billing prices not captured
+A061,Pipedrive free trial and annual saving,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,14-day free trial; annual billing 'save up to 42%',Verified,Fetched 2026-11-04
+A061,Pipedrive add-ons,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"LeadBooster, Projects, Campaigns, Web Visitors and Smart Docs add-ons listed with starting-from prices",Verified,Add-on prices not repeated in article
+A061,Pipedrive cost model at 3/10/25 users,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Annual seat cost = seats x verified monthly price x 12,Verified,Arithmetic from verified figures; excludes tax and add-ons
+A061,HubSpot,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Free CRM tools; per-seat Starter, Professional, Enterprise; onboarding fees historically on Pro/Enterprise",Needs verification,Fetch blocked (network); stated qualitatively
+A061,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,Per-user editions; free edition for small teams; Blueprint and Zia features,Needs verification,Fetch blocked; free-edition user limit not stated
+A061,Freshsales,https://www.freshworks.com/crm/pricing/,official-pricing,2026-11-04,Per-user tiers; built-in phone; Freddy AI,Needs verification,Free plan availability not stated; reader directed to vendor
+A061,Salesforce Starter Suite,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,Per-user entry suite; annual contracts typical,Needs verification,No price stated
+A061,monday CRM,https://monday.com/crm/pricing,official-pricing,2026-11-04,Per-seat pricing sold in seat bundles,Needs verification,Bundle sizes not stated
+A061,Less Annoying CRM,https://www.lessannoyingcrm.com/pricing,official-pricing,2026-11-04,"Single per-user plan, free trial, free support",Needs verification,Price deliberately not stated
+A061,Copper,https://www.copper.com/pricing,official-pricing,2026-11-04,Per-seat tiers; Google Workspace Chrome extension,Needs verification,No price stated
+A061,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A061,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A062,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Growth US$39 and Premium US$59 per seat per month billed annually,Verified,Fetched 2026-11-04
+A062,Pipedrive Projects and Smart Docs add-ons,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Projects and Smart Docs add-ons listed with starting-from prices,Verified,Add-on prices not repeated; billing unit unclear
+A062,Pipedrive cost model at 5/10 seats,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Seats x verified monthly price x 12,Verified,Excludes tax and add-ons
+A062,Pipedrive multiple pipelines,https://www.pipedrive.com/en/pricing,editorial-knowledge,2026-11-04,Supports several pipelines,Needs verification,Confirm which tiers allow multiple pipelines
+A062,HubSpot,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,Per-seat tiers by hub; multiple pipelines on paid tiers; attribution via Marketing Hub,Needs verification,Fetch blocked
+A062,monday CRM,https://monday.com/crm/pricing,official-pricing,2026-11-04,Per-seat pricing in seat bundles; automations to create boards,Needs verification,Fetch blocked
+A062,Productive,https://productive.io/pricing/,official-pricing,2026-11-04,"Agency management: pipeline, budgets, time tracking, resourcing, invoicing; per-user tiers",Needs verification,Fetch blocked
+A062,Insightly,https://www.insightly.com/pricing/,official-pricing,2026-11-04,Opportunity-to-project conversion; per-user tiers,Needs verification,Fetch blocked
+A062,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,Per-user editions; custom modules; Zoho Projects and Campaigns separate,Needs verification,Fetch blocked
+A062,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A062,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A063,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Lite US$14, Growth US$39, Premium US$59, Ultimate US$79 per seat per month billed annually",Verified,Fetched 2026-11-04
+A063,HubSpot Sales Hub,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,Per-seat tiers; forecasting on Professional+; custom objects on Enterprise; parent-child companies,Needs verification,Fetch blocked; confirm tier placement of forecasting and custom objects
+A063,Salesforce Sales Cloud,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,"Per-user editions on annual contracts; hierarchies, forecasting, territory management",Needs verification,Fetch blocked
+A063,Attio,https://attio.com/pricing,official-pricing,2026-11-04,"Custom objects, lists, workflows, email/calendar sync; free plan",Needs verification,Free plan stated from prior knowledge; forecasting depth unconfirmed
+A063,Close,https://www.close.com/pricing,official-pricing,2026-11-04,"Built-in calling, SMS, email sequences; per-user tiers",Needs verification,Fetch blocked
+A063,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Custom modules, Blueprint, forecasting on higher editions",Needs verification,Fetch blocked
+A063,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A063,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A091,Zapier (official site and pricing),https://zapier.com/pricing,official-pricing,2026-11-04,"Plans Free, Professional, Team, Enterprise; task-based billing",Verified,Fetched 2026-11-04
+A091,"Zapier Free plan: $0, 100 tasks/month, two-step Zaps, 15-minute polling",https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,
+A091,Zapier Professional from $19.99/month; Team from $69/month with 25 users,https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,Page shows monthly/yearly toggle (yearly save 33%); billing basis of the displayed figure should be confirmed at launch
+A091,"Zapier: triggers, polling, Filters, Formatter, Paths do not use tasks; failed actions do not count; pay-per-task overage at higher rate",https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,From pricing FAQ
+A091,"Zapier task tiers include 2K, 5K, 10K, 20K, 50K; 9,000+ apps; code runtime 1s Free / 30s Professional and Team",https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,Per-tier prices not recorded; article tells reader to check selector
+A091,"Zapier polling time 2 min Professional, 1 min Team",https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,
+A091,Zapier hosted data residency options,https://zapier.com/pricing,official-docs,2026-11-04,,Not stated,Not on pricing page; reader directed to Zapier security documentation
+A091,Make (official site and pricing),https://www.make.com/en/pricing,official-pricing,2026-11-04,"Plans Free, Core, Pro, Teams, Enterprise; credit-based billing",Verified,Fetched 2026-11-04
+A091,"Make Free: 1,000 credits/month, 2 active scenarios, 15-minute minimum interval, 7-day log retention",https://www.make.com/en/pricing,official-pricing,2026-11-04,Yes,Verified,
+A091,"Make at 10,000 credits/month: Core $9, Pro $16, Teams $29 per month",https://www.make.com/en/pricing,official-pricing,2026-11-04,Yes,Verified,Plans marked 'Save 15%' with monthly/annual toggle; billing basis to confirm
+A091,"Make: webhook reads count as credits; routers and error-handler modules do not; credits expire at term end; Code app 2 credits per second, not on Free; AWS EU/North America hosting; 3,500+ apps; unlimited users",https://www.make.com/en/pricing,official-pricing,2026-11-04,Yes,Verified,
+A091,n8n (official site and pricing),https://n8n.io/pricing/,official-pricing,2026-11-04,"Plans Starter, Pro, Business, Enterprise; Community Edition self-hosted",Verified,Fetched 2026-11-04
+A091,"n8n Starter $20/month billed annually, 2.5K executions; Pro $50/month billed annually, 10K executions; Business $800/month billed annually, 40K executions, self-hosted only",https://n8n.io/pricing/,official-pricing,2026-11-04,Yes,Verified,
+A091,n8n: execution = one full workflow run regardless of steps; cloud data in Frankfurt; licence key pings daily; telemetry on by default self-hosted; forum support below Enterprise; log retention 7 days Starter / 30 days Pro,https://n8n.io/pricing/,official-pricing,2026-11-04,Yes,Verified,
+A091,n8n hosting documentation,https://docs.n8n.io/hosting/,official-docs,2026-11-04,Linked for self-hosting requirements,Needs verification,Not fetched; linked as reference only
+A091,n8n licence is not a conventional open-source licence (fair-code / Sustainable Use License),https://github.com/n8n-io/n8n,editorial-knowledge,2026-11-04,,Needs verification,Stated cautiously from prior knowledge
+A091,Modelled task/credit/execution counts for two hypothetical workflows,,editorial-knowledge,2026-11-04,Derived from verified billing rules,Verified,Hypothetical scenario; not a live build
+A091,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
+A095,HubSpot (official CRM product page),https://www.hubspot.com/products/crm,official-site,2026-11-04,Free CRM (Smart CRM) as shared database for hubs,Needs verification,hubspot.com not reachable from drafting session; stated from prior knowledge
+A095,HubSpot Marketing Hub pricing: Free/Starter/Professional/Enterprise editions priced by marketing-contact tier and seats,https://www.hubspot.com/pricing/marketing,official-pricing,2026-11-04,,Needs verification,No figures stated in article; fetch failed (host not allowed)
+A095,"HubSpot Sales Hub pricing: sequences, forecasting and seat-based pricing in paid editions",https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,,Needs verification,No figures stated
+A095,HubSpot full workflow automation and custom reporting concentrated in Professional and above,https://www.hubspot.com/pricing/marketing,official-pricing,2026-11-04,,Needs verification,Packaging changes often; confirm at launch
+A095,HubSpot one-time onboarding fee historically required on Professional and Enterprise,https://www.hubspot.com/pricing/marketing,official-pricing,2026-11-04,,Needs verification,Worded as 'historically'; confirm current policy
+A095,HubSpot marketing vs non-marketing contacts (only marketing contacts count toward tier),https://www.hubspot.com/pricing/marketing,official-docs,2026-11-04,,Needs verification,
+A095,HubSpot custom objects and granular permissions in higher editions,https://www.hubspot.com/products/crm,official-site,2026-11-04,,Needs verification,
+A095,ActiveCampaign (official site),https://www.activecampaign.com/,official-site,2026-11-04,Automation-first platform with deals CRM,Needs verification,activecampaign.com not reachable from drafting session
+A095,"ActiveCampaign pricing: plan tier by contact count, users included vary by plan",https://www.activecampaign.com/pricing,official-pricing,2026-11-04,,Needs verification,No figures stated in article
+A095,ActiveCampaign landing pages on mid and upper plans; attribution and deal reporting on higher plans,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,,Needs verification,
+A095,ActiveCampaign onboarding/migration services,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,,Not stated,Deliberately omitted; table says 'See official pricing'
+A095,"Cost scenarios A (3-person SMB, 2,500 contacts) and B (10-person B2B, 15,000 contacts)",,editorial-knowledge,2026-11-04,"Hypothetical cost-line structure, no prices",Verified,Hypothetical; no prices given
+A095,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
