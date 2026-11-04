@@ -1,0 +1,14 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A024,Claude,https://claude.com/,official-site,2026-11-04,General AI assistant from Anthropic,Verified,
+A024,Claude prices,https://claude.com/pricing,official-pricing,2026-11-04,"Pro $17/month annual or $20 monthly; Team standard seat from $20/seat/month annual",Verified,Fetched via WebFetch summary
+A024,Claude web search and Research,https://claude.com/pricing,official-pricing,2026-11-04,"Web search on all plans; Research on paid plans",Verified,
+A024,Claude project knowledge retrieval,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,Paid plans extend project knowledge beyond context limits using RAG,Verified,
+A024,Cost-per-article scenario,https://claude.com/pricing,editorial-knowledge,2026-11-04,"Hypothetical: $20 tool + 8 articles x 2 editing hours x $50 assumed rate = $820; about $102.50 per article",Verified,Only the $20 price is sourced; hours and rate are labelled assumptions
+A024,ChatGPT,https://openai.com/chatgpt/pricing/,official-pricing,2026-11-04,"Free tier plus per-user plans; web search, deep research mode, file analysis, custom GPTs",Needs verification,chatgpt.com not reachable from session network; no figures stated
+A024,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,"AI article drafting in content editor; SERP guidelines; scoring; Google Docs and WordPress extensions; tiered",Needs verification,surferseo.com not reachable; no figures stated
+A024,Frase,https://www.frase.io/pricing,official-pricing,2026-11-04,"SERP research, outline builder, AI drafting, scoring; tiered",Needs verification,frase.io not reachable; no figures stated
+A024,Jasper,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Brand voice and knowledge applied to long-form; per seat with trial and custom business tier",Needs verification,jasper.ai not reachable; see A031 log
+A024,Writesonic,https://writesonic.com/pricing,official-pricing,2026-11-04,"AI search visibility focus; SEO article generation; writing styles; WordPress publishing; article allowances",Needs verification,writesonic.com not reachable; A031 log records WordPress integration and article allowances verified same day
+A024,KoalaWriter,https://koala.sh/pricing,official-pricing,2026-11-04,"Keyword-to-article generation, real-time SERP data option, internal linking options, WordPress export; credit or word-based plans",Needs verification,Not fetched after network blocks; no figures stated
+A024,Specific prices for non-Anthropic products,,editorial-knowledge,2026-11-04,,Not stated,Cut because vendor pages could not be fetched on 2026-11-04
+A024,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

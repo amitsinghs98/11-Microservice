@@ -21,6 +21,15 @@ You are writing pages for a static HTML library of growth-software buying guides
 - The title tag is 50–60 characters before ` | BRAND_NAME`. The meta description is 120–160 characters. Both are unique.
 - Vary openings, capsules and FAQ wording. Never reuse paragraphs across pages.
 
+## Live-fetch availability (important)
+
+The Firecrawl credits are exhausted until 2026-11-05 19:42 UTC, and the network policy blocks most vendor sites, so expect fetches to fail.
+
+- Try a fetch once or twice. If it fails, stop retrying.
+- **Keep any claim already logged `Verified` today (2026-11-04) in an existing `strategy/research/*.csv` row with a source URL.** An earlier writer fetched those while access worked. Keep the inline citation and "(checked 4 November 2026)", and carry the row into your fragment with a note like "verified by earlier writer". Don't delete verified figures from v1 drafts.
+- Cut every other number, describe pricing by its model, and log `Needs verification`.
+- Never log your own arithmetic or hypothetical models as `Verified`. Use `editorial-knowledge` with the status `Not stated`, and the note "calculation from stated assumptions".
+
 ## Check your work
 
 ```bash
