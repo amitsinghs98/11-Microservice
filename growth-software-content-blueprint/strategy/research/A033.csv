@@ -1,0 +1,15 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A033,Copy.ai,https://www.copy.ai/prices,official-pricing,2026-11-04,GTM AI platform with Chat plan and workflow plans,Verified,"Fetched 2026-11-04 in A031 v1 drafting run; copy.ai not reachable from this run, not re-fetched"
+A033,Copy.ai Chat plan,https://www.copy.ai/prices,official-pricing,2026-11-04,"$29/mo monthly or $24/mo annual; 5 seats; unlimited chat words; OpenAI, Anthropic and Gemini models",Verified,Carried from A031 log
+A033,Copy.ai Growth plan,https://www.copy.ai/prices,official-pricing,2026-11-04,"$1,000/mo billed $12,000/yr; 75 seats; 20,000 workflow credits/mo",Verified,Carried from A031 log
+A033,Copy.ai Enterprise,https://www.copy.ai/prices,official-pricing,2026-11-04,"Jumpstart implementation, API access, bulk workflow runs, 20+ tech integrations",Verified,Carried from A031 log
+A033,Copy.ai free plan,https://www.copy.ai/prices,official-pricing,2026-11-04,No free plan listed on pricing page reviewed,Verified,Carried from A031 log; recheck
+A033,Copy.ai brand-voice controls per plan,https://www.copy.ai/prices,official-pricing,2026-11-04,Not set out on pricing page,Not stated,
+A033,Jasper Pro,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"$59/seat/mo yearly or $69 monthly; 2 Brand Voices; 7-day free trial; single user; shared workspaces on Business",Verified,"Carried from A031 log (fetched 2026-11-04); jasper.ai not reachable from this run"
+A033,Anyword,https://www.anyword.com/pricing,official-pricing,2026-11-04,Performance-focused copy with predictive variant scoring,Needs verification,anyword.com not reachable; price omitted
+A033,Claude Free/Pro/Team,https://claude.com/pricing,official-pricing,2026-11-04,"Free $0 with limited usage; Pro $17/mo annual ($200 up front) or $20 monthly; Team standard $20/seat/mo annual or $25 monthly, 2 to 150 seats",Verified,Fetched in this run via WebFetch
+A033,ChatGPT,https://chatgpt.com/pricing,official-pricing,2026-11-04,Free tier and per-user paid plans,Needs verification,chatgpt.com not reachable; no prices stated
+A033,Clay,https://www.clay.com/pricing,official-pricing,2026-11-04,"Enrichment from many providers plus AI research steps; credit-based pricing",Needs verification,Not reachable; no prices stated
+A033,HubSpot AI features,https://www.hubspot.com/pricing,official-pricing,2026-11-04,AI writing and agent features across hubs; inclusion varies by hub and tier,Needs verification,hubspot.com not reachable; no prices stated
+A033,Zapier,https://zapier.com/pricing,official-pricing,2026-11-04,Free plan and task-based billing,Verified,"Carried from A091 log (fetched 2026-11-04 by another drafting run); not re-fetched here"
+A033,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

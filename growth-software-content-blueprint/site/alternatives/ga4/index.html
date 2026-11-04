@@ -6,7 +6,81 @@
   <title>GA4 Alternatives: Replace It, Add to It or Route Around It | BRAND_NAME</title>
   <meta name="description" content="GA4 alternatives grouped by the job you need done: full replacements, privacy-first analytics, product analytics and event pipelines, plus migration caveats.">
   <link rel="canonical" href="https://YOUR-DOMAIN.example/alternatives/ga4/">
-  <!--JSONLD-->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://YOUR-DOMAIN.example/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Marketing Automation and Analytics Software: Workflows, Measurement, CRO, and Distribution",
+            "item": "https://YOUR-DOMAIN.example/categories/automation-analytics/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "GA4 Alternatives and Complementary Analytics Tools",
+            "item": "https://YOUR-DOMAIN.example/alternatives/ga4/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I import my GA4 history into another tool?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Partially at best. Some tools, including Matomo and Plausible, document Google Analytics import routes, but coverage varies and metric definitions differ, so treat imported history as a reference rather than continuous data."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a cookieless analytics tool automatically compliant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Cookieless measurement can reduce consent requirements in some jurisdictions, but compliance depends on your configuration, contracts and local law, so take legal advice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I remove GA4 if I add product analytics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually not. The two answer different questions, and GA4 remains the simplest way to feed conversions back to Google Ads."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When is an event pipeline worth paying for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "When the same events need to reach three or more destinations, or when you expect to change analytics vendors again and want to avoid re-tagging the site."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a free GA4 alternative realistic for a small business?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if you can self-host an open-source tool such as Matomo or Plausible's community edition, or if a product analytics free tier covers your volume. The hidden cost is the time spent maintaining a server."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <main id="main-content">

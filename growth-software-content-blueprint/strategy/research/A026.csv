@@ -1,18 +1,20 @@
 article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
-A026,Planable,https://planable.io/,official-site,2026-11-04,"Collaboration-first social planner with in-context client approvals, multi-level approval workflows, per-client workspaces and AI writing assistant",Needs verification,"Stated from prior knowledge; planable.io could not be fetched from the drafting environment (network restriction)"
-A026,Planable pricing model,https://planable.io/pricing/,official-pricing,2026-11-04,"Tiered plans; how users and workspaces are counted",Not stated,"No price or limit stated on page; reader directed to official pricing"
-A026,Sprout Social,https://sproutsocial.com/,official-site,2026-11-04,"Management suite with AI Assist for post copy and replies, inbox, reporting, approvals",Needs verification,Stated from prior knowledge
-A026,Sprout Social pricing model,https://sproutsocial.com/pricing/,official-pricing,2026-11-04,Per-seat pricing,Needs verification,"Pricing model only; no figures stated"
-A026,Hootsuite,https://www.hootsuite.com/,official-site,2026-11-04,"OwlyWriter AI for captions, ideas and rewrites inside composer",Needs verification,Stated from prior knowledge
-A026,Hootsuite pricing model,https://www.hootsuite.com/plans,official-pricing,2026-11-04,"Per-user plans; team and enterprise tiers via sales",Needs verification,"Pricing model only; no figures stated"
-A026,Buffer,https://buffer.com/,official-site,2026-11-04,"AI assistant in composer for ideas, rewrites and repurposing",Needs verification,"buffer.com could not be fetched from the drafting environment"
-A026,Buffer pricing model,https://buffer.com/pricing,official-pricing,2026-11-04,Pricing based on number of connected channels,Needs verification,"Pricing model only; no figures stated"
-A026,ContentStudio,https://contentstudio.io/,official-site,2026-11-04,"Content discovery, AI writing and image generation, planner, approvals, multiple workspaces on agency plans",Needs verification,Stated from prior knowledge
-A026,ContentStudio pricing model,https://contentstudio.io/pricing,official-pricing,2026-11-04,Tiered plans with AI credit allowances,Needs verification,"Pricing model only; no figures stated"
-A026,Later,https://later.com/,official-site,2026-11-04,"Visual planner and grid preview, AI caption tools",Needs verification,Stated from prior knowledge
-A026,Later pricing model,https://later.com/pricing/,official-pricing,2026-11-04,Plans tiered by social sets and users,Needs verification,"Pricing model only; no figures stated"
-A026,Canva,https://www.canva.com/,official-site,2026-11-04,"Magic Studio AI text, design and image generation, resize, brand kits, content planner scheduling",Needs verification,Stated from prior knowledge
-A026,Canva pricing model,https://www.canva.com/pricing/,official-pricing,2026-11-04,Per-person paid plans,Needs verification,"Pricing model only; no figures stated"
-A026,Predis.ai,https://predis.ai/,official-site,2026-11-04,"Generates posts, carousels and short videos with captions and hashtags; scheduling",Needs verification,"predis.ai could not be fetched from the drafting environment"
-A026,Predis.ai pricing model,https://predis.ai/pricing/,official-pricing,2026-11-04,Credit-based tiers,Needs verification,"Pricing model only; no figures stated"
-"A026","Affiliate program","","","2026-11-04","","Not confirmed","No affiliate links used"
+A026,Planable,https://planable.io/,official-site,2026-11-04,"Collaboration-first planner: in-context previews, multi-level client approvals, workspace per client, AI writing assistant",Needs verification,"planable.io blocked from drafting environment (proxy 403) on 2026-11-04; Firecrawl credits exhausted; stated qualitatively"
+A026,Planable pricing model,https://planable.io/pricing/,official-pricing,2026-11-04,Tiered plans; no prices or limits stated,Not stated,"Price and limits cut; reader directed to official pricing"
+A026,Sprout Social,https://sproutsocial.com/,official-site,2026-11-04,"AI Assist for posts and replies; inbox, listening, reporting, approvals",Needs verification,"Domain blocked from drafting environment; qualitative only"
+A026,Sprout Social pricing model,https://sproutsocial.com/pricing/,official-pricing,2026-11-04,Per-seat pricing,Needs verification,"Model only; no figures stated"
+A026,Hootsuite,https://www.hootsuite.com/,official-site,2026-11-04,"OwlyWriter AI for captions, ideas and rewrites in composer",Needs verification,"Domain blocked from drafting environment"
+A026,Hootsuite pricing model,https://www.hootsuite.com/plans,official-pricing,2026-11-04,"Per-user plans; larger tiers through sales",Needs verification,"Model only; no figures stated"
+A026,Buffer,https://buffer.com/,official-site,2026-11-04,"AI assistant in composer for ideas, rewrites and network reformatting",Needs verification,"Domain blocked from drafting environment"
+A026,Buffer pricing model,https://buffer.com/pricing,official-pricing,2026-11-04,Pricing based on connected channels,Needs verification,"Page tells reader to confirm current basis; no figures or free-plan limits stated"
+A026,ContentStudio,https://contentstudio.io/,official-site,2026-11-04,"Discovery, AI writing, AI images, planner, approvals, multiple workspaces",Needs verification,"Domain blocked from drafting environment"
+A026,ContentStudio pricing model,https://contentstudio.io/pricing,official-pricing,2026-11-04,Tiered plans with AI allowances,Needs verification,"Model only"
+A026,Later,https://later.com/,official-site,2026-11-04,"Visual planner, grid preview, AI caption tools",Needs verification,"Domain blocked from drafting environment"
+A026,Later pricing model,https://later.com/pricing/,official-pricing,2026-11-04,Tiered by social sets and users,Needs verification,"Model only"
+A026,Canva,https://www.canva.com/,official-site,2026-11-04,"Magic Studio text/design/image generation, resize, brand kits, content planner scheduling",Needs verification,"Domain blocked from drafting environment"
+A026,Canva pricing model,https://www.canva.com/pricing/,official-pricing,2026-11-04,Per-person paid plans,Needs verification,"Model only"
+A026,Predis.ai,https://predis.ai/,official-site,2026-11-04,"Generates posts, carousels, short videos with captions and hashtags; scheduling",Needs verification,"Domain blocked from drafting environment"
+A026,Predis.ai pricing model,https://predis.ai/pricing/,official-pricing,2026-11-04,Credit-based tiers,Needs verification,"Model only"
+A026,Client acceptance rate of AI drafts,,editorial-knowledge,2026-11-04,No rate claimed,Not stated,"Experience marker placed for human input; no testing performed"
+A026,Repurposing task,,editorial-knowledge,2026-11-04,Protocol for readers; not run by publisher,Not stated,"Explicitly labelled as not run"
+A026,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

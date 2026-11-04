@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A068,Apollo.io,https://www.apollo.io/pricing,official-pricing,2026-11-04,"Contact database, filters, enrichment and sequencing; per seat with credit allowances; free tier",Needs verification,"Fetch failed 2026-11-04 (Firecrawl credits exhausted; direct fetch blocked by network policy)"
+A068,Apollo internal-use terms,https://www.apollo.io/pricing,official-pricing,2026-11-04,Article tells agencies to read terms on internal vs client use,Needs verification,"Earlier v1 draft of A066 reported the pricing page says standard plans are for internal business use only; not re-checked, so article states it as a check-this instruction"
+A068,Hunter,https://hunter.io/pricing,official-pricing,2026-11-04,"Domain search, email finder and verifier; lightweight campaigns; tiers by searches and verifications; free plan",Needs verification,Fetch failed 2026-11-04
+A068,Snov.io,https://snov.io/pricing,official-pricing,2026-11-04,"Email finder, verifier and drip campaigns; credit-based tiers; free plan",Needs verification,Fetch failed 2026-11-04
+A068,BuiltWith,https://builtwith.com/plans,official-pricing,2026-11-04,"Technology tracking and lists of sites using a given technology; subscription tiers",Needs verification,Fetch failed 2026-11-04; plans URL should be confirmed
+A068,LinkedIn Sales Navigator,https://business.linkedin.com/sales-solutions/compare-plans,official-pricing,2026-11-04,"Advanced lead and account filters, saved lists, alerts, shared connections; per-seat tiers; no bulk contact export",Needs verification,Fetch failed 2026-11-04
+A068,LinkedIn rules on scraping and automation,https://www.linkedin.com/legal/user-agreement,official-docs,2026-11-04,User Agreement restricts scraping and automated access,Needs verification,Stated generally; not re-fetched
+A068,Lusha,https://www.lusha.com/pricing/,official-pricing,2026-11-04,"Extension and web app for emails and phones; credit tiers; free plan",Needs verification,Fetch failed 2026-11-04
+A068,Clay,https://www.clay.com/pricing,official-pricing,2026-11-04,"Tables chaining data providers, web research and AI steps; platform plans plus usage credits",Needs verification,Fetch failed 2026-11-04
+A068,All plan prices and credit allowances,,editorial-knowledge,2026-11-04,,Not stated,Deliberately cut because no pricing page could be fetched in this session
+A068,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

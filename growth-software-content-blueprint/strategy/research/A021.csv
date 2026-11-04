@@ -1,0 +1,17 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A021,Claude,https://claude.com/,official-site,2026-11-04,General AI assistant from Anthropic,Verified,claude.com reachable via WebFetch
+A021,Claude Pro price,https://claude.com/pricing,official-pricing,2026-11-04,"Pro $17/month billed annually ($200 up front) or $20 billed monthly",Verified,Fetched via WebFetch summary
+A021,Claude Team price and seat range,https://claude.com/pricing,official-pricing,2026-11-04,"Team standard seat $20/seat/month annual or $25 monthly; teams of 2 to 150",Verified,Premium seat $100/$125 not used on page
+A021,Claude Free Projects cap and Research availability,https://claude.com/pricing,official-pricing,2026-11-04,"Free: Projects up to 5, Research not included; Research on paid plans",Verified,
+A021,Claude Team data training,https://claude.com/pricing,official-pricing,2026-11-04,"Team: no model training on your content by default; individual plans show opt-out",Verified,Used in FAQ
+A021,Claude Projects,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,"Projects have own knowledge base and instructions; shareable with team members as viewers or editors on Team and Enterprise",Verified,
+A021,ChatGPT,https://openai.com/chatgpt/pricing/,official-pricing,2026-11-04,"Free tier plus per-user paid plans; custom GPTs, projects, web search, file analysis",Needs verification,"openai.com/chatgpt.com not reachable from session network (DNS blocked); no figures stated"
+A021,Writer,https://writer.com/plans/,official-pricing,2026-11-04,"Enterprise AI platform with style guide, terminology and knowledge features; per-user and enterprise quote",Needs verification,writer.com not reachable; no figures stated
+A021,Jasper,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Brand voice, knowledge, audiences, templates/agents, extension; per seat with trial and custom business tier",Needs verification,"jasper.ai not reachable from this session; A031 research log records same-day verified prices, which this page links to rather than restates"
+A021,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,"Content editor scoring, AI drafting, audits, Google Docs and WordPress extensions; tiered",Needs verification,surferseo.com not reachable; no figures stated
+A021,Writesonic,https://writesonic.com/pricing,official-pricing,2026-11-04,"SEO article generation, writing styles, AI visibility tracking; tiered",Needs verification,writesonic.com not reachable; see A031 log
+A021,Copy.ai,https://www.copy.ai/prices,official-pricing,2026-11-04,"GTM AI platform: chat plan plus workflow tiers; brand voice and shared knowledge",Needs verification,copy.ai not reachable; see A031 log
+A021,Grammarly,https://www.grammarly.com/plans,official-pricing,2026-11-04,"Free tier plus per-user plans; style guides and brand tones on business plans",Needs verification,grammarly.com not attempted after network blocks; no figures stated
+A021,Google position on AI-generated content,,editorial-knowledge,2026-11-04,Google assesses content on helpfulness and quality rather than production method,Needs verification,Stated generally in FAQ; add link to Google Search Central guidance before publication
+A021,Specific prices for non-Anthropic products,,editorial-knowledge,2026-11-04,,Not stated,Cut because vendor pages could not be fetched on 2026-11-04
+A021,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

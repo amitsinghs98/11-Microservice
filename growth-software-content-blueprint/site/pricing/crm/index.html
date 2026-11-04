@@ -3,9 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CRM Pricing: Seats, Add-Ons, Onboarding and Admin Cost | BRAND_NAME</title>
-  <meta name="description" content="CRM total cost of ownership for 5 and 15 seats: verified plan prices, billing terms, credits, onboarding, admin hours and a renewal checklist.">
+  <title>CRM Pricing: Total Cost of Seats, Add-Ons and Admin Time | BRAND_NAME</title>
+  <meta name="description" content="CRM pricing beyond the seat headline: 5-seat and 15-seat cost models, quote-only items, admin hours, contract questions and an annual renewal checklist.">
   <link rel="canonical" href="https://YOUR-DOMAIN.example/pricing/crm/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://YOUR-DOMAIN.example/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "CRM and Lead Generation Software: From Prospect Data to Qualified Pipeline",
+            "item": "https://YOUR-DOMAIN.example/categories/crm-lead-gen/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "CRM Pricing Explained: Seats, Onboarding, Add-Ons, and Admin Costs",
+            "item": "https://YOUR-DOMAIN.example/pricing/crm/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How much does a CRM cost per user?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It varies by vendor and tier. Pipedrive's published annual prices run from US$14 to US$79 per seat per month (checked 4 November 2026); confirm other vendors on their official pages."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is annual CRM billing worth it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes once headcount is stable, because annual rates are usually lower. Pay monthly while you're still validating fit or expect seat changes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How should I budget CRM admin time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Estimate monthly hours for field changes, workflow fixes, user changes and reporting, then multiply by a loaded hourly cost. Our models used 3 hours a month for 5 seats and 10 for 15 seats as illustrations, not benchmarks."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do free CRM plans avoid these costs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They remove license cost but not setup, admin or migration effort, and they cap users and features. Our comparison of free CRM plans for startups shows where those caps bite."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <main id="main-content">
@@ -13,260 +80,216 @@
       <header>
         <p>CRM, lead generation and sales intelligence</p>
         <h1>CRM Pricing Explained: Seats, Onboarding, Add-Ons, and Admin Costs</h1>
-        <p>A per-seat headline is the smallest part of what a CRM costs. This guide separates published prices from quote-only costs and models a 5-seat and a 15-seat team, including the admin hours nobody puts on the invoice.</p>
+        <p>CRM pricing is a total-cost question: the per-seat figure on a pricing page is usually the smallest line in year one once setup, add-ons and the hours someone spends running the system are counted. This guide shows how to model that total for a 5-seat and a 15-seat team.</p>
         <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
       </header>
 
       <aside aria-label="Editorial disclosure">
-        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. See how we evaluate software and our disclosure policy before launch.</p>
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
       </aside>
 
       <nav aria-labelledby="toc-heading">
         <h2 id="toc-heading">On this page</h2>
         <ol>
-          <li><a href="#quick-answer">Quick answer</a></li>
-          <li><a href="#pricing-models">How CRMs charge</a></li>
-          <li><a href="#published-prices">Published plan prices</a></li>
-          <li><a href="#billing-terms">Monthly versus annual billing</a></li>
-          <li><a href="#add-ons">Limits, add-ons and onboarding</a></li>
-          <li><a href="#scenarios">5-seat and 15-seat cost scenarios</a></li>
-          <li><a href="#free-vs-trial">Free plan versus trial</a></li>
-          <li><a href="#renewal">Renewal and next-tier triggers</a></li>
-          <li><a href="#contract-questions">Questions to ask sales</a></li>
-          <li><a href="#unknowns">What we could not verify</a></li>
-          <li><a href="#faqs">FAQs</a></li>
-          <li><a href="#review-cadence">Review cadence</a></li>
+          <li><a href="#how-is-crm-priced">How is CRM software priced?</a></li>
+          <li><a href="#what-it-really-costs">What does a CRM really cost beyond the seat price?</a></li>
+          <li><a href="#first-hand-experience">Why do CRM budgets overrun after year one?</a></li>
+          <li><a href="#published-vs-quote">Which costs are published and which are quote-only?</a></li>
+          <li><a href="#monthly-or-annual">Should you pay monthly or annually?</a></li>
+          <li><a href="#next-tier-triggers">What pushes you into the next tier?</a></li>
+          <li><a href="#five-seat-model">What does a 5-seat team pay in year one?</a></li>
+          <li><a href="#fifteen-seat-model">What does a 15-seat team pay in year one?</a></li>
+          <li><a href="#contract-questions">What should you ask sales before signing?</a></li>
+          <li><a href="#renewal-checklist">What belongs on the annual renewal checklist?</a></li>
+          <li><a href="#faq">What else do buyers ask about CRM pricing?</a></li>
+          <li><a href="#review-cadence">How often should you re-check CRM prices?</a></li>
         </ol>
       </nav>
 
-      <section id="quick-answer">
-        <h2>Quick answer</h2>
-        <p>In our hypothetical small-team model, licences are less than half of first-year CRM cost once setup and ongoing admin time are counted. In our hypothetical 5-seat model below, annual licences on mid-tier plans range from about $1,400 to $2,200, while assumed admin and setup time adds roughly $3,400.</p>
-        <p>The biggest swings come from three things: seat caps that force a tier jump, usage allowances such as credits or contacts, and quote-only items such as implementation and premium support. Compare those before you compare seat prices. If you are still choosing a product, start with our <a href="/best/crm-software-for-small-business/">small-business CRM shortlist</a>.</p>
-      </section>
-
-      <section id="pricing-models">
-        <h2>How CRMs charge</h2>
+      <section id="how-is-crm-priced">
+        <h2>How is CRM software priced?</h2>
+        <p>Most CRMs charge per user per month, with features unlocked in tiers, and some add usage meters such as contacts or credits on top. A minority charge a flat rate per organization, and open-source CRMs charge nothing for the license but leave hosting and admin to you.</p>
         <ul>
-          <li><strong>Per seat, per month.</strong> The common model, used by Zoho CRM, Capsule, HubSpot and Attio. Cost scales linearly with headcount.</li>
-          <li><strong>Flat rate per organization.</strong> Bitrix24 charges per organization, with a set number of users included in each tier. Cheap per head, but you pay for the whole bundle.</li>
-          <li><strong>Seats plus usage.</strong> Attio adds seat and workspace credits for AI and workflow features; HubSpot's Starter bundle lists HubSpot Credits. Usage can become the variable cost.</li>
-          <li><strong>Quote-only.</strong> Enterprise tiers, implementation services and premium support are often priced by sales, which is where budgets drift.</li>
-          <li><strong>Open source.</strong> No licence fee, but hosting and admin become the whole bill. Our <a href="/best/free-crm-software/">free CRM comparison for startups</a> covers this route.</li>
+          <li><strong>Per seat, tiered.</strong> The common model. Pipedrive, Zoho CRM, Capsule and Attio all sell per-user plans, so cost scales with headcount and with the tier the most demanding user needs.</li>
+          <li><strong>Per seat by product hub.</strong> HubSpot prices sales, marketing and service hubs separately, so the CRM you need may span more than one subscription.</li>
+          <li><strong>Seats plus usage.</strong> Credits for AI, enrichment or workflows, or marketing-contact tiers, become a second meter that can grow faster than headcount.</li>
+          <li><strong>Flat rate per organization.</strong> Bitrix24 bundles a set number of users into each tier, which is cheap per head if you'd fill the bundle.</li>
+          <li><strong>Quote-only.</strong> Enterprise editions, implementation and premium support are often priced by sales.</li>
         </ul>
+        <p>If you're still choosing a product rather than budgeting for one, start with our <a href="/best/crm-software-for-small-business/">shortlist of CRMs for small businesses</a>.</p>
       </section>
 
-      <section id="published-prices">
-        <h2>Published plan prices</h2>
-        <p>The table shows only figures we read on official pricing pages on 4 November 2026. Prices are in US dollars, exclude tax and can vary by region.</p>
+      <section id="what-it-really-costs">
+        <h2>What does a CRM really cost beyond the seat price?</h2>
+        <p>Total cost of ownership is licenses plus required hubs or add-ons, onboarding, support, integrations and internal admin time. For small teams, admin and setup time can match or exceed the license bill in year one.</p>
+        <ol>
+          <li><strong>Licenses:</strong> seats × monthly price × 12, at the tier your most demanding user needs.</li>
+          <li><strong>Required hubs and add-ons:</strong> lead capture, scheduling, document generation, extra pipelines or a marketing module sold separately.</li>
+          <li><strong>Minimum seats or bundles:</strong> some plans sell seats in fixed blocks or require a minimum count on higher tiers.</li>
+          <li><strong>Onboarding:</strong> a vendor fee, a partner implementation, or your own setup hours.</li>
+          <li><strong>Support:</strong> the included level versus paid premium support or a success manager.</li>
+          <li><strong>Integrations:</strong> middleware such as Zapier or Make, plus enrichment and scheduling tools the CRM doesn't include.</li>
+          <li><strong>Admin hours:</strong> fields, workflows, user changes, data clean-up and reporting, priced at a loaded internal hourly rate.</li>
+        </ol>
+        <p>Count admin as an operating cost even when nobody invoices it. A CRM that saves one admin hour a month can outweigh a sizeable seat-price gap.</p>
+      </section>
+
+      <section id="first-hand-experience">
+        <h2>Why do CRM budgets overrun after year one?</h2>
+        <p>Based on the product information reviewed, overruns usually come from tier jumps forced by one missing feature, usage meters that grow with the database, and first-year discounts that end at renewal. Seat growth alone is rarely the surprise, because teams expect it.</p>
+        <p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+      </section>
+
+      <section id="published-vs-quote">
+        <h2>Which costs are published and which are quote-only?</h2>
+        <p>Entry and mid-tier seat prices are usually published; implementation, premium support, enterprise editions and multi-year discounts usually aren't. Treat any quote-only figure as a negotiation input, not a fact you can budget from a pricing page.</p>
+        <p>Pipedrive is a clear example of a fully published ladder: its <a href="https://www.pipedrive.com/en/pricing" target="_blank" rel="noopener noreferrer">pricing page lists Lite at US$14, Growth at US$39, Premium at US$59 and Ultimate at US$79 per seat per month, billed annually</a> (checked 4 November 2026). The same page lists add-ons such as LeadBooster, Projects, Campaigns, Web Visitors and Smart Docs with separate starting-from prices, which is where a per-seat total starts to drift.</p>
+        <p>We couldn't re-confirm other vendors' current figures for this draft, so the table shows the pricing model and the cost lines to confirm, with a link to each official page.</p>
         <table>
-          <caption>Published CRM plan prices in USD, checked 4 November 2026</caption>
+          <caption>CRM pricing models and the cost lines to confirm, checked 4 November 2026</caption>
           <thead>
             <tr>
               <th scope="col">Vendor</th>
-              <th scope="col">Free plan</th>
-              <th scope="col">Paid tiers as published</th>
-              <th scope="col">Billing note</th>
+              <th scope="col">Pricing model</th>
+              <th scope="col">Published figures in this guide</th>
+              <th scope="col">Cost lines to confirm with the vendor</th>
+              <th scope="col">Official link</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th scope="row">Zoho CRM</th>
-              <td>Free for 3 users</td>
-              <td>Standard $14, Professional $23, Enterprise $40 per user per month</td>
-              <td>Page has a monthly and annual toggle; confirm which term applies</td>
+              <th scope="row">Pipedrive</th>
+              <td>Per seat, four tiers</td>
+              <td>US$14 / $39 / $59 / $79 per seat per month, billed annually</td>
+              <td>Monthly-billing rates; add-on prices and billing unit</td>
+              <td><a href="https://www.pipedrive.com/en/pricing" target="_blank" rel="noopener noreferrer">Pipedrive pricing</a></td>
             </tr>
             <tr>
-              <th scope="row">Capsule</th>
-              <td>Up to 2 users, 250 contacts</td>
-              <td>Starter $18, Growth $36, Advanced $54, Ultimate $72 per user per month billed annually</td>
-              <td>$22, $40, $60 and $75 billed monthly</td>
-            </tr>
-            <tr>
-              <th scope="row">Attio</th>
-              <td>Up to 3 seats</td>
-              <td>Plus $35 and Pro $79 per user per month billed annually; Enterprise custom</td>
-              <td>Plus $44 and Pro $99 billed monthly</td>
-            </tr>
-            <tr>
-              <th scope="row">HubSpot (Starter bundle)</th>
-              <td>Up to 2 users</td>
-              <td>Promotional $7 per seat per month shown next to $20 per seat per month</td>
-              <td>Promotion for new customers, for a limited time</td>
-            </tr>
-            <tr>
-              <th scope="row">Bitrix24</th>
-              <td>1 to 2 users</td>
-              <td>Basic $49 (5 users), Standard $99 (50 users), Professional $199 (100 users) per organization per month billed annually</td>
-              <td>$69, $144 and $289 billed monthly</td>
+              <th scope="row">HubSpot</th>
+              <td>Per seat by hub, plus contact tiers in marketing</td>
+              <td>See official pricing</td>
+              <td>Promotional versus renewal rate; onboarding fees on higher tiers; which hubs you need</td>
+              <td><a href="https://www.hubspot.com/pricing/sales" target="_blank" rel="noopener noreferrer">HubSpot pricing</a></td>
             </tr>
             <tr>
               <th scope="row">Salesforce</th>
+              <td>Per user by edition, annual contracts</td>
               <td>See official pricing</td>
-              <td>See official pricing</td>
-              <td>Not checked for this draft</td>
+              <td>Implementation partner cost; premium support; add-on clouds</td>
+              <td><a href="https://www.salesforce.com/sales/pricing/" target="_blank" rel="noopener noreferrer">Salesforce pricing</a></td>
             </tr>
             <tr>
-              <th scope="row">Pipedrive</th>
+              <th scope="row">Zoho CRM</th>
+              <td>Per user by edition</td>
               <td>See official pricing</td>
+              <td>Billing term behind displayed price; paid support; guided onboarding</td>
+              <td><a href="https://www.zoho.com/crm/zohocrm-pricing.html" target="_blank" rel="noopener noreferrer">Zoho CRM pricing</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Attio</th>
+              <td>Per seat plus usage credits</td>
               <td>See official pricing</td>
-              <td>Not checked for this draft</td>
+              <td>Seat caps per tier; credit allowances and top-up price</td>
+              <td><a href="https://attio.com/pricing" target="_blank" rel="noopener noreferrer">Attio pricing</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Bitrix24</th>
+              <td>Flat rate per organization</td>
+              <td>See official pricing</td>
+              <td>Users included per tier; monthly versus annual rate</td>
+              <td><a href="https://www.bitrix24.com/prices/" target="_blank" rel="noopener noreferrer">Bitrix24 prices</a></td>
             </tr>
           </tbody>
         </table>
-        <p>Sources: <a href="https://www.zoho.com/crm/zohocrm-pricing.html" target="_blank" rel="noopener noreferrer">Zoho CRM pricing</a>, <a href="https://capsulecrm.com/pricing/" target="_blank" rel="noopener noreferrer">Capsule pricing</a>, <a href="https://attio.com/pricing" target="_blank" rel="noopener noreferrer">Attio pricing</a>, <a href="https://www.hubspot.com/pricing/crm" target="_blank" rel="noopener noreferrer">HubSpot customer platform pricing</a> and <a href="https://www.bitrix24.com/prices/" target="_blank" rel="noopener noreferrer">Bitrix24 prices</a>, all checked 4 November 2026. For Salesforce and Pipedrive, use the <a href="https://www.salesforce.com/sales/pricing/" target="_blank" rel="noopener noreferrer">Salesforce sales pricing page</a> and the <a href="https://www.pipedrive.com/en/pricing" target="_blank" rel="noopener noreferrer">Pipedrive pricing page</a>.</p>
-        <p>HubSpot's higher tiers and Salesforce's editions are where most growing teams face the hardest pricing questions; our <a href="/compare/hubspot-vs-salesforce/">HubSpot versus Salesforce cost and fit analysis</a> goes deeper. Pipedrive buyers comparing tiers may also want our roundup of <a href="/alternatives/pipedrive/">pipeline-first alternatives to Pipedrive</a>.</p>
+        <p>HubSpot's higher tiers and Salesforce's editions are where growing teams face the hardest pricing questions; our <a href="/compare/hubspot-vs-salesforce/">HubSpot versus Salesforce analysis</a> goes deeper. Pipedrive buyers weighing tiers may also want our roundup of <a href="/alternatives/pipedrive/">pipeline-first Pipedrive alternatives</a>.</p>
       </section>
 
-      <section id="billing-terms">
-        <h2>Monthly versus annual billing</h2>
-        <p>Annual billing typically saves money but locks seats in. Capsule's Growth plan is $36 per user per month billed annually versus $40 billed monthly. Attio states a 20% discount on Plus and Pro for annual billing. Bitrix24 Basic is $49 per month billed annually (one payment of $588 a year) versus $69 billed monthly. All checked 4 November 2026.</p>
-        <p>Pay monthly while headcount is uncertain or you are still validating fit. Switch to annual once seat count is stable for two quarters, and ask whether seats can be reduced mid-term. Zoho's pricing page states customers are not bound by contracts and can pay monthly or yearly.</p>
+      <section id="monthly-or-annual">
+        <h2>Should you pay monthly or annually?</h2>
+        <p>Pay monthly while headcount or fit is uncertain, and switch to annual once your seat count has been stable for a couple of quarters. Annual billing is usually cheaper but commits you to the seats for the term.</p>
+        <p>The discount can be large: Pipedrive's pricing page advertises that annual billing can <a href="https://www.pipedrive.com/en/pricing" target="_blank" rel="noopener noreferrer">save up to 42%</a> (checked 4 November 2026). Before you commit, ask whether seats can be reduced mid-term, whether added seats are prorated, and whether the annual rate holds at renewal.</p>
       </section>
 
-      <section id="add-ons">
-        <h2>Limits, add-ons and onboarding</h2>
-        <h3>Usage allowances</h3>
-        <p>Attio lists 250, 1,500 and 10,000 workspace credits per month on Free, Plus and Pro, and sells 5,000 extra workspace credits for $85 a month, or $70 a month on annual billing (checked 4 November 2026). Capsule caps contacts at 30,000 on Starter, 60,000 on Growth and 120,000 on Advanced. HubSpot's Starter card lists 500 HubSpot Credits and 1,000 marketing contacts for Marketing Hub Starter.</p>
-        <h3>Seat caps that force tier jumps</h3>
-        <p>Attio Plus allows up to 10 seats, so an eleventh user moves you to Pro. Bitrix24 tiers include fixed user counts. Plan your 12-month headcount before choosing a tier.</p>
-        <h3>Onboarding and support</h3>
-        <p>Capsule's pricing page states it charges no setup or onboarding fee. Zoho offers paid support plans and guided onboarding through its Jumpstart programme, priced separately. Based on our editorial knowledge, HubSpot has charged one-time onboarding fees on some Professional and Enterprise subscriptions, and Salesforce implementations are often delivered by partners on quote; confirm both directly.</p>
-        <h3>Integrations and admin time</h3>
-        <p>Budget for middleware, enrichment and scheduling tools the CRM does not include, and for someone to maintain fields, workflows and permissions. That admin time is a real cost even when nobody invoices it.</p>
+      <section id="next-tier-triggers">
+        <h2>What pushes you into the next tier?</h2>
+        <p>The usual trigger is one feature a single team needs, such as a second pipeline, role-based permissions or automation, rather than the number of users. Because most tiers apply to every seat, that one feature reprices the whole team.</p>
+        <ul>
+          <li>A hire crosses a free-plan or tier seat cap.</li>
+          <li>You need multiple pipelines, custom objects or field-level permissions.</li>
+          <li>Automation, forecasting or custom reports sit one tier up.</li>
+          <li>Contacts, records or credits exceed the plan allowance.</li>
+          <li>A first-year promotional rate ends.</li>
+        </ul>
+        <p>Agencies running separate pipelines per service line hit the permissions trigger early; our <a href="/best/crm-for-marketing-agencies/">CRM shortlist for marketing agencies</a> weighs that in.</p>
       </section>
 
-      <section id="scenarios">
-        <h2>5-seat and 15-seat cost scenarios</h2>
-        <p>These scenarios are hypothetical. Licence figures use the published prices above. Admin is assumed at a loaded internal cost of $60 per hour. Setup is a one-off internal estimate. Taxes, integrations and paid onboarding are excluded.</p>
-        <h3>Scenario 1: 5 seats, mid-tier plan with automation</h3>
-        <table>
-          <caption>Hypothetical first-year cost for 5 seats</caption>
-          <thead>
-            <tr>
-              <th scope="col">Plan</th>
-              <th scope="col">Annual licences</th>
-              <th scope="col">Admin (3 hours a month)</th>
-              <th scope="col">Setup (20 hours)</th>
-              <th scope="col">First-year total</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Zoho CRM Professional at $23</th>
-              <td>$1,380</td>
-              <td>$2,160</td>
-              <td>$1,200</td>
-              <td>$4,740</td>
-            </tr>
-            <tr>
-              <th scope="row">Attio Plus, annual</th>
-              <td>$2,100</td>
-              <td>$2,160</td>
-              <td>$1,200</td>
-              <td>$5,460</td>
-            </tr>
-            <tr>
-              <th scope="row">Capsule Growth, annual</th>
-              <td>$2,160</td>
-              <td>$2,160</td>
-              <td>$1,200</td>
-              <td>$5,520</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>Admin and setup make up roughly 61% to 71% of the total here. A tool that saves one admin hour a month is worth $720 a year under these assumptions, which outweighs most seat-price gaps.</p>
-        <h3>Scenario 2: 15 seats, mid-tier plan with automation</h3>
-        <table>
-          <caption>Hypothetical first-year cost for 15 seats</caption>
-          <thead>
-            <tr>
-              <th scope="col">Plan</th>
-              <th scope="col">Annual licences</th>
-              <th scope="col">Admin (10 hours a month)</th>
-              <th scope="col">Setup (40 hours)</th>
-              <th scope="col">First-year total</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Zoho CRM Professional at $23</th>
-              <td>$4,140</td>
-              <td>$7,200</td>
-              <td>$2,400</td>
-              <td>$13,740</td>
-            </tr>
-            <tr>
-              <th scope="row">Capsule Growth, annual</th>
-              <td>$6,480</td>
-              <td>$7,200</td>
-              <td>$2,400</td>
-              <td>$16,080</td>
-            </tr>
-            <tr>
-              <th scope="row">Attio Pro, annual (Plus caps at 10 seats)</th>
-              <td>$14,220</td>
-              <td>$7,200</td>
-              <td>$2,400</td>
-              <td>$23,820</td>
-            </tr>
-          </tbody>
-        </table>
-        <p>At 15 seats the seat cap matters: Attio's Plus limit pushes the whole team onto Pro. Bitrix24's flat-rate Professional tier, $2,388 a year billed annually for up to 100 users, would undercut every per-seat option on licences, though you should weigh fit and admin effort, not just price. Agencies running several client pipelines should read our <a href="/best/crm-for-marketing-agencies/">CRM shortlist for marketing agencies</a>, as permissions often decide the tier.</p>
+      <section id="five-seat-model">
+        <h2>What does a 5-seat team pay in year one?</h2>
+        <p>On Pipedrive's published annual prices, a 5-seat team pays US$2,340 a year on Growth or US$3,540 on Premium before add-ons and tax. With our hypothetical setup and admin assumptions, first-year cost roughly doubles to US$5,700 or US$6,900.</p>
+        <p>Assumptions (hypothetical): annual billing; no paid add-ons; 20 hours of internal setup; 3 hours a month of ongoing admin; a loaded internal cost of US$60 an hour; tax excluded.</p>
+        <ul>
+          <li><strong>Growth:</strong> 5 × $39 × 12 = $2,340 licenses + $1,200 setup + $2,160 admin = <strong>$5,700</strong>.</li>
+          <li><strong>Premium:</strong> 5 × $59 × 12 = $3,540 licenses + $1,200 setup + $2,160 admin = <strong>$6,900</strong>.</li>
+        </ul>
+        <p>Admin and setup are 59% of the Growth total and 49% of the Premium total under these assumptions. That's the case for weighting admin effort as heavily as seat price when you compare vendors. To compare another CRM, swap in its published seat price and add any quote-only onboarding fee as a separate line.</p>
       </section>
 
-      <section id="free-vs-trial">
-        <h2>Free plan versus trial</h2>
-        <p>Free plans (Zoho, Capsule, Attio, HubSpot and Bitrix24 all list one) suit evaluation with real data but carry caps. Trials unlock paid features for a fixed window: Capsule and Attio each list 14-day trials (checked 4 November 2026). Run your trial against one real pipeline, and check what happens to data when it ends.</p>
-      </section>
-
-      <section id="renewal">
-        <h2>Renewal and next-tier triggers</h2>
-        <p>Common triggers for a price rise: a new hire crossing a seat cap, needing a second pipeline, role-based permissions, contacts above the plan limit, credits running out, or a first-year promotion ending. HubSpot was advertising discounted Starter pricing for new customers when we checked, so ask for the renewal rate in writing.</p>
-        <h3>Annual renewal checklist</h3>
-        <ol>
-          <li>Count active users over the last 90 days and remove idle seats.</li>
-          <li>Compare contacts, records and credits used against plan limits.</li>
-          <li>List features you pay for but have not used.</li>
-          <li>Total admin hours spent on the CRM this year.</li>
-          <li>Request the renewal quote 60 days before the term ends.</li>
-          <li>Check whether integrations or add-ons renew on separate dates.</li>
-        </ol>
-        <p>A wider subscription review helps too; our <a href="/guides/marketing-stack-audit/">marketing stack audit method</a> shows how to find duplicate tools.</p>
+      <section id="fifteen-seat-model">
+        <h2>What does a 15-seat team pay in year one?</h2>
+        <p>At 15 seats, Pipedrive's published annual prices give US$7,020 on Growth and US$10,620 on Premium. Adding hypothetical setup and admin time brings first-year totals to about US$16,620 and US$20,220.</p>
+        <p>Assumptions (hypothetical): annual billing; 40 hours of setup; 10 hours a month of admin, because more users mean more permission changes, field requests and report maintenance; US$60 an hour loaded cost; no add-ons; tax excluded.</p>
+        <ul>
+          <li><strong>Growth:</strong> 15 × $39 × 12 = $7,020 + $2,400 setup + $7,200 admin = <strong>$16,620</strong>.</li>
+          <li><strong>Premium:</strong> 15 × $59 × 12 = $10,620 + $2,400 setup + $7,200 admin = <strong>$20,220</strong>.</li>
+        </ul>
+        <p>Two things change at this size. Tier choice now moves the license bill by US$3,600 a year, so it's worth confirming whether every seat truly needs the higher tier. And quote-only costs start to matter: a vendor implementation fee or a premium support plan, both outside these figures, can shift the ranking between vendors. If marketing automation runs on the same platform, layer in contact-based pricing using our <a href="/pricing/marketing-automation/">marketing automation pricing guide</a>.</p>
       </section>
 
       <section id="contract-questions">
-        <h2>Questions to ask sales</h2>
+        <h2>What should you ask sales before signing?</h2>
+        <p>Ask for every cost that isn't on the pricing page in writing, and ask what the price will be at renewal. Those two requests surface most of the hidden spend.</p>
         <ul>
           <li>Is there a seat minimum, and can seats be reduced mid-term?</li>
-          <li>Which features require a separate hub, add-on or higher tier?</li>
-          <li>Is onboarding mandatory, and what does it include?</li>
-          <li>Which support level is included, and what does premium support cost?</li>
-          <li>Is the quoted price a promotion, and what is the renewal price?</li>
-          <li>What are the API, storage, contact and credit limits?</li>
-          <li>Can we export all data, including activities, if we leave?</li>
+          <li>Which features we need require another hub, add-on or tier?</li>
+          <li>Is onboarding mandatory, what does it include, and what does it cost?</li>
+          <li>What support level is included, and what does premium support cost?</li>
+          <li>Is this a promotional rate, and what is the renewal price?</li>
+          <li>What are the API, storage, contact and credit limits, and the overage price?</li>
+          <li>Can we export all data, including activities and email history, if we leave?</li>
         </ul>
-        <p>If you run marketing automation in the same platform, compare contact-based pricing using our <a href="/pricing/marketing-automation/">marketing automation pricing guide</a>.</p>
       </section>
 
-      <section id="unknowns">
-        <h2>What we could not verify</h2>
-        <p>We did not confirm current Salesforce or Pipedrive prices, HubSpot Professional and Enterprise pricing or onboarding fees, or the billing term behind Zoho's displayed figures. Treat any number you hear for these as a quote to check, not a fact from this page.</p>
+      <section id="renewal-checklist">
+        <h2>What belongs on the annual renewal checklist?</h2>
+        <p>Review usage, unused features and admin hours 60 to 90 days before the term ends, so you negotiate from data rather than from the renewal quote. The checklist below takes an afternoon.</p>
+        <ol>
+          <li>Count users active in the last 90 days and remove idle seats.</li>
+          <li>Compare contacts, records and credits used against plan limits.</li>
+          <li>List paid features and add-ons nobody used.</li>
+          <li>Total the admin hours spent on the CRM this year.</li>
+          <li>Check whether add-ons or integrations renew on separate dates.</li>
+          <li>Request the renewal quote early and compare it with the current published price.</li>
+        </ol>
+        <p>A wider subscription review often finds overlap between the CRM and other tools; our <a href="/guides/marketing-stack-audit/">method for auditing a marketing stack</a> shows how.</p>
       </section>
 
-      <section id="faqs">
-        <h2>FAQs</h2>
-        <h3>What does a CRM cost per user?</h3>
-        <p>Among the plans used in our scenarios, licences ranged from $23 (Zoho Professional) to $79 (Attio Pro, annual) per user per month, based on prices checked 4 November 2026. Flat-rate tools such as Bitrix24 are far cheaper per head.</p>
-        <h3>Is annual billing worth it?</h3>
-        <p>Once headcount is stable. Capsule and Attio both price annual billing lower, but you commit to seats for the year.</p>
-        <h3>How should I budget admin time?</h3>
-        <p>Estimate hours a month for field changes, workflow fixes, user changes and reporting, then multiply by a loaded hourly cost. Our scenarios used 3 hours for 5 seats and 10 hours for 15 seats as illustrations. For agency-specific setup, see <a href="/guides/choose-crm-for-marketing-agency/">how an agency should evaluate a CRM</a>.</p>
+      <section id="faq">
+        <h2>What else do buyers ask about CRM pricing?</h2>
+        <p>Most questions are about per-user cost, billing terms and budgeting admin. Short answers follow.</p>
+        <h3>How much does a CRM cost per user?</h3>
+        <p>It varies by vendor and tier. Pipedrive's published annual prices run from US$14 to US$79 per seat per month (checked 4 November 2026); confirm other vendors on their official pages.</p>
+        <h3>Is annual CRM billing worth it?</h3>
+        <p>Yes once headcount is stable, because annual rates are usually lower. Pay monthly while you're still validating fit or expect seat changes.</p>
+        <h3>How should I budget CRM admin time?</h3>
+        <p>Estimate monthly hours for field changes, workflow fixes, user changes and reporting, then multiply by a loaded hourly cost. Our models used 3 hours a month for 5 seats and 10 for 15 seats as illustrations, not benchmarks.</p>
+        <h3>Do free CRM plans avoid these costs?</h3>
+        <p>They remove license cost but not setup, admin or migration effort, and they cap users and features. Our comparison of <a href="/best/free-crm-software/">free CRM plans for startups</a> shows where those caps bite.</p>
       </section>
 
       <section id="review-cadence">
-        <h2>Review cadence</h2>
-        <p>Prices on this page should be re-checked every 60 to 90 days, and immediately after a vendor announces a packaging change. Readers and vendors can submit evidence-based corrections. For related categories, visit our <a href="/categories/crm-lead-gen/">CRM and lead generation software hub</a>.</p>
+        <h2>How often should you re-check CRM prices?</h2>
+        <p>Re-check every 60 to 90 days, and immediately after a vendor announces new packaging. Readers and vendors can submit evidence-based corrections to this page.</p>
+        <p>Agencies should pair this budget with our walkthrough on <a href="/guides/choose-crm-for-marketing-agency/">how a marketing agency should evaluate a CRM</a>. For related categories, visit the <a href="/categories/crm-lead-gen/">CRM and lead generation software hub</a>.</p>
       </section>
     </article>
   </main>

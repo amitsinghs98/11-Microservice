@@ -7,6 +7,71 @@
   <meta name="description" content="Six workflow automation tools for marketing agencies, judged on client separation, error handling, permissions and what 1,000 or 10,000 tasks a month costs.">
   <link rel="canonical" href="https://YOUR-DOMAIN.example/best/workflow-automation-tools-for-marketing-agencies/">
   <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://YOUR-DOMAIN.example/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Marketing Automation and Analytics Software: Workflows, Measurement, CRO, and Distribution",
+            "item": "https://YOUR-DOMAIN.example/categories/automation-analytics/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Best Workflow Automation Tools for Marketing Agencies",
+            "item": "https://YOUR-DOMAIN.example/best/workflow-automation-tools-for-marketing-agencies/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should we run every client in one automation account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Separate clients with folders, projects or teams so their data and credentials stay isolated. For larger clients, have them own the account and grant your agency access."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is self-hosted n8n cheaper for an agency?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The licence line can be lower, but you take on server management, security patching and on-call time. It suits agencies that already employ someone who runs infrastructure."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do failed runs count against our allowance?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zapier's pricing page says failed actions don't count as tasks. Check each other vendor's documentation for how retries and partial runs are billed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can account managers safely edit live client workflows?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Only with guardrails: a staging copy, version history and a rule that someone reviews changes to revenue-critical flows. Check which plan includes shared workspaces and permissions before you hand over edit rights."
+            }
+          }
+        ]
+      }
+    ]
+  }
   </script>
 </head>
 <body>
@@ -57,7 +122,7 @@
       <section id="agency-needs">
         <h2>What does an agency need that an in-house team doesn't?</h2>
         <p>An agency needs to keep each client's workflows, credentials and logs apart, see failures across every account in one place, and bill for a platform whose cost moves with client volume. An in-house team can tolerate one shared account and one person who knows how it works; an agency can't.</p>
-        <p>That shifts the criteria. Connector count still matters, but so do folders or projects per client, shared connections that don't depend on one employee's login, retry behavior, how long run history is kept and which plan unlocks multi-user access. If credentials are the weak point, our guide to <a href="/best/password-management-tools-for-digital-agencies/">password management tools for agencies</a> covers the access side. If you're still deciding between a connector tool and a full nurture platform, start with our <a href="/best/marketing-automation-software/">marketing automation software guide for small teams</a>.</p>
+        <p>That shifts the criteria. Connector count still matters, but so do folders or projects per client, shared connections that don't depend on one employee's login, retry behavior, how long run history is kept and which plan unlocks multi-user access. If credentials are the weak point, fix access with a shared password manager before you automate anything. If you're still deciding between a connector tool and a full nurture platform, start with our <a href="/best/marketing-automation-software/">marketing automation software guide for small teams</a>.</p>
       </section>
 
       <section id="how-we-chose">
@@ -129,7 +194,7 @@
         <ul>
           <li><strong>Lead routing:</strong> a form or ad lead is enriched, written to the client's CRM and sent to the right rep. When rules get complex, dedicated <a href="/best/lead-routing-and-scheduling-software/">lead routing and scheduling software</a> may beat a homemade flow, and the CRM itself is covered in our list of <a href="/best/crm-for-marketing-agencies/">CRMs for agency client accounts</a>.</li>
           <li><strong>Reporting:</strong> pulling weekly channel figures into a sheet and posting a summary. A <a href="/best/white-label-reporting-platforms-for-digital-agencies/">white-label reporting platform</a> or proper <a href="/best/marketing-analytics-software/">marketing analytics software</a> is often cheaper than maintaining a fragile multi-step flow.</li>
-          <li><strong>Content operations:</strong> an approved brief creates a doc, assigns a writer and schedules review. Relay.app's approvals fit here, as does dedicated <a href="/best/content-workflow-software-for-marketing-agencies/">content workflow software for agencies</a>.</li>
+          <li><strong>Content operations:</strong> an approved brief creates a doc, assigns a writer and schedules review. Relay.app's approvals fit here, though a dedicated content workflow tool may already handle the hand-offs.</li>
           <li><strong>Alerts:</strong> budget pacing, broken tracking or a form that stops submitting. Alerts cost little in tasks, but a silent failure costs a client's trust.</li>
         </ul>
       </section>

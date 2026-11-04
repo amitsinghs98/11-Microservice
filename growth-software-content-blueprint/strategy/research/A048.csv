@@ -1,0 +1,15 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A048,Source retrieval blocked during drafting,,editorial-knowledge,2026-11-04,"Vendor domains refused by session network policy and Firecrawl credits exhausted; no official page could be fetched",Not stated,"All prices, profile limits and event allowances cut; re-fetch before publication"
+A048,Customer.io,https://customer.io/,official-site,2026-11-04,"Event- and attribute-driven journeys via API, SDKs or pipeline; branching on later behavior; goals; transactional messages; multiple channels",Needs verification,
+A048,Customer.io pricing model,https://customer.io/pricing/,official-pricing,2026-11-04,Tiered by profiles and features,Needs verification,
+A048,Loops,https://loops.so/,official-site,2026-11-04,"SaaS-focused; event-triggered loops, transactional email, product announcements",Needs verification,
+A048,Loops pricing model,https://loops.so/pricing,official-pricing,2026-11-04,Tiered by contacts,Needs verification,
+A048,Klaviyo,https://www.klaviyo.com/,official-site,2026-11-04,"Flows on store data (orders, browsing, carts) from Shopify and others; predictive fields; SMS",Needs verification,
+A048,Klaviyo pricing model,https://www.klaviyo.com/pricing,official-pricing,2026-11-04,Scales with active profiles,Needs verification,
+A048,HubSpot Marketing Hub,https://www.hubspot.com/pricing/marketing,official-pricing,2026-11-04,"Workflows on CRM records; deeper automation and custom events on higher tiers; seats plus marketing contacts",Needs verification,hubspot.com refused by proxy
+A048,ActiveCampaign,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,"Visual automation builder, sales CRM, site and event tracking; tiered by contacts and plan",Needs verification,
+A048,Ortto,https://ortto.com/pricing/,official-pricing,2026-11-04,"Formerly Autopilot; journeys, customer data layer, audiences, analytics",Needs verification,
+A048,Braze,https://www.braze.com/,official-site,2026-11-04,"Cross-channel orchestration (email, push, in-app, SMS) for large consumer apps; quote-based",Needs verification,
+A048,Iterable,https://iterable.com/,official-site,2026-11-04,"Cross-channel journeys with experimentation and AI-assisted optimization; quote-based",Needs verification,
+A048,Sample lifecycle map,,editorial-knowledge,2026-11-04,Hypothetical five-stage SaaS map labelled as such,Needs verification,Editorial example; no vendor claim
+A048,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

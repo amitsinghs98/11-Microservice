@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A039,Best-of-N consistency check for hallucinations,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,official-docs,2026-11-04,"Run the same prompt multiple times and compare outputs; inconsistencies could indicate hallucinations",Verified,
+A039,Claude can hallucinate its capabilities,https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on,official-docs,2026-11-04,"In an attempt to be a helpful assistant, Claude can sometimes hallucinate its capabilities",Verified,Fetched page did not explicitly discuss broken links; broken-link red flag stated without citation
+A039,Scorecard thresholds (11 of 14; hard gates),,editorial-knowledge,2026-11-04,Editorial recommendation for pass/fail,Needs verification,Presented as editorial recommendation not data
+A039,AI detectors are not proof of authorship,,editorial-knowledge,2026-11-04,"Detector scores are probabilistic, can flag human text and miss edited machine text",Needs verification,General statement; no statistics given; vendor/third-party sources not reachable from drafting environment
+A039,Content optimization scores measure term coverage,,editorial-knowledge,2026-11-04,General description of content scoring tools,Needs verification,No specific product claim
+A039,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

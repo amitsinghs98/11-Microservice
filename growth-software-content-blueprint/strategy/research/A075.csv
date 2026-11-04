@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A075,Clay (official pricing),https://www.clay.com/pricing,official-pricing,2026-11-04,"Credit-based plans; spreadsheet-style workspace; multi-provider waterfall enrichment; AI columns; integrations to CRMs and sequencers",Needs verification,Fetch blocked on 2026-11-04 (scraper out of credits; host denied by session network policy). No figures published
+A075,Apollo.io (official pricing),https://www.apollo.io/pricing,official-pricing,2026-11-04,"Per-seat tiers with credit allowances; database, enrichment, sequences, CRM sync, AI writing assistance",Needs verification,Fetch blocked; no figures published
+A075,Apollo technology (technographic) filter,https://www.apollo.io/pricing,official-pricing,2026-11-04,Technology filter availability by plan,Needs verification,"Hedged on page (""if your plan and coverage support it"")"
+A075,Credit-consumption worked example (300 vs ~1320 units),,editorial-knowledge,2026-11-04,Illustrative unit weights stated as not vendor rates,Needs verification,Arithmetic on hypothetical assumptions only
+A075,Vendor credit rates per step or reveal,,editorial-knowledge,2026-11-04,Deliberately omitted,Not stated,Readers pointed to official pricing
+A075,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

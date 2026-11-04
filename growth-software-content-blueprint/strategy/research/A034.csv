@@ -1,0 +1,17 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A034,Writesonic,https://writesonic.com/pricing,official-pricing,2026-11-04,AI search visibility platform with AI article generation and site audits,Verified,"Fetched 2026-11-04 in A031 v1 drafting run; writesonic.com not reachable from this run, not re-fetched"
+A034,Writesonic plan prices and limits,https://writesonic.com/pricing,official-pricing,2026-11-04,"Starter/Basic/Growth $79/$199/$399 per month billed annually; users 1/2/3; prompts 50/100/200; AI articles 15/25/50 per month",Verified,Carried from A031 log
+A034,Writesonic Enterprise-only features,https://writesonic.com/pricing,official-pricing,2026-11-04,"Content optimization, GA4, Looker Studio, SSO, 9 AI platforms on Enterprise; Search Console and WordPress on all plans",Verified,Carried from A031 log
+A034,Writesonic add-on users,https://writesonic.com/pricing,official-pricing,2026-11-04,$50 per user per month on Basic and Growth,Verified,Carried from A031 log
+A034,Writesonic free trial,https://writesonic.com/pricing,official-pricing,2026-11-04,"Free trial, no credit card needed",Verified,Carried from A031 log
+A034,Writesonic per-article arithmetic,https://writesonic.com/pricing,editorial-knowledge,2026-11-04,"$79/15 = about $5.27; $399/50 = about $7.98; annual $948 and $4,788",Verified,Derived from verified prices
+A034,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,Content optimization with live on-page scoring; subscription tiers,Needs verification,surferseo.com not reachable; no prices stated
+A034,Clearscope,https://www.clearscope.io/pricing,official-pricing,2026-11-04,Content grading for editorial teams,Needs verification,Not reachable; no prices stated
+A034,Frase,https://www.frase.io/pricing,official-pricing,2026-11-04,Research briefs and SEO writing,Needs verification,Not reachable; no prices stated
+A034,Profound,https://www.tryprofound.com/,official-site,2026-11-04,Dedicated AI search visibility tracking,Needs verification,Not reachable; no prices stated
+A034,Peec AI,https://peec.ai/pricing,official-pricing,2026-11-04,AI search prompt tracking,Needs verification,Not reachable; no prices stated
+A034,Semrush AI visibility,https://www.semrush.com/prices/,official-pricing,2026-11-04,SEO suite with AI visibility reporting,Needs verification,Not reachable; no prices or plan inclusion stated
+A034,Ahrefs AI visibility,https://ahrefs.com/pricing,official-pricing,2026-11-04,SEO suite with AI visibility reporting,Needs verification,Not reachable; no prices or plan inclusion stated
+A034,Claude Pro and Team,https://claude.com/pricing,official-pricing,2026-11-04,"Pro $17/mo annual ($200 up front) or $20 monthly; Team standard $20/seat/mo annual, 2 to 150 seats",Verified,Fetched in this run via WebFetch
+A034,Jasper Pro,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"$59/seat/mo billed yearly; 2 Brand Voices, 5 Knowledge assets",Verified,Carried from A031 log (jasper.ai not reachable in this run)
+A034,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

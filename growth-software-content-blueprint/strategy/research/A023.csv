@@ -1,0 +1,14 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A023,Claude,https://claude.com/,official-site,2026-11-04,General AI assistant from Anthropic,Verified,
+A023,Claude web search and Research availability,https://claude.com/pricing,official-pricing,2026-11-04,"Web search on all plans; Research on paid plans, not Free",Verified,Fetched via WebFetch summary
+A023,Claude Pro price,https://claude.com/pricing,official-pricing,2026-11-04,"Pro $17/month billed annually or $20 monthly",Verified,
+A023,Claude Projects,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,Projects hold instructions and reference files usable as a brief template,Verified,
+A023,Frase,https://www.frase.io/pricing,official-pricing,2026-11-04,"SERP research, question extraction, outline builder, AI writing and scoring; tiered",Needs verification,frase.io not reachable from session network; no figures stated
+A023,Clearscope,https://www.clearscope.io/pricing,official-pricing,2026-11-04,"Content reports with term recommendations; Google Docs add-on and WordPress plugin; tiered",Needs verification,Not fetched after network blocks; no figures stated
+A023,MarketMuse,https://www.marketmuse.com/pricing/,official-pricing,2026-11-04,"Topic modeling, inventory and gap analysis, briefs; higher tiers via sales",Needs verification,Not fetched; no figures stated
+A023,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,"Content editor guidelines from top-ranking pages, scoring, AI drafting, Google Docs and WordPress extensions; tiered",Needs verification,surferseo.com not reachable; no figures stated
+A023,Semrush,https://www.semrush.com/prices/,official-pricing,2026-11-04,"Content recommendations from top-ranking pages and SEO writing assistant; plan or add-on dependent",Needs verification,Not fetched; feature names kept generic
+A023,Perplexity,https://www.perplexity.ai/pro,official-pricing,2026-11-04,"Cited answers; deeper research mode on paid plans; free tier plus paid plans",Needs verification,Not fetched; no figures stated
+A023,Brief workflow and QA checklist,,editorial-knowledge,2026-11-04,Editorial process guidance; no product claims,Verified,
+A023,Specific prices for non-Anthropic products,,editorial-knowledge,2026-11-04,,Not stated,Cut because vendor pages could not be fetched on 2026-11-04
+A023,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

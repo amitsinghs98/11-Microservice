@@ -1,0 +1,17 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A049,Source retrieval blocked during drafting,,editorial-knowledge,2026-11-04,"Vendor domains refused by session network policy and Firecrawl credits exhausted; no official page could be fetched",Not stated,"All prices, free tiers, retention periods and per-1,000 rates cut; 100k and 1m scenarios given as a method only"
+A049,Postmark,https://postmarkapp.com/,official-site,2026-11-04,"Owned by ActiveCampaign; transactional-first; message streams separate transactional and broadcast; API, SMTP, templates, activity logs, webhooks, public status page",Needs verification,
+A049,Postmark pricing model,https://postmarkapp.com/pricing,official-pricing,2026-11-04,Monthly volume tiers; retention options,Needs verification,
+A049,Amazon SES,https://aws.amazon.com/ses/,official-site,2026-11-04,"API and SMTP; configuration sets for event publishing; Virtual Deliverability Manager; sandbox until production access granted",Needs verification,
+A049,Amazon SES pricing model,https://aws.amazon.com/ses/pricing/,official-pricing,2026-11-04,Pay per message plus optional features,Needs verification,
+A049,SendGrid,https://sendgrid.com/,official-site,2026-11-04,"Part of Twilio; email API and SMTP relay; marketing campaigns product; event webhooks, templates, subusers, dedicated IPs on higher tiers",Needs verification,
+A049,SendGrid pricing model,https://sendgrid.com/en-us/pricing,official-pricing,2026-11-04,Volume tiers,Needs verification,
+A049,Mailgun,https://www.mailgun.com/,official-site,2026-11-04,"Owned by Sinch; API and SMTP, inbound routing, logs, webhooks; validation and inbox placement tools in product family",Needs verification,
+A049,Mailgun pricing model,https://www.mailgun.com/pricing/,official-pricing,2026-11-04,Volume tiers; retention varies by plan,Needs verification,
+A049,Resend,https://resend.com/,official-site,2026-11-04,"API-first; from the React Email team; SDKs, webhooks, templates as code",Needs verification,
+A049,Resend pricing model,https://resend.com/pricing,official-pricing,2026-11-04,Volume tiers,Needs verification,
+A049,MailerSend,https://www.mailersend.com/,official-site,2026-11-04,"From the MailerLite company; API and SMTP, drag-and-drop and HTML template editors, inbound routing, analytics",Needs verification,
+A049,MailerSend pricing model,https://www.mailersend.com/pricing,official-pricing,2026-11-04,Volume tiers,Needs verification,
+A049,Brevo,https://www.brevo.com/pricing/,official-pricing,2026-11-04,"Formerly Sendinblue; marketing campaigns plus transactional API and SMTP",Needs verification,
+A049,"Transactional vs promotional separation, API vs SMTP, dedicated IP guidance",,editorial-knowledge,2026-11-04,General practice; no statistics,Needs verification,
+A049,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

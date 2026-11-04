@@ -1,0 +1,16 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A047,Source retrieval blocked during drafting,,editorial-knowledge,2026-11-04,"Vendor domains refused by session network policy and Firecrawl credits exhausted; no official page could be fetched",Not stated,"All prices, revenue-share percentages and subscriber limits cut; re-fetch before publication"
+A047,Kit,https://kit.com/,official-site,2026-11-04,"Formerly ConvertKit; editor, tagging, visual automations, landing pages, digital products and paid newsletters, recommendation network",Needs verification,
+A047,Kit pricing model,https://kit.com/pricing,official-pricing,2026-11-04,Tiered by subscriber count,Needs verification,
+A047,beehiiv,https://www.beehiiv.com/,official-site,2026-11-04,"Web archive, referral program, recommendations, paid subscriptions, ad network; features gated by plan",Needs verification,
+A047,beehiiv pricing model,https://www.beehiiv.com/pricing,official-pricing,2026-11-04,Tiered by subscribers and features,Needs verification,
+A047,Ghost,https://ghost.org/,official-site,2026-11-04,"Open source; memberships, newsletters, paid tiers via Stripe; self-host or Ghost(Pro); positions itself as taking no revenue cut",Needs verification,
+A047,Ghost pricing model,https://ghost.org/pricing/,official-pricing,2026-11-04,Hosted plans by audience size or self-hosted,Needs verification,
+A047,Substack,https://substack.com/,official-site,2026-11-04,"Free to publish; takes a share of paid subscription revenue; app and recommendations; list export",Needs verification,Percentage deliberately not stated
+A047,Buttondown,https://buttondown.com/,official-site,2026-11-04,"Markdown editor, API, custom domains, paid subscriptions via Stripe",Needs verification,
+A047,Buttondown pricing model,https://buttondown.com/pricing,official-pricing,2026-11-04,Tiered by subscribers,Needs verification,
+A047,MailerLite,https://www.mailerlite.com/,official-site,2026-11-04,"Drag-and-drop editor, automations, landing pages, free tier",Needs verification,
+A047,MailerLite pricing model,https://www.mailerlite.com/pricing,official-pricing,2026-11-04,Tiered by subscribers,Needs verification,
+A047,HubSpot Marketing Hub,https://www.hubspot.com/pricing/marketing,official-pricing,2026-11-04,"Pricing by seats and marketing contacts; email activity on CRM records",Needs verification,hubspot.com also refused by proxy
+A047,"Open-rate reliability, double opt-in and migration steps",,editorial-knowledge,2026-11-04,General practice; no statistics,Needs verification,
+A047,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

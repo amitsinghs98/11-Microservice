@@ -1,0 +1,17 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A037,Claude,https://claude.com/pricing,official-pricing,2026-11-04,Official pricing page for all Claude plans,Verified,Fetched 2026-11-04
+A037,Claude Free,https://claude.com/pricing,official-pricing,2026-11-04,"$0; limited usage reset every 5 hours and every week",Verified,
+A037,Claude Pro,https://claude.com/pricing,official-pricing,2026-11-04,"$20 if billed monthly; $17/month with annual subscription ($200 billed up front)",Verified,Annual saving ~17% computed by editor
+A037,Claude Max,https://claude.com/pricing,official-pricing,2026-11-04,"$100/month; 5x Pro usage",Verified,v1 draft listed Max at $100 and $200; corrected: $200 tier is now Ultra
+A037,Claude Ultra,https://claude.com/pricing,official-pricing,2026-11-04,"$200/month; 10x Pro usage every week",Verified,
+A037,Claude Team seats,https://claude.com/pricing,official-pricing,2026-11-04,"2 to 150 seats; standard $25 monthly / $20 annual; premium $125 monthly / $100 annual; premium 5x standard usage",Verified,Used in Workloads B and C
+A037,Claude Enterprise,https://claude.com/pricing,official-pricing,2026-11-04,"US$20/seat/month billed annually; 20 seat minimum; usage at API rates",Verified,
+A037,Claude tax and usage-limit statements,https://claude.com/pricing,official-pricing,2026-11-04,"Prices exclude applicable tax; limit speed depends on model, chat length and file size",Verified,
+A037,Claude SSO and audit logs by plan,https://claude.com/pricing,official-pricing,2026-11-04,"SSO on Team and Enterprise; audit logs Enterprise only",Verified,
+A037,Scenario editing rate and hours,,editorial-knowledge,2026-11-04,"$50/hour blended rate; 2.5 h/article, 10 min/asset, 1 h/video, 5 min/image",Needs verification,Illustrative assumptions labelled hypothetical on page; not market data
+A037,ChatGPT pricing,https://openai.com/chatgpt/pricing/,official-pricing,2026-11-04,Per-user plans with team and enterprise tiers,Not stated,openai.com not reachable from drafting environment; no figures given
+A037,Jasper pricing,https://www.jasper.ai/pricing,official-pricing,2026-11-04,Per-seat feature tiers,Not stated,Not reachable; no figures given
+A037,Writesonic pricing,https://writesonic.com/pricing,official-pricing,2026-11-04,Tiered plans,Not stated,Not reachable; no figures given
+A037,Canva pricing,https://www.canva.com/pricing/,official-pricing,2026-11-04,Free and per-person paid plans,Not stated,Not reachable; no figures given
+A037,Descript pricing,https://www.descript.com/pricing,official-pricing,2026-11-04,Per-user plans with media/AI limits,Not stated,Not reachable; no figures given
+A037,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

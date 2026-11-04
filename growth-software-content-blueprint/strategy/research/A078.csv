@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A078,Pipedrive free trial,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,14-day free trial,Verified,"Fetched 2026-11-04 in shared cluster research (A061); not re-fetched by this writer because vendor hosts were blocked from the drafting session"
+A078,Multiple pipelines and granular permissions often on paid tiers,,editorial-knowledge,2026-11-04,General statement about CRM packaging; no vendor named,Needs verification,Reader told to confirm tier placement per vendor
+A078,Field and stage template,,editorial-knowledge,2026-11-04,Editorial template of required fields; not a vendor claim,Needs verification,Example values only
+A078,30-day plan and worked example,,editorial-knowledge,2026-11-04,Hypothetical eight-person agency rollout,Needs verification,Labelled hypothetical; no client or result implied
+A078,Vendor prices and limits,,editorial-knowledge,2026-11-04,,Not stated,No vendor prices or limits stated because official pages could not be fetched
+A078,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,14 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A073,Apollo.io (official pricing),https://www.apollo.io/pricing,official-pricing,2026-11-04,"Credit-based tiered plans; database, enrichment, sequences, CRM sync; has offered a free entry point",Needs verification,Fetch blocked on 2026-11-04 (scraper out of credits; host denied by session network policy). No figures published
+A073,ZoomInfo,https://www.zoominfo.com/,official-site,2026-11-04,"Quote-based; broad coverage, intent signals; annual contracts typical",Needs verification,Fetch blocked; stated qualitatively
+A073,Cognism,https://www.cognism.com/,official-site,2026-11-04,"Quote-based; Europe/UK focus with phone data",Needs verification,Fetch blocked; stated qualitatively
+A073,Lusha,https://www.lusha.com/pricing/,official-pricing,2026-11-04,Self-serve credit plans; email vs phone reveal credits differ,Needs verification,Fetch blocked; URL not fetched
+A073,Clay,https://www.clay.com/pricing,official-pricing,2026-11-04,Credit-based; chains multiple data providers (waterfall enrichment),Needs verification,Fetch blocked; no figures published
+A073,Outreach,https://www.outreach.io/,official-site,2026-11-04,Quote-based sales engagement platform,Needs verification,Fetch blocked
+A073,Salesloft,https://www.salesloft.com/,official-site,2026-11-04,Quote-based sales engagement platform,Needs verification,Fetch blocked
+A073,lemlist,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"Multichannel sequences; lead data and enrichment sold as add-ons",Needs verification,Not fetched by this writer; consistent with A055 research row verified 2026-11-04 by another writer. No figures published here
+A073,Instantly,https://instantly.ai/pricing,official-pricing,2026-11-04,"Self-serve plans; email-first, many mailboxes and warm-up",Needs verification,Fetch blocked; URL not fetched
+A073,Credit rollover policies differ by vendor,,editorial-knowledge,2026-11-04,General statement,Needs verification,No vendor-specific rollover claim made
+A073,Three-seat credit arithmetic (1200 email + 240 phone reveals),,editorial-knowledge,2026-11-04,Hypothetical assumptions stated on page,Needs verification,No vendor credit rates stated
+A073,Compliance responsibilities (lawful basis; opt-outs),,editorial-knowledge,2026-11-04,General statement,Needs verification,No legal statute cited
+A073,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

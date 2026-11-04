@@ -1,0 +1,11 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A044,Outreach (official pricing),https://www.outreach.io/pricing,official-pricing,2026-11-04,"Quote-based per-seat pricing; sequences, calls, tasks, analytics, coaching, forecasting",Needs verification,"v2 fetch blocked (session network denied vendor hosts; Firecrawl credits exhausted). No figures quoted"
+A044,Salesloft (official pricing),https://www.salesloft.com/pricing,official-pricing,2026-11-04,"Sales-led pricing; cadences, task queue, dialer, analytics",Needs verification,Not fetched; check for any corporate/brand change before publishing
+A044,Apollo.io (official pricing),https://www.apollo.io/pricing,official-pricing,2026-11-04,"Per-seat plans with credits; free plan; database, sequences, dialer, CRM sync",Needs verification,Not fetched; confirm free plan and credit model
+A044,HubSpot Sales Hub (official pricing),https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Per-seat tiers; sequences on paid tiers; task queue, calling, meetings",Needs verification,Not fetched
+A044,Reply.io (official pricing),https://reply.io/pricing/,official-pricing,2026-11-04,"Email, LinkedIn, call steps; AI assistant; CRM integrations",Needs verification,Not fetched; billing unit stated loosely as 'per seat or volume by plan'
+A044,Close (official pricing),https://www.close.com/pricing,official-pricing,2026-11-04,"CRM with built-in calling, email sequences, SMS; per seat",Needs verification,Not fetched
+A044,Mixmax (official pricing),https://www.mixmax.com/pricing,official-pricing,2026-11-04,"Gmail-based sequences, tracking, scheduling, CRM sync; per-seat tiers",Needs verification,Not fetched
+A044,"Seat minimums, AI add-ons, dialer and renewal cost drivers",,editorial-knowledge,2026-11-04,General buying guidance phrased as questions to ask,Needs verification,No vendor-specific minimums stated
+A044,Specific seat prices and minimums,,editorial-knowledge,2026-11-04,Deliberately omitted,Not stated,Re-fetch before publication
+A044,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

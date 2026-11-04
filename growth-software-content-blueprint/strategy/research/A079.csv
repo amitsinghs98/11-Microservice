@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A079,lemlist CRM integrations,https://www.lemlist.com/pricing,official-pricing,2026-11-04,"HubSpot, Salesforce and Pipedrive integrations on all plans",Verified,"Fetched 2026-11-04 in shared cluster research (A055); not re-fetched by this writer because vendor hosts were blocked from the drafting session"
+A079,Seven-stage workflow and lean/advanced stack table,,editorial-knowledge,2026-11-04,Editorial process model; no vendor-specific claims,Needs verification,Generic tool categories only
+A079,Consent and suppression guidance,,editorial-knowledge,2026-11-04,"General practice: central do-not-contact list, honor unsubscribes, log data origin; take legal advice per market",Needs verification,No statute-specific deadlines or figures stated
+A079,Hypothetical lean-stack example,,editorial-knowledge,2026-11-04,Hypothetical SaaS company targeting 300 accounts,Needs verification,Labelled hypothetical; no results implied
+A079,Vendor prices and limits,,editorial-knowledge,2026-11-04,,Not stated,No prices stated
+A079,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
