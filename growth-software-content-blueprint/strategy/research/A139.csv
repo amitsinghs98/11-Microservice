@@ -1,0 +1,8 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A139,Google Ads offline conversion imports and enhanced conversions,https://ads.google.com/home/,official-site,2026-11-04,Supported routes for sending offline conversions,Needs verification,Official page not reachable from drafting session (Firecrawl credits exhausted; vendor host refused by network policy); stated qualitatively without figures
+A139,Meta Conversions API,https://www.facebook.com/business/tools/ads-manager,official-site,2026-11-04,Server-side route for sending conversion events to Meta,Needs verification,Official page not reachable from drafting session (Firecrawl credits exhausted; vendor host refused by network policy); stated qualitatively without figures
+A139,Google Tag Assistant (official site),https://tagassistant.google.com/,official-site,2026-11-04,Free tag and event debugging,Needs verification,Official page not reachable from drafting session (Firecrawl credits exhausted; vendor host refused by network policy); stated qualitatively without figures
+A139,"Upload lookback limits, match rate figures and hashing specifications",,official-docs,2026-11-04,,Not stated,Deliberately omitted; platform docs could not be fetched
+A139,Event dictionary example rows,,editorial-knowledge,2026-11-04,"Hypothetical example, no statistics",Not stated,Labelled hypothetical on page
+A139,"Steps, QA and reconciliation checklists",,editorial-knowledge,2026-11-04,"Editorial framework, no statistics",Not stated,No external claim
+A139,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

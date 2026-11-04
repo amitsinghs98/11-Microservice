@@ -37,3 +37,19 @@ Resume here after any interruption. Read this file, `strategy/url-manifest.json`
 - 2026-11-04: A021–A025 v2 done. **Neutrality risk:** Claude is the only product with confirmed prices (anthropic.com was the only reachable site), so cluster-2 tables carry numbers for Claude alone. QA: either restore the other vendors' figures (A031 log or a re-fetch), or move Claude's prices out of the tables, so the tables don't look tilted.
 - 2026-11-04: A026–A030 v2 done. **Conflict-of-interest flag:** A030 (ChatGPT vs Claude) was drafted by a Claude model; only Claude's facts could be verified. It needs a human neutrality review and OpenAI's figures before publishing.
 - 2026-11-04: A011–A015 v2 done (figures confirmed via official-domain WebSearch). **Wave W1 (A001–A100) complete.**
+
+## Pending decision: flat URLs (owner request, 2026-11-04)
+
+The owner wants plain, flat URLs (for example `/best-ai-writing-tools/` or `/instantly-alternatives/`) instead of `/best/…/`. Run the migration **after all writing is finished**, so in-flight agents don't produce mixed links. The scheme:
+
+| Page type | Old | New |
+|---|---|---|
+| Best-of | `/best/{slug}/` | `/best-{slug}/` (no doubled `best-`). A001–A100 use the DOCX source slug as-is, for example `/best-seo-software/`. |
+| Comparison | `/compare/{a}-vs-{b}/` | `/{a}-vs-{b}/` |
+| Alternatives | `/alternatives/{product}/` | `/{product}-alternatives/` |
+| Pricing | `/pricing/{topic}/` | `/{topic}-pricing/` (DOCX source slug where it has one, for example `/seo-software-pricing/`) |
+| Guides | `/guides/{slug}/` | `/{slug}/` |
+| Category hubs | `/categories/{x}/` | `/{x}/` (for example `/seo/`, `/content-operations/`) |
+| Umbrella hub | `/growth-stack/` | unchanged |
+
+Migration steps: update the manifest, move the files, rewrite every internal href, canonical and JSON-LD URL, check for collisions, then re-run all QA.
