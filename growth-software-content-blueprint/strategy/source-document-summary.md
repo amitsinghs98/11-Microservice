@@ -17,7 +17,7 @@
 | 7. Plugin architecture | `growth-discovery-core` module and folder plan. | Not built (explicitly excluded by the build brief) |
 | 8. Monetization guardrails | Revenue streams, illustrative test pricing, non-negotiable commercial rules. | `monetization-and-disclosure-policy.md` |
 | 9. Editorial operating system | Reusable structures A–D (best-of, alternatives, comparison, pricing) and the research checklist. | `html-article-spec.md`, `editorial-guidelines.md` |
-| **10. 100-article topical map** | Umbrella topic, central hub (not counted), and 5 clusters × 20 articles. Each article has a title, suggested slug, primary query, intent/page type, editorial angle, writing brief and internal-link notes. | **`url-manifest.json` and `100-article-master-map.csv` (1:1)** |
+| **10. 100-article topical map** | Umbrella topic, central hub (not counted), and 5 clusters × 20 articles. Each article has a title, suggested slug, primary query, intent/page type, editorial angle, writing brief and internal-link notes. | **`url-manifest.json` and `master-300-article-map.csv` (1:1)** |
 | 11. Publishing sequence | Batches 1–5 and a 90-day plan. Pillars 1, 21, 41, 61, 81 come first. | `publishing-checklist.md` launch order |
 | 12. SEO / measurement | Indexing, internal linking and schema rules (no fabricated ratings). | Spec and QA scripts |
 | 13. Pre-launch QA | WordPress launch checklist. | `publishing-checklist.md` |

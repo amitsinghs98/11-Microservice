@@ -13,10 +13,13 @@ from html.parser import HTMLParser
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
-FORBIDDEN_TAGS = {"style", "script", "img", "iframe", "font"}
+FORBIDDEN_TAGS = {"style", "img", "iframe", "font"}
+MARKER = "[YOUR EXPERIENCE HERE — the skill will not invent this]"
+BAD_SCHEMA = re.compile(r'"@type"\s*:\s*"(Review|AggregateRating|Product|Rating)"')
 PLACEHOLDERS = re.compile(r"\b(TODO|TBD|LOREM|INSERT TEXT|YOUR LINK HERE|AFFILIATE_URL_PENDING|FIXME|XXX)\b", re.I)
 BANNED = re.compile(r"\b(we tested|our testing|our tests|we've tested|hands-on testing showed|users rate|verified customer rating|game-changing|revolutionary|best-in-class|ultimate solution|in today's digital landscape)\b", re.I)
-WORD_RANGES = {"1200-1800": (1000, 2600), "1500-2200": (1250, 3000), "1400-2000": (1150, 2800), "1000-1500": (850, 2300)}
+WORD_RANGES = {"1200-1800": (1000, 2600), "1500-2200": (1250, 3000), "1400-2000": (1150, 2800), "1000-1500": (850, 2300),
+               "1400-2100": (1150, 2900), "800-1400": (750, 2200), "1000-1800": (850, 2600)}
 
 
 class Parser(HTMLParser):
@@ -31,6 +34,9 @@ class Parser(HTMLParser):
         self.article_attrs = {}
         self.in_body = False
         self.inline_style = False
+        self.in_script = False
+        self.scripts = []
+        self.h1_text_index = None
 
     def handle_decl(self, decl):
         if decl.lower().startswith("doctype html"):
@@ -43,6 +49,11 @@ class Parser(HTMLParser):
             self.inline_style = True
         if tag in FORBIDDEN_TAGS:
             self.errors.append(f"forbidden <{tag}>")
+        if tag == "script":
+            if a.get("type") != "application/ld+json":
+                self.errors.append("forbidden non-JSON-LD <script>")
+            self.in_script = True
+            self.scripts.append("")
         if tag == "html":
             self.html_lang = a.get("lang")
         if tag == "body":
@@ -74,6 +85,10 @@ class Parser(HTMLParser):
             return
         if tag == "title":
             self.in_title = False
+        if tag == "script":
+            self.in_script = False
+        if tag == "h1":
+            self.h1_text_index = len(self.text)
         if re.fullmatch(r"h[1-6]", tag) and self.cur_heading:
             self.headings.append(tuple(self.cur_heading))
             self.cur_heading = None
@@ -89,6 +104,9 @@ class Parser(HTMLParser):
             self.errors.append(f"unexpected </{tag}> at line {self.getpos()[0]}")
 
     def handle_data(self, data):
+        if self.in_script:
+            self.scripts[-1] += data
+            return
         if self.in_title:
             self.title += data
         if self.cur_heading is not None:
@@ -164,6 +182,58 @@ def validate(page, domain):
     m = BANNED.search(body)
     if m:
         issues.append(f"banned phrase: {m.group(0)!r}")
+    is_hub = page["page_type"] in ("category-hub", "topical-hub")
+    # --- seo-content-writer rules ---
+    content_h2 = [t.strip() for lvl, t in p.headings if lvl == 2 and t.strip() != "On this page"]
+    non_q = [t for t in content_h2 if not t.endswith("?")]
+    if non_q:
+        issues.append(f"{len(non_q)} H2s are not questions, e.g. {non_q[0]!r}")
+    if any(re.search(r"\b(sources|references|bibliography)\b", t, re.I) for t in content_h2):
+        issues.append("trailing sources/references section (links must be inline)")
+    tables = p.counts.get("table", 0)
+    if not is_hub and tables != 1:
+        issues.append(f"{tables} tables (rule of one: exactly 1)")
+    mk = raw.count(MARKER)
+    if not is_hub and mk != 1:
+        issues.append(f"experience marker present {mk} times (need exactly 1)")
+    if is_hub and mk:
+        issues.append("hubs must not carry the experience marker")
+    after_h1 = " ".join(p.text[p.h1_text_index:]) if p.h1_text_index is not None else body
+    first100 = " ".join(re.findall(r"[\w'’-]+", after_h1)[:100]).lower()
+    kw = " ".join(re.findall(r"[\w'’-]+", page["primary_keyword"].lower()))
+    if kw and kw not in first100:
+        issues.append(f"primary keyword {page['primary_keyword']!r} not in first 100 words after H1")
+    h1 = next((t for lvl, t in p.headings if lvl == 1), "")
+    if kw and kw not in " ".join(re.findall(r"[\w'’-]+", h1.lower())):
+        warnings.append("primary keyword not verbatim in H1 (H1 kept as source title)")
+    tl = len(p.title.strip())
+    if not 30 <= tl <= 75:
+        warnings.append(f"title length {tl} (target 50-60 + ' | BRAND_NAME')")
+    if p.meta_desc and not 110 <= len(p.meta_desc) <= 165:
+        warnings.append(f"meta description length {len(p.meta_desc)} (target 120-160)")
+    if len(p.scripts) != 1:
+        issues.append(f"{len(p.scripts)} JSON-LD blocks (need exactly 1)")
+    for js in p.scripts:
+        try:
+            data = json.loads(js)
+        except ValueError as e:
+            issues.append(f"JSON-LD does not parse: {e}")
+            continue
+        if BAD_SCHEMA.search(js):
+            issues.append("forbidden Review/AggregateRating/Product schema")
+        graph = data.get("@graph", [data]) if isinstance(data, dict) else data
+        types = {g.get("@type") for g in graph if isinstance(g, dict)}
+        if "BreadcrumbList" not in types:
+            issues.append("JSON-LD missing BreadcrumbList")
+        faq = next((g for g in graph if isinstance(g, dict) and g.get("@type") == "FAQPage"), None)
+        if not is_hub and not faq:
+            issues.append("JSON-LD missing FAQPage")
+        if faq:
+            qs = [q.get("name", "").strip() for q in faq.get("mainEntity", [])]
+            visible = {t.strip() for lvl, t in p.headings if lvl == 3}
+            missing = [q for q in qs if q not in visible]
+            if missing or not qs:
+                issues.append(f"FAQPage questions not matching visible H3s: {missing[:2] or 'none listed'}")
     words = len(re.findall(r"\b[\w'’-]+\b", body))
     lo, hi = WORD_RANGES.get(page["target_word_range"], (800, 3000))
     if not lo <= words <= hi:
@@ -217,7 +287,7 @@ def update_status(pages, results):
         elif p["status"] not in ("approved", "published"):
             p["status"] = "drafted" if r["errors"] else "QA-passed"
     json.dump({"pages": pages}, open(man_path, "w"), indent=1)
-    csv_path = os.path.join(ROOT, "strategy", "100-article-master-map.csv")
+    csv_path = os.path.join(ROOT, "strategy", "master-300-article-map.csv")
     rows = list(csv.reader(open(csv_path, encoding="utf-8")))
     idx = rows[0].index("status")
     st = {p["id"]: p["status"] for p in pages}

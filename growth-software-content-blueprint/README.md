@@ -17,7 +17,7 @@ site/                     web root: serve this directory at "/"
   sitemap.xml robots.txt
 strategy/                 manifest, maps, policies, research log
   url-manifest.json       canonical page list (source of truth for every URL)
-  100-article-master-map.csv
+  master-300-article-map.csv
   research/{ID}.csv       per-page research fragments (merged into research-source-log.csv)
 scripts/                  stdlib-only Python 3 tools
 qa/                       generated QA reports

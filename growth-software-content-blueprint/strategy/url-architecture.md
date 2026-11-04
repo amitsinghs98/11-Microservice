@@ -32,4 +32,4 @@ The `/pricing/` family is an addition to the brief's family list. The DOCX defin
 
 ## Source slug → final path
 
-Every article's original DOCX slug is preserved in `url-manifest.json` (`source_slug`) and in `100-article-master-map.csv` (`suggested_slug`), next to its final `public_path`.
+Every article's original DOCX slug is preserved in `url-manifest.json` (`source_slug`) and in `master-300-article-map.csv` (`suggested_slug`), next to its final `public_path`.

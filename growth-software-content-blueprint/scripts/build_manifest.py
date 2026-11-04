@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Build the canonical URL manifest from the extracted source map.
 
-Inputs : .tmp/source-article-map.json (from scripts/extract_source_map.py)
+Inputs : .tmp/source-article-map.json (from scripts/extract_source_map.py)  -> A001-A100
+         inputs/additional-200-articles.csv (expansion map)               -> A101-A300
 Outputs: strategy/url-manifest.json   (machine-readable, used by all scripts)
-         strategy/100-article-master-map.csv
+         strategy/master-300-article-map.csv
 
 Path rules (documented in strategy/url-architecture.md):
   comparison  -> /compare/{source-slug}/
@@ -22,7 +23,22 @@ CLUSTERS = {
     3: ("Email marketing and outbound growth", "/categories/email-outreach/", "H03"),
     4: ("CRM, lead generation, and sales intelligence", "/categories/crm-lead-gen/", "H04"),
     5: ("Marketing automation, analytics, CRO, and distribution", "/categories/automation-analytics/", "H05"),
+    6: ("Content operations and editorial management", "/categories/content-operations/", "H06"),
+    7: ("Paid media and advertising operations", "/categories/paid-media/", "H07"),
+    8: ("Ecommerce growth and merchandising software", "/categories/ecommerce-growth/", "H08"),
+    9: ("Customer experience, retention and customer success", "/categories/customer-retention/", "H09"),
+    10: ("Affiliate, influencer and partnership growth", "/categories/affiliate-partnerships/", "H10"),
+    11: ("Website experience and conversion infrastructure", "/categories/website-experience/", "H11"),
+    12: ("Data, research and revenue operations", "/categories/data-revops/", "H12"),
+    13: ("Webinars, events, communities and demand generation", "/categories/webinars-demand-gen/", "H13"),
+    14: ("Agency business operations and client delivery", "/categories/agency-operations/", "H14"),
+    15: ("Product-led growth, product analytics and experimentation", "/categories/product-led-growth/", "H15"),
 }
+NEW_SLUG_TO_CLUSTER = {v[1].split("/")[2]: k for k, v in CLUSTERS.items() if k >= 6}
+NEW_TYPES = {"best": "listicle", "guide": "guide", "comparison": "comparison", "alternatives": "alternatives",
+             "pricing": "pricing-guide"}
+NEW_WORDS = {"listicle": "1400-2000", "comparison": "1400-2100", "alternatives": "1400-2100",
+             "pricing-guide": "1200-1800", "guide": "1200-1800"}
 PILLARS = {1: "A001", 2: "A021", 3: "A041", 4: "A061", 5: "A081"}
 HUBS = [
     {"id": "H00", "cluster_num": 0, "page_type": "topical-hub",
@@ -38,10 +54,30 @@ HUBS = [
      "public_path": "/categories/crm-lead-gen/", "primary_keyword": "crm and lead generation software"},
     {"id": "H05", "cluster_num": 5, "page_type": "category-hub", "title": "Marketing Automation and Analytics Software: Workflows, Measurement, CRO, and Distribution",
      "public_path": "/categories/automation-analytics/", "primary_keyword": "marketing automation and analytics software"},
+    {"id": "H06", "cluster_num": 6, "page_type": "category-hub", "title": "Content Operations Software: Planning, Workflow, Governance, and Distribution Tools",
+     "public_path": "/categories/content-operations/", "primary_keyword": "content operations software"},
+    {"id": "H07", "cluster_num": 7, "page_type": "category-hub", "title": "Paid Media Software: Tools for Running, Governing, and Measuring Ad Spend",
+     "public_path": "/categories/paid-media/", "primary_keyword": "paid media software"},
+    {"id": "H08", "cluster_num": 8, "page_type": "category-hub", "title": "Ecommerce Growth Software: Storefront, Merchandising, Checkout, and Retention Tools",
+     "public_path": "/categories/ecommerce-growth/", "primary_keyword": "ecommerce growth software"},
+    {"id": "H09", "cluster_num": 9, "page_type": "category-hub", "title": "Customer Retention Software: Onboarding, Support, Feedback, and Customer Success Tools",
+     "public_path": "/categories/customer-retention/", "primary_keyword": "customer retention software"},
+    {"id": "H10", "cluster_num": 10, "page_type": "category-hub", "title": "Partnership Growth Software: Affiliate, Influencer, Referral, and Channel Programs",
+     "public_path": "/categories/affiliate-partnerships/", "primary_keyword": "affiliate and partnership software"},
+    {"id": "H11", "cluster_num": 11, "page_type": "category-hub", "title": "Website Experience Software: Builders, CMS, Forms, Performance, and Conversion Infrastructure",
+     "public_path": "/categories/website-experience/", "primary_keyword": "website experience software"},
+    {"id": "H12", "cluster_num": 12, "page_type": "category-hub", "title": "Data and RevOps Software: Connecting Marketing Activity to Accounts and Revenue",
+     "public_path": "/categories/data-revops/", "primary_keyword": "revops software"},
+    {"id": "H13", "cluster_num": 13, "page_type": "category-hub", "title": "Webinar, Event, and Community Software for Demand Generation",
+     "public_path": "/categories/webinars-demand-gen/", "primary_keyword": "webinar and event software"},
+    {"id": "H14", "cluster_num": 14, "page_type": "category-hub", "title": "Agency Operations Software: Projects, Clients, Resourcing, Proposals, and Billing",
+     "public_path": "/categories/agency-operations/", "primary_keyword": "agency management software"},
+    {"id": "H15", "cluster_num": 15, "page_type": "category-hub", "title": "Product-Led Growth Software: Product Analytics, Onboarding, and Experimentation Tools",
+     "public_path": "/categories/product-led-growth/", "primary_keyword": "product-led growth software"},
 ]
 WORDS = {"listicle": "1200-1800", "pillar-listicle": "1500-2200", "comparison": "1400-2000",
          "alternatives": "1400-2000", "pricing-guide": "1200-1800", "guide": "1000-1500",
-         "strategic-guide": "1500-2200", "category-hub": "1500-2200", "topical-hub": "1500-2200"}
+         "strategic-guide": "1500-2200", "category-hub": "800-1400", "topical-hub": "1000-1800"}
 
 
 def classify(a):
@@ -92,15 +128,34 @@ def main():
             "target_word_range": WORDS[pt],
             "source_doc_reference": f"Section 10, Cluster {a['cluster_num']}, item {a['num']:02d}",
         })
+    extra = os.path.join(ROOT, "inputs", "additional-200-articles.csv")
+    if not os.path.exists(extra):
+        raise SystemExit("Missing inputs/additional-200-articles.csv (A101-A300). See inputs/README.md.")
+    for i, r in enumerate(csv.DictReader(open(extra, encoding="utf-8-sig")), start=2):
+        cn = NEW_SLUG_TO_CLUSTER[r["cluster_slug"]]
+        cname, hub, _ = CLUSTERS[cn]
+        pt = NEW_TYPES[r["page_type"]]
+        pages.append({
+            "id": r["id"], "counted": True, "cluster_num": cn, "cluster": cname, "title": r["title"],
+            "page_type": pt, "public_path": r["url"], "primary_keyword": r["primary_query"],
+            "search_intent": r["page_type"], "source_slug": r["slug"], "angle": r["angle"],
+            "brief": r["writing_brief"], "source_link_notes": r["internal_link_targets"],
+            "parent_hub": hub, "cluster_pillar": "", "target_word_range": NEW_WORDS[pt],
+            "source_doc_reference": f"additional-200-articles.csv row {i}",
+        })
     for p in pages:
         p["physical_file_path"] = "site" + p["public_path"] + "index.html"
         p["status"] = old.get(p["id"], {}).get("status", "planned")
         p["final_h1"] = old.get(p["id"], {}).get("final_h1", p["title"])
     paths = [p["public_path"] for p in pages]
     assert len(paths) == len(set(paths)), "duplicate public paths"
+    ids = [p["id"] for p in pages if p["counted"]]
+    assert ids == [f"A{n:03d}" for n in range(1, 301)], "article IDs must be exactly A001-A300 in order"
+    titles = [p["title"].lower() for p in pages]
+    assert len(titles) == len(set(titles)), "duplicate titles"
     json.dump({"pages": pages}, open(man_path, "w"), indent=1)
 
-    with open(os.path.join(ROOT, "strategy", "100-article-master-map.csv"), "w", newline="") as f:
+    with open(os.path.join(ROOT, "strategy", "master-300-article-map.csv"), "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["article_id", "cluster", "article_title", "final_h1", "page_type", "primary_keyword",
                     "secondary_topics", "search_intent", "audience", "suggested_slug", "public_path",
