@@ -76,10 +76,12 @@ def main():
             "**Umbrella topic:** Growth software for agencies and lean marketing teams.\n\n"
             "```text\n/growth-stack/ (H00, umbrella hub)\n")
     for h in hubs[1:]:
-        m.write(f"├── {h['public_path']} ({h['id']}) → pillar {next(p['public_path'] for p in pages if p['counted'] and p['cluster_num']==h['cluster_num'] and p['page_type']=='pillar-listicle')}\n")
+        pil = next((p["public_path"] for p in pages if p["counted"] and p["cluster_num"] == h["cluster_num"]
+                    and p["page_type"] == "pillar-listicle"), None)
+        m.write(f"├── {h['public_path']} ({h['id']})" + (f" → pillar {pil}" if pil else "") + "\n")
     m.write("```\n\nLink flow per cluster: category hub ⇄ pillar ⇄ supporting pages; supporting pages ⇄ siblings; "
             "selected cross-cluster links where a reader's next question lives in another cluster. "
-            "Article 99 and the umbrella hub link every pillar.\n\n")
+            "Article 99 and the umbrella hub link every pillar; the umbrella hub links all 15 cluster hubs. Clusters 6-15 (A101-A300) have no designated pillar in the source map; their hub is the parent.\n\n")
     for h in hubs[1:]:
         cn = h["cluster_num"]
         m.write(f"## Cluster {cn}: {h['cluster']}\n\nHub: `{h['public_path']}` ({h['id']})\n\n"
