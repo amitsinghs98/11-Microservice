@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A010,AgencyAnalytics,https://agencyanalytics.com/pricing,official-pricing,2026-11-04,"Client dashboards, scheduled reports, built-in rank tracking and site audits, GA4/Search Console integrations; per-client tiered pricing",Needs verification,Vendor site not reachable from drafting environment; white-label tier placement left for reader to confirm; no prices stated
+A010,Looker Studio,https://lookerstudio.google.com/,official-site,2026-11-04,"Free Google dashboard tool with native GA4 and Search Console connectors; partner connectors often paid",Needs verification,Well-established product facts; not fetched
+A010,Swydo,https://www.swydo.com/pricing/,official-pricing,2026-11-04,Scheduled reports and dashboards priced by number of connected data sources,Needs verification,Not fetched; third-party figures conflicted so no numbers stated
+A010,DashThis,https://dashthis.com/pricing/,official-pricing,2026-11-04,"Prebuilt templates, white-label dashboards; priced by number of dashboards",Needs verification,Not fetched
+A010,Whatagraph,https://whatagraph.com/pricing,official-pricing,2026-11-04,Cross-channel reporting and data blending; plans start through sales,Needs verification,Search-result summaries indicate 2026 move to sales-led plans; confirm
+A010,SE Ranking,https://seranking.com/,official-site,2026-11-04,"Rank tracking and audits with report builder and agency white-label options; tiered with agency add-ons",Needs verification,Not fetched
+A010,Semrush reports,https://www.semrush.com/prices/,official-pricing,2026-11-04,"Report builder combining Semrush data with GA4 and Search Console; branding depends on plan/add-ons",Needs verification,Not fetched
+A010,Search Console data delay,,editorial-knowledge,2026-11-04,Search Console data arrives with a delay,Needs verification,General statement; no figure stated
+A010,10-client cost model,,editorial-knowledge,2026-11-04,"Unit counts for a hypothetical 10-client agency (10 client slots, 30 sources, 10-20 dashboards)",Verified,Editorial arithmetic; no vendor prices used
+A010,Specific plan prices for all products,,editorial-knowledge,2026-11-04,,Not stated,No prices stated because vendor pricing pages could not be fetched on 2026-11-04
+A010,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
