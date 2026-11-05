@@ -1,6 +1,6 @@
 # Growth Software Content Blueprint
 
-A plain-HTML content library and internal-link blueprint for an independent growth-software discovery platform for agencies and lean marketing teams. It contains **100 articles in five topical clusters, plus 6 hub pages**, built from the source strategy DOCX (`inputs/content-strategy.docx`, not committed).
+A plain-HTML content library and internal-link blueprint for an independent growth-software discovery platform for agencies and lean marketing teams. It contains **300 articles in 15 topical clusters, plus 16 hub pages** (316 pages). A001–A100 come from the source strategy DOCX (`inputs/content-strategy.docx`, not committed) and A101–A300 from `inputs/additional-200-articles.csv`.
 
 This is **draft editorial content**, not a website. It has no CSS, JavaScript, framework, CMS or deployment. The HTML is semantic and unstyled, so it is easy to serve statically or import into WordPress later.
 
@@ -12,8 +12,9 @@ This is **draft editorial content**, not a website. It has no CSS, JavaScript, f
 site/                     web root: serve this directory at "/"
   index.html              plain QA directory of every page (noindex)
   growth-stack/           H00 umbrella hub
-  categories/{seo,ai-content,email-outreach,crm-lead-gen,automation-analytics}/   H01–H05
-  best/ compare/ alternatives/ pricing/ guides/    the 100 articles
+  {hub}/                  H01–H15 cluster hubs, e.g. seo/, content-operations/
+  best-{topic}/ {a}-vs-{b}/ {product}-alternatives/ {topic}-pricing/ {guide}/
+                          the 300 articles, one flat folder each (see strategy/url-architecture.md)
   sitemap.xml robots.txt
 strategy/                 manifest, maps, policies, research log
   url-manifest.json       canonical page list (source of truth for every URL)
@@ -27,13 +28,15 @@ site.config.json          domain and brand placeholders
 
 ## Clusters
 
+Clusters 1–5 (A001–A100) have a designated pillar; clusters 6–15 use their hub as the parent. The full list is in `strategy/topical-cluster-map.md`.
+
 | # | Cluster | Hub | Pillar |
 |---|---|---|---|
-| 1 | SEO and organic search growth | `/categories/seo/` | `/best/seo-software/` |
-| 2 | AI content and creative marketing software | `/categories/ai-content/` | `/best/ai-writing-tools/` |
-| 3 | Email marketing and outbound growth | `/categories/email-outreach/` | `/best/email-marketing-software/` |
-| 4 | CRM, lead generation, and sales intelligence | `/categories/crm-lead-gen/` | `/best/crm-software-for-small-business/` |
-| 5 | Marketing automation, analytics, CRO, and distribution | `/categories/automation-analytics/` | `/best/marketing-automation-software/` |
+| 1 | SEO and organic search growth | `/seo/` | `/best-seo-software/` |
+| 2 | AI content and creative marketing software | `/ai-content/` | `/best-ai-writing-tools/` |
+| 3 | Email marketing and outbound growth | `/email-outreach/` | `/best-email-marketing-software/` |
+| 4 | CRM, lead generation, and sales intelligence | `/crm-lead-gen/` | `/best-crm-software-for-small-business/` |
+| 5 | Marketing automation, analytics, CRO, and distribution | `/automation-analytics/` | `/best-marketing-automation-software/` |
 
 ## Preview locally
 

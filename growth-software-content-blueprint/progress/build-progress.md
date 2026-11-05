@@ -54,3 +54,5 @@ The owner wants plain, flat URLs (for example `/best-ai-writing-tools/` or `/ins
 
 Migration steps: update the manifest, move the files, rewrite every internal href, canonical and JSON-LD URL, check for collisions, then re-run all QA.
 - 2026-11-05: A container restart stopped the workflow. On disk: A101–A259, all passing validation. Resumed the run (wf_c75cbb6e-5f6) to finish A260–A300, H00–H15 and the pending fact-check stages.
+
+2026-11-05: Flat URL migration done. `build_manifest.py` now has a `flatten()` function; 315 pages were moved with `git mv` (`/growth-stack/` was unchanged); 4,002 hrefs, canonicals and JSON-LD URLs were rewritten; the old-to-new map is in `strategy/url-migration-map.csv`. After re-running QA: 316/316 pages pass, 3,090 internal links, 0 broken, 0 orphans.

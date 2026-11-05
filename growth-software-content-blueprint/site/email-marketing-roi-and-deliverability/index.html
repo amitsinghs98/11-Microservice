@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Email Marketing ROI and Deliverability: One Measurement Plan | BRAND_NAME</title>
+  <meta name="description" content="Measure email marketing ROI and deliverability together: metric caveats, cohort tracking, attributed versus incremental revenue and a weekly dashboard.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/email-marketing-roi-and-deliverability/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://YOUR-DOMAIN.example/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Email Marketing and Outreach Software: Campaigns, Lifecycle, and Responsible B2B Outbound",
+            "item": "https://YOUR-DOMAIN.example/email-outreach/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Measure Email Marketing ROI and Deliverability Together",
+            "item": "https://YOUR-DOMAIN.example/email-marketing-roi-and-deliverability/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I stop reporting open rates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not entirely, but treat them as a rough trend signal rather than a success metric, because privacy features can register opens that didn't happen. Use clicks, conversions and revenue per recipient for decisions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a good benchmark for email ROI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Published benchmarks rarely match your margins, costs or attribution rules. Compare your own cohorts and holdout results over time instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How big should a holdout group be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Big enough for the difference between groups to be stable over repeated periods. Small lists may need longer tests or a larger share held back."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A060" data-content-type="guide" data-cluster="3">
+      <header>
+        <p>Email marketing and outbound growth</p>
+        <h1>How to Measure Email Marketing ROI and Deliverability Together</h1>
+        <p>Measure email marketing ROI and deliverability on one dashboard, because revenue only arrives when mail reaches the inbox. Pair each revenue figure with complaint, bounce and unsubscribe rates for the same sends, and test incrementality with holdouts rather than trusting attributed revenue alone.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product and mailbox-provider documentation. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#why-together">Why measure ROI and deliverability together?</a></li>
+          <li><a href="#metrics">Which metrics matter, and what are their caveats?</a></li>
+          <li><a href="#roi-formula">How should you calculate email ROI?</a></li>
+          <li><a href="#attributed-vs-incremental">Why isn't attributed revenue the same as incremental revenue?</a></li>
+          <li><a href="#cohorts">How do you build cohort-based measurement?</a></li>
+          <li><a href="#deliverability-signals">Which deliverability signals should you watch?</a></li>
+          <li><a href="#dashboard">What should weekly and monthly dashboards show?</a></li>
+          <li><a href="#worked-example">What does a warning sign look like in practice?</a></li>
+          <li><a href="#faq">What else do teams ask about email measurement?</a></li>
+          <li><a href="#next-steps">What should you do next?</a></li>
+        </ol>
+      </nav>
+
+      <section id="why-together">
+        <h2>Why measure ROI and deliverability together?</h2>
+        <p>Because a campaign can look profitable while it erodes the sender reputation that every future campaign depends on. Revenue reports show this week's return; deliverability signals show whether next quarter's revenue is at risk.</p>
+        <p>Sending more email to more people usually raises attributed revenue in the short term. If it also lifts complaints and unsubscribes, inbox placement can slip and later sends earn less. Looking at the two side by side stops you rewarding the behavior that causes the decline.</p>
+      </section>
+
+      <section id="metrics">
+        <h2>Which metrics matter, and what are their caveats?</h2>
+        <p>Track delivery, bounces, spam complaints, unsubscribes, clicks, conversions and revenue per recipient, and treat opens as a rough signal at best. Each metric has a known distortion, so read them together rather than alone.</p>
+        <ul>
+          <li><strong>Opens:</strong> Apple's Mail Privacy Protection <a href="https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios" target="_blank" rel="noopener noreferrer">downloads remote content privately in the background</a> and stops senders learning when or how often a message was viewed (checked 4 November 2026), so open rates overstate real reading for affected recipients.</li>
+          <li><strong>Clicks:</strong> more reliable, because Apple says Mail Privacy Protection doesn't extend to links, but security scanners can still click links automatically. Klaviyo, for example, turns on <a href="https://help.klaviyo.com/hc/en-us/articles/1260804504250" target="_blank" rel="noopener noreferrer">bot-click exclusion by default for accounts created on or after 27 August 2024</a> (checked 4 November 2026).</li>
+          <li><strong>Spam complaints:</strong> the metric mailbox providers watch most closely. Gmail's guidance is to <a href="https://support.google.com/mail/answer/14229414?hl=en" target="_blank" rel="noopener noreferrer">stay below a 0.1% user-reported spam rate and never reach 0.3%</a> (checked 4 November 2026).</li>
+          <li><strong>Bounces and unsubscribes:</strong> rising hard bounces point to list decay or poor sources; rising unsubscribes point to frequency or relevance problems.</li>
+          <li><strong>Revenue per recipient:</strong> more useful than total revenue, because it doesn't rise just because you sent more.</li>
+        </ul>
+      </section>
+
+      <section id="roi-formula">
+        <h2>How should you calculate email ROI?</h2>
+        <p>Email ROI is incremental gross profit from email, minus the full cost of the program, divided by that cost. Use margin rather than revenue, and include labor, creative and discounts, not just the platform fee.</p>
+        <p><strong>Email ROI</strong> = (incremental revenue × gross margin − program cost) ÷ program cost.</p>
+        <p>Program cost covers the platform, any deliverability or testing tools, staff time, agency fees and the cost of discounts you offer only by email. If you can't yet measure incremental revenue, calculate the same formula with attributed revenue, but label it as an upper estimate.</p>
+      </section>
+
+      <section id="attributed-vs-incremental">
+        <h2>Why isn't attributed revenue the same as incremental revenue?</h2>
+        <p>Attributed revenue counts purchases that happen after an email interaction, whether or not the email caused them. Incremental revenue is only the extra revenue that wouldn't have happened without the email, and you measure it with a holdout group.</p>
+        <p>Attribution rules are set by your platform. Klaviyo's default, for instance, credits a conversion to email within <a href="https://help.klaviyo.com/hc/en-us/articles/1260804504250" target="_blank" rel="noopener noreferrer">five days of an email open or click, using last-touch attribution</a>, and the window can be changed (checked 4 November 2026). Because privacy features can register opens that never happened, open-based windows can credit email with purchases it didn't influence.</p>
+        <p>To estimate incrementality, hold back a random share of a segment from a campaign or flow, then compare revenue per person between the two groups over the same period. Run it long enough for the result to be stable, and don't change the holdout mid-test. The method matters more than the tool, and our <a href="/marketing-attribution-tools-for-small-business/">guide to marketing attribution without false certainty</a> explains how email fits beside other channels.</p>
+      </section>
+
+      <section id="cohorts">
+        <h2>How do you build cohort-based measurement?</h2>
+        <p>Group subscribers by the month and source they joined, then track each cohort's revenue, engagement, unsubscribes and complaints at fixed intervals. Cohorts show whether new subscribers are worth less than old ones, which campaign totals hide.</p>
+        <ol>
+          <li>Tag every subscriber with signup month and acquisition source.</li>
+          <li>For each cohort, record revenue per subscriber, click rate, unsubscribe rate and complaint rate at 30, 60 and 90 days.</li>
+          <li>Compare cohorts at the same age, not on the same calendar date.</li>
+          <li>Flag sources whose cohorts complain or go inactive faster than average, and fix or cut them.</li>
+          <li>Feed inactive subscribers into a re-engagement flow, then a sunset rule.</li>
+        </ol>
+      </section>
+
+      <section id="deliverability-signals">
+        <h2>Which deliverability signals should you watch?</h2>
+        <p>Watch mailbox-provider dashboards, authentication results, bounces, complaints and blocklists, and read them as trends rather than single readings. A sudden drop in clicks from one provider's domains is often the first visible sign.</p>
+        <ul>
+          <li><strong>Google Postmaster Tools:</strong> the Compliance status dashboard reports against Gmail's sender requirements, and the Spam rate dashboard shows the share of mail users mark as spam; Google says data is <a href="https://support.google.com/mail/answer/14668346?hl=en" target="_blank" rel="noopener noreferrer">typically updated within 24 hours</a> and may be missing for low-volume senders (checked 4 November 2026). Google says the Domain and IP Reputation dashboards are being retired in the new version.</li>
+          <li><strong>Microsoft:</strong> domains sending 5,000 or more messages to Microsoft consumer services must <a href="https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com" target="_blank" rel="noopener noreferrer">pass SPF and DKIM and publish an aligned DMARC record</a> (checked 4 November 2026). Watch for rejections in bounce logs.</li>
+          <li><strong>Gmail bulk-sender rules:</strong> Google's FAQ requires one-click unsubscribe for marketing messages from bulk senders and treats failing to <a href="https://support.google.com/mail/answer/14229414?hl=en" target="_blank" rel="noopener noreferrer">honor unsubscribes within 48 hours</a> as a compliance failure (checked 4 November 2026).</li>
+          <li><strong>Your own data:</strong> bounce rate by provider, DMARC aggregate reports, blocklist checks and clicks by mailbox provider.</li>
+        </ul>
+        <p>Dedicated monitoring tools are compared in our <a href="/best-email-deliverability-tools/">email deliverability tools guide</a>, and pre-send checks for rendering and broken links are covered in the <a href="/best-email-testing-tools/">email testing tools roundup</a>.</p>
+      </section>
+
+      <section id="dashboard">
+        <h2>What should weekly and monthly dashboards show?</h2>
+        <p>The weekly view should catch deliverability problems early, and the monthly view should judge commercial return and list health. Keep both on one page so nobody reads revenue without the risk signals next to it.</p>
+        <table>
+          <caption>Email measurement dashboard outline</caption>
+          <thead>
+            <tr>
+              <th scope="col">Cadence</th>
+              <th scope="col">Metrics</th>
+              <th scope="col">Question it answers</th>
+              <th scope="col">Action trigger</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Weekly: delivery</th>
+              <td>Bounce rate by provider, spam rate, authentication failures</td>
+              <td>Is mail still reaching inboxes?</td>
+              <td>Any upward trend for two weeks, or spam rate approaching 0.1%</td>
+            </tr>
+            <tr>
+              <th scope="row">Weekly: engagement</th>
+              <td>Click rate, unsubscribe rate, clicks by mailbox provider</td>
+              <td>Are recipients still interested?</td>
+              <td>A provider-specific click drop</td>
+            </tr>
+            <tr>
+              <th scope="row">Monthly: revenue</th>
+              <td>Attributed revenue, revenue per recipient, holdout lift where tested</td>
+              <td>What is email adding?</td>
+              <td>Revenue per recipient falling while volume rises</td>
+            </tr>
+            <tr>
+              <th scope="row">Monthly: list health</th>
+              <td>Net list growth, inactive share, cohort revenue at 30/60/90 days</td>
+              <td>Is the list getting better or worse?</td>
+              <td>New cohorts underperforming older ones</td>
+            </tr>
+            <tr>
+              <th scope="row">Monthly: lifecycle</th>
+              <td>Flow revenue and conversion by stage: welcome, cart, post-purchase, win-back</td>
+              <td>Which journeys earn their keep?</td>
+              <td>A flow with high unsubscribes and low lift</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>If you need a reporting layer beyond your email platform, our <a href="/best-marketing-analytics-software/">marketing analytics software shortlist</a> covers the options.</p>
+      </section>
+
+      <section id="worked-example">
+        <h2>What does a warning sign look like in practice?</h2>
+        <p>The classic pattern is revenue holding steady while revenue per recipient falls and complaints creep up. That usually means the team is sending more to keep totals flat, which works only until inbox placement drops.</p>
+        <p>Consider a hypothetical store that doubles its campaign frequency. Attributed revenue rises in the first month, but its newest cohort unsubscribes faster than earlier ones and Gmail clicks fall. On the combined dashboard, the right move is to reduce frequency for low-engagement segments, not to celebrate the revenue line.</p>
+        <p>The question a skeptical reader should ask is whether holdouts and cohorts are worth the effort for a small list. The documentation explains the signals, but not how noisy they are at small volumes.</p>
+        <p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+      </section>
+
+      <section id="faq">
+        <h2>What else do teams ask about email measurement?</h2>
+        <p>Most follow-up questions are about open rates, benchmarks and holdout size. The short answers follow.</p>
+        <h3>Should I stop reporting open rates?</h3>
+        <p>Not entirely, but treat them as a rough trend signal rather than a success metric, because privacy features can register opens that didn't happen. Use clicks, conversions and revenue per recipient for decisions.</p>
+        <h3>Is there a good benchmark for email ROI?</h3>
+        <p>Published benchmarks rarely match your margins, costs or attribution rules. Compare your own cohorts and holdout results over time instead.</p>
+        <h3>How big should a holdout group be?</h3>
+        <p>Big enough for the difference between groups to be stable over repeated periods. Small lists may need longer tests or a larger share held back.</p>
+      </section>
+
+      <section id="next-steps">
+        <h2>What should you do next?</h2>
+        <p>Set up a one-page dashboard with the five rows above, tag subscribers by signup month and source, and run one holdout test on your highest-volume flow. Review it weekly for delivery and monthly for return.</p>
+        <p>For platforms with strong flow reporting, see our <a href="/best-lifecycle-email-automation-software/">lifecycle email automation shortlist</a> and the <a href="/best-ecommerce-email-marketing-software/">ecommerce email platform guide</a>. The <a href="/best-email-marketing-software/">small-business email marketing pillar</a> and the <a href="/email-outreach/">email marketing and outreach software hub</a> cover the rest of the category.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

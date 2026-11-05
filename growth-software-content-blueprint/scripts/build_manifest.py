@@ -101,6 +101,22 @@ def classify(a):
     return pt, f"/best/{re.sub(r'^best-', '', slug)}/"
 
 
+def flatten(path, source_slug=""):
+    """Flat, single-segment URLs (owner decision 2026-11-05): /best-x/, /x-alternatives/, /x-pricing/, /a-vs-b/, /x/."""
+    parts = path.strip("/").split("/")
+    if len(parts) == 1:
+        return path
+    kind, x = parts
+    src = source_slug.strip("/")
+    if kind == "best":
+        x = x if x.startswith("best-") else "best-" + x
+    elif kind == "alternatives":
+        x = x if "alternatives" in x else x + "-alternatives"
+    elif kind == "pricing":
+        x = src if "pricing" in src else (x if "pricing" in x else x + "-pricing")
+    return f"/{x}/"
+
+
 def main():
     src = json.load(open(os.path.join(ROOT, ".tmp", "source-article-map.json")))
     man_path = os.path.join(ROOT, "strategy", "url-manifest.json")
@@ -143,6 +159,11 @@ def main():
             "parent_hub": hub, "cluster_pillar": "", "target_word_range": NEW_WORDS[pt],
             "source_doc_reference": f"additional-200-articles.csv row {i}",
         })
+    flat = {p["public_path"]: flatten(p["public_path"], p.get("source_slug", "")) for p in pages}
+    for p in pages:
+        p["public_path"] = flat[p["public_path"]]
+        p["parent_hub"] = flat.get(p["parent_hub"], p["parent_hub"])
+        p["cluster_pillar"] = flat.get(p.get("cluster_pillar", ""), p.get("cluster_pillar", ""))
     for p in pages:
         p["physical_file_path"] = "site" + p["public_path"] + "index.html"
         p["status"] = old.get(p["id"], {}).get("status", "planned")

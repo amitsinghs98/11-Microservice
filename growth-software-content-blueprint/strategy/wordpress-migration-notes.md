@@ -7,18 +7,17 @@ WordPress is **not** built in this repository. These notes explain how to move t
 | Static page type | WordPress object | Notes |
 |---|---|---|
 | `/growth-stack/` (H00) | Page | Hierarchical page at the root |
-| `/categories/{slug}/` (H01–H05) | `software_category` term archive **or** a Page | If you use the taxonomy archive, put the hub body in the term description or a "category landing" block above the listing |
-| `/best/`, `/compare/`, `/alternatives/`, `/pricing/`, `/guides/` | Native Post | Set `guide_type` to best-of / comparison / alternatives / pricing / how-to |
+| `/{cluster}/` (H01–H15) | Page | A root-level Page with the hub body |
+| `/best-…/`, `/…-vs-…/`, `/…-alternatives/`, `/…-pricing/`, guides | Native Post | Set `guide_type` to best-of / comparison / alternatives / pricing / how-to. The type is a taxonomy, not part of the URL |
 | `/software/{product}/` (future) | `software` CPT | One canonical record per product |
 
 ## 2. Preserve the permalink
 
-Native posts don't support multiple prefixes by default. Pick one approach:
+All URLs are flat (`strategy/url-architecture.md`), which maps directly to WordPress's built-in **Post name** permalink structure (`/%postname%/`). No custom rewrite rules are needed.
 
-- **Recommended:** a custom rewrite in the `growth-discovery-core` plugin that maps `/{guide_type_base}/{slug}/` to the post, based on `guide_type` (for example `best` → `/best/{slug}/`).
-- **Alternative:** publish these as hierarchical Pages under parent pages `best`, `compare`, `alternatives`, `pricing` and `guides`. This is simpler, but you lose post features.
-
-The intended permalink for every page is the `public_path` in `strategy/url-manifest.json`. Import the manifest and set each slug from the last path segment.
+- Set Settings → Permalinks → Post name.
+- Import the manifest and set each post or page slug to `public_path` without the slashes.
+- Posts and Pages share the root namespace, so check slug collisions on import. The build already guarantees the 316 paths are unique.
 
 ## 3. Field mapping
 

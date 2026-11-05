@@ -1,4 +1,15 @@
 source_id,url,anchor_text,rel
+A095,https://www.hubspot.com/products/crm,HubSpot Smart CRM,noopener noreferrer
+A095,https://www.hubspot.com/pricing/marketing,Marketing Hub pricing,noopener noreferrer
+A095,https://www.hubspot.com/pricing/sales,Sales Hub pricing,noopener noreferrer
+A095,https://www.activecampaign.com/pricing,ActiveCampaign pricing,noopener noreferrer
+A095,https://www.hubspot.com/pricing/marketing,Marketing Hub,noopener noreferrer
+A095,https://www.hubspot.com/pricing/sales,Sales Hub,noopener noreferrer
+A095,https://www.activecampaign.com/pricing,ActiveCampaign pricing,noopener noreferrer
+A198,https://www.rewardful.com/,Rewardful,noopener noreferrer
+A198,https://firstpromoter.com/,FirstPromoter,noopener noreferrer
+A198,https://partnerstack.com/,PartnerStack,noopener noreferrer
+A198,https://impact.com/,impact.com,noopener noreferrer
 A013,https://ahrefs.com/pricing,"unlimited verified projects on every plan, with 5, 20 and 50 unverified projects on Lite, Standard and Advanced",noopener noreferrer
 A013,https://help.ahrefs.com/en/articles/604245-how-frequently-do-my-tracked-keywords-get-updated,tracked keywords update weekly by default on every plan,noopener noreferrer
 A013,https://ahrefs.com/pricing,"$40 a month on Lite (up to 2), $60 on Standard (up to 5) and $80 on Advanced (up to 10)",noopener noreferrer
@@ -12,6 +23,15 @@ A013,https://seranking.com/subscription.html,"Core at $129 a month with 10 proje
 A013,https://www.accuranker.com/help/keywords/keyword-updates/,tracked keywords refresh automatically every 24 hours and can also be refreshed on demand,noopener noreferrer
 A013,https://www.accuranker.com/pricing/,pricing page lists Professional at €224 a month,noopener noreferrer
 A013,https://www.clearscope.io/pricing,Essentials at $129 a month with unlimited users and 20 monthly drafts,noopener noreferrer
+A037,https://claude.com/pricing,Claude's official pricing page,noopener noreferrer
+A037,https://openai.com/chatgpt/pricing/,ChatGPT,noopener noreferrer
+A037,https://www.jasper.ai/pricing,Jasper,noopener noreferrer
+A037,https://writesonic.com/pricing,Writesonic,noopener noreferrer
+A037,https://www.canva.com/pricing/,Canva,noopener noreferrer
+A037,https://www.descript.com/pricing,Descript,noopener noreferrer
+A038,https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on,"can write things that look correct but are very mistaken, and should not be relied on as a singular source of truth",noopener noreferrer
+A038,https://support.claude.com/en/articles/9517075-what-are-projects,upload documents to its knowledge base and set project instructions,noopener noreferrer
+A038,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,find a supporting quote for each claim and retract any it can't support,noopener noreferrer
 A073,https://www.apollo.io/pricing,official Apollo pricing page,noopener noreferrer
 A073,https://www.zoominfo.com/,Official site,noopener noreferrer
 A073,https://www.cognism.com/,Official site,noopener noreferrer
@@ -21,215 +41,16 @@ A073,https://www.outreach.io/,Official site,noopener noreferrer
 A073,https://www.salesloft.com/,Official site,noopener noreferrer
 A073,https://www.lemlist.com/pricing,See official pricing,noopener noreferrer
 A073,https://instantly.ai/pricing,See official pricing,noopener noreferrer
-A254,https://khoros.com/platform/communities,Khoros Communities,noopener noreferrer
-A254,https://www.discourse.org/,Discourse,noopener noreferrer
-A254,https://www.gainsight.com/customer-communities/,Gainsight Customer Communities,noopener noreferrer
-A254,https://bettermode.com/,Bettermode,noopener noreferrer
-A254,https://bettermode.com/,Bettermode,noopener noreferrer
-A254,https://www.discourse.org/,Discourse,noopener noreferrer
-A254,https://www.discourse.org/,Discourse,noopener noreferrer
-A254,https://www.higherlogic.com/vanilla/,Higher Logic Vanilla,noopener noreferrer
-A254,https://circle.so/,Circle,noopener noreferrer
-A254,https://www.mightynetworks.com/,Mighty Networks,noopener noreferrer
-A254,https://www.salesforce.com/products/experience-cloud/overview/,Salesforce Experience Cloud,noopener noreferrer
-A254,https://www.discourse.org/pricing,See official pricing,noopener noreferrer
-A254,https://khoros.com/platform/communities,Official site,noopener noreferrer
-A254,https://www.gainsight.com/customer-communities/,Official site,noopener noreferrer
-A254,https://bettermode.com/pricing,See official pricing,noopener noreferrer
-A254,https://www.higherlogic.com/vanilla/,Official site,noopener noreferrer
-A254,https://circle.so/pricing,See official pricing,noopener noreferrer
-A254,https://www.mightynetworks.com/pricing,See official pricing,noopener noreferrer
-A254,https://www.salesforce.com/products/experience-cloud/overview/,Official site,noopener noreferrer
-A254,https://khoros.com/platform/communities,Khoros Communities,noopener noreferrer
-A254,https://www.discourse.org/,Discourse,noopener noreferrer
-A254,https://www.gainsight.com/customer-communities/,Gainsight Customer Communities,noopener noreferrer
-A254,https://bettermode.com/,Bettermode,noopener noreferrer
-A254,https://www.higherlogic.com/vanilla/,Higher Logic Vanilla,noopener noreferrer
-A254,https://circle.so/,Circle,noopener noreferrer
-A254,https://www.mightynetworks.com/,Mighty Networks,noopener noreferrer
-A254,https://www.salesforce.com/products/experience-cloud/overview/,Salesforce Experience Cloud,noopener noreferrer
-A033,https://www.copy.ai/prices,"Chat plan is $29 a month billed monthly or $24 billed annually, with 5 seats and unlimited chat words, while Growth costs $1,000 a month billed $12,000 a year for 75 seats and 20,000 workflow credits",noopener noreferrer
-A033,https://www.copy.ai/prices,"OpenAI, Anthropic and Gemini models on the Chat plan, and a guided Jumpstart implementation, API access, bulk workflow runs and more than 20 tech integrations on Enterprise",noopener noreferrer
-A033,https://www.jasper.ai/pricing,jasper.ai/pricing,noopener noreferrer
-A033,https://www.anyword.com/pricing,anyword.com/pricing,noopener noreferrer
-A033,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
-A033,https://chatgpt.com/pricing,chatgpt.com/pricing,noopener noreferrer
-A033,https://www.clay.com/pricing,clay.com/pricing,noopener noreferrer
-A033,https://www.hubspot.com/pricing,hubspot.com/pricing,noopener noreferrer
-A033,https://zapier.com/pricing,zapier.com/pricing,noopener noreferrer
-A033,https://www.jasper.ai/pricing,"costs $59 per seat a month billed yearly or $69 monthly, with 2 Brand Voices and a 7-day free trial",noopener noreferrer
-A033,https://www.anyword.com/pricing,Anyword's pricing page,noopener noreferrer
-A033,https://claude.com/pricing,"pricing page lists a free Claude plan with limited usage, Pro at $17 a month on annual billing or $20 monthly, and Team standard seats at $20 per seat a month billed annually",noopener noreferrer
-A033,https://chatgpt.com/pricing,ChatGPT's pricing page,noopener noreferrer
-A033,https://www.clay.com/pricing,Clay's pricing page,noopener noreferrer
-A033,https://www.hubspot.com/pricing,HubSpot's pricing,noopener noreferrer
-A033,https://zapier.com/pricing,pricing page lists a free plan and task-based billing,noopener noreferrer
-A092,https://marketingplatform.google.com/about/analytics/,Google Analytics 4,noopener noreferrer
-A092,https://matomo.org/,Matomo,noopener noreferrer
-A092,https://piwik.pro/,Piwik PRO,noopener noreferrer
-A092,https://business.adobe.com/products/analytics/adobe-analytics.html,Adobe Analytics,noopener noreferrer
-A092,https://plausible.io/,Plausible,noopener noreferrer
-A092,https://usefathom.com/,Fathom,noopener noreferrer
-A092,https://mixpanel.com/,Mixpanel,noopener noreferrer
-A092,https://amplitude.com/,Amplitude,noopener noreferrer
-A092,https://posthog.com/,PostHog,noopener noreferrer
-A092,https://segment.com/,Segment,noopener noreferrer
-A092,https://www.rudderstack.com/,RudderStack,noopener noreferrer
-A094,https://www.hootsuite.com/,Hootsuite,noopener noreferrer
-A094,https://sproutsocial.com/,Sprout Social,noopener noreferrer
-A094,https://www.agorapulse.com/,Agorapulse,noopener noreferrer
-A094,https://buffer.com/,Buffer,noopener noreferrer
-A094,https://www.socialpilot.co/,SocialPilot,noopener noreferrer
-A094,https://www.sendible.com/,Sendible,noopener noreferrer
-A094,https://later.com/,Later,noopener noreferrer
-A094,https://planable.io/,Planable,noopener noreferrer
-A093,https://www.hotjar.com/,Hotjar,noopener noreferrer
-A093,https://clarity.microsoft.com/,Microsoft Clarity,noopener noreferrer
-A093,https://mouseflow.com/,Mouseflow,noopener noreferrer
-A093,https://www.luckyorange.com/,Lucky Orange,noopener noreferrer
-A093,https://www.crazyegg.com/,Crazy Egg,noopener noreferrer
-A093,https://www.fullstory.com/,FullStory,noopener noreferrer
-A093,https://contentsquare.com/,Contentsquare,noopener noreferrer
-A093,https://posthog.com/,PostHog,noopener noreferrer
-A093,https://logrocket.com/,LogRocket,noopener noreferrer
-A032,https://www.jasper.ai/pricing,"pricing page lists Jasper IQ (Brand Voices, Knowledge, Audiences, a Style Guide and Visual Guidelines), more than 100 marketing agents, Remix for channel adaptation, an image suite and support for more than 30 languages",noopener noreferrer
-A032,https://www.jasper.ai/pricing,"includes 2 Brand Voices, 5 Knowledge assets and 3 Audiences",noopener noreferrer
-A032,https://writer.com/,writer.com,noopener noreferrer
-A032,https://www.typeface.ai/,typeface.ai,noopener noreferrer
-A032,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
-A032,https://chatgpt.com/pricing,chatgpt.com/pricing,noopener noreferrer
-A032,https://workspace.google.com/pricing,workspace.google.com,noopener noreferrer
-A032,https://www.copy.ai/prices,copy.ai/prices,noopener noreferrer
-A032,https://writesonic.com/pricing,writesonic.com/pricing,noopener noreferrer
-A032,https://www.grammarly.com/plans,grammarly.com/plans,noopener noreferrer
-A032,https://writer.com/,Writer's official site,noopener noreferrer
-A032,https://www.typeface.ai/,Typeface's official site,noopener noreferrer
-A032,https://claude.com/pricing,"pricing page lists Team standard seats at $20 per seat a month billed annually or $25 monthly, for 2 to 150 seats",noopener noreferrer
-A032,https://chatgpt.com/pricing,ChatGPT's pricing page,noopener noreferrer
-A032,https://workspace.google.com/pricing,Google Workspace pricing,noopener noreferrer
-A032,https://www.grammarly.com/plans,Grammarly's plans page,noopener noreferrer
-A032,https://www.copy.ai/prices,"Chat plan is $29 a month billed monthly or $24 billed annually for 5 seats, and workflow credits start on Growth at $1,000 a month billed $12,000 a year",noopener noreferrer
-A032,https://writesonic.com/pricing,"starts at $79 a month billed annually for one user, 15 AI articles a month and one writing style; Growth at $399 includes three users and ten writing styles",noopener noreferrer
-A032,https://www.jasper.ai/pricing,versions going back 7 days,noopener noreferrer
-A054,https://www.klaviyo.com/platform/how-klaviyo-pricing-works,how Klaviyo pricing works,noopener noreferrer
-A054,https://www.omnisend.com/pricing/,See official pricing,noopener noreferrer
-A054,https://www.drip.com/pricing,See official pricing,noopener noreferrer
-A054,https://www.brevo.com/pricing/,See official pricing,noopener noreferrer
-A054,https://mailchimp.com/pricing/,See official pricing,noopener noreferrer
-A054,https://www.attentive.com/,Official site,noopener noreferrer
-A054,https://postscript.io/pricing,See official pricing,noopener noreferrer
-A054,https://www.bloomreach.com/,Official site,noopener noreferrer
-A052,https://mailchimp.com/pricing/,Mailchimp pricing page,noopener noreferrer
-A052,https://mailchimp.com/help/about-your-contacts/,which contact types count toward your plan,noopener noreferrer
-A052,https://www.mailerlite.com/pricing,See official pricing,noopener noreferrer
-A052,https://www.brevo.com/pricing/,See official pricing,noopener noreferrer
-A052,https://kit.com/pricing,See official pricing,noopener noreferrer
-A052,https://www.activecampaign.com/pricing,See official pricing,noopener noreferrer
-A052,https://www.klaviyo.com/pricing,See official pricing,noopener noreferrer
-A052,https://www.omnisend.com/pricing/,See official pricing,noopener noreferrer
-A052,https://www.klaviyo.com/pricing,Klaviyo pricing page,noopener noreferrer
-A072,https://www.pipedrive.com/en/pricing,official Pipedrive pricing page,noopener noreferrer
-A072,https://www.hubspot.com/pricing/sales,See official pricing,noopener noreferrer
-A072,https://www.activecampaign.com/pricing,See official pricing,noopener noreferrer
-A072,https://www.close.com/pricing,See official pricing,noopener noreferrer
-A072,https://www.zoho.com/crm/zohocrm-pricing.html,See official pricing,noopener noreferrer
-A072,https://www.salesforce.com/sales/pricing/,See official pricing,noopener noreferrer
-A072,https://attio.com/pricing,See official pricing,noopener noreferrer
-A072,https://www.bigin.com/,See official site,noopener noreferrer
-A012,https://www.semrush.com/pricing/seo-ai-search/,"keywords tracked daily on every self-serve tier, with multi-location and device tracking on Pro+",noopener noreferrer
-A012,https://www.semrush.com/pricing/seo-ai-search/,5 websites and 500 tracked keywords,noopener noreferrer
-A012,https://www.semrush.com/pricing/seo-ai-search/,"from $45 a month, and the white-label Pro Report at $20 a month",noopener noreferrer
-A012,https://www.semrush.com/kb/34-my-reports,bought per report,noopener noreferrer
-A012,https://seranking.com/subscription.html,"Core at $129 a month with 10 projects, one manager seat and 2,000 daily-tracked keywords, and Growth at $279 with 30 projects, three seats and 5,000 keywords",noopener noreferrer
-A012,https://seranking.com/agency-pack.html,Agency Pack is listed at +$69 a month on annual billing only,noopener noreferrer
-A012,https://app.neilpatel.com/en/pricing,"three monthly tiers from $29 to $99, with 1, 7 and 15 projects",noopener noreferrer
-A012,https://mangools.com/plans-and-pricing,"Mangools bundles KWFinder with SERP analysis, rank tracking and backlink lookups",noopener noreferrer
-A012,https://moz.com/products/pro,official Moz Pro page,noopener noreferrer
-A012,https://www.brightlocal.com/pricing/,"Track at $41 a month for one location on monthly billing, covering up to 100 keywords and four competitors per location, with a 7x7 search grid for up to five keywords",noopener noreferrer
-A012,https://ahrefs.com/pricing,"Lite at $129, Standard at $249 and Advanced at $449 a month, each with one user",noopener noreferrer
-A012,https://majestic.com/how-to-use-majestic,Historic Index is available on Pro and above,noopener noreferrer
-A012,https://agencyanalytics.com/pricing,prices by the number of clients you manage and lists a 14-day trial,noopener noreferrer
-A159,https://shopify.dev/docs/apps/build/checkout,checkout extensibility framework,noopener noreferrer
-A159,https://www.shopify.com/pricing,Shopify's pricing page,noopener noreferrer
-A159,https://www.bigcommerce.com/essentials/pricing/,BigCommerce pricing,noopener noreferrer
-A159,https://woocommerce.com/,WooCommerce,noopener noreferrer
-A159,https://business.adobe.com/products/magento/magento-commerce.html,Adobe Commerce,noopener noreferrer
-A159,https://www.salesforce.com/commerce/,Salesforce Commerce Cloud,noopener noreferrer
-A159,https://commercetools.com/,commercetools,noopener noreferrer
-A159,https://webflow.com/pricing,Webflow pricing,noopener noreferrer
-A159,https://medusajs.com/,Medusa,noopener noreferrer
-A159,https://saleor.io/,Saleor,noopener noreferrer
-A159,https://www.bigcommerce.com/,BigCommerce,noopener noreferrer
-A159,https://www.bigcommerce.com/essentials/pricing/,official pricing page,noopener noreferrer
-A159,https://woocommerce.com/,WooCommerce,noopener noreferrer
-A159,https://webflow.com/ecommerce,Webflow Ecommerce,noopener noreferrer
-A159,https://business.adobe.com/products/magento/magento-commerce.html,Adobe Commerce,noopener noreferrer
-A159,https://www.salesforce.com/commerce/,Salesforce Commerce Cloud,noopener noreferrer
-A159,https://commercetools.com/,commercetools,noopener noreferrer
-A159,https://medusajs.com/,Medusa,noopener noreferrer
-A159,https://saleor.io/,Saleor,noopener noreferrer
-A014,https://surferseo.com/pricing/,"pricing page lists Discovery at $49, Standard at $99, Pro at $182 and Peace of Mind at $299 a month on yearly billing",noopener noreferrer
-A014,https://docs.surferseo.com/en/articles/6758676-annual-plans-limits-allocation,"the year's limits upfront in one pool, and unused limits do not roll over",noopener noreferrer
-A014,https://docs.surferseo.com/en/articles/12944161-fair-usage-policy,"fair usage policy sets 6,000 documents a year on that annual plan",noopener noreferrer
-A014,https://docs.surferseo.com/en/articles/7925007-surfer-api-add-on-purchase,"$29-a-month add-on, included free only on Enterprise",noopener noreferrer
-A014,https://neuronwriter.com/faqs/how-many-pricing-plans-does-neuronwriter-have/,"Bronze at $23 a month for 25 content analyses and 2 projects, Silver at $45 for 50 and 5 projects, and Gold at $69 for 75 and 10 projects",noopener noreferrer
-A014,https://www.frase.io/pricing,"Starter at $49 a month for 10 articles, Professional at $129 for 40 articles with 3 seats and 5 sites, and Scale at $299 for 100 articles",noopener noreferrer
-A014,https://www.clearscope.io/pricing,"Essentials at $129 a month with unlimited users, 20 monthly drafts and 20 topic explorations, and Business at $399",noopener noreferrer
-A014,https://www.clearscope.io/support/how-do-plan-addons-work,add-ons are billed automatically once you exceed plan credits,noopener noreferrer
-A014,https://www.marketmuse.com/pricing/,MarketMuse meters plans by queries and lists a free tier,noopener noreferrer
-A014,https://www.semrush.com/pricing/content/,"Content Toolkit from $60 a month, with a Content Optimizer, SEO brief generator, unlimited standard articles and 5 SEO-boosted articles a month",noopener noreferrer
-A014,https://seranking.com/subscription.html,SE Ranking subscription page,noopener noreferrer
-A207,https://webflow.com/pricing,Webflow pricing page,noopener noreferrer
-A207,https://wordpress.org/,WordPress.org,noopener noreferrer
-A207,https://www.contentful.com/pricing/,See official pricing,noopener noreferrer
-A207,https://www.sanity.io/pricing,See official pricing,noopener noreferrer
-A207,https://www.storyblok.com/pricing,See official pricing,noopener noreferrer
-A207,https://www.hubspot.com/products/content,See official pricing,noopener noreferrer
-A207,https://www.shopify.com/pricing,See official pricing,noopener noreferrer
-A207,https://www.framer.com/pricing,See official pricing,noopener noreferrer
-A207,https://wordpress.org/,WordPress.org,noopener noreferrer
-A207,https://www.contentful.com/pricing/,Contentful,noopener noreferrer
-A207,https://www.sanity.io/pricing,Sanity,noopener noreferrer
-A207,https://www.storyblok.com/pricing,Storyblok,noopener noreferrer
-A207,https://www.hubspot.com/products/content,Content Hub page,noopener noreferrer
-A207,https://www.shopify.com/pricing,Shopify pricing page,noopener noreferrer
-A207,https://www.framer.com/pricing,Framer,noopener noreferrer
-A207,https://www.wix.com/studio,Wix Studio,noopener noreferrer
-A208,https://wordpress.org/,WordPress,noopener noreferrer
-A208,https://www.duda.co/pricing,See official pricing,noopener noreferrer
-A208,https://www.wix.com/studio,See official pricing,noopener noreferrer
-A208,https://webflow.com/pricing,See official pricing,noopener noreferrer
-A208,https://www.hubspot.com/products/content,See official pricing,noopener noreferrer
-A208,https://www.contentful.com/pricing/,See official pricing,noopener noreferrer
-A208,https://www.storyblok.com/pricing,See official pricing,noopener noreferrer
-A208,https://www.sanity.io/pricing,See official pricing,noopener noreferrer
-A208,https://www.duda.co/pricing,Duda pricing page,noopener noreferrer
-A208,https://www.wix.com/studio,Wix Studio,noopener noreferrer
-A208,https://webflow.com/pricing,Webflow pricing page,noopener noreferrer
-A208,https://www.hubspot.com/products/content,Content Hub page,noopener noreferrer
-A208,https://www.contentful.com/pricing/,Contentful,noopener noreferrer
-A208,https://www.storyblok.com/pricing,Storyblok,noopener noreferrer
-A208,https://www.sanity.io/pricing,Sanity,noopener noreferrer
-A034,https://writesonic.com/pricing,"pricing page lists Starter, Basic and Growth at $79, $199 and $399 a month billed annually, with 1, 2 or 3 users, 50, 100 or 200 tracked prompts, and 15, 25 or 50 AI articles a month",noopener noreferrer
-A034,https://writesonic.com/pricing,$50 per user a month,noopener noreferrer
-A034,https://surferseo.com/pricing/,surferseo.com,noopener noreferrer
-A034,https://www.clearscope.io/pricing,clearscope.io,noopener noreferrer
-A034,https://www.frase.io/pricing,frase.io,noopener noreferrer
-A034,https://www.tryprofound.com/,tryprofound.com,noopener noreferrer
-A034,https://peec.ai/pricing,peec.ai,noopener noreferrer
-A034,https://www.semrush.com/prices/,semrush.com,noopener noreferrer
-A034,https://ahrefs.com/pricing,ahrefs.com,noopener noreferrer
-A034,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
-A034,https://www.jasper.ai/pricing,jasper.ai/pricing,noopener noreferrer
-A034,https://claude.com/pricing,"pricing page lists Claude Pro at $17 a month on annual billing ($200 up front) or $20 monthly, and Team standard seats at $20 per seat a month billed annually for 2 to 150 people",noopener noreferrer
-A034,https://www.jasper.ai/pricing,costs $59 per seat a month billed yearly and holds 2 Brand Voices and 5 Knowledge assets,noopener noreferrer
-A074,https://www.zoominfo.com/,ZoomInfo official site,noopener noreferrer
-A074,https://www.apollo.io/pricing,See official pricing,noopener noreferrer
-A074,https://www.lusha.com/pricing/,See official pricing,noopener noreferrer
-A074,https://www.uplead.com/pricing/,See official pricing,noopener noreferrer
-A074,https://rocketreach.co/pricing,See official pricing,noopener noreferrer
-A074,https://www.cognism.com/,Official site,noopener noreferrer
-A074,https://www.clay.com/pricing,See official pricing,noopener noreferrer
+A099,https://www.pipedrive.com/en/pricing,Pipedrive pricing page,noopener noreferrer
+A099,https://www.make.com/en/pricing,Make pricing page,noopener noreferrer
+A099,https://www.smartlead.ai/pricing,Smartlead pricing page,noopener noreferrer
+A099,https://claude.com/pricing,Claude pricing page,noopener noreferrer
+A099,https://zapier.com/pricing,Zapier pricing page,noopener noreferrer
+A099,https://instantly.ai/pricing,Instantly pricing page,noopener noreferrer
+A099,https://n8n.io/pricing/,n8n pricing page,noopener noreferrer
+A099,https://reply.io/pricing/,Reply.io pricing page,noopener noreferrer
+A099,https://www.jasper.ai/pricing,Jasper pricing page,noopener noreferrer
+A079,https://www.lemlist.com/pricing,"lists HubSpot, Salesforce and Pipedrive integrations on all plans",noopener noreferrer
 A087,https://vwo.com/pricing/,VWO pricing page,noopener noreferrer
 A087,https://www.convert.com/pricing/,Convert pricing page,noopener noreferrer
 A087,https://www.abtasty.com/,AB Tasty website,noopener noreferrer
@@ -1371,6 +1192,33 @@ A124,https://agencyanalytics.com/pricing,AgencyAnalytics' pricing page,noopener 
 A124,https://whatagraph.com/pricing,Whatagraph pricing,noopener noreferrer
 A124,https://www.swydo.com/pricing/,Swydo pricing,noopener noreferrer
 A124,https://dashthis.com/pricing/,DashThis pricing,noopener noreferrer
+A254,https://khoros.com/platform/communities,Khoros Communities,noopener noreferrer
+A254,https://www.discourse.org/,Discourse,noopener noreferrer
+A254,https://www.gainsight.com/customer-communities/,Gainsight Customer Communities,noopener noreferrer
+A254,https://bettermode.com/,Bettermode,noopener noreferrer
+A254,https://bettermode.com/,Bettermode,noopener noreferrer
+A254,https://www.discourse.org/,Discourse,noopener noreferrer
+A254,https://www.discourse.org/,Discourse,noopener noreferrer
+A254,https://www.higherlogic.com/vanilla/,Higher Logic Vanilla,noopener noreferrer
+A254,https://circle.so/,Circle,noopener noreferrer
+A254,https://www.mightynetworks.com/,Mighty Networks,noopener noreferrer
+A254,https://www.salesforce.com/products/experience-cloud/overview/,Salesforce Experience Cloud,noopener noreferrer
+A254,https://www.discourse.org/pricing,See official pricing,noopener noreferrer
+A254,https://khoros.com/platform/communities,Official site,noopener noreferrer
+A254,https://www.gainsight.com/customer-communities/,Official site,noopener noreferrer
+A254,https://bettermode.com/pricing,See official pricing,noopener noreferrer
+A254,https://www.higherlogic.com/vanilla/,Official site,noopener noreferrer
+A254,https://circle.so/pricing,See official pricing,noopener noreferrer
+A254,https://www.mightynetworks.com/pricing,See official pricing,noopener noreferrer
+A254,https://www.salesforce.com/products/experience-cloud/overview/,Official site,noopener noreferrer
+A254,https://khoros.com/platform/communities,Khoros Communities,noopener noreferrer
+A254,https://www.discourse.org/,Discourse,noopener noreferrer
+A254,https://www.gainsight.com/customer-communities/,Gainsight Customer Communities,noopener noreferrer
+A254,https://bettermode.com/,Bettermode,noopener noreferrer
+A254,https://www.higherlogic.com/vanilla/,Higher Logic Vanilla,noopener noreferrer
+A254,https://circle.so/,Circle,noopener noreferrer
+A254,https://www.mightynetworks.com/,Mighty Networks,noopener noreferrer
+A254,https://www.salesforce.com/products/experience-cloud/overview/,Salesforce Experience Cloud,noopener noreferrer
 A176,https://www.gainsight.com/customer-communities/,gainsight.com,noopener noreferrer
 A176,https://khoros.com/platform/communities,khoros.com,noopener noreferrer
 A176,https://www.discourse.org/pricing,discourse.org,noopener noreferrer
@@ -3767,17 +3615,6 @@ A082,https://n8n.io/pricing/,"n8n's pricing page lists Starter at $20 a month bi
 A082,https://www.relay.app/pricing,Relay.app's pricing page,noopener noreferrer
 A082,https://pipedream.com/pricing,Pipedream's pricing page,noopener noreferrer
 A082,https://www.microsoft.com/en-us/power-platform/products/power-automate,Power Automate site,noopener noreferrer
-A095,https://www.hubspot.com/products/crm,HubSpot Smart CRM,noopener noreferrer
-A095,https://www.hubspot.com/pricing/marketing,Marketing Hub pricing,noopener noreferrer
-A095,https://www.hubspot.com/pricing/sales,Sales Hub pricing,noopener noreferrer
-A095,https://www.activecampaign.com/pricing,ActiveCampaign pricing,noopener noreferrer
-A095,https://www.hubspot.com/pricing/marketing,Marketing Hub,noopener noreferrer
-A095,https://www.hubspot.com/pricing/sales,Sales Hub,noopener noreferrer
-A095,https://www.activecampaign.com/pricing,ActiveCampaign pricing,noopener noreferrer
-A198,https://www.rewardful.com/,Rewardful,noopener noreferrer
-A198,https://firstpromoter.com/,FirstPromoter,noopener noreferrer
-A198,https://partnerstack.com/,PartnerStack,noopener noreferrer
-A198,https://impact.com/,impact.com,noopener noreferrer
 A030,https://claude.com/pricing,"pricing page lists Claude Design, Slides and Docs on every individual plan, including Free",noopener noreferrer
 A030,https://claude.com/pricing,plan comparison shows web search on all plans and the Research feature on paid plans only,noopener noreferrer
 A030,https://openai.com/chatgpt/pricing/,OpenAI's ChatGPT pricing page,noopener noreferrer
@@ -3791,8 +3628,44 @@ A030,https://claude.com/pricing,pricing page lists at $2 per million input token
 A030,https://claude.com/pricing,"model training as opt-out on Free, Pro, Max and Ultra and ""none by default"" on Team and Enterprise",noopener noreferrer
 A030,https://www.anthropic.com/legal/consumer-terms,"consumer terms say materials may be used for training unless you opt out, and still may be when you submit feedback or content is flagged for safety review",noopener noreferrer
 A030,https://openai.com/enterprise-privacy/,OpenAI's enterprise privacy page,noopener noreferrer
+A078,https://www.pipedrive.com/en/pricing,lists a 14-day free trial,noopener noreferrer
+A058,https://mailchimp.com/help/about-mailchimp-pricing-plans/,"10 times your contact limit on Essentials, 12 times on Standard and 15 times on Premium",noopener noreferrer
+A058,https://www.mailerlite.com/pricing,Power plan lists unlimited monthly emails under a fair-use policy,noopener noreferrer
+A058,https://kit.com/pricing,no sending limits on any plan,noopener noreferrer
+A058,https://www.brevo.com/pricing/,"Starter plan starts at $9 a month for 5,000 emails",noopener noreferrer
 A075,https://www.clay.com/pricing,See official pricing,noopener noreferrer
 A075,https://www.apollo.io/pricing,See official pricing,noopener noreferrer
+A057,https://woodpecker.co/pricing/,pricing page,noopener noreferrer
+A057,https://www.smartlead.ai/pricing,Smartlead pricing,noopener noreferrer
+A057,https://docs.saleshandy.com/en/articles/16451272-saleshandy-platform-plan-pricing-2026,Saleshandy plan pricing,noopener noreferrer
+A057,https://instantly.ai/pricing,Instantly pricing,noopener noreferrer
+A057,https://reply.io/pricing/,Reply.io pricing,noopener noreferrer
+A057,https://www.lemlist.com/pricing,lemlist pricing,noopener noreferrer
+A057,https://help.instantly.ai/en/articles/11381241-data-credit-system,expire two months after purchase,noopener noreferrer
+A057,https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans,"$8.40 per user a month on the Flexible Plan, or $7 a month with a one-year commitment",noopener noreferrer
+A057,https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-basic,$7 per user a month paid yearly,noopener noreferrer
+A057,https://reply.io/pricing/,$6 per domain a year plus $5 per mailbox a month,noopener noreferrer
+A057,https://www.neverbounce.com/pricing,"$8 for 1,000 credits, which expire 12 months after purchase",noopener noreferrer
+A059,https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business,honor opt-out requests within 10 business days,noopener noreferrer
+A059,https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/,email corporate subscribers without PECR consent,noopener noreferrer
+A059,https://crtc.gc.ca/eng/com500/faq500.htm,onus of proving consent is on the sender,noopener noreferrer
+A059,https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com,pass SPF and DKIM and publish an aligned DMARC record,noopener noreferrer
+A033,https://www.copy.ai/prices,"Chat plan is $29 a month billed monthly or $24 billed annually, with 5 seats and unlimited chat words, while Growth costs $1,000 a month billed $12,000 a year for 75 seats and 20,000 workflow credits",noopener noreferrer
+A033,https://www.copy.ai/prices,"OpenAI, Anthropic and Gemini models on the Chat plan, and a guided Jumpstart implementation, API access, bulk workflow runs and more than 20 tech integrations on Enterprise",noopener noreferrer
+A033,https://www.jasper.ai/pricing,jasper.ai/pricing,noopener noreferrer
+A033,https://www.anyword.com/pricing,anyword.com/pricing,noopener noreferrer
+A033,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
+A033,https://chatgpt.com/pricing,chatgpt.com/pricing,noopener noreferrer
+A033,https://www.clay.com/pricing,clay.com/pricing,noopener noreferrer
+A033,https://www.hubspot.com/pricing,hubspot.com/pricing,noopener noreferrer
+A033,https://zapier.com/pricing,zapier.com/pricing,noopener noreferrer
+A033,https://www.jasper.ai/pricing,"costs $59 per seat a month billed yearly or $69 monthly, with 2 Brand Voices and a 7-day free trial",noopener noreferrer
+A033,https://www.anyword.com/pricing,Anyword's pricing page,noopener noreferrer
+A033,https://claude.com/pricing,"pricing page lists a free Claude plan with limited usage, Pro at $17 a month on annual billing or $20 monthly, and Team standard seats at $20 per seat a month billed annually",noopener noreferrer
+A033,https://chatgpt.com/pricing,ChatGPT's pricing page,noopener noreferrer
+A033,https://www.clay.com/pricing,Clay's pricing page,noopener noreferrer
+A033,https://www.hubspot.com/pricing,HubSpot's pricing,noopener noreferrer
+A033,https://zapier.com/pricing,pricing page lists a free plan and task-based billing,noopener noreferrer
 A239,https://www.zoominfo.com/,ZoomInfo,noopener noreferrer
 A239,https://www.apollo.io/,Apollo,noopener noreferrer
 A239,https://www.cognism.com/,Cognism,noopener noreferrer
@@ -3802,6 +3675,14 @@ A239,https://bombora.com/,Bombora,noopener noreferrer
 A239,https://sell.g2.com/buyer-intent,G2 Buyer Intent,noopener noreferrer
 A239,https://6sense.com/,6sense,noopener noreferrer
 A239,https://www.demandbase.com/,Demandbase,noopener noreferrer
+A077,https://www.pipedrive.com/en/pricing,"pricing page lists Lite at US$14, Growth at US$39, Premium at US$59 and Ultimate at US$79 per seat per month, billed annually",noopener noreferrer
+A077,https://www.pipedrive.com/en/pricing,Pipedrive pricing,noopener noreferrer
+A077,https://www.hubspot.com/pricing/sales,HubSpot pricing,noopener noreferrer
+A077,https://www.salesforce.com/sales/pricing/,Salesforce pricing,noopener noreferrer
+A077,https://www.zoho.com/crm/zohocrm-pricing.html,Zoho CRM pricing,noopener noreferrer
+A077,https://attio.com/pricing,Attio pricing,noopener noreferrer
+A077,https://www.bitrix24.com/prices/,Bitrix24 prices,noopener noreferrer
+A077,https://www.pipedrive.com/en/pricing,save up to 42%,noopener noreferrer
 A179,https://hiverhq.com/pricing,Hiver,noopener noreferrer
 A179,https://missiveapp.com/pricing,Missive,noopener noreferrer
 A179,https://front.com/pricing,Front,noopener noreferrer
@@ -3810,6 +3691,15 @@ A179,https://www.freshworks.com/freshdesk/pricing/,Freshdesk,noopener noreferrer
 A179,https://www.helpscout.com/pricing/,Help Scout,noopener noreferrer
 A179,https://www.intercom.com/pricing,Intercom,noopener noreferrer
 A179,https://support.google.com/a/answer/167430,Google Groups collaborative inbox,noopener noreferrer
+A060,https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios,downloads remote content privately in the background,noopener noreferrer
+A060,https://help.klaviyo.com/hc/en-us/articles/1260804504250,bot-click exclusion by default for accounts created on or after 27 August 2024,noopener noreferrer
+A060,https://support.google.com/mail/answer/14229414?hl=en,stay below a 0.1% user-reported spam rate and never reach 0.3%,noopener noreferrer
+A060,https://help.klaviyo.com/hc/en-us/articles/1260804504250,"five days of an email open or click, using last-touch attribution",noopener noreferrer
+A060,https://support.google.com/mail/answer/14668346?hl=en,typically updated within 24 hours,noopener noreferrer
+A060,https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com,pass SPF and DKIM and publish an aligned DMARC record,noopener noreferrer
+A060,https://support.google.com/mail/answer/14229414?hl=en,honor unsubscribes within 48 hours,noopener noreferrer
+A039,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,"comparing outputs of the same prompt, since inconsistencies can indicate hallucinations",noopener noreferrer
+A039,https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on,can sometimes hallucinate its capabilities,noopener noreferrer
 A299,https://docs.growthbook.io/app/experiment-results,sample ratio mismatch checks in its experiment results,noopener noreferrer
 A299,https://www.growthbook.io/pricing,pricing page describes a free Starter plan and per-seat paid plans,noopener noreferrer
 A299,https://support.optimizely.com/hc/en-us/articles/4410289753485-Learn-about-plan-options-and-costs,"plan options and costs that depend on factors such as traffic, products and implementation",noopener noreferrer
@@ -3817,6 +3707,17 @@ A299,https://vwo.com/pricing/,VWO pricing page,noopener noreferrer
 A299,https://launchdarkly.com/pricing/,LaunchDarkly pricing page,noopener noreferrer
 A299,https://www.statsig.com/pricing,Statsig pricing page,noopener noreferrer
 A299,https://www.getunleash.io/pricing,Unleash pricing page,noopener noreferrer
+A092,https://marketingplatform.google.com/about/analytics/,Google Analytics 4,noopener noreferrer
+A092,https://matomo.org/,Matomo,noopener noreferrer
+A092,https://piwik.pro/,Piwik PRO,noopener noreferrer
+A092,https://business.adobe.com/products/analytics/adobe-analytics.html,Adobe Analytics,noopener noreferrer
+A092,https://plausible.io/,Plausible,noopener noreferrer
+A092,https://usefathom.com/,Fathom,noopener noreferrer
+A092,https://mixpanel.com/,Mixpanel,noopener noreferrer
+A092,https://amplitude.com/,Amplitude,noopener noreferrer
+A092,https://posthog.com/,PostHog,noopener noreferrer
+A092,https://segment.com/,Segment,noopener noreferrer
+A092,https://www.rudderstack.com/,RudderStack,noopener noreferrer
 A135,https://ads.google.com/home/tools/ads-editor/,free tool for making bulk changes across campaigns,noopener noreferrer
 A135,https://support.google.com/google-ads/editor/answer/45747,online and offline workflow,noopener noreferrer
 A135,https://support.google.com/google-ads/answer/2484521,Editor overview,noopener noreferrer
@@ -3828,6 +3729,44 @@ A135,https://marketingplatform.google.com/about/search-ads-360/,Search Ads 360,n
 A135,https://www.optmyzr.com/pricing/,Optmyzr's pricing,noopener noreferrer
 A135,https://adalysis.com/pricing/,Adalysis pricing,noopener noreferrer
 A135,https://opteo.com/pricing,Opteo pricing,noopener noreferrer
+A094,https://www.hootsuite.com/,Hootsuite,noopener noreferrer
+A094,https://sproutsocial.com/,Sprout Social,noopener noreferrer
+A094,https://www.agorapulse.com/,Agorapulse,noopener noreferrer
+A094,https://buffer.com/,Buffer,noopener noreferrer
+A094,https://www.socialpilot.co/,SocialPilot,noopener noreferrer
+A094,https://www.sendible.com/,Sendible,noopener noreferrer
+A094,https://later.com/,Later,noopener noreferrer
+A094,https://planable.io/,Planable,noopener noreferrer
+A093,https://www.hotjar.com/,Hotjar,noopener noreferrer
+A093,https://clarity.microsoft.com/,Microsoft Clarity,noopener noreferrer
+A093,https://mouseflow.com/,Mouseflow,noopener noreferrer
+A093,https://www.luckyorange.com/,Lucky Orange,noopener noreferrer
+A093,https://www.crazyegg.com/,Crazy Egg,noopener noreferrer
+A093,https://www.fullstory.com/,FullStory,noopener noreferrer
+A093,https://contentsquare.com/,Contentsquare,noopener noreferrer
+A093,https://posthog.com/,PostHog,noopener noreferrer
+A093,https://logrocket.com/,LogRocket,noopener noreferrer
+A199,https://www.rewardful.com/,Rewardful,noopener noreferrer
+A199,https://firstpromoter.com/,FirstPromoter,noopener noreferrer
+A199,https://partnerstack.com/,PartnerStack,noopener noreferrer
+A199,https://www.crossbeam.com/,Crossbeam,noopener noreferrer
+A139,https://ads.google.com/home/,Google Ads,noopener noreferrer
+A139,https://tagassistant.google.com/,Google Tag Assistant,noopener noreferrer
+A300,https://mixpanel.com/pricing/,Mixpanel,noopener noreferrer
+A300,https://amplitude.com/pricing,Amplitude,noopener noreferrer
+A300,https://posthog.com/pricing,PostHog,noopener noreferrer
+A300,https://stripe.com/billing,Stripe Billing,noopener noreferrer
+A300,https://www.growthbook.io/pricing,pricing page describes a free Starter plan,noopener noreferrer
+A280,https://zapier.com/pricing,pricing page lists a Free plan of 100 tasks a month with two-step Zaps,noopener noreferrer
+A160,https://help.shopify.com/en/manual/apps/working-with-apps,app management documentation,noopener noreferrer
+A200,https://support.google.com/analytics/,Google Analytics,noopener noreferrer
+A220,https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes,"finding important URLs from sitemaps, traffic data and the Links report, and including images, video, JavaScript and CSS in the plan",noopener noreferrer
+A220,https://developers.google.com/search/docs/crawling-indexing/301-redirects,"server-side permanent redirects, preferably HTTP 301 or 308",noopener noreferrer
+A220,https://support.google.com/analytics/answer/7201382?hl=en,"DebugView, which shows events from a debug device as they're logged",noopener noreferrer
+A220,https://support.google.com/analytics/answer/9271392?hl=en&co=GENIE.Platform%3DDesktop,Realtime report,noopener noreferrer
+A220,https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/,follow redirects to their final target in list mode and export chains and redirects to errors,noopener noreferrer
+A220,https://support.google.com/webmasters/answer/9370220?hl=en,Change of Address tool after redirects are live,noopener noreferrer
+A220,https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes,Google's site move guidance,noopener noreferrer
 A053,https://www.hubspot.com/pricing/marketing,HubSpot Marketing Hub pricing page,noopener noreferrer
 A053,https://www.activecampaign.com/pricing,ActiveCampaign pricing page,noopener noreferrer
 A053,https://www.hubspot.com/pricing/marketing,hubspot.com/pricing/marketing,noopener noreferrer
@@ -3840,6 +3779,25 @@ A071,https://www.salesforce.com/sales/pricing/,See official pricing,noopener nor
 A051,https://instantly.ai/pricing,Instantly's pricing page,noopener noreferrer
 A051,https://www.smartlead.ai/pricing,Smartlead's pricing page,noopener noreferrer
 A051,https://www.smartlead.ai/pricing,Smartlead lists verification credits,noopener noreferrer
+A032,https://www.jasper.ai/pricing,"pricing page lists Jasper IQ (Brand Voices, Knowledge, Audiences, a Style Guide and Visual Guidelines), more than 100 marketing agents, Remix for channel adaptation, an image suite and support for more than 30 languages",noopener noreferrer
+A032,https://www.jasper.ai/pricing,"includes 2 Brand Voices, 5 Knowledge assets and 3 Audiences",noopener noreferrer
+A032,https://writer.com/,writer.com,noopener noreferrer
+A032,https://www.typeface.ai/,typeface.ai,noopener noreferrer
+A032,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
+A032,https://chatgpt.com/pricing,chatgpt.com/pricing,noopener noreferrer
+A032,https://workspace.google.com/pricing,workspace.google.com,noopener noreferrer
+A032,https://www.copy.ai/prices,copy.ai/prices,noopener noreferrer
+A032,https://writesonic.com/pricing,writesonic.com/pricing,noopener noreferrer
+A032,https://www.grammarly.com/plans,grammarly.com/plans,noopener noreferrer
+A032,https://writer.com/,Writer's official site,noopener noreferrer
+A032,https://www.typeface.ai/,Typeface's official site,noopener noreferrer
+A032,https://claude.com/pricing,"pricing page lists Team standard seats at $20 per seat a month billed annually or $25 monthly, for 2 to 150 seats",noopener noreferrer
+A032,https://chatgpt.com/pricing,ChatGPT's pricing page,noopener noreferrer
+A032,https://workspace.google.com/pricing,Google Workspace pricing,noopener noreferrer
+A032,https://www.grammarly.com/plans,Grammarly's plans page,noopener noreferrer
+A032,https://www.copy.ai/prices,"Chat plan is $29 a month billed monthly or $24 billed annually for 5 seats, and workflow credits start on Growth at $1,000 a month billed $12,000 a year",noopener noreferrer
+A032,https://writesonic.com/pricing,"starts at $79 a month billed annually for one user, 15 AI articles a month and one writing style; Growth at $399 includes three users and ten writing styles",noopener noreferrer
+A032,https://www.jasper.ai/pricing,versions going back 7 days,noopener noreferrer
 A031,https://www.jasper.ai/pricing,"pricing page describes ""Jasper IQ""",noopener noreferrer
 A031,https://www.copy.ai/prices,pricing page sells a Chat plan and a ladder of workflow plans,noopener noreferrer
 A031,https://writesonic.com/pricing,pricing page leads with prompt tracking across AI platforms,noopener noreferrer
@@ -3853,9 +3811,66 @@ A031,https://www.copy.ai/prices,"Growth plan is $1,000 a month billed $12,000 a 
 A031,https://writesonic.com/pricing,"track 50, 100 or 200 prompts and include 15, 25 or 50 AI articles a month",noopener noreferrer
 A031,https://writesonic.com/pricing,$50-per-user add-on,noopener noreferrer
 A031,https://claude.com/pricing,"pricing page lists Claude Team standard seats at $20 per seat a month billed annually or $25 billed monthly, for teams of 2 to 150",noopener noreferrer
+A054,https://www.klaviyo.com/platform/how-klaviyo-pricing-works,how Klaviyo pricing works,noopener noreferrer
+A054,https://www.omnisend.com/pricing/,See official pricing,noopener noreferrer
+A054,https://www.drip.com/pricing,See official pricing,noopener noreferrer
+A054,https://www.brevo.com/pricing/,See official pricing,noopener noreferrer
+A054,https://mailchimp.com/pricing/,See official pricing,noopener noreferrer
+A054,https://www.attentive.com/,Official site,noopener noreferrer
+A054,https://postscript.io/pricing,See official pricing,noopener noreferrer
+A054,https://www.bloomreach.com/,Official site,noopener noreferrer
 A055,https://www.lemlist.com/pricing,Lemlist's pricing page,noopener noreferrer
 A055,https://reply.io/pricing/,Reply.io's pricing page,noopener noreferrer
 A055,https://reply.io/pricing/,Reply.io lists domains,noopener noreferrer
+A052,https://mailchimp.com/pricing/,Mailchimp pricing page,noopener noreferrer
+A052,https://mailchimp.com/help/about-your-contacts/,which contact types count toward your plan,noopener noreferrer
+A052,https://www.mailerlite.com/pricing,See official pricing,noopener noreferrer
+A052,https://www.brevo.com/pricing/,See official pricing,noopener noreferrer
+A052,https://kit.com/pricing,See official pricing,noopener noreferrer
+A052,https://www.activecampaign.com/pricing,See official pricing,noopener noreferrer
+A052,https://www.klaviyo.com/pricing,See official pricing,noopener noreferrer
+A052,https://www.omnisend.com/pricing/,See official pricing,noopener noreferrer
+A052,https://www.klaviyo.com/pricing,Klaviyo pricing page,noopener noreferrer
+A100,https://support.google.com/analytics/,Google Analytics 4,noopener noreferrer
+A100,https://www.hubspot.com/products/marketing,HubSpot Marketing Hub,noopener noreferrer
+A100,https://www.salesforce.com/,Salesforce,noopener noreferrer
+A100,https://dreamdata.io/,Dreamdata,noopener noreferrer
+A100,https://www.hockeystack.com/,HockeyStack,noopener noreferrer
+A100,https://www.ruleranalytics.com/,Ruler Analytics,noopener noreferrer
+A100,https://support.google.com/analytics/,Analytics help documentation,noopener noreferrer
+A100,https://www.hubspot.com/products/marketing,Marketing Hub,noopener noreferrer
+A097,https://zapier.com/pricing,Zapier Professional,noopener noreferrer
+A097,https://www.make.com/en/pricing,Make Core,noopener noreferrer
+A097,https://n8n.io/pricing/,n8n Starter,noopener noreferrer
+A097,https://www.lemlist.com/pricing,lemlist Multichannel,noopener noreferrer
+A097,https://www.hubspot.com/pricing/marketing,Marketing Hub pricing page,noopener noreferrer
+A097,https://www.lemlist.com/pricing,lemlist pricing page,noopener noreferrer
+A097,https://zapier.com/pricing,Zapier pricing page,noopener noreferrer
+A097,https://www.make.com/en/pricing,Make pricing page,noopener noreferrer
+A097,https://n8n.io/pricing/,n8n pricing page,noopener noreferrer
+A098,https://zapier.com/pricing,Zapier,noopener noreferrer
+A098,https://www.make.com/en/pricing,Make,noopener noreferrer
+A072,https://www.pipedrive.com/en/pricing,official Pipedrive pricing page,noopener noreferrer
+A072,https://www.hubspot.com/pricing/sales,See official pricing,noopener noreferrer
+A072,https://www.activecampaign.com/pricing,See official pricing,noopener noreferrer
+A072,https://www.close.com/pricing,See official pricing,noopener noreferrer
+A072,https://www.zoho.com/crm/zohocrm-pricing.html,See official pricing,noopener noreferrer
+A072,https://www.salesforce.com/sales/pricing/,See official pricing,noopener noreferrer
+A072,https://attio.com/pricing,See official pricing,noopener noreferrer
+A072,https://www.bigin.com/,See official site,noopener noreferrer
+A298,https://mixpanel.com/pricing/,Mixpanel pricing,noopener noreferrer
+A298,https://amplitude.com/pricing,Amplitude pricing,noopener noreferrer
+A298,https://posthog.com/pricing,PostHog pricing,noopener noreferrer
+A298,https://www.heap.io/pricing,Heap pricing,noopener noreferrer
+A298,https://www.pendo.io/pricing/,Pendo pricing,noopener noreferrer
+A298,https://marketingplatform.google.com/about/analytics/,Google Analytics product page,noopener noreferrer
+A019,https://www.localfalcon.com/pricing,grid scans on a credit basis,noopener noreferrer
+A019,https://www.brightlocal.com/pricing/,location-based plans,noopener noreferrer
+A019,https://www.localfalcon.com/,Local Falcon,noopener noreferrer
+A019,https://www.brightlocal.com/,BrightLocal,noopener noreferrer
+A019,https://whitespark.ca/,Whitespark,noopener noreferrer
+A019,https://seranking.com/,SE Ranking,noopener noreferrer
+A019,https://www.semrush.com/,Semrush,noopener noreferrer
 A015,https://seranking.com/subscription.html,SE Ranking subscription page,noopener noreferrer
 A015,https://www.semrush.com/pricing/seo-ai-search/,Semrush SEO and AI search pricing,noopener noreferrer
 A015,https://seranking.com/subscription.html,Core at $103.20 a month billed annually,noopener noreferrer
@@ -3869,6 +3884,19 @@ A015,https://seranking.com/subscription.html,"three locations included on Core a
 A015,https://www.semrush.com/pricing/local/,"Local Base at $30 and Local Pro at $60 per location per month, billed annually",noopener noreferrer
 A015,https://seranking.com/subscription.html,every plan starts with a 14-day free trial,noopener noreferrer
 A015,https://www.semrush.com/kb/1011-subscriptions,7-day free trials for its toolkits,noopener noreferrer
+A012,https://www.semrush.com/pricing/seo-ai-search/,"keywords tracked daily on every self-serve tier, with multi-location and device tracking on Pro+",noopener noreferrer
+A012,https://www.semrush.com/pricing/seo-ai-search/,5 websites and 500 tracked keywords,noopener noreferrer
+A012,https://www.semrush.com/pricing/seo-ai-search/,"from $45 a month, and the white-label Pro Report at $20 a month",noopener noreferrer
+A012,https://www.semrush.com/kb/34-my-reports,bought per report,noopener noreferrer
+A012,https://seranking.com/subscription.html,"Core at $129 a month with 10 projects, one manager seat and 2,000 daily-tracked keywords, and Growth at $279 with 30 projects, three seats and 5,000 keywords",noopener noreferrer
+A012,https://seranking.com/agency-pack.html,Agency Pack is listed at +$69 a month on annual billing only,noopener noreferrer
+A012,https://app.neilpatel.com/en/pricing,"three monthly tiers from $29 to $99, with 1, 7 and 15 projects",noopener noreferrer
+A012,https://mangools.com/plans-and-pricing,"Mangools bundles KWFinder with SERP analysis, rank tracking and backlink lookups",noopener noreferrer
+A012,https://moz.com/products/pro,official Moz Pro page,noopener noreferrer
+A012,https://www.brightlocal.com/pricing/,"Track at $41 a month for one location on monthly billing, covering up to 100 keywords and four competitors per location, with a 7x7 search grid for up to five keywords",noopener noreferrer
+A012,https://ahrefs.com/pricing,"Lite at $129, Standard at $249 and Advanced at $449 a month, each with one user",noopener noreferrer
+A012,https://majestic.com/how-to-use-majestic,Historic Index is available on Pro and above,noopener noreferrer
+A012,https://agencyanalytics.com/pricing,prices by the number of clients you manage and lists a 14-day trial,noopener noreferrer
 A011,https://www.semrush.com/pricing/seo-ai-search/,Semrush SEO and AI search pricing,noopener noreferrer
 A011,https://ahrefs.com/pricing,Ahrefs plans and pricing,noopener noreferrer
 A011,https://www.semrush.com/pricing/seo-ai-search/,$248.17 a month when billed annually,noopener noreferrer
@@ -3885,6 +3913,47 @@ A011,https://ahrefs.com/pricing,pricing page states that it does not issue refun
 A011,https://ahrefs.com/pricing,pricing page says it never runs discounts,noopener noreferrer
 A011,https://www.semrush.com/pricing/seo-ai-search/,free plan with one demo project and 10 reports a day,noopener noreferrer
 A011,https://ahrefs.com/free,free tier for verified site owners,noopener noreferrer
+A017,https://www.semrush.com/prices/,Semrush's plans page,noopener noreferrer
+A017,https://ahrefs.com/pricing,Ahrefs' pricing page,noopener noreferrer
+A017,https://seranking.com/subscription.html,SE Ranking's subscription page,noopener noreferrer
+A017,https://moz.com/products/pro/pricing,Moz Pro pricing,noopener noreferrer
+A017,https://agencyanalytics.com/pricing,AgencyAnalytics,noopener noreferrer
+A017,https://www.brightlocal.com/pricing/,BrightLocal,noopener noreferrer
+A017,https://www.localfalcon.com/pricing,Local Falcon,noopener noreferrer
+A017,https://www.screamingfrog.co.uk/seo-spider/pricing/,Screaming Frog licence,noopener noreferrer
+A018,https://www.semrush.com/prices/,Semrush plans,noopener noreferrer
+A018,https://ahrefs.com/pricing,Ahrefs pricing,noopener noreferrer
+A018,https://seranking.com/subscription.html,SE Ranking subscriptions,noopener noreferrer
+A159,https://shopify.dev/docs/apps/build/checkout,checkout extensibility framework,noopener noreferrer
+A159,https://www.shopify.com/pricing,Shopify's pricing page,noopener noreferrer
+A159,https://www.bigcommerce.com/essentials/pricing/,BigCommerce pricing,noopener noreferrer
+A159,https://woocommerce.com/,WooCommerce,noopener noreferrer
+A159,https://business.adobe.com/products/magento/magento-commerce.html,Adobe Commerce,noopener noreferrer
+A159,https://www.salesforce.com/commerce/,Salesforce Commerce Cloud,noopener noreferrer
+A159,https://commercetools.com/,commercetools,noopener noreferrer
+A159,https://webflow.com/pricing,Webflow pricing,noopener noreferrer
+A159,https://medusajs.com/,Medusa,noopener noreferrer
+A159,https://saleor.io/,Saleor,noopener noreferrer
+A159,https://www.bigcommerce.com/,BigCommerce,noopener noreferrer
+A159,https://www.bigcommerce.com/essentials/pricing/,official pricing page,noopener noreferrer
+A159,https://woocommerce.com/,WooCommerce,noopener noreferrer
+A159,https://webflow.com/ecommerce,Webflow Ecommerce,noopener noreferrer
+A159,https://business.adobe.com/products/magento/magento-commerce.html,Adobe Commerce,noopener noreferrer
+A159,https://www.salesforce.com/commerce/,Salesforce Commerce Cloud,noopener noreferrer
+A159,https://commercetools.com/,commercetools,noopener noreferrer
+A159,https://medusajs.com/,Medusa,noopener noreferrer
+A159,https://saleor.io/,Saleor,noopener noreferrer
+A014,https://surferseo.com/pricing/,"pricing page lists Discovery at $49, Standard at $99, Pro at $182 and Peace of Mind at $299 a month on yearly billing",noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/6758676-annual-plans-limits-allocation,"the year's limits upfront in one pool, and unused limits do not roll over",noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/12944161-fair-usage-policy,"fair usage policy sets 6,000 documents a year on that annual plan",noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/7925007-surfer-api-add-on-purchase,"$29-a-month add-on, included free only on Enterprise",noopener noreferrer
+A014,https://neuronwriter.com/faqs/how-many-pricing-plans-does-neuronwriter-have/,"Bronze at $23 a month for 25 content analyses and 2 projects, Silver at $45 for 50 and 5 projects, and Gold at $69 for 75 and 10 projects",noopener noreferrer
+A014,https://www.frase.io/pricing,"Starter at $49 a month for 10 articles, Professional at $129 for 40 articles with 3 seats and 5 sites, and Scale at $299 for 100 articles",noopener noreferrer
+A014,https://www.clearscope.io/pricing,"Essentials at $129 a month with unlimited users, 20 monthly drafts and 20 topic explorations, and Business at $399",noopener noreferrer
+A014,https://www.clearscope.io/support/how-do-plan-addons-work,add-ons are billed automatically once you exceed plan credits,noopener noreferrer
+A014,https://www.marketmuse.com/pricing/,MarketMuse meters plans by queries and lists a free tier,noopener noreferrer
+A014,https://www.semrush.com/pricing/content/,"Content Toolkit from $60 a month, with a Content Optimizer, SEO brief generator, unlimited standard articles and 5 SEO-boosted articles a month",noopener noreferrer
+A014,https://seranking.com/subscription.html,SE Ranking subscription page,noopener noreferrer
 A113,https://xtm.cloud/,XTM Cloud,noopener noreferrer
 A113,https://www.memoq.com/,memoQ,noopener noreferrer
 A113,https://www.trados.com/,Trados,noopener noreferrer
@@ -3892,6 +3961,22 @@ A113,https://lokalise.com/,Lokalise,noopener noreferrer
 A113,https://crowdin.com/,Crowdin,noopener noreferrer
 A113,https://phrase.com/,Phrase,noopener noreferrer
 A113,https://www.smartling.com/,Smartling,noopener noreferrer
+A207,https://webflow.com/pricing,Webflow pricing page,noopener noreferrer
+A207,https://wordpress.org/,WordPress.org,noopener noreferrer
+A207,https://www.contentful.com/pricing/,See official pricing,noopener noreferrer
+A207,https://www.sanity.io/pricing,See official pricing,noopener noreferrer
+A207,https://www.storyblok.com/pricing,See official pricing,noopener noreferrer
+A207,https://www.hubspot.com/products/content,See official pricing,noopener noreferrer
+A207,https://www.shopify.com/pricing,See official pricing,noopener noreferrer
+A207,https://www.framer.com/pricing,See official pricing,noopener noreferrer
+A207,https://wordpress.org/,WordPress.org,noopener noreferrer
+A207,https://www.contentful.com/pricing/,Contentful,noopener noreferrer
+A207,https://www.sanity.io/pricing,Sanity,noopener noreferrer
+A207,https://www.storyblok.com/pricing,Storyblok,noopener noreferrer
+A207,https://www.hubspot.com/products/content,Content Hub page,noopener noreferrer
+A207,https://www.shopify.com/pricing,Shopify pricing page,noopener noreferrer
+A207,https://www.framer.com/pricing,Framer,noopener noreferrer
+A207,https://www.wix.com/studio,Wix Studio,noopener noreferrer
 A219,https://help.webflow.com/hc/en-us/articles/51059955082387-Updated-pricing-and-simplified-plans-for-May-2026,May 2026 plan update,noopener noreferrer
 A219,https://www.framer.com/pricing,pricing page,noopener noreferrer
 A219,https://www.contentful.com/pricing/,pricing page,noopener noreferrer
@@ -3899,6 +3984,21 @@ A219,https://wordpress.org/about/license/,"free, open-source software released u
 A219,https://wordpress.org/documentation/article/difference-between-wordpress-org-and-wordpress-com/,the self-hosted software is separate from the WordPress.com hosting service,noopener noreferrer
 A219,https://legal.hubspot.com/hubspot-product-and-services-catalog/products,product catalog,noopener noreferrer
 A219,https://help.webflow.com/hc/en-us/articles/33961386739347-How-do-I-export-my-Webflow-site-code,exported site code doesn't include CMS content and functionality,noopener noreferrer
+A208,https://wordpress.org/,WordPress,noopener noreferrer
+A208,https://www.duda.co/pricing,See official pricing,noopener noreferrer
+A208,https://www.wix.com/studio,See official pricing,noopener noreferrer
+A208,https://webflow.com/pricing,See official pricing,noopener noreferrer
+A208,https://www.hubspot.com/products/content,See official pricing,noopener noreferrer
+A208,https://www.contentful.com/pricing/,See official pricing,noopener noreferrer
+A208,https://www.storyblok.com/pricing,See official pricing,noopener noreferrer
+A208,https://www.sanity.io/pricing,See official pricing,noopener noreferrer
+A208,https://www.duda.co/pricing,Duda pricing page,noopener noreferrer
+A208,https://www.wix.com/studio,Wix Studio,noopener noreferrer
+A208,https://webflow.com/pricing,Webflow pricing page,noopener noreferrer
+A208,https://www.hubspot.com/products/content,Content Hub page,noopener noreferrer
+A208,https://www.contentful.com/pricing/,Contentful,noopener noreferrer
+A208,https://www.storyblok.com/pricing,Storyblok,noopener noreferrer
+A208,https://www.sanity.io/pricing,Sanity,noopener noreferrer
 A106,https://wordpress.org/,WordPress.org,noopener noreferrer
 A106,https://wordpress.com/pricing/,WordPress.com's hosted plans,noopener noreferrer
 A106,https://webflow.com/pricing,Webflow,noopener noreferrer
@@ -3909,6 +4009,19 @@ A106,https://wordpress.org/plugins/,WordPress plugin directory,noopener noreferr
 A106,https://webflow.com/apps,apps marketplace,noopener noreferrer
 A106,https://webflow.com/pricing,Webflow's pricing page,noopener noreferrer
 A106,https://wordpress.com/pricing/,WordPress.com's plan list,noopener noreferrer
+A034,https://writesonic.com/pricing,"pricing page lists Starter, Basic and Growth at $79, $199 and $399 a month billed annually, with 1, 2 or 3 users, 50, 100 or 200 tracked prompts, and 15, 25 or 50 AI articles a month",noopener noreferrer
+A034,https://writesonic.com/pricing,$50 per user a month,noopener noreferrer
+A034,https://surferseo.com/pricing/,surferseo.com,noopener noreferrer
+A034,https://www.clearscope.io/pricing,clearscope.io,noopener noreferrer
+A034,https://www.frase.io/pricing,frase.io,noopener noreferrer
+A034,https://www.tryprofound.com/,tryprofound.com,noopener noreferrer
+A034,https://peec.ai/pricing,peec.ai,noopener noreferrer
+A034,https://www.semrush.com/prices/,semrush.com,noopener noreferrer
+A034,https://ahrefs.com/pricing,ahrefs.com,noopener noreferrer
+A034,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
+A034,https://www.jasper.ai/pricing,jasper.ai/pricing,noopener noreferrer
+A034,https://claude.com/pricing,"pricing page lists Claude Pro at $17 a month on annual billing ($200 up front) or $20 monthly, and Team standard seats at $20 per seat a month billed annually for 2 to 150 people",noopener noreferrer
+A034,https://www.jasper.ai/pricing,costs $59 per seat a month billed yearly and holds 2 Brand Voices and 5 Knowledge assets,noopener noreferrer
 A091,https://zapier.com/pricing,Zapier's pricing page,noopener noreferrer
 A091,https://www.make.com/en/pricing,Make's pricing page,noopener noreferrer
 A091,https://n8n.io/pricing/,n8n's pricing page,noopener noreferrer
@@ -3932,123 +4045,10 @@ A091,https://n8n.io/pricing/,"Business and Enterprise licence keys check in with
 A091,https://docs.n8n.io/hosting/,n8n's hosting documentation,noopener noreferrer
 A091,https://zapier.com/pricing,included code runtime of 1 second per step on Free and 30 seconds on Professional and Team,noopener noreferrer
 A091,https://www.make.com/en/pricing,Code app steps cost 2 credits per second and aren't available on Free,noopener noreferrer
-A038,https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on,"can write things that look correct but are very mistaken, and should not be relied on as a singular source of truth",noopener noreferrer
-A038,https://support.claude.com/en/articles/9517075-what-are-projects,upload documents to its knowledge base and set project instructions,noopener noreferrer
-A038,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,find a supporting quote for each claim and retract any it can't support,noopener noreferrer
-A099,https://www.pipedrive.com/en/pricing,Pipedrive pricing page,noopener noreferrer
-A099,https://www.make.com/en/pricing,Make pricing page,noopener noreferrer
-A099,https://www.smartlead.ai/pricing,Smartlead pricing page,noopener noreferrer
-A099,https://claude.com/pricing,Claude pricing page,noopener noreferrer
-A099,https://zapier.com/pricing,Zapier pricing page,noopener noreferrer
-A099,https://instantly.ai/pricing,Instantly pricing page,noopener noreferrer
-A099,https://n8n.io/pricing/,n8n pricing page,noopener noreferrer
-A099,https://reply.io/pricing/,Reply.io pricing page,noopener noreferrer
-A099,https://www.jasper.ai/pricing,Jasper pricing page,noopener noreferrer
-A079,https://www.lemlist.com/pricing,"lists HubSpot, Salesforce and Pipedrive integrations on all plans",noopener noreferrer
-A078,https://www.pipedrive.com/en/pricing,lists a 14-day free trial,noopener noreferrer
-A058,https://mailchimp.com/help/about-mailchimp-pricing-plans/,"10 times your contact limit on Essentials, 12 times on Standard and 15 times on Premium",noopener noreferrer
-A058,https://www.mailerlite.com/pricing,Power plan lists unlimited monthly emails under a fair-use policy,noopener noreferrer
-A058,https://kit.com/pricing,no sending limits on any plan,noopener noreferrer
-A058,https://www.brevo.com/pricing/,"Starter plan starts at $9 a month for 5,000 emails",noopener noreferrer
-A059,https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business,honor opt-out requests within 10 business days,noopener noreferrer
-A059,https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/,email corporate subscribers without PECR consent,noopener noreferrer
-A059,https://crtc.gc.ca/eng/com500/faq500.htm,onus of proving consent is on the sender,noopener noreferrer
-A059,https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com,pass SPF and DKIM and publish an aligned DMARC record,noopener noreferrer
-A060,https://support.apple.com/guide/iphone/use-mail-privacy-protection-iphf084865c7/ios,downloads remote content privately in the background,noopener noreferrer
-A060,https://help.klaviyo.com/hc/en-us/articles/1260804504250,bot-click exclusion by default for accounts created on or after 27 August 2024,noopener noreferrer
-A060,https://support.google.com/mail/answer/14229414?hl=en,stay below a 0.1% user-reported spam rate and never reach 0.3%,noopener noreferrer
-A060,https://help.klaviyo.com/hc/en-us/articles/1260804504250,"five days of an email open or click, using last-touch attribution",noopener noreferrer
-A060,https://support.google.com/mail/answer/14668346?hl=en,typically updated within 24 hours,noopener noreferrer
-A060,https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com,pass SPF and DKIM and publish an aligned DMARC record,noopener noreferrer
-A060,https://support.google.com/mail/answer/14229414?hl=en,honor unsubscribes within 48 hours,noopener noreferrer
-A039,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,"comparing outputs of the same prompt, since inconsistencies can indicate hallucinations",noopener noreferrer
-A039,https://support.claude.com/en/articles/8241188-claude-is-producing-links-that-don-t-work-and-falsely-claiming-that-it-has-sent-emails-or-produced-external-documents-what-s-going-on,can sometimes hallucinate its capabilities,noopener noreferrer
-A199,https://www.rewardful.com/,Rewardful,noopener noreferrer
-A199,https://firstpromoter.com/,FirstPromoter,noopener noreferrer
-A199,https://partnerstack.com/,PartnerStack,noopener noreferrer
-A199,https://www.crossbeam.com/,Crossbeam,noopener noreferrer
-A139,https://ads.google.com/home/,Google Ads,noopener noreferrer
-A139,https://tagassistant.google.com/,Google Tag Assistant,noopener noreferrer
-A300,https://mixpanel.com/pricing/,Mixpanel,noopener noreferrer
-A300,https://amplitude.com/pricing,Amplitude,noopener noreferrer
-A300,https://posthog.com/pricing,PostHog,noopener noreferrer
-A300,https://stripe.com/billing,Stripe Billing,noopener noreferrer
-A300,https://www.growthbook.io/pricing,pricing page describes a free Starter plan,noopener noreferrer
-A280,https://zapier.com/pricing,pricing page lists a Free plan of 100 tasks a month with two-step Zaps,noopener noreferrer
-A160,https://help.shopify.com/en/manual/apps/working-with-apps,app management documentation,noopener noreferrer
-A200,https://support.google.com/analytics/,Google Analytics,noopener noreferrer
-A220,https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes,"finding important URLs from sitemaps, traffic data and the Links report, and including images, video, JavaScript and CSS in the plan",noopener noreferrer
-A220,https://developers.google.com/search/docs/crawling-indexing/301-redirects,"server-side permanent redirects, preferably HTTP 301 or 308",noopener noreferrer
-A220,https://support.google.com/analytics/answer/7201382?hl=en,"DebugView, which shows events from a debug device as they're logged",noopener noreferrer
-A220,https://support.google.com/analytics/answer/9271392?hl=en&co=GENIE.Platform%3DDesktop,Realtime report,noopener noreferrer
-A220,https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/,follow redirects to their final target in list mode and export chains and redirects to errors,noopener noreferrer
-A220,https://support.google.com/webmasters/answer/9370220?hl=en,Change of Address tool after redirects are live,noopener noreferrer
-A220,https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes,Google's site move guidance,noopener noreferrer
-A100,https://support.google.com/analytics/,Google Analytics 4,noopener noreferrer
-A100,https://www.hubspot.com/products/marketing,HubSpot Marketing Hub,noopener noreferrer
-A100,https://www.salesforce.com/,Salesforce,noopener noreferrer
-A100,https://dreamdata.io/,Dreamdata,noopener noreferrer
-A100,https://www.hockeystack.com/,HockeyStack,noopener noreferrer
-A100,https://www.ruleranalytics.com/,Ruler Analytics,noopener noreferrer
-A100,https://support.google.com/analytics/,Analytics help documentation,noopener noreferrer
-A100,https://www.hubspot.com/products/marketing,Marketing Hub,noopener noreferrer
-A098,https://zapier.com/pricing,Zapier,noopener noreferrer
-A098,https://www.make.com/en/pricing,Make,noopener noreferrer
-A019,https://www.localfalcon.com/pricing,grid scans on a credit basis,noopener noreferrer
-A019,https://www.brightlocal.com/pricing/,location-based plans,noopener noreferrer
-A019,https://www.localfalcon.com/,Local Falcon,noopener noreferrer
-A019,https://www.brightlocal.com/,BrightLocal,noopener noreferrer
-A019,https://whitespark.ca/,Whitespark,noopener noreferrer
-A019,https://seranking.com/,SE Ranking,noopener noreferrer
-A019,https://www.semrush.com/,Semrush,noopener noreferrer
-A018,https://www.semrush.com/prices/,Semrush plans,noopener noreferrer
-A018,https://ahrefs.com/pricing,Ahrefs pricing,noopener noreferrer
-A018,https://seranking.com/subscription.html,SE Ranking subscriptions,noopener noreferrer
-A037,https://claude.com/pricing,Claude's official pricing page,noopener noreferrer
-A037,https://openai.com/chatgpt/pricing/,ChatGPT,noopener noreferrer
-A037,https://www.jasper.ai/pricing,Jasper,noopener noreferrer
-A037,https://writesonic.com/pricing,Writesonic,noopener noreferrer
-A037,https://www.canva.com/pricing/,Canva,noopener noreferrer
-A037,https://www.descript.com/pricing,Descript,noopener noreferrer
-A057,https://woodpecker.co/pricing/,pricing page,noopener noreferrer
-A057,https://www.smartlead.ai/pricing,Smartlead pricing,noopener noreferrer
-A057,https://docs.saleshandy.com/en/articles/16451272-saleshandy-platform-plan-pricing-2026,Saleshandy plan pricing,noopener noreferrer
-A057,https://instantly.ai/pricing,Instantly pricing,noopener noreferrer
-A057,https://reply.io/pricing/,Reply.io pricing,noopener noreferrer
-A057,https://www.lemlist.com/pricing,lemlist pricing,noopener noreferrer
-A057,https://help.instantly.ai/en/articles/11381241-data-credit-system,expire two months after purchase,noopener noreferrer
-A057,https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans,"$8.40 per user a month on the Flexible Plan, or $7 a month with a one-year commitment",noopener noreferrer
-A057,https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-business-basic,$7 per user a month paid yearly,noopener noreferrer
-A057,https://reply.io/pricing/,$6 per domain a year plus $5 per mailbox a month,noopener noreferrer
-A057,https://www.neverbounce.com/pricing,"$8 for 1,000 credits, which expire 12 months after purchase",noopener noreferrer
-A077,https://www.pipedrive.com/en/pricing,"pricing page lists Lite at US$14, Growth at US$39, Premium at US$59 and Ultimate at US$79 per seat per month, billed annually",noopener noreferrer
-A077,https://www.pipedrive.com/en/pricing,Pipedrive pricing,noopener noreferrer
-A077,https://www.hubspot.com/pricing/sales,HubSpot pricing,noopener noreferrer
-A077,https://www.salesforce.com/sales/pricing/,Salesforce pricing,noopener noreferrer
-A077,https://www.zoho.com/crm/zohocrm-pricing.html,Zoho CRM pricing,noopener noreferrer
-A077,https://attio.com/pricing,Attio pricing,noopener noreferrer
-A077,https://www.bitrix24.com/prices/,Bitrix24 prices,noopener noreferrer
-A077,https://www.pipedrive.com/en/pricing,save up to 42%,noopener noreferrer
-A097,https://zapier.com/pricing,Zapier Professional,noopener noreferrer
-A097,https://www.make.com/en/pricing,Make Core,noopener noreferrer
-A097,https://n8n.io/pricing/,n8n Starter,noopener noreferrer
-A097,https://www.lemlist.com/pricing,lemlist Multichannel,noopener noreferrer
-A097,https://www.hubspot.com/pricing/marketing,Marketing Hub pricing page,noopener noreferrer
-A097,https://www.lemlist.com/pricing,lemlist pricing page,noopener noreferrer
-A097,https://zapier.com/pricing,Zapier pricing page,noopener noreferrer
-A097,https://www.make.com/en/pricing,Make pricing page,noopener noreferrer
-A097,https://n8n.io/pricing/,n8n pricing page,noopener noreferrer
-A298,https://mixpanel.com/pricing/,Mixpanel pricing,noopener noreferrer
-A298,https://amplitude.com/pricing,Amplitude pricing,noopener noreferrer
-A298,https://posthog.com/pricing,PostHog pricing,noopener noreferrer
-A298,https://www.heap.io/pricing,Heap pricing,noopener noreferrer
-A298,https://www.pendo.io/pricing/,Pendo pricing,noopener noreferrer
-A298,https://marketingplatform.google.com/about/analytics/,Google Analytics product page,noopener noreferrer
-A017,https://www.semrush.com/prices/,Semrush's plans page,noopener noreferrer
-A017,https://ahrefs.com/pricing,Ahrefs' pricing page,noopener noreferrer
-A017,https://seranking.com/subscription.html,SE Ranking's subscription page,noopener noreferrer
-A017,https://moz.com/products/pro/pricing,Moz Pro pricing,noopener noreferrer
-A017,https://agencyanalytics.com/pricing,AgencyAnalytics,noopener noreferrer
-A017,https://www.brightlocal.com/pricing/,BrightLocal,noopener noreferrer
-A017,https://www.localfalcon.com/pricing,Local Falcon,noopener noreferrer
-A017,https://www.screamingfrog.co.uk/seo-spider/pricing/,Screaming Frog licence,noopener noreferrer
+A074,https://www.zoominfo.com/,ZoomInfo official site,noopener noreferrer
+A074,https://www.apollo.io/pricing,See official pricing,noopener noreferrer
+A074,https://www.lusha.com/pricing/,See official pricing,noopener noreferrer
+A074,https://www.uplead.com/pricing/,See official pricing,noopener noreferrer
+A074,https://rocketreach.co/pricing,See official pricing,noopener noreferrer
+A074,https://www.cognism.com/,Official site,noopener noreferrer
+A074,https://www.clay.com/pricing,See official pricing,noopener noreferrer

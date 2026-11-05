@@ -10,7 +10,7 @@ Decisions made where the source DOCX or the build brief was silent or conflictin
 ## Source plan
 
 3. **Article count.** The DOCX has exactly 100 entries (5 × 20). Nothing was added to or removed from the counted set.
-4. **Hubs are extra pages.** The DOCX defines `/growth-stack/` ("not counted in the 100") and five `/categories/…/` hubs. They were built as H00–H05 and kept outside the count.
+4. **Hubs are extra pages.** The DOCX defines `/growth-stack/` ("not counted in the 100") and five category hubs (now flat, e.g. `/seo/`). They were built as H00–H05 and kept outside the count.
 5. **Titles.** All H1s keep the DOCX working titles. Writers could refine the SEO `<title>` tag for length, but the H1 and intent are unchanged.
 6. **The DOCX says titles are hypotheses.** Search demand, SERP format and keyword difficulty were **not** validated (no SEO data source was used). Check them before publishing, as DOCX §10 instructs.
 

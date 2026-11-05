@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lead Scoring vs Lead Enrichment: When to Use Each or Both | BRAND_NAME</title>
+  <meta name="description" content="Lead scoring vs lead enrichment: inputs, outputs, system needs, data quality controls and a decision tree for when to implement each, or both together.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/lead-scoring-vs-lead-enrichment/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://YOUR-DOMAIN.example/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "CRM and Lead Generation Software: From Prospect Data to Qualified Pipeline",
+            "item": "https://YOUR-DOMAIN.example/crm-lead-gen/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Lead Scoring vs Lead Enrichment: What They Do and When to Use Both",
+            "item": "https://YOUR-DOMAIN.example/lead-scoring-vs-lead-enrichment/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can lead scoring work without enrichment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if forms already collect the fit fields you score on, or if you score on engagement only. Fit scoring on mostly blank fields is unreliable."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is predictive lead scoring better than rules-based scoring?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Predictive models need enough historical won and lost deals to learn from. Small teams usually get more from a simple, transparent rules-based model they can explain to sales."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How often should enriched data be refreshed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Set a refresh window based on how fast your market changes roles and companies, and re-enrich before reusing older records in outreach. Store the enrichment date so you know which records are stale."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who should own the scoring model?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Marketing and sales jointly, with revenue operations maintaining it. Sales must agree the threshold, or scored leads get ignored."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A080" data-content-type="guide" data-cluster="4">
+      <header>
+        <p>CRM, lead generation and sales intelligence</p>
+        <h1>Lead Scoring vs Lead Enrichment: What They Do and When to Use Both</h1>
+        <p>Lead scoring vs lead enrichment isn't an either-or choice: enrichment adds facts to a record, and scoring uses those facts plus behavior to decide who sales should call first. Most teams need enrichment before scoring can be trusted.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#what-is-the-difference">What's the difference between lead scoring and lead enrichment?</a></li>
+          <li><a href="#inputs-and-outputs">What goes in and what comes out of each?</a></li>
+          <li><a href="#b2b-example">How do they work together in a B2B funnel?</a></li>
+          <li><a href="#system-requirements">What does each need from your systems?</a></li>
+          <li><a href="#data-quality-controls">Which data quality controls keep both honest?</a></li>
+          <li><a href="#first-hand-experience">Where do scoring and enrichment go wrong?</a></li>
+          <li><a href="#decision-tree">When should you implement each?</a></li>
+          <li><a href="#tools">Which tools should you look at next?</a></li>
+          <li><a href="#faq">What else do teams ask about scoring and enrichment?</a></li>
+          <li><a href="#next-steps">What should you do first?</a></li>
+        </ol>
+      </nav>
+
+      <section id="what-is-the-difference">
+        <h2>What's the difference between lead scoring and lead enrichment?</h2>
+        <p>Lead enrichment fills in missing information about a person or company, such as job title, seniority, company size, industry or technology used. Lead scoring turns information and activity into a priority, usually a number or grade, that tells sales whom to contact first.</p>
+        <p>Put simply, enrichment answers "who is this?" and scoring answers "should we act now?". Scoring built on thin records guesses; enrichment without scoring gives sales richer records but no order to work them in.</p>
+      </section>
+
+      <section id="inputs-and-outputs">
+        <h2>What goes in and what comes out of each?</h2>
+        <p>Enrichment takes an identifier, usually an email address or company domain, and returns firmographic and contact fields. Scoring takes those fields plus behavioral events and returns a score, a grade or a routing decision.</p>
+        <ul>
+          <li><strong>Enrichment input:</strong> email, name plus company, or domain.</li>
+          <li><strong>Enrichment output:</strong> title, seniority, department, company size, industry, location, technology and sometimes phone numbers, each ideally with a provider and date.</li>
+          <li><strong>Scoring input:</strong> fit attributes (often from enrichment) and engagement signals such as pricing-page visits, demo requests, email replies or product sign-ups.</li>
+          <li><strong>Scoring output:</strong> a fit score, an engagement score or a combined grade, plus thresholds that trigger routing, alerts or lifecycle-stage changes.</li>
+        </ul>
+      </section>
+
+      <section id="b2b-example">
+        <h2>How do they work together in a B2B funnel?</h2>
+        <p>Enrichment runs first, at form submission or import, so every lead arrives with fit data; scoring runs continuously as behavior accumulates. A lead crosses the sales threshold only when fit and engagement are both high enough.</p>
+        <p><strong>Hypothetical example:</strong> a visitor at a 200-person logistics company downloads a guide using a work email. Enrichment adds "operations director", the company size and the industry. The fit score rises because the role and segment match the ideal customer profile. Over the next week the same person views the pricing page twice and replies to a nurture email, so the engagement score rises too. The combined grade crosses the agreed threshold, the CRM routes the lead to the account owner, and the owner sees why: role, segment and the two pricing visits. A student using a personal email downloading the same guide gets little enrichment and a low fit score, so they stay in nurture.</p>
+      </section>
+
+      <section id="system-requirements">
+        <h2>What does each need from your systems?</h2>
+        <p>Enrichment needs a data provider, field mapping into the CRM and rules for overwriting existing values. Scoring needs reliable behavioral tracking, a scoring engine in the CRM or marketing automation tool, and an agreed definition of a sales-ready lead.</p>
+        <table>
+          <caption>Lead enrichment versus lead scoring: inputs, outputs and system requirements</caption>
+          <thead>
+            <tr>
+              <th scope="col">Dimension</th>
+              <th scope="col">Lead enrichment</th>
+              <th scope="col">Lead scoring</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Question it answers</th><td>Who is this person and company?</td><td>Who should sales contact first?</td></tr>
+            <tr><th scope="row">Main input</th><td>Email address or company domain</td><td>Fit fields plus engagement events</td></tr>
+            <tr><th scope="row">Main output</th><td>Filled-in contact and company fields</td><td>Score, grade or routing decision</td></tr>
+            <tr><th scope="row">Where it runs</th><td>Data provider connected to CRM or forms</td><td>CRM or marketing automation platform</td></tr>
+            <tr><th scope="row">Typical pricing basis</th><td>Credits or records enriched</td><td>Included in a CRM or automation tier, or a separate tool</td></tr>
+            <tr><th scope="row">Owner</th><td>Marketing or revenue operations</td><td>Marketing and sales, jointly</td></tr>
+            <tr><th scope="row">Main failure</th><td>Stale or wrong data overwriting good data</td><td>Scores nobody trusts or acts on</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="data-quality-controls">
+        <h2>Which data quality controls keep both honest?</h2>
+        <p>Store the provider and date with every enriched field, never let enrichment overwrite values a person entered, and review scoring thresholds against actual won deals every quarter. Those three controls catch most drift.</p>
+        <ul>
+          <li><strong>Provenance:</strong> keep source and timestamp per field so you can re-enrich stale records and audit odd values.</li>
+          <li><strong>Overwrite rules:</strong> enrichment fills blanks; human-entered or customer-confirmed values win.</li>
+          <li><strong>Deduplication:</strong> match on email and domain before enriching, or you'll pay to enrich duplicates.</li>
+          <li><strong>Score decay:</strong> reduce engagement points over time so an old burst of activity doesn't keep a lead hot.</li>
+          <li><strong>Calibration:</strong> compare score bands with conversion to opportunity and won revenue, then adjust weights.</li>
+          <li><strong>Consent:</strong> record why you hold enriched data and honor deletion and opt-out requests across tools.</li>
+        </ul>
+        <p>Teams with an existing duplicate problem should start with <a href="/best-crm-data-quality-and-deduplication-tools/">CRM data quality and deduplication tools</a> before buying either.</p>
+      </section>
+
+      <section id="first-hand-experience">
+        <h2>Where do scoring and enrichment go wrong?</h2>
+        <p>Based on the product information reviewed, the common failures are scoring models built on fields that are mostly empty, and enrichment that silently overwrites correct data with provider guesses. Both are process problems that better software doesn't fix on its own.</p>
+        <p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+      </section>
+
+      <section id="decision-tree">
+        <h2>When should you implement each?</h2>
+        <p>Implement enrichment first if key fit fields are blank on many records, and scoring first only if records are already complete and sales can't keep up with inbound volume. If neither is true, fix lead routing and follow-up before buying either.</p>
+        <ol>
+          <li><strong>Can sales already follow up every new lead within a day?</strong>
+            <ul>
+              <li>Yes: scoring adds little yet. Improve enrichment so reps have context, and revisit scoring when volume grows.</li>
+              <li>No: continue to question 2.</li>
+            </ul>
+          </li>
+          <li><strong>Are title, company size and industry filled on most new leads?</strong>
+            <ul>
+              <li>No: implement enrichment first, then build a fit score on the enriched fields.</li>
+              <li>Yes: continue to question 3.</li>
+            </ul>
+          </li>
+          <li><strong>Do you track meaningful behavior, such as pricing visits, demo requests or product usage?</strong>
+            <ul>
+              <li>No: start with a fit-only score and fix tracking.</li>
+              <li>Yes: build fit and engagement scores together, with an agreed handoff threshold.</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section id="tools">
+        <h2>Which tools should you look at next?</h2>
+        <p>Look at enrichment providers and scoring features in the CRM you already own before adding a standalone tool. Many CRMs and automation platforms include basic scoring, so a separate product is only worth it when you outgrow that.</p>
+        <p>Our shortlists cover <a href="/best-lead-enrichment-software/">enrichment software for B2B revenue teams</a> and <a href="/best-lead-scoring-software/">lead scoring tools for small revenue teams</a>. If you're still choosing the system both will run in, start with <a href="/best-crm-software-for-small-business/">CRM software for small businesses</a>. When intent signals enter the picture, our comparison of <a href="/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/">CRM enrichment and intent data</a> explains what each adds. To check whether scored leads actually produce revenue, pair this with <a href="/best-marketing-analytics-software/">marketing analytics software for performance teams</a>.</p>
+      </section>
+
+      <section id="faq">
+        <h2>What else do teams ask about scoring and enrichment?</h2>
+        <p>These questions come up when teams plan the two together. Brief answers follow.</p>
+        <h3>Can lead scoring work without enrichment?</h3>
+        <p>Yes, if forms already collect the fit fields you score on, or if you score on engagement only. Fit scoring on mostly blank fields is unreliable.</p>
+        <h3>Is predictive lead scoring better than rules-based scoring?</h3>
+        <p>Predictive models need enough historical won and lost deals to learn from. Small teams usually get more from a simple, transparent rules-based model they can explain to sales.</p>
+        <h3>How often should enriched data be refreshed?</h3>
+        <p>Set a refresh window based on how fast your market changes roles and companies, and re-enrich before reusing older records in outreach. Store the enrichment date so you know which records are stale.</p>
+        <h3>Who should own the scoring model?</h3>
+        <p>Marketing and sales jointly, with revenue operations maintaining it. Sales must agree the threshold, or scored leads get ignored.</p>
+      </section>
+
+      <section id="next-steps">
+        <h2>What should you do first?</h2>
+        <p>Audit how many new leads have title, company size and industry filled in, and how quickly sales follows up today. Those two numbers tell you whether to start with enrichment, scoring or routing.</p>
+        <p>To see where both fit in the wider workflow, read our guide to <a href="/b2b-lead-generation-stack/">building a B2B lead generation stack from data to meeting</a>, or browse the <a href="/crm-lead-gen/">CRM and lead generation hub</a>.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
