@@ -1638,11 +1638,11 @@ A010,site/best-seo-reporting-software/index.html,/seo/,H01,True,,contextual,SEO 
 A010,site/best-seo-reporting-software/index.html,/best-seo-software/,A001,True,,contextual,guide to SEO software for agencies
 A001,site/best-seo-software/index.html,/seo/,H01,True,,contextual,SEO software category
 A001,site/best-seo-software/index.html,/semrush-vs-ahrefs/,A011,True,,contextual,workflow-by-workflow Semrush and Ahrefs comparison
-A001,site/best-seo-software/index.html,/best-keyword-research-tools/,A002,True,,contextual,keyword research tools guide for agencies
-A001,site/best-seo-software/index.html,/best-rank-tracking-software/,A003,True,,contextual,rank trackers built for multi-client work
-A001,site/best-seo-software/index.html,/best-technical-seo-audit-tools/,A004,True,,contextual,technical audit tools for large websites
-A001,site/best-seo-software/index.html,/best-backlink-analysis-tools/,A005,True,,contextual,backlink analysis tools roundup
-A001,site/best-seo-software/index.html,/best-seo-reporting-software/,A010,True,,contextual,SEO reporting software comparison
+A001,site/best-seo-software/index.html,/best-keyword-research-tools/,A002,True,,contextual,keyword research tools for agencies
+A001,site/best-seo-software/index.html,/best-rank-tracking-software/,A003,True,,contextual,rank trackers for multi-client work
+A001,site/best-seo-software/index.html,/best-technical-seo-audit-tools/,A004,True,,contextual,audit tools for large websites
+A001,site/best-seo-software/index.html,/best-backlink-analysis-tools/,A005,True,,contextual,backlink analysis tools
+A001,site/best-seo-software/index.html,/best-seo-reporting-software/,A010,True,,contextual,SEO reporting software
 A001,site/best-seo-software/index.html,/se-ranking-vs-semrush/,A015,True,,contextual,SE Ranking versus Semrush breakdown
 A001,site/best-seo-software/index.html,/ahrefs-alternatives/,A013,True,,contextual,Ahrefs alternatives by job
 A001,site/best-seo-software/index.html,/best-local-seo-software/,A006,True,,contextual,local SEO software guide for multi-location businesses
@@ -2887,6 +2887,7 @@ A017,site/seo-software-pricing/index.html,/se-ranking-vs-semrush/,A015,True,,con
 A017,site/seo-software-pricing/index.html,/semrush-vs-ahrefs/,A011,True,,contextual,Semrush and Ahrefs workflow comparison
 A017,site/seo-software-pricing/index.html,/best-seo-reporting-software/,A010,True,,contextual,client SEO reporting software guide
 A017,site/seo-software-pricing/index.html,/best-rank-tracking-software/,A003,True,,contextual,multi-client rank tracking roundup
+A017,site/seo-software-pricing/index.html,/best-local-seo-software/,A006,True,,contextual,local SEO software guide
 A017,site/seo-software-pricing/index.html,/seo-software-roi/,A020,True,,contextual,SEO tool ROI model
 A017,site/seo-software-pricing/index.html,/best-free-seo-tools/,A016,True,,contextual,free SEO tools worth keeping alongside a suite
 A017,site/seo-software-pricing/index.html,/marketing-stack-audit/,A098,True,,contextual,marketing stack audit for duplicate subscriptions

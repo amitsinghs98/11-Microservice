@@ -58,3 +58,5 @@ Migration steps: update the manifest, move the files, rewrite every internal hre
 2026-11-05: Flat URL migration done. `build_manifest.py` now has a `flatten()` function; 315 pages were moved with `git mv` (`/growth-stack/` was unchanged); 4,002 hrefs, canonicals and JSON-LD URLs were rewritten; the old-to-new map is in `strategy/url-migration-map.csv`. After re-running QA: 316/316 pages pass, 3,090 internal links, 0 broken, 0 orphans.
 
 2026-11-05: Completion pass on A001, A017 and A030 (search-confirmed vendor figures from official domains, corrections for renamed plans, A030 rebalanced with ChatGPT figures and a disclosure note about the AI vendor). All three pass QA. Figures are Search-confirmed and need a direct fetch before publishing.
+
+2026-11-05: Completion pass on A011, A012 and A013 (brief: progress/completion-brief.md). 6 money pages now complete: A001, A011, A012, A013, A017, A030. Paused at the owner's request. Next in the queue: A014, A015, A021, A031–A034, A037, A041, A051–A055, A057, A061, A071–A075, A077, A081, A091–A095, A097, A106, A113, A135, A159, A179, A198, A207, A208, A219, A239, A254, A260, A298, A299.
