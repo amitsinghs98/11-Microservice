@@ -1,0 +1,8 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A199,Rewardful,https://www.rewardful.com/,official-site,2026-11-04,Stripe-connected affiliate tool for SaaS,Needs verification,Not fetched: Firecrawl credits exhausted and vendor host blocked by network policy on 2026-11-04; stated qualitatively without figures; re-fetch before publishing
+A199,FirstPromoter,https://firstpromoter.com/,official-site,2026-11-04,Billing-connected SaaS affiliate tool,Needs verification,Not fetched: Firecrawl credits exhausted and vendor host blocked by network policy on 2026-11-04; stated qualitatively without figures; re-fetch before publishing
+A199,PartnerStack,https://partnerstack.com/,official-site,2026-11-04,"Partner platform covering affiliates, referrals and resellers",Needs verification,Not fetched: Firecrawl credits exhausted and vendor host blocked by network policy on 2026-11-04; stated qualitatively without figures; re-fetch before publishing
+A199,Crossbeam,https://www.crossbeam.com/,official-site,2026-11-04,Account mapping between partners,Needs verification,Not fetched: Firecrawl credits exhausted and vendor host blocked by network policy on 2026-11-04; stated qualitatively without figures; re-fetch before publishing
+A199,Program terms checklist and launch sequence,,editorial-knowledge,2026-11-04,"Recommended terms, launch steps, fraud checks, pilot",Not stated,Editorial recommendation; not legal advice
+A199,90-day pilot worked example,,editorial-knowledge,2026-11-04,Hypothetical partner counts and cost per won account,Not stated,calculation from stated assumptions
+A199,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A180,Seven retention layers and system-of-record template,,editorial-knowledge,2026-11-04,Editorial framework; no vendor claims,Not stated,Editorial guidance; no products priced or named in claims
+A180,90-day rollout plan,,editorial-knowledge,2026-11-04,Editorial plan; phase lengths are planning guidance,Not stated,Editorial guidance
+A180,Hypothetical six-person SaaS example,,editorial-knowledge,2026-11-04,Labelled hypothetical; planning assumptions only,Not stated,calculation from stated assumptions; no real customer
+A180,10-20 starter events,,editorial-knowledge,2026-11-04,"Planning heuristic, not a statistic",Not stated,Editorial guidance
+A180,Vendor fetches,,official-site,2026-11-04,No vendor-specific claims made on this page,Not stated,"Fetch failed 2026-11-04 (Firecrawl out of credits; WebFetch host not in session network allowlist); stated qualitatively, no figures quoted"
+A180,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
