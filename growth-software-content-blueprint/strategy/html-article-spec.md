@@ -154,7 +154,8 @@ Header: `article_id,product_or_claim,source_url,source_type,date_checked,claim_s
 - `verification_status`:
   - `Verified`: fetched on 2026-11-04 and the page supports the claim.
   - `Needs verification`: a qualitative statement from general knowledge, kept cautious.
-  - `Not stated`: deliberately cut because it couldn't be confirmed.
+  - `Not stated`: deliberately cut because it couldn't be confirmed, or an editorial calculation or method note (not a fetched fact).
+  - `Search-confirmed`: matched against a search-engine index of the official page because direct fetching was blocked. Treat it as unverified: re-fetch before publishing.
 - One row per product (its official URL) and one per material claim. The final row is:
   `{ID},Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used`
 - Quote any field that contains a comma.

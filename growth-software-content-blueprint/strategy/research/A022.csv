@@ -1,13 +1,13 @@
 article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
 A022,Claude,https://claude.com/,official-site,2026-11-04,General AI assistant from Anthropic,Verified,
-A022,Claude Pro and Team prices,https://claude.com/pricing,official-pricing,2026-11-04,"Pro $17/month annual or $20 monthly; Team standard seat $20/seat/month annual or $25 monthly",Verified,Fetched via WebFetch summary
-A022,Claude Projects knowledge and instructions,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,"Projects hold uploaded reference files and project instructions; shareable on Team and Enterprise",Verified,
-A022,Anyword,https://www.anyword.com/pricing,official-pricing,2026-11-04,"Predictive performance scoring of variants; higher tiers learn from own channel data; brand rules; tiered with enterprise options",Needs verification,anyword.com not reachable from session network; no figures stated
+A022,Claude Pro and Team prices,https://claude.com/pricing,official-pricing,2026-11-04,Pro $17/month annual or $20 monthly; Team standard seat $20/seat/month annual or $25 monthly,Verified,Fetched via WebFetch summary
+A022,Claude Projects knowledge and instructions,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,Projects hold uploaded reference files and project instructions; shareable on Team and Enterprise,Verified,
+A022,Anyword,https://www.anyword.com/pricing,official-pricing,2026-11-04,Predictive performance scoring of variants; higher tiers learn from own channel data; brand rules; tiered with enterprise options,Needs verification,anyword.com not reachable from session network; no figures stated
 A022,Jasper,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Brand voice and knowledge, templates and agents, extension; per seat with trial and custom business tier",Needs verification,"jasper.ai not reachable; A031 log has same-day verified prices, linked not restated"
 A022,Hypotenuse AI,https://www.hypotenuse.ai/pricing,official-pricing,2026-11-04,"Bulk product descriptions from catalogue data, brand voice, ecommerce integrations; tiered and custom",Needs verification,Not fetched after network blocks; no figures stated
-A022,Copy.ai,https://www.copy.ai/prices,official-pricing,2026-11-04,"GTM AI platform with chat plan and workflow tiers; brand voice; shared knowledge",Needs verification,copy.ai not reachable; see A031 log
-A022,ChatGPT,https://openai.com/chatgpt/pricing/,official-pricing,2026-11-04,"Free tier plus per-user plans; custom GPTs and projects",Needs verification,chatgpt.com not reachable; no figures stated
-A022,Rytr,https://rytr.me/pricing,official-pricing,2026-11-04,"Templates and tone options; free tier with usage caps plus low-cost paid plans",Needs verification,Not fetched after network blocks; no figures stated
-A022,Shared copy brief,,editorial-knowledge,2026-11-04,Hypothetical brief for reader-run comparisons,Verified,Labelled hypothetical; no results reported
+A022,Copy.ai,https://www.copy.ai/prices,official-pricing,2026-11-04,GTM AI platform with chat plan and workflow tiers; brand voice; shared knowledge,Needs verification,copy.ai not reachable; see A031 log
+A022,ChatGPT,https://openai.com/chatgpt/pricing/,official-pricing,2026-11-04,Free tier plus per-user plans; custom GPTs and projects,Needs verification,chatgpt.com not reachable; no figures stated
+A022,Rytr,https://rytr.me/pricing,official-pricing,2026-11-04,Templates and tone options; free tier with usage caps plus low-cost paid plans,Needs verification,Not fetched after network blocks; no figures stated
+A022,Shared copy brief,,editorial-knowledge,2026-11-04,Hypothetical brief for reader-run comparisons,Not stated,"Labelled hypothetical; no results reported; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
 A022,Specific prices for non-Anthropic products,,editorial-knowledge,2026-11-04,,Not stated,Cut because vendor pages could not be fetched on 2026-11-04
 A022,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

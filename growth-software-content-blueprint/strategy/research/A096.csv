@@ -14,5 +14,5 @@ A096,n8n Community Edition self-hosted alongside paid cloud plans,https://n8n.io
 A096,"n8n licence is source-available, not conventional open source",https://n8n.io/pricing/,editorial-knowledge,2026-11-04,,Needs verification,Stated cautiously
 A096,Mautic (official project site),https://mautic.org/,official-site,2026-11-04,"Open-source, self-hosted, needs external sender",Needs verification,Vendor host not reachable from this session; stated qualitatively without figures
 A096,ActiveCampaign trial rather than permanent free plan,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,,Needs verification,Stated as 'better known for trials'; excluded from list
-A096,"Upgrade-trigger example (consultancy, 40 leads/month)",,editorial-knowledge,2026-11-04,Hypothetical; arithmetic from verified Zapier and Make rules,Verified,Hypothetical scenario
+A096,"Upgrade-trigger example (consultancy, 40 leads/month)",,editorial-knowledge,2026-11-04,Hypothetical; arithmetic from verified Zapier and Make rules,Not stated,"Hypothetical scenario; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
 A096,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

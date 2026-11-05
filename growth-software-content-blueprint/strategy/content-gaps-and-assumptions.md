@@ -9,8 +9,8 @@ Decisions made where the source DOCX or the build brief was silent or conflictin
 
 ## Source plan
 
-3. **Article count.** The DOCX has exactly 100 entries (5 × 20). Nothing was added to or removed from the counted set.
-4. **Hubs are extra pages.** The DOCX defines `/growth-stack/` ("not counted in the 100") and five category hubs (now flat, e.g. `/seo/`). They were built as H00–H05 and kept outside the count.
+3. **Article count.** 300 counted articles: A001–A100 from the DOCX (5 × 20) and A101–A300 from `inputs/additional-200-articles.csv` (10 clusters × 20). Nothing was added to or removed from either source.
+4. **Hubs are extra pages.** The DOCX defines `/growth-stack/` ("not counted in the 100") and five category hubs (now flat, e.g. `/seo/`). They were built as H00–H05; H06–H15 were added for the ten new clusters. All 16 hubs are outside the count. URLs are flat (owner decision, 5 Nov 2026; see `url-architecture.md`).
 5. **Titles.** All H1s keep the DOCX working titles. Writers could refine the SEO `<title>` tag for length, but the H1 and intent are unchanged.
 6. **The DOCX says titles are hypotheses.** Search demand, SERP format and keyword difficulty were **not** validated (no SEO data source was used). Check them before publishing, as DOCX §10 instructs.
 
@@ -22,7 +22,7 @@ Decisions made where the source DOCX or the build brief was silent or conflictin
 
 ## Facts and pricing
 
-10. **Verification.** Drafting agents could fetch official vendor pages on 4 November 2026 for a limited number of claims. Only claims logged `Verified` in `research-source-log.csv` were checked against an official source. Everything logged `Needs verification` was written cautiously from general product knowledge and must be confirmed before publication. Pricing pages and comparisons are the priority.
+10. **Verification.** Drafting agents could fetch official vendor pages on 4 November 2026 for a limited number of claims, until the Firecrawl credits ran out; the network policy blocked most vendor hosts after that (see `qa/publishing-readiness-report.md`). `Search-confirmed` rows were matched via a search index only. Only claims logged `Verified` in `research-source-log.csv` were checked against an official source. Everything logged `Needs verification` was written cautiously from general product knowledge and must be confirmed before publication. Pricing pages and comparisons are the priority.
 11. **No hands-on testing** was performed for any product. Pages say so and never claim testing.
 12. **Affiliate programs.** None are confirmed. Every outbound vendor link is the plain official URL. No placeholder affiliate URLs exist in the HTML.
 13. **Sponsored placements.** None. No page is labelled sponsored.
@@ -32,9 +32,11 @@ Decisions made where the source DOCX or the build brief was silent or conflictin
 
 15. **Brand and domain.** Neither was supplied. The placeholders `BRAND_NAME` and `https://YOUR-DOMAIN.example` are set in `site.config.json` and applied with `scripts/apply_config.py`.
 16. **Authors.** No author names, bios or credentials were invented. Pages show only a draft-prepared date (4 November 2026, the actual drafting date). Add bylines in WordPress.
-17. **Structured data.** No JSON-LD was added, because author and publisher are unknown and couldn't be filled truthfully. Add `Article`/`BreadcrumbList` through the SEO plugin at launch. Never add `Review`/`AggregateRating` markup.
+17. **Structured data.** Each page has a JSON-LD BreadcrumbList and (for articles) a FAQPage matching the visible FAQ. No `Article` markup, because author and publisher are unknown; add it through the SEO plugin at launch. Never add `Review`/`AggregateRating` markup.
 18. **Robots.** `site/robots.txt` allows crawling (the brief: "disallow nothing by default"). Review it at launch. `site/index.html` carries `noindex` because it is a QA directory, not a homepage.
 
 ## Cannibalization
 
 19. See `topical-cluster-map.md` → *Cannibalization risks*. The highest risk is **A053 vs A095** (both HubSpot vs ActiveCampaign). They were differentiated by buyer (email marketer vs platform/RevOps owner), but **consider merging them** if live SERPs show a single intent.
+
+20. **Neutrality.** Cluster-2 pages that compare Claude with other AI tools were drafted by an Anthropic model, and only Claude's pricing could be fetched. A030 (ChatGPT vs Claude) in particular needs an independent human review and OpenAI-sourced figures before publishing.

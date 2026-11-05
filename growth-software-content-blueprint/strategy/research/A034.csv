@@ -1,10 +1,10 @@
 article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
 A034,Writesonic,https://writesonic.com/pricing,official-pricing,2026-11-04,AI search visibility platform with AI article generation and site audits,Verified,"Fetched 2026-11-04 in A031 v1 drafting run; writesonic.com not reachable from this run, not re-fetched"
-A034,Writesonic plan prices and limits,https://writesonic.com/pricing,official-pricing,2026-11-04,"Starter/Basic/Growth $79/$199/$399 per month billed annually; users 1/2/3; prompts 50/100/200; AI articles 15/25/50 per month",Verified,Carried from A031 log
+A034,Writesonic plan prices and limits,https://writesonic.com/pricing,official-pricing,2026-11-04,Starter/Basic/Growth $79/$199/$399 per month billed annually; users 1/2/3; prompts 50/100/200; AI articles 15/25/50 per month,Verified,Carried from A031 log
 A034,Writesonic Enterprise-only features,https://writesonic.com/pricing,official-pricing,2026-11-04,"Content optimization, GA4, Looker Studio, SSO, 9 AI platforms on Enterprise; Search Console and WordPress on all plans",Verified,Carried from A031 log
 A034,Writesonic add-on users,https://writesonic.com/pricing,official-pricing,2026-11-04,$50 per user per month on Basic and Growth,Verified,Carried from A031 log
 A034,Writesonic free trial,https://writesonic.com/pricing,official-pricing,2026-11-04,"Free trial, no credit card needed",Verified,Carried from A031 log
-A034,Writesonic per-article arithmetic,https://writesonic.com/pricing,editorial-knowledge,2026-11-04,"$79/15 = about $5.27; $399/50 = about $7.98; annual $948 and $4,788",Verified,Derived from verified prices
+A034,Writesonic per-article arithmetic,https://writesonic.com/pricing,editorial-knowledge,2026-11-04,"$79/15 = about $5.27; $399/50 = about $7.98; annual $948 and $4,788",Not stated,"Derived from verified prices; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
 A034,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,Content optimization with live on-page scoring; subscription tiers,Needs verification,surferseo.com not reachable; no prices stated
 A034,Clearscope,https://www.clearscope.io/pricing,official-pricing,2026-11-04,Content grading for editorial teams,Needs verification,Not reachable; no prices stated
 A034,Frase,https://www.frase.io/pricing,official-pricing,2026-11-04,Research briefs and SEO writing,Needs verification,Not reachable; no prices stated

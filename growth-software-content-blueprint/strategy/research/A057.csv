@@ -1,5 +1,5 @@
 article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
-A057,Smartlead (official site),https://www.smartlead.ai/pricing,official-pricing,2026-11-04,Product exists; cold email platform,Verified,"Direct fetch blocked by session network; confirmed via search index of official smartlead.ai pages; matches A051 research fragment fetched same day"
+A057,Smartlead (official site),https://www.smartlead.ai/pricing,official-pricing,2026-11-04,Product exists; cold email platform,Verified,Direct fetch blocked by session network; confirmed via search index of official smartlead.ai pages; matches A051 research fragment fetched same day
 A057,Smartlead Base and Pro plans,https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"Base $39/mo: 6,000 sends, 2,000 contacts; Pro $94/mo: 90,000 sends, 30,000 contacts; CRM, API, webhooks from Pro; unlimited email accounts",Verified,Annual prices $32.50 and $78.30 not used in scenarios
 A057,Saleshandy (official site),https://docs.saleshandy.com/en/articles/16451272-saleshandy-platform-plan-pricing-2026,official-docs,2026-11-04,Product exists; cold email platform,Verified,Official 2026 pricing doc via search index
 A057,Saleshandy Starter and Pro,https://docs.saleshandy.com/en/articles/16451272-saleshandy-platform-plan-pricing-2026,official-docs,2026-11-04,"Starter $41/mo ($34 annual): 2,000 active prospects, 6,000 emails; Pro $99/mo ($76 annual): 30,000 prospects, 100,000 emails; unlimited email accounts",Verified,Older Saleshandy pages show different volumes
@@ -18,6 +18,6 @@ A057,Microsoft 365 Business Basic,https://www.microsoft.com/en-us/microsoft-365/
 A057,NeverBounce pay-as-you-go,https://www.neverbounce.com/pricing,official-pricing,2026-11-04,$8 per 1000 credits; credits expire 12 months after purchase,Verified,
 A057,Annual discounts listed by Saleshandy Reply.io lemlist,https://reply.io/pricing/,official-pricing,2026-11-04,Lower per-month annual prices on each vendor's pricing,Verified,See per-vendor rows
 A057,Domain registration cost,,editorial-knowledge,2026-11-04,Annual registrar fee varies,Not stated,No figure given
-A057,Scenario arithmetic A/B/C,,editorial-knowledge,2026-11-04,"A: 39+16.80+1.60=57.40; B: 69+42+8=119 or 94+42+8=144; C: 168+94+12=274",Verified,Arithmetic on verified figures; hypothetical assumptions labelled
+A057,Scenario arithmetic A/B/C,,editorial-knowledge,2026-11-04,A: 39+16.80+1.60=57.40; B: 69+42+8=119 or 94+42+8=144; C: 168+94+12=274,Not stated,"Arithmetic on verified figures; hypothetical assumptions labelled; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
 A057,Labor hours and reply rates,,editorial-knowledge,2026-11-04,Not modelled numerically,Not stated,Left to reader; experience marker placed here
 A057,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -10,6 +10,6 @@ A097,"HubSpot v1 figures (Starter $20/seat, Professional $800/mo, onboarding $3,
 A097,MailerLite and Brevo v1 tier figures,https://www.mailerlite.com/pricing,official-pricing,2026-11-04,,Not stated,Removed from v2 pending re-fetch (also https://www.brevo.com/pricing/)
 A097,ActiveCampaign contact-based tiers,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,,Not stated,No figures given
 A097,Mandatory onboarding fees on higher editions of CRM-native suites,,editorial-knowledge,2026-11-04,,Needs verification,No vendor or figure named
-A097,"Scenario A/C arithmetic (Zapier 239.88, Make 108/348, n8n 240/600, Zapier Team 828)",,editorial-knowledge,2026-11-04,Derived from verified list prices x 12,Verified,Hypothetical; excludes tax and task-tier upgrades
-A097,Scenario B worksheet,,editorial-knowledge,2026-11-04,"Structure only, no prices",Verified,Hypothetical
+A097,"Scenario A/C arithmetic (Zapier 239.88, Make 108/348, n8n 240/600, Zapier Team 828)",,editorial-knowledge,2026-11-04,Derived from verified list prices x 12,Not stated,"Hypothetical; excludes tax and task-tier upgrades; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A097,Scenario B worksheet,,editorial-knowledge,2026-11-04,"Structure only, no prices",Not stated,"Hypothetical; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
 A097,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

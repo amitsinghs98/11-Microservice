@@ -32,6 +32,10 @@ CANNIBAL = [
     ("A082", "A083", "Workflow automation for agencies (client-facing ops) vs no-code automation platforms (marketing ops generally)."),
     ("A084", "A100", "Marketing analytics software vs attribution guide. A100 focuses on attribution models and their limits."),
     ("A099", "H00", "Full-funnel growth stack guide vs /growth-stack/ hub. A099 = implementation guide; H00 = living index/navigation overview (per DOCX)."),
+    ("A178", "A288", "Customer journey analytics twice. A178 = lifecycle/CRM teams joining marketing, support and billing data; A288 = SaaS product teams stitching anonymous and authenticated product journeys. Pages cross-link; watch SERPs and merge with a 301 if Google treats them as one intent."),
+    ("A176", "A254", "Customer community platforms (first purchase) vs community alternatives (switching from an incumbent). A254 keeps to switch triggers and migration."),
+    ("A021", "A035", "AI writing tools pillar vs free AI writing tools. A035 limited to free tiers and their caps."),
+    ("A064", "A241", "B2B lead generation software vs webinar platforms for B2B lead generation. A241 stays on webinar platforms; A064 links to it as one channel."),
 ]
 
 
