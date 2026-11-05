@@ -15,7 +15,7 @@ H12,/data-revops/,QA-passed,True,1576,True,31,0,2,,
 H13,/webinars-demand-gen/,QA-passed,True,1466,True,29,0,2,,primary keyword not verbatim in H1 (H1 kept as source title)
 H14,/agency-operations/,QA-passed,True,1459,True,31,0,2,,primary keyword not verbatim in H1 (H1 kept as source title)
 H15,/product-led-growth/,QA-passed,True,1437,True,29,0,2,,
-A001,/best-seo-software/,QA-passed,True,2663,True,18,16,11,,
+A001,/best-seo-software/,QA-passed,True,2701,True,18,26,11,,
 A002,/best-keyword-research-tools/,QA-passed,True,2197,True,7,16,10,,
 A003,/best-rank-tracking-software/,QA-passed,True,2159,True,9,16,9,,
 A004,/best-technical-seo-audit-tools/,QA-passed,True,2091,True,7,19,11,,
@@ -31,7 +31,7 @@ A013,/ahrefs-alternatives/,QA-passed,True,2262,True,11,13,1,,
 A014,/surfer-seo-alternatives/,QA-passed,True,2022,True,8,11,2,,
 A015,/se-ranking-vs-semrush/,QA-passed,True,1921,True,10,13,2,,
 A016,/best-free-seo-tools/,QA-passed,True,2261,True,11,16,13,,
-A017,/seo-software-pricing/,QA-passed,True,2076,True,9,8,9,,
+A017,/seo-software-pricing/,QA-passed,True,2397,True,10,20,9,,
 A018,/seo-tool-stack/,QA-passed,True,1631,True,22,3,6,,
 A019,/rank-tracking-for-local-seo-agency/,QA-passed,True,1571,True,9,7,8,,primary keyword not verbatim in H1 (H1 kept as source title)
 A020,/seo-software-roi/,QA-passed,True,1495,True,9,0,4,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -44,7 +44,7 @@ A026,/best-ai-social-media-tools/,QA-passed,True,2336,True,12,24,15,,primary key
 A027,/best-ai-video-editing-tools/,QA-passed,True,2068,True,8,22,15,,
 A028,/best-ai-image-generation-tools-for-marketing/,QA-passed,True,2118,True,9,16,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A029,/best-ai-presentation-tools/,QA-passed,True,2057,True,8,17,8,,
-A030,/chatgpt-vs-claude-for-marketing/,QA-passed,True,2150,True,8,13,2,,
+A030,/chatgpt-vs-claude-for-marketing/,QA-passed,True,2773,True,8,27,2,,
 A031,/jasper-vs-copy-ai-vs-writesonic/,QA-passed,True,2398,True,11,13,0,,
 A032,/jasper-alternatives/,QA-passed,True,2082,True,8,19,5,,
 A033,/copy-ai-alternatives/,QA-passed,True,1895,True,10,16,4,,
@@ -86,7 +86,7 @@ A068,/best-sales-prospecting-tools-for-agencies/,QA-passed,True,2017,True,9,14,9
 A069,/best-linkedin-sales-prospecting-tools/,QA-passed,True,1759,True,7,13,9,,
 A070,/best-lead-routing-and-scheduling-software/,QA-passed,True,1893,True,8,16,10,,primary keyword not verbatim in H1 (H1 kept as source title)
 A071,/hubspot-vs-salesforce/,QA-passed,True,2300,True,6,4,8,,
-A072,/pipedrive-alternatives/,QA-passed,True,2048,True,8,8,9,,
+A072,/pipedrive-alternatives/,QA-passed,True,2047,True,8,8,9,,
 A073,/apollo-alternatives/,QA-passed,True,2026,True,9,9,12,,primary keyword not verbatim in H1 (H1 kept as source title)
 A074,/zoominfo-alternatives/,QA-passed,True,1761,True,10,7,8,,
 A075,/clay-vs-apollo/,QA-passed,True,1739,True,8,2,4,,

@@ -56,3 +56,5 @@ Migration steps: update the manifest, move the files, rewrite every internal hre
 - 2026-11-05: A container restart stopped the workflow. On disk: A101–A259, all passing validation. Resumed the run (wf_c75cbb6e-5f6) to finish A260–A300, H00–H15 and the pending fact-check stages.
 
 2026-11-05: Flat URL migration done. `build_manifest.py` now has a `flatten()` function; 315 pages were moved with `git mv` (`/growth-stack/` was unchanged); 4,002 hrefs, canonicals and JSON-LD URLs were rewritten; the old-to-new map is in `strategy/url-migration-map.csv`. After re-running QA: 316/316 pages pass, 3,090 internal links, 0 broken, 0 orphans.
+
+2026-11-05: Completion pass on A001, A017 and A030 (search-confirmed vendor figures from official domains, corrections for renamed plans, A030 rebalanced with ChatGPT figures and a disclosure note about the AI vendor). All three pass QA. Figures are Search-confirmed and need a direct fetch before publishing.
