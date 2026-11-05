@@ -53,3 +53,4 @@ The owner wants plain, flat URLs (for example `/best-ai-writing-tools/` or `/ins
 | Umbrella hub | `/growth-stack/` | unchanged |
 
 Migration steps: update the manifest, move the files, rewrite every internal href, canonical and JSON-LD URL, check for collisions, then re-run all QA.
+- 2026-11-05: A container restart stopped the workflow. On disk: A101–A259, all passing validation. Resumed the run (wf_c75cbb6e-5f6) to finish A260–A300, H00–H15 and the pending fact-check stages.
