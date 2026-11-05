@@ -1,317 +1,317 @@
 id,public_path,status,file_exists,word_count,metadata_ok,internal_links,external_links,claims_needing_verification,errors,warnings
-H00,/growth-stack/,planned,False,0,False,0,0,0,file missing,
-H01,/categories/seo/,planned,False,0,False,0,0,0,file missing,
-H02,/categories/ai-content/,planned,False,0,False,0,0,0,file missing,
-H03,/categories/email-outreach/,planned,False,0,False,0,0,0,file missing,
-H04,/categories/crm-lead-gen/,planned,False,0,False,0,0,0,file missing,
-H05,/categories/automation-analytics/,planned,False,0,False,0,0,0,file missing,
-H06,/categories/content-operations/,planned,False,0,False,0,0,0,file missing,
-H07,/categories/paid-media/,planned,False,0,False,0,0,0,file missing,
-H08,/categories/ecommerce-growth/,planned,False,0,False,0,0,0,file missing,
-H09,/categories/customer-retention/,planned,False,0,False,0,0,0,file missing,
-H10,/categories/affiliate-partnerships/,planned,False,0,False,0,0,0,file missing,
-H11,/categories/website-experience/,planned,False,0,False,0,0,0,file missing,
-H12,/categories/data-revops/,planned,False,0,False,0,0,0,file missing,
-H13,/categories/webinars-demand-gen/,planned,False,0,False,0,0,0,file missing,
-H14,/categories/agency-operations/,planned,False,0,False,0,0,0,file missing,
-H15,/categories/product-led-growth/,planned,False,0,False,0,0,0,file missing,
-A001,/best/seo-software/,drafted,True,2654,True,19,8,0,"10 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best seo software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A002,/best/keyword-research-tools/,drafted,True,2088,True,10,8,0,"12 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best keyword research tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",meta description length 174 (target 120-160)
-A003,/best/rank-tracking-software/,drafted,True,1905,True,10,8,0,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'best rank tracking software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A004,/best/technical-seo-audit-tools/,planned,False,0,False,0,0,0,file missing,
-A005,/best/backlink-analysis-tools/,planned,False,0,False,0,0,0,file missing,
-A006,/best/local-seo-software/,drafted,True,2114,True,6,10,6,"13 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best local seo software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A007,/best/ai-seo-tools/,drafted,True,1766,True,9,8,8,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'best ai seo tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A008,/best/ai-search-visibility-tools/,planned,False,0,False,0,0,0,file missing,
-A009,/best/content-optimization-tools/,planned,False,0,False,0,0,0,file missing,
-A010,/best/seo-reporting-software/,planned,False,0,False,0,0,0,file missing,
-A011,/compare/semrush-vs-ahrefs/,drafted,True,2318,True,12,2,0,"12 H2s are not questions, e.g. 'Quick verdict by buyer type' | experience marker present 0 times (need exactly 1) | primary keyword 'semrush vs ahrefs' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A012,/alternatives/semrush/,drafted,True,2156,True,12,9,0,"10 H2s are not questions, e.g. 'Short answer by switch reason' | experience marker present 0 times (need exactly 1) | primary keyword 'semrush alternatives' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A013,/alternatives/ahrefs/,drafted,True,2223,True,12,9,0,"11 H2s are not questions, e.g. 'Short answer by Ahrefs job' | experience marker present 0 times (need exactly 1) | primary keyword 'ahrefs alternatives' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A014,/alternatives/surfer-seo/,planned,False,0,False,0,0,0,file missing,
-A015,/compare/se-ranking-vs-semrush/,planned,False,0,False,0,0,0,file missing,
-A016,/best/free-seo-tools/,drafted,True,2620,True,11,16,0,JSON-LD does not parse: Expecting value: line 2 column 1 (char 1),word count 2620 outside review band 1000-2600
-A017,/pricing/seo-software/,drafted,True,1990,True,10,8,0,"12 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'seo software pricing' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A018,/guides/seo-tool-stack/,drafted,True,1229,True,18,0,0,"10 H2s are not questions, e.g. 'Where duplicate spend comes from' | experience marker present 0 times (need exactly 1) | primary keyword 'seo tool stack' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A019,/guides/rank-tracking-for-local-seo-agency/,planned,False,0,False,0,0,0,file missing,
-A020,/guides/seo-software-roi/,planned,False,0,False,0,0,0,file missing,
-A021,/best/ai-writing-tools/,drafted,True,2607,True,13,16,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best ai writing tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A022,/best/ai-copywriting-software/,drafted,True,1699,True,8,13,0,"banned phrase: 'revolutionary' | 11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'ai copywriting software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A023,/best/ai-content-brief-tools/,drafted,True,1718,True,8,13,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'ai content brief tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A024,/best/ai-blog-writing-tools/,planned,False,0,False,0,0,0,file missing,
-A025,/best/ai-email-copywriting-tools/,planned,False,0,False,0,0,0,file missing,
-A026,/best/ai-social-media-tools/,drafted,True,2231,True,10,16,15,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'ai social media tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A027,/best/ai-video-editing-tools/,drafted,True,1749,True,9,14,15,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'ai video editing tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A028,/best/ai-image-generation-tools-for-marketing/,planned,False,0,False,0,0,0,file missing,
-A029,/best/ai-presentation-tools/,planned,False,0,False,0,0,0,file missing,
-A030,/compare/chatgpt-vs-claude-for-marketing/,planned,False,0,False,0,0,0,file missing,
-A031,/compare/jasper-vs-copy-ai-vs-writesonic/,drafted,True,2314,True,10,3,0,"10 H2s are not questions, e.g. 'Quick verdict by buyer type' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'jasper vs copy ai vs writesonic' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A032,/alternatives/jasper/,drafted,True,2122,True,9,8,5,"10 H2s are not questions, e.g. 'Short answer by switch reason' | experience marker present 0 times (need exactly 1) | primary keyword 'jasper alternatives' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A033,/alternatives/copy-ai/,planned,False,0,False,0,0,0,file missing,
-A034,/alternatives/writesonic/,planned,False,0,False,0,0,0,file missing,
-A035,/best/free-ai-writing-tools/,planned,False,0,False,0,0,0,file missing,
-A036,/best/content-repurposing-tools-ai/,drafted,True,2578,True,10,10,0,"12 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'content repurposing tools ai' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A037,/pricing/ai-content-tools/,drafted,True,1838,True,11,10,0,"13 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'ai content tool pricing' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A038,/guides/ai-content-workflow/,drafted,True,1238,True,7,0,0,"10 H2s are not questions, e.g. 'Why ad hoc AI drafting fails' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'ai content workflow' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A039,/guides/evaluate-ai-content-quality/,planned,False,0,False,0,0,0,file missing,
-A040,/best/ai-marketing-tools-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A041,/best/email-marketing-software/,drafted,True,2663,True,15,8,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best email marketing software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A042,/best/ecommerce-email-marketing-software/,drafted,True,1747,True,8,7,0,"10 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best ecommerce email marketing software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A043,/best/cold-email-software/,drafted,True,1594,True,11,7,0,"10 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'best cold email software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A044,/best/sales-engagement-platforms/,planned,False,0,False,0,0,0,file missing,
-A045,/best/email-deliverability-tools/,planned,False,0,False,0,0,0,file missing,
-A046,/best/email-verification-tools/,drafted,True,2200,True,7,16,0,0 JSON-LD blocks (need exactly 1),primary keyword not verbatim in H1 (H1 kept as source title)
-A047,/best/newsletter-platforms-for-b2b/,drafted,True,1843,True,6,7,0,"10 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best newsletter platforms for b2b' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title) | meta description length 166 (target 120-160)
-A048,/best/lifecycle-email-automation-software/,drafted,True,1829,True,9,8,0,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'lifecycle email automation software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A049,/best/transactional-email-services/,planned,False,0,False,0,0,0,file missing,
-A050,/best/email-testing-tools/,planned,False,0,False,0,0,0,file missing,
-A051,/compare/instantly-vs-smartlead/,drafted,True,2266,True,10,2,2,"10 H2s are not questions, e.g. 'Quick verdict' | 3 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'instantly vs smartlead' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A052,/alternatives/mailchimp/,planned,False,0,False,0,0,0,file missing,
-A053,/compare/hubspot-marketing-hub-vs-activecampaign/,planned,False,0,False,0,0,0,file missing,
-A054,/alternatives/klaviyo/,planned,False,0,False,0,0,0,file missing,
-A055,/compare/lemlist-vs-reply-io/,drafted,True,2068,True,11,2,1,"10 H2s are not questions, e.g. 'Quick verdict by buyer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'lemlist vs reply.io' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A056,/best/free-email-marketing-software/,drafted,True,2572,True,10,8,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'free email marketing software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A057,/pricing/cold-email-software/,drafted,True,1720,True,11,8,0,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'cold email software pricing' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A058,/guides/choose-email-marketing-software/,drafted,True,1288,True,11,0,0,"9 H2s are not questions, e.g. 'Why feature lists mislead' | experience marker present 0 times (need exactly 1) | primary keyword 'choose email marketing software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A059,/guides/compliant-b2b-outreach-stack/,drafted,True,1326,True,11,2,0,"10 H2s are not questions, e.g. 'The problem with tool-first outbound' | experience marker present 0 times (need exactly 1) | primary keyword 'compliant b2b outreach stack' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A060,/guides/email-marketing-roi-and-deliverability/,planned,False,0,False,0,0,0,file missing,
-A061,/best/crm-software-for-small-business/,drafted,True,2808,True,10,8,7,"13 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'best crm software for small business' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A062,/best/crm-for-marketing-agencies/,drafted,True,1776,True,8,6,6,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'best crm for marketing agencies' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A063,/best/crm-for-b2b-saas/,drafted,True,1691,True,9,6,5,"10 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'best crm for b2b saas' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A064,/best/b2b-lead-generation-software/,planned,False,0,False,0,0,0,file missing,
-A065,/best/b2b-contact-database-tools/,planned,False,0,False,0,0,0,file missing,
-A066,/best/lead-enrichment-software/,drafted,True,2965,True,11,16,0,"12 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'lead enrichment software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",word count 2965 outside review band 1000-2600
-A067,/best/lead-scoring-software/,planned,False,0,False,0,0,0,file missing,
-A068,/best/sales-prospecting-tools-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A069,/best/linkedin-sales-prospecting-tools/,planned,False,0,False,0,0,0,file missing,
-A070,/best/lead-routing-and-scheduling-software/,planned,False,0,False,0,0,0,file missing,
+H00,/growth-stack/,QA-passed,True,1515,True,21,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+H01,/categories/seo/,QA-passed,True,1494,True,25,0,0,,
+H02,/categories/ai-content/,QA-passed,True,1437,True,25,0,0,,
+H03,/categories/email-outreach/,QA-passed,True,1376,True,25,0,0,,
+H04,/categories/crm-lead-gen/,QA-passed,True,1793,True,25,0,0,,
+H05,/categories/automation-analytics/,QA-passed,True,1727,True,25,0,0,,
+H06,/categories/content-operations/,QA-passed,True,1730,True,25,0,0,,
+H07,/categories/paid-media/,QA-passed,True,1730,True,25,0,0,,
+H08,/categories/ecommerce-growth/,QA-passed,True,1530,True,29,0,0,,
+H09,/categories/customer-retention/,QA-passed,True,1422,True,28,0,0,,
+H10,/categories/affiliate-partnerships/,QA-passed,True,1427,True,28,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+H11,/categories/website-experience/,QA-passed,True,1371,True,29,0,0,,
+H12,/categories/data-revops/,QA-passed,True,1576,True,31,0,0,,
+H13,/categories/webinars-demand-gen/,QA-passed,True,1466,True,29,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+H14,/categories/agency-operations/,QA-passed,True,1459,True,31,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+H15,/categories/product-led-growth/,QA-passed,True,1437,True,29,0,0,,
+A001,/best/seo-software/,QA-passed,True,2663,True,18,16,0,,
+A002,/best/keyword-research-tools/,QA-passed,True,2197,True,7,16,0,,
+A003,/best/rank-tracking-software/,QA-passed,True,2159,True,9,16,0,,
+A004,/best/technical-seo-audit-tools/,QA-passed,True,2091,True,7,19,0,,
+A005,/best/backlink-analysis-tools/,QA-passed,True,2011,True,7,17,0,,
+A006,/best/local-seo-software/,QA-passed,True,1946,True,7,19,6,,
+A007,/best/ai-seo-tools/,QA-passed,True,2033,True,10,17,8,,
+A008,/best/ai-search-visibility-tools/,QA-passed,True,1874,True,7,14,0,,
+A009,/best/content-optimization-tools/,QA-passed,True,1862,True,8,14,0,,
+A010,/best/seo-reporting-software/,QA-passed,True,1871,True,9,14,0,,
+A011,/compare/semrush-vs-ahrefs/,QA-passed,True,2302,True,14,16,0,,
+A012,/alternatives/semrush/,QA-passed,True,2259,True,11,13,0,,
+A013,/alternatives/ahrefs/,QA-passed,True,2262,True,11,13,0,,
+A014,/alternatives/surfer-seo/,QA-passed,True,2022,True,8,11,0,,
+A015,/compare/se-ranking-vs-semrush/,QA-passed,True,1921,True,10,13,0,,
+A016,/best/free-seo-tools/,QA-passed,True,2261,True,11,16,0,,
+A017,/pricing/seo-software/,QA-passed,True,2076,True,9,8,0,,
+A018,/guides/seo-tool-stack/,QA-passed,True,1631,True,22,3,0,,
+A019,/guides/rank-tracking-for-local-seo-agency/,QA-passed,True,1571,True,9,7,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A020,/guides/seo-software-roi/,QA-passed,True,1495,True,9,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A021,/best/ai-writing-tools/,QA-passed,True,2947,True,13,27,0,,
+A022,/best/ai-copywriting-software/,QA-passed,True,2188,True,9,23,0,,
+A023,/best/ai-content-brief-tools/,QA-passed,True,2375,True,8,23,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A024,/best/ai-blog-writing-tools/,QA-passed,True,2335,True,8,25,0,,
+A025,/best/ai-email-copywriting-tools/,QA-passed,True,2330,True,8,24,0,,
+A026,/best/ai-social-media-tools/,QA-passed,True,2336,True,12,24,15,,primary keyword not verbatim in H1 (H1 kept as source title)
+A027,/best/ai-video-editing-tools/,QA-passed,True,2068,True,8,22,15,,
+A028,/best/ai-image-generation-tools-for-marketing/,QA-passed,True,2118,True,9,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A029,/best/ai-presentation-tools/,QA-passed,True,2057,True,8,17,0,,
+A030,/compare/chatgpt-vs-claude-for-marketing/,QA-passed,True,2150,True,8,13,0,,
+A031,/compare/jasper-vs-copy-ai-vs-writesonic/,QA-passed,True,2398,True,11,13,0,,
+A032,/alternatives/jasper/,QA-passed,True,2082,True,8,19,5,,
+A033,/alternatives/copy-ai/,QA-passed,True,1895,True,10,16,0,,
+A034,/alternatives/writesonic/,QA-passed,True,1829,True,10,13,0,,
+A035,/best/free-ai-writing-tools/,QA-passed,True,1832,True,7,22,0,,
+A036,/best/content-repurposing-tools-ai/,QA-passed,True,2055,True,11,20,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A037,/pricing/ai-content-tools/,QA-passed,True,1730,True,10,6,0,,
+A038,/guides/ai-content-workflow/,QA-passed,True,1441,True,7,3,0,,
+A039,/guides/evaluate-ai-content-quality/,QA-passed,True,1211,True,7,2,0,,
+A040,/best/ai-marketing-tools-for-agencies/,QA-passed,True,1688,True,14,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A041,/best/email-marketing-software/,QA-passed,True,2703,True,15,16,0,,
+A042,/best/ecommerce-email-marketing-software/,QA-passed,True,1871,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A043,/best/cold-email-software/,QA-passed,True,1917,True,11,15,0,,
+A044,/best/sales-engagement-platforms/,QA-passed,True,1765,True,8,14,0,,
+A045,/best/email-deliverability-tools/,QA-passed,True,1879,True,8,17,0,,
+A046,/best/email-verification-tools/,QA-passed,True,2213,True,8,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A047,/best/newsletter-platforms-for-b2b/,QA-passed,True,2046,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A048,/best/lifecycle-email-automation-software/,QA-passed,True,1853,True,9,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A049,/best/transactional-email-services/,QA-passed,True,1929,True,8,14,0,,
+A050,/best/email-testing-tools/,QA-passed,True,1798,True,6,12,0,,
+A051,/compare/instantly-vs-smartlead/,QA-passed,True,2222,True,9,3,2,,
+A052,/alternatives/mailchimp/,QA-passed,True,1904,True,10,9,0,,
+A053,/compare/hubspot-marketing-hub-vs-activecampaign/,QA-passed,True,2146,True,10,5,0,,
+A054,/alternatives/klaviyo/,QA-passed,True,2167,True,9,8,0,,
+A055,/compare/lemlist-vs-reply-io/,QA-passed,True,1932,True,10,3,1,,
+A056,/best/free-email-marketing-software/,QA-passed,True,2357,True,9,13,0,,
+A057,/pricing/cold-email-software/,QA-passed,True,2109,True,10,11,0,,
+A058,/guides/choose-email-marketing-software/,QA-passed,True,1442,True,9,4,0,,
+A059,/guides/compliant-b2b-outreach-stack/,QA-passed,True,1555,True,10,4,0,,
+A060,/guides/email-marketing-roi-and-deliverability/,QA-passed,True,1563,True,8,7,0,,
+A061,/best/crm-software-for-small-business/,QA-passed,True,2942,True,10,17,7,,
+A062,/best/crm-for-marketing-agencies/,QA-passed,True,1988,True,7,13,6,,primary keyword not verbatim in H1 (H1 kept as source title)
+A063,/best/crm-for-b2b-saas/,QA-passed,True,2124,True,8,12,5,,
+A064,/best/b2b-lead-generation-software/,QA-passed,True,2200,True,11,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A065,/best/b2b-contact-database-tools/,QA-passed,True,2157,True,9,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A066,/best/lead-enrichment-software/,QA-passed,True,2418,True,12,16,0,,
+A067,/best/lead-scoring-software/,QA-passed,True,2142,True,10,14,0,,
+A068,/best/sales-prospecting-tools-for-agencies/,QA-passed,True,2017,True,9,14,0,,
+A069,/best/linkedin-sales-prospecting-tools/,QA-passed,True,1759,True,7,13,0,,
+A070,/best/lead-routing-and-scheduling-software/,QA-passed,True,1893,True,8,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
 A071,/compare/hubspot-vs-salesforce/,QA-passed,True,2300,True,6,4,0,,
-A072,/alternatives/pipedrive/,drafted,True,1884,True,8,8,0,"13 H2s are not questions, e.g. 'Short answer by switch reason' | experience marker present 0 times (need exactly 1) | primary keyword 'pipedrive alternatives' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A073,/alternatives/apollo/,planned,False,0,False,0,0,0,file missing,
-A074,/alternatives/zoominfo/,planned,False,0,False,0,0,0,file missing,
-A075,/compare/clay-vs-apollo/,planned,False,0,False,0,0,0,file missing,
-A076,/best/free-crm-software/,drafted,True,2540,True,9,15,0,JSON-LD does not parse: Expecting value: line 2 column 3 (char 3),
-A077,/pricing/crm/,drafted,True,1737,True,9,7,0,"12 H2s are not questions, e.g. 'Quick answer' | 3 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'crm pricing' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A078,/guides/choose-crm-for-marketing-agency/,planned,False,0,False,0,0,0,file missing,
-A079,/guides/b2b-lead-generation-stack/,planned,False,0,False,0,0,0,file missing,
-A080,/guides/lead-scoring-vs-lead-enrichment/,planned,False,0,False,0,0,0,file missing,
-A081,/best/marketing-automation-software/,drafted,True,2508,True,13,8,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'best marketing automation software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A082,/best/workflow-automation-tools-for-marketing-agencies/,drafted,True,1897,True,8,6,0,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'workflow automation tools for marketing agencies' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A083,/best/no-code-automation-platforms/,drafted,True,1556,True,8,7,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'no code automation platforms' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A084,/best/marketing-analytics-software/,planned,False,0,False,0,0,0,file missing,
-A085,/best/privacy-friendly-web-analytics-tools/,planned,False,0,False,0,0,0,file missing,
+A072,/alternatives/pipedrive/,QA-passed,True,2048,True,8,8,0,,
+A073,/alternatives/apollo/,QA-passed,True,2026,True,9,9,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A074,/alternatives/zoominfo/,QA-passed,True,1761,True,10,7,0,,
+A075,/compare/clay-vs-apollo/,QA-passed,True,1739,True,8,2,0,,
+A076,/best/free-crm-software/,QA-passed,True,2324,True,9,15,0,,
+A077,/pricing/crm/,QA-passed,True,1977,True,9,8,0,,
+A078,/guides/choose-crm-for-marketing-agency/,QA-passed,True,1495,True,7,1,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A079,/guides/b2b-lead-generation-stack/,QA-passed,True,1509,True,18,1,0,,
+A080,/guides/lead-scoring-vs-lead-enrichment/,QA-passed,True,1377,True,8,0,0,,
+A081,/best/marketing-automation-software/,QA-passed,True,2843,True,12,16,0,,
+A082,/best/workflow-automation-tools-for-marketing-agencies/,QA-passed,True,2209,True,9,12,0,,
+A083,/best/no-code-automation-platforms/,QA-passed,True,2094,True,9,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A084,/best/marketing-analytics-software/,QA-passed,True,1915,True,10,14,0,,
+A085,/best/privacy-friendly-web-analytics-tools/,QA-passed,True,1865,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
 A086,/best/cro-tools-for-landing-pages/,QA-passed,True,2475,True,10,8,0,,primary keyword not verbatim in H1 (H1 kept as source title)
-A087,/best/ab-testing-software/,drafted,True,1948,True,9,8,0,"11 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'ab testing software' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title) | meta description length 166 (target 120-160)
-A088,/best/heatmap-session-replay-tools/,drafted,True,1870,True,8,8,0,"11 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'heatmap session replay tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",primary keyword not verbatim in H1 (H1 kept as source title)
-A089,/best/social-media-management-tools-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A090,/best/social-media-analytics-tools/,planned,False,0,False,0,0,0,file missing,
-A091,/compare/zapier-vs-make-vs-n8n/,drafted,True,2670,True,8,23,2,0 JSON-LD blocks (need exactly 1),
-A092,/alternatives/ga4/,drafted,True,1655,True,10,11,0,"14 H2s are not questions, e.g. 'Short answer by switch reason' | experience marker present 0 times (need exactly 1) | primary keyword 'ga4 alternatives' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A093,/alternatives/hotjar/,planned,False,0,False,0,0,0,file missing,
-A094,/alternatives/hootsuite/,planned,False,0,False,0,0,0,file missing,
-A095,/compare/activecampaign-vs-hubspot/,drafted,True,1957,True,10,5,10,"14 H2s are not questions, e.g. 'Quick verdict by buyer type' | experience marker present 0 times (need exactly 1) | primary keyword 'activecampaign vs hubspot' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A096,/best/free-marketing-automation-tools/,drafted,True,1948,True,11,10,0,"12 H2s are not questions, e.g. 'Quick answer' | experience marker present 0 times (need exactly 1) | primary keyword 'free marketing automation tools' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A097,/pricing/marketing-automation/,drafted,True,2100,True,9,8,0,"12 H2s are not questions, e.g. 'Quick answer' | 2 tables (rule of one: exactly 1) | experience marker present 0 times (need exactly 1) | primary keyword 'marketing automation pricing' not in first 100 words after H1 | 0 JSON-LD blocks (need exactly 1)",
-A098,/guides/marketing-stack-audit/,planned,False,0,False,0,0,0,file missing,
-A099,/guides/b2b-growth-stack/,planned,False,0,False,0,0,0,file missing,
-A100,/guides/marketing-attribution-tools-for-small-business/,planned,False,0,False,0,0,0,file missing,
-A101,/best/content-marketing-platforms-for-b2b-teams/,planned,False,0,False,0,0,0,file missing,
-A102,/best/editorial-calendar-software-for-multi-author-teams/,planned,False,0,False,0,0,0,file missing,
-A103,/best/content-workflow-software-for-marketing-agencies/,planned,False,0,False,0,0,0,file missing,
-A104,/best/cms-platforms-for-growing-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A105,/best/headless-cms-platforms-for-omnichannel-content/,planned,False,0,False,0,0,0,file missing,
-A106,/compare/wordpress-vs-webflow-for-marketing-led-websites/,planned,False,0,False,0,0,0,file missing,
-A107,/best/digital-asset-management-software-for-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A108,/best/brand-asset-management-platforms-for-distributed-teams/,planned,False,0,False,0,0,0,file missing,
-A109,/best/content-approval-software-for-marketing-and-creative-teams/,planned,False,0,False,0,0,0,file missing,
-A110,/best/content-brief-and-assignment-management-tools/,planned,False,0,False,0,0,0,file missing,
-A111,/best/content-inventory-and-audit-software-for-large-sites/,planned,False,0,False,0,0,0,file missing,
-A112,/best/content-localization-and-translation-management-software/,planned,False,0,False,0,0,0,file missing,
-A113,/compare/translation-management-system-vs-localization-platform/,planned,False,0,False,0,0,0,file missing,
-A114,/best/content-distribution-and-syndication-platforms-for-b2b/,planned,False,0,False,0,0,0,file missing,
-A115,/best/corporate-blog-publishing-platforms-for-b2b-brands/,planned,False,0,False,0,0,0,file missing,
-A116,/best/knowledge-base-software-for-marketing-operations/,planned,False,0,False,0,0,0,file missing,
-A117,/best/content-governance-tools-for-distributed-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A118,/best/digital-content-rights-and-usage-management-tools/,planned,False,0,False,0,0,0,file missing,
-A119,/best/content-repurposing-workflow-platforms-for-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A120,/guides/how-to-build-a-content-operations-system-for-a-small-marketing-team/,planned,False,0,False,0,0,0,file missing,
-A121,/best/ppc-management-software-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A122,/best/google-ads-management-tools-for-multi-account-teams/,planned,False,0,False,0,0,0,file missing,
-A123,/best/paid-social-advertising-management-platforms/,planned,False,0,False,0,0,0,file missing,
-A124,/best/cross-channel-paid-media-reporting-tools/,planned,False,0,False,0,0,0,file missing,
-A125,/best/ad-creative-management-platforms-for-performance-teams/,planned,False,0,False,0,0,0,file missing,
-A126,/best/ad-intelligence-tools-for-competitor-research/,planned,False,0,False,0,0,0,file missing,
-A127,/best/competitor-ad-research-tools-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A128,/best/ppc-bid-management-and-automation-software/,planned,False,0,False,0,0,0,file missing,
-A129,/best/ppc-budget-pacing-and-spend-forecasting-tools/,planned,False,0,False,0,0,0,file missing,
-A130,/best/ad-fraud-detection-software-for-digital-advertisers/,planned,False,0,False,0,0,0,file missing,
-A131,/best/call-tracking-software-for-paid-acquisition-campaigns/,planned,False,0,False,0,0,0,file missing,
-A132,/best/landing-page-builders-for-paid-acquisition-campaigns/,planned,False,0,False,0,0,0,file missing,
-A133,/best/ad-compliance-and-creative-approval-software/,planned,False,0,False,0,0,0,file missing,
-A134,/best/utm-governance-and-campaign-naming-tools/,planned,False,0,False,0,0,0,file missing,
-A135,/compare/google-ads-editor-vs-third-party-ppc-management-tools/,planned,False,0,False,0,0,0,file missing,
-A136,/best/meta-ads-reporting-tools-for-ecommerce-and-agencies/,planned,False,0,False,0,0,0,file missing,
-A137,/best/linkedin-ads-management-and-reporting-tools-for-b2b/,planned,False,0,False,0,0,0,file missing,
-A138,/best/ppc-audit-tools-for-finding-wasted-ad-spend/,planned,False,0,False,0,0,0,file missing,
-A139,/guides/how-to-build-a-paid-media-measurement-plan-before-launch/,planned,False,0,False,0,0,0,file missing,
-A140,/guides/how-to-run-a-monthly-paid-media-account-review-for-clients/,planned,False,0,False,0,0,0,file missing,
-A141,/best/ecommerce-platforms-for-growing-direct-to-consumer-brands/,planned,False,0,False,0,0,0,file missing,
-A142,/best/shopify-apps-for-improving-store-conversion/,planned,False,0,False,0,0,0,file missing,
-A143,/best/ecommerce-personalization-software-for-product-discovery/,planned,False,0,False,0,0,0,file missing,
-A144,/best/product-recommendation-engines-for-online-stores/,planned,False,0,False,0,0,0,file missing,
-A145,/best/product-feed-management-software-for-ecommerce/,planned,False,0,False,0,0,0,file missing,
-A146,/best/marketplace-management-software-for-multi-channel-sellers/,planned,False,0,False,0,0,0,file missing,
-A147,/best/ecommerce-customer-data-platforms-for-retention-teams/,planned,False,0,False,0,0,0,file missing,
-A148,/best/sms-marketing-software-for-ecommerce-brands/,planned,False,0,False,0,0,0,file missing,
-A149,/best/ecommerce-loyalty-and-rewards-platforms/,planned,False,0,False,0,0,0,file missing,
-A150,/best/referral-marketing-software-for-online-stores/,planned,False,0,False,0,0,0,file missing,
-A151,/best/subscription-commerce-software-for-recurring-revenue-brands/,planned,False,0,False,0,0,0,file missing,
-A152,/best/returns-and-exchanges-software-for-ecommerce-teams/,planned,False,0,False,0,0,0,file missing,
-A153,/best/product-reviews-and-user-generated-content-platforms-for-ecommerce/,planned,False,0,False,0,0,0,file missing,
-A154,/best/onsite-search-software-for-ecommerce-catalogs/,planned,False,0,False,0,0,0,file missing,
-A155,/best/abandoned-cart-recovery-platforms-for-ecommerce/,planned,False,0,False,0,0,0,file missing,
-A156,/best/checkout-optimization-software-for-online-stores/,planned,False,0,False,0,0,0,file missing,
-A157,/best/order-management-software-for-growing-ecommerce-brands/,planned,False,0,False,0,0,0,file missing,
-A158,/best/ecommerce-merchandising-analytics-tools/,planned,False,0,False,0,0,0,file missing,
-A159,/alternatives/shopify-alternatives-for-brands-requiring-more-store-control/,planned,False,0,False,0,0,0,file missing,
-A160,/guides/how-to-build-an-ecommerce-growth-stack-without-app-overload/,planned,False,0,False,0,0,0,file missing,
-A161,/best/customer-success-platforms-for-b2b-saas-teams/,planned,False,0,False,0,0,0,file missing,
-A162,/best/customer-onboarding-software-for-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A163,/best/customer-education-platforms-for-saas-and-b2b-companies/,planned,False,0,False,0,0,0,file missing,
-A164,/best/in-app-messaging-platforms-for-saas-product-teams/,planned,False,0,False,0,0,0,file missing,
-A165,/best/customer-feedback-management-software-for-b2b-teams/,planned,False,0,False,0,0,0,file missing,
-A166,/best/nps-software-for-customer-experience-teams/,planned,False,0,False,0,0,0,file missing,
-A167,/best/help-desk-software-for-growing-b2b-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A168,/best/live-chat-software-for-lead-generation-and-customer-support/,planned,False,0,False,0,0,0,file missing,
-A169,/best/ai-customer-support-platforms-for-small-teams/,planned,False,0,False,0,0,0,file missing,
-A170,/best/shared-inbox-software-for-customer-facing-teams/,planned,False,0,False,0,0,0,file missing,
-A171,/best/chatbot-platforms-for-customer-support-workflows/,planned,False,0,False,0,0,0,file missing,
-A172,/best/customer-knowledge-base-and-self-service-portal-software/,planned,False,0,False,0,0,0,file missing,
-A173,/best/churn-prediction-software-for-subscription-businesses/,planned,False,0,False,0,0,0,file missing,
-A174,/best/subscription-analytics-software-for-retention-and-revenue-teams/,planned,False,0,False,0,0,0,file missing,
-A175,/best/customer-health-scoring-software-for-account-management/,planned,False,0,False,0,0,0,file missing,
-A176,/best/customer-community-platforms-for-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A177,/best/voice-of-customer-software-for-product-and-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A178,/best/customer-journey-analytics-platforms-for-lifecycle-teams/,planned,False,0,False,0,0,0,file missing,
-A179,/compare/customer-support-suite-vs-shared-inbox-which-does-a-small-team-need/,planned,False,0,False,0,0,0,file missing,
-A180,/guides/how-to-build-a-customer-retention-tech-stack-for-a-small-saas-team/,planned,False,0,False,0,0,0,file missing,
-A181,/best/affiliate-marketing-platforms-for-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A182,/best/affiliate-tracking-software-for-ecommerce-brands/,planned,False,0,False,0,0,0,file missing,
-A183,/best/partner-relationship-management-software-for-b2b-companies/,planned,False,0,False,0,0,0,file missing,
-A184,/best/influencer-marketing-platforms-for-b2b-brands/,planned,False,0,False,0,0,0,file missing,
-A185,/best/influencer-marketing-platforms-for-ecommerce-brands/,planned,False,0,False,0,0,0,file missing,
-A186,/best/creator-marketplace-platforms-for-brand-partnerships/,planned,False,0,False,0,0,0,file missing,
-A187,/best/ugc-creator-platforms-for-performance-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A188,/best/social-listening-platforms-for-brand-and-competitor-research/,planned,False,0,False,0,0,0,file missing,
-A189,/best/brand-monitoring-tools-for-online-mentions-and-reputation/,planned,False,0,False,0,0,0,file missing,
-A190,/best/referral-program-software-for-b2b-saas-products/,planned,False,0,False,0,0,0,file missing,
-A191,/best/brand-ambassador-program-software-for-growing-companies/,planned,False,0,False,0,0,0,file missing,
-A192,/best/influencer-outreach-tools-for-agency-campaigns/,planned,False,0,False,0,0,0,file missing,
-A193,/best/affiliate-fraud-prevention-tools-for-partner-programs/,planned,False,0,False,0,0,0,file missing,
-A194,/best/partner-sales-enablement-platforms-for-channel-teams/,planned,False,0,False,0,0,0,file missing,
-A195,/best/partnership-attribution-software-for-multi-touch-partner-sales/,planned,False,0,False,0,0,0,file missing,
-A196,/best/coupon-and-discount-attribution-tools-for-affiliate-programs/,planned,False,0,False,0,0,0,file missing,
-A197,/best/creator-link-in-bio-and-campaign-landing-page-tools/,planned,False,0,False,0,0,0,file missing,
-A198,/compare/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/,planned,False,0,False,0,0,0,file missing,
-A199,/guides/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/,planned,False,0,False,0,0,0,file missing,
-A200,/guides/how-to-evaluate-influencer-campaign-roi-without-vanity-metrics/,planned,False,0,False,0,0,0,file missing,
-A201,/best/website-builders-for-b2b-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A202,/best/composable-cms-platforms-for-enterprise-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A203,/best/website-personalization-software-for-b2b-lead-generation/,planned,False,0,False,0,0,0,file missing,
-A204,/best/landing-page-builders-for-saas-demo-and-trial-funnels/,planned,False,0,False,0,0,0,file missing,
-A205,/best/landing-page-builders-for-marketing-agencies/,planned,False,0,False,0,0,0,file missing,
-A206,/best/no-code-website-platforms-for-marketing-operations/,planned,False,0,False,0,0,0,file missing,
-A207,/alternatives/webflow-alternatives-for-content-heavy-business-websites/,planned,False,0,False,0,0,0,file missing,
-A208,/alternatives/wordpress-alternatives-for-marketing-teams-managing-many-sites/,planned,False,0,False,0,0,0,file missing,
-A209,/best/form-builders-for-b2b-lead-capture-and-qualification/,planned,False,0,False,0,0,0,file missing,
-A210,/best/conversational-form-platforms-for-higher-intent-lead-capture/,planned,False,0,False,0,0,0,file missing,
-A211,/best/pop-up-and-onsite-engagement-software-for-lead-capture/,planned,False,0,False,0,0,0,file missing,
-A212,/best/consent-and-preference-management-platforms-for-marketing-sites/,planned,False,0,False,0,0,0,file missing,
-A213,/best/website-accessibility-monitoring-tools-for-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A214,/best/website-performance-monitoring-tools-for-marketing-sites/,planned,False,0,False,0,0,0,file missing,
-A215,/best/website-change-monitoring-tools-for-seo-and-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A216,/best/cdn-and-web-security-platforms-for-marketing-websites/,planned,False,0,False,0,0,0,file missing,
-A217,/best/website-migration-tools-for-seo-safe-platform-changes/,planned,False,0,False,0,0,0,file missing,
-A218,/best/website-experimentation-platforms-for-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A219,/compare/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,planned,False,0,False,0,0,0,file missing,
-A220,/guides/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,planned,False,0,False,0,0,0,file missing,
-A221,/best/customer-data-platforms-for-b2b-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A222,/best/b2b-customer-data-platforms-for-account-based-marketing/,planned,False,0,False,0,0,0,file missing,
-A223,/best/reverse-etl-tools-for-activating-warehouse-data/,planned,False,0,False,0,0,0,file missing,
-A224,/best/marketing-data-integration-platforms-for-lean-teams/,planned,False,0,False,0,0,0,file missing,
-A225,/best/data-warehouse-platforms-for-small-marketing-analytics-teams/,planned,False,0,False,0,0,0,file missing,
-A226,/best/no-code-etl-tools-for-marketing-operations/,planned,False,0,False,0,0,0,file missing,
-A227,/best/crm-data-quality-and-deduplication-tools/,planned,False,0,False,0,0,0,file missing,
-A228,/best/b2b-intent-data-platforms-for-account-prioritization/,planned,False,0,False,0,0,0,file missing,
-A229,/best/website-visitor-identification-tools-for-b2b-sales-teams/,planned,False,0,False,0,0,0,file missing,
-A230,/best/account-based-marketing-platforms-for-small-b2b-teams/,planned,False,0,False,0,0,0,file missing,
-A231,/best/account-based-advertising-platforms-for-b2b-marketers/,planned,False,0,False,0,0,0,file missing,
-A232,/best/sales-forecasting-software-for-growing-b2b-teams/,planned,False,0,False,0,0,0,file missing,
-A233,/best/revenue-intelligence-platforms-for-b2b-sales-leadership/,planned,False,0,False,0,0,0,file missing,
-A234,/best/conversation-intelligence-software-for-sales-coaching/,planned,False,0,False,0,0,0,file missing,
-A235,/best/sales-compensation-management-software-for-b2b-teams/,planned,False,0,False,0,0,0,file missing,
-A236,/best/sales-enablement-software-for-growing-b2b-companies/,planned,False,0,False,0,0,0,file missing,
-A237,/best/digital-sales-room-software-for-complex-b2b-deals/,planned,False,0,False,0,0,0,file missing,
-A238,/best/revenue-operations-analytics-tools-for-cross-functional-teams/,planned,False,0,False,0,0,0,file missing,
-A239,/compare/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/,planned,False,0,False,0,0,0,file missing,
-A240,/guides/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,planned,False,0,False,0,0,0,file missing,
-A241,/best/webinar-platforms-for-b2b-lead-generation/,planned,False,0,False,0,0,0,file missing,
-A242,/best/virtual-event-platforms-for-b2b-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A243,/best/event-registration-software-for-business-conferences/,planned,False,0,False,0,0,0,file missing,
-A244,/best/hybrid-event-management-platforms-for-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A245,/best/webinar-automation-tools-for-always-on-lead-generation/,planned,False,0,False,0,0,0,file missing,
-A246,/best/webinar-analytics-tools-for-engagement-and-pipeline-reporting/,planned,False,0,False,0,0,0,file missing,
-A247,/best/webinar-engagement-tools-for-polls-q-a-and-audience-interaction/,planned,False,0,False,0,0,0,file missing,
-A248,/best/on-demand-webinar-hosting-platforms-for-b2b-content/,planned,False,0,False,0,0,0,file missing,
-A249,/best/podcast-hosting-platforms-for-b2b-brands/,planned,False,0,False,0,0,0,file missing,
-A250,/best/podcast-production-software-for-marketing-teams/,planned,False,0,False,0,0,0,file missing,
-A251,/best/podcast-guest-booking-platforms-for-b2b-founders/,planned,False,0,False,0,0,0,file missing,
-A252,/best/online-course-platforms-for-b2b-lead-generation/,planned,False,0,False,0,0,0,file missing,
-A253,/best/online-community-platforms-for-b2b-brands-and-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A254,/alternatives/best-customer-community-alternatives-for-growing-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A255,/best/community-analytics-tools-for-measuring-member-engagement/,planned,False,0,False,0,0,0,file missing,
-A256,/best/event-networking-software-for-business-conferences/,planned,False,0,False,0,0,0,file missing,
-A257,/best/event-lead-capture-apps-for-exhibitors-and-sponsors/,planned,False,0,False,0,0,0,file missing,
-A258,/best/event-marketing-automation-integrations-for-b2b-teams/,planned,False,0,False,0,0,0,file missing,
-A259,/guides/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,planned,False,0,False,0,0,0,file missing,
-A260,/compare/content-syndication-vs-webinars-which-b2b-demand-channel-fits/,planned,False,0,False,0,0,0,file missing,
-A261,/best/project-management-software-for-digital-marketing-agencies/,planned,False,0,False,0,0,0,file missing,
-A262,/best/client-portal-software-for-marketing-and-seo-agencies/,planned,False,0,False,0,0,0,file missing,
-A263,/best/time-tracking-software-for-marketing-agencies/,planned,False,0,False,0,0,0,file missing,
-A264,/best/resource-planning-software-for-creative-and-marketing-agencies/,planned,False,0,False,0,0,0,file missing,
-A265,/best/creative-proofing-software-for-agency-client-approvals/,planned,False,0,False,0,0,0,file missing,
-A266,/best/proposal-software-for-marketing-and-seo-agencies/,planned,False,0,False,0,0,0,file missing,
-A267,/best/e-signature-software-for-agency-contracts-and-sows/,planned,False,0,False,0,0,0,file missing,
-A268,/best/invoicing-software-for-freelancers-and-digital-agencies/,planned,False,0,False,0,0,0,file missing,
-A269,/best/retainer-billing-software-for-service-businesses/,planned,False,0,False,0,0,0,file missing,
-A270,/best/agency-profitability-reporting-tools-for-owners/,planned,False,0,False,0,0,0,file missing,
-A271,/best/white-label-reporting-platforms-for-digital-agencies/,planned,False,0,False,0,0,0,file missing,
-A272,/best/client-onboarding-software-for-digital-agencies/,planned,False,0,False,0,0,0,file missing,
-A273,/best/client-communication-platforms-for-agency-teams/,planned,False,0,False,0,0,0,file missing,
-A274,/best/task-management-software-for-marketing-operations-teams/,planned,False,0,False,0,0,0,file missing,
-A275,/best/sop-and-process-documentation-software-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A276,/best/password-management-tools-for-digital-agencies/,planned,False,0,False,0,0,0,file missing,
-A277,/best/capacity-planning-software-for-small-service-agencies/,planned,False,0,False,0,0,0,file missing,
-A278,/best/freelancer-and-contractor-management-platforms-for-agencies/,planned,False,0,False,0,0,0,file missing,
-A279,/best/rfp-and-proposal-management-software-for-b2b-agencies/,planned,False,0,False,0,0,0,file missing,
-A280,/guides/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,planned,False,0,False,0,0,0,file missing,
-A281,/best/product-analytics-software-for-saas-startups/,planned,False,0,False,0,0,0,file missing,
-A282,/best/feature-flag-management-platforms-for-saas-teams/,planned,False,0,False,0,0,0,file missing,
-A283,/best/product-experimentation-platforms-for-growth-teams/,planned,False,0,False,0,0,0,file missing,
-A284,/best/digital-adoption-platforms-for-complex-saas-products/,planned,False,0,False,0,0,0,file missing,
-A285,/best/product-tour-and-user-onboarding-software-for-saas/,planned,False,0,False,0,0,0,file missing,
-A286,/best/user-behavior-analytics-tools-for-product-teams/,planned,False,0,False,0,0,0,file missing,
-A287,/best/product-event-tracking-and-governance-platforms/,planned,False,0,False,0,0,0,file missing,
-A288,/best/customer-journey-analytics-tools-for-saas-product-teams/,planned,False,0,False,0,0,0,file missing,
-A289,/best/experiment-tracking-and-repository-platforms-for-product-teams/,planned,False,0,False,0,0,0,file missing,
-A290,/best/feature-adoption-analytics-tools-for-saas-companies/,planned,False,0,False,0,0,0,file missing,
-A291,/best/product-feedback-and-roadmap-voting-platforms/,planned,False,0,False,0,0,0,file missing,
-A292,/best/product-roadmap-prioritization-software-for-saas-teams/,planned,False,0,False,0,0,0,file missing,
-A293,/best/beta-testing-and-product-feedback-collection-software/,planned,False,0,False,0,0,0,file missing,
-A294,/best/user-research-interview-platforms-for-product-teams/,planned,False,0,False,0,0,0,file missing,
-A295,/best/usability-testing-software-for-saas-product-teams/,planned,False,0,False,0,0,0,file missing,
-A296,/best/remote-user-testing-platforms-for-website-and-product-research/,planned,False,0,False,0,0,0,file missing,
-A297,/best/session-replay-tools-for-saas-product-analytics/,planned,False,0,False,0,0,0,file missing,
-A298,/pricing/product-analytics-pricing-explained-events-users-and-data-retention/,planned,False,0,False,0,0,0,file missing,
-A299,/compare/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/,planned,False,0,False,0,0,0,file missing,
-A300,/guides/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/,planned,False,0,False,0,0,0,file missing,
+A087,/best/ab-testing-software/,QA-passed,True,2122,True,9,8,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A088,/best/heatmap-session-replay-tools/,QA-passed,True,1953,True,8,8,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A089,/best/social-media-management-tools-for-agencies/,QA-passed,True,2127,True,9,8,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A090,/best/social-media-analytics-tools/,QA-passed,True,2081,True,7,7,0,,
+A091,/compare/zapier-vs-make-vs-n8n/,QA-passed,True,2670,True,8,23,2,,
+A092,/alternatives/ga4/,QA-passed,True,2434,True,11,11,0,,
+A093,/alternatives/hotjar/,QA-passed,True,2103,True,10,9,0,,
+A094,/alternatives/hootsuite/,QA-passed,True,2136,True,8,8,0,,
+A095,/compare/activecampaign-vs-hubspot/,QA-passed,True,2370,True,14,7,10,,
+A096,/best/free-marketing-automation-tools/,QA-passed,True,2427,True,10,19,0,,
+A097,/pricing/marketing-automation/,QA-passed,True,2291,True,9,9,0,,
+A098,/guides/marketing-stack-audit/,QA-passed,True,1721,True,16,2,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A099,/guides/b2b-growth-stack/,QA-passed,True,2358,True,33,9,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A100,/guides/marketing-attribution-tools-for-small-business/,QA-passed,True,1532,True,12,8,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A101,/best/content-marketing-platforms-for-b2b-teams/,QA-passed,True,2228,True,9,12,0,,
+A102,/best/editorial-calendar-software-for-multi-author-teams/,QA-passed,True,2185,True,7,14,0,,
+A103,/best/content-workflow-software-for-marketing-agencies/,QA-passed,True,2060,True,7,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A104,/best/cms-platforms-for-growing-marketing-teams/,QA-passed,True,2135,True,9,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A105,/best/headless-cms-platforms-for-omnichannel-content/,QA-passed,True,2073,True,6,14,0,,
+A106,/compare/wordpress-vs-webflow-for-marketing-led-websites/,QA-passed,True,2381,True,12,10,0,,
+A107,/best/digital-asset-management-software-for-marketing-teams/,QA-passed,True,2100,True,7,16,0,,
+A108,/best/brand-asset-management-platforms-for-distributed-teams/,QA-passed,True,2079,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A109,/best/content-approval-software-for-marketing-and-creative-teams/,QA-passed,True,1832,True,8,14,0,,
+A110,/best/content-brief-and-assignment-management-tools/,QA-passed,True,1925,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A111,/best/content-inventory-and-audit-software-for-large-sites/,QA-passed,True,2390,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A112,/best/content-localization-and-translation-management-software/,QA-passed,True,2024,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A113,/compare/translation-management-system-vs-localization-platform/,QA-passed,True,1667,True,5,7,0,,
+A114,/best/content-distribution-and-syndication-platforms-for-b2b/,QA-passed,True,1939,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A115,/best/corporate-blog-publishing-platforms-for-b2b-brands/,QA-passed,True,1881,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A116,/best/knowledge-base-software-for-marketing-operations/,QA-passed,True,2267,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A117,/best/content-governance-tools-for-distributed-marketing-teams/,QA-passed,True,2099,True,4,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A118,/best/digital-content-rights-and-usage-management-tools/,QA-passed,True,2125,True,4,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A119,/best/content-repurposing-workflow-platforms-for-marketing-teams/,QA-passed,True,1972,True,4,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A120,/guides/how-to-build-a-content-operations-system-for-a-small-marketing-team/,QA-passed,True,1688,True,9,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A121,/best/ppc-management-software-for-agencies/,QA-passed,True,2274,True,9,15,0,,
+A122,/best/google-ads-management-tools-for-multi-account-teams/,QA-passed,True,1832,True,8,16,0,,
+A123,/best/paid-social-advertising-management-platforms/,QA-passed,True,1740,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A124,/best/cross-channel-paid-media-reporting-tools/,QA-passed,True,1686,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A125,/best/ad-creative-management-platforms-for-performance-teams/,QA-passed,True,1887,True,9,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A126,/best/ad-intelligence-tools-for-competitor-research/,QA-passed,True,2421,True,7,18,0,,
+A127,/best/competitor-ad-research-tools-for-agencies/,QA-passed,True,2079,True,6,14,0,,
+A128,/best/ppc-bid-management-and-automation-software/,QA-passed,True,2013,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A129,/best/ppc-budget-pacing-and-spend-forecasting-tools/,QA-passed,True,1875,True,5,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A130,/best/ad-fraud-detection-software-for-digital-advertisers/,QA-passed,True,1990,True,5,19,0,,
+A131,/best/call-tracking-software-for-paid-acquisition-campaigns/,QA-passed,True,2469,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A132,/best/landing-page-builders-for-paid-acquisition-campaigns/,QA-passed,True,1932,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A133,/best/ad-compliance-and-creative-approval-software/,QA-passed,True,1836,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A134,/best/utm-governance-and-campaign-naming-tools/,QA-passed,True,1760,True,5,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A135,/compare/google-ads-editor-vs-third-party-ppc-management-tools/,QA-passed,True,1718,True,7,11,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A136,/best/meta-ads-reporting-tools-for-ecommerce-and-agencies/,QA-passed,True,2315,True,7,16,0,,
+A137,/best/linkedin-ads-management-and-reporting-tools-for-b2b/,QA-passed,True,1908,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A138,/best/ppc-audit-tools-for-finding-wasted-ad-spend/,QA-passed,True,1791,True,7,14,0,,
+A139,/guides/how-to-build-a-paid-media-measurement-plan-before-launch/,QA-passed,True,1632,True,7,2,0,,
+A140,/guides/how-to-run-a-monthly-paid-media-account-review-for-clients/,QA-passed,True,1505,True,7,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A141,/best/ecommerce-platforms-for-growing-direct-to-consumer-brands/,QA-passed,True,2521,True,9,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A142,/best/shopify-apps-for-improving-store-conversion/,QA-passed,True,1966,True,9,17,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A143,/best/ecommerce-personalization-software-for-product-discovery/,QA-passed,True,1817,True,7,16,0,,
+A144,/best/product-recommendation-engines-for-online-stores/,QA-passed,True,1742,True,6,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A145,/best/product-feed-management-software-for-ecommerce/,QA-passed,True,1834,True,6,16,0,,
+A146,/best/marketplace-management-software-for-multi-channel-sellers/,QA-passed,True,2183,True,6,18,0,,
+A147,/best/ecommerce-customer-data-platforms-for-retention-teams/,QA-passed,True,1879,True,6,17,0,,
+A148,/best/sms-marketing-software-for-ecommerce-brands/,QA-passed,True,1770,True,5,15,0,,
+A149,/best/ecommerce-loyalty-and-rewards-platforms/,QA-passed,True,1759,True,5,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A150,/best/referral-marketing-software-for-online-stores/,QA-passed,True,1675,True,5,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A151,/best/subscription-commerce-software-for-recurring-revenue-brands/,QA-passed,True,2616,True,7,19,0,,
+A152,/best/returns-and-exchanges-software-for-ecommerce-teams/,QA-passed,True,2228,True,6,19,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A153,/best/product-reviews-and-user-generated-content-platforms-for-ecommerce/,QA-passed,True,2187,True,8,19,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A154,/best/onsite-search-software-for-ecommerce-catalogs/,QA-passed,True,2188,True,7,18,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A155,/best/abandoned-cart-recovery-platforms-for-ecommerce/,QA-passed,True,2368,True,9,20,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A156,/best/checkout-optimization-software-for-online-stores/,QA-passed,True,2139,True,9,17,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A157,/best/order-management-software-for-growing-ecommerce-brands/,QA-passed,True,1964,True,6,19,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A158,/best/ecommerce-merchandising-analytics-tools/,QA-passed,True,1995,True,9,19,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A159,/alternatives/shopify-alternatives-for-brands-requiring-more-store-control/,QA-passed,True,1631,True,6,19,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A160,/guides/how-to-build-an-ecommerce-growth-stack-without-app-overload/,QA-passed,True,1667,True,12,1,0,,
+A161,/best/customer-success-platforms-for-b2b-saas-teams/,QA-passed,True,2458,True,9,14,0,,
+A162,/best/customer-onboarding-software-for-saas-companies/,QA-passed,True,2047,True,6,14,0,,
+A163,/best/customer-education-platforms-for-saas-and-b2b-companies/,QA-passed,True,1942,True,6,14,0,,
+A164,/best/in-app-messaging-platforms-for-saas-product-teams/,QA-passed,True,2053,True,7,14,0,,
+A165,/best/customer-feedback-management-software-for-b2b-teams/,QA-passed,True,1946,True,7,14,0,,
+A166,/best/nps-software-for-customer-experience-teams/,QA-passed,True,2552,True,7,14,0,,
+A167,/best/help-desk-software-for-growing-b2b-saas-companies/,QA-passed,True,2355,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A168,/best/live-chat-software-for-lead-generation-and-customer-support/,QA-passed,True,2200,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A169,/best/ai-customer-support-platforms-for-small-teams/,QA-passed,True,2196,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A170,/best/shared-inbox-software-for-customer-facing-teams/,QA-passed,True,2193,True,5,14,0,,
+A171,/best/chatbot-platforms-for-customer-support-workflows/,QA-passed,True,2373,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A172,/best/customer-knowledge-base-and-self-service-portal-software/,QA-passed,True,2019,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A173,/best/churn-prediction-software-for-subscription-businesses/,QA-passed,True,1973,True,6,14,0,,
+A174,/best/subscription-analytics-software-for-retention-and-revenue-teams/,QA-passed,True,1982,True,6,14,0,,
+A175,/best/customer-health-scoring-software-for-account-management/,QA-passed,True,1972,True,7,14,0,,
+A176,/best/customer-community-platforms-for-saas-companies/,QA-passed,True,2343,True,7,16,0,,
+A177,/best/voice-of-customer-software-for-product-and-marketing-teams/,QA-passed,True,2051,True,5,16,0,,
+A178,/best/customer-journey-analytics-platforms-for-lifecycle-teams/,QA-passed,True,2069,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A179,/compare/customer-support-suite-vs-shared-inbox-which-does-a-small-team-need/,QA-passed,True,1879,True,5,8,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A180,/guides/how-to-build-a-customer-retention-tech-stack-for-a-small-saas-team/,QA-passed,True,1895,True,8,0,0,,
+A181,/best/affiliate-marketing-platforms-for-saas-companies/,QA-passed,True,2361,True,9,12,0,,
+A182,/best/affiliate-tracking-software-for-ecommerce-brands/,QA-passed,True,1977,True,7,14,0,,
+A183,/best/partner-relationship-management-software-for-b2b-companies/,QA-passed,True,1901,True,8,14,0,,
+A184,/best/influencer-marketing-platforms-for-b2b-brands/,QA-passed,True,1803,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A185,/best/influencer-marketing-platforms-for-ecommerce-brands/,QA-passed,True,1860,True,9,14,0,,
+A186,/best/creator-marketplace-platforms-for-brand-partnerships/,QA-passed,True,2133,True,8,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A187,/best/ugc-creator-platforms-for-performance-marketing-teams/,QA-passed,True,1725,True,6,14,0,,
+A188,/best/social-listening-platforms-for-brand-and-competitor-research/,QA-passed,True,1829,True,6,17,0,,
+A189,/best/brand-monitoring-tools-for-online-mentions-and-reputation/,QA-passed,True,1667,True,6,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A190,/best/referral-program-software-for-b2b-saas-products/,QA-passed,True,1873,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A191,/best/brand-ambassador-program-software-for-growing-companies/,QA-passed,True,2094,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A192,/best/influencer-outreach-tools-for-agency-campaigns/,QA-passed,True,2021,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A193,/best/affiliate-fraud-prevention-tools-for-partner-programs/,QA-passed,True,2016,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A194,/best/partner-sales-enablement-platforms-for-channel-teams/,QA-passed,True,1856,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A195,/best/partnership-attribution-software-for-multi-touch-partner-sales/,QA-passed,True,1932,True,5,14,0,,
+A196,/best/coupon-and-discount-attribution-tools-for-affiliate-programs/,QA-passed,True,2142,True,8,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A197,/best/creator-link-in-bio-and-campaign-landing-page-tools/,QA-passed,True,1927,True,6,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A198,/compare/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/,QA-passed,True,1736,True,6,4,0,,
+A199,/guides/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/,QA-passed,True,1749,True,8,4,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A200,/guides/how-to-evaluate-influencer-campaign-roi-without-vanity-metrics/,QA-passed,True,1541,True,10,1,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A201,/best/website-builders-for-b2b-marketing-teams/,QA-passed,True,2313,True,8,12,0,,
+A202,/best/composable-cms-platforms-for-enterprise-marketing-teams/,QA-passed,True,2081,True,6,14,0,,
+A203,/best/website-personalization-software-for-b2b-lead-generation/,QA-passed,True,1843,True,7,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A204,/best/landing-page-builders-for-saas-demo-and-trial-funnels/,QA-passed,True,1809,True,6,10,0,,
+A205,/best/landing-page-builders-for-marketing-agencies/,QA-passed,True,2016,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A206,/best/no-code-website-platforms-for-marketing-operations/,QA-passed,True,2346,True,10,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A207,/alternatives/webflow-alternatives-for-content-heavy-business-websites/,QA-passed,True,1763,True,9,16,0,,
+A208,/alternatives/wordpress-alternatives-for-marketing-teams-managing-many-sites/,QA-passed,True,1627,True,9,15,0,,
+A209,/best/form-builders-for-b2b-lead-capture-and-qualification/,QA-passed,True,1877,True,8,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A210,/best/conversational-form-platforms-for-higher-intent-lead-capture/,QA-passed,True,1710,True,9,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A211,/best/pop-up-and-onsite-engagement-software-for-lead-capture/,QA-passed,True,2024,True,8,13,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A212,/best/consent-and-preference-management-platforms-for-marketing-sites/,QA-passed,True,1707,True,5,13,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A213,/best/website-accessibility-monitoring-tools-for-marketing-teams/,QA-passed,True,1591,True,6,15,0,,
+A214,/best/website-performance-monitoring-tools-for-marketing-sites/,QA-passed,True,1696,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A215,/best/website-change-monitoring-tools-for-seo-and-marketing-teams/,QA-passed,True,1789,True,6,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A216,/best/cdn-and-web-security-platforms-for-marketing-websites/,QA-passed,True,2228,True,5,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A217,/best/website-migration-tools-for-seo-safe-platform-changes/,QA-passed,True,2052,True,7,18,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A218,/best/website-experimentation-platforms-for-marketing-teams/,QA-passed,True,1864,True,7,15,0,,
+A219,/compare/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,QA-passed,True,1716,True,8,7,0,,
+A220,/guides/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,QA-passed,True,1691,True,7,7,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A221,/best/customer-data-platforms-for-b2b-marketing-teams/,QA-passed,True,2450,True,8,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A222,/best/b2b-customer-data-platforms-for-account-based-marketing/,QA-passed,True,1966,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A223,/best/reverse-etl-tools-for-activating-warehouse-data/,QA-passed,True,1974,True,5,14,0,,
+A224,/best/marketing-data-integration-platforms-for-lean-teams/,QA-passed,True,1839,True,6,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A225,/best/data-warehouse-platforms-for-small-marketing-analytics-teams/,QA-passed,True,2004,True,6,18,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A226,/best/no-code-etl-tools-for-marketing-operations/,QA-passed,True,2475,True,7,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A227,/best/crm-data-quality-and-deduplication-tools/,QA-passed,True,2168,True,6,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A228,/best/b2b-intent-data-platforms-for-account-prioritization/,QA-passed,True,2060,True,6,14,0,,
+A229,/best/website-visitor-identification-tools-for-b2b-sales-teams/,QA-passed,True,1990,True,6,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A230,/best/account-based-marketing-platforms-for-small-b2b-teams/,QA-passed,True,1963,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A231,/best/account-based-advertising-platforms-for-b2b-marketers/,QA-passed,True,2357,True,8,18,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A232,/best/sales-forecasting-software-for-growing-b2b-teams/,QA-passed,True,2289,True,8,20,0,,
+A233,/best/revenue-intelligence-platforms-for-b2b-sales-leadership/,QA-passed,True,1925,True,7,17,0,,
+A234,/best/conversation-intelligence-software-for-sales-coaching/,QA-passed,True,2118,True,5,15,0,,
+A235,/best/sales-compensation-management-software-for-b2b-teams/,QA-passed,True,2020,True,6,14,0,,
+A236,/best/sales-enablement-software-for-growing-b2b-companies/,QA-passed,True,2370,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A237,/best/digital-sales-room-software-for-complex-b2b-deals/,QA-passed,True,2085,True,5,14,0,,
+A238,/best/revenue-operations-analytics-tools-for-cross-functional-teams/,QA-passed,True,2148,True,8,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A239,/compare/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/,QA-passed,True,1758,True,7,9,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A240,/guides/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,QA-passed,True,1724,True,10,0,0,,
+A241,/best/webinar-platforms-for-b2b-lead-generation/,QA-passed,True,2276,True,10,20,0,,
+A242,/best/virtual-event-platforms-for-b2b-marketing-teams/,QA-passed,True,2007,True,7,18,0,,
+A243,/best/event-registration-software-for-business-conferences/,QA-passed,True,1837,True,6,17,0,,
+A244,/best/hybrid-event-management-platforms-for-marketing-teams/,QA-passed,True,1866,True,7,18,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A245,/best/webinar-automation-tools-for-always-on-lead-generation/,QA-passed,True,1736,True,6,13,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A246,/best/webinar-analytics-tools-for-engagement-and-pipeline-reporting/,QA-passed,True,2435,True,8,19,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A247,/best/webinar-engagement-tools-for-polls-q-a-and-audience-interaction/,QA-passed,True,1789,True,6,21,0,,
+A248,/best/on-demand-webinar-hosting-platforms-for-b2b-content/,QA-passed,True,1806,True,6,21,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A249,/best/podcast-hosting-platforms-for-b2b-brands/,QA-passed,True,1829,True,6,21,0,,
+A250,/best/podcast-production-software-for-marketing-teams/,QA-passed,True,1786,True,7,24,0,,
+A251,/best/podcast-guest-booking-platforms-for-b2b-founders/,QA-passed,True,2070,True,8,23,0,,
+A252,/best/online-course-platforms-for-b2b-lead-generation/,QA-passed,True,1938,True,8,22,0,,
+A253,/best/online-community-platforms-for-b2b-brands-and-saas-companies/,QA-passed,True,1769,True,7,24,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A254,/alternatives/best-customer-community-alternatives-for-growing-saas-companies/,QA-passed,True,1621,True,6,27,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A255,/best/community-analytics-tools-for-measuring-member-engagement/,QA-passed,True,1832,True,7,26,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A256,/best/event-networking-software-for-business-conferences/,QA-passed,True,2563,True,6,15,0,,
+A257,/best/event-lead-capture-apps-for-exhibitors-and-sponsors/,QA-passed,True,2207,True,6,12,0,,
+A258,/best/event-marketing-automation-integrations-for-b2b-teams/,QA-passed,True,1788,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A259,/guides/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,QA-passed,True,1670,True,9,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A260,/compare/content-syndication-vs-webinars-which-b2b-demand-channel-fits/,QA-passed,True,2158,True,10,0,0,,
+A261,/best/project-management-software-for-digital-marketing-agencies/,QA-passed,True,2146,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A262,/best/client-portal-software-for-marketing-and-seo-agencies/,QA-passed,True,1902,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A263,/best/time-tracking-software-for-marketing-agencies/,QA-passed,True,1818,True,7,14,0,,
+A264,/best/resource-planning-software-for-creative-and-marketing-agencies/,QA-passed,True,1802,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A265,/best/creative-proofing-software-for-agency-client-approvals/,QA-passed,True,1813,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A266,/best/proposal-software-for-marketing-and-seo-agencies/,QA-passed,True,2266,True,8,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A267,/best/e-signature-software-for-agency-contracts-and-sows/,QA-passed,True,2118,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A268,/best/invoicing-software-for-freelancers-and-digital-agencies/,QA-passed,True,2241,True,5,16,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A269,/best/retainer-billing-software-for-service-businesses/,QA-passed,True,2100,True,9,14,0,,
+A270,/best/agency-profitability-reporting-tools-for-owners/,QA-passed,True,2138,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A271,/best/white-label-reporting-platforms-for-digital-agencies/,QA-passed,True,1991,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A272,/best/client-onboarding-software-for-digital-agencies/,QA-passed,True,1893,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A273,/best/client-communication-platforms-for-agency-teams/,QA-passed,True,1786,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A274,/best/task-management-software-for-marketing-operations-teams/,QA-passed,True,1736,True,7,14,0,,
+A275,/best/sop-and-process-documentation-software-for-agencies/,QA-passed,True,1840,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A276,/best/password-management-tools-for-digital-agencies/,QA-passed,True,2303,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A277,/best/capacity-planning-software-for-small-service-agencies/,QA-passed,True,2129,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A278,/best/freelancer-and-contractor-management-platforms-for-agencies/,QA-passed,True,1900,True,6,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A279,/best/rfp-and-proposal-management-software-for-b2b-agencies/,QA-passed,True,1940,True,7,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A280,/guides/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,QA-passed,True,1612,True,12,1,0,,
+A281,/best/product-analytics-software-for-saas-startups/,QA-passed,True,2156,True,7,16,0,,
+A282,/best/feature-flag-management-platforms-for-saas-teams/,QA-passed,True,1876,True,6,18,0,,
+A283,/best/product-experimentation-platforms-for-growth-teams/,QA-passed,True,1656,True,7,17,0,,
+A284,/best/digital-adoption-platforms-for-complex-saas-products/,QA-passed,True,1695,True,7,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A285,/best/product-tour-and-user-onboarding-software-for-saas/,QA-passed,True,1716,True,7,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A286,/best/user-behavior-analytics-tools-for-product-teams/,QA-passed,True,1974,True,6,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A287,/best/product-event-tracking-and-governance-platforms/,QA-passed,True,1659,True,5,13,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A288,/best/customer-journey-analytics-tools-for-saas-product-teams/,QA-passed,True,1773,True,7,12,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A289,/best/experiment-tracking-and-repository-platforms-for-product-teams/,QA-passed,True,1786,True,4,15,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A290,/best/feature-adoption-analytics-tools-for-saas-companies/,QA-passed,True,1778,True,5,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A291,/best/product-feedback-and-roadmap-voting-platforms/,QA-passed,True,2370,True,8,13,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A292,/best/product-roadmap-prioritization-software-for-saas-teams/,QA-passed,True,2042,True,6,15,0,,
+A293,/best/beta-testing-and-product-feedback-collection-software/,QA-passed,True,1942,True,5,13,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A294,/best/user-research-interview-platforms-for-product-teams/,QA-passed,True,1740,True,6,13,0,,
+A295,/best/usability-testing-software-for-saas-product-teams/,QA-passed,True,1859,True,7,13,0,,
+A296,/best/remote-user-testing-platforms-for-website-and-product-research/,QA-passed,True,2197,True,6,14,0,,
+A297,/best/session-replay-tools-for-saas-product-analytics/,QA-passed,True,1946,True,7,14,0,,primary keyword not verbatim in H1 (H1 kept as source title)
+A298,/pricing/product-analytics-pricing-explained-events-users-and-data-retention/,QA-passed,True,1771,True,6,6,0,,
+A299,/compare/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/,QA-passed,True,1905,True,6,7,0,,
+A300,/guides/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/,QA-passed,True,1759,True,9,5,0,,primary keyword not verbatim in H1 (H1 kept as source title)

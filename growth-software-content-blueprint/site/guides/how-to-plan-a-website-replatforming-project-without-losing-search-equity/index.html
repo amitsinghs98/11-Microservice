@@ -41,7 +41,7 @@
           "name": "How long does traffic take to recover after a replatform?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "There's no fixed timeline, and recovery isn't guaranteed. Google's guidance says medium-sized sites can take a few weeks or more for new URLs to replace old ones in results, and larger sites can take longer."
+            "text": "There's no fixed timeline, and recovery isn't guaranteed. Expect search engines to need time to reprocess the moved URLs, and expect larger sites to take longer than small ones."
           }
         },
         {
@@ -57,7 +57,7 @@
           "name": "Should we launch in sections or all at once?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Google's site move guidance says moving a site in sections is fine, and it can make problems easier to isolate. A single launch is simpler to coordinate but harder to roll back."
+            "text": "Moving a site in sections can work, and it can make problems easier to isolate. A single launch is simpler to coordinate but harder to roll back."
           }
         },
         {
@@ -80,7 +80,7 @@
       <header>
         <p>Website experience and conversion infrastructure</p>
         <h1>How to Plan a Website Replatforming Project Without Losing Search Equity</h1>
-        <p>This website replatforming SEO checklist turns a platform move into a sequence of owned, testable steps: baseline, map, build, verify, launch and monitor. It won't guarantee your traffic holds, but it removes the avoidable errors that cause most post-launch drops.</p>
+        <p>This website replatforming SEO checklist turns a platform move into a sequence of owned, testable steps: baseline, map, build, verify, launch and monitor. It won't guarantee your traffic holds, but it removes common, avoidable errors behind post-launch drops.</p>
         <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
       </header>
 
@@ -129,17 +129,17 @@
         <h3>1. Capture the crawl baseline</h3>
         <p>Crawl the live site and save the full export: URLs, status codes, titles, meta descriptions, H1s, canonicals, indexability, internal link counts and structured data. Export organic landing pages from analytics and Search Console, and backlinked URLs from your SEO tool. This is the reference for every later comparison.</p>
         <h3>2. Build the URL inventory and page map</h3>
-        <p>Merge every URL source into one sheet and give each old URL a destination: same URL, new URL, merged page, or a deliberate removal. Google's site move guidance suggests <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">finding important URLs from sitemaps, traffic data and the Links report, and including images, video, JavaScript and CSS in the plan</a> (checked 4 November 2026). Decision point: no URL with traffic or backlinks goes unmapped.</p>
+        <p>Merge every URL source into one sheet and give each old URL a destination: same URL, new URL, merged page, or a deliberate removal. Google's site move guidance suggests <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">finding important URLs from sitemaps, traffic data and the Links report, and including images, video, JavaScript and CSS in the plan</a>. Decision point: no URL with traffic or backlinks goes unmapped.</p>
         <h3>3. Define redirect rules</h3>
-        <p>Google recommends <a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects" target="_blank" rel="noopener noreferrer">server-side permanent redirects, preferably HTTP 301 or 308</a> (checked 4 November 2026), from each old URL straight to its final destination. Avoid chains, and return 404 or 410 for content you're intentionally retiring rather than redirecting it to the homepage.</p>
+        <p>Google recommends <a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects" target="_blank" rel="noopener noreferrer">server-side permanent redirects, preferably HTTP 301 or 308</a>, from each old URL straight to its final destination. Avoid chains, and return 404 or 410 for content you're intentionally retiring rather than redirecting it to the homepage.</p>
         <h3>4. Rebuild and QA on staging</h3>
         <p>Block staging from indexing, then crawl it and compare it against the baseline. Check titles, meta descriptions, canonicals, hreflang, structured data, internal links and page weight on every key template. Decision point: template-level differences are fixed or consciously accepted.</p>
         <h3>5. Test forms, CRM routing and analytics</h3>
-        <p>Submit every form and confirm the lead arrives in the CRM with the right owner, source and campaign fields. Verify tags and events using GA4's <a href="https://support.google.com/analytics/answer/7201382?hl=en" target="_blank" rel="noopener noreferrer">DebugView, which shows events from a debug device as they're logged</a> (checked 4 November 2026), and use the <a href="https://support.google.com/analytics/answer/9271392?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener noreferrer">Realtime report</a> to confirm live data on launch day.</p>
+        <p>Submit every form and confirm the lead arrives in the CRM with the right owner, source and campaign fields. Verify tags and events using GA4's <a href="https://support.google.com/analytics/answer/7201382?hl=en" target="_blank" rel="noopener noreferrer">DebugView, which shows events from a debug device as they're logged</a>, and use the <a href="https://support.google.com/analytics/answer/9271392?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener noreferrer">Realtime report</a> to confirm live data on launch day.</p>
         <h3>6. Launch and validate</h3>
-        <p>Remove staging blocks, publish redirects, and run the full old-URL list through a crawler. Screaming Frog's documentation shows how to <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/" target="_blank" rel="noopener noreferrer">follow redirects to their final target in list mode and export chains and redirects to errors</a>. Submit the new XML sitemap; for a domain change, use Search Console's <a href="https://support.google.com/webmasters/answer/9370220?hl=en" target="_blank" rel="noopener noreferrer">Change of Address tool after redirects are live</a> (checked 4 November 2026).</p>
+        <p>Remove staging blocks, publish redirects, and run the full old-URL list through a crawler. Screaming Frog's documentation shows how to <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/" target="_blank" rel="noopener noreferrer">follow redirects to their final target in list mode and export chains and redirects to errors</a>. Submit the new XML sitemap; for a domain change, use Search Console's <a href="https://support.google.com/webmasters/answer/9370220?hl=en" target="_blank" rel="noopener noreferrer">Change of Address tool after redirects are live</a>.</p>
         <h3>7. Monitor and assign ownership</h3>
-        <p>Review indexing, 404s, rankings and conversions daily for the first week and weekly for at least a month. Keep redirects in place long term: Google's guidance says <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">generally at least one year</a> (checked 4 November 2026).</p>
+        <p>Review indexing, 404s, rankings and conversions daily for the first week and weekly for at least a month. Keep redirects in place long term, and check <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">Google's site move guidance</a> for its current recommendation on how long.</p>
       </section>
 
       <section id="checklist">
@@ -204,11 +204,11 @@
         <h2>What else do teams ask about replatforming and SEO?</h2>
         <p>These questions tend to surface late in a project, when they're hardest to fix. Answer them during planning instead.</p>
         <h3>How long does traffic take to recover after a replatform?</h3>
-        <p>There's no fixed timeline, and recovery isn't guaranteed. Google's guidance says medium-sized sites can take a few weeks or more for new URLs to replace old ones in results, and larger sites can take longer.</p>
+        <p>There's no fixed timeline, and recovery isn't guaranteed. Expect search engines to need time to reprocess the moved URLs, and expect larger sites to take longer than small ones.</p>
         <h3>Should we change URLs during a replatform?</h3>
         <p>Only where there's a clear reason, such as removing parameters or fixing a broken structure. Every changed URL needs a redirect and adds risk, so keeping URLs stable is the lowest-risk option.</p>
         <h3>Should we launch in sections or all at once?</h3>
-        <p>Google's site move guidance says moving a site in sections is fine, and it can make problems easier to isolate. A single launch is simpler to coordinate but harder to roll back.</p>
+        <p>Moving a site in sections can work, and it can make problems easier to isolate. A single launch is simpler to coordinate but harder to roll back.</p>
         <h3>Who should own SEO after launch?</h3>
         <p>Name one owner for the 30 to 90 days after launch who triages redirect gaps, indexing issues and template bugs. Without a named owner, post-launch fixes get lost between the agency, developers and marketing.</p>
       </section>

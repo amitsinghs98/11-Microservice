@@ -127,7 +127,7 @@
         <h2>What data and consent do you need before personalizing?</h2>
 <p>You need a reliable way to identify the account or segment, clean CRM fields to target on, and a consent setup that allows the tracking your rules depend on. Without all three, personalization either shows the wrong message or shows nothing at all.</p>
         <ul>
-          <li><strong>Identification:</strong> reverse-IP or firmographic enrichment identifies some companies but not all, and remote work lowers match rates. Known-contact data from forms and email clicks is more reliable but covers fewer visitors.</li>
+          <li><strong>Identification:</strong> reverse-IP or firmographic enrichment identifies some companies but not all, and home or mobile connections often can't be matched. Known-contact data from forms and email clicks is more reliable but covers fewer visitors.</li>
           <li><strong>CRM and segment data:</strong> target-account lists, industry and lifecycle fields must be accurate and synced. A <a href="/best/b2b-customer-data-platforms-for-account-based-marketing/">B2B customer data platform</a> helps when that data is scattered.</li>
           <li><strong>Consent:</strong> cookies and identifiers used for personalization generally fall under consent rules in many jurisdictions, so the personalization script must respect your consent manager. Check with your privacy counsel, and see our guide to <a href="/best/consent-and-preference-management-platforms-for-marketing-sites/">consent management platforms for marketing sites</a>.</li>
           <li><strong>Content:</strong> each segment needs a genuinely different message, proof point or offer. Personalization with no variant content is just a script.</li>
@@ -154,7 +154,7 @@
             <tr><th scope="row">Demandbase</th><td>Full ABM programs</td><td>Sales-led; quote</td><td>Large platform if you only need web</td><td><a href="https://www.demandbase.com/" target="_blank" rel="noopener noreferrer">demandbase.com</a></td></tr>
             <tr><th scope="row">Optimizely Web Experimentation</th><td>Experimentation-led teams</td><td>Sales-led; quote</td><td>Needs traffic and analyst capacity</td><td><a href="https://www.optimizely.com/products/web-experimentation/" target="_blank" rel="noopener noreferrer">optimizely.com</a></td></tr>
             <tr><th scope="row">VWO Personalize</th><td>Testing plus personalization suite</td><td>Tiered; see official pricing</td><td>Account-level B2B data needs integrations</td><td><a href="https://vwo.com/personalize/" target="_blank" rel="noopener noreferrer">vwo.com</a></td></tr>
-            <tr><th scope="row">Webflow Optimize</th><td>Webflow-hosted sites</td><td>Add-on to Webflow; see official pricing</td><td>Tied to the Webflow platform</td><td><a href="https://webflow.com/optimize" target="_blank" rel="noopener noreferrer">webflow.com</a></td></tr>
+            <tr><th scope="row">Webflow Optimize</th><td>Webflow-hosted sites</td><td>See official pricing</td><td>Tied to the Webflow platform</td><td><a href="https://webflow.com/optimize" target="_blank" rel="noopener noreferrer">webflow.com</a></td></tr>
           </tbody>
         </table>
       </section>
@@ -167,7 +167,7 @@
         <p><strong>Strengths:</strong> Built for B2B, with audiences framed as industries, company sizes and target accounts rather than consumer behavior.</p>
         <p><strong>Limitations:</strong> Results depend on how many visitors can be identified, and pricing is quote-based. <strong>Skip it if</strong> your traffic is mostly anonymous small businesses or consumers.</p>
         <h3>HubSpot Content Hub: best when site and CRM are both HubSpot</h3>
-        <p><strong>What it does:</strong> HubSpot's <a href="https://www.hubspot.com/products/cms" target="_blank" rel="noopener noreferrer">Content Hub</a> includes smart content rules that change modules by contact properties, lifecycle stage, list membership, device or source, plus A/B testing on qualifying editions.</p>
+        <p><strong>What it does:</strong> HubSpot's <a href="https://www.hubspot.com/products/cms" target="_blank" rel="noopener noreferrer">Content Hub</a> includes smart content rules that change modules based on CRM data such as lifecycle stage or list membership, or on visit context such as device or source, with smart content and testing available on qualifying editions.</p>
         <p><strong>Strengths:</strong> No integration project: the rules use the CRM data you already have, and reporting sits next to the contact record.</p>
         <p><strong>Limitations:</strong> It personalizes best for known contacts, and it works on HubSpot-hosted pages, so it's not a fit for a site on another CMS. <strong>Skip it if</strong> your site and CRM are elsewhere.</p>
         <h3>Demandbase: best for full account-based programs</h3>
@@ -183,7 +183,7 @@
         <p><strong>Strengths:</strong> One vendor for testing, personalization and research tools, with tiered plans that suit mid-market teams.</p>
         <p><strong>Limitations:</strong> Account-level B2B targeting needs firmographic data from integrations. <strong>Skip it if</strong> named-account personalization is your primary use case.</p>
         <h3>Webflow Optimize: best for Webflow-hosted sites</h3>
-        <p><strong>What it does:</strong> <a href="https://webflow.com/optimize" target="_blank" rel="noopener noreferrer">Webflow Optimize</a> adds testing and AI-assisted personalization to Webflow sites, building on Webflow's acquisition of Intellimize.</p>
+        <p><strong>What it does:</strong> <a href="https://webflow.com/optimize" target="_blank" rel="noopener noreferrer">Webflow Optimize</a> adds testing and personalization to Webflow sites.</p>
         <p><strong>Strengths:</strong> Native to the builder your marketers already use, so variants are created where pages are built.</p>
         <p><strong>Limitations:</strong> It's tied to Webflow, and B2B account data still depends on integrations. <strong>Skip it if</strong> your site doesn't run on Webflow.</p>
       </section>
@@ -198,7 +198,7 @@
         <h2>When does personalization add needless complexity?</h2>
 <p>Personalization is usually not worth it when traffic is low, segments don't have genuinely different needs, or nobody owns the variant content. In those cases a sharper default page and a few dedicated landing pages beat a rules engine.</p>
         <ul>
-          <li><strong>Low traffic:</strong> if each segment sees only a few dozen visits a month, you can't tell whether the variant works.</li>
+          <li><strong>Low traffic:</strong> if each segment sees only a handful of visits, you can't tell whether the variant works.</li>
           <li><strong>One buyer:</strong> if most buyers share the same problem, personalize the campaign landing page instead, using tools from our list of <a href="/best/landing-page-builders-for-saas-demo-and-trial-funnels/">landing page builders for SaaS funnels</a>.</li>
           <li><strong>No content owner:</strong> stale variants are worse than none, because they quietly show outdated claims to your best accounts.</li>
           <li><strong>Untested baseline:</strong> fix page clarity first; our list of <a href="/best/website-experimentation-platforms-for-marketing-teams/">website experimentation platforms</a> covers testing the default experience.</li>

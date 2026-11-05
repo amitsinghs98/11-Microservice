@@ -121,19 +121,19 @@
       <section id="normalization">
         <h2>Why do metric normalization and data freshness matter most?</h2>
         <p>Every ad platform counts conversions with its own attribution window, time zone and currency, so adding their numbers together without normalizing them double-counts sales and misstates cost. Freshness matters because a report built on yesterday's partial data can trigger a budget move that the full data wouldn't support.</p>
-        <p>Normalization means agreeing a reporting currency and exchange-rate source, a single time zone, consistent campaign names and channel groupings, and clear labels for each platform's attribution setting. Some tools handle currency conversion and field mapping for you; others leave it to formulas in the dashboard. That difference is the main reason a connector-plus-dashboard stack and an all-in-one reporting platform feel so different after three months.</p>
+        <p>Normalization means agreeing a reporting currency and exchange-rate source, a single time zone, consistent campaign names and channel groupings, and clear labels for each platform's attribution setting. Some tools handle currency conversion and field mapping for you; others leave it to formulas in the dashboard. That difference is the main reason a connector-plus-dashboard stack and an all-in-one reporting platform feel so different once they are in daily use.</p>
         <p>If attribution is the real question, our guide to <a href="/guides/marketing-attribution-tools-for-small-business/">marketing attribution without false certainty</a> explains what blended figures can and can't tell you.</p>
       </section>
 
       <section id="how-we-chose">
         <h2>How did we choose these tools?</h2>
         <p>We compared connectors, account limits, attribution handling, currency handling, blended metrics, dashboards, exports, refresh schedules and white-label options. The order runs from data-layer tools to presentation-layer tools, and payment didn't influence order or inclusion.</p>
-        <p>Evidence means official product and pricing pages. Most couldn't be retrieved during this drafting session, so pricing is described by model. One claim, AgencyAnalytics' pricing basis and trial, was confirmed earlier on 4 November 2026 and is cited inline. No hands-on testing was performed.</p>
+        <p>Evidence means official product and pricing pages. None could be retrieved during this drafting session, so pricing is left to the linked official pages. No hands-on testing was performed.</p>
       </section>
 
       <section id="comparison">
         <h2>How do the reporting tools compare?</h2>
-        <p>The data-layer tools price by sources, accounts or destinations, while the client-reporting platforms price closer to the number of clients or reports. Confirm current figures on each official page.</p>
+        <p>Pricing units differ between data-layer tools and client-reporting platforms, so compare them on whatever drives your bill. Confirm current figures on each official page.</p>
         <table>
           <caption>Cross-channel paid media reporting software: layer, pricing model and main limit (editorial assessment; confirm plans on each official page)</caption>
           <thead>
@@ -147,12 +147,12 @@
           </thead>
           <tbody>
             <tr><th scope="row">Looker Studio</th><td>Dashboards</td><td>Free; paid Pro tier</td><td>Non-Google connectors often cost extra</td><td><a href="https://lookerstudio.google.com/" target="_blank" rel="noopener noreferrer">Looker Studio</a></td></tr>
-            <tr><th scope="row">Supermetrics</th><td>Connectors</td><td>By destination, sources and accounts</td><td>Cost grows with accounts</td><td><a href="https://supermetrics.com/pricing" target="_blank" rel="noopener noreferrer">Supermetrics pricing</a></td></tr>
-            <tr><th scope="row">Funnel</th><td>Collection and normalization</td><td>Tiered; see official pricing</td><td>Mapping setup effort</td><td><a href="https://funnel.io/pricing" target="_blank" rel="noopener noreferrer">Funnel pricing</a></td></tr>
-            <tr><th scope="row">AgencyAnalytics</th><td>Client reporting platform</td><td>Per client managed</td><td>Less flexible modelling</td><td><a href="https://agencyanalytics.com/pricing" target="_blank" rel="noopener noreferrer">AgencyAnalytics pricing</a></td></tr>
-            <tr><th scope="row">Whatagraph</th><td>Client reporting</td><td>Tiered; see official pricing</td><td>Presentation over analysis</td><td><a href="https://whatagraph.com/pricing" target="_blank" rel="noopener noreferrer">Whatagraph pricing</a></td></tr>
-            <tr><th scope="row">Swydo</th><td>PPC client reporting</td><td>Tiered; see official pricing</td><td>Narrower beyond ads</td><td><a href="https://www.swydo.com/pricing/" target="_blank" rel="noopener noreferrer">Swydo pricing</a></td></tr>
-            <tr><th scope="row">DashThis</th><td>Simple dashboards</td><td>Tiered; see official pricing</td><td>Limited data modelling</td><td><a href="https://dashthis.com/pricing/" target="_blank" rel="noopener noreferrer">DashThis pricing</a></td></tr>
+            <tr><th scope="row">Supermetrics</th><td>Connectors</td><td>See official pricing</td><td>Check how cost scales with accounts</td><td><a href="https://supermetrics.com/pricing" target="_blank" rel="noopener noreferrer">Supermetrics pricing</a></td></tr>
+            <tr><th scope="row">Funnel</th><td>Collection and normalization</td><td>See official pricing</td><td>Mapping setup effort</td><td><a href="https://funnel.io/pricing" target="_blank" rel="noopener noreferrer">Funnel pricing</a></td></tr>
+            <tr><th scope="row">AgencyAnalytics</th><td>Client reporting platform</td><td>See official pricing</td><td>Less flexible modelling</td><td><a href="https://agencyanalytics.com/pricing" target="_blank" rel="noopener noreferrer">AgencyAnalytics pricing</a></td></tr>
+            <tr><th scope="row">Whatagraph</th><td>Client reporting</td><td>See official pricing</td><td>Presentation over analysis</td><td><a href="https://whatagraph.com/pricing" target="_blank" rel="noopener noreferrer">Whatagraph pricing</a></td></tr>
+            <tr><th scope="row">Swydo</th><td>PPC client reporting</td><td>See official pricing</td><td>Narrower beyond ads</td><td><a href="https://www.swydo.com/pricing/" target="_blank" rel="noopener noreferrer">Swydo pricing</a></td></tr>
+            <tr><th scope="row">DashThis</th><td>Simple dashboards</td><td>See official pricing</td><td>Limited data modelling</td><td><a href="https://dashthis.com/pricing/" target="_blank" rel="noopener noreferrer">DashThis pricing</a></td></tr>
           </tbody>
         </table>
       </section>
@@ -165,13 +165,13 @@
         <p><strong>Good at:</strong> shareable dashboards on Google Ads, GA4, Sheets and BigQuery, plus partner connectors for other sources. <strong>Weak at:</strong> blending many sources gets slow and fragile, and non-Google connectors are often a paid add-on. <strong>Skip it if:</strong> nobody will own report maintenance. See <a href="https://lookerstudio.google.com/" target="_blank" rel="noopener noreferrer">Looker Studio</a>.</p>
 
         <h3>Supermetrics: best for moving ad data where you already report</h3>
-        <p><strong>Good at:</strong> pulling ad, social and analytics data into spreadsheets, Looker Studio or a warehouse on a schedule. <strong>Weak at:</strong> predicting cost as you add clients and ad accounts, and normalization is largely your job. <strong>Skip it if:</strong> you report on one or two Google sources only. Check limits on <a href="https://supermetrics.com/pricing" target="_blank" rel="noopener noreferrer">Supermetrics' pricing page</a>.</p>
+        <p><strong>Good at:</strong> pulling ad, social and analytics data into spreadsheets, Looker Studio or a warehouse on a schedule. <strong>Weak at:</strong> check how cost changes as you add clients and ad accounts, and normalization is largely your job. <strong>Skip it if:</strong> you report on one or two Google sources only. Check limits on <a href="https://supermetrics.com/pricing" target="_blank" rel="noopener noreferrer">Supermetrics' pricing page</a>.</p>
 
         <h3>Funnel: best for normalizing many channels</h3>
         <p><strong>Good at:</strong> collecting channel data and mapping it into common fields, so spend and conversions are comparable before they reach a dashboard or warehouse. <strong>Weak at:</strong> quick wins; the mapping work is the product. <strong>Skip it if:</strong> you run a handful of channels in one currency. See <a href="https://funnel.io/pricing" target="_blank" rel="noopener noreferrer">Funnel's pricing page</a>.</p>
 
         <h3>AgencyAnalytics: best all-in-one agency reporting platform</h3>
-        <p><strong>Good at:</strong> client dashboards, scheduled reports and white-labelling across paid, SEO and social channels; the vendor's pricing page lists <a href="https://agencyanalytics.com/pricing" target="_blank" rel="noopener noreferrer">pricing per client managed and a 14-day free trial</a> (checked 4 November 2026). <strong>Weak at:</strong> custom data modelling compared with a warehouse stack. <strong>Skip it if:</strong> an analyst needs raw, joinable data.</p>
+        <p><strong>Good at:</strong> client dashboards, scheduled reports and white-labelling across paid, SEO and social channels; check current plans on <a href="https://agencyanalytics.com/pricing" target="_blank" rel="noopener noreferrer">AgencyAnalytics' pricing page</a>. <strong>Weak at:</strong> custom data modelling compared with a warehouse stack. <strong>Skip it if:</strong> an analyst needs raw, joinable data.</p>
 
         <h3>Whatagraph: best for polished multi-channel client reports</h3>
         <p><strong>Good at:</strong> turning connected channel data into presentable, branded reports with little setup. <strong>Weak at:</strong> deep ad hoc analysis. <strong>Skip it if:</strong> your audience is an internal analyst. See <a href="https://whatagraph.com/pricing" target="_blank" rel="noopener noreferrer">Whatagraph pricing</a>.</p>
@@ -232,7 +232,7 @@
       <section id="verdict">
         <h2>What's the verdict?</h2>
         <p>Choose Looker Studio with Supermetrics if you have analyst time, Funnel if normalization across many channels is the hard part, and AgencyAnalytics, Whatagraph, Swydo or DashThis if client-ready reports are the main output. Decide how you'll normalize currency, time zones and attribution before you choose.</p>
-        <p>Trial with two real client accounts, reconcile a week against each platform, and confirm pricing on the vendor's site. For the analytics layer underneath, see our guide to <a href="/best/marketing-analytics-software/">marketing analytics software for performance teams</a>; for organic reporting, our list of <a href="/best/seo-reporting-software/">SEO reporting software for client agencies</a>; or return to the <a href="/categories/paid-media/">paid media hub</a>.</p>
+        <p>If you trial a tool, use two real client accounts, reconcile a week against each platform, and confirm pricing on the vendor's site. For the analytics layer underneath, see our guide to <a href="/best/marketing-analytics-software/">marketing analytics software for performance teams</a>; for organic reporting, our list of <a href="/best/seo-reporting-software/">SEO reporting software for client agencies</a>; or return to the <a href="/categories/paid-media/">paid media hub</a>.</p>
       </section>
     </article>
   </main>

@@ -13,7 +13,7 @@
    "target_word_range": "1000-1800",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/growth-stack/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "The Growth Stack: How to Choose the Software Behind Acquisition, Content, Sales, and Measurement"
   },
   {
@@ -29,7 +29,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/seo/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "SEO Software: Tools for Planning, Executing, and Measuring Organic Growth"
   },
   {
@@ -45,7 +45,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/ai-content/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "AI Content Software: Writing, Creative, and Content Operations Tools for Marketing Teams"
   },
   {
@@ -61,7 +61,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/email-outreach/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Email Marketing and Outreach Software: Campaigns, Lifecycle, and Responsible B2B Outbound"
   },
   {
@@ -77,7 +77,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/crm-lead-gen/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "CRM and Lead Generation Software: From Prospect Data to Qualified Pipeline"
   },
   {
@@ -93,7 +93,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/automation-analytics/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Marketing Automation and Analytics Software: Workflows, Measurement, CRO, and Distribution"
   },
   {
@@ -109,7 +109,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/content-operations/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Content Operations Software: Planning, Workflow, Governance, and Distribution Tools"
   },
   {
@@ -125,7 +125,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/paid-media/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Paid Media Software: Tools for Running, Governing, and Measuring Ad Spend"
   },
   {
@@ -141,7 +141,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/ecommerce-growth/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Ecommerce Growth Software: Storefront, Merchandising, Checkout, and Retention Tools"
   },
   {
@@ -157,7 +157,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/customer-retention/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Customer Retention Software: Onboarding, Support, Feedback, and Customer Success Tools"
   },
   {
@@ -173,7 +173,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/affiliate-partnerships/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Partnership Growth Software: Affiliate, Influencer, Referral, and Channel Programs"
   },
   {
@@ -189,7 +189,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/website-experience/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Website Experience Software: Builders, CMS, Forms, Performance, and Conversion Infrastructure"
   },
   {
@@ -205,7 +205,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/data-revops/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Data and RevOps Software: Connecting Marketing Activity to Accounts and Revenue"
   },
   {
@@ -221,7 +221,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/webinars-demand-gen/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Webinar, Event, and Community Software for Demand Generation"
   },
   {
@@ -237,7 +237,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/agency-operations/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Agency Operations Software: Projects, Clients, Resourcing, Proposals, and Billing"
   },
   {
@@ -253,7 +253,7 @@
    "target_word_range": "800-1400",
    "source_doc_reference": "Section 3 (site map) and Section 10 (central topical hub)",
    "physical_file_path": "site/categories/product-led-growth/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Product-Led Growth Software: Product Analytics, Onboarding, and Experimentation Tools"
   },
   {
@@ -275,7 +275,7 @@
    "target_word_range": "1500-2200",
    "source_doc_reference": "Section 10, Cluster 1, item 01",
    "physical_file_path": "site/best/seo-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best SEO Software for Agencies and In-House Teams"
   },
   {
@@ -297,7 +297,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 02",
    "physical_file_path": "site/best/keyword-research-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Keyword Research Tools for SEO Agencies"
   },
   {
@@ -319,7 +319,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 03",
    "physical_file_path": "site/best/rank-tracking-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Rank Tracking Software for Multi-Client SEO"
   },
   {
@@ -341,7 +341,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 04",
    "physical_file_path": "site/best/technical-seo-audit-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Technical SEO Audit Tools for Large Websites"
   },
   {
@@ -363,7 +363,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 05",
    "physical_file_path": "site/best/backlink-analysis-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Backlink Analysis Tools for Link Building Teams"
   },
   {
@@ -385,7 +385,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 06",
    "physical_file_path": "site/best/local-seo-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Local SEO Software for Multi-Location Businesses"
   },
   {
@@ -407,7 +407,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 07",
    "physical_file_path": "site/best/ai-seo-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI SEO Tools for Content and Search Teams"
   },
   {
@@ -429,7 +429,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 08",
    "physical_file_path": "site/best/ai-search-visibility-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best GEO and AI Search Visibility Tools for Brand Monitoring"
   },
   {
@@ -451,7 +451,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 09",
    "physical_file_path": "site/best/content-optimization-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Optimization Tools for Organic Growth"
   },
   {
@@ -473,7 +473,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 10",
    "physical_file_path": "site/best/seo-reporting-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best SEO Reporting Software for Client Agencies"
   },
   {
@@ -495,7 +495,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 1, item 11",
    "physical_file_path": "site/compare/semrush-vs-ahrefs/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Semrush vs Ahrefs: Which SEO Workflow Fits Your Team?"
   },
   {
@@ -517,7 +517,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 1, item 12",
    "physical_file_path": "site/alternatives/semrush/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Semrush Alternatives: SEO Platforms for Different Budgets"
   },
   {
@@ -539,7 +539,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 1, item 13",
    "physical_file_path": "site/alternatives/ahrefs/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Ahrefs Alternatives: Tools for Backlinks, Keywords, and Content"
   },
   {
@@ -561,7 +561,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 1, item 14",
    "physical_file_path": "site/alternatives/surfer-seo/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Surfer SEO Alternatives: Content Optimization Tools Compared"
   },
   {
@@ -583,7 +583,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 1, item 15",
    "physical_file_path": "site/compare/se-ranking-vs-semrush/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "SE Ranking vs Semrush: Agency Pricing, Limits, and Reporting"
   },
   {
@@ -605,7 +605,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 16",
    "physical_file_path": "site/best/free-seo-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Free SEO Tools for Small Agencies"
   },
   {
@@ -627,7 +627,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 1, item 17",
    "physical_file_path": "site/pricing/seo-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "SEO Software Pricing: What an Agency Pays for 5, 10, and 20 Clients"
   },
   {
@@ -649,7 +649,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 1, item 18",
    "physical_file_path": "site/guides/seo-tool-stack/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "How to Build an SEO Tool Stack Without Paying for Duplicate Features"
   },
   {
@@ -671,7 +671,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 1, item 19",
    "physical_file_path": "site/guides/rank-tracking-for-local-seo-agency/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Choose Rank Tracking and Reporting for a Local SEO Agency"
   },
   {
@@ -693,7 +693,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 1, item 20",
    "physical_file_path": "site/guides/seo-software-roi/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Measure SEO Tool ROI: Time Saved, Leads, and Client Retention"
   },
   {
@@ -715,7 +715,7 @@
    "target_word_range": "1500-2200",
    "source_doc_reference": "Section 10, Cluster 2, item 21",
    "physical_file_path": "site/best/ai-writing-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI Writing Tools for Marketing Teams"
   },
   {
@@ -737,7 +737,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 22",
    "physical_file_path": "site/best/ai-copywriting-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI Copywriting Software for Ads, Landing Pages, and Product Copy"
   },
   {
@@ -759,7 +759,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 23",
    "physical_file_path": "site/best/ai-content-brief-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI Tools for SEO Content Briefs"
   },
   {
@@ -781,7 +781,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 24",
    "physical_file_path": "site/best/ai-blog-writing-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best AI Blog Writing Tools for Long-Form Content"
   },
   {
@@ -803,7 +803,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 25",
    "physical_file_path": "site/best/ai-email-copywriting-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best AI Email Copywriting Tools for Campaign Teams"
   },
   {
@@ -825,7 +825,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 26",
    "physical_file_path": "site/best/ai-social-media-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI Social Media Content Tools for Agencies"
   },
   {
@@ -847,7 +847,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 27",
    "physical_file_path": "site/best/ai-video-editing-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI Video Editing Tools for Marketing Teams"
   },
   {
@@ -869,7 +869,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 28",
    "physical_file_path": "site/best/ai-image-generation-tools-for-marketing/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best AI Image Generation Tools for Ad Creative Teams"
   },
   {
@@ -891,7 +891,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 29",
    "physical_file_path": "site/best/ai-presentation-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best AI Presentation Tools for Sales and Marketing Teams"
   },
   {
@@ -913,7 +913,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 2, item 30",
    "physical_file_path": "site/compare/chatgpt-vs-claude-for-marketing/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "ChatGPT vs Claude for Marketing Workflows"
   },
   {
@@ -935,7 +935,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 2, item 31",
    "physical_file_path": "site/compare/jasper-vs-copy-ai-vs-writesonic/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Jasper vs Copy.ai vs Writesonic: Which Marketing Platform Fits?"
   },
   {
@@ -957,7 +957,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 2, item 32",
    "physical_file_path": "site/alternatives/jasper/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Jasper Alternatives for Brand-Consistent Marketing Content"
   },
   {
@@ -979,7 +979,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 2, item 33",
    "physical_file_path": "site/alternatives/copy-ai/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Copy.ai Alternatives for Short-Form Copy and GTM Workflows"
   },
   {
@@ -1001,7 +1001,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 2, item 34",
    "physical_file_path": "site/alternatives/writesonic/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Writesonic Alternatives for SEO Content and AI Search Visibility"
   },
   {
@@ -1023,7 +1023,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 35",
    "physical_file_path": "site/best/free-ai-writing-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Free AI Writing Tools for Small Businesses"
   },
   {
@@ -1045,7 +1045,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 36",
    "physical_file_path": "site/best/content-repurposing-tools-ai/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best AI Tools for Repurposing One Blog Post into Multi-Channel Content"
   },
   {
@@ -1067,7 +1067,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 37",
    "physical_file_path": "site/pricing/ai-content-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "AI Content Tool Pricing: Cost per 10 Articles and 100 Marketing Assets"
   },
   {
@@ -1089,7 +1089,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 2, item 38",
    "physical_file_path": "site/guides/ai-content-workflow/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "How to Build an AI Content Workflow with Human Editorial Checks"
   },
   {
@@ -1111,7 +1111,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 2, item 39",
    "physical_file_path": "site/guides/evaluate-ai-content-quality/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Evaluate AI Content Quality for SEO, Accuracy, and Brand Safety"
   },
   {
@@ -1133,7 +1133,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 2, item 40",
    "physical_file_path": "site/best/ai-marketing-tools-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best AI Marketing Tool Stack for a Small Agency"
   },
   {
@@ -1155,7 +1155,7 @@
    "target_word_range": "1500-2200",
    "source_doc_reference": "Section 10, Cluster 3, item 41",
    "physical_file_path": "site/best/email-marketing-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Email Marketing Software for Small Businesses"
   },
   {
@@ -1177,7 +1177,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 42",
    "physical_file_path": "site/best/ecommerce-email-marketing-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Email Marketing Platforms for Ecommerce Brands"
   },
   {
@@ -1199,7 +1199,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 43",
    "physical_file_path": "site/best/cold-email-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Cold Email Software for B2B Agencies"
   },
   {
@@ -1221,7 +1221,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 44",
    "physical_file_path": "site/best/sales-engagement-platforms/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Sales Engagement Platforms for SDR Teams"
   },
   {
@@ -1243,7 +1243,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 45",
    "physical_file_path": "site/best/email-deliverability-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Email Deliverability Tools for Marketing Teams"
   },
   {
@@ -1265,7 +1265,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 46",
    "physical_file_path": "site/best/email-verification-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Email Verification and List Cleaning Tools"
   },
   {
@@ -1287,7 +1287,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 47",
    "physical_file_path": "site/best/newsletter-platforms-for-b2b/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Email Newsletter Platforms for B2B Creators and Consultants"
   },
   {
@@ -1309,7 +1309,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 48",
    "physical_file_path": "site/best/lifecycle-email-automation-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Marketing Automation Software for Lifecycle Email Campaigns"
   },
   {
@@ -1331,7 +1331,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 49",
    "physical_file_path": "site/best/transactional-email-services/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Transactional Email Services for SaaS Products"
   },
   {
@@ -1353,7 +1353,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 50",
    "physical_file_path": "site/best/email-testing-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Email Testing Tools for Rendering, Accessibility, and Link QA"
   },
   {
@@ -1375,7 +1375,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 3, item 51",
    "physical_file_path": "site/compare/instantly-vs-smartlead/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Instantly vs Smartlead: Sending Limits, Mailboxes, and Agency Costs"
   },
   {
@@ -1397,7 +1397,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 3, item 52",
    "physical_file_path": "site/alternatives/mailchimp/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Mailchimp Alternatives: Email Platforms for Growing Businesses"
   },
   {
@@ -1419,7 +1419,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 3, item 53",
    "physical_file_path": "site/compare/hubspot-marketing-hub-vs-activecampaign/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "HubSpot Marketing Hub vs ActiveCampaign: Automation and CRM Fit"
   },
   {
@@ -1441,7 +1441,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 3, item 54",
    "physical_file_path": "site/alternatives/klaviyo/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Klaviyo Alternatives: Ecommerce Email and SMS Platforms Compared"
   },
   {
@@ -1463,7 +1463,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 3, item 55",
    "physical_file_path": "site/compare/lemlist-vs-reply-io/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Lemlist vs Reply.io: Multichannel Outreach for Sales Teams"
   },
   {
@@ -1485,7 +1485,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 56",
    "physical_file_path": "site/best/free-email-marketing-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Free Email Marketing Software: What the Free Plans Actually Allow"
   },
   {
@@ -1507,7 +1507,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 3, item 57",
    "physical_file_path": "site/pricing/cold-email-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Cold Email Software Pricing: True Cost per Mailbox and Sending Volume"
   },
   {
@@ -1529,7 +1529,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 3, item 58",
    "physical_file_path": "site/guides/choose-email-marketing-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "How to Choose Email Marketing Software by List Size and Send Volume"
   },
   {
@@ -1551,7 +1551,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 3, item 59",
    "physical_file_path": "site/guides/compliant-b2b-outreach-stack/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "How to Build a Compliant B2B Outreach Stack"
   },
   {
@@ -1573,7 +1573,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 3, item 60",
    "physical_file_path": "site/guides/email-marketing-roi-and-deliverability/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Measure Email Marketing ROI and Deliverability Together"
   },
   {
@@ -1595,7 +1595,7 @@
    "target_word_range": "1500-2200",
    "source_doc_reference": "Section 10, Cluster 4, item 61",
    "physical_file_path": "site/best/crm-software-for-small-business/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best CRM Software for Small Businesses"
   },
   {
@@ -1617,7 +1617,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 62",
    "physical_file_path": "site/best/crm-for-marketing-agencies/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best CRM Software for Marketing Agencies and Client Accounts"
   },
   {
@@ -1639,7 +1639,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 63",
    "physical_file_path": "site/best/crm-for-b2b-saas/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best CRM for B2B SaaS Sales Teams"
   },
   {
@@ -1661,7 +1661,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 64",
    "physical_file_path": "site/best/b2b-lead-generation-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Lead Generation Software for B2B Companies"
   },
   {
@@ -1683,7 +1683,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 65",
    "physical_file_path": "site/best/b2b-contact-database-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best B2B Contact Databases and Sales Intelligence Tools"
   },
   {
@@ -1705,7 +1705,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 66",
    "physical_file_path": "site/best/lead-enrichment-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Lead Enrichment Software for B2B Revenue Teams"
   },
   {
@@ -1727,7 +1727,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 67",
    "physical_file_path": "site/best/lead-scoring-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Lead Scoring Software for Small Revenue Teams"
   },
   {
@@ -1749,7 +1749,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 68",
    "physical_file_path": "site/best/sales-prospecting-tools-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Sales Prospecting Tools for Agencies"
   },
   {
@@ -1771,7 +1771,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 69",
    "physical_file_path": "site/best/linkedin-sales-prospecting-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best LinkedIn Sales Prospecting Tools for B2B Teams"
   },
   {
@@ -1793,7 +1793,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 70",
    "physical_file_path": "site/best/lead-routing-and-scheduling-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Appointment Scheduling and Lead Routing Software"
   },
   {
@@ -1837,7 +1837,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 4, item 72",
    "physical_file_path": "site/alternatives/pipedrive/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Pipedrive Alternatives for Small Sales Teams"
   },
   {
@@ -1859,7 +1859,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 4, item 73",
    "physical_file_path": "site/alternatives/apollo/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Apollo.io Alternatives for B2B Prospecting Teams"
   },
   {
@@ -1881,7 +1881,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 4, item 74",
    "physical_file_path": "site/alternatives/zoominfo/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "ZoomInfo Alternatives for SMB Sales Teams"
   },
   {
@@ -1903,7 +1903,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 4, item 75",
    "physical_file_path": "site/compare/clay-vs-apollo/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Clay vs Apollo: Data Enrichment and Prospecting Workflows"
   },
   {
@@ -1925,7 +1925,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 76",
    "physical_file_path": "site/best/free-crm-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Free CRM Software for Startups: Limits Before You Commit"
   },
   {
@@ -1947,7 +1947,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 4, item 77",
    "physical_file_path": "site/pricing/crm/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "CRM Pricing Explained: Seats, Onboarding, Add-Ons, and Admin Costs"
   },
   {
@@ -1969,7 +1969,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 4, item 78",
    "physical_file_path": "site/guides/choose-crm-for-marketing-agency/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Choose a CRM for a Marketing Agency"
   },
   {
@@ -1991,7 +1991,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 4, item 79",
    "physical_file_path": "site/guides/b2b-lead-generation-stack/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a B2B Lead Generation Stack from Data to Meeting"
   },
   {
@@ -2013,7 +2013,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 4, item 80",
    "physical_file_path": "site/guides/lead-scoring-vs-lead-enrichment/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Lead Scoring vs Lead Enrichment: What They Do and When to Use Both"
   },
   {
@@ -2035,7 +2035,7 @@
    "target_word_range": "1500-2200",
    "source_doc_reference": "Section 10, Cluster 5, item 81",
    "physical_file_path": "site/best/marketing-automation-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Marketing Automation Software for Small Teams"
   },
   {
@@ -2057,7 +2057,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 82",
    "physical_file_path": "site/best/workflow-automation-tools-for-marketing-agencies/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Workflow Automation Tools for Marketing Agencies"
   },
   {
@@ -2079,7 +2079,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 83",
    "physical_file_path": "site/best/no-code-automation-platforms/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best No-Code Automation Platforms for Marketing Operations"
   },
   {
@@ -2101,7 +2101,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 84",
    "physical_file_path": "site/best/marketing-analytics-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Marketing Analytics Software for Performance Teams"
   },
   {
@@ -2123,7 +2123,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 85",
    "physical_file_path": "site/best/privacy-friendly-web-analytics-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Web Analytics Tools for Privacy-Conscious Businesses"
   },
   {
@@ -2167,7 +2167,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 87",
    "physical_file_path": "site/best/ab-testing-software/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best A/B Testing Software for SaaS and Ecommerce"
   },
   {
@@ -2189,7 +2189,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 88",
    "physical_file_path": "site/best/heatmap-session-replay-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Heatmap and Session Replay Tools for Conversion Research"
   },
   {
@@ -2211,7 +2211,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 89",
    "physical_file_path": "site/best/social-media-management-tools-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Social Media Management Software for Agencies"
   },
   {
@@ -2233,7 +2233,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 90",
    "physical_file_path": "site/best/social-media-analytics-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Social Media Analytics Tools for Multi-Brand Teams"
   },
   {
@@ -2255,7 +2255,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 5, item 91",
    "physical_file_path": "site/compare/zapier-vs-make-vs-n8n/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Zapier vs Make vs n8n: Workflow Automation Compared"
   },
   {
@@ -2277,7 +2277,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 5, item 92",
    "physical_file_path": "site/alternatives/ga4/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "GA4 Alternatives and Complementary Analytics Tools"
   },
   {
@@ -2299,7 +2299,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 5, item 93",
    "physical_file_path": "site/alternatives/hotjar/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Hotjar Alternatives: Heatmaps, Session Replay, and Product Analytics"
   },
   {
@@ -2321,7 +2321,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 5, item 94",
    "physical_file_path": "site/alternatives/hootsuite/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Hootsuite Alternatives for Agencies and Growing Brands"
   },
   {
@@ -2343,7 +2343,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "Section 10, Cluster 5, item 95",
    "physical_file_path": "site/compare/activecampaign-vs-hubspot/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "ActiveCampaign vs HubSpot: CRM and Marketing Automation Fit"
   },
   {
@@ -2365,7 +2365,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 96",
    "physical_file_path": "site/best/free-marketing-automation-tools/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Free Marketing Automation Tools: Real Limits and Upgrade Triggers"
   },
   {
@@ -2387,7 +2387,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "Section 10, Cluster 5, item 97",
    "physical_file_path": "site/pricing/marketing-automation/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Marketing Automation Pricing: Contacts, Tasks, Seats, and Add-Ons"
   },
   {
@@ -2409,7 +2409,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 5, item 98",
    "physical_file_path": "site/guides/marketing-stack-audit/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Audit Your Marketing Stack and Remove Duplicate Subscriptions"
   },
   {
@@ -2431,7 +2431,7 @@
    "target_word_range": "1500-2200",
    "source_doc_reference": "Section 10, Cluster 5, item 99",
    "physical_file_path": "site/guides/b2b-growth-stack/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a Full-Funnel Growth Stack for a Small B2B Team"
   },
   {
@@ -2453,7 +2453,7 @@
    "target_word_range": "1000-1500",
    "source_doc_reference": "Section 10, Cluster 5, item 100",
    "physical_file_path": "site/guides/marketing-attribution-tools-for-small-business/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Marketing Attribution for Small Teams: Compare Tools Without False Certainty"
   },
   {
@@ -2475,7 +2475,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 2",
    "physical_file_path": "site/best/content-marketing-platforms-for-b2b-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Marketing Platforms for B2B Teams"
   },
   {
@@ -2497,7 +2497,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 3",
    "physical_file_path": "site/best/editorial-calendar-software-for-multi-author-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Editorial Calendar Software for Multi-Author Teams"
   },
   {
@@ -2519,7 +2519,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 4",
    "physical_file_path": "site/best/content-workflow-software-for-marketing-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Workflow Software for Marketing Agencies"
   },
   {
@@ -2541,7 +2541,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 5",
    "physical_file_path": "site/best/cms-platforms-for-growing-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best CMS Platforms for Growing Marketing Teams"
   },
   {
@@ -2563,7 +2563,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 6",
    "physical_file_path": "site/best/headless-cms-platforms-for-omnichannel-content/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Headless CMS Platforms for Omnichannel Content"
   },
   {
@@ -2585,7 +2585,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 7",
    "physical_file_path": "site/compare/wordpress-vs-webflow-for-marketing-led-websites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "WordPress vs Webflow for Marketing-Led Websites"
   },
   {
@@ -2607,7 +2607,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 8",
    "physical_file_path": "site/best/digital-asset-management-software-for-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Digital Asset Management Software for Marketing Teams"
   },
   {
@@ -2629,7 +2629,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 9",
    "physical_file_path": "site/best/brand-asset-management-platforms-for-distributed-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Brand Asset Management Platforms for Distributed Teams"
   },
   {
@@ -2651,7 +2651,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 10",
    "physical_file_path": "site/best/content-approval-software-for-marketing-and-creative-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Approval Software for Marketing and Creative Teams"
   },
   {
@@ -2673,7 +2673,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 11",
    "physical_file_path": "site/best/content-brief-and-assignment-management-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Brief and Assignment Management Tools"
   },
   {
@@ -2695,7 +2695,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 12",
    "physical_file_path": "site/best/content-inventory-and-audit-software-for-large-sites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Inventory and Audit Software for Large Sites"
   },
   {
@@ -2717,7 +2717,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 13",
    "physical_file_path": "site/best/content-localization-and-translation-management-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Localization and Translation Management Software"
   },
   {
@@ -2739,7 +2739,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 14",
    "physical_file_path": "site/compare/translation-management-system-vs-localization-platform/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Translation Management System vs Localization Platform"
   },
   {
@@ -2761,7 +2761,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 15",
    "physical_file_path": "site/best/content-distribution-and-syndication-platforms-for-b2b/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Distribution and Syndication Platforms for B2B"
   },
   {
@@ -2783,7 +2783,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 16",
    "physical_file_path": "site/best/corporate-blog-publishing-platforms-for-b2b-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Corporate Blog Publishing Platforms for B2B Brands"
   },
   {
@@ -2805,7 +2805,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 17",
    "physical_file_path": "site/best/knowledge-base-software-for-marketing-operations/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Knowledge Base Software for Marketing Operations"
   },
   {
@@ -2827,7 +2827,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 18",
    "physical_file_path": "site/best/content-governance-tools-for-distributed-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Governance Tools for Distributed Marketing Teams"
   },
   {
@@ -2849,7 +2849,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 19",
    "physical_file_path": "site/best/digital-content-rights-and-usage-management-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Digital Content Rights and Usage Management Tools"
   },
   {
@@ -2871,7 +2871,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 20",
    "physical_file_path": "site/best/content-repurposing-workflow-platforms-for-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Content Repurposing Workflow Platforms for Marketing Teams"
   },
   {
@@ -2893,7 +2893,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 21",
    "physical_file_path": "site/guides/how-to-build-a-content-operations-system-for-a-small-marketing-team/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a Content Operations System for a Small Marketing Team"
   },
   {
@@ -2915,7 +2915,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 22",
    "physical_file_path": "site/best/ppc-management-software-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best PPC Management Software for Agencies"
   },
   {
@@ -2937,7 +2937,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 23",
    "physical_file_path": "site/best/google-ads-management-tools-for-multi-account-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Google Ads Management Tools for Multi-Account Teams"
   },
   {
@@ -2959,7 +2959,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 24",
    "physical_file_path": "site/best/paid-social-advertising-management-platforms/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Paid Social Advertising Management Platforms"
   },
   {
@@ -2981,7 +2981,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 25",
    "physical_file_path": "site/best/cross-channel-paid-media-reporting-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Cross-Channel Paid Media Reporting Tools"
   },
   {
@@ -3003,7 +3003,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 26",
    "physical_file_path": "site/best/ad-creative-management-platforms-for-performance-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ad Creative Management Platforms for Performance Teams"
   },
   {
@@ -3025,7 +3025,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 27",
    "physical_file_path": "site/best/ad-intelligence-tools-for-competitor-research/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ad Intelligence Tools for Competitor Research"
   },
   {
@@ -3047,7 +3047,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 28",
    "physical_file_path": "site/best/competitor-ad-research-tools-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Competitor Ad Research Tools for Agencies"
   },
   {
@@ -3069,7 +3069,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 29",
    "physical_file_path": "site/best/ppc-bid-management-and-automation-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best PPC Bid Management and Automation Software"
   },
   {
@@ -3091,7 +3091,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 30",
    "physical_file_path": "site/best/ppc-budget-pacing-and-spend-forecasting-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best PPC Budget Pacing and Spend Forecasting Tools"
   },
   {
@@ -3113,7 +3113,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 31",
    "physical_file_path": "site/best/ad-fraud-detection-software-for-digital-advertisers/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ad Fraud Detection Software for Digital Advertisers"
   },
   {
@@ -3135,7 +3135,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 32",
    "physical_file_path": "site/best/call-tracking-software-for-paid-acquisition-campaigns/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Call Tracking Software for Paid Acquisition Campaigns"
   },
   {
@@ -3157,7 +3157,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 33",
    "physical_file_path": "site/best/landing-page-builders-for-paid-acquisition-campaigns/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Landing Page Builders for Paid Acquisition Campaigns"
   },
   {
@@ -3179,7 +3179,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 34",
    "physical_file_path": "site/best/ad-compliance-and-creative-approval-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ad Compliance and Creative Approval Software"
   },
   {
@@ -3201,7 +3201,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 35",
    "physical_file_path": "site/best/utm-governance-and-campaign-naming-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best UTM Governance and Campaign Naming Tools"
   },
   {
@@ -3223,7 +3223,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 36",
    "physical_file_path": "site/compare/google-ads-editor-vs-third-party-ppc-management-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Google Ads Editor vs Third-Party PPC Management Tools"
   },
   {
@@ -3245,7 +3245,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 37",
    "physical_file_path": "site/best/meta-ads-reporting-tools-for-ecommerce-and-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Meta Ads Reporting Tools for Ecommerce and Agencies"
   },
   {
@@ -3267,7 +3267,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 38",
    "physical_file_path": "site/best/linkedin-ads-management-and-reporting-tools-for-b2b/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best LinkedIn Ads Management and Reporting Tools for B2B"
   },
   {
@@ -3289,7 +3289,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 39",
    "physical_file_path": "site/best/ppc-audit-tools-for-finding-wasted-ad-spend/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best PPC Audit Tools for Finding Wasted Ad Spend"
   },
   {
@@ -3311,7 +3311,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 40",
    "physical_file_path": "site/guides/how-to-build-a-paid-media-measurement-plan-before-launch/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a Paid Media Measurement Plan Before Launch"
   },
   {
@@ -3333,7 +3333,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 41",
    "physical_file_path": "site/guides/how-to-run-a-monthly-paid-media-account-review-for-clients/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Run a Monthly Paid Media Account Review for Clients"
   },
   {
@@ -3355,7 +3355,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 42",
    "physical_file_path": "site/best/ecommerce-platforms-for-growing-direct-to-consumer-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ecommerce Platforms for Growing Direct-to-Consumer Brands"
   },
   {
@@ -3377,7 +3377,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 43",
    "physical_file_path": "site/best/shopify-apps-for-improving-store-conversion/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Shopify Apps for Improving Store Conversion"
   },
   {
@@ -3399,7 +3399,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 44",
    "physical_file_path": "site/best/ecommerce-personalization-software-for-product-discovery/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ecommerce Personalization Software for Product Discovery"
   },
   {
@@ -3421,7 +3421,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 45",
    "physical_file_path": "site/best/product-recommendation-engines-for-online-stores/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Recommendation Engines for Online Stores"
   },
   {
@@ -3443,7 +3443,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 46",
    "physical_file_path": "site/best/product-feed-management-software-for-ecommerce/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Feed Management Software for Ecommerce"
   },
   {
@@ -3465,7 +3465,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 47",
    "physical_file_path": "site/best/marketplace-management-software-for-multi-channel-sellers/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Marketplace Management Software for Multi-Channel Sellers"
   },
   {
@@ -3487,7 +3487,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 48",
    "physical_file_path": "site/best/ecommerce-customer-data-platforms-for-retention-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ecommerce Customer Data Platforms for Retention Teams"
   },
   {
@@ -3509,7 +3509,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 49",
    "physical_file_path": "site/best/sms-marketing-software-for-ecommerce-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best SMS Marketing Software for Ecommerce Brands"
   },
   {
@@ -3531,7 +3531,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 50",
    "physical_file_path": "site/best/ecommerce-loyalty-and-rewards-platforms/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ecommerce Loyalty and Rewards Platforms"
   },
   {
@@ -3553,7 +3553,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 51",
    "physical_file_path": "site/best/referral-marketing-software-for-online-stores/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Referral Marketing Software for Online Stores"
   },
   {
@@ -3575,7 +3575,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 52",
    "physical_file_path": "site/best/subscription-commerce-software-for-recurring-revenue-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Subscription Commerce Software for Recurring-Revenue Brands"
   },
   {
@@ -3597,7 +3597,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 53",
    "physical_file_path": "site/best/returns-and-exchanges-software-for-ecommerce-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Returns and Exchanges Software for Ecommerce Teams"
   },
   {
@@ -3619,7 +3619,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 54",
    "physical_file_path": "site/best/product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Reviews and User-Generated Content Platforms for Ecommerce"
   },
   {
@@ -3641,7 +3641,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 55",
    "physical_file_path": "site/best/onsite-search-software-for-ecommerce-catalogs/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Onsite Search Software for Ecommerce Catalogs"
   },
   {
@@ -3663,7 +3663,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 56",
    "physical_file_path": "site/best/abandoned-cart-recovery-platforms-for-ecommerce/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Abandoned Cart Recovery Platforms for Ecommerce"
   },
   {
@@ -3685,7 +3685,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 57",
    "physical_file_path": "site/best/checkout-optimization-software-for-online-stores/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Checkout Optimization Software for Online Stores"
   },
   {
@@ -3707,7 +3707,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 58",
    "physical_file_path": "site/best/order-management-software-for-growing-ecommerce-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Order Management Software for Growing Ecommerce Brands"
   },
   {
@@ -3729,7 +3729,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 59",
    "physical_file_path": "site/best/ecommerce-merchandising-analytics-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Ecommerce Merchandising Analytics Tools"
   },
   {
@@ -3751,7 +3751,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 60",
    "physical_file_path": "site/alternatives/shopify-alternatives-for-brands-requiring-more-store-control/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Shopify Alternatives for Brands Requiring More Store Control"
   },
   {
@@ -3773,7 +3773,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 61",
    "physical_file_path": "site/guides/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build an Ecommerce Growth Stack Without App Overload"
   },
   {
@@ -3795,7 +3795,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 62",
    "physical_file_path": "site/best/customer-success-platforms-for-b2b-saas-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Success Platforms for B2B SaaS Teams"
   },
   {
@@ -3817,7 +3817,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 63",
    "physical_file_path": "site/best/customer-onboarding-software-for-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Onboarding Software for SaaS Companies"
   },
   {
@@ -3839,7 +3839,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 64",
    "physical_file_path": "site/best/customer-education-platforms-for-saas-and-b2b-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Education Platforms for SaaS and B2B Companies"
   },
   {
@@ -3861,7 +3861,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 65",
    "physical_file_path": "site/best/in-app-messaging-platforms-for-saas-product-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best In-App Messaging Platforms for SaaS Product Teams"
   },
   {
@@ -3883,7 +3883,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 66",
    "physical_file_path": "site/best/customer-feedback-management-software-for-b2b-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Feedback Management Software for B2B Teams"
   },
   {
@@ -3905,7 +3905,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 67",
    "physical_file_path": "site/best/nps-software-for-customer-experience-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best NPS Software for Customer Experience Teams"
   },
   {
@@ -3927,7 +3927,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 68",
    "physical_file_path": "site/best/help-desk-software-for-growing-b2b-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Help Desk Software for Growing B2B SaaS Companies"
   },
   {
@@ -3949,7 +3949,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 69",
    "physical_file_path": "site/best/live-chat-software-for-lead-generation-and-customer-support/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Live Chat Software for Lead Generation and Customer Support"
   },
   {
@@ -3971,7 +3971,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 70",
    "physical_file_path": "site/best/ai-customer-support-platforms-for-small-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best AI Customer Support Platforms for Small Teams"
   },
   {
@@ -3993,7 +3993,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 71",
    "physical_file_path": "site/best/shared-inbox-software-for-customer-facing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Shared Inbox Software for Customer-Facing Teams"
   },
   {
@@ -4015,7 +4015,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 72",
    "physical_file_path": "site/best/chatbot-platforms-for-customer-support-workflows/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Chatbot Platforms for Customer Support Workflows"
   },
   {
@@ -4037,7 +4037,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 73",
    "physical_file_path": "site/best/customer-knowledge-base-and-self-service-portal-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Knowledge Base and Self-Service Portal Software"
   },
   {
@@ -4059,7 +4059,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 74",
    "physical_file_path": "site/best/churn-prediction-software-for-subscription-businesses/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Churn Prediction Software for Subscription Businesses"
   },
   {
@@ -4081,7 +4081,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 75",
    "physical_file_path": "site/best/subscription-analytics-software-for-retention-and-revenue-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Subscription Analytics Software for Retention and Revenue Teams"
   },
   {
@@ -4103,7 +4103,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 76",
    "physical_file_path": "site/best/customer-health-scoring-software-for-account-management/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Health Scoring Software for Account Management"
   },
   {
@@ -4125,7 +4125,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 77",
    "physical_file_path": "site/best/customer-community-platforms-for-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Community Platforms for SaaS Companies"
   },
   {
@@ -4147,7 +4147,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 78",
    "physical_file_path": "site/best/voice-of-customer-software-for-product-and-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Voice of Customer Software for Product and Marketing Teams"
   },
   {
@@ -4169,7 +4169,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 79",
    "physical_file_path": "site/best/customer-journey-analytics-platforms-for-lifecycle-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Journey Analytics Platforms for Lifecycle Teams"
   },
   {
@@ -4191,7 +4191,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 80",
    "physical_file_path": "site/compare/customer-support-suite-vs-shared-inbox-which-does-a-small-team-need/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Customer Support Suite vs Shared Inbox: Which Does a Small Team Need?"
   },
   {
@@ -4213,7 +4213,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 81",
    "physical_file_path": "site/guides/how-to-build-a-customer-retention-tech-stack-for-a-small-saas-team/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a Customer Retention Tech Stack for a Small SaaS Team"
   },
   {
@@ -4235,7 +4235,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 82",
    "physical_file_path": "site/best/affiliate-marketing-platforms-for-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Affiliate Marketing Platforms for SaaS Companies"
   },
   {
@@ -4257,7 +4257,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 83",
    "physical_file_path": "site/best/affiliate-tracking-software-for-ecommerce-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Affiliate Tracking Software for Ecommerce Brands"
   },
   {
@@ -4279,7 +4279,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 84",
    "physical_file_path": "site/best/partner-relationship-management-software-for-b2b-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Partner Relationship Management Software for B2B Companies"
   },
   {
@@ -4301,7 +4301,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 85",
    "physical_file_path": "site/best/influencer-marketing-platforms-for-b2b-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Influencer Marketing Platforms for B2B Brands"
   },
   {
@@ -4323,7 +4323,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 86",
    "physical_file_path": "site/best/influencer-marketing-platforms-for-ecommerce-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Influencer Marketing Platforms for Ecommerce Brands"
   },
   {
@@ -4345,7 +4345,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 87",
    "physical_file_path": "site/best/creator-marketplace-platforms-for-brand-partnerships/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Creator Marketplace Platforms for Brand Partnerships"
   },
   {
@@ -4367,7 +4367,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 88",
    "physical_file_path": "site/best/ugc-creator-platforms-for-performance-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best UGC Creator Platforms for Performance Marketing Teams"
   },
   {
@@ -4389,7 +4389,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 89",
    "physical_file_path": "site/best/social-listening-platforms-for-brand-and-competitor-research/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Social Listening Platforms for Brand and Competitor Research"
   },
   {
@@ -4411,7 +4411,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 90",
    "physical_file_path": "site/best/brand-monitoring-tools-for-online-mentions-and-reputation/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Brand Monitoring Tools for Online Mentions and Reputation"
   },
   {
@@ -4433,7 +4433,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 91",
    "physical_file_path": "site/best/referral-program-software-for-b2b-saas-products/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Referral Program Software for B2B SaaS Products"
   },
   {
@@ -4455,7 +4455,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 92",
    "physical_file_path": "site/best/brand-ambassador-program-software-for-growing-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Brand Ambassador Program Software for Growing Companies"
   },
   {
@@ -4477,7 +4477,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 93",
    "physical_file_path": "site/best/influencer-outreach-tools-for-agency-campaigns/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Influencer Outreach Tools for Agency Campaigns"
   },
   {
@@ -4499,7 +4499,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 94",
    "physical_file_path": "site/best/affiliate-fraud-prevention-tools-for-partner-programs/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Affiliate Fraud Prevention Tools for Partner Programs"
   },
   {
@@ -4521,7 +4521,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 95",
    "physical_file_path": "site/best/partner-sales-enablement-platforms-for-channel-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Partner Sales Enablement Platforms for Channel Teams"
   },
   {
@@ -4543,7 +4543,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 96",
    "physical_file_path": "site/best/partnership-attribution-software-for-multi-touch-partner-sales/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Partnership Attribution Software for Multi-Touch Partner Sales"
   },
   {
@@ -4565,7 +4565,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 97",
    "physical_file_path": "site/best/coupon-and-discount-attribution-tools-for-affiliate-programs/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Coupon and Discount Attribution Tools for Affiliate Programs"
   },
   {
@@ -4587,7 +4587,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 98",
    "physical_file_path": "site/best/creator-link-in-bio-and-campaign-landing-page-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Creator Link-in-Bio and Campaign Landing Page Tools"
   },
   {
@@ -4609,7 +4609,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 99",
    "physical_file_path": "site/compare/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Affiliate Network vs Affiliate Software: Which Model Fits a SaaS Brand?"
   },
   {
@@ -4631,7 +4631,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 100",
    "physical_file_path": "site/guides/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a B2B Partner and Affiliate Program from Scratch"
   },
   {
@@ -4653,7 +4653,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 101",
    "physical_file_path": "site/guides/how-to-evaluate-influencer-campaign-roi-without-vanity-metrics/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Evaluate Influencer Campaign ROI Without Vanity Metrics"
   },
   {
@@ -4675,7 +4675,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 102",
    "physical_file_path": "site/best/website-builders-for-b2b-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Builders for B2B Marketing Teams"
   },
   {
@@ -4697,7 +4697,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 103",
    "physical_file_path": "site/best/composable-cms-platforms-for-enterprise-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Composable CMS Platforms for Enterprise Marketing Teams"
   },
   {
@@ -4719,7 +4719,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 104",
    "physical_file_path": "site/best/website-personalization-software-for-b2b-lead-generation/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Personalization Software for B2B Lead Generation"
   },
   {
@@ -4741,7 +4741,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 105",
    "physical_file_path": "site/best/landing-page-builders-for-saas-demo-and-trial-funnels/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Landing Page Builders for SaaS Demo and Trial Funnels"
   },
   {
@@ -4763,7 +4763,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 106",
    "physical_file_path": "site/best/landing-page-builders-for-marketing-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Landing Page Builders for Marketing Agencies"
   },
   {
@@ -4785,7 +4785,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 107",
    "physical_file_path": "site/best/no-code-website-platforms-for-marketing-operations/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best No-Code Website Platforms for Marketing Operations"
   },
   {
@@ -4807,7 +4807,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 108",
    "physical_file_path": "site/alternatives/webflow-alternatives-for-content-heavy-business-websites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Webflow Alternatives for Content-Heavy Business Websites"
   },
   {
@@ -4829,7 +4829,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 109",
    "physical_file_path": "site/alternatives/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "WordPress Alternatives for Marketing Teams Managing Many Sites"
   },
   {
@@ -4851,7 +4851,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 110",
    "physical_file_path": "site/best/form-builders-for-b2b-lead-capture-and-qualification/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Form Builders for B2B Lead Capture and Qualification"
   },
   {
@@ -4873,7 +4873,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 111",
    "physical_file_path": "site/best/conversational-form-platforms-for-higher-intent-lead-capture/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Conversational Form Platforms for Higher-Intent Lead Capture"
   },
   {
@@ -4895,7 +4895,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 112",
    "physical_file_path": "site/best/pop-up-and-onsite-engagement-software-for-lead-capture/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Pop-Up and Onsite Engagement Software for Lead Capture"
   },
   {
@@ -4917,7 +4917,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 113",
    "physical_file_path": "site/best/consent-and-preference-management-platforms-for-marketing-sites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Consent and Preference Management Platforms for Marketing Sites"
   },
   {
@@ -4939,7 +4939,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 114",
    "physical_file_path": "site/best/website-accessibility-monitoring-tools-for-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Accessibility Monitoring Tools for Marketing Teams"
   },
   {
@@ -4961,7 +4961,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 115",
    "physical_file_path": "site/best/website-performance-monitoring-tools-for-marketing-sites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Performance Monitoring Tools for Marketing Sites"
   },
   {
@@ -4983,7 +4983,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 116",
    "physical_file_path": "site/best/website-change-monitoring-tools-for-seo-and-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Change Monitoring Tools for SEO and Marketing Teams"
   },
   {
@@ -5005,7 +5005,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 117",
    "physical_file_path": "site/best/cdn-and-web-security-platforms-for-marketing-websites/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best CDN and Web Security Platforms for Marketing Websites"
   },
   {
@@ -5027,7 +5027,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 118",
    "physical_file_path": "site/best/website-migration-tools-for-seo-safe-platform-changes/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Migration Tools for SEO-Safe Platform Changes"
   },
   {
@@ -5049,7 +5049,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 119",
    "physical_file_path": "site/best/website-experimentation-platforms-for-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Experimentation Platforms for Marketing Teams"
   },
   {
@@ -5071,7 +5071,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 120",
    "physical_file_path": "site/compare/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Website Builder vs CMS: How a Growing Marketing Team Should Choose"
   },
   {
@@ -5093,7 +5093,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 121",
    "physical_file_path": "site/guides/how-to-plan-a-website-replatforming-project-without-losing-search-equity/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Plan a Website Replatforming Project Without Losing Search Equity"
   },
   {
@@ -5115,7 +5115,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 122",
    "physical_file_path": "site/best/customer-data-platforms-for-b2b-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Data Platforms for B2B Marketing Teams"
   },
   {
@@ -5137,7 +5137,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 123",
    "physical_file_path": "site/best/b2b-customer-data-platforms-for-account-based-marketing/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best B2B Customer Data Platforms for Account-Based Marketing"
   },
   {
@@ -5159,7 +5159,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 124",
    "physical_file_path": "site/best/reverse-etl-tools-for-activating-warehouse-data/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Reverse ETL Tools for Activating Warehouse Data"
   },
   {
@@ -5181,7 +5181,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 125",
    "physical_file_path": "site/best/marketing-data-integration-platforms-for-lean-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Marketing Data Integration Platforms for Lean Teams"
   },
   {
@@ -5203,7 +5203,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 126",
    "physical_file_path": "site/best/data-warehouse-platforms-for-small-marketing-analytics-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Data Warehouse Platforms for Small Marketing Analytics Teams"
   },
   {
@@ -5225,7 +5225,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 127",
    "physical_file_path": "site/best/no-code-etl-tools-for-marketing-operations/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best No-Code ETL Tools for Marketing Operations"
   },
   {
@@ -5247,7 +5247,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 128",
    "physical_file_path": "site/best/crm-data-quality-and-deduplication-tools/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best CRM Data Quality and Deduplication Tools"
   },
   {
@@ -5269,7 +5269,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 129",
    "physical_file_path": "site/best/b2b-intent-data-platforms-for-account-prioritization/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best B2B Intent Data Platforms for Account Prioritization"
   },
   {
@@ -5291,7 +5291,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 130",
    "physical_file_path": "site/best/website-visitor-identification-tools-for-b2b-sales-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Website Visitor Identification Tools for B2B Sales Teams"
   },
   {
@@ -5313,7 +5313,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 131",
    "physical_file_path": "site/best/account-based-marketing-platforms-for-small-b2b-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Account-Based Marketing Platforms for Small B2B Teams"
   },
   {
@@ -5335,7 +5335,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 132",
    "physical_file_path": "site/best/account-based-advertising-platforms-for-b2b-marketers/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Account-Based Advertising Platforms for B2B Marketers"
   },
   {
@@ -5357,7 +5357,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 133",
    "physical_file_path": "site/best/sales-forecasting-software-for-growing-b2b-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Sales Forecasting Software for Growing B2B Teams"
   },
   {
@@ -5379,7 +5379,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 134",
    "physical_file_path": "site/best/revenue-intelligence-platforms-for-b2b-sales-leadership/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Revenue Intelligence Platforms for B2B Sales Leadership"
   },
   {
@@ -5401,7 +5401,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 135",
    "physical_file_path": "site/best/conversation-intelligence-software-for-sales-coaching/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Conversation Intelligence Software for Sales Coaching"
   },
   {
@@ -5423,7 +5423,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 136",
    "physical_file_path": "site/best/sales-compensation-management-software-for-b2b-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Sales Compensation Management Software for B2B Teams"
   },
   {
@@ -5445,7 +5445,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 137",
    "physical_file_path": "site/best/sales-enablement-software-for-growing-b2b-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Sales Enablement Software for Growing B2B Companies"
   },
   {
@@ -5467,7 +5467,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 138",
    "physical_file_path": "site/best/digital-sales-room-software-for-complex-b2b-deals/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Digital Sales Room Software for Complex B2B Deals"
   },
   {
@@ -5489,7 +5489,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 139",
    "physical_file_path": "site/best/revenue-operations-analytics-tools-for-cross-functional-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Revenue Operations Analytics Tools for Cross-Functional Teams"
   },
   {
@@ -5511,7 +5511,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 140",
    "physical_file_path": "site/compare/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "CRM Data Enrichment vs Intent Data: What Should a B2B Team Buy?"
   },
   {
@@ -5533,7 +5533,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 141",
    "physical_file_path": "site/guides/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Design a Revenue Operations Data Model for a Small B2B Team"
   },
   {
@@ -5555,7 +5555,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 142",
    "physical_file_path": "site/best/webinar-platforms-for-b2b-lead-generation/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Webinar Platforms for B2B Lead Generation"
   },
   {
@@ -5577,7 +5577,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 143",
    "physical_file_path": "site/best/virtual-event-platforms-for-b2b-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Virtual Event Platforms for B2B Marketing Teams"
   },
   {
@@ -5599,7 +5599,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 144",
    "physical_file_path": "site/best/event-registration-software-for-business-conferences/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Event Registration Software for Business Conferences"
   },
   {
@@ -5621,7 +5621,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 145",
    "physical_file_path": "site/best/hybrid-event-management-platforms-for-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Hybrid Event Management Platforms for Marketing Teams"
   },
   {
@@ -5643,7 +5643,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 146",
    "physical_file_path": "site/best/webinar-automation-tools-for-always-on-lead-generation/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Webinar Automation Tools for Always-On Lead Generation"
   },
   {
@@ -5665,7 +5665,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 147",
    "physical_file_path": "site/best/webinar-analytics-tools-for-engagement-and-pipeline-reporting/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Webinar Analytics Tools for Engagement and Pipeline Reporting"
   },
   {
@@ -5687,7 +5687,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 148",
    "physical_file_path": "site/best/webinar-engagement-tools-for-polls-q-a-and-audience-interaction/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Webinar Engagement Tools for Polls, Q&A, and Audience Interaction"
   },
   {
@@ -5709,7 +5709,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 149",
    "physical_file_path": "site/best/on-demand-webinar-hosting-platforms-for-b2b-content/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best On-Demand Webinar Hosting Platforms for B2B Content"
   },
   {
@@ -5731,7 +5731,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 150",
    "physical_file_path": "site/best/podcast-hosting-platforms-for-b2b-brands/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Podcast Hosting Platforms for B2B Brands"
   },
   {
@@ -5753,7 +5753,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 151",
    "physical_file_path": "site/best/podcast-production-software-for-marketing-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Podcast Production Software for Marketing Teams"
   },
   {
@@ -5775,7 +5775,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 152",
    "physical_file_path": "site/best/podcast-guest-booking-platforms-for-b2b-founders/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Podcast Guest Booking Platforms for B2B Founders"
   },
   {
@@ -5797,7 +5797,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 153",
    "physical_file_path": "site/best/online-course-platforms-for-b2b-lead-generation/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Online Course Platforms for B2B Lead Generation"
   },
   {
@@ -5819,7 +5819,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 154",
    "physical_file_path": "site/best/online-community-platforms-for-b2b-brands-and-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Online Community Platforms for B2B Brands and SaaS Companies"
   },
   {
@@ -5841,7 +5841,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 155",
    "physical_file_path": "site/alternatives/best-customer-community-alternatives-for-growing-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Community Alternatives for Growing SaaS Companies"
   },
   {
@@ -5863,7 +5863,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 156",
    "physical_file_path": "site/best/community-analytics-tools-for-measuring-member-engagement/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Community Analytics Tools for Measuring Member Engagement"
   },
   {
@@ -5885,7 +5885,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 157",
    "physical_file_path": "site/best/event-networking-software-for-business-conferences/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Event Networking Software for Business Conferences"
   },
   {
@@ -5907,7 +5907,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 158",
    "physical_file_path": "site/best/event-lead-capture-apps-for-exhibitors-and-sponsors/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Event Lead Capture Apps for Exhibitors and Sponsors"
   },
   {
@@ -5929,7 +5929,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 159",
    "physical_file_path": "site/best/event-marketing-automation-integrations-for-b2b-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Event Marketing Automation Integrations for B2B Teams"
   },
   {
@@ -5951,7 +5951,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 160",
    "physical_file_path": "site/guides/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a Webinar Funnel from Registration to Sales Follow-Up"
   },
   {
@@ -5973,7 +5973,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 161",
    "physical_file_path": "site/compare/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Content Syndication vs Webinars: Which B2B Demand Channel Fits?"
   },
   {
@@ -5995,7 +5995,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 162",
    "physical_file_path": "site/best/project-management-software-for-digital-marketing-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Project Management Software for Digital Marketing Agencies"
   },
   {
@@ -6017,7 +6017,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 163",
    "physical_file_path": "site/best/client-portal-software-for-marketing-and-seo-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Client Portal Software for Marketing and SEO Agencies"
   },
   {
@@ -6039,7 +6039,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 164",
    "physical_file_path": "site/best/time-tracking-software-for-marketing-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Time Tracking Software for Marketing Agencies"
   },
   {
@@ -6061,7 +6061,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 165",
    "physical_file_path": "site/best/resource-planning-software-for-creative-and-marketing-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Resource Planning Software for Creative and Marketing Agencies"
   },
   {
@@ -6083,7 +6083,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 166",
    "physical_file_path": "site/best/creative-proofing-software-for-agency-client-approvals/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Creative Proofing Software for Agency Client Approvals"
   },
   {
@@ -6105,7 +6105,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 167",
    "physical_file_path": "site/best/proposal-software-for-marketing-and-seo-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Proposal Software for Marketing and SEO Agencies"
   },
   {
@@ -6127,7 +6127,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 168",
    "physical_file_path": "site/best/e-signature-software-for-agency-contracts-and-sows/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best E-Signature Software for Agency Contracts and SOWs"
   },
   {
@@ -6149,7 +6149,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 169",
    "physical_file_path": "site/best/invoicing-software-for-freelancers-and-digital-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Invoicing Software for Freelancers and Digital Agencies"
   },
   {
@@ -6171,7 +6171,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 170",
    "physical_file_path": "site/best/retainer-billing-software-for-service-businesses/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Retainer Billing Software for Service Businesses"
   },
   {
@@ -6193,7 +6193,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 171",
    "physical_file_path": "site/best/agency-profitability-reporting-tools-for-owners/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Agency Profitability Reporting Tools for Owners"
   },
   {
@@ -6215,7 +6215,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 172",
    "physical_file_path": "site/best/white-label-reporting-platforms-for-digital-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best White-Label Reporting Platforms for Digital Agencies"
   },
   {
@@ -6237,7 +6237,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 173",
    "physical_file_path": "site/best/client-onboarding-software-for-digital-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Client Onboarding Software for Digital Agencies"
   },
   {
@@ -6259,7 +6259,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 174",
    "physical_file_path": "site/best/client-communication-platforms-for-agency-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Client Communication Platforms for Agency Teams"
   },
   {
@@ -6281,7 +6281,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 175",
    "physical_file_path": "site/best/task-management-software-for-marketing-operations-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Task Management Software for Marketing Operations Teams"
   },
   {
@@ -6303,7 +6303,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 176",
    "physical_file_path": "site/best/sop-and-process-documentation-software-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best SOP and Process Documentation Software for Agencies"
   },
   {
@@ -6325,7 +6325,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 177",
    "physical_file_path": "site/best/password-management-tools-for-digital-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Password Management Tools for Digital Agencies"
   },
   {
@@ -6347,7 +6347,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 178",
    "physical_file_path": "site/best/capacity-planning-software-for-small-service-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Capacity Planning Software for Small Service Agencies"
   },
   {
@@ -6369,7 +6369,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 179",
    "physical_file_path": "site/best/freelancer-and-contractor-management-platforms-for-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Freelancer and Contractor Management Platforms for Agencies"
   },
   {
@@ -6391,7 +6391,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 180",
    "physical_file_path": "site/best/rfp-and-proposal-management-software-for-b2b-agencies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best RFP and Proposal Management Software for B2B Agencies"
   },
   {
@@ -6413,7 +6413,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 181",
    "physical_file_path": "site/guides/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build an Agency Operating Stack That Protects Delivery Margins"
   },
   {
@@ -6435,7 +6435,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 182",
    "physical_file_path": "site/best/product-analytics-software-for-saas-startups/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Analytics Software for SaaS Startups"
   },
   {
@@ -6457,7 +6457,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 183",
    "physical_file_path": "site/best/feature-flag-management-platforms-for-saas-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Feature Flag Management Platforms for SaaS Teams"
   },
   {
@@ -6479,7 +6479,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 184",
    "physical_file_path": "site/best/product-experimentation-platforms-for-growth-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Experimentation Platforms for Growth Teams"
   },
   {
@@ -6501,7 +6501,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 185",
    "physical_file_path": "site/best/digital-adoption-platforms-for-complex-saas-products/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Digital Adoption Platforms for Complex SaaS Products"
   },
   {
@@ -6523,7 +6523,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 186",
    "physical_file_path": "site/best/product-tour-and-user-onboarding-software-for-saas/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Tour and User Onboarding Software for SaaS"
   },
   {
@@ -6545,7 +6545,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 187",
    "physical_file_path": "site/best/user-behavior-analytics-tools-for-product-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best User Behavior Analytics Tools for Product Teams"
   },
   {
@@ -6567,7 +6567,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 188",
    "physical_file_path": "site/best/product-event-tracking-and-governance-platforms/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Event Tracking and Governance Platforms"
   },
   {
@@ -6589,7 +6589,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 189",
    "physical_file_path": "site/best/customer-journey-analytics-tools-for-saas-product-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Customer Journey Analytics Tools for SaaS Product Teams"
   },
   {
@@ -6611,7 +6611,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 190",
    "physical_file_path": "site/best/experiment-tracking-and-repository-platforms-for-product-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Experiment Tracking and Repository Platforms for Product Teams"
   },
   {
@@ -6633,7 +6633,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 191",
    "physical_file_path": "site/best/feature-adoption-analytics-tools-for-saas-companies/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Feature Adoption Analytics Tools for SaaS Companies"
   },
   {
@@ -6655,7 +6655,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 192",
    "physical_file_path": "site/best/product-feedback-and-roadmap-voting-platforms/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Feedback and Roadmap Voting Platforms"
   },
   {
@@ -6677,7 +6677,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 193",
    "physical_file_path": "site/best/product-roadmap-prioritization-software-for-saas-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Product Roadmap Prioritization Software for SaaS Teams"
   },
   {
@@ -6699,7 +6699,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 194",
    "physical_file_path": "site/best/beta-testing-and-product-feedback-collection-software/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Beta Testing and Product Feedback Collection Software"
   },
   {
@@ -6721,7 +6721,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 195",
    "physical_file_path": "site/best/user-research-interview-platforms-for-product-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best User Research Interview Platforms for Product Teams"
   },
   {
@@ -6743,7 +6743,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 196",
    "physical_file_path": "site/best/usability-testing-software-for-saas-product-teams/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Usability Testing Software for SaaS Product Teams"
   },
   {
@@ -6765,7 +6765,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 197",
    "physical_file_path": "site/best/remote-user-testing-platforms-for-website-and-product-research/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Remote User Testing Platforms for Website and Product Research"
   },
   {
@@ -6787,7 +6787,7 @@
    "target_word_range": "1400-2000",
    "source_doc_reference": "additional-200-articles.csv row 198",
    "physical_file_path": "site/best/session-replay-tools-for-saas-product-analytics/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Best Session Replay Tools for SaaS Product Analytics"
   },
   {
@@ -6809,7 +6809,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 199",
    "physical_file_path": "site/pricing/product-analytics-pricing-explained-events-users-and-data-retention/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Product Analytics Pricing Explained: Events, Users, and Data Retention"
   },
   {
@@ -6831,7 +6831,7 @@
    "target_word_range": "1400-2100",
    "source_doc_reference": "additional-200-articles.csv row 200",
    "physical_file_path": "site/compare/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "Feature Flags vs A/B Testing: How Product Teams Should Use Both"
   },
   {
@@ -6853,7 +6853,7 @@
    "target_word_range": "1200-1800",
    "source_doc_reference": "additional-200-articles.csv row 201",
    "physical_file_path": "site/guides/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.html",
-   "status": "planned",
+   "status": "QA-passed",
    "final_h1": "How to Build a Product-Led Growth Stack for an Early-Stage SaaS"
   }
  ]

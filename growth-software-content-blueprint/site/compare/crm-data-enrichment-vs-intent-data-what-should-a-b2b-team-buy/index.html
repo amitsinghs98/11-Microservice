@@ -142,9 +142,9 @@
           <tbody>
             <tr><th scope="row">Output</th><td>Fields on contacts and accounts</td><td>Signals or scores on accounts, sometimes topics</td></tr>
             <tr><th scope="row">Question answered</th><td>Who is this?</td><td>Who might be in market now?</td></tr>
-            <tr><th scope="row">Timing</th><td>On record creation and periodic refresh</td><td>Continuous; signals decay within weeks</td></tr>
+            <tr><th scope="row">Timing</th><td>On record creation and periodic refresh</td><td>Continuous; signals lose relevance quickly</td></tr>
             <tr><th scope="row">Confidence</th><td>Checkable against the record</td><td>Probabilistic; hard to verify per account</td></tr>
-            <tr><th scope="row">Pricing model</th><td>Credits, records or seats</td><td>Usually annual licences or platform packages</td></tr>
+            <tr><th scope="row">Pricing model</th><td>Varies by vendor; confirm how usage is counted</td><td>Varies by vendor; confirm term and what is bundled</td></tr>
             <tr><th scope="row">Privacy exposure</th><td>Personal data on named contacts</td><td>Behavioural data, often account-level</td></tr>
             <tr><th scope="row">Main workflow</th><td>Routing, segmentation, personalization</td><td>Prioritization, ad targeting, timely outreach</td></tr>
             <tr><th scope="row">Success measure</th><td>Fill rate and accuracy</td><td>Change in meetings or pipeline vs a holdout</td></tr>
@@ -160,7 +160,7 @@
       </section>
       <section id="timing-and-confidence">
         <h2>How quickly does each go stale, and how much can you trust it?</h2>
-        <p>Enrichment decays slowly but steadily as people change jobs and companies grow, so refresh it on a schedule and on key events such as a new opportunity. Intent decays fast, often within weeks, and its confidence depends on how activity was matched to an account.</p>
+        <p>Enrichment decays slowly but steadily as people change jobs and companies grow, so refresh it on a schedule and on key events such as a new opportunity. Intent loses relevance much faster, and its confidence depends on how activity was matched to an account.</p>
         <p>Enrichment confidence is testable: sample a few dozen records, check titles and company details against public sources, and compute your own accuracy rate. Intent confidence is harder: ask the vendor how signals are attributed, how long a surge stays active, and whether a confidence level is exposed. Treat intent scores as bands rather than precise numbers.</p>
       </section>
       <section id="first-hand-experience">
@@ -170,8 +170,8 @@
       </section>
       <section id="cost">
         <h2>What does each really cost?</h2>
-        <p>Enrichment is usually priced by credits, records or seats, so cost scales with how many records you enrich and how often you refresh. Intent data is more often sold on annual licences or as part of a platform, so the cost is largely fixed whether or not you act on the signals.</p>
-        <p>Vendor pricing pages couldn't be fetched for this draft, so we give no figures. Model your own cost with stated assumptions (calculation from stated assumptions, hypothetical): multiply new records per month by the credits each enrichment uses, add a quarterly refresh of active accounts, and compare that to an intent licence divided by the number of accounts your team can realistically work each quarter. If the intent cost per actionable account is high and your reps are already at capacity, intent won't pay back yet.</p>
+        <p>Enrichment cost grows with how many records you enrich and how often you refresh them, so model it on volume. Intent cost is best judged per account your team can actually act on, because a signal nobody works is pure overhead.</p>
+        <p>Vendor pricing pages couldn't be fetched for this draft, so we give no figures. Model your own cost with stated assumptions (calculation from stated assumptions, hypothetical): multiply new records per month by the units your provider charges for each enrichment, add a quarterly refresh of active accounts, and compare that to the total intent cost divided by the number of accounts your team can realistically work each quarter. If the intent cost per actionable account is high and your reps are already at capacity, intent won't pay back yet.</p>
         <p>Hidden costs apply to both: CRM storage, an integration or orchestration tool, and the time someone spends maintaining field mappings and signal routing. For the integration side, see <a href="/best/marketing-data-integration-platforms-for-lean-teams/">marketing data integration platforms for lean teams</a>.</p>
       </section>
       <section id="privacy">

@@ -138,14 +138,14 @@
       </section>
       <section id="how-do-they-compare">
         <h2>How do these CRM data quality tools compare?</h2>
-        <p>CRM compatibility is the first filter: four of the eight work only with Salesforce. After that, the gap is between dedupe-only tools and broader cleanup or orchestration platforms.</p>
+        <p>CRM compatibility is the first filter: several of the eight work only with Salesforce. After that, the gap is between dedupe-only tools and broader cleanup or orchestration platforms.</p>
         <table>
           <caption>CRM data quality and deduplication tools: fit, pricing model and main limit (figures not re-checked for this draft)</caption>
           <thead>
             <tr><th scope="col">Tool</th><th scope="col">Best for</th><th scope="col">Pricing model</th><th scope="col">Material limit</th><th scope="col">Official link</th></tr>
           </thead>
           <tbody>
-            <tr><th scope="row">Salesforce duplicate management</th><td>Preventing new duplicates</td><td>Included in Salesforce</td><td>Weak bulk cleanup</td><td><a href="https://help.salesforce.com/s/articleView?id=sf.managing_duplicates_overview.htm&type=5" target="_blank" rel="noopener noreferrer">See official site</a></td></tr>
+            <tr><th scope="row">Salesforce duplicate management</th><td>Preventing new duplicates</td><td>Built into Salesforce</td><td>Weak bulk cleanup</td><td><a href="https://help.salesforce.com/s/articleView?id=sf.managing_duplicates_overview.htm&type=5" target="_blank" rel="noopener noreferrer">See official site</a></td></tr>
             <tr><th scope="row">HubSpot data quality tools</th><td>HubSpot-only cleanup</td><td>Included / tied to paid tiers</td><td>Limited merge control</td><td><a href="https://www.hubspot.com/pricing" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
             <tr><th scope="row">Insycle</th><td>Rules-based bulk fixes</td><td>Tiered subscription</td><td>Rules need care</td><td><a href="https://www.insycle.com/pricing/" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
             <tr><th scope="row">Dedupely</th><td>Simple multi-CRM dedupe</td><td>Tiered by records</td><td>Dedupe only</td><td><a href="https://dedupely.com/pricing" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
@@ -159,9 +159,9 @@
       <section id="tool-reviews">
         <h2>What are each tool's strengths and limitations?</h2>
         <p>The order follows our criteria for safe cleanup: control over match and merge logic first, then audit and rollback, then breadth of fixes beyond duplicates. Payment plays no part in inclusion or order.</p>
-        <h3>Salesforce duplicate management: the free first line of defence in Salesforce</h3>
+        <h3>Salesforce duplicate management: the built-in first line of defence in Salesforce</h3>
         <p>Salesforce includes <a href="https://help.salesforce.com/s/articleView?id=sf.managing_duplicates_overview.htm&type=5" target="_blank" rel="noopener noreferrer">matching rules and duplicate rules</a> that can alert or block users when they create a record that looks like an existing one, plus duplicate record sets you can review and merge. It's the place to stop new duplicates before you buy anything.</p>
-        <p><strong>Pricing model:</strong> included with Salesforce editions; no separate tool to license.</p>
+        <p><strong>Pricing model:</strong> built into Salesforce rather than sold as a separate tool; check edition availability in Salesforce&rsquo;s help documentation.</p>
         <p><strong>Strengths:</strong> Prevents duplicates at entry, which is cheaper than cleaning them later.</p>
         <p><strong>Limitations:</strong> Native merging is record-by-record or small batches, cross-object matching (lead to contact) is limited, and there's no bulk normalisation of messy fields.</p>
         <p><strong>Skip it if:</strong> you have thousands of existing duplicates to clear; pair it with a bulk tool.</p>
@@ -196,14 +196,14 @@
         <p><strong>Limitations:</strong> Salesforce only, and less broad than DemandTools for non-duplicate fixes.</p>
         <p><strong>Skip it if:</strong> you need multi-CRM support.</p>
         <h3>Plauti Duplicate Check: Salesforce orgs that want dedupe native inside the platform</h3>
-        <p><a href="https://plauti.com/duplicate-check" target="_blank" rel="noopener noreferrer">Plauti Duplicate Check</a> is a Salesforce-native app, so data doesn't leave Salesforce, covering prevention at entry, batch dedupe and merge rules.</p>
+        <p><a href="https://plauti.com/duplicate-check" target="_blank" rel="noopener noreferrer">Plauti Duplicate Check</a> is positioned by Plauti as a Salesforce-native app that processes data inside Salesforce, covering prevention at entry, batch dedupe and merge rules.</p>
         <p><strong>Pricing model:</strong> per-user or edition-based licensing via the vendor; check the official page.</p>
         <p><strong>Strengths:</strong> Native processing helps where security review blocks external tools.</p>
-        <p><strong>Limitations:</strong> Salesforce only; a free edition, if offered, will be limited.</p>
+        <p><strong>Limitations:</strong> Salesforce only; confirm which features each edition or licence includes.</p>
         <p><strong>Skip it if:</strong> you are not on Salesforce.</p>
         <h3>Openprise: RevOps teams orchestrating data quality across many systems</h3>
         <p><a href="https://www.openprisetech.com/" target="_blank" rel="noopener noreferrer">Openprise</a> is a no-code data orchestration platform for cleansing, normalising, deduplicating, enriching and routing records across CRM and marketing automation.</p>
-        <p><strong>Pricing model:</strong> quote-based; expect an annual contract and implementation work.</p>
+        <p><strong>Pricing model:</strong> quote-based; ask about contract length and implementation effort.</p>
         <p><strong>Strengths:</strong> Handles complex rules across systems, including account hierarchy and lead-to-account logic.</p>
         <p><strong>Limitations:</strong> More platform than a small team needs, and setup takes real time.</p>
         <p><strong>Skip it if:</strong> you have one CRM and fewer than tens of thousands of records.</p>

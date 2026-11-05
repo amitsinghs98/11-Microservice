@@ -118,7 +118,7 @@
         <p>Start with Google's own call conversion tracking if you only advertise on Google Ads and just need to count calls, then move to a dedicated platform once you need number pools across several channels, recordings, routing or CRM sync. Among dedicated tools, the deciding factors are call volume, whether you run a contact center, and whether you need to send call outcomes back to the ad platforms.</p>
         <ul>
           <li><strong>Local-service businesses and the agencies that run their ads:</strong> CallRail.</li>
-          <li><strong>Agencies that want calls, forms and chats in one lead log with quote values:</strong> WhatConverts.</li>
+          <li><strong>Agencies that want calls, forms and other leads in one lead log:</strong> WhatConverts.</li>
           <li><strong>Teams that need call tracking plus queues, IVR and agent tools:</strong> CallTrackingMetrics.</li>
           <li><strong>Enterprises with high call volume and conversation analytics needs:</strong> Invoca.</li>
           <li><strong>Pay-per-call publishers and lead buyers routing calls between partners:</strong> Ringba.</li>
@@ -137,7 +137,7 @@
         <h2>How do dynamic number insertion, number pools and offline imports work?</h2>
         <p>Dynamic number insertion (DNI) is a script on your site that swaps your displayed phone number for a tracking number based on how the visitor arrived. A number pool assigns a unique number to each active visitor so a call can be tied to a specific session, keyword and click ID rather than just a channel.</p>
         <p>There are two levels of detail. <strong>Source-level tracking</strong> gives each channel its own number: one for Google Ads, one for Meta, one for the print ad. It's cheap and simple but can't tell you which keyword drove the call. <strong>Session-level tracking</strong> uses a pool of numbers, rotating them among visitors, so each call inherits the visitor's landing page, UTM values and click ID. Pool size has to match your concurrent traffic, or numbers get reused while a previous visitor might still call, which muddies attribution.</p>
-        <p><strong>Offline conversion imports</strong> are the step most teams skip. Once a call is tied to a click ID, the tracking platform (or your CRM) can send that conversion, and later its qualified or sold status, back to Google Ads and other platforms so bidding learns which clicks produce real customers. Google documents both a <a href="https://support.google.com/google-ads/answer/6095883" target="_blank" rel="noopener noreferrer">website call tracking setup using Google forwarding numbers</a> and a route to <a href="https://support.google.com/google-ads/answer/6301373" target="_blank" rel="noopener noreferrer">import call conversions from another system</a>; check the current requirements in your account, because Google has been moving lead imports toward newer APIs.</p>
+        <p><strong>Offline conversion imports</strong> are the step most teams skip. Once a call is tied to a click ID, the tracking platform (or your CRM) can send that conversion, and later its qualified or sold status, back to Google Ads and other platforms so bidding learns which clicks produce real customers. Google documents both a <a href="https://support.google.com/google-ads/answer/6095883" target="_blank" rel="noopener noreferrer">website call tracking setup using Google forwarding numbers</a> and a route to <a href="https://support.google.com/google-ads/answer/6275629" target="_blank" rel="noopener noreferrer">import call conversions from another system</a>; check the current requirements in your account before you build the integration, because import options change.</p>
       </section>
 
       <section id="how-we-chose">
@@ -164,8 +164,8 @@
             <tr>
               <th scope="row">CallRail</th>
               <td>Local services and agencies</td>
-              <td>Tiered plans plus usage; see official pricing</td>
-              <td>Extra numbers and minutes are billed beyond the plan</td>
+              <td>Tiered plans; see official pricing</td>
+              <td>Number and minute allowances versus your pool size</td>
               <td><a href="https://www.callrail.com/pricing" target="_blank" rel="noopener noreferrer">callrail.com</a></td>
             </tr>
             <tr>
@@ -178,28 +178,28 @@
             <tr>
               <th scope="row">CallTrackingMetrics</th>
               <td>Tracking plus contact center</td>
-              <td>Tiered plans plus usage; see official pricing</td>
+              <td>Tiered plans; see official pricing</td>
               <td>More setup than a pure tracking tool</td>
               <td><a href="https://www.calltrackingmetrics.com/pricing/" target="_blank" rel="noopener noreferrer">calltrackingmetrics.com</a></td>
             </tr>
             <tr>
               <th scope="row">Invoca</th>
               <td>Enterprise call volume and analytics</td>
-              <td>Quote-based; sales-led</td>
+              <td>Sales-led; see official site</td>
               <td>Sized for large programs, not small budgets</td>
               <td><a href="https://www.invoca.com/" target="_blank" rel="noopener noreferrer">invoca.com</a></td>
             </tr>
             <tr>
               <th scope="row">Ringba</th>
               <td>Pay-per-call networks and lead buyers</td>
-              <td>Plans plus usage; see official site</td>
+              <td>See official site</td>
               <td>Built for call distribution, not brand marketing teams</td>
               <td><a href="https://www.ringba.com/" target="_blank" rel="noopener noreferrer">ringba.com</a></td>
             </tr>
             <tr>
               <th scope="row">Google Ads call tracking</th>
               <td>Google-only advertisers</td>
-              <td>Included in Google Ads</td>
+              <td>No separate subscription</td>
               <td>Only covers Google Ads traffic</td>
               <td><a href="https://support.google.com/google-ads/answer/6100664" target="_blank" rel="noopener noreferrer">support.google.com</a></td>
             </tr>
@@ -212,34 +212,34 @@
         <p>CallRail and WhatConverts cover most small and mid-sized advertisers, while CallTrackingMetrics, Invoca and Ringba each serve a narrower operating model. The blocks below separate what the vendors document from our editorial assessment.</p>
 
         <h3>CallRail: best for local-service advertisers and their agencies</h3>
-        <p><strong>What it does:</strong> CallRail combines call tracking with DNI, recordings, transcription and lead management, with add-ons for form tracking and conversation analysis. Its <a href="https://www.callrail.com/pricing" target="_blank" rel="noopener noreferrer">pricing page</a> sets out tiered plans and states that extra numbers and minutes are billed on top; check the current tiers there because they vary by country.</p>
-        <p><strong>Strengths:</strong> In our assessment, it's the most common default for agencies serving local businesses, with sub-accounts per client and integrations to the main ad platforms and CRMs.</p>
-        <p><strong>Limitations:</strong> Costs rise with numbers, minutes and AI add-ons, so a large session-level pool can change the bill noticeably. <strong>Skip it if</strong> you need a full contact center with queues and agent scripting.</p>
+        <p><strong>What it does:</strong> CallRail is a call tracking and lead attribution platform built around dynamic number insertion and call recording. Its <a href="https://www.callrail.com/pricing" target="_blank" rel="noopener noreferrer">pricing page</a> sets out the current plans; check there what each includes and how extra numbers and minutes are charged.</p>
+        <p><strong>Strengths:</strong> In our assessment, its focus on number-level attribution for local leads suits agencies serving local businesses; confirm the ad platform and CRM integrations you need on its site.</p>
+        <p><strong>Limitations:</strong> Usage-based costs can grow as you add numbers or minutes, so price a large session-level pool before you commit. <strong>Skip it if</strong> you need a full contact center with queues and agent scripting.</p>
 
         <h3>WhatConverts: best for agencies that report every lead type in one place</h3>
-        <p><strong>What it does:</strong> WhatConverts tracks calls, forms and chats into a single lead record with source, keyword and a quote or sales value you can assign. Plans are tiered; see the <a href="https://www.whatconverts.com/pricing/" target="_blank" rel="noopener noreferrer">official pricing page</a> for current allowances.</p>
+        <p><strong>What it does:</strong> WhatConverts positions itself around a single lead log that brings calls, forms and other lead types together with their marketing source. Plans are tiered; see the <a href="https://www.whatconverts.com/pricing/" target="_blank" rel="noopener noreferrer">official pricing page</a> for current allowances.</p>
         <p><strong>Strengths:</strong> The lead-centric model suits client reporting, because a client can see "leads by campaign" rather than separate call and form reports.</p>
         <p><strong>Limitations:</strong> Routing and agent tooling are lighter than a contact-center platform. <strong>Skip it if</strong> call handling, not attribution, is your bottleneck.</p>
 
         <h3>CallTrackingMetrics: best for teams that also run the phones</h3>
-        <p><strong>What it does:</strong> CallTrackingMetrics pairs attribution with contact-center features such as IVR menus, queues, call scoring and agent tools. Pricing is tiered with usage; check the <a href="https://www.calltrackingmetrics.com/pricing/" target="_blank" rel="noopener noreferrer">CTM pricing page</a>.</p>
+        <p><strong>What it does:</strong> CallTrackingMetrics pairs call attribution with contact-center features such as call routing and agent tools. Check what each plan includes on the <a href="https://www.calltrackingmetrics.com/pricing/" target="_blank" rel="noopener noreferrer">CTM pricing page</a>.</p>
         <p><strong>Strengths:</strong> One system for tracking and answering calls avoids passing data between a tracker and a separate phone system.</p>
         <p><strong>Limitations:</strong> More configuration than a pure tracker, and more than a small advertiser needs. <strong>Skip it if</strong> you just need call counts by campaign.</p>
 
         <h3>Invoca: best for enterprises with high call volume</h3>
-        <p><strong>What it does:</strong> Invoca focuses on conversation intelligence for large brands, analyzing calls to classify outcomes and pushing those signals into ad and analytics platforms. It's sold through <a href="https://www.invoca.com/" target="_blank" rel="noopener noreferrer">sales-led contracts</a>.</p>
-        <p><strong>Strengths:</strong> Suited to regulated or high-volume industries, such as healthcare, insurance and automotive, where call outcomes need classifying at scale.</p>
+        <p><strong>What it does:</strong> Invoca focuses on conversation intelligence for large brands, analyzing calls to classify outcomes and pushing those signals into ad and analytics platforms. Expect a sales-led buying process; see the <a href="https://www.invoca.com/" target="_blank" rel="noopener noreferrer">official site</a>.</p>
+        <p><strong>Strengths:</strong> In our assessment, suited to high-volume programs where call outcomes need classifying at scale.</p>
         <p><strong>Limitations:</strong> Longer procurement and implementation. <strong>Skip it if</strong> you handle a few hundred calls a month; the overhead won't pay back.</p>
 
         <h3>Ringba: best for pay-per-call operations</h3>
-        <p><strong>What it does:</strong> Ringba is built around call routing and distribution between publishers and buyers, with real-time bidding on calls and per-partner reporting, as described on its <a href="https://www.ringba.com/" target="_blank" rel="noopener noreferrer">official site</a>.</p>
+        <p><strong>What it does:</strong> Ringba is built around routing and distributing calls between publishers and buyers; see its <a href="https://www.ringba.com/" target="_blank" rel="noopener noreferrer">official site</a> for current features.</p>
         <p><strong>Strengths:</strong> Strong fit for lead generation businesses that sell or buy calls.</p>
         <p><strong>Limitations:</strong> It's not designed around a single brand's marketing reporting. <strong>Skip it if</strong> you only answer your own calls.</p>
 
         <h3>Google Ads call conversion tracking: best for Google-only advertisers</h3>
-        <p><strong>What it does:</strong> Google can count calls from call assets and, through <a href="https://support.google.com/google-ads/answer/2382961" target="_blank" rel="noopener noreferrer">Google forwarding numbers</a>, calls from your site after an ad click, with a minimum call length you set. It's included with Google Ads.</p>
+        <p><strong>What it does:</strong> Google's <a href="https://support.google.com/google-ads/answer/6100664" target="_blank" rel="noopener noreferrer">phone call conversion tracking</a> can count calls from call assets and calls to a Google forwarding number shown on your site after an ad click. No separate subscription is needed.</p>
         <p><strong>Strengths:</strong> No extra subscription, and conversions feed Smart Bidding directly.</p>
-        <p><strong>Limitations:</strong> It doesn't attribute calls from Microsoft Ads, Meta, organic search or offline media, and it doesn't record calls. <strong>Skip it if</strong> you run more than one paid channel or need call quality data.</p>
+        <p><strong>Limitations:</strong> It doesn't attribute calls from Microsoft Ads, Meta, organic search or offline media, and it isn't a call recording or call-analysis platform. <strong>Skip it if</strong> you run more than one paid channel or need call quality data.</p>
       </section>
 
       <section id="first-hand-experience">

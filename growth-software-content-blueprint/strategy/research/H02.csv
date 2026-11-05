@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+H02,Hub scope and directory descriptions,,editorial-knowledge,2026-11-04,"Category boundaries and one-to-two-sentence summaries of linked articles, drawn from url-manifest.json angles and briefs",Not stated,"Navigation hub: no product prices, plan limits or feature claims made; product facts live on the linked articles with their own sources"
+H02,Product-specific claims,,editorial-knowledge,2026-11-04,None made; products referenced only by category or by linked article title,Not stated,"No vendor fetch required, none attempted"
+H02,General assistants 'usually cheaper per seat',,editorial-knowledge,2026-11-05,Unsourced price comparison removed,Not stated,Fact-check: no pricing page fetched to support it
+H02,'No single product is strong across all three',,editorial-knowledge,2026-11-05,Absolute claim softened to 'tend to be stronger in some areas than others',Not stated,Fact-check: unsourced universal claim removed
+H02,Creative tools metered by credits or render minutes; commercial-use terms vary,,editorial-knowledge,2026-11-05,"General qualitative statement, no vendor named",Needs verification,Fact-check: kept hedged ('typically')
+H02,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

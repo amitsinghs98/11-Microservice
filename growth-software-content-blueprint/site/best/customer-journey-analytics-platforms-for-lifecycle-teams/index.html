@@ -65,7 +65,7 @@
           "name": "Is GA4 enough for customer journey analytics?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "It is a useful free baseline for website and app paths. It does not natively include logged-in product depth, support tickets or billing, so lifecycle teams usually outgrow it."
+            "text": "It is a useful baseline for website and app paths. Its standard reports don't cover support tickets or billing, so lifecycle teams usually need more."
           }
         },
         {
@@ -122,7 +122,7 @@
           <li><strong>Engineering-led teams that want analytics, replay and a warehouse in one product:</strong> PostHog.</li>
           <li><strong>Teams that want retroactive analysis without tracking every event up front:</strong> Heap.</li>
           <li><strong>Identity resolution and routing data into whichever analytics tool you pick:</strong> Twilio Segment.</li>
-          <li><strong>A free baseline for website paths before you buy anything:</strong> Google Analytics 4 path exploration.</li>
+          <li><strong>A website path baseline before you buy anything:</strong> Google Analytics 4 path exploration.</li>
         </ul>
       </section>
 
@@ -142,7 +142,7 @@
 
       <section id="how-do-they-compare">
         <h2>How do the customer journey analytics platforms compare?</h2>
-        <p>Product analytics vendors usually price on tracked events or monthly users with a free tier, while Adobe sells by quote and Segment prices on tracked users or volume. The practical differentiator is how each handles anonymous-to-known identity and account-level grouping.</p>
+        <p>This draft quotes no prices, free tiers or event allowances, because the official pages couldn't be fetched, so confirm each pricing model on the vendor's own page. The practical differentiator is how each handles anonymous-to-known identity and account-level grouping.</p>
         <table>
           <caption>Customer journey analytics software for lifecycle teams (editorial assessment, 4 November 2026)</caption>
           <thead>
@@ -155,41 +155,41 @@
             </tr>
           </thead>
           <tbody>
-            <tr><th scope="row">Adobe Customer Journey Analytics</th><td>Enterprise cross-channel journeys</td><td>Quote-based; see official site</td><td>Assumes Adobe Experience Platform data foundations</td><td><a href="https://business.adobe.com/products/customer-journey-analytics/adobe-customer-journey-analytics.html" target="_blank" rel="noopener noreferrer">adobe.com</a></td></tr>
-            <tr><th scope="row">Amplitude</th><td>Behavioral cohorts and journeys</td><td>Free tier plus usage-based plans; see official pricing</td><td>Billing and support data need to be sent in as events or properties</td><td><a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">amplitude.com</a></td></tr>
-            <tr><th scope="row">Mixpanel</th><td>Fast funnels and retention for lean teams</td><td>Free tier plus event-based plans; see official pricing</td><td>Check group (account) analytics availability by plan</td><td><a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">mixpanel.com</a></td></tr>
-            <tr><th scope="row">PostHog</th><td>Engineering-led all-in-one analytics</td><td>Usage-based with free allowance; see official pricing</td><td>Marketing-channel views are thinner than product views</td><td><a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">posthog.com</a></td></tr>
-            <tr><th scope="row">Heap</th><td>Retroactive analysis with autocapture</td><td>Free tier plus quote-based plans; see official pricing</td><td>Autocaptured events still need naming and governance</td><td><a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">heap.io</a></td></tr>
-            <tr><th scope="row">Twilio Segment</th><td>Identity resolution and data routing</td><td>Free tier plus volume-based plans; see official pricing</td><td>Not an analysis tool on its own</td><td><a href="https://segment.com/pricing/" target="_blank" rel="noopener noreferrer">segment.com</a></td></tr>
-            <tr><th scope="row">Google Analytics 4</th><td>Free website path baseline</td><td>Free standard version</td><td>Web and app only; no native billing or support data</td><td><a href="https://support.google.com/analytics/answer/9317498" target="_blank" rel="noopener noreferrer">support.google.com</a></td></tr>
+            <tr><th scope="row">Adobe Customer Journey Analytics</th><td>Enterprise cross-channel journeys</td><td>See official site</td><td>Assumes Adobe Experience Platform data foundations</td><td><a href="https://business.adobe.com/products/customer-journey-analytics/adobe-customer-journey-analytics.html" target="_blank" rel="noopener noreferrer">adobe.com</a></td></tr>
+            <tr><th scope="row">Amplitude</th><td>Behavioral cohorts and journeys</td><td>See official pricing</td><td>Billing and support data need to be sent in as events or properties</td><td><a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">amplitude.com</a></td></tr>
+            <tr><th scope="row">Mixpanel</th><td>Fast funnels and retention for lean teams</td><td>See official pricing</td><td>Check group (account) analytics availability by plan</td><td><a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">mixpanel.com</a></td></tr>
+            <tr><th scope="row">PostHog</th><td>Engineering-led all-in-one analytics</td><td>See official pricing</td><td>Marketing-channel views are thinner than product views</td><td><a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">posthog.com</a></td></tr>
+            <tr><th scope="row">Heap</th><td>Retroactive analysis with autocapture</td><td>See official pricing</td><td>Autocaptured events still need naming and governance</td><td><a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">heap.io</a></td></tr>
+            <tr><th scope="row">Twilio Segment</th><td>Identity resolution and data routing</td><td>See official pricing</td><td>Not an analysis tool on its own</td><td><a href="https://segment.com/pricing/" target="_blank" rel="noopener noreferrer">segment.com</a></td></tr>
+            <tr><th scope="row">Google Analytics 4</th><td>Website path baseline</td><td>See official documentation</td><td>Billing and support data aren't part of its standard reports</td><td><a href="https://support.google.com/analytics/answer/9317498" target="_blank" rel="noopener noreferrer">support.google.com</a></td></tr>
           </tbody>
         </table>
       </section>
 
       <section id="the-platforms">
         <h2>What does each journey analytics platform do well, and where does it fall short?</h2>
-        <p>Adobe is the only option here built first for cross-channel, person-level journeys; the others are product or web analytics tools that become journey tools when you feed them the right data. That makes data plumbing, not the chart library, the real decision.</p>
+        <p>In our assessment, Adobe is the option here most clearly positioned for cross-channel, person-level journeys; the others are product or web analytics tools that become journey tools when you feed them the right data. That makes data plumbing, not the chart library, the real decision.</p>
 
         <h3>Adobe Customer Journey Analytics: best for enterprise cross-channel journeys</h3>
-        <p>Adobe's product joins datasets such as web, app, call center and CRM records on a person ID, then lets analysts build flows, fallout and cohort reports across them. It is designed to sit on Adobe Experience Platform. Packaging is by quote via the <a href="https://business.adobe.com/products/customer-journey-analytics/adobe-customer-journey-analytics.html" target="_blank" rel="noopener noreferrer">Customer Journey Analytics product page</a>. <strong>Skip it if</strong> you don't have an analytics engineer and an Adobe-aligned stack; the implementation is the project.</p>
+        <p>Adobe positions Customer Journey Analytics around joining datasets from several channels on the same person and analyzing journeys across them, as part of its Experience Platform family. Check packaging on the <a href="https://business.adobe.com/products/customer-journey-analytics/adobe-customer-journey-analytics.html" target="_blank" rel="noopener noreferrer">Customer Journey Analytics product page</a>. <strong>Skip it if</strong> you don't have an analytics engineer and an Adobe-aligned stack; the implementation is the project.</p>
 
         <h3>Amplitude: best for behavioral cohorts across marketing and product</h3>
-        <p>Amplitude offers funnels, retention, journey and path charts and behavioral cohorts that you can sync to marketing tools. Lifecycle teams use it to see which early behaviors predict renewal. The <a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">Amplitude pricing page</a> lists a free tier and paid plans. <strong>Skip it if</strong> nobody will maintain an event taxonomy, because journeys built on inconsistent events mislead.</p>
+        <p>Amplitude is product analytics built around funnels, retention and behavioral cohorts. Lifecycle teams can use that kind of analysis to look for early behaviors linked to renewal. Check current plans on the <a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">Amplitude pricing page</a>. <strong>Skip it if</strong> nobody will maintain an event taxonomy, because journeys built on inconsistent events mislead.</p>
 
         <h3>Mixpanel: best for fast funnels and retention</h3>
-        <p>Mixpanel is quick to adopt for funnels, flows and retention reports, and it supports warehouse connections for teams that keep data in BigQuery or Snowflake. See the <a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">Mixpanel pricing page</a> for current plans. <strong>Skip it if</strong> you need native marketing-channel journeys from ad click to renewal without extra data work.</p>
+        <p>Mixpanel is product analytics centred on funnels and retention reports; if your data lives in a warehouse, confirm which connections it supports. See the <a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">Mixpanel pricing page</a> for current plans. <strong>Skip it if</strong> you need native marketing-channel journeys from ad click to renewal without extra data work.</p>
 
         <h3>PostHog: best for engineering-led teams</h3>
-        <p>PostHog bundles product analytics, session replay, feature flags, experiments and a data warehouse, with usage-based billing and a free allowance on the <a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">PostHog pricing page</a>. It suits teams where engineers own instrumentation. <strong>Skip it if</strong> your lifecycle team needs marketing-friendly reporting without SQL or engineering help.</p>
+        <p>PostHog positions itself as a suite of product tools around analytics for engineering teams; check which products and allowances apply on the <a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">PostHog pricing page</a>. It suits teams where engineers own instrumentation. <strong>Skip it if</strong> your lifecycle team needs marketing-friendly reporting without SQL or engineering help.</p>
 
         <h3>Heap: best for retroactive analysis</h3>
-        <p>Heap, now part of Contentsquare, autocaptures interactions so you can define events after the fact and analyze journeys you didn't plan to track. See the <a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">Heap pricing page</a> for plans. <strong>Skip it if</strong> you expect autocapture to remove the need for governance; you still have to name and curate events.</p>
+        <p>Heap is positioned around automatically capturing interactions so you can define events after the fact and analyze journeys you didn't plan to track. See the <a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">Heap pricing page</a> for plans. <strong>Skip it if</strong> you expect autocapture to remove the need for governance; you still have to name and curate events.</p>
 
         <h3>Twilio Segment: best for identity resolution and routing</h3>
-        <p>Segment collects events from web, app and server sources, resolves identities into profiles and sends them to analytics, email and ad tools. For lifecycle teams it is often the missing layer that joins billing and support events to product behavior. Plans are on the <a href="https://segment.com/pricing/" target="_blank" rel="noopener noreferrer">Segment pricing page</a>. <strong>Skip it if</strong> your data team already runs a warehouse-first stack; compare it against the options in our <a href="/best/customer-data-platforms-for-b2b-marketing-teams/">B2B customer data platform roundup</a>.</p>
+        <p>Segment is a customer data platform: it collects events, builds customer profiles and routes data to other tools. For lifecycle teams that kind of layer is often what joins billing and support events to product behavior. Check plans on the <a href="https://segment.com/pricing/" target="_blank" rel="noopener noreferrer">Segment pricing page</a>. <strong>Skip it if</strong> your data team already runs a warehouse-first stack; compare it against the options in our <a href="/best/customer-data-platforms-for-b2b-marketing-teams/">B2B customer data platform roundup</a>.</p>
 
-        <h3>Google Analytics 4: best as a free baseline</h3>
-        <p>GA4's <a href="https://support.google.com/analytics/answer/9317498" target="_blank" rel="noopener noreferrer">path exploration report</a> shows the sequences of pages and events users take on your website and app. It is a sensible place to start before buying anything. <strong>Skip it if</strong> you need logged-in product behavior, billing or support data in the same journey.</p>
+        <h3>Google Analytics 4: best as a starting baseline</h3>
+        <p>GA4 includes a <a href="https://support.google.com/analytics/answer/9317498" target="_blank" rel="noopener noreferrer">path exploration report</a> for looking at the sequences users follow on your site or app. It is a sensible place to start before buying anything. <strong>Skip it if</strong> you need logged-in product behavior, billing or support data in the same journey.</p>
       </section>
 
       <section id="first-hand-experience">
@@ -213,7 +213,7 @@
 
       <section id="buyer-mistakes">
         <h2>What mistakes do lifecycle teams make with journey analytics?</h2>
-        <p>The commonest mistake is buying journey visualization before agreeing on identity rules and a tracking plan. The second is ignoring account-level grouping in B2B, which hides that one champion's activity keeps a whole account alive.</p>
+        <p>A common mistake is buying journey visualization before agreeing on identity rules and a tracking plan. The second is ignoring account-level grouping in B2B, which hides that one champion's activity keeps a whole account alive.</p>
         <ul>
           <li><strong>Mapping the ideal journey:</strong> design reports around the journeys customers actually take, which you discover from path data.</li>
           <li><strong>Leaving billing out:</strong> without renewal and cancellation events, you can't connect behavior to revenue.</li>
@@ -232,7 +232,7 @@
         <h3>How do we include billing data in customer journeys?</h3>
         <p>Send subscription events such as trial converted, plan changed, renewed and cancelled from your billing system into your analytics tool or warehouse, keyed to the same account ID your product uses.</p>
         <h3>Is GA4 enough for customer journey analytics?</h3>
-        <p>It is a useful free baseline for website and app paths. It does not natively include logged-in product depth, support tickets or billing, so lifecycle teams usually outgrow it.</p>
+        <p>It is a useful baseline for website and app paths. Its standard reports don't cover support tickets or billing, so lifecycle teams usually need more.</p>
         <h3>How should B2B teams handle accounts with many users?</h3>
         <p>Use account-level grouping so you can analyze journeys by company as well as by person. Check whether your tool includes group analytics on the plan you are buying.</p>
       </section>

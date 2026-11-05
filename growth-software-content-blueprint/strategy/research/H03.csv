@@ -1,0 +1,6 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+H03,Hub scope and directory descriptions,,editorial-knowledge,2026-11-04,"Category boundaries and one-to-two-sentence summaries of linked articles, drawn from url-manifest.json angles and briefs",Not stated,"Navigation hub: no product prices, plan limits or feature claims made; product facts live on the linked articles with their own sources"
+H03,Product-specific claims,,editorial-knowledge,2026-11-04,None made; products referenced only by category or by linked article title,Not stated,"No vendor fetch required, none attempted"
+H03,'Most common reason a budget goes wrong',,editorial-knowledge,2026-11-05,Unsourced superlative removed; now 'an easy way for a budget to go wrong',Not stated,Fact-check: removed
+H03,"Billing models by email tool type (contacts / seats, mailboxes / message volume)",,editorial-knowledge,2026-11-05,General qualitative statement hedged with 'usually' and 'tend to'; no vendor or figure,Needs verification,Fact-check: kept qualitative
+H03,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

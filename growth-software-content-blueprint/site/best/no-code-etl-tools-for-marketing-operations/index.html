@@ -122,7 +122,7 @@
           <li><strong>Engineering-minded team on a budget:</strong> Airbyte, self-hosted or cloud.</li>
           <li><strong>Spreadsheet and Looker Studio reporting:</strong> Supermetrics or Coupler.io.</li>
           <li><strong>Normalising campaign names across ad platforms:</strong> Funnel.</li>
-          <li><strong>Cheap ad-to-warehouse bridge with attribution views:</strong> Windsor.ai.</li>
+          <li><strong>Ad-to-warehouse bridge with attribution views:</strong> Windsor.ai.</li>
           <li><strong>An app nobody else supports:</strong> Portable.</li>
         </ul>
       </section>
@@ -138,7 +138,7 @@
       </section>
       <section id="how-do-they-compare">
         <h2>How do the main no-code ETL tools compare?</h2>
-        <p>The split that matters most is warehouse-first ELT (Fivetran, Airbyte, Hevo, Portable) versus marketing-reporting connectors (Supermetrics, Coupler.io, Windsor.ai, Funnel). The first group gives you lineage and governed models; the second gets a dashboard live in an afternoon.</p>
+        <p>The split that matters most is warehouse-first ELT (Fivetran, Airbyte, Hevo, Portable) versus marketing-reporting connectors (Supermetrics, Coupler.io, Windsor.ai, Funnel). The first group gives you lineage and governed models; the second gets a marketing dashboard running with far less setup.</p>
         <table>
           <caption>No-code ETL tools for marketing operations: fit, pricing model and main limit (official links; figures not re-checked for this draft)</caption>
           <thead>
@@ -150,7 +150,7 @@
             <tr><th scope="row">Supermetrics</th><td>Spreadsheet and Looker Studio reporting</td><td>Tiered by destination and sources</td><td>Light transformation</td><td><a href="https://supermetrics.com/pricing" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
             <tr><th scope="row">Funnel</th><td>Normalising multi-channel ad data</td><td>Tiered by sources and usage</td><td>Heavier commitment</td><td><a href="https://funnel.io/pricing" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
             <tr><th scope="row">Coupler.io</th><td>Scheduled spreadsheet refreshes</td><td>Tiered subscription</td><td>Spreadsheet scale limits</td><td><a href="https://www.coupler.io/pricing" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
-            <tr><th scope="row">Windsor.ai</th><td>Low-cost connectors plus attribution views</td><td>Tiered by sources</td><td>Limited transform control</td><td><a href="https://windsor.ai/pricing/" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
+            <tr><th scope="row">Windsor.ai</th><td>Connectors plus attribution views</td><td>Tiered by sources</td><td>Limited transform control</td><td><a href="https://windsor.ai/pricing/" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
             <tr><th scope="row">Hevo Data</th><td>No-code transforms into a warehouse</td><td>Usage-based tiers</td><td>Thin marketing metric models</td><td><a href="https://hevodata.com/pricing/" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
             <tr><th scope="row">Portable</th><td>Niche SaaS connectors</td><td>Per connector</td><td>Not a full stack alone</td><td><a href="https://portable.io/pricing" target="_blank" rel="noopener noreferrer">See official pricing</a></td></tr>
           </tbody>
@@ -172,27 +172,27 @@
         <p><strong>Limitations:</strong> Community connectors vary in maturity, so test the specific ad and CRM sources you rely on. Self-hosting moves retries, upgrades and monitoring onto you.</p>
         <p><strong>Skip it if:</strong> nobody on the team is comfortable reading logs or managing a deployment.</p>
         <h3>Supermetrics: marketers who report from spreadsheets and Looker Studio</h3>
-        <p>Supermetrics pulls data from ad, social, analytics and SEO platforms into Google Sheets, Excel, Looker Studio and, on higher plans, data warehouses. It is built around marketing sources rather than general databases.</p>
+        <p>Supermetrics pulls data from ad, social, analytics and SEO platforms into Google Sheets, Excel, Looker Studio and data warehouses, with destinations packaged separately. It is built around marketing sources rather than general databases.</p>
         <p><strong>Pricing model:</strong> tiered by destination and by the number of data sources and accounts. Compare tiers on <a href="https://supermetrics.com/pricing" target="_blank" rel="noopener noreferrer">Supermetrics&rsquo; pricing page</a> before assuming one plan covers every client account.</p>
         <p><strong>Strengths:</strong> Fast time to first report for paid media and social data.</p>
         <p><strong>Limitations:</strong> Transformation is light; blending ad spend with CRM pipeline usually still happens in the spreadsheet or BI layer, where logic is hard to audit.</p>
         <p><strong>Skip it if:</strong> your main source is a CRM or product database rather than ad platforms.</p>
         <h3>Funnel: teams that want marketing data cleaned before it reaches BI</h3>
         <p>Funnel collects marketing and sales data, stores it, and lets you map and normalise fields, such as channel names and campaign taxonomies, before exporting to a warehouse, BI tool or spreadsheet.</p>
-        <p><strong>Pricing model:</strong> tiered plans, with cost tied to connected data sources and usage. Funnel&rsquo;s <a href="https://funnel.io/pricing" target="_blank" rel="noopener noreferrer">pricing page</a> describes the current tiers.</p>
+        <p><strong>Pricing model:</strong> tiered plans; Funnel&rsquo;s <a href="https://funnel.io/pricing" target="_blank" rel="noopener noreferrer">pricing page</a> describes the current tiers and what drives cost.</p>
         <p><strong>Strengths:</strong> Puts the ad-spend normalisation step in a tool built for it, rather than in fragile spreadsheet formulas.</p>
         <p><strong>Limitations:</strong> A heavier commitment than a connector add-on, and CRM transformations are less deep than in a warehouse-plus-SQL setup.</p>
         <p><strong>Skip it if:</strong> you only report on one or two ad platforms.</p>
         <h3>Coupler.io: lean teams automating spreadsheet and dashboard refreshes</h3>
-        <p>Coupler.io imports data from marketing, sales and finance apps into Google Sheets, Excel, BigQuery and dashboard tools on a schedule, with simple transformations such as filters, column selection and joins along the way.</p>
-        <p><strong>Pricing model:</strong> subscription tiers based on accounts, data volume and refresh frequency; check <a href="https://www.coupler.io/pricing" target="_blank" rel="noopener noreferrer">Coupler.io&rsquo;s pricing</a> for the current limits.</p>
-        <p><strong>Strengths:</strong> Cheap to try and easy for a non-engineer to own.</p>
+        <p>Coupler.io imports data from marketing, sales and finance apps into Google Sheets, Excel, BigQuery and dashboard tools on a schedule, with simple transformations such as filtering and column selection along the way.</p>
+        <p><strong>Pricing model:</strong> subscription tiers; check <a href="https://www.coupler.io/pricing" target="_blank" rel="noopener noreferrer">Coupler.io&rsquo;s pricing</a> for what each tier limits, such as refresh frequency.</p>
+        <p><strong>Strengths:</strong> Quick to set up and easy for a non-engineer to own.</p>
         <p><strong>Limitations:</strong> Spreadsheet destinations hit row and performance limits, and error visibility is thinner than in warehouse-first tools.</p>
         <p><strong>Skip it if:</strong> you already have a warehouse and need lineage across many models.</p>
         <h3>Windsor.ai: small teams that want connectors plus basic attribution</h3>
         <p>Windsor.ai connects ad, analytics and CRM sources to spreadsheets, BI tools and warehouses, and adds attribution-style reporting on top.</p>
         <p><strong>Pricing model:</strong> tiered by data sources and accounts. See <a href="https://windsor.ai/pricing/" target="_blank" rel="noopener noreferrer">Windsor.ai&rsquo;s pricing page</a>.</p>
-        <p><strong>Strengths:</strong> A low-cost bridge from ad platforms to a warehouse.</p>
+        <p><strong>Strengths:</strong> A simple bridge from ad platforms to a warehouse.</p>
         <p><strong>Limitations:</strong> Attribution outputs are models, not truth, and transformation control is limited compared with SQL in a warehouse.</p>
         <p><strong>Skip it if:</strong> you need governed, documented transformations for finance-grade reporting.</p>
         <h3>Hevo Data: ops teams that want in-pipeline transforms without code</h3>

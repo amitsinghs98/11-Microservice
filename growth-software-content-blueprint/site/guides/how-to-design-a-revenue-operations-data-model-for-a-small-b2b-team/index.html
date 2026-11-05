@@ -104,7 +104,7 @@
           <li><a href="#lifecycle-stages">How should lifecycle and pipeline stages be defined?</a></li>
           <li><a href="#steps">What are the steps to build the model?</a></li>
           <li><a href="#template">What does a required-fields template look like?</a></li>
-          <li><a href="#worked-example">What does this look like for a real small team?</a></li>
+          <li><a href="#worked-example">What does this look like for a typical small team?</a></li>
           <li><a href="#first-hand-experience">Is a formal data model overkill for a team this size?</a></li>
           <li><a href="#what-goes-wrong">What usually goes wrong?</a></li>
           <li><a href="#which-tools-help">Which tools help at each step?</a></li>
@@ -115,7 +115,7 @@
 
       <section id="what-is-the-problem">
         <h2>Why does a small team need a data model at all?</h2>
-        <p>Because without one, every report answers a slightly different question and nobody can say which number is right. A data model is simply the agreed list of things you track, how they relate and which fields must be filled, and a small team can write it in an afternoon.</p>
+        <p>Because without one, every report answers a slightly different question and nobody can say which number is right. A data model is simply the agreed list of things you track, how they relate and which fields must be filled, and a small team can write a first version without a data team.</p>
         <p>The cost of skipping it shows up later: duplicate accounts that split pipeline, leads with no source, opportunities with no product, and renewals tracked in a spreadsheet nobody else can see. Fixing those after a few years of data is far harder than preventing them now. You don't need a data team; you need a document, an owner and a few validation rules.</p>
       </section>
       <section id="which-entities">
@@ -169,8 +169,8 @@
         </table>
       </section>
       <section id="worked-example">
-        <h2>What does this look like for a real small team?</h2>
-        <p>Here is a hypothetical example: a 15-person B2B software company with two account executives, one marketer and one customer success manager, running everything in a single CRM plus a billing tool. The model takes about a week of part-time work to agree and a month to enforce.</p>
+        <h2>What does this look like for a typical small team?</h2>
+        <p>Here is a hypothetical example: a 15-person B2B software company with two account executives, one marketer and one customer success manager, running everything in a single CRM plus a billing tool. For illustration, assume the model takes a week of part-time work to agree and a month to enforce.</p>
         <p>They choose contact-only (no lead object), key accounts on domain, and set original source from the first form fill or a rep-selected outbound value. Opportunities can't move past discovery without an amount and close date, or to closed won without product lines. The billing tool syncs subscription start, end and value to a renewal record on the account. In month one they report pipeline by source and win rate; by month four, once renewals are reliable, they add net revenue retention. A warehouse stays off the roadmap until they need to join product usage to accounts.</p>
       </section>
       <section id="first-hand-experience">

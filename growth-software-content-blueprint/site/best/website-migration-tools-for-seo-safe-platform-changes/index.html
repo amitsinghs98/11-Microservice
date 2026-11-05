@@ -41,7 +41,7 @@
           "name": "How long should redirects stay in place after a migration?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Google's site move guidance says to keep redirects for as long as possible, generally at least one year. Many teams keep them indefinitely because external links and bookmarks keep pointing at old URLs."
+            "text": "Keep them for as long as you reasonably can, and treat removing them as a deliberate decision rather than a clean-up task. Many teams keep them indefinitely because external links and bookmarks keep pointing at old URLs."
           }
         },
         {
@@ -49,7 +49,7 @@
           "name": "Do I need the Change of Address tool for a platform change?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Only if the domain or subdomain changes. Google's help page says the tool isn't needed for HTTP to HTTPS moves, www changes or path changes within the same domain."
+            "text": "Only if the domain or subdomain changes. The tool is designed for moves between domains or subdomains, not for path changes within the same domain."
           }
         },
         {
@@ -65,7 +65,7 @@
           "name": "Can migration software guarantee no traffic loss?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Tools find broken redirects, missing pages and metadata changes, but rankings also depend on how search engines reprocess the site, and Google says fluctuations after a move are normal."
+            "text": "No. Tools find broken redirects, missing pages and metadata changes, but rankings also depend on how search engines reprocess the site, and some fluctuation after a move should be expected."
           }
         }
       ]
@@ -126,20 +126,20 @@
 
       <section id="how-we-chose">
         <h2>How did we choose and order these tools?</h2>
-        <p>We ordered tools by how directly they support the core migration tasks: crawl comparison, redirect mapping, link checks, metadata export, sitemap QA, monitoring and reporting. The assessment uses official pricing pages and documentation reviewed on 4 November 2026; nothing was tested hands-on, and no vendor paid for inclusion or placement.</p>
+        <p>We ordered tools by how directly they support the core migration tasks: crawl comparison, redirect mapping, link checks, metadata export, sitemap QA, monitoring and reporting. The assessment uses official product information reviewed on 4 November 2026; the official pages could not be fetched directly for this draft, so specific prices and limits are left to the linked pages. Nothing was tested hands-on, and no vendor paid for inclusion or placement.</p>
       </section>
 
       <section id="how-do-they-compare">
         <h2>How do the migration tools compare?</h2>
         <p>Screaming Frog and Sitebulb are the most cost-effective crawlers, while Lumar and Conductor are sales-led platforms for larger teams. The table shows where each fits.</p>
         <table>
-          <caption>Website migration tools: fit, pricing model and limits (checked 4 November 2026)</caption>
+          <caption>Website migration tools: fit, pricing model and limits (confirm current terms on each official page)</caption>
           <thead>
             <tr><th scope="col">Tool</th><th scope="col">Best for</th><th scope="col">Pricing model</th><th scope="col">One material limit</th><th scope="col">Official link</th></tr>
           </thead>
           <tbody>
             <tr><th scope="row">Screaming Frog SEO Spider</th><td>Crawl comparison and redirect validation</td><td>Annual per-user licence; free version</td><td>Desktop app; large crawls need a capable machine</td><td><a href="https://www.screamingfrog.co.uk/seo-spider/licence/" target="_blank" rel="noopener noreferrer">Screaming Frog licence</a></td></tr>
-            <tr><th scope="row">Sitebulb</th><td>Guided audits and client reports</td><td>Desktop subscriptions plus a Cloud tier</td><td>Per-audit URL caps vary by plan</td><td><a href="https://sitebulb.com/subscriptions/pricing/index/" target="_blank" rel="noopener noreferrer">Sitebulb pricing</a></td></tr>
+            <tr><th scope="row">Sitebulb</th><td>Guided audits and client reports</td><td>Desktop subscriptions plus a Cloud tier</td><td>Per-audit URL limits vary by plan</td><td><a href="https://sitebulb.com/subscriptions/pricing/index/" target="_blank" rel="noopener noreferrer">Sitebulb pricing</a></td></tr>
             <tr><th scope="row">Lumar</th><td>Enterprise sites and staging QA</td><td>Custom proposal</td><td>No published prices</td><td><a href="https://www.lumar.io/faq/" target="_blank" rel="noopener noreferrer">Lumar FAQ</a></td></tr>
             <tr><th scope="row">Semrush Site Audit</th><td>Teams already on Semrush</td><td>Toolkit subscription</td><td>Not built around redirect mapping</td><td><a href="https://www.semrush.com/pricing/seo-ai-search/" target="_blank" rel="noopener noreferrer">Semrush pricing</a></td></tr>
             <tr><th scope="row">Ahrefs Site Audit</th><td>Teams already on Ahrefs</td><td>Tiered subscription</td><td>Not built around redirect mapping</td><td><a href="https://ahrefs.com/pricing" target="_blank" rel="noopener noreferrer">Ahrefs pricing</a></td></tr>
@@ -154,37 +154,37 @@
         <p>A crawler does most of the migration work, so choose that first. The suites and monitors add context and early warnings rather than replacing the crawl.</p>
 
         <h3>Screaming Frog SEO Spider: best for redirect mapping and crawl comparison</h3>
-        <p>The SEO Spider is a desktop crawler. Its FAQ states that <a href="https://www.screamingfrog.co.uk/seo-spider/faq/" target="_blank" rel="noopener noreferrer">a licence costs £199 a year per user, and the free version is limited to 500 URLs per crawl</a> (checked 4 November 2026). Its migration tutorial shows how to <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/" target="_blank" rel="noopener noreferrer">upload old URLs in list mode, follow redirects to their final target, and export redirect chain and redirects-to-errors reports</a>, which is the core of launch-day validation.</p>
+        <p>The SEO Spider is a desktop crawler. Its <a href="https://www.screamingfrog.co.uk/seo-spider/faq/" target="_blank" rel="noopener noreferrer">FAQ</a> describes an annual per-user licence and a free version with a crawl limit; check the current price and limit there. Its migration tutorial shows how to <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/" target="_blank" rel="noopener noreferrer">upload old URLs in list mode, follow redirects to their final target, and export redirect chain and redirects-to-errors reports</a>, which is the core of launch-day validation.</p>
         <p><strong>Limitations:</strong> it runs on your machine, so very large sites need memory, database storage mode or crawling in sections. Reports need some spreadsheet work to present to stakeholders.</p>
         <p><strong>Skip it if</strong> nobody on the team is comfortable configuring a crawler.</p>
 
         <h3>Sitebulb: best for guided audits and stakeholder reports</h3>
-        <p>Sitebulb offers desktop plans and a cloud crawler. Its pricing page lists <a href="https://sitebulb.com/subscriptions/pricing/index/" target="_blank" rel="noopener noreferrer">a 10,000-URL-per-audit cap on Lite and up to 500,000 URLs per audit on Pro</a> (checked 4 November 2026); check the current monthly price there in your currency. It explains issues in plain language, which helps when you're reporting to people outside SEO.</p>
-        <p><strong>Limitations:</strong> Lite's audit cap is small for a full pre-migration baseline on a larger site, and <a href="https://sitebulb.com/cloud/" target="_blank" rel="noopener noreferrer">Sitebulb Cloud</a> is a separate tier.</p>
+        <p>Sitebulb offers desktop plans and a cloud crawler. Its <a href="https://sitebulb.com/subscriptions/pricing/index/" target="_blank" rel="noopener noreferrer">pricing page</a> sets a different per-audit URL limit on each plan; check the limits and current price there in your currency. It explains issues in plain language, which helps when you're reporting to people outside SEO.</p>
+        <p><strong>Limitations:</strong> the entry plan's audit limit may be too small for a full pre-migration baseline on a larger site, and <a href="https://sitebulb.com/cloud/" target="_blank" rel="noopener noreferrer">Sitebulb Cloud</a> is a separate tier.</p>
         <p><strong>Skip it if</strong> you only need raw redirect checks and already own another crawler.</p>
 
         <h3>Lumar: best for enterprise sites and staging comparison</h3>
-        <p>Lumar is a cloud website intelligence platform. Its FAQ says it <a href="https://www.lumar.io/faq/" target="_blank" rel="noopener noreferrer">prices on individual needs through a tailored proposal, with limits on active projects and URLs crawled</a> (checked 4 November 2026), and its migration page describes <a href="https://www.lumar.io/use-case/site-migrations/" target="_blank" rel="noopener noreferrer">comparing staging against the live site and running automated SEO QA tests before launch</a>.</p>
+        <p>Lumar is a cloud website intelligence platform. Its <a href="https://www.lumar.io/faq/" target="_blank" rel="noopener noreferrer">FAQ</a> describes pricing by tailored proposal rather than a public price list, and its migration page describes <a href="https://www.lumar.io/use-case/site-migrations/" target="_blank" rel="noopener noreferrer">comparing staging against the live site and running automated SEO QA tests before launch</a>.</p>
         <p><strong>Limitations:</strong> it's a sales-led enterprise product, which is more than a small site needs.</p>
         <p><strong>Skip it if</strong> the site has a few thousand pages and one person runs the migration.</p>
 
         <h3>Semrush Site Audit: best if you're already on Semrush</h3>
-        <p>Site Audit is part of Semrush's SEO toolkit, and the pricing page lists <a href="https://www.semrush.com/pricing/seo-ai-search/" target="_blank" rel="noopener noreferrer">the SEO plan at $139 a month</a> (checked 4 November 2026). It's useful for recurring health checks before and after launch, and for tracking rankings alongside the audit.</p>
+        <p>Site Audit is part of Semrush's SEO toolkit; check the current plan prices on <a href="https://www.semrush.com/pricing/seo-ai-search/" target="_blank" rel="noopener noreferrer">Semrush's pricing page</a>. It's useful for recurring health checks before and after launch, and for tracking rankings alongside the audit.</p>
         <p><strong>Limitations:</strong> it isn't designed for old-to-new URL mapping, so pair it with a crawler for redirect validation.</p>
         <p><strong>Skip it if</strong> you'd be subscribing only for the migration.</p>
 
         <h3>Ahrefs Site Audit: best if you're already on Ahrefs</h3>
-        <p>Ahrefs includes Site Audit in its subscriptions, with the pricing page listing <a href="https://ahrefs.com/pricing" target="_blank" rel="noopener noreferrer">Lite at $129 a month</a> (checked 4 November 2026). Its backlink data is also useful for finding externally linked old URLs that must be redirected.</p>
+        <p>Ahrefs includes Site Audit in its subscriptions; check the current tiers on <a href="https://ahrefs.com/pricing" target="_blank" rel="noopener noreferrer">Ahrefs' pricing page</a>. Its backlink data is also useful for finding externally linked old URLs that must be redirected.</p>
         <p><strong>Limitations:</strong> as with Semrush, redirect mapping still needs a dedicated crawler and a spreadsheet.</p>
         <p><strong>Skip it if</strong> backlink data isn't part of your mapping process.</p>
 
         <h3>Conductor Monitoring: best for change alerts after launch</h3>
-        <p>Conductor Monitoring, formerly ContentKing, <a href="https://support.conductor.com/hc/en-us/articles/4474539154195-Conductor-Website-Monitoring-powered-by-ContentKing" target="_blank" rel="noopener noreferrer">monitors sites continuously and alerts on issues as they happen</a> (checked 4 November 2026), so you see a template change, a robots.txt edit or a noindex as soon as it ships. Pricing isn't published.</p>
+        <p>Conductor Monitoring, formerly ContentKing, <a href="https://support.conductor.com/hc/en-us/articles/4474539154195-Conductor-Website-Monitoring-powered-by-ContentKing" target="_blank" rel="noopener noreferrer">monitors sites continuously and alerts on issues as they happen</a>, so you see a template change, a robots.txt edit or a noindex as soon as it ships. Pricing isn't published.</p>
         <p><strong>Limitations:</strong> it's an ongoing subscription, not a one-off migration tool, and it isn't built for redirect mapping.</p>
         <p><strong>Skip it if</strong> a scheduled weekly crawl gives you enough warning. Our list of <a href="/best/website-change-monitoring-tools-for-seo-and-marketing-teams/">change monitoring tools for SEO teams</a> covers lighter options.</p>
 
         <h3>Google Search Console: the free layer you can't skip</h3>
-        <p>Search Console shows how Google indexes the new site. Its <a href="https://support.google.com/webmasters/answer/9370220?hl=en" target="_blank" rel="noopener noreferrer">Change of Address tool applies to domain and subdomain moves, used after redirects are live</a> (checked 4 November 2026). Google's <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">site move guidance recommends server-side permanent redirects and submitting a sitemap of new URLs</a>.</p>
+        <p>Search Console shows how Google indexes the new site. Its <a href="https://support.google.com/webmasters/answer/9370220?hl=en" target="_blank" rel="noopener noreferrer">Change of Address tool applies to domain and subdomain moves, used after redirects are live</a>. Google's <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">site move guidance recommends server-side permanent redirects and submitting a sitemap of new URLs</a>.</p>
         <p><strong>Limitations:</strong> data arrives with a delay, so it confirms problems rather than catching them on launch day.</p>
       </section>
 
@@ -244,13 +244,13 @@
         <h2>What else do teams ask about migration tooling?</h2>
         <p>The questions below come up on almost every platform change. Answers are based on vendor documentation and Google's published guidance.</p>
         <h3>How long should redirects stay in place after a migration?</h3>
-        <p>Google's site move guidance says to keep redirects for as long as possible, generally at least one year. Many teams keep them indefinitely because external links and bookmarks keep pointing at old URLs.</p>
+        <p>Keep them for as long as you reasonably can, and treat removing them as a deliberate decision rather than a clean-up task. Many teams keep them indefinitely because external links and bookmarks keep pointing at old URLs.</p>
         <h3>Do I need the Change of Address tool for a platform change?</h3>
-        <p>Only if the domain or subdomain changes. Google's help page says the tool isn't needed for HTTP to HTTPS moves, www changes or path changes within the same domain.</p>
+        <p>Only if the domain or subdomain changes. The tool is designed for moves between domains or subdomains, not for path changes within the same domain.</p>
         <h3>Is a desktop crawler enough for a large site?</h3>
         <p>It can be, if the machine has enough memory and you crawl in sections. Cloud crawlers such as Lumar or Sitebulb Cloud make more sense when the site is very large, crawls must be scheduled, or several people need the same data.</p>
         <h3>Can migration software guarantee no traffic loss?</h3>
-        <p>No. Tools find broken redirects, missing pages and metadata changes, but rankings also depend on how search engines reprocess the site, and Google says fluctuations after a move are normal.</p>
+        <p>No. Tools find broken redirects, missing pages and metadata changes, but rankings also depend on how search engines reprocess the site, and some fluctuation after a move should be expected.</p>
       </section>
     </article>
   </main>

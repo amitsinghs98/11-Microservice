@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Analytics Pricing: Events, MTUs, Seats and Retention | BRAND_NAME</title>
+  <meta name="description" content="Product analytics pricing explained: how event, MTU, session and seat billing work, what retention and exports cost, and how to estimate usage before you sign.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/pricing/product-analytics-pricing-explained-events-users-and-data-retention/">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://YOUR-DOMAIN.example/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Product-Led Growth Software: Product Analytics, Onboarding, and Experimentation Tools",
+          "item": "https://YOUR-DOMAIN.example/categories/product-led-growth/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Product Analytics Pricing Explained: Events, Users, and Data Retention",
+          "item": "https://YOUR-DOMAIN.example/pricing/product-analytics-pricing-explained-events-users-and-data-retention/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a free product analytics tier enough for an early-stage startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often, yes, for basic funnels and retention at low volume. Check retention limits, seat caps and missing features such as group analytics before you rely on it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does autocapture make product analytics more expensive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On event-based plans it usually does, because every click becomes a billable event. On user-based or session-based plans the effect is smaller, but storage and query limits still apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is warehouse-native product analytics cheaper?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be if you already pay for a warehouse, because you avoid duplicating data. You still pay warehouse compute for every query, so model both costs together."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should we re-check product analytics pricing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every 60 to 90 days, and before every renewal. Vendors change allowances, tiers and add-on packaging frequently."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A298" data-content-type="pricing-guide" data-cluster="15">
+      <header>
+        <p>Product-led growth, product analytics and experimentation</p>
+        <h1>Product Analytics Pricing Explained: Events, Users, and Data Retention</h1>
+        <p>Product analytics pricing is set by one usage unit (events, monthly tracked users or sessions) plus plan gates on seats, retention, governance and exports. Estimate that unit for your own product before you compare vendors, because the cheapest plan on one meter can be the most expensive on another.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#how-is-it-priced">How is product analytics priced?</a></li>
+          <li><a href="#vendor-models">How do the main vendors structure their plans?</a></li>
+          <li><a href="#estimate-usage">How do you estimate your usage before committing?</a></li>
+          <li><a href="#scenarios">What do low, medium and high usage scenarios look like?</a></li>
+          <li><a href="#hidden-costs">Which hidden costs push product analytics bills up?</a></li>
+          <li><a href="#first-hand-experience">Do vendor pricing calculators reflect what you'll actually pay?</a></li>
+          <li><a href="#monthly-or-annual">Should you pay monthly or annually?</a></li>
+          <li><a href="#next-tier-triggers">What triggers the move to the next tier?</a></li>
+          <li><a href="#sales-questions">What should you ask sales before signing?</a></li>
+          <li><a href="#faq">What else do buyers ask about product analytics pricing?</a></li>
+          <li><a href="#verdict">What's the bottom line on product analytics pricing?</a></li>
+        </ol>
+      </nav>
+
+      <section id="how-is-it-priced">
+        <h2>How is product analytics priced?</h2>
+        <p>Almost every product analytics tool bills on a usage meter (events, monthly tracked users, sessions or monthly active users) and then gates features by tier. Seats, data retention, governance, warehouse sync and support are the levers that push you up a tier even when your volume hasn't changed.</p>
+<p>Four billing units dominate:</p>
+<ul>
+<li><strong>Events:</strong> you pay for each tracked action, such as "report exported". Cost tracks how much you instrument, so a chatty tracking plan gets expensive.</li>
+<li><strong>Monthly tracked users (MTUs):</strong> you pay for each distinct user who sends data in a month, regardless of how many events they send. Cost tracks audience size.</li>
+<li><strong>Sessions:</strong> you pay per visit or session. Cost tracks visit frequency, which suits autocapture tools.</li>
+<li><strong>Monthly active users with a quote:</strong> common in platforms that bundle analytics with in-app guides, where pricing is negotiated on MAU bands.</li>
+</ul>
+<p>Seat-based billing is rarer for analytics itself, but it shows up in experimentation and governance add-ons. Free tiers are common in the category, so for many early products the real pricing decision arrives at the first paid tier; check each allowance against your own volume.</p>
+      </section>
+
+      <section id="vendor-models">
+        <h2>How do the main vendors structure their plans?</h2>
+        <p>Each vendor picks one of the meters above and gates features by tier, but we couldn't confirm current units or allowances for this draft. Use the table as a checklist and confirm every answer on the linked official page before you model costs.</p>
+<table>
+<caption>Product analytics pricing: what to confirm on each vendor's official pricing page</caption>
+<thead>
+<tr><th scope="col">Vendor</th><th scope="col">Billing unit</th><th scope="col">Questions to confirm on the page</th><th scope="col">Official link</th></tr>
+</thead>
+<tbody>
+<tr><th scope="row">Mixpanel</th><td>See official pricing</td><td>Which meter applies, whether a free tier exists, and how overages are billed</td><td><a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">Mixpanel pricing</a></td></tr>
+<tr><th scope="row">Amplitude</th><td>See official pricing</td><td>Which unit your plan or contract uses, and which features are add-ons</td><td><a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">Amplitude pricing</a></td></tr>
+<tr><th scope="row">PostHog</th><td>See official pricing</td><td>Whether replay, flags and surveys are metered separately from analytics</td><td><a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">PostHog pricing</a></td></tr>
+<tr><th scope="row">Heap</th><td>See official pricing</td><td>How the billing unit is defined, and which tiers need a quote</td><td><a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">Heap pricing</a></td></tr>
+<tr><th scope="row">Pendo</th><td>See official pricing</td><td>Which modules are included, how the user band is set, and renewal terms</td><td><a href="https://www.pendo.io/pricing/" target="_blank" rel="noopener noreferrer">Pendo pricing</a></td></tr>
+<tr><th scope="row">Google Analytics</th><td>See official site</td><td>Differences between editions in limits, SLAs and export capacity, and whether it answers product questions at all</td><td><a href="https://marketingplatform.google.com/about/analytics/" target="_blank" rel="noopener noreferrer">Google Analytics product page</a></td></tr>
+</tbody>
+</table>
+<p>Live page fetches were unavailable while this draft was prepared, so the table states no billing units or figures. Treat it as a checklist of what to confirm on each vendor's page.</p>
+      </section>
+
+      <section id="estimate-usage">
+        <h2>How do you estimate your usage before committing?</h2>
+        <p>Multiply monthly active users by sessions per user by tracked events per session, then add a margin for growth and for events you'll add later. Do this from your own logs or a two-week trial import, not from a vendor's calculator defaults.</p>
+<ol>
+<li><strong>Count active users</strong> from your app database for the last three months, split by plan.</li>
+<li><strong>Estimate sessions per active user per month</strong> from server logs or your current web analytics.</li>
+<li><strong>List the events in your tracking plan</strong> and estimate how many fire in a typical session. Autocapture inflates this sharply.</li>
+<li><strong>Add 30–50% headroom</strong> for growth and new instrumentation over a twelve-month contract (an editorial assumption, not a benchmark).</li>
+<li><strong>Convert to each vendor's unit:</strong> users for MTU pricing, events for event pricing, sessions for session pricing.</li>
+</ol>
+<p>Our guide to <a href="/best/product-event-tracking-and-governance-platforms/">event tracking and governance platforms</a> helps you keep the tracking plan lean, which is the single biggest cost lever on event-based plans.</p>
+      </section>
+
+      <section id="scenarios">
+        <h2>What do low, medium and high usage scenarios look like?</h2>
+        <p>The same product can fit a free tier on one meter and a mid-tier contract on another. The hypothetical scenarios below use stated assumptions to show the volumes you'd be quoting on; they are calculations, not vendor prices.</p>
+<p><strong>Assumptions for all three:</strong> each active user has 10 sessions a month and each session sends 25 tracked events, so each user generates 250 events a month.</p>
+<ul>
+<li><strong>Low (early-stage SaaS, 2,000 monthly active users):</strong> about 500,000 events and 20,000 sessions a month. Many free tiers may cover this, so check event and session allowances, history limits and seat caps on each pricing page.</li>
+<li><strong>Medium (growing SaaS, 20,000 monthly active users):</strong> about 5 million events and 200,000 sessions a month. This is where event-based and MTU-based quotes start to diverge, and where retention and governance gates begin to matter.</li>
+<li><strong>High (scaled product, 200,000 monthly active users):</strong> about 50 million events and 2 million sessions a month. Expect negotiated contracts, volume discounts and questions about warehouse-native options.</li>
+</ul>
+<p>Now change one assumption. If you switch on autocapture and each session sends 100 events instead of 25, the medium scenario jumps from 5 million to 20 million events, while its user count stays at 20,000. That's why heavy instrumenters often prefer MTU pricing and lean trackers prefer event pricing.</p>
+      </section>
+
+      <section id="hidden-costs">
+        <h2>Which hidden costs push product analytics bills up?</h2>
+        <p>Overages, retention limits, warehouse exports and add-on modules cause most budget surprises. Each is usually documented, but rarely on the headline plan card.</p>
+<ul>
+<li><strong>Ingestion limits and overages:</strong> check whether excess volume is billed automatically, throttled or dropped, and at what rate.</li>
+<li><strong>Sampling:</strong> some tools sample large queries or high-volume projects; confirm whether reports on your plan are exact.</li>
+<li><strong>Data retention:</strong> lower tiers may cap how far back you can query, which breaks year-over-year retention analysis.</li>
+<li><strong>Warehouse exports and imports:</strong> syncing to or from a warehouse is often a higher-tier feature or add-on; if you already run one, see our list of <a href="/best/data-warehouse-platforms-for-small-marketing-analytics-teams/">data warehouse platforms for small analytics teams</a>.</li>
+<li><strong>Add-on modules:</strong> session replay, experimentation, in-app guides and data governance are often metered or priced separately.</li>
+<li><strong>Seats and roles:</strong> viewer seats may be free while editor or admin seats are capped.</li>
+<li><strong>Renewal uplift:</strong> multi-year contracts can include annual price increases; ask for a cap.</li>
+</ul>
+      </section>
+
+      <section id="first-hand-experience">
+        <h2>Do vendor pricing calculators reflect what you'll actually pay?</h2>
+        <p>Calculators reflect list price for the volume you enter, but your bill depends on volume you haven't instrumented yet and on discounts that only appear in negotiation. Based on the product information reviewed, the gap between estimate and invoice usually comes from event growth and add-ons rather than from the base plan.</p>
+<p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+      </section>
+
+      <section id="monthly-or-annual">
+        <h2>Should you pay monthly or annually?</h2>
+        <p>Pay monthly until your event volume has been stable for at least two or three months, then consider an annual contract if the vendor offers a discount for it. Annual commitments on a usage meter lock in a volume estimate, and an early-stage product's estimate is usually wrong.</p>
+<p>If you do sign annually, negotiate how overages are billed, whether unused volume rolls over, and whether you can move down a tier at renewal. Product analytics is one input to wider subscription metrics, which our guide to <a href="/best/subscription-analytics-software-for-retention-and-revenue-teams/">subscription analytics software</a> covers.</p>
+      </section>
+
+      <section id="next-tier-triggers">
+        <h2>What triggers the move to the next tier?</h2>
+        <p>Volume crossing a free or plan allowance is the obvious trigger, but feature needs trigger upgrades just as often. Data governance, longer retention, group or account analytics, SSO and warehouse sync are typical reasons teams upgrade before they outgrow their volume.</p>
+<p>B2B SaaS teams should look closely at account-level (group) analytics, because measuring adoption by company rather than by user is often gated. Our guide to <a href="/best/customer-journey-analytics-tools-for-saas-product-teams/">customer journey analytics tools for SaaS teams</a> covers tools built for account-level journeys.</p>
+      </section>
+
+      <section id="sales-questions">
+        <h2>What should you ask sales before signing?</h2>
+        <p>Ask exactly how the billing unit is counted, what happens when you exceed it, and which features in your demo are add-ons. Get the answers in writing as part of the order form.</p>
+<ul>
+<li>How is an event, user or session counted, including anonymous users who later log in?</li>
+<li>Are identified and anonymous users or duplicate events billed separately?</li>
+<li>What is the overage rate, and is there a hard cap option?</li>
+<li>How long is data retained on this plan, and what happens to older data if we downgrade?</li>
+<li>Are queries ever sampled on this plan?</li>
+<li>Which features shown in the demo are add-ons?</li>
+<li>Is warehouse export or import included, and at what frequency?</li>
+<li>What is the renewal uplift, and can it be capped?</li>
+</ul>
+      </section>
+
+      <section id="faq">
+        <h2>What else do buyers ask about product analytics pricing?</h2>
+        <p>Most remaining questions are about free tiers, autocapture and warehouses. Short answers follow.</p>
+        <h3>Is a free product analytics tier enough for an early-stage startup?</h3>
+        <p>Often, yes, for basic funnels and retention at low volume. Check retention limits, seat caps and missing features such as group analytics before you rely on it.</p>
+        <h3>Does autocapture make product analytics more expensive?</h3>
+        <p>On event-based plans it usually does, because every click becomes a billable event. On user-based or session-based plans the effect is smaller, but storage and query limits still apply.</p>
+        <h3>Is warehouse-native product analytics cheaper?</h3>
+        <p>It can be if you already pay for a warehouse, because you avoid duplicating data. You still pay warehouse compute for every query, so model both costs together.</p>
+        <h3>How often should we re-check product analytics pricing?</h3>
+        <p>Every 60 to 90 days, and before every renewal. Vendors change allowances, tiers and add-on packaging frequently.</p>
+      </section>
+
+      <section id="verdict">
+        <h2>What's the bottom line on product analytics pricing?</h2>
+        <p>Pick the billing unit that matches how your product generates data, then compare vendors on that unit with your own usage estimate. Re-check the vendor pricing pages every 60 to 90 days, because allowances and tiers change often.</p>
+<p>When you're ready to shortlist tools, our roundup of <a href="/best/product-analytics-software-for-saas-startups/">product analytics software for SaaS startups</a> compares fit and limits, and the <a href="/categories/product-led-growth/">product-led growth hub</a> maps the rest of the stack.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

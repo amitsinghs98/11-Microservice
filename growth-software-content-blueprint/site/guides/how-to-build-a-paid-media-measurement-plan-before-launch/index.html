@@ -151,7 +151,7 @@
         <ol>
           <li>Store click IDs (for example the Google click ID) and UTM values in hidden form fields and CRM properties.</li>
           <li>Choose which CRM stages to send back, typically qualified lead and opportunity, with values.</li>
-          <li>Use the platforms' supported routes, such as <a href="https://ads.google.com/home/" target="_blank" rel="noopener noreferrer">Google Ads</a> offline conversion imports or enhanced conversions and <a href="https://www.facebook.com/business/tools/ads-manager" target="_blank" rel="noopener noreferrer">Meta's</a> Conversions API, directly or through your CRM's integration.</li>
+          <li>Use the platforms' supported routes, such as <a href="https://ads.google.com/home/" target="_blank" rel="noopener noreferrer">Google Ads</a> offline conversion imports or enhanced conversions and Meta's Conversions API, directly or through your CRM's integration, and confirm current requirements in each platform's own documentation.</li>
           <li>Send uploads daily or more often, and log failures and match rates.</li>
           <li>Hash personal data as each platform's documentation requires, and check your consent setup before sending it.</li>
         </ol>
@@ -161,7 +161,7 @@
         <h2>Which QA steps should happen before launch?</h2>
         <p>Test every event end to end with a real submission, from the click through to the CRM record and the platform's conversion report. Fix the plan before spend starts, because data you didn't capture on day one is gone.</p>
         <ul>
-          <li>Fire each event using <a href="https://tagassistant.google.com/" target="_blank" rel="noopener noreferrer">Google Tag Assistant</a> and each platform's test-events tool, and confirm parameters arrive.</li>
+          <li>Fire each event using <a href="https://tagassistant.google.com/" target="_blank" rel="noopener noreferrer">Google Tag Assistant</a> and any test-events view the ad platform provides, and confirm parameters arrive.</li>
           <li>Submit test leads from tagged URLs and confirm UTM values and click IDs land in the CRM.</li>
           <li>Check for duplicate conversion actions and duplicate firing on thank-you page reloads.</li>
           <li>Confirm consent banners block or allow tags as intended.</li>
