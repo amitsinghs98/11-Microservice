@@ -89,13 +89,14 @@ A013,site/ahrefs-alternatives/index.html,/seo-tool-stack/,A018,True,,contextual,
 A013,site/ahrefs-alternatives/index.html,/compliant-b2b-outreach-stack/,A059,True,,contextual,compliant B2B outreach stack guide
 A013,site/ahrefs-alternatives/index.html,/best-seo-software/,A001,True,,contextual,SEO software guide for agencies and in-house teams
 A013,site/ahrefs-alternatives/index.html,/seo/,H01,True,,contextual,SEO software category
-A037,site/ai-content-tool-pricing/index.html,/jasper-vs-copy-ai-vs-writesonic/,A031,True,,contextual,"Jasper, Copy.ai and Writesonic comparison"
 A037,site/ai-content-tool-pricing/index.html,/best-ai-blog-writing-tools/,A024,True,,contextual,long-form AI blog writing tools
 A037,site/ai-content-tool-pricing/index.html,/best-ai-copywriting-software/,A022,True,,contextual,AI copywriting software roundup
+A037,site/ai-content-tool-pricing/index.html,/jasper-vs-copy-ai-vs-writesonic/,A031,True,,contextual,"Jasper, Copy.ai and Writesonic comparison"
 A037,site/ai-content-tool-pricing/index.html,/best-ai-video-editing-tools/,A027,True,,contextual,AI video editing tools
 A037,site/ai-content-tool-pricing/index.html,/best-ai-image-generation-tools-for-marketing/,A028,True,,contextual,AI image generators for ad creative
 A037,site/ai-content-tool-pricing/index.html,/marketing-stack-audit/,A098,True,,contextual,marketing stack audit guide
 A037,site/ai-content-tool-pricing/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools for marketing teams
+A037,site/ai-content-tool-pricing/index.html,/chatgpt-vs-claude-for-marketing/,A030,True,,contextual,ChatGPT vs Claude for marketing workflows
 A037,site/ai-content-tool-pricing/index.html,/best-free-ai-writing-tools/,A035,True,,contextual,what free AI writing plans allow
 A037,site/ai-content-tool-pricing/index.html,/seo-software-pricing/,A017,True,,contextual,SEO software pricing guide
 A037,site/ai-content-tool-pricing/index.html,/ai-content/,H02,True,,contextual,AI content software category hub
@@ -417,11 +418,11 @@ A021,site/best-ai-writing-tools/index.html,/best-free-ai-writing-tools/,A035,Tru
 A021,site/best-ai-writing-tools/index.html,/evaluate-ai-content-quality/,A039,True,,contextual,AI content quality scorecard
 A021,site/best-ai-writing-tools/index.html,/chatgpt-vs-claude-for-marketing/,A030,True,,contextual,ChatGPT versus Claude breakdown for marketing work
 A021,site/best-ai-writing-tools/index.html,/jasper-vs-copy-ai-vs-writesonic/,A031,True,,contextual,"Jasper, Copy.ai and Writesonic comparison"
-A021,site/best-ai-writing-tools/index.html,/ai-content-workflow/,A038,True,,contextual,building an AI content workflow with human checks
-A021,site/best-ai-writing-tools/index.html,/best-content-approval-software-for-marketing-and-creative-teams/,A109,True,,contextual,content approval software
 A021,site/best-ai-writing-tools/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools comparison
 A021,site/best-ai-writing-tools/index.html,/best-ai-email-copywriting-tools/,A025,True,,contextual,AI tools for email campaign copy
 A021,site/best-ai-writing-tools/index.html,/ai-content-tool-pricing/,A037,True,,contextual,AI content tool pricing breakdown
+A021,site/best-ai-writing-tools/index.html,/ai-content-workflow/,A038,True,,contextual,building an AI content workflow with human checks
+A021,site/best-ai-writing-tools/index.html,/best-content-approval-software-for-marketing-and-creative-teams/,A109,True,,contextual,content approval software
 A065,site/best-b2b-contact-database-tools/index.html,/best-b2b-lead-generation-software/,A064,True,,contextual,B2B lead generation software guide
 A065,site/best-b2b-contact-database-tools/index.html,/best-lead-enrichment-software/,A066,True,,contextual,lead enrichment software
 A065,site/best-b2b-contact-database-tools/index.html,/best-email-verification-tools/,A046,True,,contextual,email verification and list cleaning tools
@@ -3069,6 +3070,7 @@ A034,site/writesonic-alternatives/index.html,/best-ai-content-brief-tools/,A023,
 A034,site/writesonic-alternatives/index.html,/best-ai-search-visibility-tools/,A008,True,,contextual,GEO and AI search visibility tools
 A034,site/writesonic-alternatives/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools roundup
 A034,site/writesonic-alternatives/index.html,/best-ai-blog-writing-tools/,A024,True,,contextual,AI blog writing tools for long-form content
+A034,site/writesonic-alternatives/index.html,/chatgpt-vs-claude-for-marketing/,A030,True,,contextual,ChatGPT vs Claude comparison for marketing
 A034,site/writesonic-alternatives/index.html,/ai-content-tool-pricing/,A037,True,,contextual,cost-per-article pricing guide for AI content tools
 A034,site/writesonic-alternatives/index.html,/best-ai-writing-tools/,A021,True,,contextual,guide to AI writing tools for marketing teams
 A034,site/writesonic-alternatives/index.html,/ai-content/,H02,True,,contextual,AI content software hub

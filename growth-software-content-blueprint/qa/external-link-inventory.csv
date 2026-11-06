@@ -33,12 +33,24 @@ A013,https://seranking.com/sign-up.html,"14-day trial, which needs no credit car
 A013,https://www.accuranker.com/help/keywords/keyword-updates/,keywords update automatically every 24 hours and can also be refreshed on demand,noopener noreferrer
 A013,https://www.accuranker.com/pricing/,"pricing page lists Professional at €224 a month, with 10% off annual payment",noopener noreferrer
 A013,https://www.clearscope.io/pricing,Essentials at $129 a month with unlimited users and 20 monthly drafts,noopener noreferrer
-A037,https://claude.com/pricing,Claude's official pricing page,noopener noreferrer
-A037,https://openai.com/chatgpt/pricing/,ChatGPT,noopener noreferrer
-A037,https://www.jasper.ai/pricing,Jasper,noopener noreferrer
-A037,https://writesonic.com/pricing,Writesonic,noopener noreferrer
-A037,https://www.canva.com/pricing/,Canva,noopener noreferrer
-A037,https://www.descript.com/pricing,Descript,noopener noreferrer
+A037,https://claude.com/pricing,Claude's pricing page,noopener noreferrer
+A037,https://help.openai.com/en/articles/11989085-what-is-chatgpt-go,ChatGPT Go at $8 a month in the US,noopener noreferrer
+A037,https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus,Plus at $20 a month,noopener noreferrer
+A037,https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers,"Pro tiers at $100, $200 and $500 a month, billed monthly only",noopener noreferrer
+A037,https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business,ChatGPT Business,noopener noreferrer
+A037,https://chatgpt.com/pricing/,Enterprise is quoted by sales,noopener noreferrer
+A037,https://help.openai.com/en/articles/11084440-images-in-chatgpt,"image creation, which is available on all tiers",noopener noreferrer
+A037,https://help.openai.com/en/articles/8554407-gpts-in-chatgpt,"plans to retire in favor of plugins, with a standard retirement date of 11 December 2026",noopener noreferrer
+A037,https://www.jasper.ai/pricing,Jasper's pricing page,noopener noreferrer
+A037,https://help.jasper.ai/hc/en-us/articles/18618709412123-Annual-Plans,Annual Plans help article,noopener noreferrer
+A037,https://www.copy.ai/prices,Copy.ai's pricing page,noopener noreferrer
+A037,https://writesonic.com/pricing,Writesonic's pricing page,noopener noreferrer
+A037,https://docs.writesonic.com/docs/different-subscription-plans-of-writesonic,plan documentation,noopener noreferrer
+A037,https://app.writesonic.com/signup,signup page offers a 7-day free trial with no credit card,noopener noreferrer
+A037,https://www.canva.com/help/canva-business-billing/,Canva bills seats added to a yearly Business plan for the remaining plan duration,noopener noreferrer
+A037,https://help.descript.com/billing-payments-plans/top-ups,Descript sells media-minute and AI-credit top-ups only on Creator and Business plans,noopener noreferrer
+A037,https://www.canva.com/pricing/,Canva's pricing page,noopener noreferrer
+A037,https://www.descript.com/pricing,Descript's pricing page,noopener noreferrer
 A038,https://support.claude.com/en/articles/8525154-claude-is-providing-incorrect-or-misleading-responses-what-s-going-on,"can write things that look correct but are very mistaken, and should not be relied on as a singular source of truth",noopener noreferrer
 A038,https://support.claude.com/en/articles/9517075-what-are-projects,upload documents to its knowledge base and set project instructions,noopener noreferrer
 A038,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,find a supporting quote for each claim and retract any it can't support,noopener noreferrer
@@ -474,8 +486,7 @@ A027,https://runwayml.com/pricing,Runway's pricing page,noopener noreferrer
 A027,https://runwayml.com/,Visit Runway,noopener noreferrer
 A027,https://www.synthesia.io/pricing,Synthesia's pricing page,noopener noreferrer
 A027,https://www.synthesia.io/,Visit Synthesia,noopener noreferrer
-A021,https://claude.com/pricing,Anthropic's pricing page,noopener noreferrer
-A021,https://openai.com/chatgpt/pricing/,openai.com,noopener noreferrer
+A021,https://chatgpt.com/pricing/,chatgpt.com,noopener noreferrer
 A021,https://claude.com/pricing,claude.com,noopener noreferrer
 A021,https://writer.com/plans/,writer.com,noopener noreferrer
 A021,https://www.jasper.ai/pricing,jasper.ai,noopener noreferrer
@@ -483,24 +494,33 @@ A021,https://surferseo.com/pricing/,surferseo.com,noopener noreferrer
 A021,https://writesonic.com/pricing,writesonic.com,noopener noreferrer
 A021,https://www.copy.ai/prices,copy.ai,noopener noreferrer
 A021,https://www.grammarly.com/plans,grammarly.com,noopener noreferrer
-A021,https://openai.com/chatgpt/pricing/,ChatGPT pricing,noopener noreferrer
-A021,https://openai.com/chatgpt/,ChatGPT,noopener noreferrer
-A021,https://support.claude.com/en/articles/9517075-what-are-projects,its own knowledge base of uploaded files and instructions,noopener noreferrer
-A021,https://claude.com/pricing,pricing page lists on paid plans only,noopener noreferrer
-A021,https://claude.com/pricing,pricing page lists Pro at $17 a month billed annually or $20 monthly,noopener noreferrer
-A021,https://claude.com/,Claude,noopener noreferrer
-A021,https://writer.com/plans/,Writer plans,noopener noreferrer
-A021,https://writer.com/,Writer,noopener noreferrer
-A021,https://www.jasper.ai/pricing,Jasper pricing,noopener noreferrer
-A021,https://www.jasper.ai/,Jasper,noopener noreferrer
-A021,https://surferseo.com/pricing/,Surfer pricing,noopener noreferrer
-A021,https://surferseo.com/,Surfer,noopener noreferrer
-A021,https://writesonic.com/pricing,Writesonic pricing,noopener noreferrer
-A021,https://writesonic.com/,Writesonic,noopener noreferrer
-A021,https://www.copy.ai/prices,Copy.ai prices,noopener noreferrer
-A021,https://www.copy.ai/,Copy.ai,noopener noreferrer
-A021,https://www.grammarly.com/plans,Grammarly plans,noopener noreferrer
-A021,https://www.grammarly.com/,Grammarly,noopener noreferrer
+A021,https://help.openai.com/en/articles/10169521-projects-in-chatgpt,project sharing on personal and business plans alike,noopener noreferrer
+A021,https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus,Plus at $20 a month,noopener noreferrer
+A021,https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business,"Business standard seats at $25 per user a month billed monthly, with a two-seat minimum",noopener noreferrer
+A021,https://help.openai.com/en/articles/8554407-gpts-in-chatgpt,"retire custom GPTs in favor of plugins, with standard retirement on 11 December 2026",noopener noreferrer
+A021,https://claude.com/pricing,Research on paid plans only and project sharing on Team and Enterprise only,noopener noreferrer
+A021,https://claude.com/pricing,"pricing page lists Pro at $17 a month billed annually or $20 monthly, and Team standard seats at $20 per seat a month annually or $25 monthly, for 2 to 150 people",noopener noreferrer
+A021,https://claude.com/pricing,plan comparison lists no image generation,noopener noreferrer
+A021,https://support.writer.com/article/69-adding-terms,"Approved, Don't use, Use carefully or Pending",noopener noreferrer
+A021,https://writer.com/plans/,"Starter as per-seat, billed monthly or annually, for up to 5 users, with a 14-day free trial",noopener noreferrer
+A021,https://support.writer.com/articles/2086260283-how-to-connect-your-style-guide-and-terms-to-a-voice,only shape agent output once connected to a voice,noopener noreferrer
+A021,https://www.jasper.ai/pricing,pricing page lists Pro at $59 per seat a month billed yearly or $69 monthly,noopener noreferrer
+A021,https://help.jasper.ai/hc/en-us/articles/18618709412123-Annual-Plans,starts with a 12-month commitment,noopener noreferrer
+A021,https://help.jasper.ai/hc/en-us/articles/18618693085339-Brand-Voice,"Pro allows 2 Brand Voices, with unlimited voices on Business",noopener noreferrer
+A021,https://surferseo.com/pricing/,"pricing page lists Discovery at $49, Standard at $99, Pro at $182 and Peace of Mind at $299 a month, billed yearly",noopener noreferrer
+A021,https://devs.surferseo.com/integrations/google-docs/setup,"Google Docs integration on Standard, Pro, Peace of Mind and Enterprise",noopener noreferrer
+A021,https://docs.surferseo.com/en/articles/5700348-how-to-use-google-docs-wordpress-extension,"transfers guidelines, not your text",noopener noreferrer
+A021,https://writesonic.com/pricing,"pricing page lists Starter at $79, Basic at $199 and Growth at $399 a month billed annually",noopener noreferrer
+A021,https://writesonic.com/,homepage offers a 7-day free trial with no credit card,noopener noreferrer
+A021,https://www.copy.ai/prices,"prices page lists the Chat plan at $29 a month, or $24 a month billed annually, with 5 seats",noopener noreferrer
+A021,https://support.grammarly.com/hc/en-us/articles/40542856669837-Introducing-the-Superhuman-suite,Superhuman suite,noopener noreferrer
+A021,https://support.grammarly.com/hc/en-us/articles/115000090011-How-much-does-Grammarly-Pro-cost,"Pro at $144 per member a year, about $12 a month, for up to 149 seats",noopener noreferrer
+A021,https://www.grammarly.com/plans,plans page lists one brand tone on Pro and unlimited on Enterprise,noopener noreferrer
+A021,https://developers.google.com/search/blog/2023/02/google-search-and-ai-content,"Google's guidance says it rewards helpful, reliable content however it is produced",noopener noreferrer
+A021,https://claude.com/pricing,Anthropic lists model training as opt-out on individual Claude plans and off by default on Team,noopener noreferrer
+A021,https://openai.com/enterprise-privacy/,OpenAI says it doesn't train on business data by default,noopener noreferrer
+A021,https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt,ChatGPT's personal plans share data by default unless you turn it off,noopener noreferrer
+A021,https://www.copy.ai/prices,"access to OpenAI, Anthropic and Gemini models",noopener noreferrer
 A065,https://www.zoominfo.com/pricing,zoominfo.com,noopener noreferrer
 A065,https://www.apollo.io/pricing,apollo.io,noopener noreferrer
 A065,https://www.cognism.com/pricing,cognism.com,noopener noreferrer
@@ -1596,14 +1616,20 @@ A041,https://www.klaviyo.com/pricing,See official pricing,noopener noreferrer
 A041,https://www.activecampaign.com/pricing,See official pricing,noopener noreferrer
 A041,https://www.constantcontact.com/pricing,See official pricing,noopener noreferrer
 A041,https://www.hubspot.com/pricing/marketing,See official pricing,noopener noreferrer
-A041,https://www.mailerlite.com/pricing,MailerLite pricing page,noopener noreferrer
-A041,https://mailchimp.com/pricing/marketing/,Mailchimp marketing pricing page,noopener noreferrer
-A041,https://www.brevo.com/pricing/,Brevo pricing page,noopener noreferrer
-A041,https://kit.com/pricing,Kit pricing page,noopener noreferrer
-A041,https://www.klaviyo.com/pricing,Klaviyo pricing page,noopener noreferrer
-A041,https://www.activecampaign.com/pricing,ActiveCampaign pricing page,noopener noreferrer
+A041,https://www.mailerlite.com/help/free-plan-update-faq,"allows 250 active subscribers, 2,500 emails a month and two seats",noopener noreferrer
+A041,https://www.mailerlite.com/help/how-to-get-approved,must complete a profile and be approved before sending,noopener noreferrer
+A041,https://mailchimp.com/help/about-mailchimp-pricing-plans/,"covers 250 contacts and 500 sends a month, with a daily cap of 250",noopener noreferrer
+A041,https://mailchimp.com/help/about-your-contacts/,"unsubscribed and non-subscribed contacts count toward your billed total, while archived and cleaned contacts don't",noopener noreferrer
+A041,https://www.brevo.com/pricing/,"pricing page lists a free plan of 300 emails a day and Starter from $9 a month for 5,000 emails",noopener noreferrer
+A041,https://help.brevo.com/hc/en-us/articles/208589409-About-Brevo-s-pricing-plans,"Starter tiers also set a contact limit, and passing it upgrades you to the next tier automatically",noopener noreferrer
+A041,https://help.kit.com/en/articles/16627071-the-kit-free-plan,"Free plan costs nothing while you stay under 10,000 subscribers, but automations and sequences need Creator or Pro",noopener noreferrer
+A041,https://help.klaviyo.com/hc/en-us/articles/360050759151,free plan allows 250 active profiles and 500 email sends a month,noopener noreferrer
+A041,https://help.klaviyo.com/hc/en-us/articles/115000976672,paid accounts that exceed their profile limit move up a tier at the next billing cycle; suppressed profiles don't count,noopener noreferrer
+A041,https://www.activecampaign.com/pricing,"pricing page lists Starter, Plus, Pro and Enterprise, priced by contact count, with one seat on Starter and Plus, three on Pro and five on Enterprise",noopener noreferrer
+A041,https://help.activecampaign.com/hc/en-us/articles/218789987-Free-trial-capabilities,14-day trial is limited to one user and 100 email sends,noopener noreferrer
 A041,https://www.constantcontact.com/pricing,Constant Contact pricing page,noopener noreferrer
-A041,https://www.hubspot.com/pricing/marketing,HubSpot Marketing Hub pricing page,noopener noreferrer
+A041,https://legal.hubspot.com/hubspot-product-and-services-catalog/products,"product catalog lists Starter at $20 a month per core seat with 1,000 marketing contacts",noopener noreferrer
+A041,https://www.hubspot.com/pricing/marketing,"pricing page lists Professional at $890 a month billed monthly ($800 a month on annual billing) with three core seats, plus a required one-time $3,000 onboarding fee",noopener noreferrer
 A050,https://www.litmus.com/pricing,litmus.com,noopener noreferrer
 A050,https://www.emailonacid.com/pricing/,emailonacid.com,noopener noreferrer
 A050,https://parcel.io/,parcel.io,noopener noreferrer
@@ -3695,11 +3721,21 @@ A033,https://www.hubspot.com/pricing,hubspot.com/pricing,noopener noreferrer
 A033,https://zapier.com/pricing,zapier.com/pricing,noopener noreferrer
 A033,https://www.jasper.ai/pricing,"costs $59 per seat a month billed yearly or $69 monthly, with 2 Brand Voices and a 7-day free trial",noopener noreferrer
 A033,https://www.anyword.com/pricing,Anyword's pricing page,noopener noreferrer
-A033,https://claude.com/pricing,"pricing page lists a free Claude plan with limited usage, Pro at $17 a month on annual billing or $20 monthly, and Team standard seats at $20 per seat a month billed annually",noopener noreferrer
-A033,https://chatgpt.com/pricing,ChatGPT's pricing page,noopener noreferrer
+A033,https://claude.com/pricing,"pricing page lists Claude Pro at $20 a month billed monthly or $17 billed annually, and Team standard seats at $25 a month or $20 billed annually, for 2 to 150 seats",noopener noreferrer
+A033,https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus,ChatGPT Plus at $20 a month,noopener noreferrer
+A033,https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business,"Business standard seats at $25 per user a month billed monthly, with a two-seat minimum",noopener noreferrer
+A033,https://chatgpt.com/pricing/,ChatGPT's pricing page,noopener noreferrer
+A033,https://help.openai.com/en/articles/11084440-images-in-chatgpt,ChatGPT Images is available on all tiers,noopener noreferrer
+A033,https://claude.com/pricing,"plan comparison lists Design, Slides and Docs outputs but no image generation",noopener noreferrer
+A033,https://help.openai.com/en/articles/8554407-gpts-in-chatgpt,plans to retire in favor of plugins,noopener noreferrer
+A033,https://www.clay.com/faq/what-features-are-included-in-the-new-plans-how-do-i-pick-the-right-plan,free plan with 100 Data Credits and 500 Actions a month,noopener noreferrer
 A033,https://www.clay.com/pricing,Clay's pricing page,noopener noreferrer
+A033,https://www.hubspot.com/products/artificial-intelligence/breeze-ai-assistant,Breeze Assistant is included with every HubSpot subscription at no additional cost,noopener noreferrer
+A033,https://knowledge.hubspot.com/ai/use-breeze-assistant,creating an agent or using workflows requires a Professional or Enterprise subscription,noopener noreferrer
 A033,https://www.hubspot.com/pricing,HubSpot's pricing,noopener noreferrer
-A033,https://zapier.com/pricing,pricing page lists a free plan and task-based billing,noopener noreferrer
+A033,https://help.zapier.com/hc/en-us/articles/32337438839565-What-s-included-in-Zapier-s-Free-plan,Free plan includes 100 tasks a month,noopener noreferrer
+A033,https://help.zapier.com/hc/en-us/articles/46425475442829-AI-by-Zapier-model-tier-pricing,"AI by Zapier steps count as 1x, 3x or 5x tasks depending on the Standard, Advanced or Premium model tier",noopener noreferrer
+A033,https://zapier.com/pricing,Zapier's pricing page,noopener noreferrer
 A239,https://www.zoominfo.com/,ZoomInfo,noopener noreferrer
 A239,https://www.apollo.io/,Apollo,noopener noreferrer
 A239,https://www.cognism.com/,Cognism,noopener noreferrer
@@ -3812,10 +3848,20 @@ A071,https://www.hubspot.com/pricing/sales,See official pricing,noopener norefer
 A071,https://www.salesforce.com/sales/pricing/,See official pricing,noopener noreferrer
 A051,https://instantly.ai/pricing,Instantly's pricing page,noopener noreferrer
 A051,https://www.smartlead.ai/pricing,Smartlead's pricing page,noopener noreferrer
-A051,https://www.smartlead.ai/pricing,Smartlead lists verification credits,noopener noreferrer
-A032,https://www.jasper.ai/pricing,"pricing page lists Jasper IQ (Brand Voices, Knowledge, Audiences, a Style Guide and Visual Guidelines), more than 100 marketing agents, Remix for channel adaptation, an image suite and support for more than 30 languages",noopener noreferrer
+A051,https://instantly.ai/pricing,$37.60 a month,noopener noreferrer
+A051,https://help.instantly.ai/en/articles/10273259-instantly-plans-overview,plans overview,noopener noreferrer
+A051,https://instantly.ai/pricing,Instantly says,noopener noreferrer
+A051,https://helpcenter.smartlead.ai/en/articles/439-smartlead-pricing-plans,plan descriptions,noopener noreferrer
+A051,https://help.instantly.ai/en/articles/10391901-sisr-system-server-ip-sharding-and-rotation-system,server and IP rotation system (SISR),noopener noreferrer
+A051,https://helpcenter.smartlead.ai/en/articles/263-smartinfra-what-it-is-and-how-to-get-started-formerly-smartservers,"SmartInfra, with a single dedicated-IP option at $39 a month",noopener noreferrer
+A051,https://help.instantly.ai/en/articles/6576561-how-to-manage-unibox-best-practices-for-replying-to-leads,Unibox is preview-only,noopener noreferrer
+A051,https://help.instantly.ai/en/articles/11364248-supersearch,Lead Finder (formerly SuperSearch),noopener noreferrer
+A051,https://help.instantly.ai/en/articles/11381241-data-credit-system,monthly-plan credits expire two months after purchase,noopener noreferrer
+A032,https://www.jasper.ai/pricing,"pricing page lists Jasper IQ (Brand Voices, Knowledge, Audiences, a Style Guide and Visual Guidelines), more than 100 marketing agents and an image suite",noopener noreferrer
+A032,https://www.jasper.ai/pricing,pricing page offers a 7-day free trial,noopener noreferrer
+A032,https://help.jasper.ai/hc/en-us/articles/18618709412123-Annual-Plans,Business plans begin with a 12-month commitment,noopener noreferrer
 A032,https://www.jasper.ai/pricing,"includes 2 Brand Voices, 5 Knowledge assets and 3 Audiences",noopener noreferrer
-A032,https://writer.com/,writer.com,noopener noreferrer
+A032,https://writer.com/plans/,writer.com/plans,noopener noreferrer
 A032,https://www.typeface.ai/,typeface.ai,noopener noreferrer
 A032,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
 A032,https://chatgpt.com/pricing,chatgpt.com/pricing,noopener noreferrer
@@ -3823,28 +3869,44 @@ A032,https://workspace.google.com/pricing,workspace.google.com,noopener noreferr
 A032,https://www.copy.ai/prices,copy.ai/prices,noopener noreferrer
 A032,https://writesonic.com/pricing,writesonic.com/pricing,noopener noreferrer
 A032,https://www.grammarly.com/plans,grammarly.com/plans,noopener noreferrer
-A032,https://writer.com/,Writer's official site,noopener noreferrer
+A032,https://writer.com/plans/,"plans page lists a Starter plan billed per seat, monthly or annually, for up to 5 users with a 14-day free trial, and an Enterprise plan on a credit-based model",noopener noreferrer
+A032,https://support.writer.com/article/244-how-to-use-knowledge-graph,"Knowledge Graph, its shared company-knowledge layer, is available on Starter and Enterprise",noopener noreferrer
 A032,https://www.typeface.ai/,Typeface's official site,noopener noreferrer
-A032,https://claude.com/pricing,"pricing page lists Team standard seats at $20 per seat a month billed annually or $25 monthly, for 2 to 150 seats",noopener noreferrer
-A032,https://chatgpt.com/pricing,ChatGPT's pricing page,noopener noreferrer
-A032,https://workspace.google.com/pricing,Google Workspace pricing,noopener noreferrer
-A032,https://www.grammarly.com/plans,Grammarly's plans page,noopener noreferrer
+A032,https://claude.com/pricing,"pricing page lists Team standard seats at $25 per seat a month billed monthly or $20 billed annually, for 2 to 150 seats, with project sharing on Team and no model training on Team data by default",noopener noreferrer
+A032,https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business,"standard Business seats at $25 per user a month billed monthly, with a minimum of two paid seats",noopener noreferrer
+A032,https://help.openai.com/en/articles/10169521-projects-in-chatgpt,Projects can be shared on Business,noopener noreferrer
+A032,https://help.openai.com/en/articles/11084440-images-in-chatgpt,image creation is available on all tiers,noopener noreferrer
+A032,https://openai.com/enterprise-privacy/,doesn't train on business data by default,noopener noreferrer
+A032,https://help.openai.com/en/articles/8554407-gpts-in-chatgpt,"planning to retire custom GPTs in favour of plugins, with standard retirement scheduled for 11 December 2026",noopener noreferrer
+A032,https://knowledge.workspace.google.com/admin/getting-started/editions/compare-business-editions,"Business Standard at $14 per user a month on an annual plan or $16.80 on the flexible plan, with Gemini in Drive, Docs, Sheets and Slides",noopener noreferrer
+A032,https://support.google.com/a/answer/16460551,share Gems inside the organisation,noopener noreferrer
+A032,https://support.grammarly.com/hc/en-us/articles/115000090011-How-much-does-Grammarly-Pro-cost,Pro at $30 per member a month billed monthly or $144 a year billed annually,noopener noreferrer
+A032,https://www.grammarly.com/business/styleguide,Pro is limited to one style guide while Enterprise allows unlimited,noopener noreferrer
 A032,https://www.copy.ai/prices,"Chat plan is $29 a month billed monthly or $24 billed annually for 5 seats, and workflow credits start on Growth at $1,000 a month billed $12,000 a year",noopener noreferrer
 A032,https://writesonic.com/pricing,"starts at $79 a month billed annually for one user, 15 AI articles a month and one writing style; Growth at $399 includes three users and ten writing styles",noopener noreferrer
+A032,https://docs.writesonic.com/docs/different-subscription-plans-of-writesonic,docs list different article allowances for the same plans,noopener noreferrer
 A032,https://www.jasper.ai/pricing,versions going back 7 days,noopener noreferrer
 A031,https://www.jasper.ai/pricing,"pricing page describes ""Jasper IQ""",noopener noreferrer
+A031,https://help.jasper.ai/hc/en-us/articles/46644376016923-Credits-Based-Pricing,a platform fee plus a shared pool of credits,noopener noreferrer
 A031,https://www.copy.ai/prices,pricing page sells a Chat plan and a ladder of workflow plans,noopener noreferrer
 A031,https://writesonic.com/pricing,pricing page leads with prompt tracking across AI platforms,noopener noreferrer
 A031,https://www.jasper.ai/pricing,jasper.ai/pricing,noopener noreferrer
 A031,https://www.copy.ai/prices,copy.ai/prices,noopener noreferrer
 A031,https://writesonic.com/pricing,writesonic.com/pricing,noopener noreferrer
 A031,https://www.jasper.ai/pricing,"caps you at 2 Brand Voices, 5 Knowledge assets and 3 Audiences",noopener noreferrer
+A031,https://help.jasper.ai/hc/en-us/articles/18618717151515-Signing-in-with-SSO,help center confirms SSO is Business-only,noopener noreferrer
 A031,https://writesonic.com/pricing,"1, 5 or 10 writing styles on Starter, Basic and Growth",noopener noreferrer
 A031,https://www.copy.ai/prices,"Chat plan lists 5 seats, unlimited words in chat and models from OpenAI, Anthropic and Gemini",noopener noreferrer
 A031,https://www.copy.ai/prices,"Growth plan is $1,000 a month billed $12,000 a year, with 75 seats and 20,000 workflow credits a month",noopener noreferrer
-A031,https://writesonic.com/pricing,"track 50, 100 or 200 prompts and include 15, 25 or 50 AI articles a month",noopener noreferrer
+A031,https://writesonic.com/pricing,"track 50, 100 or 200 prompts",noopener noreferrer
+A031,https://docs.writesonic.com/docs/different-subscription-plans-of-writesonic,plan documentation,noopener noreferrer
 A031,https://writesonic.com/pricing,$50-per-user add-on,noopener noreferrer
+A031,https://www.copy.ai/prices,pricing page gives no fixed credit cost per workflow run,noopener noreferrer
+A031,https://docs.writesonic.com/docs/fair-usage-policy,fair usage policy,noopener noreferrer
 A031,https://claude.com/pricing,"pricing page lists Claude Team standard seats at $20 per seat a month billed annually or $25 billed monthly, for teams of 2 to 150",noopener noreferrer
+A031,https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business,"help center lists ChatGPT Business standard seats at $25 per user a month on monthly billing, with a two-seat minimum",noopener noreferrer
+A031,https://help.jasper.ai/hc/en-us/articles/46644376016923-Credits-Based-Pricing,Business plans start with a 12-month commitment,noopener noreferrer
+A031,https://writesonic.com/,7-day free trial that needs no credit card,noopener noreferrer
 A054,https://www.klaviyo.com/platform/how-klaviyo-pricing-works,how Klaviyo pricing works,noopener noreferrer
 A054,https://www.omnisend.com/pricing/,See official pricing,noopener noreferrer
 A054,https://www.drip.com/pricing,See official pricing,noopener noreferrer
@@ -3905,19 +3967,23 @@ A019,https://www.brightlocal.com/,BrightLocal,noopener noreferrer
 A019,https://whitespark.ca/,Whitespark,noopener noreferrer
 A019,https://seranking.com/,SE Ranking,noopener noreferrer
 A019,https://www.semrush.com/,Semrush,noopener noreferrer
+A015,https://www.semrush.com/kb/1624-semrush-one-vs-seo-toolkit,Semrush One bundles the SEO Toolkit with the AI Visibility Toolkit,noopener noreferrer
 A015,https://seranking.com/subscription.html,SE Ranking subscription page,noopener noreferrer
 A015,https://www.semrush.com/pricing/seo-ai-search/,Semrush SEO and AI search pricing,noopener noreferrer
-A015,https://seranking.com/subscription.html,Core at $103.20 a month billed annually,noopener noreferrer
-A015,https://www.semrush.com/pricing/seo-ai-search/,the SEO plan at $117.33 a month billed annually,noopener noreferrer
-A015,https://seranking.com/agency-pack.html,"white-label interface, your own domain, reports sent from your own SMTP server, client view-only seats and unlimited scheduled reports",noopener noreferrer
-A015,https://help.seranking.com/hc/en-us/articles/22120452776476-AI-Search-Add-on,200 checks a month for $89 on monthly billing,noopener noreferrer
-A015,https://www.semrush.com/pricing/seo-ai-search/,Starter adds 50 tracked prompts and Pro+ 100,noopener noreferrer
-A015,https://www.semrush.com/kb/34-my-reports,bought per report,noopener noreferrer
-A015,https://www.semrush.com/pricing/seo-ai-search/,listed at $90 a month as a separate add-on,noopener noreferrer
-A015,https://seranking.com/subscription.html,"three locations included on Core and Growth, with extra locations from $18.40",noopener noreferrer
+A015,https://seranking.com/subscription.html,subscription page,noopener noreferrer
+A015,https://seranking.com/faq.html,FAQ (Agency Pack terms),noopener noreferrer
+A015,https://www.semrush.com/pricing/seo-ai-search/,pricing page,noopener noreferrer
+A015,https://www.semrush.com/kb/1409-user-management,user pricing article,noopener noreferrer
+A015,https://www.semrush.com/kb/34-my-reports,My Reports article,noopener noreferrer
+A015,https://seranking.com/faq.html,"a white-label interface on your own domain, reports sent from your own SMTP server and view-only client seats",noopener noreferrer
+A015,https://help.seranking.com/hc/en-us/articles/22120452776476-AI-Search-Add-on,"200 checks a month for $89 on monthly billing, where one check is one prompt on one AI engine",noopener noreferrer
+A015,https://www.semrush.com/kb/1493-ai-visibility-toolkit,50 prompts tracked daily on Starter and 100 on Pro+,noopener noreferrer
+A015,https://www.semrush.com/kb/34-my-reports,"a Base Report at $10 a month and the white-label Pro Report at $20 a month, each purchased individually",noopener noreferrer
+A015,https://www.semrush.com/pricing/seo-ai-search/,Lead Generation at $90 a month as a separate add-on,noopener noreferrer
+A015,https://help.seranking.com/hc/en-us/articles/18508323416092-Local-Marketing-Plans,"Core, Growth and Enterprise each include three Local Marketing locations, with more available to buy",noopener noreferrer
 A015,https://www.semrush.com/pricing/local/,"Local Base at $30 and Local Pro at $60 per location per month, billed annually",noopener noreferrer
 A015,https://seranking.com/subscription.html,every plan starts with a 14-day free trial,noopener noreferrer
-A015,https://www.semrush.com/kb/1011-subscriptions,7-day free trials for its toolkits,noopener noreferrer
+A015,https://www.semrush.com/kb/1011-subscriptions,a 7-day free trial on its SEO and AI search plans,noopener noreferrer
 A012,https://www.semrush.com/pricing/seo-ai-search/,"Semrush One Pro+ adds multi-location and device tracking plus SEO historical data back to 2012, neither of which Starter includes",noopener noreferrer
 A012,https://www.semrush.com/pricing/seo-ai-search/,"Semrush One Starter is $199 a month for 5 websites and 500 tracked keywords; a sixth client means Pro+ at $299 for 15 websites and 1,500 keywords",noopener noreferrer
 A012,https://www.semrush.com/kb/1409-user-management,additional users at $45 a month on Starter and $80 on Pro+,noopener noreferrer
@@ -4010,15 +4076,21 @@ A159,https://medusajs.com/,Medusa,noopener noreferrer
 A159,https://saleor.io/,Saleor,noopener noreferrer
 A014,https://surferseo.com/pricing/,"pricing page lists Discovery at $49, Standard at $99, Pro at $182 and Peace of Mind at $299 a month on yearly billing",noopener noreferrer
 A014,https://docs.surferseo.com/en/articles/6758676-annual-plans-limits-allocation,"the year's limits upfront in one pool, and unused limits do not roll over",noopener noreferrer
-A014,https://docs.surferseo.com/en/articles/12944161-fair-usage-policy,"fair usage policy sets 6,000 documents a year on that annual plan",noopener noreferrer
-A014,https://docs.surferseo.com/en/articles/7925007-surfer-api-add-on-purchase,"$29-a-month add-on, included free only on Enterprise",noopener noreferrer
-A014,https://neuronwriter.com/faqs/how-many-pricing-plans-does-neuronwriter-have/,"Bronze at $23 a month for 25 content analyses and 2 projects, Silver at $45 for 50 and 5 projects, and Gold at $69 for 75 and 10 projects",noopener noreferrer
-A014,https://www.frase.io/pricing,"Starter at $49 a month for 10 articles, Professional at $129 for 40 articles with 3 seats and 5 sites, and Scale at $299 for 100 articles",noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/12944161-fair-usage-policy,"fair usage policy caps it at 500 documents a month, or 6,000 a year on the annual plan",noopener noreferrer
+A014,https://surferseo.com/pricing/,"SSO, custom limits and white-label options",noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/12944181-how-does-the-surfer-trial-work,7-day trial of the Pro plan that converts to the plan you chose unless you cancel,noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/7545943-pricing-faq,pricing FAQ says annual billing is up to 17% cheaper than monthly,noopener noreferrer
+A014,https://docs.surferseo.com/en/articles/12944180-subscription-migration-faq,migration FAQ says add-ons are no longer sold separately and lists API access with Peace of Mind and Enterprise,noopener noreferrer
+A014,https://neuronwriter.com/faqs/how-many-pricing-plans-does-neuronwriter-have/,"Bronze at $23 a month for 25 content analyses and 2 projects, Silver at $45 for 50 and 5 projects, and Gold at $69 for 75 and 10 projects, or $19, $37 and $57 a month paid annually",noopener noreferrer
+A014,https://neuronwriter.com/pricing-neuron/,pricing page adds unlimited team members on Gold,noopener noreferrer
+A014,https://neuronwriter.com/faqs/does-neuronwriter-have-a-trial-is-it-possible-to-test-the-tool-before-purchase/,7-day trial with Gold features,noopener noreferrer
+A014,https://www.frase.io/pricing,"pricing page lists Starter at $49 a month ($39 yearly) for 10 articles with 1 seat and 1 site, Professional at $129 ($103 yearly) with 3 seats and 5 sites, and Scale at $299 ($239 yearly) for 100 articles",noopener noreferrer
 A014,https://www.clearscope.io/pricing,"Essentials at $129 a month with unlimited users, 20 monthly drafts and 20 topic explorations, and Business at $399",noopener noreferrer
 A014,https://www.clearscope.io/support/how-do-plan-addons-work,add-ons are billed automatically once you exceed plan credits,noopener noreferrer
-A014,https://www.marketmuse.com/pricing/,MarketMuse meters plans by queries and lists a free tier,noopener noreferrer
-A014,https://www.semrush.com/pricing/content/,"Content Toolkit from $60 a month, with a Content Optimizer, SEO brief generator, unlimited standard articles and 5 SEO-boosted articles a month",noopener noreferrer
-A014,https://seranking.com/subscription.html,SE Ranking subscription page,noopener noreferrer
+A014,https://www.marketmuse.com/pricing/,"pricing page lists a free plan with one user and 10 queries a month, plus trials of paid plans",noopener noreferrer
+A014,https://www.semrush.com/pricing/content/,Content Toolkit at $60 a month billed annually,noopener noreferrer
+A014,https://www.semrush.com/kb/1540-content-optimizer,"Content Optimizer that checks keyword coverage, readability and tone",noopener noreferrer
+A014,https://seranking.com/subscription.html,subscription page lists 25 content articles on Core at $129 a month and 50 on Growth at $279,noopener noreferrer
 A113,https://xtm.cloud/,XTM Cloud,noopener noreferrer
 A113,https://www.memoq.com/,memoQ,noopener noreferrer
 A113,https://www.trados.com/,Trados,noopener noreferrer
@@ -4079,14 +4151,27 @@ A034,https://writesonic.com/pricing,$50 per user a month,noopener noreferrer
 A034,https://surferseo.com/pricing/,surferseo.com,noopener noreferrer
 A034,https://www.clearscope.io/pricing,clearscope.io,noopener noreferrer
 A034,https://www.frase.io/pricing,frase.io,noopener noreferrer
-A034,https://www.tryprofound.com/,tryprofound.com,noopener noreferrer
+A034,https://www.tryprofound.com/pricing,tryprofound.com,noopener noreferrer
 A034,https://peec.ai/pricing,peec.ai,noopener noreferrer
-A034,https://www.semrush.com/prices/,semrush.com,noopener noreferrer
+A034,https://www.semrush.com/pricing/seo-ai-search/,semrush.com,noopener noreferrer
 A034,https://ahrefs.com/pricing,ahrefs.com,noopener noreferrer
+A034,https://chatgpt.com/pricing/,chatgpt.com/pricing,noopener noreferrer
 A034,https://claude.com/pricing,claude.com/pricing,noopener noreferrer
 A034,https://www.jasper.ai/pricing,jasper.ai/pricing,noopener noreferrer
-A034,https://claude.com/pricing,"pricing page lists Claude Pro at $17 a month on annual billing ($200 up front) or $20 monthly, and Team standard seats at $20 per seat a month billed annually for 2 to 150 people",noopener noreferrer
-A034,https://www.jasper.ai/pricing,costs $59 per seat a month billed yearly and holds 2 Brand Voices and 5 Knowledge assets,noopener noreferrer
+A034,https://surferseo.com/pricing/,"pricing page lists Discovery at $49, Standard at $99 and Pro at $182 a month billed yearly",noopener noreferrer
+A034,https://docs.surferseo.com/en/articles/7545943-pricing-faq,help center describes a 7-day free trial of Pro,noopener noreferrer
+A034,https://www.clearscope.io/pricing,"Essentials is $129 a month with unlimited users, 20 drafts a month and a 14-day free trial",noopener noreferrer
+A034,https://www.frase.io/pricing,"Starter is $49 a month for 10 articles, one seat and one site, and Professional is $129 with three seats, with lower prices billed yearly",noopener noreferrer
+A034,https://peec.ai/pricing,"pricing page lists Starter at $95 a month for 50 prompts and Pro at $245 for 150, with unlimited users",noopener noreferrer
+A034,https://www.tryprofound.com/pricing,pricing page describes a time-limited trial and custom Enterprise packages,noopener noreferrer
+A034,https://www.semrush.com/pricing/seo-ai-search/,"Starter is $199 a month, or $165.17 a month billed annually, with 50 prompts tracked daily",noopener noreferrer
+A034,https://ahrefs.com/pricing,pricing page lists Brand Radar as a separate product from $199 a month,noopener noreferrer
+A034,https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus,Plus at $20 a month,noopener noreferrer
+A034,https://help.openai.com/en/articles/8792536-managing-billing-and-seats-in-chatgpt-business,"Business standard seats at $25 per user a month on monthly billing, with a two-seat minimum",noopener noreferrer
+A034,https://help.openai.com/en/articles/11084440-images-in-chatgpt,available on all tiers,noopener noreferrer
+A034,https://help.openai.com/en/articles/8554407-gpts-in-chatgpt,plans to retire in favor of plugins,noopener noreferrer
+A034,https://claude.com/pricing,"pricing page lists Pro at $20 monthly or $17 a month billed annually ($200 up front), and Team standard seats at $20 per seat a month annually or $25 monthly, for 2 to 150 people",noopener noreferrer
+A034,https://www.jasper.ai/pricing,"costs $59 per seat a month billed yearly or $69 monthly, and holds 2 Brand Voices and 5 Knowledge assets",noopener noreferrer
 A091,https://zapier.com/pricing,Zapier's pricing page,noopener noreferrer
 A091,https://www.make.com/en/pricing,Make's pricing page,noopener noreferrer
 A091,https://n8n.io/pricing/,n8n's pricing page,noopener noreferrer
