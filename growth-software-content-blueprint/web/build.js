@@ -44,6 +44,29 @@ const hash = f => crypto.createHash('md5').update(fs.readFileSync(path.join(WEB,
 const V = { css: hash('style.css'), js: hash('site.js') };
 
 const byId = Object.fromEntries(pages.map(p => [p.id, p]));
+// Author profiles. Only facts the author or owner supplied; never invented credentials.
+const AUTHORS = JSON.parse(fs.readFileSync(path.join(WEB, 'authors.json'), 'utf8'));
+const AUTHOR_SLUG = Object.keys(AUTHORS).find(k => AUTHORS[k].name === SITE.author);
+const AUTHOR = AUTHOR_SLUG ? { slug: AUTHOR_SLUG, url: `/author/${AUTHOR_SLUG}/`, ...AUTHORS[AUTHOR_SLUG] } : null;
+const initials = n => n.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
+const PUBLISHER = { '@type': 'Organization', name: SITE.brand, url: SITE.url + '/', logo: { '@type': 'ImageObject', url: SITE.url + '/favicon.svg' } };
+const personLd = () => AUTHOR ? { '@type': 'Person', name: AUTHOR.name, url: SITE.url + AUTHOR.url, jobTitle: AUTHOR.role,
+  ...(Object.keys(AUTHOR.links).length ? { sameAs: Object.values(AUTHOR.links) } : {}) } : { '@type': 'Organization', name: SITE.author };
+// Adds an Article node (headline, author, publisher, dates) to the page's existing @graph.
+function withArticle(jsonld, p, d, canonical) {
+  let g; try { g = JSON.parse(jsonld); } catch (e) { return jsonld; }
+  const graph = g['@graph'] || [g];
+  graph.unshift({ '@type': 'Article', '@id': canonical + '#article', headline: d.h1, description: d.description,
+    mainEntityOfPage: canonical, image: `${SITE.url}/og/${slug(p)}.svg`, datePublished: cfg.draft_date, dateModified: cfg.draft_date,
+    author: personLd(), publisher: PUBLISHER });
+  return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 1);
+}
+function authorBox() {
+  if (!AUTHOR) return '';
+  return `<aside class="author-box" aria-label="About the author"><span class="author-avatar" aria-hidden="true">${initials(AUTHOR.name)}</span>` +
+    `<div><p class="author-k">Written and researched by</p><p class="author-name"><a href="${AUTHOR.url}">${esc(AUTHOR.name)}</a> · <span>${esc(AUTHOR.role)}</span></p>` +
+    `<p class="author-bio">${esc(AUTHOR.short_bio)}</p></div></aside>`;
+}
 const hubs = pages.filter(p => !p.counted);
 const hubByPath = Object.fromEntries(hubs.map(h => [h.public_path, h]));
 const articles = pages.filter(p => p.counted);
@@ -230,15 +253,16 @@ function renderPage(p, d) {
       `<a class="sec-more" href="${p.parent_hub}">All ${esc(HUB_META[p.parent_hub][0])} guides &rarr;</a></div>` +
       `<div class="blog-grid">${picks.map(blogCard).join('')}</div></section>`;
   }
-  return head({ title: d.title, description: d.description, canonical, jsonld: d.jsonld, ogImage: `/og/${slug(p)}.svg` }) +
+  return head({ title: d.title, description: d.description, canonical, jsonld: p.counted ? withArticle(d.jsonld, p, d, canonical) : d.jsonld, ogImage: `/og/${slug(p)}.svg` }) +
 `<div class="page-hero"><div class="container">
   <nav class="crumbs" aria-label="Breadcrumb">${crumbs.join('<span class="crumb-sep">›</span>')}</nav>
   <h1>${esc(d.h1)}</h1>
   ${d.deck ? `<p class="sub">${d.deck}</p>` : ''}
-  <p class="page-meta">${pill}<span>${KIND[p.page_type]}</span><span>By ${esc(SITE.author)}</span><span>Updated <time datetime="${cfg.draft_date}">${new Date(cfg.draft_date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></span>${SITE.indexable ? '' : '<span class="draft-pill">Draft</span>'}</p>
+  <p class="page-meta">${pill}<span>${KIND[p.page_type]}</span><span>By ${AUTHOR ? `<a href="${AUTHOR.url}">${esc(AUTHOR.name)}</a>` : esc(SITE.author)}</span><span>Updated <time datetime="${cfg.draft_date}">${new Date(cfg.draft_date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></span>${SITE.indexable ? '' : '<span class="draft-pill">Draft</span>'}</p>
 </div></div>
 <div class="container content article" data-article-id="${p.id}">
 ${d.body}
+${p.counted ? authorBox() : ''}
 ${more}
 </div>
 ` + tail;
@@ -294,6 +318,31 @@ function renderHome() {
 ` + tail;
 }
 
+function renderAuthor() {
+  const canonical = SITE.url + AUTHOR.url;
+  const covers = GROUPS.flatMap(([, ps]) => ps).map(hp => `<a class="cat-tile" href="${hp}"><span class="cat-emoji" aria-hidden="true">${HUB_META[hp][1]}</span><span class="cat-name">${esc(HUB_META[hp][0])}</span></a>`).join('');
+  const recent = articles.filter(a => ['pillar-listicle', 'comparison', 'pricing-guide'].includes(a.page_type)).slice(0, 6);
+  const ld = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'ProfilePage', '@id': canonical, url: canonical, name: `${AUTHOR.name}, ${AUTHOR.role}`, mainEntity: personLd() },
+    { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url + '/' }, { '@type': 'ListItem', position: 2, name: AUTHOR.name, item: canonical }] }] };
+  const creds = AUTHOR.credentials.length ? `<h2>Background</h2><ul>${AUTHOR.credentials.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : '';
+  const links = Object.keys(AUTHOR.links).length ? `<p class="trust-row">${Object.entries(AUTHOR.links).map(([k, v]) => `<a href="${esc(v)}" rel="me noopener" target="_blank">${esc(k)}</a>`).join('')}</p>` : '';
+  return head({ title: `${AUTHOR.name}, ${AUTHOR.role}`, description: AUTHOR.short_bio.slice(0, 155).replace(/\s+\S*$/, '') + '…', canonical, jsonld: JSON.stringify(ld, null, 1), type: 'profile' }) +
+`<div class="page-hero"><div class="container">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span class="crumb-sep">›</span><span>${esc(AUTHOR.name)}</span></nav>
+  <div class="author-head"><span class="author-avatar lg" aria-hidden="true">${initials(AUTHOR.name)}</span><div><h1>${esc(AUTHOR.name)}</h1><p class="sub">${esc(AUTHOR.role)} · ${esc(SITE.brand)}</p>${links}</div></div>
+</div></div>
+<div class="container content article">
+${AUTHOR.long_bio.map(x => `<p>${esc(x)}</p>`).join('\n')}
+${creds}
+<h2>What ${esc(AUTHOR.name.split(" ")[0])} covers</h2>
+<div class="cat-tiles">${covers}</div>
+<section class="section keep-reading"><div class="sec-head"><h2>Start with these guides</h2><a class="sec-more" href="/growth-stack/">All categories &rarr;</a></div>
+<div class="blog-grid">${recent.map(blogCard).join('')}</div></section>
+</div>
+` + tail;
+}
+
 // ---------- build ----------
 function write(rel, content) {
   const f = path.join(DIST, rel);
@@ -313,11 +362,12 @@ function build() {
     if (p.page_type === 'pillar-listicle') write(`og/thumb-${slug(p)}.svg`, thumb());
   }
   write('index.html', renderHome());
+  if (AUTHOR) write(AUTHOR.url.slice(1) + 'index.html', renderAuthor());
   write('og/default.svg', cover('Growth software', SITE.tagline));
   write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f9f6e"/><stop offset="1" stop-color="#0ea5b7"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#g)"/><rect x="7" y="17" width="5" height="9" rx="1.5" fill="#fff"/><rect x="14" y="12" width="5" height="14" rx="1.5" fill="#fff"/><rect x="21" y="6" width="5" height="20" rx="1.5" fill="#fff"/></svg>');
   write('404.html', head({ title: 'Page not found', description: 'This page does not exist.', canonical: SITE.url + '/404.html', type: 'website' }) +
     `<section class="home-lead"><div class="container"><h1>Page not found</h1><p class="sub">That page doesn't exist. Try the growth stack overview instead.</p><div class="hero-ctas"><a class="btn btn-primary" href="/growth-stack/">Go to the growth stack →</a></div></div></section>\n` + tail);
-  const urls = ['/', ...pages.map(p => p.public_path)];
+  const urls = ['/', ...(AUTHOR ? [AUTHOR.url] : []), ...pages.map(p => p.public_path)];
   write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     urls.map(u => `  <url><loc>${SITE.url}${u}</loc><lastmod>${cfg.draft_date}</lastmod></url>`).join('\n') + '\n</urlset>\n');
   write('robots.txt', SITE.indexable ? `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`

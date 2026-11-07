@@ -48,3 +48,14 @@ Every page gets `<meta name="robots" content="noindex, nofollow">`, and `robots.
 - **Root:** the `growth-software-content-blueprint` folder
 
 The site is static, so there are no server functions, analytics, ads or tracking scripts. The only script is the mobile menu toggle.
+
+## Author
+
+The byline comes from `author` in `../site.config.json` (currently David Esper). The profile lives in `web/authors.json`.
+
+The build uses them to add:
+- A "Written and researched by" box on every article
+- An author page at `/author/david-esper/`
+- `Article` structured data (author, publisher, dates) alongside each page's breadcrumb and FAQ data
+
+`credentials` and `links` are empty on purpose. Fill them with real facts only, such as past roles, years in the field or a LinkedIn URL. They then appear on the author page and in the author's structured data as `sameAs`.

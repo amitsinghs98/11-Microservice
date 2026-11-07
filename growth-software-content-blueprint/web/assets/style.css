@@ -627,3 +627,13 @@ select.tool-input{flex:initial;min-width:150px}
 .keep-reading{margin-top:40px}
 .logo-text{font-weight:900;font-size:1.22rem;letter-spacing:-.02em;color:var(--ink)}
 .logo{display:inline-flex;align-items:center;gap:9px}
+.author-box{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 22px;margin:34px 0 8px}
+.author-avatar{flex:0 0 auto;display:inline-grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--grad);color:#fff;font-weight:900;font-size:1.05rem;letter-spacing:.02em}
+.author-avatar.lg{width:84px;height:84px;font-size:1.6rem}
+.author-k{margin:0;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#047857}
+.author-name{margin:2px 0 6px;font-weight:800;color:var(--ink)}
+.author-name span{font-weight:600;color:var(--muted);font-size:.92rem}
+.author-bio{margin:0;color:#334155;font-size:.94rem;line-height:1.55}
+.author-head{display:flex;gap:20px;align-items:center}
+.author-head h1{margin:0}
+@media(max-width:560px){.author-box{flex-direction:column}.author-head{flex-direction:column;align-items:flex-start}}
