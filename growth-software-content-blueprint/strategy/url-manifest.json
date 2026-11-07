@@ -2078,7 +2078,7 @@
    "source_doc_reference": "Section 10, Cluster 5, item 82",
    "source_primary_keyword": "workflow automation tools for marketing agencies",
    "physical_file_path": "site/best-workflow-automation-tools-for-marketing-agencies/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Workflow Automation Tools for Marketing Agencies"
   },
   {
@@ -2476,7 +2476,7 @@
    "source_doc_reference": "Section 10, Cluster 5, item 100",
    "source_primary_keyword": "marketing attribution tools for small business",
    "physical_file_path": "site/marketing-attribution-tools-for-small-business/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Marketing Attribution for Small Teams: Compare Tools Without False Certainty"
   },
   {
@@ -3829,7 +3829,7 @@
    "source_doc_reference": "additional-200-articles.csv row 62",
    "source_primary_keyword": "customer success platforms",
    "physical_file_path": "site/best-customer-success-platforms-for-b2b-saas-teams/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Customer Success Platforms for B2B SaaS Teams"
   },
   {
@@ -3897,7 +3897,7 @@
    "source_doc_reference": "additional-200-articles.csv row 65",
    "source_primary_keyword": "in-app messaging platforms",
    "physical_file_path": "site/best-in-app-messaging-platforms-for-saas-product-teams/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best In-App Messaging Platforms for SaaS Product Teams"
   },
   {
@@ -6493,7 +6493,7 @@
    "source_doc_reference": "additional-200-articles.csv row 182",
    "source_primary_keyword": "product analytics software for SaaS startups",
    "physical_file_path": "site/best-product-analytics-software-for-saas-startups/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Product Analytics Software for SaaS Startups"
   },
   {
@@ -6516,7 +6516,7 @@
    "source_doc_reference": "additional-200-articles.csv row 183",
    "source_primary_keyword": "feature flag management platforms",
    "physical_file_path": "site/best-feature-flag-management-platforms-for-saas-teams/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Feature Flag Management Platforms for SaaS Teams"
   },
   {
@@ -6716,7 +6716,7 @@
    "source_doc_reference": "additional-200-articles.csv row 192",
    "source_primary_keyword": "product feedback and roadmap voting software",
    "physical_file_path": "site/best-product-feedback-and-roadmap-voting-platforms/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Product Feedback and Roadmap Voting Platforms"
   },
   {
@@ -6739,7 +6739,7 @@
    "source_doc_reference": "additional-200-articles.csv row 193",
    "source_primary_keyword": "product roadmap prioritization software",
    "physical_file_path": "site/best-product-roadmap-prioritization-software-for-saas-teams/index.html",
-   "status": "drafted",
+   "status": "QA-passed",
    "final_h1": "Best Product Roadmap Prioritization Software for SaaS Teams"
   },
   {
