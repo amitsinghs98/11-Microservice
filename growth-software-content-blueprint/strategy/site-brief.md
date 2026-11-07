@@ -4,8 +4,8 @@ Input for the `seo-content-writer` workflow. **Derived from the owner's strategy
 
 ## Business
 
-- **Brand:** Not supplied (placeholder `BRAND_NAME`).
-- **Domain:** Not supplied (placeholder `https://YOUR-DOMAIN.example`).
+- **Brand:** InsightToolz (set 7 November 2026).
+- **Domain:** https://insighttoolz.com (set 7 November 2026).
 - **What it is:** An independent growth-software discovery and comparison publication. It is editorial, not a review marketplace.
 - **Positioning (from the DOCX):** "An independent growth-software discovery platform that helps agencies and lean business teams compare the tools behind organic acquisition, content production, outreach, CRM, automation, and measurement—using use-case fit, clear pricing context, and honest limitations."
 - **Core promise:** Help buyers choose growth software through clear use-case comparisons, real pricing context, practical trade-offs and independent editorial judgment.

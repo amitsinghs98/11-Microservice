@@ -41,6 +41,8 @@ CANNIBAL = [
 
 def main():
     pages = json.load(open(os.path.join(ROOT, "strategy", "url-manifest.json")))["pages"]
+    cfg = json.load(open(os.path.join(ROOT, "site.config.json")))
+    brand, domain = html.escape(cfg["brand_name"]), cfg["domain"].rstrip("/")
     by_id = {p["id"]: p for p in pages}
     hubs = [p for p in pages if not p["counted"]]
     # ---------- site/index.html ----------
@@ -48,10 +50,10 @@ def main():
     w = out.write
     w('<!doctype html>\n<html lang="en">\n<head>\n  <meta charset="utf-8">\n'
       '  <meta name="viewport" content="width=device-width, initial-scale=1">\n'
-      '  <title>Content library index | BRAND_NAME</title>\n'
+      f'  <title>Content library index | {brand}</title>\n'
       '  <meta name="description" content="Plain directory of every growth-software buying guide, comparison, alternatives page, pricing guide and how-to guide in the draft content library.">\n'
       '  <meta name="robots" content="noindex">\n'
-      '  <link rel="canonical" href="https://YOUR-DOMAIN.example/">\n</head>\n<body>\n  <main id="main-content">\n'
+      f'  <link rel="canonical" href="{domain}/">\n</head>\n<body>\n  <main id="main-content">\n'
       '    <h1>Content library index</h1>\n'
       '    <p>An unstyled directory of the draft content library for internal navigation and QA. It is not a homepage. '
       f'It lists {sum(p["counted"] for p in pages)} articles in five clusters, plus {len(hubs)} hub pages.</p>\n'

@@ -30,7 +30,7 @@ Decisions made where the source DOCX or the build brief was silent or conflictin
 
 ## Brand, authorship and metadata
 
-15. **Brand and domain.** Neither was supplied. The placeholders `BRAND_NAME` and `https://YOUR-DOMAIN.example` are set in `site.config.json` and applied with `scripts/apply_config.py`.
+15. **Brand and domain.** The owner set them on 7 November 2026: **InsightToolz** at **https://insighttoolz.com**. They live in `site.config.json` and were applied to every page with `scripts/apply_config.py`, which replaced the earlier `BRAND_NAME` / `YOUR-DOMAIN.example` placeholders.
 16. **Authors.** No author names, bios or credentials were invented. Pages show only a draft-prepared date (4 November 2026, the actual drafting date). Add bylines in WordPress.
 17. **Structured data.** Each page has a JSON-LD BreadcrumbList and (for articles) a FAQPage matching the visible FAQ. No `Article` markup, because author and publisher are unknown; add it through the SEO plugin at launch. Never add `Review`/`AggregateRating` markup.
 18. **Robots.** `site/robots.txt` allows crawling (the brief: "disallow nothing by default"). Review it at launch. `site/index.html` carries `noindex` because it is a QA directory, not a homepage.

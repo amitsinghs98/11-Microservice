@@ -26,7 +26,7 @@ All URLs are flat (`strategy/url-architecture.md`), which maps directly to WordP
 | `<h1>` | Post title |
 | `<header>` deck paragraph (the paragraph after the `<h1>`) | Excerpt |
 | Everything inside `<article>` after `</header>` | Post body (Custom HTML or Classic block, or convert to blocks) |
-| `<title>`, without the ` \| BRAND_NAME` suffix | SEO title (Yoast/Rank Math) |
+| `<title>`, without the ` \| InsightToolz` suffix | SEO title (Yoast/Rank Math) |
 | `<meta name="description">` | SEO meta description |
 | `<link rel="canonical">` | Leave the SEO plugin's self-canonical **unless** the URL differs. Don't output two canonicals. |
 | `data-article-id` | Custom field `source_article_id` |

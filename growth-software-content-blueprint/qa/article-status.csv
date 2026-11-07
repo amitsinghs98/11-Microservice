@@ -28,14 +28,14 @@ A010,/best-seo-reporting-software/,QA-passed,True,1871,True,9,14,8,,
 A011,/semrush-vs-ahrefs/,QA-passed,True,2273,True,14,24,2,,
 A012,/semrush-alternatives/,QA-passed,True,2271,True,11,24,5,,
 A013,/ahrefs-alternatives/,QA-passed,True,2341,True,11,23,5,,
-A014,/surfer-seo-alternatives/,QA-passed,True,2207,True,8,17,2,,
+A014,/surfer-seo-alternatives/,QA-passed,True,2207,True,8,17,0,,
 A015,/se-ranking-vs-semrush/,QA-passed,True,1999,True,10,17,2,,
 A016,/best-free-seo-tools/,QA-passed,True,2261,True,11,16,13,,
 A017,/seo-software-pricing/,QA-passed,True,2397,True,10,20,4,,
 A018,/seo-tool-stack/,QA-passed,True,1631,True,22,3,6,,
 A019,/rank-tracking-for-local-seo-agency/,QA-passed,True,1571,True,9,7,8,,primary keyword not verbatim in H1 (H1 kept as source title)
 A020,/seo-software-roi/,QA-passed,True,1495,True,9,0,4,,primary keyword not verbatim in H1 (H1 kept as source title)
-A021,/best-ai-writing-tools/,QA-passed,True,2681,True,13,35,8,,
+A021,/best-ai-writing-tools/,QA-passed,True,2681,True,13,35,2,,
 A022,/best-ai-copywriting-software/,QA-passed,True,2188,True,9,23,6,,
 A023,/best-ai-content-brief-tools/,QA-passed,True,2375,True,8,23,6,,primary keyword not verbatim in H1 (H1 kept as source title)
 A024,/best-ai-blog-writing-tools/,QA-passed,True,2335,True,8,25,6,,
@@ -45,17 +45,17 @@ A027,/best-ai-video-editing-tools/,QA-passed,True,2068,True,8,22,15,,
 A028,/best-ai-image-generation-tools-for-marketing/,QA-passed,True,2118,True,9,16,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A029,/best-ai-presentation-tools/,QA-passed,True,2057,True,8,17,8,,
 A030,/chatgpt-vs-claude-for-marketing/,QA-passed,True,2773,True,8,27,2,,
-A031,/jasper-vs-copy-ai-vs-writesonic/,QA-passed,True,2491,True,11,21,0,,
-A032,/jasper-alternatives/,QA-passed,True,2232,True,8,29,5,,
-A033,/copy-ai-alternatives/,QA-passed,True,2105,True,10,26,4,,
-A034,/writesonic-alternatives/,QA-passed,True,2317,True,11,26,7,,
+A031,/jasper-vs-copy-ai-vs-writesonic/,QA-passed,True,2491,True,11,21,2,,
+A032,/jasper-alternatives/,QA-passed,True,2232,True,8,29,2,,
+A033,/copy-ai-alternatives/,QA-passed,True,2105,True,10,26,5,,
+A034,/writesonic-alternatives/,QA-passed,True,2317,True,11,26,1,,
 A035,/best-free-ai-writing-tools/,QA-passed,True,1832,True,7,22,6,,
 A036,/best-content-repurposing-tools-ai/,QA-passed,True,2055,True,11,20,8,,primary keyword not verbatim in H1 (H1 kept as source title)
-A037,/ai-content-tool-pricing/,QA-passed,True,2170,True,11,18,1,,
+A037,/ai-content-tool-pricing/,QA-passed,True,2170,True,11,18,6,,
 A038,/ai-content-workflow/,QA-passed,True,1441,True,7,3,1,,
 A039,/evaluate-ai-content-quality/,QA-passed,True,1211,True,7,2,3,,
 A040,/best-ai-marketing-tools-for-agencies/,QA-passed,True,1688,True,14,15,14,,primary keyword not verbatim in H1 (H1 kept as source title)
-A041,/best-email-marketing-software/,QA-passed,True,2879,True,15,22,10,,
+A041,/best-email-marketing-software/,QA-passed,True,2879,True,15,22,7,,
 A042,/best-ecommerce-email-marketing-software/,QA-passed,True,1871,True,8,14,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A043,/best-cold-email-software/,QA-passed,True,1917,True,11,15,11,,
 A044,/best-sales-engagement-platforms/,QA-passed,True,1765,True,8,14,8,,
@@ -65,7 +65,7 @@ A047,/best-newsletter-platforms-for-b2b/,QA-passed,True,2046,True,5,14,13,,prima
 A048,/best-lifecycle-email-automation-software/,QA-passed,True,1853,True,9,16,12,,primary keyword not verbatim in H1 (H1 kept as source title)
 A049,/best-transactional-email-services/,QA-passed,True,1929,True,8,14,14,,
 A050,/best-email-testing-tools/,QA-passed,True,1798,True,6,12,12,,
-A051,/instantly-vs-smartlead/,QA-passed,True,2230,True,9,11,4,,
+A051,/instantly-vs-smartlead/,QA-passed,True,2230,True,9,11,2,,
 A052,/mailchimp-alternatives/,QA-passed,True,1904,True,10,9,11,,
 A053,/hubspot-marketing-hub-vs-activecampaign/,QA-passed,True,2146,True,10,5,8,,
 A054,/klaviyo-alternatives/,QA-passed,True,2167,True,9,8,11,,
@@ -76,7 +76,7 @@ A058,/choose-email-marketing-software/,QA-passed,True,1442,True,9,4,1,,
 A059,/compliant-b2b-outreach-stack/,QA-passed,True,1555,True,10,4,2,,
 A060,/email-marketing-roi-and-deliverability/,QA-passed,True,1563,True,8,7,1,,
 A061,/best-crm-software-for-small-business/,QA-passed,True,2942,True,10,17,7,,
-A062,/best-crm-for-marketing-agencies/,QA-passed,True,1988,True,7,13,6,,primary keyword not verbatim in H1 (H1 kept as source title)
+A062,/best-crm-for-marketing-agencies/,QA-passed,True,1988,True,7,13,6,,primary keyword not verbatim in H1 (H1 kept as source title) | title length 77 (target 50-60 + ' | brand')
 A063,/best-crm-for-b2b-saas/,QA-passed,True,2124,True,8,12,5,,
 A064,/best-b2b-lead-generation-software/,QA-passed,True,2200,True,11,16,8,,primary keyword not verbatim in H1 (H1 kept as source title)
 A065,/best-b2b-contact-database-tools/,QA-passed,True,2157,True,9,14,8,,primary keyword not verbatim in H1 (H1 kept as source title)

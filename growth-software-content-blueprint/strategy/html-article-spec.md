@@ -26,9 +26,9 @@ Write each page to its `physical_file_path` from `strategy/url-manifest.json`. T
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{50–60 characters before the suffix} | BRAND_NAME</title>
+  <title>{50–60 characters before the suffix} | {brand_name}</title>
   <meta name="description" content="{120–160 characters, unique, contains the primary keyword}">
-  <link rel="canonical" href="https://YOUR-DOMAIN.example{public_path}">
+  <link rel="canonical" href="{domain}{public_path}">
   <script type="application/ld+json">
   {JSON-LD: see "Schema" below}
   </script>
@@ -112,7 +112,7 @@ A comparison table with verifiable columns only: best for, pricing model, one ma
 
 There is one `<script type="application/ld+json">` block with an `@graph` containing:
 
-1. `BreadcrumbList`: Home (`https://YOUR-DOMAIN.example/`) → hub (`parent_hub`, using the hub's manifest title) → this page.
+1. `BreadcrumbList`: Home (`{domain}/`, currently https://insighttoolz.com/) → hub (`parent_hub`, using the hub's manifest title) → this page.
 2. `FAQPage`: `mainEntity` lists exactly the `<h3>` questions in the FAQ section and their answer text. It must be **identical to the visible text** (plain text, no HTML).
 
 Don't add `Article`/`BlogPosting` (author and publisher are unknown), `Review`, `AggregateRating`, `Product` or ratings. No other `<script>` is allowed. The JSON must parse.

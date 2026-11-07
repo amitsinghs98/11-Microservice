@@ -29,7 +29,7 @@ The DOCX suggests illustrative test pricing for later experiments: free basic li
   `rel="sponsored nofollow noopener noreferrer"`
 - Add this disclosure near the top of any page with affiliate links, replacing the current "no affiliate links" sentence:
 
-  > **Affiliate disclosure:** Some links on this page are affiliate links. If you buy through them, BRAND_NAME may earn a commission at no extra cost to you. Commissions never affect which products we include, the order they appear in, or what we say about them. [How we evaluate software]
+  > **Affiliate disclosure:** Some links on this page are affiliate links. If you buy through them, InsightToolz may earn a commission at no extra cost to you. Commissions never affect which products we include, the order they appear in, or what we say about them. [How we evaluate software]
 
 - Keep link labels honest ("Visit Semrush", "See Semrush pricing"). Never disguise a commercial link as a citation.
 - Never publish a placeholder such as `AFFILIATE_URL_PENDING` as a working link. The validator rejects it.

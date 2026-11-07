@@ -159,7 +159,7 @@ def validate(page, domain):
         h = a["href"]
         if h.startswith("#") and h[1:] not in p.ids:
             issues.append(f"fragment {h} has no target")
-        if h.startswith("http") and "YOUR-DOMAIN" not in h:
+        if h.startswith("http") and domain not in h:
             if a.get("target") == "_blank" and not {"noopener", "noreferrer"} <= set(a.get("rel", "").split()):
                 issues.append(f"external link missing rel noopener noreferrer: {h}")
     # heading hierarchy
@@ -208,7 +208,7 @@ def validate(page, domain):
         warnings.append("primary keyword not verbatim in H1 (H1 kept as source title)")
     tl = len(p.title.strip())
     if not 30 <= tl <= 75:
-        warnings.append(f"title length {tl} (target 50-60 + ' | BRAND_NAME')")
+        warnings.append(f"title length {tl} (target 50-60 + ' | brand')")
     if p.meta_desc and not 110 <= len(p.meta_desc) <= 165:
         warnings.append(f"meta description length {len(p.meta_desc)} (target 120-160)")
     if len(p.scripts) != 1:

@@ -18,7 +18,7 @@ You are writing pages for a static HTML library of growth-software buying guides
 - **Sources, fetched not remembered:** use your web fetch/scrape tool (for example `firecrawl_scrape`) on official vendor pricing and docs pages. State a specific price, limit or feature only if you fetched the page and confirmed it, and cite it inline next to the claim with "(checked 4 November 2026)". If you can't confirm it, cut the number or the claim. Budget is roughly 4–12 fetches per page (more for pricing and comparison pages). Record every claim in the page's research fragment.
 - Primary keyword: in the H1 (kept as the manifest title) and **within the first 100 words after the H1**, ideally in the deck. Don't repeat it mechanically after that.
 - Exactly one marker `<p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>` per article, placed where the reader is most sceptical. Never invent experience, clients, results or tests.
-- The title tag is 50–60 characters before ` | BRAND_NAME`. The meta description is 120–160 characters. Both are unique.
+- The title tag is 50–60 characters before ` | InsightToolz`. The meta description is 120–160 characters. Both are unique.
 - Vary openings, capsules and FAQ wording. Never reuse paragraphs across pages.
 
 ## Live-fetch availability (important)

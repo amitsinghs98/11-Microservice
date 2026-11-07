@@ -1,6 +1,10 @@
 {
   "_comment": "Single source for launch placeholders. Replace both values, then run scripts/apply_config.py and scripts/build_sitemap.py.",
-  "domain": "https://YOUR-DOMAIN.example",
-  "brand_name": "BRAND_NAME",
-  "draft_date": "2026-11-04"
+  "domain": "https://insighttoolz.com",
+  "brand_name": "InsightToolz",
+  "draft_date": "2026-11-04",
+  "applied_from": {
+    "domain": "https://insighttoolz.com",
+    "brand_name": "InsightToolz"
+  }
 }

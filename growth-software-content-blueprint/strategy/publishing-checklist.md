@@ -10,8 +10,8 @@ Only `approved` and `published` pages go into `site/sitemap.xml`.
 
 | Placeholder | Where | Action |
 |---|---|---|
-| `BRAND_NAME` | `<title>` suffix, index page, policy text | Set `brand_name` in `site.config.json`, then run `scripts/apply_config.py` |
-| `https://YOUR-DOMAIN.example` | canonical tags, sitemap | Set `domain` in `site.config.json`, then run `scripts/apply_config.py` and `scripts/build_sitemap.py` |
+| Brand (`InsightToolz`) | `<title>` suffix, index page, policy text | **Done 7 Nov 2026.** To change it, edit `brand_name` in `site.config.json`, then run `scripts/apply_config.py` |
+| Domain (`https://insighttoolz.com`) | canonical tags, sitemap | **Done 7 Nov 2026.** To change it, edit `domain` in `site.config.json`, then run `scripts/apply_config.py` and `scripts/build_sitemap.py` |
 | Author / editor | none in the HTML | Add bylines in the CMS. Never invent credentials. |
 | Publisher legal entity, address, staff | none | Supply them for the About, Contact and Terms pages |
 | Trust pages | plain-text references in each page's disclosure | Publish About, Editorial Policy, How We Evaluate, Affiliate Disclosure, Sponsored Content Policy, Contact, Privacy and Terms, then link them |

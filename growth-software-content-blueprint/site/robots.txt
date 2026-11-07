@@ -4,4 +4,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://YOUR-DOMAIN.example/sitemap.xml
+Sitemap: https://insighttoolz.com/sitemap.xml

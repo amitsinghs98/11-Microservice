@@ -35,7 +35,7 @@ Every page gets `<meta name="robots" content="noindex, nofollow">`, and `robots.
 
 ## Brand, domain and colours
 
-- **Name and domain:** `brand_name` and `domain` in `../site.config.json`. Placeholders for now.
+- **Name and domain:** `brand_name` and `domain` in `../site.config.json`, currently InsightToolz at https://insighttoolz.com.
 - **Colours:** the variables at the top of `assets/style.css`:
   - `--brand` `#0f9f6e`
   - `--brand2` `#0b8a8f`

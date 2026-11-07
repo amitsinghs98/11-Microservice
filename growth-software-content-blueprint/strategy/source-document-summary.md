@@ -55,4 +55,4 @@ The exact classification is in `url-manifest.json` (`page_type`).
 3. **Platform conflict.** The DOCX describes a WordPress + plugin MVP. The build brief explicitly excludes WordPress for this repository. The static HTML corpus is designed to migrate into that WordPress build later.
 4. **Article 99 vs central hub.** The DOCX says #99 "also serves as a practical full-funnel implementation guide, but the hub itself should remain a living index". Both exist: H00 at `/growth-stack/` and A099 at `/guides/b2b-growth-stack/`.
 5. **Overlapping comparisons.** 53 (HubSpot Marketing Hub vs ActiveCampaign) and 95 (ActiveCampaign vs HubSpot) have very similar intent. See the cannibalization notes in `topical-cluster-map.md`.
-6. **Brand and domain.** Neither was supplied ("No brand or domain was supplied"). The placeholders `BRAND_NAME` and `YOUR-DOMAIN.example` live in `site.config.json`.
+6. **Brand and domain.** Neither was supplied ("No brand or domain was supplied"). The owner later set InsightToolz / insighttoolz.com (7 Nov 2026), stored in `site.config.json`.
