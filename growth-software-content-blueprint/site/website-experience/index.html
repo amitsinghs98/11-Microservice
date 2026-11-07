@@ -67,6 +67,22 @@
               "@type": "Answer",
               "text": "Software reduces risk by mapping URLs and validating redirects, but it can't guarantee rankings. Careful planning, staging checks and post-launch monitoring matter as much as the tool."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "Do we need a separate landing page builder if our website builder can make pages?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not always. A separate tool earns its place when campaign volume, testing or agency client separation outgrows what the main site's editor and governance can handle safely."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many website tools does a small marketing team really need?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually fewer than vendors suggest: a publishing platform with decent native forms, a consent tool if you run tracking, and basic performance and uptime checks. Add specialist tools only when a specific failure justifies them."
+            }
           }
         ]
       }
@@ -80,8 +96,8 @@
       <header>
         <p>Website experience and conversion infrastructure</p>
         <h1>Website Experience Software: Builders, CMS, Forms, Performance, and Conversion Infrastructure</h1>
-        <p>Website experience software is the infrastructure a marketing team uses to publish, capture leads and keep the site fast, accessible and safe. This hub links all 20 guides in the cluster, from choosing a builder or CMS to forms, consent, monitoring and replatforming without losing search traffic.</p>
-        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts live on the linked articles, each with its own checked-on date.</p>
+        <p>Website experience software is the infrastructure a marketing team uses to publish, capture leads and keep the site fast, accessible, compliant and safe. Start with our pillar guide to the <a href="/best-website-builders-for-b2b-marketing-teams/">best website builders for B2B marketing teams</a>, then use this hub to choose the tools around the platform, from forms and consent to monitoring and replatforming.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>, expanded <time datetime="2026-11-07">7 November 2026</time>. Time-sensitive facts live on the linked articles, each with its own checked-on date.</p>
       </header>
 
       <aside aria-label="Editorial disclosure">
@@ -91,20 +107,30 @@
       <nav aria-labelledby="toc-heading">
         <h2 id="toc-heading">On this page</h2>
         <ol>
+          <li><a href="#where-to-start">Where should you start with website experience software?</a></li>
           <li><a href="#what-does-website-experience-software-cover">What does website experience software include?</a></li>
           <li><a href="#where-does-website-experience-stop">Where does website experience end and SEO or analytics begin?</a></li>
+          <li><a href="#how-the-layers-fit">How do the subcategories fit together?</a></li>
           <li><a href="#what-criteria-matter">Which criteria matter most for website tools?</a></li>
           <li><a href="#how-to-narrow-a-shortlist">How do you shortlist website software without a full rebuild?</a></li>
+          <li><a href="#stacks-by-team-size">What does a typical website stack look like by team size?</a></li>
+          <li><a href="#common-mistakes">What mistakes do teams make when buying website software?</a></li>
           <li><a href="#website-guide-directory">Which website experience guide fits your decision?</a></li>
           <li><a href="#faq">What else do marketing teams ask about website software?</a></li>
           <li><a href="#how-this-hub-was-built">How was this website experience hub put together?</a></li>
         </ol>
       </nav>
 
+      <section id="where-to-start">
+        <h2>Where should you start with website experience software?</h2>
+        <p>Start with the publishing platform, because every other website tool plugs into it and inherits its limits. Our <a href="/best-website-builders-for-b2b-marketing-teams/">guide to website builders for B2B marketing teams</a> compares the main options by buyer type, with pricing models and skip-it-if advice, and links to every other guide in this cluster.</p>
+        <p>If you already have a platform you're happy with, skip to the layer that's failing. A slow site, leaky lead capture and a risky redesign are three different problems, and each has its own guide in the directory below.</p>
+      </section>
+
       <section id="what-does-website-experience-software-cover">
         <h2>What does website experience software include?</h2>
         <p>It includes the platform you publish on, the tools that turn visits into leads, and the services that keep the site performant, accessible, compliant and secure. Choosing them separately is how teams end up with a site that's easy to edit but slow, or fast but impossible for marketers to change.</p>
-        <p>We split the cluster into four groups. <strong>Publishing platforms</strong> are website builders, composable CMSs and no-code tools. <strong>Conversion surfaces</strong> cover landing pages, personalization, experimentation, forms and pop-ups. <strong>Site health</strong> includes consent management, accessibility monitoring, performance monitoring, CDN and security. <strong>Change control</strong> handles change monitoring and platform migration.</p>
+        <p>We split the cluster into four layers. <strong>Publishing platforms</strong> are website builders, composable CMSs and no-code tools. <strong>Conversion surfaces</strong> cover landing pages, personalization, experimentation, forms and pop-ups. <strong>Site health</strong> includes consent management, accessibility monitoring, performance monitoring, CDN and security. <strong>Change control</strong> handles change monitoring and platform migration.</p>
         <p>Modern platforms blur the first boundary: many builders now include a CMS, and many CMSs offer visual editing. The <a href="/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/">website builder vs CMS comparison</a> explains how to decide when the labels stop helping.</p>
       </section>
 
@@ -113,15 +139,28 @@
         <p>This cluster owns the site as a product: the platform, its pages and its infrastructure. Ranking research, behavior analytics, storefronts and in-product experiments are each covered in another hub.</p>
         <ul>
           <li><strong>Keyword research, technical SEO audits and rank tracking</strong> are covered by the <a href="/seo/">SEO software hub</a>. The migration and change-monitoring guides here protect search equity rather than build it.</li>
-          <li><strong>Heatmaps, session recordings, attribution and reporting</strong> sit with <a href="/automation-analytics/">marketing automation and analytics</a>.</li>
+          <li><strong>Heatmaps, session recordings, attribution and reporting</strong> sit with <a href="/automation-analytics/">marketing automation and analytics</a>. This cluster covers performance monitoring of the site itself, not marketing measurement.</li>
           <li><strong>Storefronts, checkout and product discovery</strong> belong to the <a href="/ecommerce-growth/">ecommerce growth hub</a>.</li>
           <li><strong>Feature flags and experiments inside a software product</strong> are covered by the <a href="/product-led-growth/">product-led growth hub</a>; this cluster covers marketer-run tests on the website.</li>
         </ul>
+        <p>The test for a borderline tool is simple: if it changes what a visitor sees or how the site behaves, it belongs here. If it mainly reports on traffic, rankings or revenue after the fact, it belongs in one of the hubs above.</p>
+      </section>
+
+      <section id="how-the-layers-fit">
+        <h2>How do the subcategories fit together?</h2>
+        <p>The publishing platform sits at the bottom, conversion tools sit on its pages, site-health tools wrap around it, and change-control tools watch it over time. Each layer depends on the one below, so a weak platform choice limits every tool you add later.</p>
+        <ul>
+          <li><strong>Publishing platform.</strong> A website builder, a composable CMS or a no-code platform holds your pages, content model and editor permissions. Everything else either embeds in it or sits in front of it.</li>
+          <li><strong>Conversion surfaces.</strong> Landing pages, forms, conversational forms, pop-ups, personalization and experimentation all change what a visitor sees. Many platforms include basic versions; specialist tools add depth, but also scripts and another place for data to live.</li>
+          <li><strong>Site health.</strong> Consent management controls which tags run, accessibility and performance monitoring catch regressions, and a CDN and security layer keeps the site fast and available. These are usually invisible to visitors until they fail.</li>
+          <li><strong>Change control.</strong> Change monitoring spots unexpected edits to live pages, and migration tooling protects URLs and redirects when you move platforms. Both matter most at moments of risk: redesigns, rebrands and replatforms.</li>
+        </ul>
+        <p>Two dependencies cause most integration pain. Every conversion tool that sets cookies or loads tags has to respect the consent layer, and every script you add counts against the performance budget your monitoring is watching.</p>
       </section>
 
       <section id="what-criteria-matter">
         <h2>Which criteria matter most for website tools?</h2>
-        <p>Weigh publishing autonomy against governance first: who can change what, and who catches mistakes before they go live. Then check portability and running cost, since site platforms are commonly priced by sites, seats, pages, traffic or form responses, and moving content out later is rarely as easy as moving it in.</p>
+        <p>Weigh publishing autonomy against governance first: who can change what, and who catches mistakes before they go live. Then check portability and running cost, since site tools are commonly priced by sites, seats, pages, traffic or form responses, and moving content out later is rarely as easy as moving it in.</p>
         <p>The questions we apply across the cluster:</p>
         <ol>
           <li>Can marketers publish and update pages without a developer, and can you restrict that by role?</li>
@@ -130,69 +169,114 @@
           <li>Does it integrate cleanly with your CRM, analytics and consent setup?</li>
           <li>Can you export content, forms, submissions and redirects in a usable format?</li>
           <li>Which security and uptime responsibilities stay with you, and which does the vendor take on?</li>
+          <li>What drives the next pricing tier, and how close will you be to it within a year?</li>
         </ol>
+        <p>The last question catches the most surprises. A plan that fits at launch can jump a tier once you add a language, a second site, more editors or more traffic, so model the size you expect in twelve months, not the size you are today.</p>
       </section>
 
       <section id="how-to-narrow-a-shortlist">
         <h2>How do you shortlist website software without a full rebuild?</h2>
         <p>Fix the layer that's actually failing before replacing the platform: a slow site may need a CDN or fewer scripts, and weak lead capture may need better forms rather than a new builder. Replatform only when the publishing workflow or the content model itself is the bottleneck.</p>
-        <p>If you do move, plan the migration before choosing the destination. Our guide to <a href="/how-to-plan-a-website-replatforming-project-without-losing-search-equity/">replatforming without losing search equity</a> covers URL inventory, redirects, staging and post-launch monitoring, and the <a href="/best-website-migration-tools-for-seo-safe-platform-changes/">website migration tools guide</a> lists the tooling that supports each step. Agencies building for several clients should start with <a href="/best-landing-page-builders-for-marketing-agencies/">landing page builders for marketing agencies</a>.</p>
+        <ol>
+          <li><strong>Name the failure.</strong> Write down the problem in one sentence, such as "editors wait days for page changes" or "demo requests arrive without source data".</li>
+          <li><strong>Find the layer.</strong> Match it to platform, conversion, site health or change control, using the map above.</li>
+          <li><strong>List constraints.</strong> Note your CRM, consent setup, languages, number of sites and who maintains the site.</li>
+          <li><strong>Pick two or three candidates</strong> from the relevant guide, and discard any that can't meet a hard constraint.</li>
+          <li><strong>Trial on real pages.</strong> Rebuild one high-stakes page and one content page, and check the scripts, permissions and export on each candidate.</li>
+        </ol>
+        <p>If you do move platforms, plan the migration before choosing the destination. Our guide to <a href="/how-to-plan-a-website-replatforming-project-without-losing-search-equity/">replatforming without losing search equity</a> covers URL inventory, redirects, staging and post-launch monitoring.</p>
+      </section>
+
+      <section id="stacks-by-team-size">
+        <h2>What does a typical website stack look like by team size?</h2>
+        <p>Small teams should lean on one platform's native features and add tools only for proven gaps, while larger teams split the stack into specialist layers with clear owners. The table shows common setups by category; the linked guides name and compare specific products.</p>
+        <table>
+          <caption>Typical website experience stacks by team size (editorial patterns, not product recommendations)</caption>
+          <thead>
+            <tr><th scope="col">Team</th><th scope="col">Publishing platform</th><th scope="col">Conversion layer</th><th scope="col">Site health</th><th scope="col">Change control</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Founder or solo marketer</th><td>All-in-one website builder</td><td>Native forms; one landing page template</td><td>Consent tool if tracking runs; free speed checks</td><td>Manual checks before major edits</td></tr>
+            <tr><th scope="row">Small B2B team (2–5 marketers)</th><td>Builder with a structured CMS</td><td>Form builder linked to the CRM; occasional pop-ups</td><td>Consent platform; performance and accessibility monitoring</td><td>Change monitoring on key pages</td></tr>
+            <tr><th scope="row">Agency serving many clients</th><td>Builder with client workspaces</td><td>Landing page builder with client separation</td><td>Per-client consent and monitoring setups</td><td>Migration tooling for client moves</td></tr>
+            <tr><th scope="row">In-house team with several editors</th><td>Builder or CMS with roles and approvals</td><td>Forms, personalization and experimentation</td><td>CDN and security layer; monitoring with alerts</td><td>Change monitoring plus a release process</td></tr>
+            <tr><th scope="row">Enterprise, multi-site or multi-region</th><td>Composable CMS feeding several front ends</td><td>Personalization and experimentation programs</td><td>Managed CDN, WAF and consent across sites</td><td>Formal migration and governance processes</td></tr>
+          </tbody>
+        </table>
+        <p>These are patterns, not prescriptions. A small team with heavy paid campaigns may need a dedicated landing page tool before anything else, and an enterprise with one brand site may be better served by a builder than a composable CMS.</p>
+      </section>
+
+      <section id="common-mistakes">
+        <h2>What mistakes do teams make when buying website software?</h2>
+        <p>The most common mistake is replacing the platform to fix a problem that lives in another layer, such as slow pages caused by third-party scripts. The second is adding conversion tools one at a time until the site is weighed down by overlapping scripts nobody owns.</p>
+        <ul>
+          <li><strong>Choosing on templates instead of the content model.</strong> A gallery looks good at launch; the content model decides whether the site still works at hundreds of pages.</li>
+          <li><strong>Ignoring exit costs.</strong> Check what you can export, and how redirects and form data move, before you sign.</li>
+          <li><strong>Treating consent and accessibility as one-off projects.</strong> Both change as the site changes, which is why monitoring matters more than a single audit.</li>
+          <li><strong>Assuming a tool equals compliance.</strong> Consent and accessibility tools support compliance work; they don't replace review against the rules that apply to you.</li>
+          <li><strong>Launching a redesign without a URL inventory.</strong> Lost redirects are the most avoidable cause of post-launch traffic drops.</li>
+          <li><strong>Leaving tools without an owner.</strong> Every script on the site needs someone who can say why it's there and when it can go.</li>
+        </ul>
       </section>
 
       <section id="website-guide-directory">
         <h2>Which website experience guide fits your decision?</h2>
         <p>Every article in the cluster is listed below by page type, then grouped by layer. Each line notes the trade-off the guide focuses on.</p>
 
-        <h3>Best-of guides: builders, CMS and no-code platforms</h3>
+        <h3>Pillar guide</h3>
         <ul>
-          <li><a href="/best-website-builders-for-b2b-marketing-teams/">Website builders for B2B marketing teams</a> compares publishing autonomy, design flexibility, integrations, governance, performance and ownership.</li>
-          <li><a href="/best-composable-cms-platforms-for-enterprise-marketing-teams/">Composable CMS platforms for enterprise marketing</a> focuses on many pages, authors, regions and integrations, kept separate from visual builder selection.</li>
-          <li><a href="/best-no-code-website-platforms-for-marketing-operations/">No-code website platforms for marketing operations</a> examines governance, maintainability and portability alongside marketer speed.</li>
+          <li><a href="/best-website-builders-for-b2b-marketing-teams/">Best website builders for B2B marketing teams</a> is the starting point for the cluster. It compares builders by buyer type on publishing autonomy, design flexibility, integrations, governance, performance and ownership, with confirmed pricing where available.</li>
+        </ul>
+
+        <h3>Best-of guides: CMS and no-code platforms</h3>
+        <ul>
+          <li><a href="/best-composable-cms-platforms-for-enterprise-marketing-teams/">Composable CMS platforms for enterprise marketing</a> focuses on many pages, authors, regions and integrations. It's the next step when one site is no longer the whole job.</li>
+          <li><a href="/best-no-code-website-platforms-for-marketing-operations/">No-code website platforms for marketing operations</a> examines governance, maintainability and portability alongside marketer speed. Read it if operations owns the site rather than design.</li>
         </ul>
 
         <h3>Best-of guides: landing pages, personalization and testing</h3>
         <ul>
-          <li><a href="/best-landing-page-builders-for-saas-demo-and-trial-funnels/">Landing page builders for SaaS demo and trial funnels</a> evaluates demo, trial, feature and campaign pages for both sales-led and product-led motions.</li>
-          <li><a href="/best-landing-page-builders-for-marketing-agencies/">Landing page builders for marketing agencies</a> covers multi-client production, reusable templates, domains, client access, approvals and handover.</li>
-          <li><a href="/best-website-personalization-software-for-b2b-lead-generation/">Website personalization for B2B lead generation</a> compares adapting messaging by account, segment or campaign, and the data and consent prerequisites.</li>
-          <li><a href="/best-website-experimentation-platforms-for-marketing-teams/">Website experimentation platforms</a> covers marketer-controlled tests of layouts, messages and forms, distinct from product experimentation.</li>
+          <li><a href="/best-landing-page-builders-for-saas-demo-and-trial-funnels/">Landing page builders for SaaS demo and trial funnels</a> evaluates demo, trial, feature and campaign pages. It covers both sales-led and product-led motions.</li>
+          <li><a href="/best-landing-page-builders-for-marketing-agencies/">Landing page builders for marketing agencies</a> covers multi-client production, reusable templates, domains and client access. Approvals and handover get equal weight.</li>
+          <li><a href="/best-website-personalization-software-for-b2b-lead-generation/">Website personalization for B2B lead generation</a> compares adapting messaging by account, segment or campaign. It's candid about the data and consent prerequisites.</li>
+          <li><a href="/best-website-experimentation-platforms-for-marketing-teams/">Website experimentation platforms</a> covers marketer-controlled tests of layouts, messages and forms. It keeps product experimentation separate.</li>
         </ul>
 
         <h3>Best-of guides: forms and onsite capture</h3>
         <ul>
-          <li><a href="/best-form-builders-for-b2b-lead-capture-and-qualification/">Form builders for B2B lead capture</a> compares collecting, validating, qualifying and routing prospects, and standalone versus CRM-native forms.</li>
-          <li><a href="/best-conversational-form-platforms-for-higher-intent-lead-capture/">Conversational form platforms</a> assesses one-question-at-a-time flows without assuming they always convert better.</li>
-          <li><a href="/best-pop-up-and-onsite-engagement-software-for-lead-capture/">Pop-up and onsite engagement software</a> weighs pop-ups, slide-ins and contextual prompts against their user-experience and speed costs.</li>
+          <li><a href="/best-form-builders-for-b2b-lead-capture-and-qualification/">Form builders for B2B lead capture</a> compares collecting, validating, qualifying and routing prospects. It weighs standalone tools against CRM-native forms.</li>
+          <li><a href="/best-conversational-form-platforms-for-higher-intent-lead-capture/">Conversational form platforms</a> assesses one-question-at-a-time flows. It doesn't assume they always convert better.</li>
+          <li><a href="/best-pop-up-and-onsite-engagement-software-for-lead-capture/">Pop-up and onsite engagement software</a> weighs pop-ups, slide-ins and contextual prompts. It counts their user-experience and speed costs too.</li>
         </ul>
 
         <h3>Best-of guides: consent, accessibility, performance and security</h3>
         <ul>
-          <li><a href="/best-consent-and-preference-management-platforms-for-marketing-sites/">Consent and preference management platforms</a> covers cookie, tracking and communication choices, noting that a tool alone doesn't guarantee legal compliance.</li>
-          <li><a href="/best-website-accessibility-monitoring-tools-for-marketing-teams/">Website accessibility monitoring tools</a> explains that automated scans catch only some barriers and don't replace manual testing.</li>
-          <li><a href="/best-website-performance-monitoring-tools-for-marketing-sites/">Website performance monitoring tools</a> compares real-user and synthetic monitoring, and the difference between lab and field metrics.</li>
-          <li><a href="/best-cdn-and-web-security-platforms-for-marketing-websites/">CDN and web security platforms</a> covers edge delivery, WAF, DNS, bot controls and DDoS protection, and the technical effort each needs.</li>
+          <li><a href="/best-consent-and-preference-management-platforms-for-marketing-sites/">Consent and preference management platforms</a> covers cookie, tracking and communication choices. It notes that a tool alone doesn't guarantee legal compliance.</li>
+          <li><a href="/best-website-accessibility-monitoring-tools-for-marketing-teams/">Website accessibility monitoring tools</a> explains what automated scans catch. They find only some barriers and don't replace manual testing.</li>
+          <li><a href="/best-website-performance-monitoring-tools-for-marketing-sites/">Website performance monitoring tools</a> compares real-user and synthetic monitoring. It also explains lab versus field metrics.</li>
+          <li><a href="/best-cdn-and-web-security-platforms-for-marketing-websites/">CDN and web security platforms</a> covers edge delivery, WAF, DNS, bot controls and DDoS protection. It's clear about the technical effort each needs.</li>
         </ul>
 
         <h3>Best-of guides: change monitoring and migration</h3>
         <ul>
-          <li><a href="/best-website-change-monitoring-tools-for-seo-and-marketing-teams/">Website change monitoring tools</a> detects unexpected changes to pages, metadata, prices, forms and layouts that affect campaigns or rankings.</li>
-          <li><a href="/best-website-migration-tools-for-seo-safe-platform-changes/">Website migration tools for SEO-safe platform changes</a> covers URL mapping, redirects, content transfer and validation, without promising zero traffic loss.</li>
+          <li><a href="/best-website-change-monitoring-tools-for-seo-and-marketing-teams/">Website change monitoring tools</a> detect unexpected changes to pages, metadata, prices, forms and layouts. Those changes can quietly hurt campaigns or rankings.</li>
+          <li><a href="/best-website-migration-tools-for-seo-safe-platform-changes/">Website migration tools for SEO-safe platform changes</a> covers URL mapping, redirects, content transfer and validation. It doesn't promise zero traffic loss.</li>
         </ul>
 
         <h3>Alternatives pages</h3>
         <ul>
-          <li><a href="/webflow-alternatives-for-content-heavy-business-websites/">Webflow alternatives for content-heavy sites</a> groups options by content scale, CMS depth, ecommerce, code ownership and enterprise control.</li>
-          <li><a href="/wordpress-alternatives-for-marketing-teams-managing-many-sites/">WordPress alternatives for teams managing many sites</a> evaluates plugin maintenance, governance, editing experience and multisite operations.</li>
+          <li><a href="/webflow-alternatives-for-content-heavy-business-websites/">Webflow alternatives for content-heavy sites</a> groups options by content scale, CMS depth, ecommerce, code ownership and enterprise control. Start here if you're leaving Webflow for a specific reason.</li>
+          <li><a href="/wordpress-alternatives-for-marketing-teams-managing-many-sites/">WordPress alternatives for teams managing many sites</a> evaluates plugin maintenance, governance, editing experience and multisite operations. It's written for teams running several installs.</li>
         </ul>
 
         <h3>Comparison</h3>
         <ul>
-          <li><a href="/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/">Website builder vs CMS</a> compares content modeling, design, workflow, governance and maintenance with team scenarios.</li>
+          <li><a href="/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/">Website builder vs CMS</a> compares content modeling, design, workflow, governance and maintenance. Team scenarios show where each wins.</li>
         </ul>
 
         <h3>How-to guide</h3>
         <ul>
-          <li><a href="/how-to-plan-a-website-replatforming-project-without-losing-search-equity/">How to plan a website replatforming project without losing search equity</a> sequences stakeholders, URL inventory, content mapping, analytics, redirects, launch and monitoring.</li>
+          <li><a href="/how-to-plan-a-website-replatforming-project-without-losing-search-equity/">How to plan a website replatforming project without losing search equity</a> sequences stakeholders, URL inventory, content mapping, analytics, redirects, launch and monitoring. Read it before you choose a destination platform.</li>
         </ul>
       </section>
 
@@ -207,12 +291,16 @@
         <p>No. Automated scans catch a subset of barriers, so pair them with manual checks such as keyboard navigation and screen reader testing.</p>
         <h3>Can migration software prevent a traffic drop after a replatform?</h3>
         <p>Software reduces risk by mapping URLs and validating redirects, but it can't guarantee rankings. Careful planning, staging checks and post-launch monitoring matter as much as the tool.</p>
+        <h3>Do we need a separate landing page builder if our website builder can make pages?</h3>
+        <p>Not always. A separate tool earns its place when campaign volume, testing or agency client separation outgrows what the main site's editor and governance can handle safely.</p>
+        <h3>How many website tools does a small marketing team really need?</h3>
+        <p>Usually fewer than vendors suggest: a publishing platform with decent native forms, a consent tool if you run tracking, and basic performance and uptime checks. Add specialist tools only when a specific failure justifies them.</p>
       </section>
 
       <section id="how-this-hub-was-built">
         <h2>How was this website experience hub put together?</h2>
         <p>This hub summarizes and links the cluster's articles and makes no product, price or limit claims of its own. Product facts appear only on the linked pages, each beside its official source and checked-on date.</p>
-        <p>Nothing here is legal advice on privacy or accessibility law. For how the website connects to SEO, lead capture and measurement in one plan, return to <a href="/growth-stack/">the growth stack overview</a>.</p>
+        <p>The stack table describes common editorial patterns by category, not tested setups or product recommendations. Nothing here is legal advice on privacy or accessibility law. For how the website connects to SEO, lead capture and measurement in one plan, return to <a href="/growth-stack/">the growth stack overview</a>.</p>
       </section>
     </article>
   </main>
