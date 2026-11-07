@@ -1,18 +1,12 @@
 source_id,source_file,dest_path,dest_id,destination_exists,problem,contextual_relevance,anchor_text
 A095,site/activecampaign-vs-hubspot/index.html,/hubspot-vs-salesforce/,A071,True,,contextual,HubSpot vs Salesforce guide for growing businesses
-A095,site/activecampaign-vs-hubspot/index.html,/hubspot-marketing-hub-vs-activecampaign/,A053,True,,contextual,email-focused HubSpot Marketing Hub vs ActiveCampaign comparison
 A095,site/activecampaign-vs-hubspot/index.html,/automation-analytics/,H05,True,,contextual,automation and analytics category hub
 A095,site/activecampaign-vs-hubspot/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation shortlist for small teams
 A095,site/activecampaign-vs-hubspot/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small-business CRM comparison
-A095,site/activecampaign-vs-hubspot/index.html,/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,A240,True,,contextual,designing a RevOps data model for a small B2B team
-A095,site/activecampaign-vs-hubspot/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software shortlist
-A095,site/activecampaign-vs-hubspot/index.html,/best-lifecycle-email-automation-software/,A048,True,,contextual,lifecycle email automation platforms
 A095,site/activecampaign-vs-hubspot/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,attribution guide for small teams
-A095,site/activecampaign-vs-hubspot/index.html,/crm-pricing/,A077,True,,contextual,"CRM pricing guide on seats, onboarding and admin costs"
 A095,site/activecampaign-vs-hubspot/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing breakdown
 A095,site/activecampaign-vs-hubspot/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,"Zapier, Make and n8n comparison"
 A095,site/activecampaign-vs-hubspot/index.html,/b2b-growth-stack/,A099,True,,contextual,full-funnel B2B growth stack guide
-A095,site/activecampaign-vs-hubspot/index.html,/hubspot-marketing-hub-vs-activecampaign/,A053,True,,contextual,Marketing Hub and ActiveCampaign email comparison
 A198,site/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/index.html,/best-affiliate-marketing-platforms-for-saas-companies/,A181,True,,contextual,affiliate marketing platforms for SaaS
 A198,site/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software hub
 A198,site/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/index.html,/best-partnership-attribution-software-for-multi-touch-partner-sales/,A195,True,,contextual,partnership attribution software
@@ -209,13 +203,10 @@ A079,site/b2b-lead-generation-stack/index.html,/best-lead-scoring-software/,A067
 A079,site/b2b-lead-generation-stack/index.html,/lead-scoring-vs-lead-enrichment/,A080,True,,contextual,how scoring and enrichment differ
 A079,site/b2b-lead-generation-stack/index.html,/best-lead-enrichment-software/,A066,True,,contextual,lead enrichment software for revenue teams
 A079,site/b2b-lead-generation-stack/index.html,/clay-vs-apollo/,A075,True,,contextual,Clay and Apollo workflow comparison
-A079,site/b2b-lead-generation-stack/index.html,/best-email-verification-tools/,A046,True,,list/directory,email verification and list cleaning tools
-A079,site/b2b-lead-generation-stack/index.html,/best-cold-email-software/,A043,True,,contextual,cold email software for B2B agencies
 A079,site/b2b-lead-generation-stack/index.html,/best-linkedin-sales-prospecting-tools/,A069,True,,contextual,LinkedIn prospecting tools
 A079,site/b2b-lead-generation-stack/index.html,/best-sales-prospecting-tools-for-agencies/,A068,True,,contextual,prospecting tools for agencies
 A079,site/b2b-lead-generation-stack/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,appointment scheduling and lead routing software
 A079,site/b2b-lead-generation-stack/index.html,/best-crm-software-for-small-business/,A061,True,,list/directory,CRMs for small businesses
-A079,site/b2b-lead-generation-stack/index.html,/best-website-visitor-identification-tools-for-b2b-sales-teams/,A229,True,,contextual,visitor identification tools for B2B sales teams
 A079,site/b2b-lead-generation-stack/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation software hub
 A087,site/best-ab-testing-software/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,landing-page CRO toolkit
 A087,site/best-ab-testing-software/index.html,/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/,A299,True,,contextual,feature flags versus A/B testing
@@ -223,7 +214,6 @@ A087,site/best-ab-testing-software/index.html,/best-marketing-analytics-software
 A087,site/best-ab-testing-software/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,what attribution can and can't prove
 A087,site/best-ab-testing-software/index.html,/best-checkout-optimization-software-for-online-stores/,A156,True,,contextual,checkout optimization software
 A087,site/best-ab-testing-software/index.html,/best-heatmap-session-replay-tools/,A088,True,,contextual,session replay and heatmap research
-A087,site/best-ab-testing-software/index.html,/best-website-experimentation-platforms-for-marketing-teams/,A218,True,,contextual,website experimentation platforms
 A087,site/best-ab-testing-software/index.html,/automation-analytics/,H05,True,,contextual,"automation, analytics and CRO category hub"
 A087,site/best-ab-testing-software/index.html,/best-marketing-automation-software/,A081,True,,contextual,small-team marketing automation guide
 A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,email platforms for ecommerce brands
@@ -231,15 +221,11 @@ A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/best-
 A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/klaviyo-alternatives/,A054,True,,contextual,Klaviyo alternatives
 A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
 A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/best-checkout-optimization-software-for-online-stores/,A156,True,,contextual,checkout optimisation software
-A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/best-consent-and-preference-management-platforms-for-marketing-sites/,A212,True,,contextual,consent and preference management platforms
-A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution without false certainty
 A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/best-ecommerce-customer-data-platforms-for-retention-teams/,A147,True,,contextual,ecommerce CDPs for retention teams
 A155,site/best-abandoned-cart-recovery-platforms-for-ecommerce/index.html,/best-sms-marketing-software-for-ecommerce-brands/,A148,True,,contextual,ecommerce SMS platforms
 A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/best-paid-social-advertising-management-platforms/,A123,True,,contextual,paid social advertising management platform
 A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/best-account-based-marketing-platforms-for-small-b2b-teams/,A230,True,,contextual,ABM platforms for small B2B teams
-A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/best-linkedin-ads-management-and-reporting-tools-for-b2b/,A137,True,,contextual,LinkedIn Ads management and reporting tools
 A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/best-revenue-operations-analytics-tools-for-cross-functional-teams/,A238,True,,contextual,revenue operations analytics tools
-A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/best-cross-channel-paid-media-reporting-tools/,A124,True,,contextual,cross-channel paid media reporting tools
 A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/best-b2b-intent-data-platforms-for-account-prioritization/,A228,True,,contextual,B2B intent data platforms
 A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/data-revops/,H12,True,,contextual,data and RevOps software hub
 A231,site/best-account-based-advertising-platforms-for-b2b-marketers/index.html,/paid-media/,H07,True,,contextual,paid media software hub
@@ -248,22 +234,15 @@ A230,site/best-account-based-marketing-platforms-for-small-b2b-teams/index.html,
 A230,site/best-account-based-marketing-platforms-for-small-b2b-teams/index.html,/best-linkedin-ads-management-and-reporting-tools-for-b2b/,A137,True,,contextual,LinkedIn Ads management and reporting tools
 A230,site/best-account-based-marketing-platforms-for-small-b2b-teams/index.html,/best-website-personalization-software-for-b2b-lead-generation/,A203,True,,contextual,website personalization software for B2B lead generation
 A230,site/best-account-based-marketing-platforms-for-small-b2b-teams/index.html,/best-account-based-advertising-platforms-for-b2b-marketers/,A231,True,,contextual,account-based advertising platforms
-A230,site/best-account-based-marketing-platforms-for-small-b2b-teams/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM options for B2B SaaS sales teams
 A230,site/best-account-based-marketing-platforms-for-small-b2b-teams/index.html,/data-revops/,H12,True,,contextual,data and RevOps software category
 A133,site/best-ad-compliance-and-creative-approval-software/index.html,/best-digital-content-rights-and-usage-management-tools/,A118,True,,contextual,content rights and usage management
 A133,site/best-ad-compliance-and-creative-approval-software/index.html,/best-digital-asset-management-software-for-marketing-teams/,A107,True,,contextual,digital asset management system
-A133,site/best-ad-compliance-and-creative-approval-software/index.html,/best-content-approval-software-for-marketing-and-creative-teams/,A109,True,,contextual,content approval software
-A133,site/best-ad-compliance-and-creative-approval-software/index.html,/best-creative-proofing-software-for-agency-client-approvals/,A265,True,,contextual,creative proofing for agency client approvals
 A133,site/best-ad-compliance-and-creative-approval-software/index.html,/best-ad-creative-management-platforms-for-performance-teams/,A125,True,,contextual,ad creative management platform
 A133,site/best-ad-compliance-and-creative-approval-software/index.html,/paid-media/,H07,True,,contextual,paid media software hub
 A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-digital-asset-management-software-for-marketing-teams/,A107,True,,contextual,digital asset management software
 A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-brand-asset-management-platforms-for-distributed-teams/,A108,True,,contextual,brand asset management platforms
-A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-content-approval-software-for-marketing-and-creative-teams/,A109,True,,contextual,content approval software for creative teams
 A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-utm-governance-and-campaign-naming-tools/,A134,True,,contextual,UTM governance and campaign naming tools
-A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software
 A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-ad-compliance-and-creative-approval-software/,A133,True,,contextual,ad compliance and creative approval software
-A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-creative-proofing-software-for-agency-client-approvals/,A265,True,,contextual,creative proofing software for agencies
-A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/best-ai-image-generation-tools-for-marketing/,A028,True,,contextual,AI image tools for ad creative teams
 A125,site/best-ad-creative-management-platforms-for-performance-teams/index.html,/paid-media/,H07,True,,contextual,paid media hub
 A130,site/best-ad-fraud-detection-software-for-digital-advertisers/index.html,/best-affiliate-fraud-prevention-tools-for-partner-programs/,A193,True,,contextual,affiliate fraud prevention tools
 A130,site/best-ad-fraud-detection-software-for-digital-advertisers/index.html,/best-call-tracking-software-for-paid-acquisition-campaigns/,A131,True,,contextual,call tracking for paid campaigns
@@ -314,8 +293,6 @@ A024,site/best-ai-blog-writing-tools/index.html,/best-content-optimization-tools
 A023,site/best-ai-content-brief-tools/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools
 A023,site/best-ai-content-brief-tools/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools comparison
 A023,site/best-ai-content-brief-tools/index.html,/ai-content/,H02,True,,contextual,AI content software category
-A023,site/best-ai-content-brief-tools/index.html,/best-keyword-research-tools/,A002,True,,contextual,keyword research tool
-A023,site/best-ai-content-brief-tools/index.html,/best-content-brief-and-assignment-management-tools/,A110,True,,contextual,brief and assignment management tools
 A023,site/best-ai-content-brief-tools/index.html,/best-ai-blog-writing-tools/,A024,True,,contextual,AI tools for long-form blog writing
 A023,site/best-ai-content-brief-tools/index.html,/evaluate-ai-content-quality/,A039,True,,contextual,AI content quality evaluation guide
 A023,site/best-ai-content-brief-tools/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools for marketing teams
@@ -338,9 +315,6 @@ A025,site/best-ai-email-copywriting-tools/index.html,/best-email-marketing-softw
 A025,site/best-ai-email-copywriting-tools/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,ecommerce email platform comparison
 A025,site/best-ai-email-copywriting-tools/index.html,/ai-content/,H02,True,,contextual,AI content software category
 A025,site/best-ai-email-copywriting-tools/index.html,/best-ai-copywriting-software/,A022,True,,contextual,AI copywriting software guide
-A025,site/best-ai-email-copywriting-tools/index.html,/best-lifecycle-email-automation-software/,A048,True,,contextual,lifecycle email automation software shortlist
-A025,site/best-ai-email-copywriting-tools/index.html,/best-cold-email-software/,A043,True,,contextual,cold email software comparison
-A025,site/best-ai-email-copywriting-tools/index.html,/best-email-testing-tools/,A050,True,,contextual,email testing tools guide
 A025,site/best-ai-email-copywriting-tools/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools for marketing teams
 A028,site/best-ai-image-generation-tools-for-marketing/index.html,/ai-content/,H02,True,,contextual,AI content software hub
 A028,site/best-ai-image-generation-tools-for-marketing/index.html,/best-ai-copywriting-software/,A022,True,,contextual,AI copywriting software for ads and landing pages
@@ -370,15 +344,12 @@ A029,site/best-ai-presentation-tools/index.html,/ai-content/,H02,True,,contextua
 A029,site/best-ai-presentation-tools/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools pillar
 A029,site/best-ai-presentation-tools/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRMs for B2B SaaS sales teams
 A029,site/best-ai-presentation-tools/index.html,/best-sales-enablement-software-for-growing-b2b-companies/,A236,True,,contextual,sales enablement software
-A029,site/best-ai-presentation-tools/index.html,/best-digital-sales-room-software-for-complex-b2b-deals/,A237,True,,contextual,digital sales rooms
 A029,site/best-ai-presentation-tools/index.html,/ai-content-tool-pricing/,A037,True,,contextual,AI content tool pricing guide
-A029,site/best-ai-presentation-tools/index.html,/best-proposal-software-for-marketing-and-seo-agencies/,A266,True,,contextual,proposal software for agencies
 A008,site/best-ai-search-visibility-tools/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools guide
 A008,site/best-ai-search-visibility-tools/index.html,/best-seo-software/,A001,True,,contextual,SEO software pillar
 A008,site/best-ai-search-visibility-tools/index.html,/seo/,H01,True,,contextual,SEO category hub
 A008,site/best-ai-search-visibility-tools/index.html,/writesonic-alternatives/,A034,True,,contextual,Writesonic alternatives guide
 A008,site/best-ai-search-visibility-tools/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
-A008,site/best-ai-search-visibility-tools/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,attribution for small teams without false certainty
 A008,site/best-ai-search-visibility-tools/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools comparison
 A007,site/best-ai-seo-tools/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools for marketing teams
 A007,site/best-ai-seo-tools/index.html,/best-seo-software/,A001,True,,contextual,SEO software pillar guide for agencies and in-house teams
@@ -389,7 +360,6 @@ A007,site/best-ai-seo-tools/index.html,/best-ai-search-visibility-tools/,A008,Tr
 A007,site/best-ai-seo-tools/index.html,/surfer-seo-alternatives/,A014,True,,contextual,Surfer SEO alternatives guide
 A007,site/best-ai-seo-tools/index.html,/best-ai-content-brief-tools/,A023,True,,contextual,AI tools for SEO content briefs
 A007,site/best-ai-seo-tools/index.html,/best-technical-seo-audit-tools/,A004,True,,contextual,technical SEO audit tools guide
-A007,site/best-ai-seo-tools/index.html,/ai-content-workflow/,A038,True,,contextual,building an AI content workflow with editorial checks
 A026,site/best-ai-social-media-tools/index.html,/best-social-media-management-tools-for-agencies/,A089,True,,contextual,social media management platforms built for agency workloads
 A026,site/best-ai-social-media-tools/index.html,/ai-content/,H02,True,,contextual,AI content and creative software hub
 A026,site/best-ai-social-media-tools/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools pillar
@@ -399,8 +369,6 @@ A026,site/best-ai-social-media-tools/index.html,/best-ai-image-generation-tools-
 A026,site/best-ai-social-media-tools/index.html,/best-ai-video-editing-tools/,A027,True,,contextual,AI video editors for short-form clips
 A026,site/best-ai-social-media-tools/index.html,/ai-content-tool-pricing/,A037,True,,contextual,cost-per-asset pricing guide for AI content tools
 A026,site/best-ai-social-media-tools/index.html,/ai-content-workflow/,A038,True,,contextual,AI content workflow with editorial checks
-A026,site/best-ai-social-media-tools/index.html,/best-social-media-analytics-tools/,A090,True,,contextual,social analytics for multi-brand teams
-A026,site/best-ai-social-media-tools/index.html,/best-content-approval-software-for-marketing-and-creative-teams/,A109,True,,contextual,content approval software
 A026,site/best-ai-social-media-tools/index.html,/best-ai-marketing-tools-for-agencies/,A040,True,,contextual,AI marketing tool stack for a small agency
 A027,site/best-ai-video-editing-tools/index.html,/best-ai-image-generation-tools-for-marketing/,A028,True,,contextual,AI image generators for ad creative teams
 A027,site/best-ai-video-editing-tools/index.html,/ai-content/,H02,True,,contextual,AI content software category
@@ -429,7 +397,6 @@ A065,site/best-b2b-contact-database-tools/index.html,/best-email-verification-to
 A065,site/best-b2b-contact-database-tools/index.html,/zoominfo-alternatives/,A074,True,,contextual,ZoomInfo alternatives for SMB sales teams
 A065,site/best-b2b-contact-database-tools/index.html,/apollo-alternatives/,A073,True,,contextual,Apollo.io alternatives
 A065,site/best-b2b-contact-database-tools/index.html,/best-sales-engagement-platforms/,A044,True,,contextual,sales engagement platform comparison
-A065,site/best-b2b-contact-database-tools/index.html,/compliant-b2b-outreach-stack/,A059,True,,contextual,guide to building a compliant B2B outreach stack
 A065,site/best-b2b-contact-database-tools/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation hub
 A065,site/best-b2b-contact-database-tools/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small-business CRM guide
 A222,site/best-b2b-customer-data-platforms-for-account-based-marketing/index.html,/best-account-based-marketing-platforms-for-small-b2b-teams/,A230,True,,contextual,ABM platforms for small B2B teams
@@ -455,7 +422,6 @@ A064,site/best-b2b-lead-generation-software/index.html,/best-sales-prospecting-t
 A064,site/best-b2b-lead-generation-software/index.html,/best-website-visitor-identification-tools-for-b2b-sales-teams/,A229,True,,contextual,website visitor identification tools
 A064,site/best-b2b-lead-generation-software/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software
 A064,site/best-b2b-lead-generation-software/index.html,/b2b-lead-generation-stack/,A079,True,,contextual,guide to building a B2B lead generation stack
-A064,site/best-b2b-lead-generation-software/index.html,/compliant-b2b-outreach-stack/,A059,True,,contextual,compliant B2B outreach stack guide
 A005,site/best-backlink-analysis-tools/index.html,/best-seo-software/,A001,True,,contextual,SEO software buying guide
 A005,site/best-backlink-analysis-tools/index.html,/seo/,H01,True,,contextual,SEO software category
 A005,site/best-backlink-analysis-tools/index.html,/ahrefs-alternatives/,A013,True,,contextual,Ahrefs alternatives by job
@@ -488,13 +454,11 @@ A189,site/best-brand-monitoring-tools-for-online-mentions-and-reputation/index.h
 A189,site/best-brand-monitoring-tools-for-online-mentions-and-reputation/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software category
 A189,site/best-brand-monitoring-tools-for-online-mentions-and-reputation/index.html,/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/,A153,True,,contextual,product review platforms for ecommerce
 A189,site/best-brand-monitoring-tools-for-online-mentions-and-reputation/index.html,/best-influencer-outreach-tools-for-agency-campaigns/,A192,True,,contextual,influencer outreach shortlist
-A189,site/best-brand-monitoring-tools-for-online-mentions-and-reputation/index.html,/best-social-media-management-tools-for-agencies/,A089,True,,contextual,social media management software for agencies
 A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/how-to-build-a-paid-media-measurement-plan-before-launch/,A139,True,,contextual,pre-launch paid media measurement plan
 A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,CRM software for small businesses
 A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling tools
 A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/best-cross-channel-paid-media-reporting-tools/,A124,True,,contextual,cross-channel paid media reporting
 A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/best-ad-fraud-detection-software-for-digital-advertisers/,A130,True,,contextual,ad fraud detection software
-A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,attribution for small teams without false certainty
 A131,site/best-call-tracking-software-for-paid-acquisition-campaigns/index.html,/paid-media/,H07,True,,contextual,paid media software category
 A277,site/best-capacity-planning-software-for-small-service-agencies/index.html,/best-task-management-software-for-marketing-operations-teams/,A274,True,,contextual,task management software for marketing operations teams
 A277,site/best-capacity-planning-software-for-small-service-agencies/index.html,/best-time-tracking-software-for-marketing-agencies/,A263,True,,contextual,time tracking software for marketing agencies
@@ -520,8 +484,6 @@ A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best
 A156,site/best-checkout-optimization-software-for-online-stores/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
 A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best-heatmap-session-replay-tools/,A088,True,,contextual,session replay tool
 A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software
-A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,conversion rate optimization tools
-A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best-website-performance-monitoring-tools-for-marketing-sites/,A214,True,,contextual,website performance monitoring tools
 A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,A141,True,,contextual,ecommerce platforms for growing DTC brands
 A156,site/best-checkout-optimization-software-for-online-stores/index.html,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,A141,True,,contextual,ecommerce platform guide
 A173,site/best-churn-prediction-software-for-subscription-businesses/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality and deduplication tools
@@ -574,8 +536,6 @@ A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.h
 A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platforms for B2B SaaS teams
 A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics software for SaaS startups
-A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.html,/best-voice-of-customer-software-for-product-and-marketing-teams/,A177,True,,contextual,voice of customer software
-A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.html,/best-customer-journey-analytics-platforms-for-lifecycle-teams/,A178,True,,contextual,customer journey analytics platforms for lifecycle teams
 A255,site/best-community-analytics-tools-for-measuring-member-engagement/index.html,/best-customer-community-alternatives-for-growing-saas-companies/,A254,True,,contextual,customer community platform alternatives
 A127,site/best-competitor-ad-research-tools-for-agencies/index.html,/best-ad-intelligence-tools-for-competitor-research/,A126,True,,contextual,ad intelligence tools for competitor research
 A127,site/best-competitor-ad-research-tools-for-agencies/index.html,/best-paid-social-advertising-management-platforms/,A123,True,,contextual,paid social advertising management platforms
@@ -587,7 +547,6 @@ A202,site/best-composable-cms-platforms-for-enterprise-marketing-teams/index.htm
 A202,site/best-composable-cms-platforms-for-enterprise-marketing-teams/index.html,/translation-management-system-vs-localization-platform/,A113,True,,contextual,translation management systems and localization platforms
 A202,site/best-composable-cms-platforms-for-enterprise-marketing-teams/index.html,/best-content-governance-tools-for-distributed-marketing-teams/,A117,True,,contextual,content governance tools for distributed teams
 A202,site/best-composable-cms-platforms-for-enterprise-marketing-teams/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,planning a replatforming project without losing search equity
-A202,site/best-composable-cms-platforms-for-enterprise-marketing-teams/index.html,/best-headless-cms-platforms-for-omnichannel-content/,A105,True,,contextual,headless CMS platforms for omnichannel content
 A202,site/best-composable-cms-platforms-for-enterprise-marketing-teams/index.html,/website-experience/,H11,True,,contextual,website experience software hub
 A212,site/best-consent-and-preference-management-platforms-for-marketing-sites/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software for small teams
 A212,site/best-consent-and-preference-management-platforms-for-marketing-sites/index.html,/best-privacy-friendly-web-analytics-tools/,A085,True,,contextual,privacy-friendly web analytics tools
@@ -598,7 +557,6 @@ A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.
 A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/best-editorial-calendar-software-for-multi-author-teams/,A102,True,,contextual,editorial calendar
 A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/best-creative-proofing-software-for-agency-client-approvals/,A265,True,,contextual,creative proofing software for agency client approvals
 A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/best-ad-compliance-and-creative-approval-software/,A133,True,,contextual,ad compliance and creative approval roundup
-A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/best-ai-social-media-tools/,A026,True,,contextual,roundup of social content tools for agencies
 A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/best-content-governance-tools-for-distributed-marketing-teams/,A117,True,,contextual,content governance tools
 A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/content-operations/,H06,True,,contextual,content operations hub
 A109,site/best-content-approval-software-for-marketing-and-creative-teams/index.html,/best-content-brief-and-assignment-management-tools/,A110,True,,contextual,content brief and assignment tools
@@ -611,10 +569,8 @@ A110,site/best-content-brief-and-assignment-management-tools/index.html,/best-co
 A110,site/best-content-brief-and-assignment-management-tools/index.html,/content-operations/,H06,True,,contextual,content operations hub
 A114,site/best-content-distribution-and-syndication-platforms-for-b2b/index.html,/content-syndication-vs-webinars-which-b2b-demand-channel-fits/,A260,True,,contextual,content syndication vs webinars
 A114,site/best-content-distribution-and-syndication-platforms-for-b2b/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
-A114,site/best-content-distribution-and-syndication-platforms-for-b2b/index.html,/best-newsletter-platforms-for-b2b/,A047,True,,contextual,newsletter platforms for B2B
 A114,site/best-content-distribution-and-syndication-platforms-for-b2b/index.html,/best-content-repurposing-workflow-platforms-for-marketing-teams/,A119,True,,contextual,content repurposing workflow platforms
 A114,site/best-content-distribution-and-syndication-platforms-for-b2b/index.html,/content-operations/,H06,True,,contextual,content operations hub
-A114,site/best-content-distribution-and-syndication-platforms-for-b2b/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,webinar platforms for B2B lead generation
 A117,site/best-content-governance-tools-for-distributed-marketing-teams/index.html,/best-knowledge-base-software-for-marketing-operations/,A116,True,,contextual,marketing knowledge base
 A117,site/best-content-governance-tools-for-distributed-marketing-teams/index.html,/best-content-localization-and-translation-management-software/,A112,True,,contextual,translation management software
 A117,site/best-content-governance-tools-for-distributed-marketing-teams/index.html,/best-content-inventory-and-audit-software-for-large-sites/,A111,True,,contextual,content inventory and audit software guide
@@ -623,7 +579,6 @@ A111,site/best-content-inventory-and-audit-software-for-large-sites/index.html,/
 A111,site/best-content-inventory-and-audit-software-for-large-sites/index.html,/best-content-governance-tools-for-distributed-marketing-teams/,A117,True,,contextual,content governance tools for distributed teams
 A111,site/best-content-inventory-and-audit-software-for-large-sites/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,planning a replatforming without losing search equity
 A111,site/best-content-inventory-and-audit-software-for-large-sites/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing marketing teams
-A111,site/best-content-inventory-and-audit-software-for-large-sites/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools
 A111,site/best-content-inventory-and-audit-software-for-large-sites/index.html,/content-operations/,H06,True,,contextual,content operations software hub
 A112,site/best-content-localization-and-translation-management-software/index.html,/translation-management-system-vs-localization-platform/,A113,True,,contextual,translation management systems and localization platforms
 A112,site/best-content-localization-and-translation-management-software/index.html,/best-headless-cms-platforms-for-omnichannel-content/,A105,True,,contextual,headless CMS platforms for omnichannel content
@@ -644,7 +599,6 @@ A009,site/best-content-optimization-tools/index.html,/best-ai-writing-tools/,A02
 A009,site/best-content-optimization-tools/index.html,/ai-content-workflow/,A038,True,,contextual,an AI content workflow with human editorial checks
 A009,site/best-content-optimization-tools/index.html,/surfer-seo-alternatives/,A014,True,,contextual,Surfer SEO alternatives comparison
 A009,site/best-content-optimization-tools/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools guide
-A009,site/best-content-optimization-tools/index.html,/best-content-inventory-and-audit-software-for-large-sites/,A111,True,,contextual,content inventory and audit software
 A009,site/best-content-optimization-tools/index.html,/seo/,H01,True,,contextual,SEO software hub
 A009,site/best-content-optimization-tools/index.html,/best-seo-software/,A001,True,,contextual,SEO software pillar guide
 A036,site/best-content-repurposing-tools-ai/index.html,/best-ai-email-copywriting-tools/,A025,True,,contextual,AI email copywriting tools for campaign teams
@@ -677,11 +631,8 @@ A234,site/best-conversation-intelligence-software-for-sales-coaching/index.html,
 A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-form-builders-for-b2b-lead-capture-and-qualification/,A209,True,,contextual,B2B lead capture form builders
 A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-chatbot-platforms-for-customer-support-workflows/,A171,True,,contextual,chatbot platforms guide
 A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-landing-page-builders-for-paid-acquisition-campaigns/,A132,True,,contextual,landing page builders for paid acquisition
-A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing tool
-A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,CRO tools for landing pages
 A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-website-experimentation-platforms-for-marketing-teams/,A218,True,,contextual,website experimentation platforms
 A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-website-accessibility-monitoring-tools-for-marketing-teams/,A213,True,,contextual,accessibility monitoring tools
-A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling guide
 A210,site/best-conversational-form-platforms-for-higher-intent-lead-capture/index.html,/website-experience/,H11,True,,contextual,website experience hub
 A115,site/best-corporate-blog-publishing-platforms-for-b2b-brands/index.html,/best-newsletter-platforms-for-b2b/,A047,True,,contextual,newsletter platforms for B2B creators and consultants
 A115,site/best-corporate-blog-publishing-platforms-for-b2b-brands/index.html,/wordpress-vs-webflow-for-marketing-led-websites/,A106,True,,contextual,WordPress and Webflow for marketing sites
@@ -703,7 +654,6 @@ A265,site/best-creative-proofing-software-for-agency-client-approvals/index.html
 A265,site/best-creative-proofing-software-for-agency-client-approvals/index.html,/best-e-signature-software-for-agency-contracts-and-sows/,A267,True,,contextual,e-signature software for SOWs
 A265,site/best-creative-proofing-software-for-agency-client-approvals/index.html,/best-digital-asset-management-software-for-marketing-teams/,A107,True,,contextual,digital asset management software
 A265,site/best-creative-proofing-software-for-agency-client-approvals/index.html,/best-client-portal-software-for-marketing-and-seo-agencies/,A262,True,,contextual,client portal software for agencies
-A265,site/best-creative-proofing-software-for-agency-client-approvals/index.html,/best-ad-compliance-and-creative-approval-software/,A133,True,,contextual,ad compliance and creative approval software
 A265,site/best-creative-proofing-software-for-agency-client-approvals/index.html,/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,A280,True,,contextual,how proofing fits a margin-protecting agency stack
 A197,site/best-creator-link-in-bio-and-campaign-landing-page-tools/index.html,/best-landing-page-builders-for-paid-acquisition-campaigns/,A132,True,,contextual,landing page builders for paid acquisition
 A197,site/best-creator-link-in-bio-and-campaign-landing-page-tools/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software category
@@ -723,7 +673,6 @@ A227,site/best-crm-data-quality-and-deduplication-tools/index.html,/best-lead-en
 A227,site/best-crm-data-quality-and-deduplication-tools/index.html,/best-email-verification-tools/,A046,True,,contextual,email verification and list cleaning tools
 A227,site/best-crm-data-quality-and-deduplication-tools/index.html,/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,A240,True,,contextual,designing a RevOps data model
 A227,site/best-crm-data-quality-and-deduplication-tools/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,data integration platforms for lean teams
-A227,site/best-crm-data-quality-and-deduplication-tools/index.html,/hubspot-vs-salesforce/,A071,True,,contextual,HubSpot vs Salesforce for growing businesses
 A227,site/best-crm-data-quality-and-deduplication-tools/index.html,/data-revops/,H12,True,,contextual,data and RevOps software category
 A063,site/best-crm-for-b2b-saas/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,pillar guide to small-business CRM software
 A063,site/best-crm-for-b2b-saas/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software shortlist
@@ -731,14 +680,12 @@ A063,site/best-crm-for-b2b-saas/index.html,/hubspot-vs-salesforce/,A071,True,,co
 A063,site/best-crm-for-b2b-saas/index.html,/best-sales-engagement-platforms/,A044,True,,contextual,sales engagement platforms for SDR teams
 A063,site/best-crm-for-b2b-saas/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software comparison
 A063,site/best-crm-for-b2b-saas/index.html,/crm-pricing/,A077,True,,contextual,"guide to CRM seat, onboarding and admin costs"
-A063,site/best-crm-for-b2b-saas/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platforms for B2B SaaS teams
 A063,site/best-crm-for-b2b-saas/index.html,/crm-lead-gen/,H04,True,,contextual,"CRM, lead generation and sales intelligence hub"
 A062,site/best-crm-for-marketing-agencies/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small-business CRM pillar
 A062,site/best-crm-for-marketing-agencies/index.html,/choose-crm-for-marketing-agency/,A078,True,,contextual,step-by-step guide to choosing an agency CRM
 A062,site/best-crm-for-marketing-agencies/index.html,/best-seo-reporting-software/,A010,True,,contextual,client reporting software for agencies
 A062,site/best-crm-for-marketing-agencies/index.html,/best-sales-engagement-platforms/,A044,True,,contextual,sales engagement platform comparison
 A062,site/best-crm-for-marketing-agencies/index.html,/best-sales-prospecting-tools-for-agencies/,A068,True,,contextual,prospecting tools built for agency new business
-A062,site/best-crm-for-marketing-agencies/index.html,/best-ai-marketing-tools-for-agencies/,A040,True,,contextual,small-agency marketing tool stack
 A062,site/best-crm-for-marketing-agencies/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and pipeline software hub
 A061,site/best-crm-software-for-small-business/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation hub
 A061,site/best-crm-software-for-small-business/index.html,/best-crm-for-marketing-agencies/,A062,True,,contextual,agency CRM shortlist
@@ -762,16 +709,12 @@ A086,site/best-cro-tools-for-landing-pages/index.html,/automation-analytics/,H05
 A086,site/best-cro-tools-for-landing-pages/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation picks for small teams
 A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution without false certainty
 A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/best-white-label-reporting-platforms-for-digital-agencies/,A271,True,,contextual,white-label reporting platforms
-A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,marketing data integration platforms
 A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/how-to-run-a-monthly-paid-media-account-review-for-clients/,A140,True,,contextual,running a monthly paid media review
-A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software for performance teams
-A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/best-seo-reporting-software/,A010,True,,contextual,SEO reporting software for client agencies
 A124,site/best-cross-channel-paid-media-reporting-tools/index.html,/paid-media/,H07,True,,contextual,paid media hub
 A254,site/best-customer-community-alternatives-for-growing-saas-companies/index.html,/best-help-desk-software-for-growing-b2b-saas-companies/,A167,True,,contextual,help desk software for growing B2B SaaS companies
 A254,site/best-customer-community-alternatives-for-growing-saas-companies/index.html,/best-customer-knowledge-base-and-self-service-portal-software/,A172,True,,contextual,self-service alongside your knowledge base
 A254,site/best-customer-community-alternatives-for-growing-saas-companies/index.html,/best-community-analytics-tools-for-measuring-member-engagement/,A255,True,,contextual,community analytics tools
 A254,site/best-customer-community-alternatives-for-growing-saas-companies/index.html,/best-online-community-platforms-for-b2b-brands-and-saas-companies/,A253,True,,contextual,online community platforms for B2B brands and SaaS companies
-A254,site/best-customer-community-alternatives-for-growing-saas-companies/index.html,/best-customer-community-platforms-for-saas-companies/,A176,True,,contextual,customer community platforms for SaaS companies
 A254,site/best-customer-community-alternatives-for-growing-saas-companies/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A176,site/best-customer-community-platforms-for-saas-companies/index.html,/best-customer-education-platforms-for-saas-and-b2b-companies/,A163,True,,contextual,customer education platform
 A176,site/best-customer-community-platforms-for-saas-companies/index.html,/best-customer-feedback-management-software-for-b2b-teams/,A165,True,,contextual,feedback management tool
@@ -784,7 +727,6 @@ A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-
 A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
 A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-reverse-etl-tools-for-activating-warehouse-data/,A223,True,,contextual,reverse ETL tools for activating warehouse data
 A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality and deduplication tools
-A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-ecommerce-customer-data-platforms-for-retention-teams/,A147,True,,contextual,ecommerce CDPs for retention teams
 A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-b2b-customer-data-platforms-for-account-based-marketing/,A222,True,,contextual,CDPs for account-based marketing
 A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/best-data-warehouse-platforms-for-small-marketing-analytics-teams/,A225,True,,contextual,warehouses for small marketing analytics teams
 A221,site/best-customer-data-platforms-for-b2b-marketing-teams/index.html,/data-revops/,H12,True,,contextual,data and RevOps software hub
@@ -799,7 +741,6 @@ A165,site/best-customer-feedback-management-software-for-b2b-teams/index.html,/b
 A165,site/best-customer-feedback-management-software-for-b2b-teams/index.html,/best-product-roadmap-prioritization-software-for-saas-teams/,A292,True,,contextual,roadmap prioritization software
 A165,site/best-customer-feedback-management-software-for-b2b-teams/index.html,/best-beta-testing-and-product-feedback-collection-software/,A293,True,,contextual,beta testing and feedback collection tools
 A165,site/best-customer-feedback-management-software-for-b2b-teams/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platform
-A165,site/best-customer-feedback-management-software-for-b2b-teams/index.html,/best-product-feedback-and-roadmap-voting-platforms/,A291,True,,contextual,product feedback and roadmap voting platforms
 A165,site/best-customer-feedback-management-software-for-b2b-teams/index.html,/customer-retention/,H09,True,,contextual,customer retention software hub
 A175,site/best-customer-health-scoring-software-for-account-management/index.html,/best-customer-feedback-management-software-for-b2b-teams/,A165,True,,contextual,feedback management software
 A175,site/best-customer-health-scoring-software-for-account-management/index.html,/best-nps-software-for-customer-experience-teams/,A166,True,,contextual,NPS software
@@ -810,15 +751,10 @@ A175,site/best-customer-health-scoring-software-for-account-management/index.htm
 A175,site/best-customer-health-scoring-software-for-account-management/index.html,/customer-retention/,H09,True,,contextual,customer retention software hub
 A178,site/best-customer-journey-analytics-platforms-for-lifecycle-teams/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,attribution without false certainty
 A178,site/best-customer-journey-analytics-platforms-for-lifecycle-teams/index.html,/best-customer-journey-analytics-tools-for-saas-product-teams/,A288,True,,contextual,journey analytics tools for SaaS product teams
-A178,site/best-customer-journey-analytics-platforms-for-lifecycle-teams/index.html,/best-customer-data-platforms-for-b2b-marketing-teams/,A221,True,,contextual,B2B customer data platform roundup
 A178,site/best-customer-journey-analytics-platforms-for-lifecycle-teams/index.html,/best-subscription-analytics-software-for-retention-and-revenue-teams/,A174,True,,contextual,subscription analytics tools
-A178,site/best-customer-journey-analytics-platforms-for-lifecycle-teams/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics roundup
 A178,site/best-customer-journey-analytics-platforms-for-lifecycle-teams/index.html,/customer-retention/,H09,True,,contextual,customer retention software hub
 A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/best-customer-journey-analytics-platforms-for-lifecycle-teams/,A178,True,,contextual,journey analytics platforms for lifecycle teams
 A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software for performance teams
-A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/best-customer-data-platforms-for-b2b-marketing-teams/,A221,True,,contextual,customer data platform for B2B teams
-A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/best-in-app-messaging-platforms-for-saas-product-teams/,A164,True,,contextual,in-app messaging platforms for SaaS product teams
-A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/best-reverse-etl-tools-for-activating-warehouse-data/,A223,True,,contextual,reverse ETL tools
 A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/product-led-growth/,H15,True,,contextual,product-led growth software hub
 A288,site/best-customer-journey-analytics-tools-for-saas-product-teams/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics software roundup
 A172,site/best-customer-knowledge-base-and-self-service-portal-software/index.html,/best-knowledge-base-software-for-marketing-operations/,A116,True,,contextual,knowledge base software for marketing operations
@@ -832,7 +768,6 @@ A162,site/best-customer-onboarding-software-for-saas-companies/index.html,/best-
 A162,site/best-customer-onboarding-software-for-saas-companies/index.html,/best-digital-adoption-platforms-for-complex-saas-products/,A284,True,,contextual,digital adoption platform
 A162,site/best-customer-onboarding-software-for-saas-companies/index.html,/best-customer-education-platforms-for-saas-and-b2b-companies/,A163,True,,contextual,customer education platform
 A162,site/best-customer-onboarding-software-for-saas-companies/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platform
-A162,site/best-customer-onboarding-software-for-saas-companies/index.html,/best-client-onboarding-software-for-digital-agencies/,A272,True,,contextual,client onboarding software for digital agencies
 A162,site/best-customer-onboarding-software-for-saas-companies/index.html,/customer-retention/,H09,True,,contextual,customer retention software hub
 A161,site/best-customer-success-platforms-for-b2b-saas-teams/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRMs built for B2B SaaS sales teams
 A161,site/best-customer-success-platforms-for-b2b-saas-teams/index.html,/best-help-desk-software-for-growing-b2b-saas-companies/,A167,True,,contextual,help desk software for growing SaaS companies
@@ -882,8 +817,6 @@ A147,site/best-ecommerce-customer-data-platforms-for-retention-teams/index.html,
 A147,site/best-ecommerce-customer-data-platforms-for-retention-teams/index.html,/best-ecommerce-personalization-software-for-product-discovery/,A143,True,,contextual,personalization software for product discovery
 A147,site/best-ecommerce-customer-data-platforms-for-retention-teams/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
 A147,site/best-ecommerce-customer-data-platforms-for-retention-teams/index.html,/best-customer-data-platforms-for-b2b-marketing-teams/,A221,True,,contextual,customer data platforms for B2B marketing
-A147,site/best-ecommerce-customer-data-platforms-for-retention-teams/index.html,/best-reverse-etl-tools-for-activating-warehouse-data/,A223,True,,contextual,reverse ETL tools
-A147,site/best-ecommerce-customer-data-platforms-for-retention-teams/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
 A042,site/best-ecommerce-email-marketing-software/index.html,/best-email-marketing-software/,A041,True,,contextual,email marketing software for small businesses
 A042,site/best-ecommerce-email-marketing-software/index.html,/email-outreach/,H03,True,,contextual,email and outreach software category
 A042,site/best-ecommerce-email-marketing-software/index.html,/klaviyo-alternatives/,A054,True,,contextual,comparison of Klaviyo alternatives
@@ -891,7 +824,6 @@ A042,site/best-ecommerce-email-marketing-software/index.html,/best-sms-marketing
 A042,site/best-ecommerce-email-marketing-software/index.html,/best-lifecycle-email-automation-software/,A048,True,,contextual,lifecycle automation platforms
 A042,site/best-ecommerce-email-marketing-software/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics tools for performance teams
 A042,site/best-ecommerce-email-marketing-software/index.html,/email-marketing-roi-and-deliverability/,A060,True,,contextual,reading email ROI and deliverability together
-A042,site/best-ecommerce-email-marketing-software/index.html,/best-ecommerce-customer-data-platforms-for-retention-teams/,A147,True,,contextual,customer data platform for retention teams
 A149,site/best-ecommerce-loyalty-and-rewards-platforms/index.html,/best-referral-marketing-software-for-online-stores/,A150,True,,contextual,referral marketing software for online stores
 A149,site/best-ecommerce-loyalty-and-rewards-platforms/index.html,/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/,A153,True,,contextual,product review and UGC platforms
 A149,site/best-ecommerce-loyalty-and-rewards-platforms/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
@@ -900,7 +832,6 @@ A149,site/best-ecommerce-loyalty-and-rewards-platforms/index.html,/best-voice-of
 A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/ga4-alternatives/,A092,True,,contextual,GA4 alternatives and complementary analytics tools
 A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
 A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
-A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/best-data-warehouse-platforms-for-small-marketing-analytics-teams/,A225,True,,contextual,data warehouse platforms for small analytics teams
 A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/best-onsite-search-software-for-ecommerce-catalogs/,A154,True,,contextual,onsite search software
 A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/best-product-recommendation-engines-for-online-stores/,A144,True,,contextual,product recommendation engines
 A158,site/best-ecommerce-merchandising-analytics-tools/index.html,/how-to-build-an-ecommerce-growth-stack-without-app-overload/,A160,True,,contextual,guide to building a lean ecommerce growth stack
@@ -951,7 +882,6 @@ A041,site/best-email-marketing-software/index.html,/best-crm-software-for-small-
 A041,site/best-email-marketing-software/index.html,/choose-email-marketing-software/,A058,True,,contextual,choosing email software by list size and send volume
 A041,site/best-email-marketing-software/index.html,/best-email-deliverability-tools/,A045,True,,contextual,deliverability monitoring tools for marketing teams
 A041,site/best-email-marketing-software/index.html,/email-marketing-roi-and-deliverability/,A060,True,,contextual,measuring email ROI alongside deliverability
-A041,site/best-email-marketing-software/index.html,/best-ai-email-copywriting-tools/,A025,True,,contextual,AI email copywriting tools
 A050,site/best-email-testing-tools/index.html,/best-email-deliverability-tools/,A045,True,,contextual,deliverability tools for marketing teams
 A050,site/best-email-testing-tools/index.html,/email-marketing-roi-and-deliverability/,A060,True,,contextual,measuring email ROI and deliverability together
 A050,site/best-email-testing-tools/index.html,/best-transactional-email-services/,A049,True,,contextual,transactional email service
@@ -968,14 +898,11 @@ A046,site/best-email-verification-tools/index.html,/best-email-marketing-softwar
 A046,site/best-email-verification-tools/index.html,/email-outreach/,H03,True,,contextual,email marketing and outreach hub
 A257,site/best-event-lead-capture-apps-for-exhibitors-and-sponsors/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRMs for B2B SaaS sales teams
 A257,site/best-event-lead-capture-apps-for-exhibitors-and-sponsors/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling tool
-A257,site/best-event-lead-capture-apps-for-exhibitors-and-sponsors/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality and deduplication tools
 A257,site/best-event-lead-capture-apps-for-exhibitors-and-sponsors/index.html,/best-event-registration-software-for-business-conferences/,A243,True,,contextual,conference registration software
 A257,site/best-event-lead-capture-apps-for-exhibitors-and-sponsors/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A257,site/best-event-lead-capture-apps-for-exhibitors-and-sponsors/index.html,/best-event-networking-software-for-business-conferences/,A256,True,,contextual,event networking software
 A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/,A246,True,,contextual,webinar analytics tools guide
 A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,Zapier vs Make vs n8n comparison
-A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,marketing data integration platforms
-A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution for small teams
 A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,A259,True,,contextual,webinar funnel from registration to sales follow-up
 A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/webinars-demand-gen/,H13,True,,contextual,webinar and event software hub
 A258,site/best-event-marketing-automation-integrations-for-b2b-teams/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software
@@ -1010,9 +937,7 @@ A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/
 A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-conversational-form-platforms-for-higher-intent-lead-capture/,A210,True,,contextual,conversational form software guide
 A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling guide
 A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-utm-governance-and-campaign-naming-tools/,A134,True,,contextual,UTM governance tools
-A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-lead-enrichment-software/,A066,True,,contextual,lead enrichment software
 A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-consent-and-preference-management-platforms-for-marketing-sites/,A212,True,,contextual,consent management guide
-A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM for B2B SaaS
 A209,site/best-form-builders-for-b2b-lead-capture-and-qualification/index.html,/best-landing-page-builders-for-saas-demo-and-trial-funnels/,A204,True,,contextual,landing page builders for SaaS demo funnels
 A035,site/best-free-ai-writing-tools/index.html,/best-ai-writing-tools/,A021,True,,contextual,roundup of AI writing tools for marketing teams
 A035,site/best-free-ai-writing-tools/index.html,/chatgpt-vs-claude-for-marketing/,A030,True,,contextual,ChatGPT vs Claude comparison for marketing
@@ -1028,7 +953,6 @@ A076,site/best-free-crm-software/index.html,/crm-pricing/,A077,True,,contextual,
 A076,site/best-free-crm-software/index.html,/pipedrive-alternatives/,A072,True,,contextual,Pipedrive alternatives for small sales teams
 A076,site/best-free-crm-software/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM built for B2B SaaS sales teams
 A076,site/best-free-crm-software/index.html,/best-free-email-marketing-software/,A056,True,,contextual,what free email marketing plans actually allow
-A076,site/best-free-crm-software/index.html,/best-free-marketing-automation-tools/,A096,True,,contextual,free marketing automation tools and their real limits
 A076,site/best-free-crm-software/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation software hub
 A056,site/best-free-email-marketing-software/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,shortlist of email platforms for ecommerce brands
 A056,site/best-free-email-marketing-software/index.html,/mailchimp-alternatives/,A052,True,,contextual,"guide to Mailchimp alternatives, grouped by reason for switching"
@@ -1043,8 +967,6 @@ A096,site/best-free-marketing-automation-tools/index.html,/mailchimp-alternative
 A096,site/best-free-marketing-automation-tools/index.html,/activecampaign-vs-hubspot/,A095,True,,contextual,ActiveCampaign vs HubSpot comparison
 A096,site/best-free-marketing-automation-tools/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,ecommerce email platform shortlist
 A096,site/best-free-marketing-automation-tools/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing guide
-A096,site/best-free-marketing-automation-tools/index.html,/best-free-email-marketing-software/,A056,True,,contextual,what free email marketing plans allow
-A096,site/best-free-marketing-automation-tools/index.html,/best-free-crm-software/,A076,True,,contextual,free CRM plans and their limits
 A096,site/best-free-marketing-automation-tools/index.html,/best-no-code-automation-platforms/,A083,True,,contextual,no-code automation platforms shortlist
 A096,site/best-free-marketing-automation-tools/index.html,/best-workflow-automation-tools-for-marketing-agencies/,A082,True,,contextual,workflow automation tools agencies use
 A096,site/best-free-marketing-automation-tools/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software for small teams
@@ -1056,7 +978,6 @@ A016,site/best-free-seo-tools/index.html,/best-website-performance-monitoring-to
 A016,site/best-free-seo-tools/index.html,/best-local-seo-software/,A006,True,,contextual,local SEO software guide
 A016,site/best-free-seo-tools/index.html,/best-technical-seo-audit-tools/,A004,True,,contextual,technical SEO audit tools for large websites
 A016,site/best-free-seo-tools/index.html,/best-keyword-research-tools/,A002,True,,contextual,keyword research tools comparison
-A016,site/best-free-seo-tools/index.html,/best-free-ai-writing-tools/,A035,True,,contextual,free AI writing tools and their limits
 A016,site/best-free-seo-tools/index.html,/seo-software-pricing/,A017,True,,contextual,"what an agency pays for SEO software at 5, 10 and 20 clients"
 A016,site/best-free-seo-tools/index.html,/seo-tool-stack/,A018,True,,contextual,guide to building a stack without duplicate features
 A016,site/best-free-seo-tools/index.html,/semrush-vs-ahrefs/,A011,True,,contextual,comparison of the Semrush and Ahrefs workflows
@@ -1104,9 +1025,6 @@ A244,site/best-hybrid-event-management-platforms-for-marketing-teams/index.html,
 A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/best-lifecycle-email-automation-software/,A048,True,,contextual,lifecycle email automation software
 A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/best-live-chat-software-for-lead-generation-and-customer-support/,A168,True,,contextual,live chat software
 A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/best-product-tour-and-user-onboarding-software-for-saas/,A285,True,,contextual,product tour software
-A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics platform
-A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/best-feature-adoption-analytics-tools-for-saas-companies/,A290,True,,contextual,feature adoption analytics tools
-A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/product-analytics-pricing-explained-events-users-and-data-retention/,A298,True,,contextual,how event- and user-based pricing works
 A164,site/best-in-app-messaging-platforms-for-saas-product-teams/index.html,/customer-retention/,H09,True,,contextual,customer retention software hub
 A184,site/best-influencer-marketing-platforms-for-b2b-brands/index.html,/best-influencer-marketing-platforms-for-ecommerce-brands/,A185,True,,contextual,influencer marketing platforms for ecommerce
 A184,site/best-influencer-marketing-platforms-for-b2b-brands/index.html,/best-linkedin-ads-management-and-reporting-tools-for-b2b/,A137,True,,contextual,LinkedIn Ads management and reporting tools
@@ -1151,22 +1069,15 @@ A116,site/best-knowledge-base-software-for-marketing-operations/index.html,/best
 A116,site/best-knowledge-base-software-for-marketing-operations/index.html,/content-operations/,H06,True,,contextual,content operations software hub
 A205,site/best-landing-page-builders-for-marketing-agencies/index.html,/best-creative-proofing-software-for-agency-client-approvals/,A265,True,,contextual,creative proofing software for client approvals
 A205,site/best-landing-page-builders-for-marketing-agencies/index.html,/best-white-label-reporting-platforms-for-digital-agencies/,A271,True,,contextual,white-label reporting platforms
-A205,site/best-landing-page-builders-for-marketing-agencies/index.html,/best-client-portal-software-for-marketing-and-seo-agencies/,A262,True,,contextual,client portal software for agencies
-A205,site/best-landing-page-builders-for-marketing-agencies/index.html,/best-ppc-management-software-for-agencies/,A121,True,,contextual,PPC management software for agencies
-A205,site/best-landing-page-builders-for-marketing-agencies/index.html,/best-landing-page-builders-for-paid-acquisition-campaigns/,A132,True,,contextual,landing page builders for paid acquisition
 A205,site/best-landing-page-builders-for-marketing-agencies/index.html,/website-experience/,H11,True,,contextual,website experience software hub
 A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/best-landing-page-builders-for-marketing-agencies/,A205,True,,contextual,landing page builders for agencies
 A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/best-form-builders-for-b2b-lead-capture-and-qualification/,A209,True,,contextual,form builders for lead capture and qualification
-A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,A219,True,,contextual,website builder vs CMS comparison
 A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/best-utm-governance-and-campaign-naming-tools/,A134,True,,contextual,UTM governance tools guide
-A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,CRO tools for landing pages
-A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing platforms
 A132,site/best-landing-page-builders-for-paid-acquisition-campaigns/index.html,/paid-media/,H07,True,,contextual,paid media software hub
 A204,site/best-landing-page-builders-for-saas-demo-and-trial-funnels/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,scheduling and lead routing software
 A204,site/best-landing-page-builders-for-saas-demo-and-trial-funnels/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics for SaaS startups
 A204,site/best-landing-page-builders-for-saas-demo-and-trial-funnels/index.html,/best-form-builders-for-b2b-lead-capture-and-qualification/,A209,True,,contextual,form builders for B2B lead capture
 A204,site/best-landing-page-builders-for-saas-demo-and-trial-funnels/index.html,/best-website-personalization-software-for-b2b-lead-generation/,A203,True,,contextual,B2B website personalization software
-A204,site/best-landing-page-builders-for-saas-demo-and-trial-funnels/index.html,/best-landing-page-builders-for-paid-acquisition-campaigns/,A132,True,,contextual,landing page builders for paid acquisition
 A204,site/best-landing-page-builders-for-saas-demo-and-trial-funnels/index.html,/website-experience/,H11,True,,contextual,website experience software hub
 A066,site/best-lead-enrichment-software/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,guide to CRM software for small businesses
 A066,site/best-lead-enrichment-software/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation hub
@@ -1178,12 +1089,10 @@ A066,site/best-lead-enrichment-software/index.html,/best-crm-data-quality-and-de
 A066,site/best-lead-enrichment-software/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software picks
 A066,site/best-lead-enrichment-software/index.html,/lead-scoring-vs-lead-enrichment/,A080,True,,contextual,lead scoring vs lead enrichment
 A066,site/best-lead-enrichment-software/index.html,/best-b2b-contact-database-tools/,A065,True,,contextual,B2B contact database guide
-A066,site/best-lead-enrichment-software/index.html,/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/,A239,True,,contextual,our enrichment vs intent data comparison
 A066,site/best-lead-enrichment-software/index.html,/b2b-lead-generation-stack/,A079,True,,contextual,building a B2B lead generation stack
 A070,site/best-lead-routing-and-scheduling-software/index.html,/best-form-builders-for-b2b-lead-capture-and-qualification/,A209,True,,contextual,form builders for B2B lead capture and qualification
 A070,site/best-lead-routing-and-scheduling-software/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software guide
 A070,site/best-lead-routing-and-scheduling-software/index.html,/crm-pricing/,A077,True,,contextual,CRM pricing explainer
-A070,site/best-lead-routing-and-scheduling-software/index.html,/best-revenue-operations-analytics-tools-for-cross-functional-teams/,A238,True,,contextual,revenue operations analytics tool
 A070,site/best-lead-routing-and-scheduling-software/index.html,/best-b2b-lead-generation-software/,A064,True,,contextual,B2B lead generation software picks
 A070,site/best-lead-routing-and-scheduling-software/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation guide
 A070,site/best-lead-routing-and-scheduling-software/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small business CRM shortlist
@@ -1202,24 +1111,19 @@ A048,site/best-lifecycle-email-automation-software/index.html,/best-transactiona
 A048,site/best-lifecycle-email-automation-software/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics guide for SaaS startups
 A048,site/best-lifecycle-email-automation-software/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,ecommerce email platform guide
 A048,site/best-lifecycle-email-automation-software/index.html,/hubspot-marketing-hub-vs-activecampaign/,A053,True,,contextual,HubSpot Marketing Hub versus ActiveCampaign comparison
-A048,site/best-lifecycle-email-automation-software/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing guide
 A048,site/best-lifecycle-email-automation-software/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software guide for small teams
-A048,site/best-lifecycle-email-automation-software/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM guide for B2B SaaS sales teams
 A048,site/best-lifecycle-email-automation-software/index.html,/best-email-marketing-software/,A041,True,,contextual,email marketing software pillar
 A048,site/best-lifecycle-email-automation-software/index.html,/email-outreach/,H03,True,,contextual,email and outreach hub
 A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/hubspot-marketing-hub-vs-activecampaign/,A053,True,,contextual,HubSpot Marketing Hub comparison
 A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality tools
-A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/best-account-based-advertising-platforms-for-b2b-marketers/,A231,True,,contextual,account-based advertising platforms
 A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/best-paid-social-advertising-management-platforms/,A123,True,,contextual,paid social management
 A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/best-ppc-budget-pacing-and-spend-forecasting-tools/,A129,True,,contextual,budget pacing tools
 A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/paid-media/,H07,True,,contextual,paid media software hub
-A137,site/best-linkedin-ads-management-and-reporting-tools-for-b2b/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,best CRM for B2B SaaS sales teams
 A069,site/best-linkedin-sales-prospecting-tools/index.html,/best-sales-engagement-platforms/,A044,True,,contextual,sales engagement platform guide
 A069,site/best-linkedin-sales-prospecting-tools/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM picks for B2B SaaS sales teams
 A069,site/best-linkedin-sales-prospecting-tools/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small business CRM guide
 A069,site/best-linkedin-sales-prospecting-tools/index.html,/best-sales-prospecting-tools-for-agencies/,A068,True,,contextual,sales prospecting tools for agencies
 A069,site/best-linkedin-sales-prospecting-tools/index.html,/compliant-b2b-outreach-stack/,A059,True,,contextual,a compliant B2B outreach stack
-A069,site/best-linkedin-sales-prospecting-tools/index.html,/best-linkedin-ads-management-and-reporting-tools-for-b2b/,A137,True,,contextual,LinkedIn ads management and reporting tools
 A069,site/best-linkedin-sales-prospecting-tools/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation software hub
 A168,site/best-live-chat-software-for-lead-generation-and-customer-support/index.html,/best-chatbot-platforms-for-customer-support-workflows/,A171,True,,contextual,chatbot platforms for support workflows
 A168,site/best-live-chat-software-for-lead-generation-and-customer-support/index.html,/best-shared-inbox-software-for-customer-facing-teams/,A170,True,,contextual,shared inbox comparison
@@ -1238,7 +1142,6 @@ A084,site/best-marketing-analytics-software/index.html,/best-cro-tools-for-landi
 A084,site/best-marketing-analytics-software/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution without false certainty
 A084,site/best-marketing-analytics-software/index.html,/email-marketing-roi-and-deliverability/,A060,True,,contextual,measuring email ROI alongside deliverability
 A084,site/best-marketing-analytics-software/index.html,/seo-software-roi/,A020,True,,contextual,measuring SEO tool ROI
-A084,site/best-marketing-analytics-software/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,marketing data integration platforms for lean teams
 A084,site/best-marketing-analytics-software/index.html,/best-privacy-friendly-web-analytics-tools/,A085,True,,contextual,privacy-focused web analytics tools
 A084,site/best-marketing-analytics-software/index.html,/ga4-alternatives/,A092,True,,contextual,GA4 alternatives and complements
 A084,site/best-marketing-analytics-software/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing guide
@@ -1251,7 +1154,6 @@ A081,site/best-marketing-automation-software/index.html,/best-workflow-automatio
 A081,site/best-marketing-automation-software/index.html,/activecampaign-vs-hubspot/,A095,True,,contextual,ActiveCampaign vs HubSpot breakdown
 A081,site/best-marketing-automation-software/index.html,/best-lifecycle-email-automation-software/,A048,True,,contextual,lifecycle email automation shortlist
 A081,site/best-marketing-automation-software/index.html,/marketing-automation-pricing/,A097,True,,contextual,"guide to marketing automation pricing by contacts, tasks, seats and add-ons"
-A081,site/best-marketing-automation-software/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring tools for small revenue teams
 A081,site/best-marketing-automation-software/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
 A081,site/best-marketing-automation-software/index.html,/best-no-code-automation-platforms/,A083,True,,contextual,no-code automation platforms for marketing ops
 A081,site/best-marketing-automation-software/index.html,/b2b-growth-stack/,A099,True,,contextual,building a full-funnel growth stack for a small B2B team
@@ -1259,7 +1161,6 @@ A081,site/best-marketing-automation-software/index.html,/automation-analytics/,H
 A224,site/best-marketing-data-integration-platforms-for-lean-teams/index.html,/best-reverse-etl-tools-for-activating-warehouse-data/,A223,True,,contextual,reverse ETL tools
 A224,site/best-marketing-data-integration-platforms-for-lean-teams/index.html,/best-cross-channel-paid-media-reporting-tools/,A124,True,,contextual,cross-channel paid media reporting tools
 A224,site/best-marketing-data-integration-platforms-for-lean-teams/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
-A224,site/best-marketing-data-integration-platforms-for-lean-teams/index.html,/best-workflow-automation-tools-for-marketing-agencies/,A082,True,,contextual,workflow automation tools
 A224,site/best-marketing-data-integration-platforms-for-lean-teams/index.html,/best-data-warehouse-platforms-for-small-marketing-analytics-teams/,A225,True,,contextual,warehouses for small marketing analytics teams
 A224,site/best-marketing-data-integration-platforms-for-lean-teams/index.html,/data-revops/,H12,True,,contextual,data and RevOps hub
 A146,site/best-marketplace-management-software-for-multi-channel-sellers/index.html,/best-product-feed-management-software-for-ecommerce/,A145,True,,contextual,product feed management software
@@ -1283,7 +1184,6 @@ A047,site/best-newsletter-platforms-for-b2b/index.html,/email-outreach/,H03,True
 A083,site/best-no-code-automation-platforms/index.html,/best-no-code-etl-tools-for-marketing-operations/,A226,True,,contextual,no-code ETL tools for marketing operations
 A083,site/best-no-code-automation-platforms/index.html,/marketing-automation-pricing/,A097,True,,contextual,guide to marketing automation pricing units
 A083,site/best-no-code-automation-platforms/index.html,/best-lead-enrichment-software/,A066,True,,contextual,lead enrichment tools for revenue teams
-A083,site/best-no-code-automation-platforms/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling software
 A083,site/best-no-code-automation-platforms/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,Zapier vs Make vs n8n comparison
 A083,site/best-no-code-automation-platforms/index.html,/marketing-stack-audit/,A098,True,,contextual,marketing stack audit
 A083,site/best-no-code-automation-platforms/index.html,/best-workflow-automation-tools-for-marketing-agencies/,A082,True,,contextual,automation tools for multi-client agencies
@@ -1295,7 +1195,6 @@ A226,site/best-no-code-etl-tools-for-marketing-operations/index.html,/marketing-
 A226,site/best-no-code-etl-tools-for-marketing-operations/index.html,/best-data-warehouse-platforms-for-small-marketing-analytics-teams/,A225,True,,contextual,warehouse platforms for small marketing analytics teams
 A226,site/best-no-code-etl-tools-for-marketing-operations/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,marketing data integration platforms for lean teams
 A226,site/best-no-code-etl-tools-for-marketing-operations/index.html,/data-revops/,H12,True,,contextual,data and RevOps software hub
-A226,site/best-no-code-etl-tools-for-marketing-operations/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,Zapier vs Make vs n8n
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,A219,True,,contextual,choosing between a website builder and a CMS
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/website-experience/,H11,True,,contextual,website experience software category
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/best-form-builders-for-b2b-lead-capture-and-qualification/,A209,True,,contextual,B2B lead capture form builders
@@ -1303,8 +1202,6 @@ A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/be
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/best-headless-cms-platforms-for-omnichannel-content/,A105,True,,contextual,headless CMS platforms for omnichannel content
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/best-composable-cms-platforms-for-enterprise-marketing-teams/,A202,True,,contextual,composable CMS platforms for enterprise marketing teams
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,replatforming guide
-A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/best-no-code-automation-platforms/,A083,True,,contextual,no-code automation platforms
-A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/wordpress-vs-webflow-for-marketing-led-websites/,A106,True,,contextual,WordPress vs Webflow for marketing-led websites
 A206,site/best-no-code-website-platforms-for-marketing-operations/index.html,/best-website-builders-for-b2b-marketing-teams/,A201,True,,contextual,website builders for B2B marketing teams
 A166,site/best-nps-software-for-customer-experience-teams/index.html,/best-customer-feedback-management-software-for-b2b-teams/,A165,True,,contextual,customer feedback management tools for B2B teams
 A166,site/best-nps-software-for-customer-experience-teams/index.html,/best-customer-health-scoring-software-for-account-management/,A175,True,,contextual,customer health scoring software
@@ -1324,7 +1221,6 @@ A253,site/best-online-community-platforms-for-b2b-brands-and-saas-companies/inde
 A253,site/best-online-community-platforms-for-b2b-brands-and-saas-companies/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A253,site/best-online-community-platforms-for-b2b-brands-and-saas-companies/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platforms for B2B SaaS teams
 A253,site/best-online-community-platforms-for-b2b-brands-and-saas-companies/index.html,/best-community-analytics-tools-for-measuring-member-engagement/,A255,True,,contextual,community analytics tools for measuring member engagement
-A253,site/best-online-community-platforms-for-b2b-brands-and-saas-companies/index.html,/best-referral-program-software-for-b2b-saas-products/,A190,True,,contextual,a B2B referral program
 A253,site/best-online-community-platforms-for-b2b-brands-and-saas-companies/index.html,/best-virtual-event-platforms-for-b2b-marketing-teams/,A242,True,,contextual,virtual event platforms for B2B marketing teams
 A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,webinar platforms for B2B lead generation
 A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-on-demand-webinar-hosting-platforms-for-b2b-content/,A248,True,,contextual,on-demand webinar hosting
@@ -1332,8 +1228,6 @@ A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/webin
 A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-online-community-platforms-for-b2b-brands-and-saas-companies/,A253,True,,contextual,online community platforms for B2B brands
 A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-customer-education-platforms-for-saas-and-b2b-companies/,A163,True,,contextual,customer education platforms for SaaS and B2B companies
 A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software for small teams
-A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-customer-journey-analytics-platforms-for-lifecycle-teams/,A178,True,,contextual,customer journey analytics platforms
-A252,site/best-online-course-platforms-for-b2b-lead-generation/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM software for B2B SaaS sales teams
 A154,site/best-onsite-search-software-for-ecommerce-catalogs/index.html,/best-product-recommendation-engines-for-online-stores/,A144,True,,contextual,product recommendation engines
 A154,site/best-onsite-search-software-for-ecommerce-catalogs/index.html,/best-ecommerce-personalization-software-for-product-discovery/,A143,True,,contextual,ecommerce personalisation software
 A154,site/best-onsite-search-software-for-ecommerce-catalogs/index.html,/best-product-feed-management-software-for-ecommerce/,A145,True,,contextual,product feed management software
@@ -1359,7 +1253,6 @@ A183,site/best-partner-relationship-management-software-for-b2b-companies/index.
 A183,site/best-partner-relationship-management-software-for-b2b-companies/index.html,/best-digital-sales-room-software-for-complex-b2b-deals/,A237,True,,contextual,digital sales room software
 A183,site/best-partner-relationship-management-software-for-b2b-companies/index.html,/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/,A199,True,,contextual,building a B2B partner program from scratch
 A183,site/best-partner-relationship-management-software-for-b2b-companies/index.html,/best-sales-enablement-software-for-growing-b2b-companies/,A236,True,,contextual,sales enablement software for B2B companies
-A183,site/best-partner-relationship-management-software-for-b2b-companies/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRMs for B2B SaaS
 A183,site/best-partner-relationship-management-software-for-b2b-companies/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software hub
 A194,site/best-partner-sales-enablement-platforms-for-channel-teams/index.html,/best-partner-relationship-management-software-for-b2b-companies/,A183,True,,contextual,partner relationship management software
 A194,site/best-partner-sales-enablement-platforms-for-channel-teams/index.html,/best-sales-enablement-software-for-growing-b2b-companies/,A236,True,,contextual,sales enablement software for growing B2B companies
@@ -1381,8 +1274,6 @@ A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/best
 A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,appointment scheduling and lead routing software
 A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,CRM software for small businesses
-A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/best-influencer-marketing-platforms-for-b2b-brands/,A184,True,,contextual,influencer marketing platforms for B2B brands
-A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/best-influencer-outreach-tools-for-agency-campaigns/,A192,True,,contextual,influencer outreach tools for agency campaigns
 A251,site/best-podcast-guest-booking-platforms-for-b2b-founders/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,webinar platforms for B2B lead generation
 A249,site/best-podcast-hosting-platforms-for-b2b-brands/index.html,/best-podcast-production-software-for-marketing-teams/,A250,True,,contextual,podcast production software for marketing teams
 A249,site/best-podcast-hosting-platforms-for-b2b-brands/index.html,/best-podcast-guest-booking-platforms-for-b2b-founders/,A251,True,,contextual,podcast guest booking platforms for B2B founders
@@ -1394,7 +1285,6 @@ A250,site/best-podcast-production-software-for-marketing-teams/index.html,/best-
 A250,site/best-podcast-production-software-for-marketing-teams/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A250,site/best-podcast-production-software-for-marketing-teams/index.html,/best-digital-asset-management-software-for-marketing-teams/,A107,True,,contextual,digital asset management software for marketing teams
 A250,site/best-podcast-production-software-for-marketing-teams/index.html,/best-content-repurposing-workflow-platforms-for-marketing-teams/,A119,True,,contextual,repurposing workflow platforms
-A250,site/best-podcast-production-software-for-marketing-teams/index.html,/best-ai-video-editing-tools/,A027,True,,contextual,AI video editing tools for marketers
 A250,site/best-podcast-production-software-for-marketing-teams/index.html,/best-podcast-hosting-platforms-for-b2b-brands/,A249,True,,contextual,B2B podcast hosting comparison
 A250,site/best-podcast-production-software-for-marketing-teams/index.html,/best-podcast-guest-booking-platforms-for-b2b-founders/,A251,True,,contextual,guest booking platforms guide
 A211,site/best-pop-up-and-onsite-engagement-software-for-lead-capture/index.html,/best-website-personalization-software-for-b2b-lead-generation/,A203,True,,contextual,B2B website personalization software
@@ -1450,7 +1340,6 @@ A281,site/best-product-analytics-software-for-saas-startups/index.html,/product-
 A287,site/best-product-event-tracking-and-governance-platforms/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics software
 A287,site/best-product-event-tracking-and-governance-platforms/index.html,/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,A240,True,,contextual,designing a RevOps data model for a small B2B team
 A287,site/best-product-event-tracking-and-governance-platforms/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,data integration platforms for lean teams
-A287,site/best-product-event-tracking-and-governance-platforms/index.html,/best-customer-data-platforms-for-b2b-marketing-teams/,A221,True,,contextual,customer data platforms for B2B marketing teams
 A287,site/best-product-event-tracking-and-governance-platforms/index.html,/product-led-growth/,H15,True,,contextual,product-led growth software hub
 A283,site/best-product-experimentation-platforms-for-growth-teams/index.html,/best-website-experimentation-platforms-for-marketing-teams/,A218,True,,contextual,website experimentation platforms for marketing teams
 A283,site/best-product-experimentation-platforms-for-growth-teams/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software roundup for SaaS and ecommerce
@@ -1470,7 +1359,6 @@ A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/best-cu
 A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/best-product-roadmap-prioritization-software-for-saas-teams/,A292,True,,contextual,roadmap prioritization software guide
 A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics tool
 A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/best-feature-adoption-analytics-tools-for-saas-companies/,A290,True,,contextual,feature adoption analytics
-A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/best-customer-community-platforms-for-saas-companies/,A176,True,,contextual,community platforms for SaaS
 A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/product-led-growth/,H15,True,,contextual,product-led growth software hub
 A291,site/best-product-feedback-and-roadmap-voting-platforms/index.html,/best-beta-testing-and-product-feedback-collection-software/,A293,True,,contextual,beta testing software guide
 A144,site/best-product-recommendation-engines-for-online-stores/index.html,/best-ecommerce-personalization-software-for-product-discovery/,A143,True,,contextual,ecommerce personalization software
@@ -1481,10 +1369,7 @@ A144,site/best-product-recommendation-engines-for-online-stores/index.html,/best
 A144,site/best-product-recommendation-engines-for-online-stores/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
 A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-ugc-creator-platforms-for-performance-marketing-teams/,A187,True,,contextual,UGC creator platforms
 A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-influencer-marketing-platforms-for-ecommerce-brands/,A185,True,,contextual,influencer marketing platforms for ecommerce
-A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-digital-content-rights-and-usage-management-tools/,A118,True,,contextual,content rights and usage management tools
 A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
-A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software
-A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-customer-feedback-management-software-for-b2b-teams/,A165,True,,contextual,customer feedback management software
 A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-ecommerce-loyalty-and-rewards-platforms/,A149,True,,contextual,loyalty and rewards platforms
 A153,site/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/index.html,/best-returns-and-exchanges-software-for-ecommerce-teams/,A152,True,,contextual,returns and exchanges software
 A292,site/best-product-roadmap-prioritization-software-for-saas-teams/index.html,/best-product-feedback-and-roadmap-voting-platforms/,A291,True,,contextual,feedback and roadmap voting platforms
@@ -1529,7 +1414,6 @@ A150,site/best-referral-marketing-software-for-online-stores/index.html,/best-af
 A150,site/best-referral-marketing-software-for-online-stores/index.html,/best-referral-program-software-for-b2b-saas-products/,A190,True,,contextual,referral programme software for B2B SaaS
 A150,site/best-referral-marketing-software-for-online-stores/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software category
 A150,site/best-referral-marketing-software-for-online-stores/index.html,/best-ecommerce-loyalty-and-rewards-platforms/,A149,True,,contextual,loyalty platform shortlist
-A150,site/best-referral-marketing-software-for-online-stores/index.html,/best-coupon-and-discount-attribution-tools-for-affiliate-programs/,A196,True,,contextual,coupon and discount attribution tools
 A190,site/best-referral-program-software-for-b2b-saas-products/index.html,/best-affiliate-marketing-platforms-for-saas-companies/,A181,True,,contextual,affiliate marketing platforms for SaaS
 A190,site/best-referral-program-software-for-b2b-saas-products/index.html,/best-partner-relationship-management-software-for-b2b-companies/,A183,True,,contextual,partner relationship management software
 A190,site/best-referral-program-software-for-b2b-saas-products/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software category
@@ -1554,7 +1438,6 @@ A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best
 A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-subscription-analytics-software-for-retention-and-revenue-teams/,A174,True,,contextual,subscription analytics
 A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-agency-profitability-reporting-tools-for-owners/,A270,True,,contextual,agency profitability reporting
 A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-time-tracking-software-for-marketing-agencies/,A263,True,,contextual,time tracking for marketing agencies
-A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-ppc-budget-pacing-and-spend-forecasting-tools/,A129,True,,contextual,PPC budget pacing tools
 A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-client-portal-software-for-marketing-and-seo-agencies/,A262,True,,contextual,client portals for agencies
 A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-project-management-software-for-digital-marketing-agencies/,A261,True,,contextual,your project management software
 A269,site/best-retainer-billing-software-for-service-businesses/index.html,/best-invoicing-software-for-freelancers-and-digital-agencies/,A268,True,,contextual,invoicing software for agencies
@@ -1578,7 +1461,6 @@ A238,site/best-revenue-operations-analytics-tools-for-cross-functional-teams/ind
 A238,site/best-revenue-operations-analytics-tools-for-cross-functional-teams/index.html,/best-data-warehouse-platforms-for-small-marketing-analytics-teams/,A225,True,,contextual,data warehouse platforms for small teams
 A238,site/best-revenue-operations-analytics-tools-for-cross-functional-teams/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution without false certainty
 A238,site/best-revenue-operations-analytics-tools-for-cross-functional-teams/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
-A238,site/best-revenue-operations-analytics-tools-for-cross-functional-teams/index.html,/best-customer-journey-analytics-platforms-for-lifecycle-teams/,A178,True,,contextual,customer journey analytics platforms
 A238,site/best-revenue-operations-analytics-tools-for-cross-functional-teams/index.html,/data-revops/,H12,True,,contextual,data and RevOps software category
 A223,site/best-reverse-etl-tools-for-activating-warehouse-data/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,marketing data integration platforms
 A223,site/best-reverse-etl-tools-for-activating-warehouse-data/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,"Zapier, Make and n8n"
@@ -1590,7 +1472,6 @@ A279,site/best-rfp-and-proposal-management-software-for-b2b-agencies/index.html,
 A279,site/best-rfp-and-proposal-management-software-for-b2b-agencies/index.html,/best-crm-for-marketing-agencies/,A062,True,,contextual,CRM software for marketing agencies
 A279,site/best-rfp-and-proposal-management-software-for-b2b-agencies/index.html,/best-digital-sales-room-software-for-complex-b2b-deals/,A237,True,,contextual,digital sales room software
 A279,site/best-rfp-and-proposal-management-software-for-b2b-agencies/index.html,/best-e-signature-software-for-agency-contracts-and-sows/,A267,True,,contextual,e-signature software for agency contracts
-A279,site/best-rfp-and-proposal-management-software-for-b2b-agencies/index.html,/best-sales-enablement-software-for-growing-b2b-companies/,A236,True,,contextual,sales enablement software
 A279,site/best-rfp-and-proposal-management-software-for-b2b-agencies/index.html,/agency-operations/,H14,True,,contextual,agency operations hub
 A235,site/best-sales-compensation-management-software-for-b2b-teams/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM for B2B SaaS
 A235,site/best-sales-compensation-management-software-for-b2b-teams/index.html,/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,A240,True,,contextual,designing a RevOps data model
@@ -1609,7 +1490,6 @@ A044,site/best-sales-engagement-platforms/index.html,/best-email-marketing-softw
 A044,site/best-sales-engagement-platforms/index.html,/lemlist-vs-reply-io/,A055,True,,contextual,lemlist vs Reply.io comparison
 A044,site/best-sales-engagement-platforms/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software for small revenue teams
 A044,site/best-sales-engagement-platforms/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRMs for B2B SaaS sales teams
-A044,site/best-sales-engagement-platforms/index.html,/best-conversation-intelligence-software-for-sales-coaching/,A234,True,,contextual,conversation intelligence software for coaching
 A044,site/best-sales-engagement-platforms/index.html,/compliant-b2b-outreach-stack/,A059,True,,contextual,compliant B2B outreach stack
 A232,site/best-sales-forecasting-software-for-growing-b2b-teams/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality and deduplication tools
 A232,site/best-sales-forecasting-software-for-growing-b2b-teams/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,best CRM for B2B SaaS sales teams
@@ -1625,7 +1505,6 @@ A068,site/best-sales-prospecting-tools-for-agencies/index.html,/best-linkedin-sa
 A068,site/best-sales-prospecting-tools-for-agencies/index.html,/best-lead-enrichment-software/,A066,True,,contextual,lead enrichment software comparison
 A068,site/best-sales-prospecting-tools-for-agencies/index.html,/best-email-verification-tools/,A046,True,,contextual,email verification tool guide
 A068,site/best-sales-prospecting-tools-for-agencies/index.html,/best-crm-for-marketing-agencies/,A062,True,,contextual,CRM guide for marketing agencies
-A068,site/best-sales-prospecting-tools-for-agencies/index.html,/compliant-b2b-outreach-stack/,A059,True,,contextual,building a compliant B2B outreach stack
 A068,site/best-sales-prospecting-tools-for-agencies/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation software hub
 A068,site/best-sales-prospecting-tools-for-agencies/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small business CRM shortlist
 A010,site/best-seo-reporting-software/index.html,/best-white-label-reporting-platforms-for-digital-agencies/,A271,True,,contextual,white-label reporting platforms for digital agencies
@@ -1634,7 +1513,6 @@ A010,site/best-seo-reporting-software/index.html,/best-rank-tracking-software/,A
 A010,site/best-seo-reporting-software/index.html,/best-local-seo-software/,A006,True,,contextual,local SEO software guide
 A010,site/best-seo-reporting-software/index.html,/seo-software-pricing/,A017,True,,contextual,"SEO software pricing guide for 5, 10 and 20 clients"
 A010,site/best-seo-reporting-software/index.html,/best-crm-for-marketing-agencies/,A062,True,,contextual,CRM for marketing agencies
-A010,site/best-seo-reporting-software/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
 A010,site/best-seo-reporting-software/index.html,/seo/,H01,True,,contextual,SEO software hub
 A010,site/best-seo-reporting-software/index.html,/best-seo-software/,A001,True,,contextual,guide to SEO software for agencies
 A001,site/best-seo-software/index.html,/seo/,H01,True,,contextual,SEO software category
@@ -1657,7 +1535,6 @@ A001,site/best-seo-software/index.html,/seo-tool-stack/,A018,True,,contextual,gu
 A001,site/best-seo-software/index.html,/growth-stack/,H00,True,,contextual,growth stack overview
 A297,site/best-session-replay-tools-for-saas-product-analytics/index.html,/best-heatmap-session-replay-tools/,A088,True,,contextual,heatmap and session replay tools
 A297,site/best-session-replay-tools-for-saas-product-analytics/index.html,/best-consent-and-preference-management-platforms-for-marketing-sites/,A212,True,,contextual,consent management platform
-A297,site/best-session-replay-tools-for-saas-product-analytics/index.html,/best-help-desk-software-for-growing-b2b-saas-companies/,A167,True,,contextual,help desk software B2B SaaS teams use
 A297,site/best-session-replay-tools-for-saas-product-analytics/index.html,/best-product-event-tracking-and-governance-platforms/,A287,True,,contextual,event tracking and governance platforms
 A297,site/best-session-replay-tools-for-saas-product-analytics/index.html,/best-user-behavior-analytics-tools-for-product-teams/,A286,True,,contextual,your behavior analytics tool
 A297,site/best-session-replay-tools-for-saas-product-analytics/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics software roundup for SaaS startups
@@ -1685,7 +1562,6 @@ A188,site/best-social-listening-platforms-for-brand-and-competitor-research/inde
 A188,site/best-social-listening-platforms-for-brand-and-competitor-research/index.html,/best-voice-of-customer-software-for-product-and-marketing-teams/,A177,True,,contextual,voice of customer software
 A188,site/best-social-listening-platforms-for-brand-and-competitor-research/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software category
 A188,site/best-social-listening-platforms-for-brand-and-competitor-research/index.html,/best-social-media-management-tools-for-agencies/,A089,True,,contextual,social media management tools for agencies
-A188,site/best-social-listening-platforms-for-brand-and-competitor-research/index.html,/best-ad-intelligence-tools-for-competitor-research/,A126,True,,contextual,ad intelligence tool for competitor research
 A188,site/best-social-listening-platforms-for-brand-and-competitor-research/index.html,/best-influencer-outreach-tools-for-agency-campaigns/,A192,True,,contextual,influencer outreach workflow
 A090,site/best-social-media-analytics-tools/index.html,/best-social-media-management-tools-for-agencies/,A089,True,,contextual,social media management software for agencies
 A090,site/best-social-media-analytics-tools/index.html,/best-social-listening-platforms-for-brand-and-competitor-research/,A188,True,,contextual,social listening platforms for brand and competitor research
@@ -1697,23 +1573,18 @@ A090,site/best-social-media-analytics-tools/index.html,/best-marketing-automatio
 A089,site/best-social-media-management-tools-for-agencies/index.html,/best-ai-social-media-tools/,A026,True,,contextual,AI social media content tools for agencies
 A089,site/best-social-media-management-tools-for-agencies/index.html,/hootsuite-alternatives/,A094,True,,contextual,Hootsuite alternatives for agencies
 A089,site/best-social-media-management-tools-for-agencies/index.html,/best-creative-proofing-software-for-agency-client-approvals/,A265,True,,contextual,creative proofing software
-A089,site/best-social-media-management-tools-for-agencies/index.html,/best-white-label-reporting-platforms-for-digital-agencies/,A271,True,,contextual,white-label reporting platforms
 A089,site/best-social-media-management-tools-for-agencies/index.html,/best-social-media-analytics-tools/,A090,True,,contextual,social media analytics tools for multi-brand teams
-A089,site/best-social-media-management-tools-for-agencies/index.html,/best-utm-governance-and-campaign-naming-tools/,A134,True,,contextual,campaign naming standards
-A089,site/best-social-media-management-tools-for-agencies/index.html,/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,A280,True,,contextual,agency operating stack that protects margins
 A089,site/best-social-media-management-tools-for-agencies/index.html,/automation-analytics/,H05,True,,contextual,"automation, analytics and distribution hub"
 A089,site/best-social-media-management-tools-for-agencies/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation shortlist for small teams
 A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/best-knowledge-base-software-for-marketing-operations/,A116,True,,contextual,knowledge base software for marketing operations
 A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/best-content-governance-tools-for-distributed-marketing-teams/,A117,True,,contextual,content governance tools
 A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/best-client-onboarding-software-for-digital-agencies/,A272,True,,contextual,client onboarding software for agencies
 A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/best-freelancer-and-contractor-management-platforms-for-agencies/,A278,True,,contextual,freelancer and contractor management platforms
-A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/best-technical-seo-audit-tools/,A004,True,,contextual,technical SEO audit tools for large websites
 A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/agency-operations/,H14,True,,contextual,agency operations software hub
 A275,site/best-sop-and-process-documentation-software-for-agencies/index.html,/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,A280,True,,contextual,building an agency operating stack that protects margins
 A174,site/best-subscription-analytics-software-for-retention-and-revenue-teams/index.html,/best-subscription-commerce-software-for-recurring-revenue-brands/,A151,True,,contextual,subscription commerce software
 A174,site/best-subscription-analytics-software-for-retention-and-revenue-teams/index.html,/best-churn-prediction-software-for-subscription-businesses/,A173,True,,contextual,churn prediction software
 A174,site/best-subscription-analytics-software-for-retention-and-revenue-teams/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution without false certainty
-A174,site/best-subscription-analytics-software-for-retention-and-revenue-teams/index.html,/best-revenue-operations-analytics-tools-for-cross-functional-teams/,A238,True,,contextual,RevOps analytics tools guide
 A174,site/best-subscription-analytics-software-for-retention-and-revenue-teams/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platform
 A174,site/best-subscription-analytics-software-for-retention-and-revenue-teams/index.html,/customer-retention/,H09,True,,contextual,customer retention software hub
 A151,site/best-subscription-commerce-software-for-recurring-revenue-brands/index.html,/best-subscription-analytics-software-for-retention-and-revenue-teams/,A174,True,,contextual,subscription analytics for retention and revenue teams
@@ -1722,12 +1593,9 @@ A151,site/best-subscription-commerce-software-for-recurring-revenue-brands/index
 A151,site/best-subscription-commerce-software-for-recurring-revenue-brands/index.html,/best-returns-and-exchanges-software-for-ecommerce-teams/,A152,True,,contextual,returns and exchanges software
 A151,site/best-subscription-commerce-software-for-recurring-revenue-brands/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,ecommerce email platform
 A151,site/best-subscription-commerce-software-for-recurring-revenue-brands/index.html,/best-ecommerce-loyalty-and-rewards-platforms/,A149,True,,contextual,ecommerce loyalty platforms
-A151,site/best-subscription-commerce-software-for-recurring-revenue-brands/index.html,/best-churn-prediction-software-for-subscription-businesses/,A173,True,,contextual,churn prediction software
 A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/best-project-management-software-for-digital-marketing-agencies/,A261,True,,contextual,project management software for digital marketing agencies
 A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/best-utm-governance-and-campaign-naming-tools/,A134,True,,contextual,UTM governance and campaign naming tools
 A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software
-A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/best-content-workflow-software-for-marketing-agencies/,A103,True,,contextual,content workflow software
-A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/best-editorial-calendar-software-for-multi-author-teams/,A102,True,,contextual,editorial calendar software for multi-author teams
 A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/best-resource-planning-software-for-creative-and-marketing-agencies/,A264,True,,contextual,resource planning software
 A274,site/best-task-management-software-for-marketing-operations-teams/index.html,/agency-operations/,H14,True,,contextual,agency operations hub
 A004,site/best-technical-seo-audit-tools/index.html,/best-website-change-monitoring-tools-for-seo-and-marketing-teams/,A215,True,,contextual,website change monitoring tools for SEO teams
@@ -1748,7 +1616,6 @@ A049,site/best-transactional-email-services/index.html,/best-lifecycle-email-aut
 A049,site/best-transactional-email-services/index.html,/best-email-testing-tools/,A050,True,,contextual,email testing tool
 A049,site/best-transactional-email-services/index.html,/best-email-deliverability-tools/,A045,True,,contextual,deliverability monitoring tools
 A049,site/best-transactional-email-services/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics software for SaaS startups
-A049,site/best-transactional-email-services/index.html,/best-in-app-messaging-platforms-for-saas-product-teams/,A164,True,,contextual,in-app messaging platforms
 A049,site/best-transactional-email-services/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software guide
 A049,site/best-transactional-email-services/index.html,/best-email-marketing-software/,A041,True,,contextual,email marketing software pillar
 A049,site/best-transactional-email-services/index.html,/email-outreach/,H03,True,,contextual,email and outreach hub
@@ -1756,7 +1623,6 @@ A187,site/best-ugc-creator-platforms-for-performance-marketing-teams/index.html,
 A187,site/best-ugc-creator-platforms-for-performance-marketing-teams/index.html,/best-creator-marketplace-platforms-for-brand-partnerships/,A186,True,,contextual,creator marketplace comparison
 A187,site/best-ugc-creator-platforms-for-performance-marketing-teams/index.html,/affiliate-partnerships/,H10,True,,contextual,partnership growth software hub
 A187,site/best-ugc-creator-platforms-for-performance-marketing-teams/index.html,/best-digital-content-rights-and-usage-management-tools/,A118,True,,contextual,content rights and usage management tool
-A187,site/best-ugc-creator-platforms-for-performance-marketing-teams/index.html,/best-ad-creative-management-platforms-for-performance-teams/,A125,True,,contextual,ad creative management platform
 A187,site/best-ugc-creator-platforms-for-performance-marketing-teams/index.html,/how-to-evaluate-influencer-campaign-roi-without-vanity-metrics/,A200,True,,contextual,influencer ROI without vanity metrics
 A295,site/best-usability-testing-software-for-saas-product-teams/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics
 A295,site/best-usability-testing-software-for-saas-product-teams/index.html,/best-session-replay-tools-for-saas-product-analytics/,A297,True,,contextual,session replay
@@ -1800,7 +1666,6 @@ A246,site/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/ind
 A246,site/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,guide to attribution without false certainty
 A246,site/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/index.html,/best-white-label-reporting-platforms-for-digital-agencies/,A271,True,,contextual,white-label reporting platforms
 A246,site/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/index.html,/best-webinar-automation-tools-for-always-on-lead-generation/,A245,True,,contextual,webinar automation shortlist
-A246,site/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality shortlist
 A246,site/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,B2B webinar platform guide
 A245,site/best-webinar-automation-tools-for-always-on-lead-generation/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,webinar platforms for B2B lead generation
 A245,site/best-webinar-automation-tools-for-always-on-lead-generation/index.html,/best-on-demand-webinar-hosting-platforms-for-b2b-content/,A248,True,,contextual,on-demand webinar hosting platforms
@@ -1817,7 +1682,6 @@ A247,site/best-webinar-engagement-tools-for-polls-q-a-and-audience-interaction/i
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-virtual-event-platforms-for-b2b-marketing-teams/,A242,True,,contextual,virtual event platforms built for B2B marketing teams
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-webinar-automation-tools-for-always-on-lead-generation/,A245,True,,contextual,webinar automation software for always-on programs
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-landing-page-builders-for-paid-acquisition-campaigns/,A132,True,,contextual,landing page builders for paid acquisition
-A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring tool
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,A259,True,,contextual,building a webinar funnel through to sales follow-up
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/,A246,True,,contextual,webinar analytics tools for pipeline reporting
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-webinar-engagement-tools-for-polls-q-a-and-audience-interaction/,A247,True,,contextual,webinar engagement tools
@@ -1826,9 +1690,7 @@ A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/content-syn
 A241,site/best-webinar-platforms-for-b2b-lead-generation/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software
 A213,site/best-website-accessibility-monitoring-tools-for-marketing-teams/index.html,/best-project-management-software-for-digital-marketing-agencies/,A261,True,,contextual,project management software for agencies
 A213,site/best-website-accessibility-monitoring-tools-for-marketing-teams/index.html,/best-content-governance-tools-for-distributed-marketing-teams/,A117,True,,contextual,content governance tools
-A213,site/best-website-accessibility-monitoring-tools-for-marketing-teams/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing marketing teams
 A213,site/best-website-accessibility-monitoring-tools-for-marketing-teams/index.html,/best-website-change-monitoring-tools-for-seo-and-marketing-teams/,A215,True,,contextual,website change monitoring
-A213,site/best-website-accessibility-monitoring-tools-for-marketing-teams/index.html,/best-email-testing-tools/,A050,True,,contextual,email testing tools
 A213,site/best-website-accessibility-monitoring-tools-for-marketing-teams/index.html,/website-experience/,H11,True,,contextual,website experience software
 A201,site/best-website-builders-for-b2b-marketing-teams/index.html,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,A219,True,,contextual,website builders and traditional CMS platforms
 A201,site/best-website-builders-for-b2b-marketing-teams/index.html,/webflow-alternatives-for-content-heavy-business-websites/,A207,True,,contextual,Webflow alternatives for content-heavy sites
@@ -1846,8 +1708,6 @@ A215,site/best-website-change-monitoring-tools-for-seo-and-marketing-teams/index
 A215,site/best-website-change-monitoring-tools-for-seo-and-marketing-teams/index.html,/website-experience/,H11,True,,contextual,website experience software
 A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/,A299,True,,contextual,feature flags vs A/B testing for product teams
 A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/best-heatmap-session-replay-tools/,A088,True,,contextual,heatmap and session replay tools
-A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,CRO tools for landing pages
-A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software for SaaS and ecommerce
 A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/best-landing-page-builders-for-saas-demo-and-trial-funnels/,A204,True,,contextual,landing page builders for SaaS demo and trial funnels
 A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/best-website-personalization-software-for-b2b-lead-generation/,A203,True,,contextual,website personalization software
 A218,site/best-website-experimentation-platforms-for-marketing-teams/index.html,/website-experience/,H11,True,,contextual,website experience category hub
@@ -1868,7 +1728,6 @@ A214,site/best-website-performance-monitoring-tools-for-marketing-sites/index.ht
 A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/best-account-based-marketing-platforms-for-small-b2b-teams/,A230,True,,contextual,account-based marketing platforms
 A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/best-b2b-customer-data-platforms-for-account-based-marketing/,A222,True,,contextual,B2B customer data platform
 A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/best-consent-and-preference-management-platforms-for-marketing-sites/,A212,True,,contextual,consent management platforms for marketing sites
-A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/best-b2b-intent-data-platforms-for-account-prioritization/,A228,True,,contextual,B2B intent data platforms
 A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/best-landing-page-builders-for-saas-demo-and-trial-funnels/,A204,True,,contextual,landing page builders for SaaS funnels
 A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/best-website-experimentation-platforms-for-marketing-teams/,A218,True,,contextual,website experimentation platforms
 A203,site/best-website-personalization-software-for-b2b-lead-generation/index.html,/website-experience/,H11,True,,contextual,website experience software hub
@@ -1876,19 +1735,15 @@ A229,site/best-website-visitor-identification-tools-for-b2b-sales-teams/index.ht
 A229,site/best-website-visitor-identification-tools-for-b2b-sales-teams/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling software
 A229,site/best-website-visitor-identification-tools-for-b2b-sales-teams/index.html,/best-b2b-intent-data-platforms-for-account-prioritization/,A228,True,,contextual,B2B intent data platforms
 A229,site/best-website-visitor-identification-tools-for-b2b-sales-teams/index.html,/best-account-based-marketing-platforms-for-small-b2b-teams/,A230,True,,contextual,ABM platforms for small B2B teams
-A229,site/best-website-visitor-identification-tools-for-b2b-sales-teams/index.html,/best-website-personalization-software-for-b2b-lead-generation/,A203,True,,contextual,website personalization software
 A229,site/best-website-visitor-identification-tools-for-b2b-sales-teams/index.html,/data-revops/,H12,True,,contextual,data and RevOps software category
 A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/best-seo-reporting-software/,A010,True,,contextual,SEO reporting software for client agencies
 A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/best-cross-channel-paid-media-reporting-tools/,A124,True,,contextual,cross-channel paid media reporting tools
-A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/best-social-media-analytics-tools/,A090,True,,contextual,social media analytics tools for multi-brand teams
 A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/best-agency-profitability-reporting-tools-for-owners/,A270,True,,contextual,agency profitability reporting tools
 A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/best-client-portal-software-for-marketing-and-seo-agencies/,A262,True,,contextual,client portal
 A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/agency-operations/,H14,True,,contextual,agency operations software hub
-A271,site/best-white-label-reporting-platforms-for-digital-agencies/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software for performance teams
 A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software guide for small teams
 A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling software
 A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/best-crm-for-marketing-agencies/,A062,True,,contextual,CRMs for agency client accounts
-A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/best-white-label-reporting-platforms-for-digital-agencies/,A271,True,,contextual,white-label reporting platform
 A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software
 A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,Zapier vs Make vs n8n breakdown
 A082,site/best-workflow-automation-tools-for-marketing-agencies/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing guide
@@ -1941,9 +1796,7 @@ A059,site/compliant-b2b-outreach-stack/index.html,/best-email-verification-tools
 A059,site/compliant-b2b-outreach-stack/index.html,/best-cold-email-software/,A043,True,,contextual,cold email software comparison
 A059,site/compliant-b2b-outreach-stack/index.html,/best-crm-for-b2b-saas/,A063,True,,contextual,CRM guide for B2B sales teams
 A059,site/compliant-b2b-outreach-stack/index.html,/best-email-deliverability-tools/,A045,True,,contextual,deliverability tools roundup
-A059,site/compliant-b2b-outreach-stack/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,"Zapier, Make and n8n comparison"
 A059,site/compliant-b2b-outreach-stack/index.html,/best-sales-engagement-platforms/,A044,True,,contextual,sales engagement platform guide
-A059,site/compliant-b2b-outreach-stack/index.html,/b2b-lead-generation-stack/,A079,True,,contextual,guide to building a B2B lead generation stack
 A059,site/compliant-b2b-outreach-stack/index.html,/best-email-marketing-software/,A041,True,,contextual,email marketing software pillar guide
 A059,site/compliant-b2b-outreach-stack/index.html,/email-outreach/,H03,True,,contextual,email marketing and outreach software hub
 H06,site/content-operations/index.html,/ai-content/,H02,True,,contextual,AI content software hub
@@ -1975,11 +1828,7 @@ A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.ht
 A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,webinar platforms for B2B lead generation
 A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/best-b2b-intent-data-platforms-for-account-prioritization/,A228,True,,contextual,intent data platforms for account prioritization
 A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,A259,True,,contextual,webinar funnel guide
-A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing tool
-A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring
-A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/how-to-build-a-paid-media-measurement-plan-before-launch/,A139,True,,contextual,building a paid media measurement plan before launch
 A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/,A246,True,,contextual,webinar analytics tools
-A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,marketing attribution without false certainty
 A260,site/content-syndication-vs-webinars-which-b2b-demand-channel-fits/index.html,/webinars-demand-gen/,H13,True,,contextual,guide to demand generation software for webinars and events
 A033,site/copy-ai-alternatives/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools roundup for marketing teams
 A033,site/copy-ai-alternatives/index.html,/jasper-vs-copy-ai-vs-writesonic/,A031,True,,contextual,Jasper vs Copy.ai vs Writesonic comparison
@@ -1988,7 +1837,6 @@ A033,site/copy-ai-alternatives/index.html,/best-ai-email-copywriting-tools/,A025
 A033,site/copy-ai-alternatives/index.html,/best-ai-copywriting-software/,A022,True,,contextual,AI copywriting software roundup
 A033,site/copy-ai-alternatives/index.html,/clay-vs-apollo/,A075,True,,contextual,Clay vs Apollo comparison
 A033,site/copy-ai-alternatives/index.html,/best-b2b-lead-generation-software/,A064,True,,contextual,lead generation software guide for B2B companies
-A033,site/copy-ai-alternatives/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,Zapier vs Make vs n8n comparison
 A033,site/copy-ai-alternatives/index.html,/ai-content-tool-pricing/,A037,True,,contextual,AI content tool pricing guide
 A033,site/copy-ai-alternatives/index.html,/ai-content/,H02,True,,contextual,AI content software hub
 A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html,/best-lead-enrichment-software/,A066,True,,contextual,lead enrichment software
@@ -1996,7 +1844,6 @@ A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.ht
 A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html,/lead-scoring-vs-lead-enrichment/,A080,True,,contextual,lead scoring vs lead enrichment
 A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html,/best-website-visitor-identification-tools-for-b2b-sales-teams/,A229,True,,contextual,website visitor identification tools
 A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html,/best-marketing-data-integration-platforms-for-lean-teams/,A224,True,,contextual,marketing data integration platforms for lean teams
-A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html,/clay-vs-apollo/,A075,True,,contextual,Clay vs Apollo comparison
 A239,site/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/index.html,/data-revops/,H12,True,,contextual,data and RevOps software category
 H04,site/crm-lead-gen/index.html,/email-outreach/,H03,True,,contextual,email marketing and outreach hub
 H04,site/crm-lead-gen/index.html,/automation-analytics/,H05,True,,contextual,marketing automation and analytics software
@@ -2161,7 +2008,6 @@ H03,site/email-outreach/index.html,/growth-stack/,H00,True,,contextual,the growt
 A039,site/evaluate-ai-content-quality/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools for content and search teams
 A039,site/evaluate-ai-content-quality/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools
 A039,site/evaluate-ai-content-quality/index.html,/best-ai-image-generation-tools-for-marketing/,A028,True,,contextual,AI image generation tools guide
-A039,site/evaluate-ai-content-quality/index.html,/best-digital-content-rights-and-usage-management-tools/,A118,True,,contextual,content rights and usage management tools
 A039,site/evaluate-ai-content-quality/index.html,/ai-content-workflow/,A038,True,,contextual,building an AI content workflow with human checks
 A039,site/evaluate-ai-content-quality/index.html,/best-ai-writing-tools/,A021,True,,contextual,best AI writing tools for marketing teams
 A039,site/evaluate-ai-content-quality/index.html,/ai-content/,H02,True,,contextual,AI content software hub
@@ -2216,7 +2062,6 @@ A094,site/hootsuite-alternatives/index.html,/best-white-label-reporting-platform
 A094,site/hootsuite-alternatives/index.html,/best-creative-proofing-software-for-agency-client-approvals/,A265,True,,contextual,creative proofing software for agency client approvals
 A094,site/hootsuite-alternatives/index.html,/best-social-media-analytics-tools/,A090,True,,contextual,social media analytics roundup for multi-brand teams
 A094,site/hootsuite-alternatives/index.html,/marketing-automation-pricing/,A097,True,,contextual,"guide to contact, task and seat pricing"
-A094,site/hootsuite-alternatives/index.html,/best-ai-social-media-tools/,A026,True,,contextual,AI social media content tools for agencies
 A094,site/hootsuite-alternatives/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software pillar
 A093,site/hotjar-alternatives/index.html,/best-session-replay-tools-for-saas-product-analytics/,A297,True,,contextual,session replay tools for SaaS product analytics
 A093,site/hotjar-alternatives/index.html,/ga4-alternatives/,A092,True,,contextual,guide to GA4 alternatives and complementary analytics
@@ -2224,8 +2069,6 @@ A093,site/hotjar-alternatives/index.html,/best-heatmap-session-replay-tools/,A08
 A093,site/hotjar-alternatives/index.html,/automation-analytics/,H05,True,,contextual,automation and analytics category
 A093,site/hotjar-alternatives/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software shortlist
 A093,site/hotjar-alternatives/index.html,/best-product-analytics-software-for-saas-startups/,A281,True,,contextual,product analytics shortlist for SaaS startups
-A093,site/hotjar-alternatives/index.html,/best-voice-of-customer-software-for-product-and-marketing-teams/,A177,True,,contextual,voice of customer software shortlist
-A093,site/hotjar-alternatives/index.html,/best-consent-and-preference-management-platforms-for-marketing-sites/,A212,True,,contextual,consent management shortlist
 A093,site/hotjar-alternatives/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,CRO tools for landing pages
 A093,site/hotjar-alternatives/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation pillar for small teams
 A199,site/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/index.html,/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/,A198,True,,contextual,affiliate network vs affiliate software comparison
@@ -2267,14 +2110,12 @@ A300,site/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.
 A300,site/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.html,/best-feature-flag-management-platforms-for-saas-teams/,A282,True,,contextual,feature flag management platforms
 A300,site/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.html,/best-product-feedback-and-roadmap-voting-platforms/,A291,True,,contextual,product feedback and roadmap voting platforms
 A300,site/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.html,/best-customer-success-platforms-for-b2b-saas-teams/,A161,True,,contextual,customer success platforms for B2B SaaS
-A300,site/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.html,/best-subscription-analytics-software-for-retention-and-revenue-teams/,A174,True,,contextual,subscription analytics software
 A300,site/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/index.html,/product-led-growth/,H15,True,,contextual,product-led growth software hub
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-webinar-platforms-for-b2b-lead-generation/,A241,True,,contextual,webinar platforms for B2B lead generation
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-webinar-automation-tools-for-always-on-lead-generation/,A245,True,,contextual,webinar automation tools for always-on lead generation
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-webinar-engagement-tools-for-polls-q-a-and-audience-interaction/,A247,True,,contextual,webinar engagement tools
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-event-marketing-automation-integrations-for-b2b-teams/,A258,True,,contextual,event marketing automation integrations
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-lead-routing-and-scheduling-software/,A070,True,,contextual,lead routing and scheduling tool
-A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/how-to-build-a-paid-media-measurement-plan-before-launch/,A139,True,,contextual,building a paid media measurement plan
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-on-demand-webinar-hosting-platforms-for-b2b-content/,A248,True,,contextual,on-demand webinar hosting platforms
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/webinars-demand-gen/,H13,True,,contextual,"webinar, event and community software hub"
 A259,site/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation software for small teams
@@ -2299,7 +2140,6 @@ A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html
 A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html,/best-shopify-apps-for-improving-store-conversion/,A142,True,,contextual,Shopify conversion apps
 A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html,/best-marketplace-management-software-for-multi-channel-sellers/,A146,True,,contextual,marketplace management
 A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html,/best-website-performance-monitoring-tools-for-marketing-sites/,A214,True,,contextual,website performance monitoring tools
-A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html,/best-ab-testing-software/,A087,True,,contextual,A/B testing software
 A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html,/best-ecommerce-merchandising-analytics-tools/,A158,True,,contextual,merchandising analytics
 A160,site/how-to-build-an-ecommerce-growth-stack-without-app-overload/index.html,/best-ecommerce-customer-data-platforms-for-retention-teams/,A147,True,,contextual,ecommerce CDPs
 A240,site/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/index.html,/best-revenue-operations-analytics-tools-for-cross-functional-teams/,A238,True,,contextual,revenue operations analytics tools
@@ -2327,7 +2167,6 @@ A220,site/how-to-plan-a-website-replatforming-project-without-losing-search-equi
 A220,site/how-to-plan-a-website-replatforming-project-without-losing-search-equity/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing teams
 A220,site/how-to-plan-a-website-replatforming-project-without-losing-search-equity/index.html,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,A219,True,,contextual,a website builder against a CMS
 A220,site/how-to-plan-a-website-replatforming-project-without-losing-search-equity/index.html,/best-website-performance-monitoring-tools-for-marketing-sites/,A214,True,,contextual,performance monitoring tools for marketing sites
-A220,site/how-to-plan-a-website-replatforming-project-without-losing-search-equity/index.html,/best-rank-tracking-software/,A003,True,,contextual,rank tracking software for multi-client SEO
 A220,site/how-to-plan-a-website-replatforming-project-without-losing-search-equity/index.html,/website-experience/,H11,True,,contextual,website experience software hub
 A140,site/how-to-run-a-monthly-paid-media-account-review-for-clients/index.html,/best-call-tracking-software-for-paid-acquisition-campaigns/,A131,True,,contextual,call tracking software
 A140,site/how-to-run-a-monthly-paid-media-account-review-for-clients/index.html,/best-ppc-audit-tools-for-finding-wasted-ad-spend/,A138,True,,contextual,PPC audit tool
@@ -2339,10 +2178,6 @@ A140,site/how-to-run-a-monthly-paid-media-account-review-for-clients/index.html,
 A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/best-email-marketing-software/,A041,True,,contextual,email marketing software picks for small businesses
 A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/activecampaign-vs-hubspot/,A095,True,,contextual,platform-wide ActiveCampaign vs HubSpot CRM comparison
 A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/best-lifecycle-email-automation-software/,A048,True,,contextual,lifecycle email automation software guide
-A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring software guide for small revenue teams
-A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/lead-scoring-vs-lead-enrichment/,A080,True,,contextual,lead scoring vs lead enrichment explainer
-A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/best-form-builders-for-b2b-lead-capture-and-qualification/,A209,True,,contextual,B2B form builders roundup
-A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing guide
 A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small-business CRM shortlist
 A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/email-outreach/,H03,True,,contextual,email marketing and outreach software hub
 A053,site/hubspot-marketing-hub-vs-activecampaign/index.html,/choose-email-marketing-software/,A058,True,,contextual,guide to choosing email software by list size and send volume
@@ -2699,9 +2534,6 @@ A031,site/jasper-vs-copy-ai-vs-writesonic/index.html,/ai-content/,H02,True,,cont
 A054,site/klaviyo-alternatives/index.html,/marketing-automation-pricing/,A097,True,,contextual,marketing automation pricing guide
 A054,site/klaviyo-alternatives/index.html,/mailchimp-alternatives/,A052,True,,contextual,Mailchimp alternatives guide
 A054,site/klaviyo-alternatives/index.html,/best-sms-marketing-software-for-ecommerce-brands/,A148,True,,contextual,SMS marketing software guide for ecommerce brands
-A054,site/klaviyo-alternatives/index.html,/best-ecommerce-customer-data-platforms-for-retention-teams/,A147,True,,contextual,ecommerce CDP guide for retention teams
-A054,site/klaviyo-alternatives/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics platform
-A054,site/klaviyo-alternatives/index.html,/best-abandoned-cart-recovery-platforms-for-ecommerce/,A155,True,,contextual,abandoned cart recovery platforms guide
 A054,site/klaviyo-alternatives/index.html,/best-ecommerce-email-marketing-software/,A042,True,,contextual,ecommerce email platform shortlist
 A054,site/klaviyo-alternatives/index.html,/email-outreach/,H03,True,,contextual,email marketing and outreach software hub
 A054,site/klaviyo-alternatives/index.html,/best-email-marketing-software/,A041,True,,contextual,small-business email marketing guide
@@ -2710,7 +2542,6 @@ A080,site/lead-scoring-vs-lead-enrichment/index.html,/best-lead-enrichment-softw
 A080,site/lead-scoring-vs-lead-enrichment/index.html,/best-lead-scoring-software/,A067,True,,contextual,lead scoring tools for small revenue teams
 A080,site/lead-scoring-vs-lead-enrichment/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,CRM software for small businesses
 A080,site/lead-scoring-vs-lead-enrichment/index.html,/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/,A239,True,,contextual,CRM enrichment and intent data
-A080,site/lead-scoring-vs-lead-enrichment/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software for performance teams
 A080,site/lead-scoring-vs-lead-enrichment/index.html,/b2b-lead-generation-stack/,A079,True,,contextual,building a B2B lead generation stack from data to meeting
 A080,site/lead-scoring-vs-lead-enrichment/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation hub
 A055,site/lemlist-vs-reply-io/index.html,/best-sales-engagement-platforms/,A044,True,,contextual,sales engagement platform guide for SDR teams
@@ -2738,10 +2569,7 @@ A100,site/marketing-attribution-tools-for-small-business/index.html,/ga4-alterna
 A100,site/marketing-attribution-tools-for-small-business/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software shortlist
 A100,site/marketing-attribution-tools-for-small-business/index.html,/best-partnership-attribution-software-for-multi-touch-partner-sales/,A195,True,,contextual,partnership attribution software
 A100,site/marketing-attribution-tools-for-small-business/index.html,/best-call-tracking-software-for-paid-acquisition-campaigns/,A131,True,,contextual,call tracking software for paid acquisition
-A100,site/marketing-attribution-tools-for-small-business/index.html,/seo-software-roi/,A020,True,,contextual,how to measure SEO tool ROI
-A100,site/marketing-attribution-tools-for-small-business/index.html,/email-marketing-roi-and-deliverability/,A060,True,,contextual,measuring email ROI with deliverability
 A100,site/marketing-attribution-tools-for-small-business/index.html,/best-cro-tools-for-landing-pages/,A086,True,,contextual,conversion rate optimization tools
-A100,site/marketing-attribution-tools-for-small-business/index.html,/how-to-build-a-paid-media-measurement-plan-before-launch/,A139,True,,contextual,paid media measurement plan
 A100,site/marketing-attribution-tools-for-small-business/index.html,/b2b-growth-stack/,A099,True,,contextual,full-funnel B2B growth stack guide
 A100,site/marketing-attribution-tools-for-small-business/index.html,/best-marketing-automation-software/,A081,True,,contextual,marketing automation shortlist
 A100,site/marketing-attribution-tools-for-small-business/index.html,/automation-analytics/,H05,True,,contextual,automation and analytics hub
@@ -2895,9 +2723,7 @@ A017,site/seo-software-pricing/index.html,/marketing-stack-audit/,A098,True,,con
 A020,site/seo-software-roi/index.html,/seo-software-pricing/,A017,True,,contextual,agency SEO software pricing scenarios
 A020,site/seo-software-roi/index.html,/best-time-tracking-software-for-marketing-agencies/,A263,True,,contextual,Time tracking software for agencies
 A020,site/seo-software-roi/index.html,/marketing-attribution-tools-for-small-business/,A100,True,,contextual,attribution for small teams without false certainty
-A020,site/seo-software-roi/index.html,/best-marketing-analytics-software/,A084,True,,contextual,marketing analytics software for performance teams
 A020,site/seo-software-roi/index.html,/seo-tool-stack/,A018,True,,contextual,building an SEO stack without duplicate features
-A020,site/seo-software-roi/index.html,/best-agency-profitability-reporting-tools-for-owners/,A270,True,,contextual,agency profitability reporting tools for owners
 A020,site/seo-software-roi/index.html,/best-seo-reporting-software/,A010,True,,contextual,SEO reporting software options
 A020,site/seo-software-roi/index.html,/best-seo-software/,A001,True,,contextual,main SEO platform shortlist
 A020,site/seo-software-roi/index.html,/seo/,H01,True,,contextual,SEO software hub
@@ -2955,10 +2781,8 @@ A159,site/shopify-alternatives-for-brands-requiring-more-store-control/index.htm
 A159,site/shopify-alternatives-for-brands-requiring-more-store-control/index.html,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,A141,True,,contextual,ecommerce platforms for growing DTC brands
 A159,site/shopify-alternatives-for-brands-requiring-more-store-control/index.html,/ecommerce-growth/,H08,True,,contextual,ecommerce growth software hub
 A014,site/surfer-seo-alternatives/index.html,/ai-content-tool-pricing/,A037,True,,contextual,AI content tool pricing guide
-A014,site/surfer-seo-alternatives/index.html,/best-ai-content-brief-tools/,A023,True,,contextual,AI tools for SEO content briefs
 A014,site/surfer-seo-alternatives/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools guide
 A014,site/surfer-seo-alternatives/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools roundup for content and search teams
-A014,site/surfer-seo-alternatives/index.html,/ai-content-workflow/,A038,True,,contextual,AI content workflow with human editorial checks
 A014,site/surfer-seo-alternatives/index.html,/best-ai-writing-tools/,A021,True,,contextual,AI writing tools for marketing teams
 A014,site/surfer-seo-alternatives/index.html,/best-seo-software/,A001,True,,contextual,SEO software guide
 A014,site/surfer-seo-alternatives/index.html,/seo/,H01,True,,contextual,SEO software category hub
@@ -2969,11 +2793,8 @@ A113,site/translation-management-system-vs-localization-platform/index.html,/how
 A113,site/translation-management-system-vs-localization-platform/index.html,/content-operations/,H06,True,,contextual,content operations category hub
 A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/wordpress-vs-webflow-for-marketing-led-websites/,A106,True,,contextual,WordPress vs Webflow for marketing-led websites
 A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/best-content-workflow-software-for-marketing-agencies/,A103,True,,contextual,content workflow tool
-A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/best-headless-cms-platforms-for-omnichannel-content/,A105,True,,contextual,headless CMS comparison
-A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,A141,True,,contextual,ecommerce platform guide
 A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,replatforming guide
 A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/best-website-migration-tools-for-seo-safe-platform-changes/,A217,True,,contextual,website migration tools
-A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing marketing teams
 A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/best-website-builders-for-b2b-marketing-teams/,A201,True,,contextual,website builders for B2B marketing teams
 A207,site/webflow-alternatives-for-content-heavy-business-websites/index.html,/website-experience/,H11,True,,contextual,website experience category
 H13,site/webinars-demand-gen/index.html,/content-syndication-vs-webinars-which-b2b-demand-channel-fits/,A260,True,,contextual,content syndication vs webinars comparison
@@ -3008,7 +2829,6 @@ H13,site/webinars-demand-gen/index.html,/growth-stack/,H00,True,,contextual,the 
 A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/best-website-builders-for-b2b-marketing-teams/,A201,True,,contextual,website builders for B2B marketing teams
 A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing marketing teams
 A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/wordpress-vs-webflow-for-marketing-led-websites/,A106,True,,contextual,WordPress vs Webflow for marketing-led websites
-A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/best-headless-cms-platforms-for-omnichannel-content/,A105,True,,contextual,headless CMS platforms
 A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/best-composable-cms-platforms-for-enterprise-marketing-teams/,A202,True,,contextual,composable CMS platforms for enterprise teams
 A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,our replatforming plan for protecting search equity
 A219,site/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/index.html,/best-no-code-website-platforms-for-marketing-operations/,A206,True,,contextual,no-code website platforms for marketing operations
@@ -3048,27 +2868,19 @@ A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.h
 A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html,/crm-pricing/,A077,True,,contextual,CRM pricing guide
 A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,replatforming guide
 A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html,/best-website-migration-tools-for-seo-safe-platform-changes/,A217,True,,contextual,website migration tools
-A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing marketing teams
 A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html,/best-no-code-website-platforms-for-marketing-operations/,A206,True,,contextual,no-code website platforms for marketing operations
 A208,site/wordpress-alternatives-for-marketing-teams-managing-many-sites/index.html,/website-experience/,H11,True,,contextual,website experience hub
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,A219,True,,contextual,choosing between a website builder and a CMS
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/content-operations/,H06,True,,contextual,content operations software
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/best-content-workflow-software-for-marketing-agencies/,A103,True,,contextual,content workflow software
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/best-editorial-calendar-software-for-multi-author-teams/,A102,True,,contextual,editorial calendars for multi-author teams
-A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/zapier-vs-make-vs-n8n/,A091,True,,contextual,Zapier vs Make vs n8n comparison
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/best-seo-software/,A001,True,,contextual,SEO software guide
-A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,A220,True,,contextual,replatforming guide for protecting search equity
-A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/wordpress-alternatives-for-marketing-teams-managing-many-sites/,A208,True,,contextual,WordPress alternatives for teams managing many sites
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/best-headless-cms-platforms-for-omnichannel-content/,A105,True,,contextual,headless CMS platforms
-A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/best-website-migration-tools-for-seo-safe-platform-changes/,A217,True,,contextual,SEO-safe website migration tools
-A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/webflow-alternatives-for-content-heavy-business-websites/,A207,True,,contextual,Webflow alternatives for content-heavy sites
 A106,site/wordpress-vs-webflow-for-marketing-led-websites/index.html,/best-cms-platforms-for-growing-marketing-teams/,A104,True,,contextual,CMS platforms for growing marketing teams
 A034,site/writesonic-alternatives/index.html,/jasper-vs-copy-ai-vs-writesonic/,A031,True,,contextual,"Jasper, Copy.ai and Writesonic comparison"
 A034,site/writesonic-alternatives/index.html,/best-content-optimization-tools/,A009,True,,contextual,content optimization tools for organic growth
 A034,site/writesonic-alternatives/index.html,/surfer-seo-alternatives/,A014,True,,contextual,Surfer SEO alternatives guide
 A034,site/writesonic-alternatives/index.html,/best-ai-content-brief-tools/,A023,True,,contextual,AI tools for SEO content briefs
-A034,site/writesonic-alternatives/index.html,/best-ai-search-visibility-tools/,A008,True,,contextual,GEO and AI search visibility tools
-A034,site/writesonic-alternatives/index.html,/best-ai-seo-tools/,A007,True,,contextual,AI SEO tools roundup
 A034,site/writesonic-alternatives/index.html,/best-ai-blog-writing-tools/,A024,True,,contextual,AI blog writing tools for long-form content
 A034,site/writesonic-alternatives/index.html,/chatgpt-vs-claude-for-marketing/,A030,True,,contextual,ChatGPT vs Claude comparison for marketing
 A034,site/writesonic-alternatives/index.html,/ai-content-tool-pricing/,A037,True,,contextual,cost-per-article pricing guide for AI content tools
@@ -3088,7 +2900,6 @@ A074,site/zoominfo-alternatives/index.html,/best-b2b-contact-database-tools/,A06
 A074,site/zoominfo-alternatives/index.html,/best-b2b-intent-data-platforms-for-account-prioritization/,A228,True,,contextual,intent data platforms for account prioritization
 A074,site/zoominfo-alternatives/index.html,/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/,A239,True,,contextual,enrichment versus intent data comparison
 A074,site/zoominfo-alternatives/index.html,/crm-pricing/,A077,True,,contextual,CRM pricing guide
-A074,site/zoominfo-alternatives/index.html,/best-crm-data-quality-and-deduplication-tools/,A227,True,,contextual,CRM data quality and deduplication tools
 A074,site/zoominfo-alternatives/index.html,/best-b2b-lead-generation-software/,A064,True,,contextual,B2B lead generation software roundup
 A074,site/zoominfo-alternatives/index.html,/crm-lead-gen/,H04,True,,contextual,CRM and lead generation hub
 A074,site/zoominfo-alternatives/index.html,/best-crm-software-for-small-business/,A061,True,,contextual,small-business CRM guide
