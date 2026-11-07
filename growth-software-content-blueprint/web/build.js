@@ -169,7 +169,8 @@ const FOOTER = (() => {
 </footer>`;
 })();
 
-function head({ title, description, canonical, jsonld, ogImage, type = 'article' }) {
+const isLive = p => SITE.indexable || ['approved', 'published'].includes(p.status);
+function head({ title, description, canonical, jsonld, ogImage, type = 'article', index = SITE.indexable }) {
   // Brand suffix only when the whole title still fits Google's ~60-character display.
   const full = title.includes(SITE.brand) || (title + ' | ' + SITE.brand).length > 60 ? title : `${title} | ${SITE.brand}`;
   return `<!DOCTYPE html>
@@ -180,7 +181,7 @@ function head({ title, description, canonical, jsonld, ogImage, type = 'article'
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${canonical}">
-${SITE.indexable ? '' : '<meta name="robots" content="noindex, nofollow">\n'}<meta property="og:type" content="${type}">
+${index ? '' : '<meta name="robots" content="noindex, follow">\n'}<meta property="og:type" content="${type}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${canonical}">
@@ -254,12 +255,12 @@ function renderPage(p, d) {
       `<a class="sec-more" href="${p.parent_hub}">All ${esc(HUB_META[p.parent_hub][0])} guides &rarr;</a></div>` +
       `<div class="blog-grid">${picks.map(blogCard).join('')}</div></section>`;
   }
-  return head({ title: d.title, description: d.description, canonical, jsonld: p.counted ? withArticle(d.jsonld, p, d, canonical) : d.jsonld, ogImage: `/og/${slug(p)}.svg` }) +
+  return head({ title: d.title, description: d.description, canonical, jsonld: p.counted ? withArticle(d.jsonld, p, d, canonical) : d.jsonld, ogImage: `/og/${slug(p)}.svg`, index: isLive(p) }) +
 `<div class="page-hero"><div class="container">
   <nav class="crumbs" aria-label="Breadcrumb">${crumbs.join('<span class="crumb-sep">›</span>')}</nav>
   <h1>${esc(d.h1)}</h1>
   ${d.deck ? `<p class="sub">${d.deck}</p>` : ''}
-  <p class="page-meta">${pill}<span>${KIND[p.page_type]}</span><span>By ${AUTHOR ? `<a href="${AUTHOR.url}">${esc(AUTHOR.name)}</a>` : esc(SITE.author)}</span><span>Updated <time datetime="${cfg.draft_date}">${new Date(cfg.draft_date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></span>${SITE.indexable ? '' : '<span class="draft-pill">Draft</span>'}</p>
+  <p class="page-meta">${pill}<span>${KIND[p.page_type]}</span><span>By ${AUTHOR ? `<a href="${AUTHOR.url}">${esc(AUTHOR.name)}</a>` : esc(SITE.author)}</span><span>Updated <time datetime="${cfg.draft_date}">${new Date(cfg.draft_date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></span>${isLive(p) ? '' : '<span class="draft-pill">Draft</span>'}</p>
 </div></div>
 <div class="container content article" data-article-id="${p.id}">
 ${d.body}
@@ -368,16 +369,18 @@ function build() {
   write('favicon.svg', '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f9f6e"/><stop offset="1" stop-color="#0ea5b7"/></linearGradient></defs><rect width="32" height="32" rx="8" fill="url(#g)"/><rect x="7" y="17" width="5" height="9" rx="1.5" fill="#fff"/><rect x="14" y="12" width="5" height="14" rx="1.5" fill="#fff"/><rect x="21" y="6" width="5" height="20" rx="1.5" fill="#fff"/></svg>');
   write('404.html', head({ title: 'Page not found', description: 'This page does not exist.', canonical: SITE.url + '/404.html', type: 'website' }) +
     `<section class="home-lead"><div class="container"><h1>Page not found</h1><p class="sub">That page doesn't exist. Try the growth stack overview instead.</p><div class="hero-ctas"><a class="btn btn-primary" href="/growth-stack/">Go to the growth stack →</a></div></div></section>\n` + tail);
-  const urls = ['/', ...(AUTHOR ? [AUTHOR.url] : []), ...pages.map(p => p.public_path)];
+  const livePages = pages.filter(isLive);
+  const anyLive = livePages.length > 0;
+  const urls = anyLive ? ['/', ...(AUTHOR ? [AUTHOR.url] : []), ...livePages.map(p => p.public_path)] : [];
   write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
     urls.map(u => `  <url><loc>${SITE.url}${u}</loc><lastmod>${cfg.draft_date}</lastmod></url>`).join('\n') + '\n</urlset>\n');
-  write('robots.txt', SITE.indexable ? `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`
-    : '# Drafts: crawling disabled until site.config.json sets "indexable": true\nUser-agent: *\nDisallow: /\n');
+  write('robots.txt', anyLive ? `User-agent: *\nAllow: /\n\nSitemap: ${SITE.url}/sitemap.xml\n`
+    : '# No approved pages yet: crawling disabled. Approve pages (scripts/apply_experience.py) or set "indexable": true.\nUser-agent: *\nDisallow: /\n');
   write('llms.txt', `# ${SITE.brand}\n\n> ${SITE.desc}\n\n## Categories\n` +
     hubs.map(h => `- [${h.title}](${SITE.url}${h.public_path})`).join('\n') + '\n\n## Buying guides\n' +
     articles.filter(a => a.page_type === 'pillar-listicle').map(a => `- [${a.final_h1}](${SITE.url}${a.public_path})`).join('\n') + '\n');
   console.log(`Built ${pages.length + 1} pages -> web/dist/ (${articles.length} articles, ${hubs.length} hubs, home)` +
-    (SITE.indexable ? '' : ' [noindex: drafts]'));
+    ` [indexable pages: ${pages.filter(isLive).length}]`);
 }
 
 build();

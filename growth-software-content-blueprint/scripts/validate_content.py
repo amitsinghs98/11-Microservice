@@ -195,8 +195,9 @@ def validate(page, domain):
     if not is_hub and tables != 1:
         issues.append(f"{tables} tables (rule of one: exactly 1)")
     mk = raw.count(MARKER)
-    if not is_hub and mk != 1:
-        issues.append(f"experience marker present {mk} times (need exactly 1)")
+    filled = raw.count('data-experience="filled"')
+    if not is_hub and mk + min(filled, 1) != 1:
+        issues.append(f"experience marker present {mk} times, filled experience blocks {filled} (need exactly 1 of either)")
     if is_hub and mk:
         issues.append("hubs must not carry the experience marker")
     after_h1 = " ".join(p.text[p.h1_text_index:]) if p.h1_text_index is not None else body
