@@ -38,6 +38,10 @@ Clusters 1–5 (A001–A100) have a designated pillar; clusters 6–15 use their
 | 4 | CRM, lead generation, and sales intelligence | `/crm-lead-gen/` | `/best-crm-software-for-small-business/` |
 | 5 | Marketing automation, analytics, CRO, and distribution | `/automation-analytics/` | `/best-marketing-automation-software/` |
 
+## Styled website (`web/`)
+
+`node web/build.js` builds a styled, deployable version of all 316 pages into `web/dist/`. It uses the owner's MakeToolz design system, re-themed emerald and teal. Pages are noindex until approved. See `web/README.md`.
+
 ## Preview locally
 
 ```bash
