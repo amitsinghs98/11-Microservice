@@ -1,0 +1,13 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A065,ZoomInfo,https://www.zoominfo.com/pricing,official-pricing,2026-11-04,"Contact and company data, intent, CRM enrichment, workflow features; quote-based annual contracts",Needs verification,Fetch blocked (vendor hosts not in session network allowlist; Firecrawl out of credits); no prices stated
+A065,Apollo.io,https://www.apollo.io/pricing,official-pricing,2026-11-04,Contact database with sequencing and CRM sync; free plan; credit-based paid seats,Needs verification,Fetch blocked; free plan must be confirmed
+A065,Cognism,https://www.cognism.com/pricing,official-pricing,2026-11-04,"European coverage, phone data, compliance support incl. do-not-call checks; quote-based",Needs verification,Fetch blocked; positioning stated as vendor positioning
+A065,Lusha,https://www.lusha.com/pricing/,official-pricing,2026-11-04,Email and phone reveals via browser extension and CRM integrations; free plan; tiered credits,Needs verification,Fetch blocked; free plan must be confirmed
+A065,Seamless.AI,https://seamless.ai/pricing,official-pricing,2026-11-04,On-demand contact and company search with CRM/spreadsheet export; tiered with credits,Needs verification,Fetch blocked
+A065,UpLead,https://www.uplead.com/pricing/,official-pricing,2026-11-04,Filtered contact and company search; credit-based tiers,Needs verification,Fetch blocked
+A065,Dealfront,https://www.dealfront.com/pricing/,official-pricing,2026-11-04,European B2B company and contact data plus website visitor identification,Needs verification,Fetch blocked
+A065,Credit economics example,,editorial-knowledge,2026-11-04,"Hypothetical: 1,000 credits, 800 used, 75% verified = 600 usable contacts (cost per usable contact 1.67x sticker)",Not stated,"Arithmetic only; labelled hypothetical; not any vendor's pricing; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A065,Accuracy and coverage figures,,editorial-knowledge,2026-11-04,,Not stated,No accuracy rates or record counts claimed for any vendor
+A065,GDPR legitimate interest statement,,editorial-knowledge,2026-11-04,"Legitimate interest requires documented assessment, transparency and opt-out",Needs verification,General regulatory statement; flagged as not legal advice
+A065,All vendor prices,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A065,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,11 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A009,Surfer,https://surferseo.com/pricing/,official-pricing,2026-11-04,"Content Editor scoring against ranking pages, term/heading/question suggestions, AI drafting, audits of existing URLs; tiered plans with monthly editor document allowances",Needs verification,Vendor site not reachable from drafting environment; no prices or quotas stated
+A009,Clearscope,https://www.clearscope.io/pricing,official-pricing,2026-11-04,"Draft grading; content inventory of published pages connected to Search Console; tiered by reports and inventory size",Needs verification,Inventory/GSC link described from search-result summaries; no prices stated
+A009,Frase,https://www.frase.io/pricing,official-pricing,2026-11-04,"Outline builder from ranking pages, AI writing, optimization score; tiered subscription",Needs verification,Not fetched
+A009,MarketMuse,https://www.marketmuse.com/pricing/,official-pricing,2026-11-04,"Site-wide topic modelling, coverage gaps, briefs; higher tiers via sales",Needs verification,Not fetched
+A009,NeuronWriter,https://neuronwriter.com/,official-site,2026-11-04,"SERP-based term suggestions, content scoring, AI writing; plans scaled by projects and analyses",Needs verification,Not fetched
+A009,Semrush SEO Writing Assistant,https://www.semrush.com/swa/,official-site,2026-11-04,"Checks drafts in Google Docs or WordPress for SEO, readability and tone; part of Semrush subscriptions",Needs verification,Not fetched; plan inclusion to confirm
+A009,Google Search Console,https://search.google.com/search-console/about,official-site,2026-11-04,"Free; clicks, impressions and average position by page and query",Needs verification,Well-established product facts; not fetched
+A009,Content scores are directional,,editorial-knowledge,2026-11-04,Score measures similarity to a sample of ranking pages; not a ranking guarantee,Needs verification,Editorial framing required by manifest brief
+A009,Specific plan prices for all products,,editorial-knowledge,2026-11-04,,Not stated,No prices stated because vendor pricing pages could not be fetched on 2026-11-04
+A009,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

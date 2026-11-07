@@ -1,0 +1,16 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A071,HubSpot Sales Hub (official pricing),https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Product exists; free tools then per-seat Starter, Professional and Enterprise tiers",Needs verification,Fetch blocked on 2026-11-04 (scraper out of credits; host denied by session network policy). No figures published
+A071,Salesforce Sales Cloud (official pricing),https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,"Product exists; small-business suites plus higher Sales Cloud editions, per user",Needs verification,Fetch blocked on 2026-11-04. No figures published
+A071,HubSpot per-seat prices by tier,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"v1 draft listed Starter $7/$20, Professional $90-$100, Enterprise from $150 per seat/mo",Not stated,Cut from v2 because the page could not be fetched; re-check before restoring
+A071,HubSpot required onboarding fees,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"v1 listed $1,500 (Professional) and $3,500 (Enterprise) one-time",Not stated,v2 says only that onboarding fees may apply at higher tiers
+A071,HubSpot workflow and dashboard limits by tier,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"v1 listed 50/300/1,000 workflows and 10/30/75/100 dashboards",Not stated,Cut; v2 says limits are tier-based
+A071,HubSpot marketplace app count,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,v1 cited 2000+ apps,Not stated,Cut
+A071,Salesforce suite and edition prices,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,"v1 listed Starter Suite $25, Pro Suite $100, Core $195, Advanced $395, Max $550 per user/mo",Not stated,Cut from v2; edition renaming (Core/Advanced/Max) also not re-confirmed
+A071,Salesforce Pro Suite flow cap and paid API add-on,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,"v1 listed 5 flows per org and API at extra $25/user/mo",Not stated,v2 says check automation and API limits on the suites
+A071,Salesforce sandboxes on higher editions,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,Sandboxes available on higher editions,Needs verification,Stated qualitatively
+A071,HubSpot custom objects and granular permissions on upper tiers,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,Upper-tier features,Needs verification,Stated qualitatively
+A071,HubSpot sequences/forecasting/custom reporting in Professional tier,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,Tier placement,Needs verification,"Hedged as ""tend to"" / ""have typically sat"""
+A071,HubSpot AI credit allowance varies by tier,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,HubSpot Credits,Needs verification,Stated qualitatively
+A071,Salesforce annual contracts and add-on pricing,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,Pricing FAQ,Needs verification,Stated qualitatively
+A071,Admin-time scenario (one day a week = ~50 days/yr),,editorial-knowledge,2026-11-04,Hypothetical assumption stated on page,Needs verification,Arithmetic on a stated assumption; not a vendor claim
+A071,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

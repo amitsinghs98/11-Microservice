@@ -1,0 +1,14 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A043,Instantly (official pricing),https://instantly.ai/pricing,official-pricing,2026-11-04,"Tiers by contacts and monthly emails; data credits sold separately; warm-up, unified inbox, CRM module",Needs verification,"v2 fetch blocked (session network denied vendor hosts; Firecrawl credits exhausted). No figures quoted; A051 research fragment holds figures fetched 2026-11-04 by another writer"
+A043,Smartlead (official pricing),https://www.smartlead.ai/pricing,official-pricing,2026-11-04,"Tiers by sends and contacts; client workspaces as add-ons; master inbox, API",Needs verification,Consistent with A051 fragment (Verified there); not independently re-fetched in this pass
+A043,lemlist (official pricing),https://www.lemlist.com/pricing,official-pricing,2026-11-04,"Per-seat pricing; email, LinkedIn, calls; personalized images; lead database",Needs verification,Not fetched
+A043,Saleshandy (official pricing),https://www.saleshandy.com/pricing/,official-pricing,2026-11-04,"Tiers by prospects and emails; agency client features; lead finder",Needs verification,Not fetched
+A043,Woodpecker (official pricing),https://woodpecker.co/pricing/,official-pricing,2026-11-04,"Pricing based on contacted prospects with add-ons; bounce protection; agency panel",Needs verification,Not fetched
+A043,QuickMail (official pricing),https://quickmail.com/pricing,official-pricing,2026-11-04,"Tiered; inbox rotation; deliverability monitoring",Needs verification,Not fetched
+A043,Mailshake (official pricing),https://mailshake.com/pricing/,official-pricing,2026-11-04,"Per seat; phone/social steps on sales engagement tier",Needs verification,Not fetched
+A043,Google email sender guidelines,https://support.google.com/a/answer/81126,official-docs,2026-11-04,Google publishes authentication and complaint expectations for senders,Needs verification,Not fetched; no spam-rate threshold quoted
+A043,CAN-SPAM postal address and opt-out requirement,,editorial-knowledge,2026-11-04,General legal context,Needs verification,Stated as general information not legal advice
+A043,UK/EU legitimate interests basis for B2B outreach,,editorial-knowledge,2026-11-04,General legal context,Needs verification,Hedged with 'usually'
+A043,5-client model (10 domains / 30 mailboxes),,editorial-knowledge,2026-11-04,Hypothetical arithmetic,Needs verification,No prices used
+A043,Specific plan prices and sending caps,,editorial-knowledge,2026-11-04,Deliberately omitted,Not stated,Re-fetch before publication
+A043,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

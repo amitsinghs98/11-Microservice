@@ -1,0 +1,15 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A077,Pipedrive plan prices,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Lite US$14, Growth US$39, Premium US$59, Ultimate US$79 per seat per month billed annually",Verified,"Fetched 2026-11-04 in shared cluster research (A061/A063); not re-fetched by this writer because the network blocked vendor hosts; monthly-billing prices not captured"
+A077,Pipedrive annual saving,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Annual billing 'save up to 42%',Verified,Fetched 2026-11-04 in shared cluster research (A061)
+A077,Pipedrive add-ons,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"LeadBooster, Projects, Campaigns, Web Visitors and Smart Docs listed with starting-from prices",Verified,Add-on prices not repeated; billing unit unconfirmed
+A077,5-seat scenario,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"5 x $39 x 12 = $2,340; 5 x $59 x 12 = $3,540; plus hypothetical 20h setup and 3h/month admin at $60/h",Verified,License arithmetic from verified prices; setup/admin hours and hourly rate are labelled assumptions
+A077,15-seat scenario,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"15 x $39 x 12 = $7,020; 15 x $59 x 12 = $10,620; plus hypothetical 40h setup and 10h/month admin at $60/h",Verified,License arithmetic from verified prices; setup/admin are assumptions
+A077,HubSpot,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Per-seat pricing by hub; contact tiers in Marketing Hub; promotional rates and onboarding fees on some tiers",Needs verification,hubspot.com blocked from drafting session; no figures stated; v1 Starter promotional figures cut
+A077,Salesforce,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,"Per-user editions on annual contracts; partner implementation common",Needs verification,Not fetched; no figures stated
+A077,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Per-user editions; paid support and guided onboarding offered",Needs verification,zoho.com blocked; v1 edition prices cut
+A077,Attio,https://attio.com/pricing,official-pricing,2026-11-04,"Per-seat tiers plus usage credits; seat caps per tier",Needs verification,attio.com blocked; v1 prices and credit figures cut
+A077,Bitrix24,https://www.bitrix24.com/prices/,official-pricing,2026-11-04,"Flat rate per organization with users included per tier",Needs verification,Not fetched; v1 tier prices cut
+A077,Capsule,https://capsulecrm.com/pricing/,official-pricing,2026-11-04,Per-user plans,Needs verification,Not linked in final draft; v1 prices cut
+A077,Zapier and Make named as middleware,,editorial-knowledge,2026-11-04,Named as examples of integration costs; no figures stated,Needs verification,
+A077,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A077,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

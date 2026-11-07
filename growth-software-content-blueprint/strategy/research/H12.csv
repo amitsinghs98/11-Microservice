@@ -1,0 +1,6 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+H12,Hub scope and directory descriptions,,editorial-knowledge,2026-11-07,"Category boundaries, subcategory map, selection criteria and one-to-two-sentence summaries of linked articles, drawn from url-manifest.json angles and briefs",Not stated,"Navigation hub expanded to pillar depth 2026-11-07: no product prices, plan limits or feature claims made; product facts live on the linked articles with their own sources"
+H12,Stack setups by team size table,,editorial-knowledge,2026-11-07,"Editorial guidance on typical layering by team stage; no customer data, survey or testing",Not stated,No statistics or vendor claims; labelled editorial guidance on page
+H12,Product-specific claims,,editorial-knowledge,2026-11-07,"None made; tools referenced only by category",Not stated,No vendor search required for the hub
+H12,Pricing-model statements,,editorial-knowledge,2026-11-07,"General descriptions of how the category is commonly priced (seats, records, events, rows, credits), with no figures",Needs verification,Qualitative and hedged; figures live on the linked articles
+H12,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

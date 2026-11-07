@@ -1,0 +1,5 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A200,Google Analytics help center,https://support.google.com/analytics/,official-docs,2026-11-04,Tagged campaign traffic can be checked in analytics,Needs verification,"General documentation link only; not fetched on 2026-11-04 (network policy); no specific feature or limit claimed; fact-check 2026-11-05: re-fetch failed again (Firecrawl out of credits, host not in allowed network domains); no prices, plan placement or free-plan claims kept"
+A200,"Measurement framework (seven layers, holdouts, reporting windows)",,editorial-knowledge,2026-11-04,Recommended measurement approach,Not stated,"Editorial recommendation, not a vendor claim"
+A200,Hypothetical ROI worksheet,,editorial-knowledge,2026-11-04,"Assumed costs, orders, margin and reuse value; result -900",Not stated,calculation from stated assumptions
+A200,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
