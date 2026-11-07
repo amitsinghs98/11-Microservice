@@ -55,7 +55,7 @@ They are busy, numerate and sceptical of vendor marketing. They want a shortlist
 
 ## Author
 
-Byline: **InsightToolz Editorial Team** (set 7 November 2026 in `site.config.json` → `author`). No fictional person, bio or credentials may be invented. Replace it with a real reviewer's name and bio when one exists.
+Byline: **David Esper**, the author assigned and authorised by the owner on 7 November 2026 (`site.config.json` → `author`). No bio or credentials have been supplied, so none are shown; add them only from facts David provides. The named author is expected to review each page, fill its experience section and approve it before publication.
 
 ## First-hand experience
 
