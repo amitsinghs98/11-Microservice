@@ -19,7 +19,8 @@ BAD_SCHEMA = re.compile(r'"@type"\s*:\s*"(Review|AggregateRating|Product|Rating)
 PLACEHOLDERS = re.compile(r"\b(TODO|TBD|LOREM|INSERT TEXT|YOUR LINK HERE|AFFILIATE_URL_PENDING|FIXME|XXX)\b", re.I)
 BANNED = re.compile(r"\b(we tested|our testing|our tests|we've tested|hands-on testing showed|users rate|verified customer rating|game-changing|revolutionary|best-in-class|ultimate solution|in today's digital landscape)\b", re.I)
 WORD_RANGES = {"1200-1800": (1000, 2600), "1500-2200": (1250, 3000), "1400-2000": (1150, 2800), "1000-1500": (850, 2300),
-               "1400-2100": (1150, 2900), "800-1400": (750, 2200), "1000-1800": (850, 2600)}
+               "1400-2100": (1150, 2900), "800-1400": (750, 2200), "1000-1800": (850, 2600),
+               "2000-3000": (1700, 3600), "1800-2800": (1500, 3400)}
 
 
 class Parser(HTMLParser):

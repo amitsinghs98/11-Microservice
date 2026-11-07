@@ -40,6 +40,15 @@ NEW_TYPES = {"best": "listicle", "guide": "guide", "comparison": "comparison", "
 NEW_WORDS = {"listicle": "1400-2000", "comparison": "1400-2100", "alternatives": "1400-2100",
              "pricing-guide": "1200-1800", "guide": "1200-1800"}
 PILLARS = {1: "A001", 2: "A021", 3: "A041", 4: "A061", 5: "A081"}
+# Pillars for clusters 6-15 (added 7 Nov 2026). Chosen as each cluster's central topic, using the
+# Semrush validation in strategy/keyword-validation.csv. These are rewritten to pillar depth, and
+# their hubs are expanded to pillar depth too.
+NEW_PILLARS = {6: "A101", 7: "A121", 8: "A141", 9: "A161", 10: "A181", 11: "A201", 12: "A221", 13: "A241",
+               14: "A261", 15: "A281"}
+PILLAR_DEPTH = {"pillar-listicle-new": "2000-3000", "hub-pillar": "1800-2800"}
+# Primary-keyword overrides from Semrush validation (US database, 7 Nov 2026). The source keyword is kept
+# as source_primary_keyword. Edit strategy/keyword-validation.csv, not this script.
+EXTRA_RETARGETS = {"A121": "ppc management software", "A161": "customer success software"}
 HUBS = [
     {"id": "H00", "cluster_num": 0, "page_type": "topical-hub",
      "title": "The Growth Stack: How to Choose the Software Behind Acquisition, Content, Sales, and Measurement",
@@ -164,6 +173,25 @@ def main():
         p["public_path"] = flat[p["public_path"]]
         p["parent_hub"] = flat.get(p["parent_hub"], p["parent_hub"])
         p["cluster_pillar"] = flat.get(p.get("cluster_pillar", ""), p.get("cluster_pillar", ""))
+    kv = os.path.join(ROOT, "strategy", "keyword-validation.csv")
+    retarget = {r["id"]: r["recommended_primary"] for r in csv.DictReader(open(kv))} if os.path.exists(kv) else {}
+    retarget.update(EXTRA_RETARGETS)
+    pillar_ids = set(NEW_PILLARS.values())
+    by_id = {p["id"]: p for p in pages}
+    for p in pages:
+        cn = p["cluster_num"]
+        if p["counted"] and cn in NEW_PILLARS:
+            if p["id"] in pillar_ids:
+                p["page_type"] = "pillar-listicle"
+                p["target_word_range"] = PILLAR_DEPTH["pillar-listicle-new"]
+                p["cluster_pillar"] = ""
+            else:
+                p["cluster_pillar"] = NEW_PILLARS[cn]
+        if not p["counted"] and cn in NEW_PILLARS:
+            p["target_word_range"] = PILLAR_DEPTH["hub-pillar"]
+        if retarget.get(p["id"]):
+            p["source_primary_keyword"] = p["primary_keyword"]
+            p["primary_keyword"] = retarget[p["id"]]
     for p in pages:
         p["physical_file_path"] = "site" + p["public_path"] + "index.html"
         p["status"] = old.get(p["id"], {}).get("status", "planned")
