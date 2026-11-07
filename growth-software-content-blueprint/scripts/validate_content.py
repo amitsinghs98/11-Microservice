@@ -201,8 +201,8 @@ def validate(page, domain):
     if is_hub and mk:
         issues.append("hubs must not carry the experience marker")
     after_h1 = " ".join(p.text[p.h1_text_index:]) if p.h1_text_index is not None else body
-    first100 = " ".join(re.findall(r"[\w'’-]+", after_h1)[:100]).lower()
-    kw = " ".join(re.findall(r"[\w'’-]+", page["primary_keyword"].lower()))
+    first100 = " ".join(re.findall(r"[\w'’-]+", after_h1)[:100]).lower().replace("-", " ")
+    kw = " ".join(re.findall(r"[\w'’-]+", page["primary_keyword"].lower())).replace("-", " ")
     if kw and kw not in first100:
         issues.append(f"primary keyword {page['primary_keyword']!r} not in first 100 words after H1")
     h1 = next((t for lvl, t in p.headings if lvl == 1), "")
