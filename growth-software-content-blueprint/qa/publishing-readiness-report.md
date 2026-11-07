@@ -6,7 +6,7 @@
 > - **Keyword validation:** every primary keyword was checked against Semrush US data (`strategy/keyword-validation.csv`). 194 of the 316 keywords were weak (under 50 searches a month, or not in Semrush). 46 pages were retargeted to intent-matched head terms with no overlap between pages, raising the summed primary volume from about 122k to about 200k searches a month.
 > - **Pillars:** all 15 clusters now have one. Clusters 6–15 got new pillars (A101, A121, A141, A161, A181, A201, A221, A241, A261, A281) and hubs H06–H15 were expanded to pillar depth.
 > - **Silo:** all 300 articles link to their pillar and every hub links all 20 of its articles. Cross-cluster links fell from 35% to 22%, with at most 2 per article; the stack guides A040, A098 and A099 are exempt.
-> - **URLs:** every page has a flat URL, including the author page at `/david-esper/`.
+> - **URLs:** all 316 posts and hubs have flat URLs (`/best-seo-software/`). The author page is the one deliberate exception, at `/author/david/`.
 > - **QA:** 316/316 pages pass; 3,169 internal links, 0 broken, 0 orphans.
 > - **Publishing:** first-hand experience and approvals now go through `progress/david-experience-intake.md` and `scripts/apply_experience.py`. The web build indexes each page only once it is approved.
 

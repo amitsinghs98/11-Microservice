@@ -47,7 +47,8 @@ const byId = Object.fromEntries(pages.map(p => [p.id, p]));
 // Author profiles. Only facts the author or owner supplied; never invented credentials.
 const AUTHORS = JSON.parse(fs.readFileSync(path.join(WEB, 'authors.json'), 'utf8'));
 const AUTHOR_SLUG = Object.keys(AUTHORS).find(k => AUTHORS[k].name === SITE.author);
-const AUTHOR = AUTHOR_SLUG ? { slug: AUTHOR_SLUG, url: `/${AUTHOR_SLUG}/`, ...AUTHORS[AUTHOR_SLUG] } : null;
+// Author pages live under /author/ (articles stay flat). Override per author with "url" in authors.json.
+const AUTHOR = AUTHOR_SLUG ? { slug: AUTHOR_SLUG, ...AUTHORS[AUTHOR_SLUG], url: AUTHORS[AUTHOR_SLUG].url || `/author/${AUTHOR_SLUG}/` } : null;
 if (AUTHOR && pages.some(p => p.public_path === AUTHOR.url)) throw new Error(`Author URL ${AUTHOR.url} collides with a page`);
 const initials = n => n.split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase();
 const PUBLISHER = { '@type': 'Organization', name: SITE.brand, url: SITE.url + '/', logo: { '@type': 'ImageObject', url: SITE.url + '/favicon.svg' } };

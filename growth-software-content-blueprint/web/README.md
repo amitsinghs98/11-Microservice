@@ -55,7 +55,7 @@ The byline comes from `author` in `../site.config.json` (currently David Esper).
 
 The build uses them to add:
 - A "Written and researched by" box on every article
-- An author page at `/david-esper/`
+- An author page at `/author/david/`
 - `Article` structured data (author, publisher, dates) alongside each page's breadcrumb and FAQ data
 
 `credentials` and `links` are empty on purpose. Fill them with real facts only, such as past roles, years in the field or a LinkedIn URL. They then appear on the author page and in the author's structured data as `sameAs`.
