@@ -31,7 +31,7 @@ const SITE = {
   year: '2026',
   // Drafts are not approved for publication yet: every page gets noindex and robots.txt
   // disallows crawling until this is switched to true (see web/README.md).
-  indexable: cfg.indexable === true,
+  indexable: cfg.indexable === true || process.env.INDEXABLE === '1', // INDEXABLE=1 is for audits only
   // Byline shown on every page. Use a real reviewer's name only; never an invented persona.
   author: cfg.author || `${cfg.brand_name || 'BRAND_NAME'} Editorial Team`,
 };
@@ -59,7 +59,7 @@ function withArticle(jsonld, p, d, canonical) {
   let g; try { g = JSON.parse(jsonld); } catch (e) { return jsonld; }
   const graph = g['@graph'] || [g];
   graph.unshift({ '@type': 'Article', '@id': canonical + '#article', headline: d.h1, description: d.description,
-    mainEntityOfPage: canonical, image: `${SITE.url}/og/${slug(p)}.svg`, datePublished: cfg.draft_date, dateModified: cfg.draft_date,
+    mainEntityOfPage: canonical, image: `${SITE.url}/og-default.jpg`, datePublished: cfg.draft_date, dateModified: cfg.draft_date,
     author: personLd(), publisher: PUBLISHER });
   return JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 1);
 }
@@ -170,6 +170,7 @@ const FOOTER = (() => {
 </footer>`;
 })();
 
+const minJson = j => { try { return JSON.stringify(JSON.parse(j)); } catch (e) { return j; } };
 const isLive = p => SITE.indexable || ['approved', 'published'].includes(p.status);
 function head({ title, description, canonical, jsonld, ogImage, type = 'article', index = SITE.indexable }) {
   // Brand suffix only when the whole title still fits Google's ~60-character display.
@@ -182,24 +183,30 @@ function head({ title, description, canonical, jsonld, ogImage, type = 'article'
 <title>${esc(full)}</title>
 <meta name="description" content="${esc(description)}">
 <link rel="canonical" href="${canonical}">
-${index ? '' : '<meta name="robots" content="noindex, follow">\n'}<meta property="og:type" content="${type}">
+<meta name="robots" content="${index ? 'index, follow, max-image-preview:large, max-snippet:-1' : 'noindex, follow'}">\n<meta property="og:type" content="${type}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:site_name" content="${esc(SITE.brand)}">
-<meta property="og:image" content="${SITE.url}${ogImage || '/og/default.svg'}">
+<meta property="og:image" content="${SITE.url}/og-default.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(SITE.brand)}: ${esc(SITE.tagline)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(description)}">
+<meta name="twitter:image" content="${SITE.url}/og-default.jpg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#0f9f6e">
-<link rel="stylesheet" href="/assets/style.css?v=${V.css}">
-<script src="/assets/site.js?v=${V.js}" defer></script>
-${jsonld ? `<script type="application/ld+json">\n${jsonld}\n</script>\n` : ''}</head>
+<!--INLINE_CSS-->
+${jsonld ? `<script type="application/ld+json">${minJson(jsonld)}</script>\n` : ''}</head>
 <body>
 ${NAV}
 <main>
 `;
 }
-const tail = `</main>\n${FOOTER}\n</body>\n</html>\n`;
+const SITE_JS = fs.readFileSync(path.join(WEB, 'assets', 'site.js'), 'utf8').replace(/^\s*\/\/.*$/mg, '').replace(/\s+/g, ' ').trim();
+const tail = `</main>\n${FOOTER}\n<script>${SITE_JS}</script>\n</body>\n</html>\n`;
 
 // ---------- SVG covers (featured cards + share images) ----------
 function wrap(text, max) {
@@ -274,7 +281,7 @@ ${more}
 function renderHome() {
   const pillars = articles.filter(a => a.page_type === 'pillar-listicle');
   const [lead, ...rest] = pillars;
-  const feat = (a, size) => `<a class="feat-card ${size}" href="${a.public_path}"><span class="feat-media"><img src="/og/${size === 'lg' ? '' : 'thumb-'}${slug(a)}.svg" alt="" width="${size === 'lg' ? 760 : 300}" height="${size === 'lg' ? 428 : 169}" loading="${size === 'lg' ? 'eager' : 'lazy'}"></span>` +
+  const feat = (a, size) => `<a class="feat-card ${size}" href="${a.public_path}"><span class="feat-media"><img src="/og/${size === 'lg' ? '' : 'thumb-'}${slug(a)}.svg" alt="" width="${size === 'lg' ? 760 : 300}" height="${size === 'lg' ? 428 : 169}" ${size === 'lg' ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"></span>` +
     `<span class="feat-body"><span class="feat-pill">${esc(HUB_META[a.parent_hub][0])}</span><h3>${esc(a.final_h1)}</h3>` +
     (size === 'lg' ? `<span class="feat-ex">${esc(a._desc)}</span>` : '') + `<span class="feat-meta">Buying guide</span></span></a>`;
   const tiles = GROUPS.flatMap(([, ps]) => ps).map(hp => {
@@ -346,8 +353,53 @@ ${creds}
 ` + tail;
 }
 
+// ---------- CSS purge (zero-dependency) ----------
+// Keeps only rules whose selectors can match the generated HTML, then the result is inlined
+// into every page as <style>, so there is no render-blocking stylesheet request.
+const KEEP_CLASSES = new Set(['open']); // toggled by the menu script
+function splitTop(css) { // -> [{prelude, body}] at depth 0
+  const out = []; let i = 0;
+  while (i < css.length) {
+    const ob = css.indexOf('{', i); if (ob < 0) break;
+    let d = 1, j = ob + 1;
+    while (j < css.length && d) { if (css[j] === '{') d++; else if (css[j] === '}') d--; j++; }
+    out.push({ prelude: css.slice(i, ob).trim(), body: css.slice(ob + 1, j - 1) });
+    i = j;
+  }
+  return out;
+}
+function purgeCss(css, used) {
+  css = css.replace(/\/\*[\s\S]*?\*\//g, '');
+  const selOk = sel => {
+    const t = sel.replace(/::?[a-z-]+(\([^)]*\))?/gi, ' ').replace(/\[[^\]]*\]/g, ' ');
+    for (const c of t.match(/\.[a-z0-9_-]+/gi) || []) if (!used.cls.has(c.slice(1)) && !KEEP_CLASSES.has(c.slice(1))) return false;
+    for (const id of t.match(/#[a-z][a-z0-9_-]*/gi) || []) if (!used.ids.has(id.slice(1))) return false;
+    for (const tag of t.replace(/[.#][a-z0-9_-]+/gi, ' ').match(/\b[a-z][a-z0-9]*\b/gi) || []) if (!used.tags.has(tag.toLowerCase())) return false;
+    return true;
+  };
+  const walk = c => splitTop(c).map(({ prelude, body }) => {
+    if (/^@(media|supports)/i.test(prelude)) { const inner = walk(body); return inner ? `${prelude}{${inner}}` : ''; }
+    if (/^@/.test(prelude)) return `${prelude}{${body}}`;
+    const sels = prelude.split(',').map(x => x.trim()).filter(x => x === ':root' || x === '*' || selOk(x));
+    return sels.length ? `${sels.join(',')}{${body.trim()}}` : '';
+  }).join('');
+  return walk(css).replace(/\s+/g, ' ').replace(/\s*([{}:;,>])\s*/g, '$1').replace(/;}/g, '}');
+}
+function usage(htmls) {
+  const used = { cls: new Set(), ids: new Set(), tags: new Set(['html', 'body']) };
+  for (const h of htmls) {
+    for (const m of h.matchAll(/class="([^"]+)"/g)) m[1].split(/\s+/).forEach(c => used.cls.add(c));
+    for (const m of h.matchAll(/\sid="([^"]+)"/g)) used.ids.add(m[1]);
+    for (const m of h.matchAll(/<([a-z][a-z0-9]*)\b/g)) used.tags.add(m[1]);
+  }
+  return used;
+}
+const minHtml = h => h.replace(/\n[ \t]+/g, '\n').replace(/\n{2,}/g, '\n').replace(/<!--(?!INLINE_CSS)[\s\S]*?-->/g, '');
+
 // ---------- build ----------
+const HTML_OUT = new Map();
 function write(rel, content) {
+  if (rel.endsWith('.html')) { HTML_OUT.set(rel, content); return; }
   const f = path.join(DIST, rel);
   fs.mkdirSync(path.dirname(f), { recursive: true });
   fs.writeFileSync(f, content);
@@ -356,7 +408,7 @@ function write(rel, content) {
 function build() {
   fs.rmSync(DIST, { recursive: true, force: true });
   fs.mkdirSync(DIST, { recursive: true });
-  fs.cpSync(path.join(WEB, 'assets'), path.join(DIST, 'assets'), { recursive: true });
+  if (fs.existsSync(path.join(WEB, 'assets', 'og-default.jpg'))) fs.copyFileSync(path.join(WEB, 'assets', 'og-default.jpg'), path.join(DIST, 'og-default.jpg'));
   const parsed = {};
   for (const p of pages) { parsed[p.id] = parse(p); p._desc = parsed[p.id].description; }
   for (const p of pages) {
@@ -380,6 +432,14 @@ function build() {
   write('llms.txt', `# ${SITE.brand}\n\n> ${SITE.desc}\n\n## Categories\n` +
     hubs.map(h => `- [${h.title}](${SITE.url}${h.public_path})`).join('\n') + '\n\n## Buying guides\n' +
     articles.filter(a => a.page_type === 'pillar-listicle').map(a => `- [${a.final_h1}](${SITE.url}${a.public_path})`).join('\n') + '\n');
+  const css = purgeCss(fs.readFileSync(path.join(WEB, 'assets', 'style.css'), 'utf8'), usage(HTML_OUT.values()));
+  for (const [rel, h] of HTML_OUT) {
+    const f = path.join(DIST, rel);
+    fs.mkdirSync(path.dirname(f), { recursive: true });
+    fs.writeFileSync(f, minHtml(h).replace('<!--INLINE_CSS-->', `<style>${css}</style>`));
+  }
+  write('_headers', `/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Frame-Options: SAMEORIGIN\n  Permissions-Policy: interest-cohort=()\n  Strict-Transport-Security: max-age=31536000; includeSubDomains\n/og/*\n  Cache-Control: public, max-age=604800\n/og-default.jpg\n  Cache-Control: public, max-age=604800\n/favicon.svg\n  Cache-Control: public, max-age=2592000\n`);
+  console.log(`CSS: ${(css.length / 1024).toFixed(1)} KB inlined (from ${(fs.statSync(path.join(WEB, 'assets', 'style.css')).size / 1024).toFixed(1)} KB)`);
   console.log(`Built ${pages.length + 1} pages -> web/dist/ (${articles.length} articles, ${hubs.length} hubs, home)` +
     ` [indexable pages: ${pages.filter(isLive).length}]`);
 }

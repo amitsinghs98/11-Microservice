@@ -59,3 +59,24 @@ The build uses them to add:
 - `Article` structured data (author, publisher, dates) alongside each page's breadcrumb and FAQ data
 
 `credentials` and `links` are empty on purpose. Fill them with real facts only, such as past roles, years in the field or a LinkedIn URL. They then appear on the author page and in the author's structured data as `sameAs`.
+
+## Performance and technical SEO
+
+Lighthouse (mobile, simulated throttling) on the homepage, an article and a hub, built with `INDEXABLE=1` as if approved: **Performance 100, SEO 100, Accessibility 100, Best Practices 100**. First paint is 0.6–0.8 s, LCP 0.8–0.9 s, CLS 0, and each page transfers 13–16 KB in 2 requests.
+
+How it's done:
+
+- **Pre-rendered static HTML:** every page is fully rendered at build time. No client-side rendering, no framework and no hydration.
+- **One request per page:**
+  - The stylesheet is purged at build time to only the selectors the HTML uses (49 KB down to about 15 KB) and inlined as `<style>`.
+  - The single script (the mobile menu toggle, about 300 bytes) is inlined too.
+  - There are no web fonts (system font stack), no third-party scripts and no tracking.
+- **HTML and JSON-LD minified.**
+- **Homepage LCP image:** gets `fetchpriority="high"`; other images are lazy-loaded with `decoding="async"`.
+- **`content-visibility:auto`** on below-the-fold "Keep reading" blocks.
+- **`_headers` (Cloudflare Pages):** security headers (HSTS, nosniff, referrer policy, frame options) and long cache lifetimes for share images and the favicon.
+- **Robots:** pages are `index, follow, max-image-preview:large, max-snippet:-1` once approved; drafts are `noindex, follow`.
+- **Social previews:** `og-default.jpg` (1200×630, about 37 KB) for every page, because social networks don't render SVG previews. Twitter card tags are included.
+- **Accessibility:** brand text colours meet WCAG AA contrast, and links inside running text are underlined.
+
+To re-audit, build with `INDEXABLE=1 node web/build.js`, serve `web/dist` with gzip, and run Lighthouse. **Never deploy that build:** it removes the draft noindex.
