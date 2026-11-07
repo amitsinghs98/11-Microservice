@@ -1,0 +1,317 @@
+id,cluster,page_type,public_path,primary_keyword,us_volume,keyword_difficulty,cpc_usd,in_semrush_db,tier,recommended_primary,rec_volume,rec_kd,action
+H00,0,topical-hub,/growth-stack/,growth stack software,0,0,0,yes,weak,,,,keep (hub; navigational)
+H01,1,category-hub,/seo/,seo software,9900,65,8.73,yes,hard,,,,keep
+H02,2,category-hub,/ai-content/,ai content software,40,70,0,yes,weak,,,,keep (hub; navigational)
+H03,3,category-hub,/email-outreach/,email marketing and outreach software,,,,no,weak,,,,keep (hub; navigational)
+H04,4,category-hub,/crm-lead-gen/,crm and lead generation software,,,,no,weak,,,,keep (hub; navigational)
+H05,5,category-hub,/automation-analytics/,marketing automation and analytics software,,,,no,weak,,,,keep (hub; navigational)
+H06,6,category-hub,/content-operations/,content operations software,70,10,26.42,yes,moderate,,,,keep
+H07,7,category-hub,/paid-media/,paid media software,0,0,0,yes,weak,,,,keep (hub; navigational)
+H08,8,category-hub,/ecommerce-growth/,ecommerce growth software,0,0,0,yes,weak,,,,keep (hub; navigational)
+H09,9,category-hub,/customer-retention/,customer retention software,1300,25,56.78,yes,strong,,,,keep
+H10,10,category-hub,/affiliate-partnerships/,affiliate and partnership software,,,,no,weak,,,,keep (hub; navigational)
+H11,11,category-hub,/website-experience/,website experience software,0,0,0,yes,weak,,,,keep (hub; navigational)
+H12,12,category-hub,/data-revops/,revops software,320,29,13.48,yes,opportunity,,,,keep
+H13,13,category-hub,/webinars-demand-gen/,webinar and event software,,,,no,weak,,,,keep (hub; navigational)
+H14,14,category-hub,/agency-operations/,agency management software,1000,34,22.26,yes,strong,,,,keep
+H15,15,category-hub,/product-led-growth/,product-led growth software,20,27,0,yes,weak,,,,keep (hub; navigational)
+A001,1,pillar-listicle,/best-seo-software/,best seo software,2900,60,7,yes,hard,,,,keep
+A002,1,listicle,/best-keyword-research-tools/,best keyword research tools,1600,96,9.62,yes,hard,,,,keep
+A003,1,listicle,/best-rank-tracking-software/,best rank tracking software,1000,39,8.57,yes,strong,,,,keep
+A004,1,listicle,/best-technical-seo-audit-tools/,technical seo audit tools,260,64,7.85,yes,hard,,,,keep
+A005,1,listicle,/best-backlink-analysis-tools/,best backlink analysis tools,320,63,0,yes,hard,,,,keep
+A006,1,listicle,/best-local-seo-software/,best local seo software,1000,30,22.73,yes,strong,,,,keep
+A007,1,listicle,/best-ai-seo-tools/,best ai seo tools,1900,32,14.08,yes,strong,,,,keep
+A008,1,listicle,/best-ai-search-visibility-tools/,ai search visibility tools,720,50,15.41,yes,strong,,,,keep
+A009,1,listicle,/best-content-optimization-tools/,content optimization tools,480,40,9.4,yes,moderate,,,,keep
+A010,1,listicle,/best-seo-reporting-software/,seo reporting software,1300,39,16.39,yes,strong,,,,keep
+A011,1,comparison,/semrush-vs-ahrefs/,semrush vs ahrefs,9900,50,5.91,yes,strong,,,,keep
+A012,1,alternatives,/semrush-alternatives/,semrush alternatives,4400,35,0,yes,strong,,,,keep
+A013,1,alternatives,/ahrefs-alternatives/,ahrefs alternatives,9900,34,8.09,yes,strong,,,,keep
+A014,1,alternatives,/surfer-seo-alternatives/,surfer seo alternatives,880,13,13.5,yes,strong,,,,keep
+A015,1,comparison,/se-ranking-vs-semrush/,se ranking vs semrush,1900,29,5.45,yes,strong,,,,keep
+A016,1,listicle,/best-free-seo-tools/,free seo tools,14800,35,7.38,yes,strong,,,,keep
+A017,1,pricing-guide,/seo-software-pricing/,seo software pricing,90,33,6.37,yes,moderate,,,,keep
+A018,1,guide,/seo-tool-stack/,seo tool stack,10,0,5.32,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A019,1,guide,/rank-tracking-for-local-seo-agency/,rank tracking for local seo agency,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A020,1,guide,/seo-software-roi/,seo software roi,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A021,2,pillar-listicle,/best-ai-writing-tools/,best ai writing tools,2400,50,5.43,yes,strong,,,,keep
+A022,2,listicle,/best-ai-copywriting-software/,ai copywriting software,140,44,0,yes,moderate,,,,keep
+A023,2,listicle,/best-ai-content-brief-tools/,ai content brief tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A024,2,listicle,/best-ai-blog-writing-tools/,ai blog writing tools,30,64,11.74,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A025,2,listicle,/best-ai-email-copywriting-tools/,ai email copywriting tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A026,2,listicle,/best-ai-social-media-tools/,ai social media tools,260,47,11.18,yes,moderate,,,,keep
+A027,2,listicle,/best-ai-video-editing-tools/,ai video editing tools,1900,78,2.7,yes,hard,,,,keep
+A028,2,listicle,/best-ai-image-generation-tools-for-marketing/,ai image generation tools for marketing,0,0,0,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A029,2,listicle,/best-ai-presentation-tools/,ai presentation tools,720,71,5.19,yes,hard,,,,keep
+A030,2,comparison,/chatgpt-vs-claude-for-marketing/,chatgpt vs claude for marketing,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A031,2,comparison,/jasper-vs-copy-ai-vs-writesonic/,jasper vs copy ai vs writesonic,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A032,2,alternatives,/jasper-alternatives/,jasper alternatives,260,22,8.85,yes,opportunity,,,,keep
+A033,2,alternatives,/copy-ai-alternatives/,copy ai alternatives,170,12,2.8,yes,opportunity,,,,keep
+A034,2,alternatives,/writesonic-alternatives/,writesonic alternatives,210,24,4.89,yes,opportunity,,,,keep
+A035,2,listicle,/best-free-ai-writing-tools/,free ai writing tools,720,78,2.48,yes,hard,,,,keep
+A036,2,listicle,/best-content-repurposing-tools-ai/,content repurposing tools ai,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A037,2,pricing-guide,/ai-content-tool-pricing/,ai content tool pricing,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A038,2,guide,/ai-content-workflow/,ai content workflow,50,36,9.93,yes,moderate,,,,keep
+A039,2,guide,/evaluate-ai-content-quality/,evaluate ai content quality,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A040,2,listicle,/best-ai-marketing-tools-for-agencies/,ai marketing tools for agencies,30,0,0,yes,weak,ai marketing tools,6600,53,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A041,3,pillar-listicle,/best-email-marketing-software/,best email marketing software,1900,19,42.89,yes,strong,,,,keep
+A042,3,listicle,/best-ecommerce-email-marketing-software/,best ecommerce email marketing software,20,0,0,yes,weak,ecommerce email marketing software,590,32,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A043,3,listicle,/best-cold-email-software/,best cold email software,320,34,19.4,yes,opportunity,,,,keep
+A044,3,listicle,/best-sales-engagement-platforms/,best sales engagement platforms,260,37,68.39,yes,moderate,,,,keep
+A045,3,listicle,/best-email-deliverability-tools/,email deliverability tools,590,35,22.14,yes,strong,,,,keep
+A046,3,listicle,/best-email-verification-tools/,email verification tools,880,66,5.24,yes,hard,,,,keep
+A047,3,listicle,/best-newsletter-platforms-for-b2b/,best newsletter platforms for b2b,,,,no,weak,newsletter platforms,1600,49,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A048,3,listicle,/best-lifecycle-email-automation-software/,lifecycle email automation software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A049,3,listicle,/best-transactional-email-services/,transactional email services,210,36,14.2,yes,moderate,,,,keep
+A050,3,listicle,/best-email-testing-tools/,email testing tools,590,35,7.44,yes,strong,,,,keep
+A051,3,comparison,/instantly-vs-smartlead/,instantly vs smartlead,210,19,16.99,yes,opportunity,,,,keep
+A052,3,alternatives,/mailchimp-alternatives/,mailchimp alternatives,2400,48,16.45,yes,strong,,,,keep
+A053,3,comparison,/hubspot-marketing-hub-vs-activecampaign/,hubspot marketing hub vs activecampaign,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A054,3,alternatives,/klaviyo-alternatives/,klaviyo alternatives,1000,26,41.89,yes,strong,,,,keep
+A055,3,comparison,/lemlist-vs-reply-io/,lemlist vs reply.io,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A056,3,listicle,/best-free-email-marketing-software/,free email marketing software,480,54,18.11,yes,moderate,,,,keep
+A057,3,pricing-guide,/cold-email-software-pricing/,cold email software pricing,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A058,3,guide,/choose-email-marketing-software/,choose email marketing software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A059,3,guide,/compliant-b2b-outreach-stack/,compliant b2b outreach stack,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A060,3,guide,/email-marketing-roi-and-deliverability/,email marketing roi and deliverability,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A061,4,pillar-listicle,/best-crm-software-for-small-business/,best crm software for small business,2400,54,22.02,yes,moderate,,,,keep
+A062,4,listicle,/best-crm-for-marketing-agencies/,best crm for marketing agencies,90,18,29.53,yes,moderate,,,,keep
+A063,4,listicle,/best-crm-for-b2b-saas/,best crm for b2b saas,40,35,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A064,4,listicle,/best-b2b-lead-generation-software/,best b2b lead generation software,110,46,0,yes,moderate,,,,keep
+A065,4,listicle,/best-b2b-contact-database-tools/,b2b contact database tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A066,4,listicle,/best-lead-enrichment-software/,lead enrichment software,50,29,73.5,yes,moderate,,,,keep
+A067,4,listicle,/best-lead-scoring-software/,lead scoring software,720,28,28.29,yes,strong,,,,keep
+A068,4,listicle,/best-sales-prospecting-tools-for-agencies/,sales prospecting tools for agencies,0,0,0,yes,weak,sales prospecting tools,1600,30,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A069,4,listicle,/best-linkedin-sales-prospecting-tools/,linkedin sales prospecting tools,10,0,0,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A070,4,listicle,/best-lead-routing-and-scheduling-software/,lead routing and scheduling software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A071,4,comparison,/hubspot-vs-salesforce/,hubspot vs salesforce,6600,48,13.6,yes,strong,,,,keep
+A072,4,alternatives,/pipedrive-alternatives/,pipedrive alternatives,880,24,42.14,yes,strong,,,,keep
+A073,4,alternatives,/apollo-alternatives/,apollo alternatives,720,22,19.65,yes,strong,,,,keep
+A074,4,alternatives,/zoominfo-alternatives/,zoominfo alternatives,880,24,29.61,yes,strong,,,,keep
+A075,4,comparison,/clay-vs-apollo/,clay vs apollo,170,16,19.51,yes,opportunity,,,,keep
+A076,4,listicle,/best-free-crm-software/,free crm software,6600,71,17.51,yes,hard,,,,keep
+A077,4,pricing-guide,/crm-pricing/,crm pricing,1900,52,11.24,yes,moderate,,,,keep
+A078,4,guide,/choose-crm-for-marketing-agency/,choose crm for marketing agency,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A079,4,guide,/b2b-lead-generation-stack/,b2b lead generation stack,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A080,4,guide,/lead-scoring-vs-lead-enrichment/,lead scoring vs lead enrichment,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A081,5,pillar-listicle,/best-marketing-automation-software/,best marketing automation software,720,50,39.72,yes,strong,,,,keep
+A082,5,listicle,/best-workflow-automation-tools-for-marketing-agencies/,workflow automation tools for marketing agencies,0,0,0,yes,weak,marketing workflow automation,390,37,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A083,5,listicle,/best-no-code-automation-platforms/,no code automation platforms,1000,28,16.69,yes,strong,,,,keep
+A084,5,listicle,/best-marketing-analytics-software/,marketing analytics software,720,46,20.32,yes,strong,,,,keep
+A085,5,listicle,/best-privacy-friendly-web-analytics-tools/,privacy friendly web analytics tools,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A086,5,listicle,/best-cro-tools-for-landing-pages/,cro tools for landing pages,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A087,5,listicle,/best-ab-testing-software/,ab testing software,720,46,30.93,yes,strong,,,,keep
+A088,5,listicle,/best-heatmap-session-replay-tools/,heatmap session replay tools,,,,no,weak,session replay tools,260,45,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A089,5,listicle,/best-social-media-management-tools-for-agencies/,social media management tools for agencies,480,54,20.9,yes,moderate,,,,keep
+A090,5,listicle,/best-social-media-analytics-tools/,social media analytics tools,3600,50,13.37,yes,strong,,,,keep
+A091,5,comparison,/zapier-vs-make-vs-n8n/,zapier vs make vs n8n,140,32,8.1,yes,opportunity,,,,keep
+A092,5,alternatives,/ga4-alternatives/,ga4 alternatives,170,25,22.1,yes,opportunity,,,,keep
+A093,5,alternatives,/hotjar-alternatives/,hotjar alternatives,390,27,25.31,yes,opportunity,,,,keep
+A094,5,alternatives,/hootsuite-alternatives/,hootsuite alternatives,1600,9,7.83,yes,strong,,,,keep
+A095,5,comparison,/activecampaign-vs-hubspot/,activecampaign vs hubspot,590,19,26.81,yes,strong,,,,keep
+A096,5,listicle,/best-free-marketing-automation-tools/,free marketing automation tools,170,50,19.87,yes,moderate,,,,keep
+A097,5,pricing-guide,/marketing-automation-pricing/,marketing automation pricing,170,29,9.86,yes,opportunity,,,,keep
+A098,5,guide,/marketing-stack-audit/,marketing stack audit,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A099,5,strategic-guide,/b2b-growth-stack/,b2b growth stack,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A100,5,guide,/marketing-attribution-tools-for-small-business/,marketing attribution tools for small business,,,,no,weak,marketing attribution software,1000,43,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A101,6,listicle,/best-content-marketing-platforms-for-b2b-teams/,content marketing platforms for B2B,,,,no,weak,content marketing platforms,590,38,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A102,6,listicle,/best-editorial-calendar-software-for-multi-author-teams/,editorial calendar software,260,27,7.21,yes,opportunity,,,,keep
+A103,6,listicle,/best-content-workflow-software-for-marketing-agencies/,content workflow software for agencies,10,0,0,yes,weak,content workflow software,590,35,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A104,6,listicle,/best-cms-platforms-for-growing-marketing-teams/,CMS platforms for marketing teams,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A105,6,listicle,/best-headless-cms-platforms-for-omnichannel-content/,headless CMS platforms,720,47,17.12,yes,strong,,,,keep
+A106,6,comparison,/wordpress-vs-webflow-for-marketing-led-websites/,WordPress vs Webflow,590,25,3.01,yes,strong,,,,keep
+A107,6,listicle,/best-digital-asset-management-software-for-marketing-teams/,digital asset management software for marketing,20,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A108,6,listicle,/best-brand-asset-management-platforms-for-distributed-teams/,brand asset management software,480,25,11.73,yes,opportunity,,,,keep
+A109,6,listicle,/best-content-approval-software-for-marketing-and-creative-teams/,content approval software,170,24,0,yes,opportunity,,,,keep
+A110,6,listicle,/best-content-brief-and-assignment-management-tools/,content brief management software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A111,6,listicle,/best-content-inventory-and-audit-software-for-large-sites/,content inventory audit software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A112,6,listicle,/best-content-localization-and-translation-management-software/,content localization software,40,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A113,6,comparison,/translation-management-system-vs-localization-platform/,translation management system vs localization platform,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A114,6,listicle,/best-content-distribution-and-syndication-platforms-for-b2b/,content distribution platforms for B2B,,,,no,weak,content distribution platforms,590,23,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A115,6,listicle,/best-corporate-blog-publishing-platforms-for-b2b-brands/,corporate blog publishing platforms B2B,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A116,6,listicle,/best-knowledge-base-software-for-marketing-operations/,knowledge base software for marketing teams,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A117,6,listicle,/best-content-governance-tools-for-distributed-marketing-teams/,content governance software,40,0,0,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A118,6,listicle,/best-digital-content-rights-and-usage-management-tools/,digital content rights management software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A119,6,listicle,/best-content-repurposing-workflow-platforms-for-marketing-teams/,content repurposing workflow software,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A120,6,guide,/how-to-build-a-content-operations-system-for-a-small-marketing-team/,content operations workflow,10,0,0,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A121,7,listicle,/best-ppc-management-software-for-agencies/,PPC management software for agencies,140,27,0,yes,opportunity,,,,keep
+A122,7,listicle,/best-google-ads-management-tools-for-multi-account-teams/,Google Ads management tools,70,36,0,yes,moderate,,,,keep
+A123,7,listicle,/best-paid-social-advertising-management-platforms/,paid social management software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A124,7,listicle,/best-cross-channel-paid-media-reporting-tools/,paid media reporting software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A125,7,listicle,/best-ad-creative-management-platforms-for-performance-teams/,ad creative management software,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A126,7,listicle,/best-ad-intelligence-tools-for-competitor-research/,ad intelligence tools,110,20,0,yes,opportunity,,,,keep
+A127,7,listicle,/best-competitor-ad-research-tools-for-agencies/,competitor ad research tools,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A128,7,listicle,/best-ppc-bid-management-and-automation-software/,PPC bid management software,50,10,0,yes,moderate,,,,keep
+A129,7,listicle,/best-ppc-budget-pacing-and-spend-forecasting-tools/,PPC budget pacing software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A130,7,listicle,/best-ad-fraud-detection-software-for-digital-advertisers/,ad fraud detection software,110,33,0,yes,opportunity,,,,keep
+A131,7,listicle,/best-call-tracking-software-for-paid-acquisition-campaigns/,call tracking software for PPC,,,,no,weak,call tracking software,2400,28,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A132,7,listicle,/best-landing-page-builders-for-paid-acquisition-campaigns/,landing page builders for paid ads,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A133,7,listicle,/best-ad-compliance-and-creative-approval-software/,advertising compliance software,40,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A134,7,listicle,/best-utm-governance-and-campaign-naming-tools/,UTM governance software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A135,7,comparison,/google-ads-editor-vs-third-party-ppc-management-tools/,Google Ads Editor alternatives,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A136,7,listicle,/best-meta-ads-reporting-tools-for-ecommerce-and-agencies/,Meta Ads reporting tools,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A137,7,listicle,/best-linkedin-ads-management-and-reporting-tools-for-b2b/,LinkedIn Ads management tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A138,7,listicle,/best-ppc-audit-tools-for-finding-wasted-ad-spend/,PPC audit tools,140,16,12.95,yes,opportunity,,,,keep
+A139,7,guide,/how-to-build-a-paid-media-measurement-plan-before-launch/,paid media measurement plan,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A140,7,guide,/how-to-run-a-monthly-paid-media-account-review-for-clients/,monthly PPC account review,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A141,8,listicle,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,ecommerce platforms for DTC brands,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A142,8,listicle,/best-shopify-apps-for-improving-store-conversion/,Shopify conversion apps,30,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A143,8,listicle,/best-ecommerce-personalization-software-for-product-discovery/,ecommerce personalization software,480,19,20.67,yes,opportunity,,,,keep
+A144,8,listicle,/best-product-recommendation-engines-for-online-stores/,product recommendation engines ecommerce,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A145,8,listicle,/best-product-feed-management-software-for-ecommerce/,product feed management software,140,13,0,yes,opportunity,,,,keep
+A146,8,listicle,/best-marketplace-management-software-for-multi-channel-sellers/,marketplace management software,90,11,14.51,yes,moderate,,,,keep
+A147,8,listicle,/best-ecommerce-customer-data-platforms-for-retention-teams/,ecommerce customer data platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A148,8,listicle,/best-sms-marketing-software-for-ecommerce-brands/,SMS marketing software for ecommerce,0,0,0,yes,weak,sms marketing software,1600,46,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A149,8,listicle,/best-ecommerce-loyalty-and-rewards-platforms/,ecommerce loyalty software,110,32,0,yes,opportunity,,,,keep
+A150,8,listicle,/best-referral-marketing-software-for-online-stores/,referral marketing software for ecommerce,,,,no,weak,referral marketing software,880,41,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A151,8,listicle,/best-subscription-commerce-software-for-recurring-revenue-brands/,subscription commerce software,10,0,15.29,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A152,8,listicle,/best-returns-and-exchanges-software-for-ecommerce-teams/,ecommerce returns management software,70,25,0,yes,moderate,,,,keep
+A153,8,listicle,/best-product-reviews-and-user-generated-content-platforms-for-ecommerce/,ecommerce product review UGC platforms,,,,no,weak,ugc platform,1000,32,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A154,8,listicle,/best-onsite-search-software-for-ecommerce-catalogs/,ecommerce onsite search software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A155,8,listicle,/best-abandoned-cart-recovery-platforms-for-ecommerce/,abandoned cart recovery software,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A156,8,listicle,/best-checkout-optimization-software-for-online-stores/,checkout optimization software ecommerce,,,,no,weak,checkout optimization,480,14,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A157,8,listicle,/best-order-management-software-for-growing-ecommerce-brands/,ecommerce order management software,720,21,20.6,yes,strong,,,,keep
+A158,8,listicle,/best-ecommerce-merchandising-analytics-tools/,ecommerce merchandising analytics software,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A159,8,alternatives,/shopify-alternatives-for-brands-requiring-more-store-control/,Shopify alternatives for ecommerce,0,0,0,yes,weak,shopify alternatives,3600,21,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A160,8,guide,/how-to-build-an-ecommerce-growth-stack-without-app-overload/,ecommerce growth stack,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A161,9,listicle,/best-customer-success-platforms-for-b2b-saas-teams/,customer success platforms,390,38,59.73,yes,moderate,,,,keep
+A162,9,listicle,/best-customer-onboarding-software-for-saas-companies/,customer onboarding software for SaaS,,,,no,weak,customer onboarding software,1000,36,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A163,9,listicle,/best-customer-education-platforms-for-saas-and-b2b-companies/,customer education platforms,170,32,43.05,yes,opportunity,,,,keep
+A164,9,listicle,/best-in-app-messaging-platforms-for-saas-product-teams/,in-app messaging platforms,,,,no,weak,in app messaging,480,30,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A165,9,listicle,/best-customer-feedback-management-software-for-b2b-teams/,customer feedback management software,320,30,0,yes,opportunity,,,,keep
+A166,9,listicle,/best-nps-software-for-customer-experience-teams/,NPS software,1300,29,55.42,yes,strong,,,,keep
+A167,9,listicle,/best-help-desk-software-for-growing-b2b-saas-companies/,help desk software for B2B SaaS,,,,no,weak,help desk software,5400,48,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A168,9,listicle,/best-live-chat-software-for-lead-generation-and-customer-support/,live chat software for businesses,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A169,9,listicle,/best-ai-customer-support-platforms-for-small-teams/,AI customer support software,590,60,29.74,yes,hard,,,,keep
+A170,9,listicle,/best-shared-inbox-software-for-customer-facing-teams/,shared inbox software,590,26,34.07,yes,strong,,,,keep
+A171,9,listicle,/best-chatbot-platforms-for-customer-support-workflows/,customer support chatbot platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A172,9,listicle,/best-customer-knowledge-base-and-self-service-portal-software/,customer knowledge base software,70,48,0,yes,moderate,,,,keep
+A173,9,listicle,/best-churn-prediction-software-for-subscription-businesses/,churn prediction software,210,17,0,yes,opportunity,,,,keep
+A174,9,listicle,/best-subscription-analytics-software-for-retention-and-revenue-teams/,subscription analytics software,50,12,0,yes,moderate,,,,keep
+A175,9,listicle,/best-customer-health-scoring-software-for-account-management/,customer health scoring software,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A176,9,listicle,/best-customer-community-platforms-for-saas-companies/,customer community platforms,20,0,31.93,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A177,9,listicle,/best-voice-of-customer-software-for-product-and-marketing-teams/,voice of customer software,1300,34,38.9,yes,strong,,,,keep
+A178,9,listicle,/best-customer-journey-analytics-platforms-for-lifecycle-teams/,customer journey analytics software,390,38,0,yes,moderate,,,,keep
+A179,9,comparison,/customer-support-suite-vs-shared-inbox-which-does-a-small-team-need/,help desk vs shared inbox,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A180,9,guide,/how-to-build-a-customer-retention-tech-stack-for-a-small-saas-team/,customer retention tech stack,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A181,10,listicle,/best-affiliate-marketing-platforms-for-saas-companies/,affiliate marketing platforms for SaaS,,,,no,weak,affiliate marketing platforms,3600,16,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A182,10,listicle,/best-affiliate-tracking-software-for-ecommerce-brands/,affiliate tracking software for ecommerce,,,,no,weak,affiliate tracking software,1300,40,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A183,10,listicle,/best-partner-relationship-management-software-for-b2b-companies/,partner relationship management software,720,31,25.36,yes,strong,,,,keep
+A184,10,listicle,/best-influencer-marketing-platforms-for-b2b-brands/,B2B influencer marketing platforms,10,0,23.46,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A185,10,listicle,/best-influencer-marketing-platforms-for-ecommerce-brands/,influencer marketing platforms for ecommerce,,,,no,weak,influencer marketing platforms,2900,44,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A186,10,listicle,/best-creator-marketplace-platforms-for-brand-partnerships/,creator marketplace platforms for brands,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A187,10,listicle,/best-ugc-creator-platforms-for-performance-marketing-teams/,UGC creator platforms,320,30,6.67,yes,opportunity,,,,keep
+A188,10,listicle,/best-social-listening-platforms-for-brand-and-competitor-research/,social listening platforms,1000,49,39.4,yes,strong,,,,keep
+A189,10,listicle,/best-brand-monitoring-tools-for-online-mentions-and-reputation/,brand monitoring software,390,41,58.72,yes,moderate,,,,keep
+A190,10,listicle,/best-referral-program-software-for-b2b-saas-products/,referral program software for SaaS,,,,no,weak,referral program software,720,38,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A191,10,listicle,/best-brand-ambassador-program-software-for-growing-companies/,brand ambassador software,140,20,37.87,yes,opportunity,,,,keep
+A192,10,listicle,/best-influencer-outreach-tools-for-agency-campaigns/,influencer outreach software,50,64,0,yes,hard,,,,keep
+A193,10,listicle,/best-affiliate-fraud-prevention-tools-for-partner-programs/,affiliate fraud prevention software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A194,10,listicle,/best-partner-sales-enablement-platforms-for-channel-teams/,partner sales enablement software,0,0,0,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A195,10,listicle,/best-partnership-attribution-software-for-multi-touch-partner-sales/,partnership attribution software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A196,10,listicle,/best-coupon-and-discount-attribution-tools-for-affiliate-programs/,coupon attribution software affiliate,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A197,10,listicle,/best-creator-link-in-bio-and-campaign-landing-page-tools/,creator link in bio tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A198,10,comparison,/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/,affiliate network vs affiliate software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A199,10,guide,/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/,B2B affiliate partner program,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A200,10,guide,/how-to-evaluate-influencer-campaign-roi-without-vanity-metrics/,influencer campaign ROI measurement,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A201,11,listicle,/best-website-builders-for-b2b-marketing-teams/,website builders for B2B marketing teams,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A202,11,listicle,/best-composable-cms-platforms-for-enterprise-marketing-teams/,composable CMS platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A203,11,listicle,/best-website-personalization-software-for-b2b-lead-generation/,website personalization software B2B,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A204,11,listicle,/best-landing-page-builders-for-saas-demo-and-trial-funnels/,landing page builders for SaaS,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A205,11,listicle,/best-landing-page-builders-for-marketing-agencies/,landing page software for agencies,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A206,11,listicle,/best-no-code-website-platforms-for-marketing-operations/,no code website platforms,30,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A207,11,alternatives,/webflow-alternatives-for-content-heavy-business-websites/,Webflow alternatives,590,22,4.89,yes,strong,,,,keep
+A208,11,alternatives,/wordpress-alternatives-for-marketing-teams-managing-many-sites/,WordPress alternatives for marketing teams,,,,no,weak,wordpress alternatives,720,43,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A209,11,listicle,/best-form-builders-for-b2b-lead-capture-and-qualification/,B2B lead capture form builders,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A210,11,listicle,/best-conversational-form-platforms-for-higher-intent-lead-capture/,conversational form software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A211,11,listicle,/best-pop-up-and-onsite-engagement-software-for-lead-capture/,onsite engagement pop up software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A212,11,listicle,/best-consent-and-preference-management-platforms-for-marketing-sites/,consent preference management platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A213,11,listicle,/best-website-accessibility-monitoring-tools-for-marketing-teams/,website accessibility monitoring tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A214,11,listicle,/best-website-performance-monitoring-tools-for-marketing-sites/,website performance monitoring software,50,33,0,yes,moderate,,,,keep
+A215,11,listicle,/best-website-change-monitoring-tools-for-seo-and-marketing-teams/,website change monitoring software,140,69,0,yes,hard,,,,keep
+A216,11,listicle,/best-cdn-and-web-security-platforms-for-marketing-websites/,CDN web security platforms for business websites,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A217,11,listicle,/best-website-migration-tools-for-seo-safe-platform-changes/,website migration tools SEO,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A218,11,listicle,/best-website-experimentation-platforms-for-marketing-teams/,website experimentation platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A219,11,comparison,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,website builder vs CMS,320,25,6.37,yes,opportunity,,,,keep
+A220,11,guide,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,website replatforming SEO checklist,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A221,12,listicle,/best-customer-data-platforms-for-b2b-marketing-teams/,B2B customer data platforms,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A222,12,listicle,/best-b2b-customer-data-platforms-for-account-based-marketing/,B2B customer data platforms for account based marketing,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A223,12,listicle,/best-reverse-etl-tools-for-activating-warehouse-data/,reverse ETL tools,480,28,38.41,yes,opportunity,,,,keep
+A224,12,listicle,/best-marketing-data-integration-platforms-for-lean-teams/,marketing data integration tools,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A225,12,listicle,/best-data-warehouse-platforms-for-small-marketing-analytics-teams/,data warehouse platforms for marketing analytics,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A226,12,listicle,/best-no-code-etl-tools-for-marketing-operations/,no code ETL tools for marketing,,,,no,weak,etl tools,3600,40,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A227,12,listicle,/best-crm-data-quality-and-deduplication-tools/,CRM data quality tools,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A228,12,listicle,/best-b2b-intent-data-platforms-for-account-prioritization/,B2B intent data platforms,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A229,12,listicle,/best-website-visitor-identification-tools-for-b2b-sales-teams/,website visitor identification software B2B,0,0,0,yes,weak,website visitor identification,720,28,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A230,12,listicle,/best-account-based-marketing-platforms-for-small-b2b-teams/,ABM platforms for small businesses,,,,no,weak,abm platforms,880,45,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A231,12,listicle,/best-account-based-advertising-platforms-for-b2b-marketers/,account based advertising platforms,90,33,0,yes,moderate,,,,keep
+A232,12,listicle,/best-sales-forecasting-software-for-growing-b2b-teams/,sales forecasting software,1300,35,29.77,yes,strong,,,,keep
+A233,12,listicle,/best-revenue-intelligence-platforms-for-b2b-sales-leadership/,revenue intelligence platforms,260,23,31.18,yes,opportunity,,,,keep
+A234,12,listicle,/best-conversation-intelligence-software-for-sales-coaching/,conversation intelligence software,1000,34,19.39,yes,strong,,,,keep
+A235,12,listicle,/best-sales-compensation-management-software-for-b2b-teams/,sales compensation management software,210,35,0,yes,opportunity,,,,keep
+A236,12,listicle,/best-sales-enablement-software-for-growing-b2b-companies/,sales enablement software for B2B,10,0,0,yes,weak,sales enablement software,1900,49,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A237,12,listicle,/best-digital-sales-room-software-for-complex-b2b-deals/,digital sales room software,320,28,44.68,yes,opportunity,,,,keep
+A238,12,listicle,/best-revenue-operations-analytics-tools-for-cross-functional-teams/,revenue operations analytics software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A239,12,comparison,/crm-data-enrichment-vs-intent-data-what-should-a-b2b-team-buy/,CRM enrichment vs intent data,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A240,12,guide,/how-to-design-a-revenue-operations-data-model-for-a-small-b2b-team/,revenue operations data model,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A241,13,listicle,/best-webinar-platforms-for-b2b-lead-generation/,webinar platforms for B2B lead generation,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A242,13,listicle,/best-virtual-event-platforms-for-b2b-marketing-teams/,virtual event platforms for B2B,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A243,13,listicle,/best-event-registration-software-for-business-conferences/,event registration software,1900,49,27.88,yes,strong,,,,keep
+A244,13,listicle,/best-hybrid-event-management-platforms-for-marketing-teams/,hybrid event management software,210,28,0,yes,opportunity,,,,keep
+A245,13,listicle,/best-webinar-automation-tools-for-always-on-lead-generation/,webinar automation software,30,38,14.57,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A246,13,listicle,/best-webinar-analytics-tools-for-engagement-and-pipeline-reporting/,webinar analytics software,20,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A247,13,listicle,/best-webinar-engagement-tools-for-polls-q-a-and-audience-interaction/,webinar engagement tools,70,25,0,yes,moderate,,,,keep
+A248,13,listicle,/best-on-demand-webinar-hosting-platforms-for-b2b-content/,on demand webinar hosting software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A249,13,listicle,/best-podcast-hosting-platforms-for-b2b-brands/,podcast hosting platforms for B2B,,,,no,weak,podcast hosting platforms,4400,21,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A250,13,listicle,/best-podcast-production-software-for-marketing-teams/,podcast production software,110,31,23.95,yes,opportunity,,,,keep
+A251,13,listicle,/best-podcast-guest-booking-platforms-for-b2b-founders/,podcast guest booking platforms,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A252,13,listicle,/best-online-course-platforms-for-b2b-lead-generation/,online course platforms for B2B lead generation,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A253,13,listicle,/best-online-community-platforms-for-b2b-brands-and-saas-companies/,B2B online community platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A254,13,alternatives,/best-customer-community-alternatives-for-growing-saas-companies/,customer community platform alternatives,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A255,13,listicle,/best-community-analytics-tools-for-measuring-member-engagement/,community analytics software,30,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A256,13,listicle,/best-event-networking-software-for-business-conferences/,event networking software,170,14,0,yes,opportunity,,,,keep
+A257,13,listicle,/best-event-lead-capture-apps-for-exhibitors-and-sponsors/,event lead capture apps,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A258,13,listicle,/best-event-marketing-automation-integrations-for-b2b-teams/,event marketing automation software integrations,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A259,13,guide,/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,webinar lead generation funnel,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A260,13,comparison,/content-syndication-vs-webinars-which-b2b-demand-channel-fits/,content syndication vs webinars,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A261,14,listicle,/best-project-management-software-for-digital-marketing-agencies/,project management software for marketing agencies,170,28,39.17,yes,opportunity,,,,keep
+A262,14,listicle,/best-client-portal-software-for-marketing-and-seo-agencies/,client portal software for agencies,40,12,13.55,yes,weak,client portal software,1900,32,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A263,14,listicle,/best-time-tracking-software-for-marketing-agencies/,time tracking software for marketing agencies,20,0,0,yes,weak,time tracking software,6600,52,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A264,14,listicle,/best-resource-planning-software-for-creative-and-marketing-agencies/,agency resource planning software,10,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A265,14,listicle,/best-creative-proofing-software-for-agency-client-approvals/,creative proofing software for agencies,20,0,0,yes,weak,creative proofing software,170,13,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A266,14,listicle,/best-proposal-software-for-marketing-and-seo-agencies/,proposal software for marketing agencies,40,0,0,yes,weak,proposal software,1900,45,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A267,14,listicle,/best-e-signature-software-for-agency-contracts-and-sows/,e signature software for agencies,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A268,14,listicle,/best-invoicing-software-for-freelancers-and-digital-agencies/,invoicing software for digital agencies,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A269,14,listicle,/best-retainer-billing-software-for-service-businesses/,retainer billing software,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A270,14,listicle,/best-agency-profitability-reporting-tools-for-owners/,agency profitability reporting software,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A271,14,listicle,/best-white-label-reporting-platforms-for-digital-agencies/,white label reporting platforms for agencies,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A272,14,listicle,/best-client-onboarding-software-for-digital-agencies/,client onboarding software for agencies,10,0,0,yes,weak,client onboarding software,880,27,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A273,14,listicle,/best-client-communication-platforms-for-agency-teams/,client communication software for agencies,,,,no,weak,client communication software,210,30,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A274,14,listicle,/best-task-management-software-for-marketing-operations-teams/,task management software for marketing operations,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A275,14,listicle,/best-sop-and-process-documentation-software-for-agencies/,SOP software for agencies,,,,no,weak,sop software,880,13,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A276,14,listicle,/best-password-management-tools-for-digital-agencies/,password managers for digital agencies,,,,no,weak,password managers,12100,32,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A277,14,listicle,/best-capacity-planning-software-for-small-service-agencies/,capacity planning software for agencies,70,12,0,yes,moderate,,,,keep
+A278,14,listicle,/best-freelancer-and-contractor-management-platforms-for-agencies/,freelancer management software for agencies,,,,no,weak,freelancer management software,170,18,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A279,14,listicle,/best-rfp-and-proposal-management-software-for-b2b-agencies/,RFP management software for agencies,,,,no,weak,rfp management software,390,21,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A280,14,guide,/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,agency operating stack,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A281,15,listicle,/best-product-analytics-software-for-saas-startups/,product analytics software for SaaS startups,,,,no,weak,product analytics tools,720,36,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A282,15,listicle,/best-feature-flag-management-platforms-for-saas-teams/,feature flag management platforms,10,0,0,yes,weak,feature flag tools,480,40,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A283,15,listicle,/best-product-experimentation-platforms-for-growth-teams/,product experimentation platforms,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A284,15,listicle,/best-digital-adoption-platforms-for-complex-saas-products/,digital adoption platforms for SaaS,,,,no,weak,digital adoption platforms,260,40,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A285,15,listicle,/best-product-tour-and-user-onboarding-software-for-saas/,product tour software,260,23,31.52,yes,opportunity,,,,keep
+A286,15,listicle,/best-user-behavior-analytics-tools-for-product-teams/,user behavior analytics tools product teams,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A287,15,listicle,/best-product-event-tracking-and-governance-platforms/,product event tracking governance,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A288,15,listicle,/best-customer-journey-analytics-tools-for-saas-product-teams/,customer journey analytics SaaS,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A289,15,listicle,/best-experiment-tracking-and-repository-platforms-for-product-teams/,product experiment tracking software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A290,15,listicle,/best-feature-adoption-analytics-tools-for-saas-companies/,feature adoption analytics software,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A291,15,listicle,/best-product-feedback-and-roadmap-voting-platforms/,product feedback and roadmap voting software,,,,no,weak,product feedback tools,210,19,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A292,15,listicle,/best-product-roadmap-prioritization-software-for-saas-teams/,product roadmap prioritization software,0,0,0,yes,weak,roadmap software,480,36,"retarget: recommended term becomes the primary keyword (title tag, meta, first 100 words); the current phrase stays as the page angle"
+A293,15,listicle,/best-beta-testing-and-product-feedback-collection-software/,beta testing software product feedback,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A294,15,listicle,/best-user-research-interview-platforms-for-product-teams/,user research interview platforms,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A295,15,listicle,/best-usability-testing-software-for-saas-product-teams/,usability testing software,260,44,14.5,yes,moderate,,,,keep
+A296,15,listicle,/best-remote-user-testing-platforms-for-website-and-product-research/,remote user testing platforms,30,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A297,15,listicle,/best-session-replay-tools-for-saas-product-analytics/,session replay tools for SaaS product teams,,,,no,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A298,15,pricing-guide,/product-analytics-pricing-explained-events-users-and-data-retention/,product analytics pricing,0,0,0,yes,weak,,,,keep as long-tail (head term is a different intent or already assigned to a sibling)
+A299,15,comparison,/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/,feature flags vs A/B testing,,,,no,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"
+A300,15,guide,/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/,product led growth stack,0,0,0,yes,weak,,,,"keep as long-tail (no viable head term found); low priority, or merge into a stronger sibling"

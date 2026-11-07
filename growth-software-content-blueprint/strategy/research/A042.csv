@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A042,Klaviyo (official pricing),https://www.klaviyo.com/pricing,official-pricing,2026-11-04,"Active-profile billing; SMS priced separately; flows, product feeds, predictive analytics",Needs verification,"v2 fetch blocked (session network denied vendor hosts; Firecrawl credits exhausted). No figures quoted"
+A042,Omnisend (official pricing),https://www.omnisend.com/pricing/,official-pricing,2026-11-04,"Contact tiers plus messaging usage; email, SMS, push; pre-built ecommerce workflows",Needs verification,Not fetched; no figures quoted
+A042,Shopify Email (official page),https://www.shopify.com/email-marketing,official-site,2026-11-04,"Built into Shopify admin; usage-based billing through Shopify",Needs verification,Not fetched; current product name/allowance to confirm
+A042,Drip (official pricing),https://www.drip.com/pricing,official-pricing,2026-11-04,"Contact-based pricing; store-event segmentation, pop-ups, workflows",Needs verification,Not fetched; SMS availability deliberately left as 'confirm'
+A042,Mailchimp (official pricing),https://mailchimp.com/pricing/marketing/,official-pricing,2026-11-04,"Contact tiers with send limits; store integrations, cart and purchase flows",Needs verification,"Not fetched. v1 draft stated Essentials from $13/mo; cut pending re-fetch"
+A042,Brevo (official pricing),https://www.brevo.com/pricing/,official-pricing,2026-11-04,"Email plans by send volume; SMS bought separately; WhatsApp and transactional",Needs verification,Not fetched
+A042,Attentive (official site),https://www.attentive.com/,official-site,2026-11-04,SMS-first; quote-based/sales-led,Needs verification,Not fetched
+A042,SMS separate consent requirement,,editorial-knowledge,2026-11-04,"General statement that SMS marketing generally needs separate explicit consent",Needs verification,Stated generally; no jurisdiction-specific rule given
+A042,Store-size scenarios (3k / 25k+6k SMS / 80k),,editorial-knowledge,2026-11-04,Hypothetical cost-driver scenarios,Needs verification,No vendor prices used
+A042,Specific prices and SMS rates,,editorial-knowledge,2026-11-04,Deliberately omitted,Not stated,Re-fetch official pricing before publication
+A042,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

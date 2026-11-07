@@ -1,0 +1,13 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A045,Google Postmaster Tools (official site),https://postmaster.google.com/,official-site,2026-11-04,"Free; domain verification; Gmail spam complaint, authentication and delivery error signals; compliance status",Needs verification,"v2 fetch blocked (session network denied hosts; Firecrawl credits exhausted). Compliance-status feature hedged as 'has been extending'"
+A045,Microsoft SNDS (official site),https://sendersupport.olc.protection.outlook.com/snds/,official-site,2026-11-04,"Free; IP-based Outlook.com data incl. complaint and trap indicators",Needs verification,Not fetched
+A045,dmarcian (official pricing),https://dmarcian.com/pricing/,official-pricing,2026-11-04,Subscription tiers; DMARC aggregate report processing,Needs verification,Not fetched; no figures quoted
+A045,EasyDMARC (official pricing),https://easydmarc.com/pricing,official-pricing,2026-11-04,"Subscription tiers; DMARC reporting plus SPF/DKIM/DMARC record tools",Needs verification,Not fetched
+A045,GlockApps (official pricing),https://glockapps.com/pricing/,official-pricing,2026-11-04,"Credit-based plans; seed placement tests by provider; authentication and blocklist checks",Needs verification,"Not fetched. Third-party search snippets gave conflicting prices; none used"
+A045,Validity Everest (official site),https://www.validity.com/everest/,official-site,2026-11-04,"Seed placement testing, reputation monitoring, analytics, validation; sales-led pricing",Needs verification,Not fetched
+A045,MxToolbox (official site),https://mxtoolbox.com/,official-site,2026-11-04,Free DNS/blocklist lookups; paid monitoring alerts,Needs verification,Not fetched
+A045,Mailgun Optimize (official site),https://www.mailgun.com/products/optimize/,official-site,2026-11-04,"Placement testing, reputation/blocklist monitoring, validation for Mailgun senders",Needs verification,Not fetched; URL path to confirm
+A045,Google email sender guidelines,https://support.google.com/a/answer/81126,official-docs,2026-11-04,Google describes authentication and unsubscribe expectations for senders,Needs verification,Not fetched; no thresholds quoted
+A045,"SPF, DKIM and DMARC explanations",,editorial-knowledge,2026-11-04,General technical context,Needs verification,No statistics
+A045,Specific prices and test allowances,,editorial-knowledge,2026-11-04,Deliberately omitted,Not stated,Re-fetch before publication
+A045,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

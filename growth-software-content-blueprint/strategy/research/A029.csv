@@ -1,0 +1,13 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A029,Claude Slides listed on Claude plans,https://claude.com/pricing,official-pricing,2026-11-04,"Pricing page lists 'Claude Design, Slides, Docs' on Free and a 'Claude Slides' row marked Yes for Free, Pro, Max and Ultra",Verified,"Fetched 2026-11-04"
+A029,Microsoft Copilot in PowerPoint,https://www.microsoft.com/en-us/microsoft-365/powerpoint,official-site,2026-11-04,"Drafts presentation from prompt or Word document, adds slides, summarizes; works with org templates; requires Copilot license with Microsoft 365",Needs verification,"microsoft.com returned bot-block page to drafting environment on 2026-11-04; qualitative only; no price stated"
+A029,Gemini in Google Slides,https://workspace.google.com/products/slides/,official-site,2026-11-04,"Generates slides, images and text inside Slides; availability depends on Workspace plan",Needs verification,"Google domains blocked from drafting environment"
+A029,Plus AI,https://www.plusdocs.com/,official-site,2026-11-04,"Add-in generating and rewriting slides in Google Slides and PowerPoint; per-user plans",Needs verification,"Domain blocked"
+A029,Beautiful.ai,https://www.beautiful.ai/,official-site,2026-11-04,"Smart templates, team themes, locked brand assets, AI generation; per-user and team plans",Needs verification,"Domain blocked"
+A029,Pitch,https://pitch.com/,official-site,2026-11-04,"Real-time collaboration, AI generation, templates, shareable links with engagement analytics",Needs verification,"Domain blocked; export fidelity not asserted"
+A029,Gamma,https://gamma.app/,official-site,2026-11-04,"Card-based decks, web pages and documents from prompts or imports; AI editing, themes, export; per-user with AI credits",Needs verification,"Domain blocked; aggregator price figures seen in search were not used"
+A029,Canva presentations,https://www.canva.com/,official-site,2026-11-04,"Magic Studio drafting and design, brand kits and shared templates; per-person paid plans",Needs verification,"Domain blocked"
+A029,Prezi,https://prezi.com/,official-site,2026-11-04,"Zooming non-linear presentations, AI-assisted creation, video mode with presenter beside content",Needs verification,"Domain blocked"
+A029,Export fidelity,,editorial-knowledge,2026-11-04,No fidelity results claimed,Not stated,"Experience marker placed here; two-deck test is a protocol not run by publisher"
+A029,Seat minimums and credit counts,,editorial-knowledge,2026-11-04,No figures stated,Not stated,"Cut because pricing pages could not be fetched"
+A029,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

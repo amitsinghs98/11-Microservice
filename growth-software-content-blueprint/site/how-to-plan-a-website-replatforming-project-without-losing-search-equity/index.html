@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Replatforming SEO Checklist: Plan the Move Safely | InsightToolz</title>
+  <meta name="description" content="A website replatforming SEO checklist: crawl baseline, URL mapping, redirects, canonical and sitemap QA, form and analytics tests, rollback rules and ownership.">
+  <link rel="canonical" href="https://insighttoolz.com/how-to-plan-a-website-replatforming-project-without-losing-search-equity/">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://insighttoolz.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Website Experience Software: Builders, CMS, Forms, Performance, and Conversion Infrastructure",
+          "item": "https://insighttoolz.com/website-experience/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Plan a Website Replatforming Project Without Losing Search Equity",
+          "item": "https://insighttoolz.com/how-to-plan-a-website-replatforming-project-without-losing-search-equity/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does traffic take to recover after a replatform?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no fixed timeline, and recovery isn't guaranteed. Expect search engines to need time to reprocess the moved URLs, and expect larger sites to take longer than small ones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we change URLs during a replatform?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only where there's a clear reason, such as removing parameters or fixing a broken structure. Every changed URL needs a redirect and adds risk, so keeping URLs stable is the lowest-risk option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we launch in sections or all at once?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Moving a site in sections can work, and it can make problems easier to isolate. A single launch is simpler to coordinate but harder to roll back."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who should own SEO after launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Name one owner for the 30 to 90 days after launch who triages redirect gaps, indexing issues and template bugs. Without a named owner, post-launch fixes get lost between the agency, developers and marketing."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A220" data-content-type="guide" data-cluster="11">
+      <header>
+        <p>Website experience and conversion infrastructure</p>
+        <h1>How to Plan a Website Replatforming Project Without Losing Search Equity</h1>
+        <p>This website replatforming SEO checklist turns a platform move into a sequence of owned, testable steps: baseline, map, build, verify, launch and monitor. It won't guarantee your traffic holds, but it removes common, avoidable errors behind post-launch drops.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#what-is-the-problem">Why do replatforming projects lose search equity?</a></li>
+          <li><a href="#who-is-involved">Who needs to be involved, and what does each person own?</a></li>
+          <li><a href="#what-are-the-steps">What are the steps in an SEO-safe replatforming plan?</a></li>
+          <li><a href="#checklist">What should the replatforming checklist include?</a></li>
+          <li><a href="#rollback-criteria">When should you roll back, and how do you decide in advance?</a></li>
+          <li><a href="#worked-example">What does this look like on a real-sized project?</a></li>
+          <li><a href="#first-hand-experience">What usually goes wrong that the plan doesn't catch?</a></li>
+          <li><a href="#which-tools-help">Which tools help at each step?</a></li>
+          <li><a href="#faq">What else do teams ask about replatforming and SEO?</a></li>
+          <li><a href="#next-steps">What should you do next?</a></li>
+        </ol>
+      </nav>
+
+      <section id="what-is-the-problem">
+        <h2>Why do replatforming projects lose search equity?</h2>
+        <p>Replatforms lose search equity when URLs change without redirects, templates drop content or metadata that ranked, or staging settings leak into production. These are planning failures more than technical ones, because nobody owned the inventory, the map or the QA.</p>
+        <p>Search equity is the accumulated value of your URLs: their links, their indexing history and the relevance signals in their content. A new platform resets none of that by itself, but every unmapped URL, broken internal link or missing canonical chips away at it. Treat the project as a content and URL migration that happens to involve a new platform, not the other way round. If the destination isn't settled yet, shortlist it with our <a href="/best-website-builders-for-b2b-marketing-teams/">guide to website builders for B2B marketing</a> before you start the inventory.</p>
+      </section>
+
+      <section id="who-is-involved">
+        <h2>Who needs to be involved, and what does each person own?</h2>
+        <p>You need a project owner, an SEO lead, a developer or platform partner, an analytics owner and a content owner, with one person accountable for the go or no-go decision. Write the owners down before any build work starts.</p>
+        <ul>
+          <li><strong>Project owner:</strong> timeline, scope, launch decision and rollback call.</li>
+          <li><strong>SEO lead:</strong> URL inventory, mapping, redirect rules, metadata and post-launch monitoring.</li>
+          <li><strong>Developer or platform partner:</strong> templates, redirects on the server or platform, performance and staging access.</li>
+          <li><strong>Analytics owner:</strong> tag migration, event and conversion verification, annotations.</li>
+          <li><strong>Content owner:</strong> what to keep, merge, rewrite or retire, and final content QA.</li>
+          <li><strong>Sales or RevOps:</strong> form-to-CRM routing and lead source fields.</li>
+        </ul>
+      </section>
+
+      <section id="what-are-the-steps">
+        <h2>What are the steps in an SEO-safe replatforming plan?</h2>
+        <p>Baseline the current site, build the URL map, rebuild and QA on staging, launch with redirect validation, then monitor and fix for at least 30 days. Each step has a decision point that should block the next if it fails.</p>
+        <h3>1. Capture the crawl baseline</h3>
+        <p>Crawl the live site and save the full export: URLs, status codes, titles, meta descriptions, H1s, canonicals, indexability, internal link counts and structured data. Export organic landing pages from analytics and Search Console, and backlinked URLs from your SEO tool. This is the reference for every later comparison.</p>
+        <h3>2. Build the URL inventory and page map</h3>
+        <p>Merge every URL source into one sheet and give each old URL a destination: same URL, new URL, merged page, or a deliberate removal. Google's site move guidance suggests <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">finding important URLs from sitemaps, traffic data and the Links report, and including images, video, JavaScript and CSS in the plan</a>. Decision point: no URL with traffic or backlinks goes unmapped.</p>
+        <h3>3. Define redirect rules</h3>
+        <p>Google recommends <a href="https://developers.google.com/search/docs/crawling-indexing/301-redirects" target="_blank" rel="noopener noreferrer">server-side permanent redirects, preferably HTTP 301 or 308</a>, from each old URL straight to its final destination. Avoid chains, and return 404 or 410 for content you're intentionally retiring rather than redirecting it to the homepage.</p>
+        <h3>4. Rebuild and QA on staging</h3>
+        <p>Block staging from indexing, then crawl it and compare it against the baseline. Check titles, meta descriptions, canonicals, hreflang, structured data, internal links and page weight on every key template. Decision point: template-level differences are fixed or consciously accepted.</p>
+        <h3>5. Test forms, CRM routing and analytics</h3>
+        <p>Submit every form and confirm the lead arrives in the CRM with the right owner, source and campaign fields. Verify tags and events using GA4's <a href="https://support.google.com/analytics/answer/7201382?hl=en" target="_blank" rel="noopener noreferrer">DebugView, which shows events from a debug device as they're logged</a>, and use the <a href="https://support.google.com/analytics/answer/9271392?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener noreferrer">Realtime report</a> to confirm live data on launch day.</p>
+        <h3>6. Launch and validate</h3>
+        <p>Remove staging blocks, publish redirects, and run the full old-URL list through a crawler. Screaming Frog's documentation shows how to <a href="https://www.screamingfrog.co.uk/seo-spider/tutorials/audit-redirects/" target="_blank" rel="noopener noreferrer">follow redirects to their final target in list mode and export chains and redirects to errors</a>. Submit the new XML sitemap; for a domain change, use Search Console's <a href="https://support.google.com/webmasters/answer/9370220?hl=en" target="_blank" rel="noopener noreferrer">Change of Address tool after redirects are live</a>.</p>
+        <h3>7. Monitor and assign ownership</h3>
+        <p>Review indexing, 404s, rankings and conversions daily for the first week and weekly for at least a month. Keep redirects in place long term, and check <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">Google's site move guidance</a> for its current recommendation on how long.</p>
+      </section>
+
+      <section id="checklist">
+        <h2>What should the replatforming checklist include?</h2>
+        <p>The checklist below assigns each task to a phase and an owner, with the evidence that proves it's done. Copy it into your project tracker and add rows for your own templates and integrations.</p>
+        <table>
+          <caption>Website replatforming SEO checklist: phase, task, owner and evidence</caption>
+          <thead>
+            <tr><th scope="col">Phase</th><th scope="col">Task</th><th scope="col">Owner</th><th scope="col">Evidence it's done</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Baseline</th><td>Full crawl and export of live site</td><td>SEO lead</td><td>Saved crawl file and export</td></tr>
+            <tr><th scope="row">Baseline</th><td>Organic landing pages and backlinked URLs exported</td><td>SEO lead</td><td>Merged URL inventory</td></tr>
+            <tr><th scope="row">Mapping</th><td>Every old URL has a destination or removal decision</td><td>SEO lead and content owner</td><td>Signed-off page map</td></tr>
+            <tr><th scope="row">Build</th><td>Templates keep titles, metadata, canonicals and structured data</td><td>Developer</td><td>Staging crawl comparison</td></tr>
+            <tr><th scope="row">Build</th><td>Staging blocked from indexing</td><td>Developer</td><td>Robots or authentication check</td></tr>
+            <tr><th scope="row">Pre-launch</th><td>Forms route to CRM with correct fields</td><td>RevOps</td><td>Test leads in CRM</td></tr>
+            <tr><th scope="row">Pre-launch</th><td>Tags, events and conversions fire</td><td>Analytics owner</td><td>DebugView screenshots</td></tr>
+            <tr><th scope="row">Launch</th><td>Redirects validated for full old-URL list</td><td>SEO lead</td><td>List-mode crawl with no chains or errors</td></tr>
+            <tr><th scope="row">Launch</th><td>Canonicals and XML sitemap point to new URLs</td><td>SEO lead</td><td>Sitemap submitted; canonical audit</td></tr>
+            <tr><th scope="row">Post-launch</th><td>Indexing, 404s and conversions reviewed</td><td>Named post-launch owner</td><td>Weekly report for 30+ days</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="rollback-criteria">
+        <h2>When should you roll back, and how do you decide in advance?</h2>
+        <p>Roll back when a launch breaks something you can't fix quickly, such as forms not reaching the CRM, a site-wide noindex, or redirects failing at scale. Agree those triggers and who makes the call before launch day, not during it.</p>
+        <ul>
+          <li>Lead forms or checkout fail and can't be fixed within an agreed window.</li>
+          <li>A sitewide noindex, robots block or canonical error reaches production.</li>
+          <li>A large share of mapped redirects return errors.</li>
+          <li>Analytics stops recording conversions entirely.</li>
+        </ul>
+        <p>Keep the old platform available and the DNS change reversible until you've passed the first days of monitoring. A rollback is only an option if it's been planned.</p>
+      </section>
+
+      <section id="worked-example">
+        <h2>What does this look like on a real-sized project?</h2>
+        <p>Here's a hypothetical example for illustration only: a 1,200-page B2B site moving from WordPress to a hosted builder, keeping its domain. The team keeps most URLs, merges a set of thin tag and category archives, and redirects old blog paths to a new structure.</p>
+        <p>In this scenario, the SEO lead builds the inventory from the crawl, Search Console and backlink exports, then maps every URL. The developer rebuilds five templates, and a staging crawl shows one template missing canonical tags, which is fixed before launch. On launch day the full old-URL list is crawled in list mode, a small set of chains is flattened, and a test lead from each form is confirmed in the CRM. The post-launch owner reviews indexing and 404s weekly for six weeks. The numbers are illustrative; your page counts and timeline will differ.</p>
+      </section>
+
+      <section id="first-hand-experience">
+        <h2>What usually goes wrong that the plan doesn't catch?</h2>
+        <p>Based on documented guidance, the hardest problems are the ones outside the URL map: content edited during the build, tracking tied to old page structures, and integrations nobody listed. A content freeze and an integration inventory reduce that risk, but they don't remove it.</p>
+        <p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+      </section>
+
+      <section id="which-tools-help">
+        <h2>Which tools help at each step?</h2>
+        <p>A crawler does most of the work from baseline to launch validation, Search Console and analytics cover monitoring, and a change monitor catches regressions after launch. Choose the platform itself before any of this.</p>
+        <ul>
+          <li><strong>Crawling, mapping and redirect checks:</strong> see <a href="/best-website-migration-tools-for-seo-safe-platform-changes/">website migration tools for SEO-safe platform changes</a> and <a href="/best-technical-seo-audit-tools/">technical SEO audit tools for large sites</a>.</li>
+          <li><strong>Choosing the destination platform:</strong> compare <a href="/best-cms-platforms-for-growing-marketing-teams/">CMS platforms for growing teams</a>, or weigh <a href="/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/">a website builder against a CMS</a>.</li>
+          <li><strong>Speed after launch:</strong> <a href="/best-website-performance-monitoring-tools-for-marketing-sites/">performance monitoring tools for marketing sites</a>.</li>
+          <li><strong>Rankings during recovery:</strong> rank tracking software for multi-client SEO.</li>
+        </ul>
+      </section>
+
+      <section id="faq">
+        <h2>What else do teams ask about replatforming and SEO?</h2>
+        <p>These questions tend to surface late in a project, when they're hardest to fix. Answer them during planning instead.</p>
+        <h3>How long does traffic take to recover after a replatform?</h3>
+        <p>There's no fixed timeline, and recovery isn't guaranteed. Expect search engines to need time to reprocess the moved URLs, and expect larger sites to take longer than small ones.</p>
+        <h3>Should we change URLs during a replatform?</h3>
+        <p>Only where there's a clear reason, such as removing parameters or fixing a broken structure. Every changed URL needs a redirect and adds risk, so keeping URLs stable is the lowest-risk option.</p>
+        <h3>Should we launch in sections or all at once?</h3>
+        <p>Moving a site in sections can work, and it can make problems easier to isolate. A single launch is simpler to coordinate but harder to roll back.</p>
+        <h3>Who should own SEO after launch?</h3>
+        <p>Name one owner for the 30 to 90 days after launch who triages redirect gaps, indexing issues and template bugs. Without a named owner, post-launch fixes get lost between the agency, developers and marketing.</p>
+      </section>
+
+      <section id="next-steps">
+        <h2>What should you do next?</h2>
+        <p>Name the owners, run the baseline crawl, and start the URL inventory before you sign off on designs. Those three steps make every later decision easier and every error easier to spot.</p>
+        <p>Then work through the checklist above with your platform partner, agree the rollback triggers, and book the post-launch review dates in the calendar. For related guides, browse the <a href="/website-experience/">website experience software hub</a>.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

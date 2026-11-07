@@ -1,0 +1,15 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A050,Source retrieval blocked during drafting,,editorial-knowledge,2026-11-04,"Vendor domains refused by session network policy and Firecrawl credits exhausted; no official page could be fetched",Not stated,"All prices, test credits and supported-client counts cut; re-fetch before publication"
+A050,Litmus,https://www.litmus.com/,official-site,2026-11-04,"Previews across clients and devices; pre-send checklist for links, images, accessibility; spam testing; proofing; ESP integrations",Needs verification,
+A050,Litmus pricing model,https://www.litmus.com/pricing,official-pricing,2026-11-04,Tiered plans by features and users,Needs verification,
+A050,Email on Acid,https://www.emailonacid.com/,official-site,2026-11-04,"Part of Sinch; client previews; campaign precheck for links, alt text, accessibility, spam",Needs verification,
+A050,Email on Acid pricing model,https://www.emailonacid.com/pricing/,official-pricing,2026-11-04,Tiered plans,Needs verification,
+A050,Parcel,https://parcel.io/,official-site,2026-11-04,"Email code editor with live previews, accessibility checks, components, client previews; free and paid tiers",Needs verification,
+A050,Mailtrap,https://mailtrap.io/,official-site,2026-11-04,"Sandbox inbox capturing dev/staging email; HTML check; spam analysis; separate sending product",Needs verification,
+A050,Mailtrap pricing model,https://mailtrap.io/pricing/,official-pricing,2026-11-04,Free and paid tiers,Needs verification,
+A050,Mailosaur,https://mailosaur.com/,official-site,2026-11-04,"Test email addresses and SMS numbers for automated tests; libraries for Cypress, Playwright, Selenium",Needs verification,
+A050,Mailosaur pricing model,https://mailosaur.com/pricing,official-pricing,2026-11-04,Tiered plans,Needs verification,
+A050,GlockApps,https://glockapps.com/,official-site,2026-11-04,"Seed-based inbox placement tests, spam filter checks, DMARC reporting",Needs verification,
+A050,GlockApps pricing model,https://glockapps.com/pricing/,official-pricing,2026-11-04,Credits or plans,Needs verification,
+A050,"Preview limits, pre-send checklist and accessibility basics",,editorial-knowledge,2026-11-04,General practice; no statistics,Needs verification,
+A050,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+H01,Hub scope and directory descriptions,,editorial-knowledge,2026-11-04,"Category boundaries and one-to-two-sentence summaries of linked articles, drawn from url-manifest.json angles and briefs",Not stated,"Navigation hub: no product prices, plan limits or feature claims made; product facts live on the linked articles with their own sources"
+H01,Product-specific claims,,editorial-knowledge,2026-11-04,None made; products referenced only by category or by linked article title,Not stated,"No vendor fetch required, none attempted"
+H01,Search Console as Google's first-party search performance data,,editorial-knowledge,2026-11-05,Reworded from 'the only first-party record' to 'Google's own first-party data',Needs verification,Fact-check: general statement with no inline source; the absolute 'only' was removed
+H01,'Most products do two or three of these well',,editorial-knowledge,2026-11-05,Unsourced generalization made qualitative,Not stated,Fact-check: removed
+H01,'Most common switching cost' (rank history) in FAQ,,editorial-knowledge,2026-11-05,Unsourced superlative removed from visible FAQ and JSON-LD; now 'one of the hardest things to rebuild',Not stated,Fact-check: FAQ text and JSON-LD kept identical
+H01,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

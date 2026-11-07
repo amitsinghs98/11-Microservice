@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A100,Google Analytics 4 attribution settings: data-driven and last-click; rule-based models retired,https://support.google.com/analytics/,official-docs,2026-11-04,,Needs verification,Stated from prior knowledge with 'at the time of writing' and 'check the current list'
+A100,HubSpot Marketing Hub: multi-touch revenue attribution in higher editions,https://www.hubspot.com/products/marketing,official-site,2026-11-04,,Needs verification,"Vendor host not reachable from this session (network); positioning stated cautiously, no figures"
+A100,Salesforce campaign influence reporting,https://www.salesforce.com/,official-site,2026-11-04,,Needs verification,"Vendor host not reachable from this session (network); positioning stated cautiously, no figures"
+A100,"Dreamdata: B2B revenue attribution, account-level",https://dreamdata.io/,official-site,2026-11-04,,Needs verification,"Vendor host not reachable from this session (network); positioning stated cautiously, no figures"
+A100,"HockeyStack: B2B revenue attribution, account-level",https://www.hockeystack.com/,official-site,2026-11-04,,Needs verification,"Vendor host not reachable from this session (network); positioning stated cautiously, no figures"
+A100,Ruler Analytics: links form fills and calls to CRM revenue,https://www.ruleranalytics.com/,official-site,2026-11-04,,Needs verification,"Vendor host not reachable from this session (network); positioning stated cautiously, no figures"
+A100,Ad platform lift studies exist for incrementality,,editorial-knowledge,2026-11-04,"General statement, no vendor feature named",Needs verification,
+A100,"Attribution model definitions, dark social, triangulation method",,editorial-knowledge,2026-11-04,"General explanation, no statistics",Not stated,"No product claim; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A100,Sample buyer journey,,editorial-knowledge,2026-11-04,Hypothetical,Not stated,"Illustrative only; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A100,Prices for all attribution tools,,editorial-knowledge,2026-11-04,,Not stated,No prices given; none fetched
+A100,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,4 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+H04,Navigation hub: no product price/limit/feature claims,,editorial-knowledge,2026-11-04,"No vendor price, limit, feature or statistic claims on the page",Needs verification,"Fact-check 2026-11-05: no inline external sources and no product claims found; article descriptions match manifest angle/brief fields; nothing fetched, so nothing marked Verified"
+H04,Category boundaries and buyer criteria,,editorial-knowledge,2026-11-04,General editorial guidance with no statistics,Needs verification,Qualitative statements kept general; no vendor-specific facts; fact-check 2026-11-05 found no unsourced numbers
+H04,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zapier vs Make vs n8n: Tasks, Credits and Self-Hosting | InsightToolz</title>
+  <meta name="description" content="Zapier vs Make vs n8n on one lead-routing and one content workflow: build effort, error handling, self-hosting and modelled cost at three monthly volumes.">
+  <link rel="canonical" href="https://insighttoolz.com/zapier-vs-make-vs-n8n/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://insighttoolz.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Marketing Automation and Analytics Software: Workflows, Measurement, CRO, and Distribution",
+            "item": "https://insighttoolz.com/automation-analytics/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Zapier vs Make vs n8n: Workflow Automation Compared",
+            "item": "https://insighttoolz.com/zapier-vs-make-vs-n8n/"
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is n8n cheaper than Zapier?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually per run, especially for long workflows, because n8n counts one execution per run while Zapier counts each successful action. For a two-step automation the gap is small, and self-hosting adds labour costs that never appear on an invoice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Make count the trigger as a credit?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Make's pricing FAQ says reading data from an app or webhook counts, while routers and error-handler modules don't. Check the execution history of your own scenario to see exactly what each run consumes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can a non-technical marketer use n8n?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For simple workflows, yes. Branching on nested data and writing expressions takes more technical comfort than Zapier asks for, so budget for training or a technical owner."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which of the three has the most integrations?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zapier's pricing page cites more than 9,000 apps and Make's cites more than 3,500. n8n relies more on its HTTP Request node for apps that don't have a dedicated node."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should an agency run client automations in one account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Only if access is separated cleanly. Check each platform's team, folder and project permissions so that one client's credentials and logs aren't visible to another client's builders."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A091" data-content-type="comparison" data-cluster="5">
+      <header>
+        <p>Marketing automation and analytics</p>
+        <h1>Zapier vs Make vs n8n: Workflow Automation Compared</h1>
+        <p>In the Zapier vs Make vs n8n decision, the billing unit matters more than the feature list: Zapier charges per task, Make per credit and n8n per whole workflow run. Zapier suits marketers who build their own automations, Make suits teams that want a visual canvas at a lower unit cost, and n8n suits teams with a technical owner who will run long workflows or self-host.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#which-should-you-choose">Which should you choose: Zapier, Make or n8n?</a></li>
+          <li><a href="#what-we-checked">What evidence is this comparison based on?</a></li>
+          <li><a href="#positioning">How is each platform positioned?</a></li>
+          <li><a href="#side-by-side">How do they compare side by side?</a></li>
+          <li><a href="#same-two-workflows">How hard is the same workflow to build on each?</a></li>
+          <li><a href="#errors-and-data">Which handles errors and data more safely?</a></li>
+          <li><a href="#cost-at-three-volumes">What does each cost at three monthly volumes?</a></li>
+          <li><a href="#self-hosting">When does self-hosting shift work to you?</a></li>
+          <li><a href="#first-hand-experience">Where does each platform fall short?</a></li>
+          <li><a href="#switching">How hard is it to switch between them?</a></li>
+          <li><a href="#faq">What else do buyers ask?</a></li>
+          <li><a href="#verdict">What's the verdict?</a></li>
+        </ol>
+      </nav>
+
+      <section id="which-should-you-choose">
+        <h2>Which should you choose: Zapier, Make or n8n?</h2>
+        <p>Choose Zapier when the people building automations are marketers, not engineers, and you need a connector for a niche app. Choose Make when branching logic and per-unit cost both matter, and choose n8n when a technical owner runs long, multi-step workflows or needs to control where data lives.</p>
+        <ul>
+          <li><strong>Zapier:</strong> a good fit for small marketing teams that value setup speed and the widest connector catalogue over the lowest unit price.</li>
+          <li><strong>Make:</strong> a good fit for marketing ops and agencies that will learn a canvas with routers, iterators and explicit error routes.</li>
+          <li><strong>n8n:</strong> a good fit for B2B SaaS and RevOps teams comfortable with JSON, code steps and APIs, especially at high run volumes.</li>
+        </ul>
+        <p>None of the three wins on every axis. In our editorial assessment, the cheapest tool on paper can turn out to be the most expensive once you count who maintains it.</p>
+      </section>
+
+      <section id="what-we-checked">
+        <h2>What evidence is this comparison based on?</h2>
+        <p>The figures on this page come from the official pricing pages of all three vendors, checked on 4 November 2026. The two workflows are modelled from each vendor's published billing rules; nobody built and timed them in a live account.</p>
+        <p>The sources are <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">Zapier's pricing page</a>, <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">Make's pricing page</a> and <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">n8n's pricing page</a>. All three change packaging regularly, so confirm the tier you need on the day you buy.</p>
+        <p>This comparison sits in our <a href="/automation-analytics/">marketing automation and analytics hub</a>. If you haven't yet decided between a connector platform and a marketing automation suite with built-in workflows, start with our <a href="/best-marketing-automation-software/">shortlist of marketing automation software for small teams</a>.</p>
+      </section>
+
+      <section id="positioning">
+        <h2>How is each platform positioned?</h2>
+        <p>Zapier is connector-first, Make is canvas-first and n8n is developer-first. That positioning shows up directly in what each one bills for.</p>
+        <p><strong>Zapier</strong> builds automations as a linear list of steps, with Filters and Paths for branching. Its pricing page <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">cites more than 9,000 app integrations</a> (checked 4 November 2026), and it bills by task, meaning each successful action.</p>
+        <p><strong>Make</strong> draws scenarios as connected modules on a canvas, with routers, iterators, aggregators and dedicated error-handler modules. Its pricing page <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">lists 3,500+ apps and bills in credits</a> (checked 4 November 2026), and most module actions use one credit.</p>
+        <p><strong>n8n</strong> offers a hosted cloud service and a self-hosted Community Edition. Its pricing page <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">counts one full workflow run as a single execution, however many steps it contains</a> (checked 4 November 2026). That is the biggest structural difference in this comparison.</p>
+      </section>
+
+      <section id="side-by-side">
+        <h2>How do they compare side by side?</h2>
+        <p>The table sets out the billing unit, entry pricing, collaboration limits and hosting options as each vendor publishes them. Read the billing-unit row first, because it decides how every other number scales.</p>
+        <table>
+          <caption>Zapier, Make and n8n on criteria taken from official pricing pages (checked 4 November 2026)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Criterion</th>
+              <th scope="col">Zapier</th>
+              <th scope="col">Make</th>
+              <th scope="col">n8n</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Best for</th>
+              <td>Non-technical marketers who need niche connectors</td>
+              <td>Ops teams that want visual branching at lower unit cost</td>
+              <td>Technical owners running long or high-volume workflows</td>
+            </tr>
+            <tr>
+              <th scope="row">Billing unit</th>
+              <td>Tasks (each successful action)</td>
+              <td>Credits (most module actions use 1)</td>
+              <td>Executions (one full workflow run)</td>
+            </tr>
+            <tr>
+              <th scope="row">Free option</th>
+              <td>Free plan: 100 tasks a month, two-step Zaps</td>
+              <td>Free plan: 1,000 credits a month, 2 active scenarios</td>
+              <td>Self-hosted Community Edition</td>
+            </tr>
+            <tr>
+              <th scope="row">Entry paid plan as listed</th>
+              <td>Professional from $19.99 a month</td>
+              <td>Core $9 a month at the 10,000-credit tier</td>
+              <td>Starter $20 a month billed annually, 2,500 executions</td>
+            </tr>
+            <tr>
+              <th scope="row">One material limit</th>
+              <td>Free and Professional are single-user; Team plan needed for collaboration</td>
+              <td>Credits expire at the end of each term</td>
+              <td>Forum support only below Enterprise on cloud plans</td>
+            </tr>
+            <tr>
+              <th scope="row">Self-hosting</th>
+              <td>No</td>
+              <td>No</td>
+              <td>Yes: Community Edition, Business and Enterprise</td>
+            </tr>
+            <tr>
+              <th scope="row">Official pricing</th>
+              <td><a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">zapier.com/pricing</a></td>
+              <td><a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">make.com/en/pricing</a></td>
+              <td><a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">n8n.io/pricing</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Zapier's page also lists a <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">Team plan from $69 a month with 25 users</a>, while Make's page <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">allows unlimited users on all plans</a> (both checked 4 November 2026). If three people will build automations, that difference alone can outweigh the unit-price comparison.</p>
+      </section>
+
+      <section id="same-two-workflows">
+        <h2>How hard is the same workflow to build on each?</h2>
+        <p>A simple content notification takes minutes on all three, so the differences only appear in branching workflows such as lead routing. Zapier is quickest to start, Make is easiest to read once branches multiply, and n8n is the most flexible but expects comfort with data structures.</p>
+        <p>Both workflows below are hypothetical but typical of a small B2B marketing team. They are the kind of automation covered in our roundup of <a href="/best-workflow-automation-tools-for-marketing-agencies/">workflow automation tools for marketing agencies</a>.</p>
+        <h3>Workflow 1: lead routing</h3>
+        <p>A demo-request form fires a webhook. The workflow pulls company data from an enrichment service, finds or creates the contact in the CRM, assigns an owner across three regions, and posts a Slack alert to the right rep.</p>
+        <ul>
+          <li><strong>Zapier:</strong> a webhook trigger, one enrichment action, Paths for the three regions, then CRM and Slack actions inside each path. It's quick to build, but each path repeats its CRM and Slack steps, so a single field change means editing three places.</li>
+          <li><strong>Make:</strong> a webhook module, an HTTP enrichment call, a router with three filtered routes, and the downstream modules. The canvas shows the whole branch structure at once, which makes later edits easier to reason about.</li>
+          <li><strong>n8n:</strong> a Webhook node, an HTTP Request node, a Switch node, then CRM and Slack nodes. A Code node can replace the Switch if the routing table grows, but whoever maintains it needs to be comfortable with expressions and JSON items.</li>
+        </ul>
+        <h3>Workflow 2: content notification</h3>
+        <p>When a blog post is published, the workflow posts its title and URL to Slack and adds it to a newsletter draft queue. This low-complexity, high-frequency job pairs naturally with an <a href="/ai-content-workflow/">AI-assisted content workflow that keeps human review steps</a>.</p>
+        <p>The effort is similar everywhere. The cost isn't: two Zapier tasks per post, roughly three Make credits because the trigger module counts, and one n8n execution.</p>
+        <h3>Maintenance over twelve months</h3>
+        <p>In our editorial assessment, maintenance cost follows two things: how visible the logic is, and who can fix a broken connector. Zapier's linear editor is the easiest for a non-technical marketer to read. Make's canvas is the easiest to debug once branches multiply. n8n gives a builder the most power, but a workflow written by one technical person can become a single point of failure.</p>
+      </section>
+
+      <section id="errors-and-data">
+        <h2>Which handles errors and data more safely?</h2>
+        <p>Make gives you the most explicit error routing, n8n gives you error workflows plus control over where data is stored, and Zapier gives you the simplest recovery tools. For lead routing, where a dropped lead is a lost meeting, that matters more than build speed.</p>
+        <ul>
+          <li><strong>Zapier</strong> <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">lists autoreplay, custom error notifications and version history on paid plans</a>, and its pricing FAQ says a failed action doesn't count against your task limit (checked 4 November 2026).</li>
+          <li><strong>Make</strong> offers error-handler modules such as Rollback, Break, Resume, Commit and Ignore, which <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">its FAQ says don't consume credits</a>. It keeps execution logs for 7 days on Free and 30 days on paid plans (checked 4 November 2026).</li>
+          <li><strong>n8n</strong> <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">lists retries, error workflows and execution logging on its cloud plans</a>, with log retention of 7 days on Starter and 30 days on Pro (checked 4 November 2026).</li>
+        </ul>
+        <p>On data location, Make's pricing page lists <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">AWS hosting in the EU or North America</a>, and n8n's says <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">its cloud data is stored in Frankfurt</a> (both checked 4 November 2026). A self-hosted n8n instance keeps data wherever you deploy it. For Zapier, read its security documentation on residency before you route personal data through it.</p>
+      </section>
+
+      <section id="cost-at-three-volumes">
+        <h2>What does each cost at three monthly volumes?</h2>
+        <p>n8n uses by far the fewest billable units at every volume, because a whole run counts once. Zapier and Make use a similar number of units, but Make's listed entry price per unit is lower, and the gap between all three widens as each workflow gains steps.</p>
+        <p>Assumptions: lead routing uses 4 Zapier tasks per run (Zapier's pricing FAQ says triggers, Filters and Paths don't use tasks), about 5 Make credits (the webhook module counts and the router doesn't), and 1 n8n execution. The content workflow uses 2 tasks, about 3 credits or 1 execution per post. Enrichment-vendor fees are excluded.</p>
+        <ul>
+          <li><strong>Low (500 leads, 40 posts a month):</strong> 2,080 Zapier tasks, 2,620 Make credits, 540 n8n executions.</li>
+          <li><strong>Mid (2,500 leads, 150 posts):</strong> 10,300 tasks, 12,950 credits, 2,650 executions.</li>
+          <li><strong>High (10,000 leads, 400 posts):</strong> 40,800 tasks, 51,200 credits, 10,400 executions.</li>
+        </ul>
+        <p>Here's how those volumes map to the plans published on 4 November 2026:</p>
+        <ul>
+          <li><strong>Zapier:</strong> the Free plan's 100 tasks and two-step limit rule it out at every volume. The low volume sits just above the <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">2,000-task Professional tier</a>, the mid volume needs the 20,000-task tier and the high volume needs the 50,000-task tier (checked 4 November 2026). Zapier prices each tier through a selector, so check the exact figure for your tier and billing period.</li>
+          <li><strong>Make:</strong> the low volume fits inside the 10,000-credit tier, which the page prices at <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">$9 (Core), $16 (Pro) or $29 (Teams) a month</a> (checked 4 November 2026). Mid and high volumes need a larger credit tier. The page marks these plans "Save 15%", so confirm whether the price shown assumes annual billing.</li>
+          <li><strong>n8n cloud:</strong> the low volume fits <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">Starter (2,500 executions, $20 a month billed annually)</a>. The mid volume needs Pro (10,000 executions, $50 a month billed annually), and the high volume just exceeds that allowance (checked 4 November 2026). Beyond that, the options are a larger Pro size, the Business plan or the free Community Edition on your own server.</li>
+        </ul>
+        <p>The lesson is the pattern, not the totals. Every extra step per run strengthens n8n's per-execution model: a three-step workflow narrows the gap a lot, while a fifteen-step enrichment chain widens it. Our <a href="/marketing-automation-pricing/">guide to marketing automation pricing by contacts, tasks and seats</a> shows how these units interact once an email platform joins the stack.</p>
+      </section>
+
+      <section id="self-hosting">
+        <h2>When does self-hosting shift work to you?</h2>
+        <p>Self-hosting n8n replaces a vendor bill with operator work: servers, updates, backups, monitoring and HTTPS for webhooks. It pays off only when someone already owns infrastructure or data residency rules leave no alternative.</p>
+        <p>The Community Edition carries no subscription fee, which makes it look like the obvious answer at high volume. Someone still has to provision the server and database, apply updates, back up workflows and credentials, watch disk usage from saved executions, and keep webhooks reachable.</p>
+        <p>n8n's pricing page also notes that <a href="https://n8n.io/pricing/" target="_blank" rel="noopener noreferrer">Business and Enterprise licence keys check in with its licence server daily and report production execution counts, and that telemetry is on by default for self-hosted instances</a> unless you turn it off (checked 4 November 2026). Read <a href="https://docs.n8n.io/hosting/" target="_blank" rel="noopener noreferrer">n8n's hosting documentation</a> before you commit.</p>
+        <p>Consider another option if nobody on the team owns servers. A silent outage in lead routing costs more than a subscription.</p>
+      </section>
+
+      <section id="first-hand-experience">
+        <h2>Where does each platform fall short?</h2>
+        <p>Each platform's published limits point to a different weak spot: Zapier's cost climbs with step count, Make's credits are hard to forecast for loops, and n8n depends on technical ownership. How those limits feel in daily agency or in-house use is not something the pricing pages can tell you.</p>
+        <p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+        <ul>
+          <li><strong>Zapier:</strong> unit cost rises fastest with step count. Its pricing page lists <a href="https://zapier.com/pricing" target="_blank" rel="noopener noreferrer">included code runtime of 1 second per step on Free and 30 seconds on Professional and Team</a> (checked 4 November 2026), which limits heavier code steps. Skip it if your workflows routinely run ten or more actions at volume.</li>
+          <li><strong>Make:</strong> the pricing page says <a href="https://www.make.com/en/pricing" target="_blank" rel="noopener noreferrer">Code app steps cost 2 credits per second and aren't available on Free</a> (checked 4 November 2026). Credit use is harder to predict for scenarios that loop over many bundles. Skip it if nobody will learn the canvas properly.</li>
+          <li><strong>n8n:</strong> fewer prebuilt connectors than Zapier means more HTTP Request nodes that you maintain yourself. Its licence isn't a conventional open-source licence, so review the terms on its site before embedding it in a client product. Skip it if no one on the team reads JSON comfortably.</li>
+        </ul>
+      </section>
+
+      <section id="switching">
+        <h2>How hard is it to switch between them?</h2>
+        <p>Assume every workflow has to be rebuilt by hand, because none of the three imports the others' automations as a matter of course. Budget for the rebuild, then run old and new versions in parallel before you switch anything off.</p>
+        <ol>
+          <li>Inventory every active workflow: trigger, apps touched, owner and monthly run count.</li>
+          <li>Delete automations nobody uses. Our <a href="/marketing-stack-audit/">method for auditing a marketing stack</a> helps you find them.</li>
+          <li>Rebuild the highest-risk workflow first, which is usually lead routing.</li>
+          <li>Run both versions for at least one full business cycle and compare outputs record by record.</li>
+          <li>Move credentials and webhooks last, then disable the old version and keep its history for reference.</li>
+        </ol>
+        <p>If you're also reconsidering which CRM those leads land in, our <a href="/b2b-lead-generation-stack/">guide to building a B2B lead generation stack from data to meeting</a> covers the handoff design.</p>
+      </section>
+
+      <section id="faq">
+        <h2>What else do buyers ask?</h2>
+        <p>Most follow-up questions are about cost per run, trigger billing and how technical n8n really is. The short answers below follow from the vendors' published billing rules.</p>
+        <h3>Is n8n cheaper than Zapier?</h3>
+        <p>Usually per run, especially for long workflows, because n8n counts one execution per run while Zapier counts each successful action. For a two-step automation the gap is small, and self-hosting adds labour costs that never appear on an invoice.</p>
+        <h3>Does Make count the trigger as a credit?</h3>
+        <p>Make's pricing FAQ says reading data from an app or webhook counts, while routers and error-handler modules don't. Check the execution history of your own scenario to see exactly what each run consumes.</p>
+        <h3>Can a non-technical marketer use n8n?</h3>
+        <p>For simple workflows, yes. Branching on nested data and writing expressions takes more technical comfort than Zapier asks for, so budget for training or a technical owner.</p>
+        <h3>Which of the three has the most integrations?</h3>
+        <p>Zapier's pricing page cites more than 9,000 apps and Make's cites more than 3,500. n8n relies more on its HTTP Request node for apps that don't have a dedicated node.</p>
+        <h3>Should an agency run client automations in one account?</h3>
+        <p>Only if access is separated cleanly. Check each platform's team, folder and project permissions so that one client's credentials and logs aren't visible to another client's builders.</p>
+      </section>
+
+      <section id="verdict">
+        <h2>What's the verdict?</h2>
+        <p>Zapier buys speed and accessibility at the highest unit cost, Make balances visual control with lower per-unit pricing, and n8n gives the most control and the friendliest billing for long workflows if someone technical owns it. Model your real step counts at your real volumes before you decide.</p>
+        <p>If you're still weighing connector platforms against all-in-one suites, compare the options in our list of <a href="/best-no-code-automation-platforms/">no-code automation platforms for marketing operations</a>, then start a trial on the official site of the platform that fits your team's skills.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A040,Claude,https://claude.com/pricing,official-pricing,2026-11-04,Official pricing page,Verified,Fetched 2026-11-04
+A040,Claude Team seat prices,https://claude.com/pricing,official-pricing,2026-11-04,"Standard $25 monthly / $20 annual; premium $125 monthly / $100 annual",Verified,"Editor computed 3 standard = $75 monthly / $60 annual; 4 standard + 1 premium = $225 monthly"
+A040,Claude Team scope,https://claude.com/pricing,official-pricing,2026-11-04,"2 to 150 seats; SSO; central billing and administration",Verified,
+A040,Claude Projects,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,"Upload documents to project knowledge base; set project instructions",Verified,
+A040,Semrush,https://www.semrush.com/prices/,official-pricing,2026-11-04,"Keyword research, rank tracking, site audits; broad platform",Needs verification,Not reachable from drafting environment (network allowlist); no price stated
+A040,SE Ranking,https://seranking.com/subscription.html,official-pricing,2026-11-04,"SEO platform positioned for budget-conscious agencies",Needs verification,Not reachable; no price stated
+A040,Canva,https://www.canva.com/pricing/,official-pricing,2026-11-04,Brand kits and templates on paid plans,Needs verification,Not reachable; no price stated
+A040,Buffer,https://buffer.com/pricing,official-pricing,2026-11-04,Simple social scheduling queue,Needs verification,Not reachable; no price stated
+A040,Planable,https://planable.io/pricing/,official-pricing,2026-11-04,Social planner built around client approval,Needs verification,Not reachable; no price stated
+A040,Sprout Social,https://sproutsocial.com/pricing/,official-pricing,2026-11-04,"Social suite with inbox and reporting",Needs verification,Not reachable; no price stated
+A040,Brevo,https://www.brevo.com/pricing/,official-pricing,2026-11-04,Email marketing platform,Needs verification,Not reachable; no price stated
+A040,ActiveCampaign,https://www.activecampaign.com/pricing,official-pricing,2026-11-04,Email automation with CRM,Needs verification,Not reachable; no price stated
+A040,HubSpot,https://www.hubspot.com/pricing,official-pricing,2026-11-04,"CRM plus marketing email on one platform; entry CRM tier",Needs verification,Not reachable; free-tier claim deliberately avoided ("entry tier")
+A040,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Sales CRM that pairs with a separate email tool,Needs verification,Not reachable; no price stated
+A040,Looker Studio,https://lookerstudio.google.com/,official-site,2026-11-04,Self-built dashboards,Needs verification,Not reachable; no cost claim stated
+A040,AgencyAnalytics,https://agencyanalytics.com/pricing,official-pricing,2026-11-04,Packaged client reporting for agencies,Needs verification,Not reachable; no price stated
+A040,Zapier,https://zapier.com/pricing,official-pricing,2026-11-04,Connects handoffs between apps; task-based usage,Needs verification,Not reachable; no price stated
+A040,Make,https://www.make.com/en/pricing,official-pricing,2026-11-04,Automation alternative in advanced stack,Needs verification,Named only; not linked on page
+A040,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

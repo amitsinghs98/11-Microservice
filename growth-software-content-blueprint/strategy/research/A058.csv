@@ -1,0 +1,11 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A058,Mailchimp (official site),https://mailchimp.com/pricing/marketing/,official-pricing,2026-11-04,Product exists; contact-tier email platform,Verified,Direct fetch blocked by session network; confirmed via search index of official mailchimp.com pages; re-fetch before publishing
+A058,Mailchimp send multipliers and overages,https://mailchimp.com/help/about-mailchimp-pricing-plans/,official-docs,2026-11-04,"Monthly sends 10x contact limit on Essentials, 12x Standard, 15x Premium; overages apply if limits exceeded",Verified,Pricing page feature table shows same multipliers
+A058,MailerLite (official site),https://www.mailerlite.com/pricing,official-pricing,2026-11-04,Product exists; email marketing platform,Verified,Search index of official pages
+A058,MailerLite Comfort and Power send allowances,https://www.mailerlite.com/pricing,official-pricing,2026-11-04,Comfort 10x subscriber tier per month; Power unlimited monthly emails under fair use,Verified,New plans introduced June 2026
+A058,Kit (official site),https://kit.com/pricing,official-pricing,2026-11-04,Product exists; paid plans priced by subscribers; no sending limits on any plan,Verified,Search index of official pricing page
+A058,Brevo (official site),https://www.brevo.com/pricing/,official-pricing,2026-11-04,Product exists; volume-based email pricing,Verified,Search index of official pages
+A058,Brevo Starter and free daily cap,https://www.brevo.com/pricing/,official-pricing,2026-11-04,"Starter from $9/mo for 5,000 emails; free plan 300 emails/day",Verified,
+A058,Worked example arithmetic,,editorial-knowledge,2026-11-04,"2,600 x 2 + 80 x 4 = 5,520 sends; 10x of 3,000 tier = 30,000",Not stated,"Hypothetical; arithmetic only; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A058,Automations rarely transfer between platforms,,editorial-knowledge,2026-11-04,General migration statement,Needs verification,Stated generally
+A058,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

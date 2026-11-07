@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A062,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Growth US$39 and Premium US$59 per seat per month billed annually",Verified,"Fetched in v1 pass 2026-11-04; v2 re-fetch blocked (host not in session network allowlist), figures carried over unchanged"
+A062,Pipedrive Projects and Smart Docs add-ons,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,Projects and Smart Docs listed as add-ons,Verified,Add-on prices not repeated; billing unit unclear
+A062,Pipedrive cost at 5/10 seats,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Seats x verified monthly price x 12 (5 Growth US$2,340; 10 Growth US$4,680; 5 Premium US$3,540; 10 Premium US$7,080)",Verified,Excludes add-ons and tax
+A062,HubSpot,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Free tools then per-seat tiers by hub; attribution via Marketing Hub",Needs verification,"Fetch blocked (www.hubspot.com not in network allowlist; Firecrawl out of credits); stated qualitatively"
+A062,monday CRM,https://monday.com/crm/pricing,official-pricing,2026-11-04,"Per-seat pricing; won-deal automation can create delivery boards",Needs verification,Fetch blocked; bundle sizes not stated
+A062,Productive,https://productive.io/pricing/,official-pricing,2026-11-04,"Agency management: pipeline, budgets, time tracking, resourcing, invoicing; per-user tiers",Needs verification,Fetch blocked
+A062,Insightly,https://www.insightly.com/pricing/,official-pricing,2026-11-04,"Opportunity-to-project conversion; per-user tiers",Needs verification,Fetch blocked
+A062,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Per-user editions; multiple pipelines, custom modules, workflow rules",Needs verification,Fetch blocked
+A062,Multiple pipelines across all six tools,,editorial-knowledge,2026-11-04,Each tool supports more than one pipeline in some form,Needs verification,Confirm tier placement for each vendor before publishing
+A062,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A062,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Analytics Tools for SaaS Startups: 6 Best Picks | InsightToolz</title>
+  <meta name="description" content="Compare product analytics tools for SaaS startups: Mixpanel, Amplitude, PostHog, Heap, Pendo and Statsig, with free tiers, meters and skip-it-if advice.">
+  <link rel="canonical" href="https://insighttoolz.com/best-product-analytics-software-for-saas-startups/">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://insighttoolz.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Product-Led Growth Software: Product Analytics, Onboarding, and Experimentation Tools",
+          "item": "https://insighttoolz.com/product-led-growth/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Best Product Analytics Software for SaaS Startups",
+          "item": "https://insighttoolz.com/best-product-analytics-software-for-saas-startups/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can GA4 replace product analytics for a SaaS startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can cover early marketing questions, but it isn't built around identified users, accounts and retention cohorts. Most SaaS teams add a product analytics tool once they need to measure activation and feature use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many events should we track at launch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start small: one activation event, a few core value events and key properties. You can add more later, but cleaning up hundreds of badly named events is slow and expensive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should we self-host product analytics?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only if data residency or control outweighs the maintenance work. PostHog documents an open-source self-hosted option without commercial support, so someone on your team will own upgrades, scaling and backups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should we move analytics into a data warehouse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "When you need to join product usage with billing, CRM or support data. Check each vendor's export and warehouse sync options before you sign, so the move is possible later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are free tiers enough for a startup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Often for the first months, as long as your volume fits the vendor's unit and the free plan keeps enough history. Check what happens when you exceed the cap, because some plans stop features or sample data rather than bill you."
+          }
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+  <main id="main-content">
+    <article data-article-id="A281" data-content-type="pillar-listicle" data-cluster="15">
+      <header>
+        <p>Product-led growth, product analytics and experimentation</p>
+        <h1>Best Product Analytics Software for SaaS Startups</h1>
+        <p>The best product analytics tools for a SaaS startup answer one question well: which users reach value, and which stall before they do. For most early teams that means Mixpanel, Amplitude or PostHog, with Heap, Pendo and Statsig better suited to narrower jobs.</p>
+        <p>Draft prepared <time datetime="2026-11-04">4 November 2026</time> and expanded <time datetime="2026-11-07">7 November 2026</time>. Time-sensitive facts carry their own checked-on dates.</p>
+      </header>
+
+      <aside aria-label="Editorial disclosure">
+        <p>Independent editorial assessment based on official product information. No vendor paid for inclusion or placement, and this page contains no affiliate links. No hands-on product testing was performed for this draft.</p>
+      </aside>
+
+      <nav aria-labelledby="toc-heading">
+        <h2 id="toc-heading">On this page</h2>
+        <ol>
+          <li><a href="#which-tool-should-you-choose">Which product analytics tool should a SaaS startup choose?</a></li>
+          <li><a href="#product-vs-website-analytics">What does product analytics cover, and where does it stop?</a></li>
+          <li><a href="#how-we-chose">How did we choose and order these tools?</a></li>
+          <li><a href="#how-do-they-compare">How do the product analytics tools compare?</a></li>
+          <li><a href="#the-tools">What is each tool best for, and when should you skip it?</a></li>
+          <li><a href="#first-hand-experience">Will a startup actually use product analytics after the first month?</a></li>
+          <li><a href="#what-to-pair-it-with">What should you pair product analytics with as you grow?</a></li>
+          <li><a href="#instrumentation-plan">What should a startup's first instrumentation plan include?</a></li>
+          <li><a href="#what-it-really-costs">What does product analytics really cost a startup?</a></li>
+          <li><a href="#scenarios">Which tool fits your startup's situation?</a></li>
+          <li><a href="#mistakes">What mistakes do startups make when buying product analytics?</a></li>
+          <li><a href="#faq">What else do founders ask about product analytics software?</a></li>
+          <li><a href="#verdict">What's the verdict on product analytics software for startups?</a></li>
+        </ol>
+      </nav>
+
+      <section id="which-tool-should-you-choose">
+        <h2>Which product analytics tool should a SaaS startup choose?</h2>
+        <p>Pick Mixpanel or Amplitude if a product manager will own analysis and you want strong funnels, retention and cohorts without writing SQL. Pick PostHog if engineers own the stack and you want analytics, session replay, flags and experiments under one usage-based bill.</p>
+        <p>The picks below are grouped by buyer type rather than ranked on a single score, because the right tool depends on who will run the analysis and what else you need from the same install.</p>
+        <ul>
+          <li><strong>PM-led startup that wants self-serve funnels and retention:</strong> Mixpanel.</li>
+          <li><strong>Startup expecting to grow into a broader analytics and experimentation platform:</strong> Amplitude.</li>
+          <li><strong>Engineering-led team that wants one vendor for many product tools:</strong> PostHog.</li>
+          <li><strong>Team that shipped before anyone planned tracking:</strong> Heap, for its autocapture model.</li>
+          <li><strong>Team whose biggest problem is onboarding, not analysis:</strong> Pendo.</li>
+          <li><strong>Team whose main job is shipping and reading experiments:</strong> Statsig.</li>
+        </ul>
+        <p>This page is the starting point for the <a href="/product-led-growth/">product-led growth software hub</a>, which maps every tool category that sits around analytics, from onboarding to user research.</p>
+      </section>
+
+      <section id="product-vs-website-analytics">
+        <h2>What does product analytics cover, and where does it stop?</h2>
+        <p>Product analytics follows identified users and accounts through what they do inside the app, so you can see activation, feature adoption and retention by cohort. Website analytics counts anonymous sessions and traffic sources on marketing pages, and it answers a different question.</p>
+        <p>GA4 and privacy-focused web tools answer "where did visitors come from, and did they sign up?" A product analytics tool answers "did the accounts that signed up in March invite a teammate within seven days, and are they still active?" Most startups need both, and our guide to <a href="/ga4-alternatives/">GA4 alternatives and complementary analytics tools</a> covers the website side.</p>
+        <p>Inside the product, analytics overlaps with several specialist categories. Each has its own guide if one question dominates:</p>
+        <ul>
+          <li>Paths, friction and cohort behavior are the focus of our <a href="/best-user-behavior-analytics-tools-for-product-teams/">user behavior analytics tools for product teams</a>, which also explains why that label is not the security category of the same name.</li>
+          <li>If you need the full lifecycle from first touch through support and renewal, compare the <a href="/best-customer-journey-analytics-tools-for-saas-product-teams/">customer journey analytics tools built for SaaS product teams</a>.</li>
+          <li>When the question is whether a specific feature is discovered and reused, the <a href="/best-feature-adoption-analytics-tools-for-saas-companies/">feature adoption analytics roundup</a> goes deeper than a general tool's default reports.</li>
+          <li>To watch what users actually did in a signed-in workflow, see our shortlist of <a href="/best-session-replay-tools-for-saas-product-analytics/">session replay tools for SaaS product teams</a>.</li>
+          <li>If several teams send events and names keep drifting, start with <a href="/best-product-event-tracking-and-governance-platforms/">event tracking and governance platforms</a> before blaming the analytics tool.</li>
+        </ul>
+      </section>
+
+      <section id="how-we-chose">
+        <h2>How did we choose and order these tools?</h2>
+        <p>We ordered tools by fit for a startup with a small team, a fast-changing product and a limited budget. The assessment uses official pricing pages, documentation and company announcements; no hands-on testing was performed, and no vendor paid for inclusion or position.</p>
+        <p>We judged each tool on its event model, identity resolution for users and accounts, funnels, retention and cohorts, governance features, exports and how pricing scales with usage. Direct fetches of vendor pages were blocked while this draft was prepared, so figures appear only where a search of the vendor's own pages clearly stated them, each linked to that page with its checked date. Where a vendor's own pages disagreed, as Amplitude's did on its free-tier meter, we left the number out.</p>
+      </section>
+
+      <section id="how-do-they-compare">
+        <h2>How do the product analytics tools compare?</h2>
+        <p>Every tool here offers a way to start free, but they meter growth differently: by events, sessions, monthly active users or per-product usage. The table shows where each fits, its free-tier unit where confirmed, and the limit that matters most.</p>
+        <table>
+          <caption>Product analytics tools for SaaS startups: fit, pricing model and limits (checked 7 November 2026)</caption>
+          <thead>
+            <tr><th scope="col">Tool</th><th scope="col">Best for</th><th scope="col">Pricing model</th><th scope="col">One material limit</th><th scope="col">Official link</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Mixpanel</th><td>PM-led self-serve analysis</td><td>Free up to 1M events a month, then priced by event volume</td><td>Check which features sit above Free</td><td><a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">Mixpanel pricing</a></td></tr>
+            <tr><th scope="row">Amplitude</th><td>Startups expecting to scale into a platform</td><td>Free plan, then paid tiers; see official pricing</td><td>Official pages differ on the free meter</td><td><a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">Amplitude pricing</a></td></tr>
+            <tr><th scope="row">PostHog</th><td>Engineering-led all-in-one stacks</td><td>Usage-based per product; first 1M analytics events free each month</td><td>Many meters to forecast</td><td><a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">PostHog pricing</a></td></tr>
+            <tr><th scope="row">Heap</th><td>Teams without a tracking plan yet</td><td>Free up to 10k monthly sessions, then paid tiers</td><td>Free plan keeps 6 months of history</td><td><a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">Heap pricing</a></td></tr>
+            <tr><th scope="row">Pendo</th><td>Analytics plus in-app guides</td><td>Free up to 500 MAUs, then paid plans</td><td>Analysis depth trails the specialists</td><td><a href="https://www.pendo.io/pricing/" target="_blank" rel="noopener noreferrer">Pendo pricing</a></td></tr>
+            <tr><th scope="row">Statsig</th><td>Experiment-first product teams</td><td>Free Developer tier, then Pro at $150 a month with 5M events</td><td>Now part of Amplitude; confirm the roadmap</td><td><a href="https://www.statsig.com/pricing" target="_blank" rel="noopener noreferrer">Statsig pricing</a></td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="the-tools">
+        <h2>What is each tool best for, and when should you skip it?</h2>
+        <p>Mixpanel and Amplitude are the strongest pure analytics choices, PostHog trades polish for breadth, and Heap, Pendo and Statsig work best as specialists. Each block covers fit, the pricing model with its source, strengths, limitations and a reason to pass.</p>
+
+        <h3>Mixpanel: best for PM-led teams that want answers without SQL</h3>
+        <p>Mixpanel is event-based analytics built around funnels, retention, flows and cohorts. Its pricing page <a href="https://mixpanel.com/pricing/" target="_blank" rel="noopener noreferrer">lists a free-forever plan with up to 1M events a month, with paid plans priced by event volume above it</a> (checked 7 November 2026).</p>
+        <p><strong>Strengths:</strong> fast report building, clear funnel and retention views, and a pricing unit (events) that's easy to estimate from a tracking plan. <strong>Limitations:</strong> some features sit above the free plan, so check <a href="https://docs.mixpanel.com/docs/pricing" target="_blank" rel="noopener noreferrer">Mixpanel's pricing documentation</a> for the current split before you rely on them. <strong>Skip it if</strong> you want one vendor for replay, flags, surveys and a warehouse, where PostHog's breadth goes further.</p>
+
+        <h3>Amplitude: best for startups that expect to grow into a full platform</h3>
+        <p>Amplitude covers behavioral analytics, cohorts and journeys, with experimentation and session replay in the same platform. The <a href="https://amplitude.com/pricing" target="_blank" rel="noopener noreferrer">official pricing page lists a free plan with paid tiers above it</a> (checked 7 November 2026).</p>
+        <p><strong>Strengths:</strong> mature cohort and journey analysis, and room to grow into governance and experimentation, a direction reinforced by its acquisition of Statsig (below). <strong>Limitations:</strong> Amplitude's pricing page and its <a href="https://amplitude.com/docs/faq/billing-and-plans" target="_blank" rel="noopener noreferrer">billing documentation</a> described the free allowance in different units when we checked, so confirm which meter applies to your plan in writing. <strong>Skip it if</strong> nobody on the team has time to learn a deep tool in the first year.</p>
+
+        <h3>PostHog: best for engineering-led teams that want one vendor</h3>
+        <p>PostHog bundles product analytics, session replay, feature flags, experiments, surveys and a data warehouse. Its <a href="https://posthog.com/pricing" target="_blank" rel="noopener noreferrer">pricing page bills each product by usage and makes the first 1M product analytics events free every month</a> (checked 7 November 2026).</p>
+        <p><strong>Strengths:</strong> breadth, transparent usage pricing and SQL access for engineers. <strong>Limitations:</strong> several separate meters make budgeting harder, and non-technical teammates may find the interface denser than Mixpanel's. PostHog's <a href="https://posthog.com/docs/self-host" target="_blank" rel="noopener noreferrer">self-hosting docs</a> describe an open-source "hobby" deployment that comes without commercial support (checked 7 November 2026), so treat self-hosting as a data-control decision, not a cost saving. <strong>Skip it if</strong> analysis will sit with a product manager who just wants funnels and retention.</p>
+
+        <h3>Heap: best for teams that haven't written a tracking plan</h3>
+        <p>Heap captures interactions automatically so you can define events after the fact. The <a href="https://www.heap.io/pricing" target="_blank" rel="noopener noreferrer">Heap pricing page lists a Free plan of up to 10k monthly sessions with 6 months of data history</a> (checked 7 November 2026).</p>
+        <p><strong>Strengths:</strong> retroactive analysis when you didn't know what to track. <strong>Limitations:</strong> autocapture creates a lot of noisy data that still needs naming and governance, and a session-based unit doesn't map neatly onto event-based rivals when you compare quotes. <strong>Skip it if</strong> you're willing to plan ten good events up front, which is cheaper and cleaner.</p>
+
+        <h3>Pendo: best when you also need in-app guides</h3>
+        <p>Pendo pairs product analytics with in-app guides, feedback and roadmaps. The <a href="https://support.pendo.io/hc/en-us/articles/6069107464091-Pendo-Free" target="_blank" rel="noopener noreferrer">Pendo Free help article sets the free tier at 500 monthly active users across web and mobile apps</a> (checked 7 November 2026), and paid plans are listed on its <a href="https://www.pendo.io/pricing/" target="_blank" rel="noopener noreferrer">pricing page</a>.</p>
+        <p><strong>Strengths:</strong> analytics and guidance in one install, which suits a team whose first problem is activation. <strong>Limitations:</strong> the free cap is low for a product with real traction, paid plans go through sales, and analysis depth trails the specialists. <strong>Skip it if</strong> analytics is the only job.</p>
+
+        <h3>Statsig: best for teams whose main job is shipping experiments</h3>
+        <p>Statsig combines flags, experiments and product analytics. Its <a href="https://www.statsig.com/pricing" target="_blank" rel="noopener noreferrer">pricing page lists a free Developer tier with 2M metered events a month and a Pro plan at $150 a month that includes 5M events</a> (checked 7 November 2026).</p>
+        <p><strong>Strengths:</strong> analytics tied tightly to experiment results. <strong>Limitations:</strong> ownership has changed twice; a note on Statsig's <a href="https://www.statsig.com/blog/openai-acquisition" target="_blank" rel="noopener noreferrer">acquisition announcement</a> says the product and customer base moved to Amplitude on 5 May 2026 (checked 7 November 2026), so ask for a written roadmap and support commitment. <strong>Skip it if</strong> you rarely run experiments.</p>
+      </section>
+
+      <section id="first-hand-experience">
+        <h2>Will a startup actually use product analytics after the first month?</h2>
+        <p>Based on the product information reviewed, every tool here can answer activation and retention questions, but only if events are named well and someone reviews them weekly. The tooling rarely fails; the tracking plan and the review habit do.</p>
+        <p><mark>[YOUR EXPERIENCE HERE — the skill will not invent this]</mark></p>
+      </section>
+
+      <section id="what-to-pair-it-with">
+        <h2>What should you pair product analytics with as you grow?</h2>
+        <p>Analytics tells you where users stall; the tools around it help you guide them, change the product safely and learn why. Add each layer only when analytics shows a problem it would solve, not because a competitor uses it.</p>
+        <p><strong>Guidance.</strong> If your activation funnel shows new users dropping at setup, our list of <a href="/best-product-tour-and-user-onboarding-software-for-saas/">product tour and user onboarding software</a> covers tours, checklists and tooltips. Products with many workflows and roles may need the heavier <a href="/best-digital-adoption-platforms-for-complex-saas-products/">digital adoption platforms for complex SaaS</a>, which add segmentation and in-app help at scale.</p>
+        <p><strong>Releases and experiments.</strong> Once you want to roll changes out to a subset of users, compare <a href="/best-feature-flag-management-platforms-for-saas-teams/">feature flag management platforms</a>. When you're ready to measure the impact of those changes, the <a href="/best-product-experimentation-platforms-for-growth-teams/">product experimentation platforms for growth teams</a> guide covers in-product tests, and <a href="/feature-flags-vs-a-b-testing-how-product-teams-should-use-both/">our explainer on how flags and A/B tests work together</a> clears up where one ends and the other begins. Teams running several tests a month should keep a record of what they learned with an <a href="/best-experiment-tracking-and-repository-platforms-for-product-teams/">experiment tracking and repository platform</a>.</p>
+        <p><strong>Customer insight.</strong> Numbers show what happened; people tell you why. Collect requests in one of the <a href="/best-product-feedback-and-roadmap-voting-platforms/">product feedback and roadmap voting platforms</a>, then weigh them against data and effort in <a href="/best-product-roadmap-prioritization-software-for-saas-teams/">roadmap prioritization software</a>. Before a launch, <a href="/best-beta-testing-and-product-feedback-collection-software/">beta testing and feedback collection software</a> gets new features in front of early users. For qualitative research, compare <a href="/best-user-research-interview-platforms-for-product-teams/">user research interview platforms</a>, <a href="/best-usability-testing-software-for-saas-product-teams/">usability testing software for SaaS teams</a> and <a href="/best-remote-user-testing-platforms-for-website-and-product-research/">remote user testing platforms</a>, which differ mainly in whether you test with your own users or a recruited panel.</p>
+      </section>
+
+      <section id="instrumentation-plan">
+        <h2>What should a startup's first instrumentation plan include?</h2>
+        <p>Start with one activation event, three to five value events and a handful of user and account properties, all named in a shared document before anyone writes code. That's enough to build a signup-to-activation funnel and a weekly retention chart.</p>
+        <ol>
+          <li><strong>Define activation.</strong> Choose the action that best predicts a retained account, such as "first report shared", and write down why.</li>
+          <li><strong>Name events consistently.</strong> Use one pattern, such as object plus past-tense verb ("Project Created"), and keep a single source of truth for names and properties.</li>
+          <li><strong>Decide identity rules.</strong> Agree when an anonymous visitor becomes an identified user, and send an account or company ID so you can analyze B2B accounts, not just individuals.</li>
+          <li><strong>Track server-side where it matters.</strong> Billing, subscription and permission events are more reliable from the backend than from the browser.</li>
+          <li><strong>QA before launch.</strong> Check each event in a test environment, confirm properties arrive with the right types, and remove duplicates.</li>
+          <li><strong>Plan exports.</strong> Confirm you can send data to your warehouse or CRM later, so you're not locked in.</li>
+        </ol>
+        <p>If you're assembling more than analytics, our guide to <a href="/how-to-build-a-product-led-growth-stack-for-an-early-stage-saas/">building a product-led growth stack for an early-stage SaaS</a> puts this plan in the context of onboarding, feedback and upgrade triggers.</p>
+      </section>
+
+      <section id="what-it-really-costs">
+        <h2>What does product analytics really cost a startup?</h2>
+        <p>At startup scale, free tiers often cover the first months, and cost is then driven by how many events, sessions or active users you send. The bigger hidden cost is noisy tracking: autocaptured or duplicated events eat allowance without answering any question.</p>
+        <p>The confirmed free allowances show why units matter. Mixpanel and PostHog both start at 1M events a month, Statsig's Developer tier at 2M metered events, Heap at 10k monthly sessions and Pendo at 500 monthly active users (all checked 7 November 2026 on the official pages linked above). Those numbers can't be compared directly: a product with 500 active users who each fire hundreds of events stays inside Pendo's user cap long after it outgrows an event allowance, and the reverse is true for a product with many light users.</p>
+        <p>Estimate volume from your tracking plan: active users multiplied by events per user per month. Then compare that number against each vendor's unit and check data retention, because history that disappears from a free plan takes your early cohorts with it. Our <a href="/product-analytics-pricing-explained-events-users-and-data-retention/">explainer on product analytics pricing by events, users and retention</a> walks through the units, retention windows and questions to ask sales.</p>
+      </section>
+
+      <section id="scenarios">
+        <h2>Which tool fits your startup's situation?</h2>
+        <p>Match the tool to who will do the analysis and what else you need in the same install. The scenarios below cover the common cases by team shape.</p>
+        <ul>
+          <li><strong>Pre-seed, founders doing everything:</strong> PostHog or Mixpanel on a free tier, with no more than a dozen planned events.</li>
+          <li><strong>Seed-stage B2B SaaS, one PM, no data team:</strong> Mixpanel or Amplitude, with a short tracking plan and account-level identity.</li>
+          <li><strong>Developer tool with an engineering-heavy team:</strong> PostHog, and consider self-hosting only if data residency outweighs the support trade-off.</li>
+          <li><strong>Product shipped before anyone planned tracking:</strong> Heap to explore, then formalize the important events.</li>
+          <li><strong>Onboarding is the main problem:</strong> Pendo, or pair an analytics tool with a dedicated tour tool.</li>
+          <li><strong>Series A team running weekly tests:</strong> Statsig or Amplitude, plus a written experiment log.</li>
+        </ul>
+      </section>
+
+      <section id="mistakes">
+        <h2>What mistakes do startups make when buying product analytics?</h2>
+        <p>The most common mistake is buying for the dashboards you'll want in two years instead of the three questions you need answered this quarter. The second is tracking everything and naming nothing.</p>
+        <ul>
+          <li>Skipping account-level identity in a B2B product, then being unable to report on companies.</li>
+          <li>Treating autocapture as a substitute for a tracking plan.</li>
+          <li>Ignoring data retention windows on free plans until historical cohorts disappear.</li>
+          <li>Choosing on seat price when the real meter is events, sessions or users.</li>
+          <li>Buying an all-in-one suite for its flags or replay, then never switching those features on.</li>
+          <li>Signing with a vendor that has just changed owners without asking about its roadmap and support terms.</li>
+        </ul>
+      </section>
+
+      <section id="faq">
+        <h2>What else do founders ask about product analytics software?</h2>
+        <p>These questions come up once the shortlist is set. Answers are based on the product information reviewed, not testing.</p>
+        <h3>Can GA4 replace product analytics for a SaaS startup?</h3>
+        <p>It can cover early marketing questions, but it isn't built around identified users, accounts and retention cohorts. Most SaaS teams add a product analytics tool once they need to measure activation and feature use.</p>
+        <h3>How many events should we track at launch?</h3>
+        <p>Start small: one activation event, a few core value events and key properties. You can add more later, but cleaning up hundreds of badly named events is slow and expensive.</p>
+        <h3>Should we self-host product analytics?</h3>
+        <p>Only if data residency or control outweighs the maintenance work. PostHog documents an open-source self-hosted option without commercial support, so someone on your team will own upgrades, scaling and backups.</p>
+        <h3>When should we move analytics into a data warehouse?</h3>
+        <p>When you need to join product usage with billing, CRM or support data. Check each vendor's export and warehouse sync options before you sign, so the move is possible later.</p>
+        <h3>Are free tiers enough for a startup?</h3>
+        <p>Often for the first months, as long as your volume fits the vendor's unit and the free plan keeps enough history. Check what happens when you exceed the cap, because some plans stop features or sample data rather than bill you.</p>
+      </section>
+
+      <section id="verdict">
+        <h2>What's the verdict on product analytics software for startups?</h2>
+        <p>Mixpanel is the simplest strong choice for PM-led teams, Amplitude suits startups that will grow into a broader platform, and PostHog wins when engineers want breadth from one vendor. Heap, Pendo and Statsig are good specialists, so choose them for their specific job rather than as general analytics.</p>
+        <p>Next, write your first tracking plan, model it against two vendors' units, and start a free tier on the vendor's official site. When analytics shows you where users stall, return to the <a href="/product-led-growth/">product-led growth hub</a> to pick the next layer.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

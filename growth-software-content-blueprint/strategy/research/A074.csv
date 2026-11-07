@@ -1,0 +1,11 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A074,ZoomInfo,https://www.zoominfo.com/,official-site,2026-11-04,"Sales-led, quote-based pricing; broad coverage, buying signals, enterprise integrations",Needs verification,Fetch blocked on 2026-11-04 (scraper out of credits; host denied by session network policy)
+A074,Apollo.io,https://www.apollo.io/pricing,official-pricing,2026-11-04,"Public self-serve credit tiers; database, enrichment, sequences, CRM sync",Needs verification,Fetch blocked; no figures published
+A074,Lusha,https://www.lusha.com/pricing/,official-pricing,2026-11-04,Public self-serve credit plans; phone reveals cost more credits than email,Needs verification,Fetch blocked; URL not fetched
+A074,UpLead,https://www.uplead.com/pricing/,official-pricing,2026-11-04,Public credit plans; positions on verified emails,Needs verification,Fetch blocked; URL not fetched
+A074,RocketReach,https://rocketreach.co/pricing,official-pricing,2026-11-04,Public plans by lookup volume; export/API limits by plan,Needs verification,Fetch blocked; URL not fetched
+A074,Cognism,https://www.cognism.com/,official-site,2026-11-04,Quote-based; UK/EU focus with phone data,Needs verification,Fetch blocked
+A074,Clay,https://www.clay.com/pricing,official-pricing,2026-11-04,Public credit-based plans; multi-provider chaining,Needs verification,Fetch blocked; no figures published
+A074,SMB pain points (contract shape; exports; onboarding),,editorial-knowledge,2026-11-04,Decision patterns,Needs verification,Labelled as editorial assessment; no survey data
+A074,Vendor accuracy figures,,editorial-knowledge,2026-11-04,Deliberately omitted,Not stated,Vendor accuracy claims not reproducible
+A074,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

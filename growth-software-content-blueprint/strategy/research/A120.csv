@@ -1,0 +1,6 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A120,"Seven-stage operating model, roles and calendar schema",,editorial-knowledge,2026-11-04,Editorial framework from the article brief,Not stated,Editorial model; no product or statistical claims
+A120,Meeting lengths and review intervals,,editorial-knowledge,2026-11-04,"Suggested defaults, not benchmarks",Not stated,Calculation-free editorial suggestion; explicitly labelled as not benchmarked
+A120,Three-person team example,,editorial-knowledge,2026-11-04,Hypothetical worked example,Not stated,Labelled hypothetical; no results claimed
+A120,No vendor products named,,editorial-knowledge,2026-11-04,Guide links to category pages rather than forcing a tool,Not stated,"No external product claims made, so no fetches required"
+A120,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

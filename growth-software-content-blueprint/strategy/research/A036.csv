@@ -1,0 +1,17 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A036,Claude,https://claude.com/pricing,official-pricing,2026-11-04,Official product and pricing page,Verified,Fetched 2026-11-04
+A036,Claude Pro price,https://claude.com/pricing,official-pricing,2026-11-04,"Pro $20 if billed monthly ($17/month with annual subscription, $200 billed up front)",Verified,Page also states prices exclude applicable tax
+A036,Claude Team standard seat price,https://claude.com/pricing,official-pricing,2026-11-04,"Team 2 to 150 seats; standard seat $25 if billed monthly, $20 billed annually",Verified,Used in hypothetical cost model (2 seats = $50/month)
+A036,Claude usage limits,https://claude.com/pricing,official-pricing,2026-11-04,"Usage limits depend on model, chat length and file size",Verified,
+A036,Claude Projects knowledge base and instructions,https://support.claude.com/en/articles/9517075-what-are-projects,official-docs,2026-11-04,"Upload documents to a project knowledge base; set project instructions; free users up to five projects",Verified,
+A036,Grounding reduces but does not eliminate hallucinations,https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations,official-docs,2026-11-04,"Restrict to provided documents; retract claims without a supporting quote; techniques don't eliminate hallucinations entirely",Verified,
+A036,ChatGPT,https://openai.com/chatgpt/pricing/,official-pricing,2026-11-04,General assistant usable for text derivatives; per-user plans,Needs verification,openai.com not reachable from drafting environment (network allowlist); no price stated
+A036,Jasper,https://www.jasper.ai/pricing,official-pricing,2026-11-04,"Marketing platform with brand voice and company knowledge settings; per-seat pricing",Needs verification,jasper.ai not reachable from drafting environment; no price stated
+A036,Missinglettr,https://missinglettr.com/,official-site,2026-11-04,Generates and schedules a sequence of social posts from a blog post over months,Needs verification,Not reachable from drafting environment; no price stated
+A036,Buffer,https://buffer.com/pricing,official-pricing,2026-11-04,"Multi-network scheduling with AI assistant; pricing by connected channel",Needs verification,Not reachable from drafting environment; no price stated
+A036,Canva,https://www.canva.com/pricing/,official-pricing,2026-11-04,"Design editor with AI features; brand kits on paid plans; free and per-person paid plans",Needs verification,Not reachable from drafting environment; no price stated
+A036,Lumen5,https://lumen5.com/pricing/,official-pricing,2026-11-04,"Converts text or URL into storyboard video with stock media and captions; subscription tiers",Needs verification,Not reachable from drafting environment; no price stated
+A036,Pictory,https://pictory.ai/pricing,official-pricing,2026-11-04,"Creates video from script, article or URL; quotas vary by plan",Needs verification,Not reachable from drafting environment; no price stated
+A036,Gamma,https://gamma.app/pricing,official-pricing,2026-11-04,"Generates decks, documents and web pages from pasted text; free tier plus paid plans",Needs verification,Not reachable from drafting environment; no price stated
+A036,Copy.ai (cut),https://www.copy.ai/prices,official-pricing,2026-11-04,Removed from v1 list,Not stated,Dropped in v2 rewrite; could not confirm current content features
+A036,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

@@ -1,0 +1,13 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A070,Calendly,https://calendly.com/pricing,official-pricing,2026-11-04,"Team event types, round-robin, routing forms, CRM integrations on higher tiers; per-seat tiers with free plan",Needs verification,"Fetch failed 2026-11-04 (Firecrawl credits exhausted; direct fetch blocked by network policy); tier including routing not named"
+A070,SavvyCal,https://savvycal.com/pricing,official-pricing,2026-11-04,"Calendar overlay for invitees; team scheduling links; per-user tiers",Needs verification,Fetch failed 2026-11-04
+A070,Cal.com,https://cal.com/pricing,official-pricing,2026-11-04,"Open-source scheduling with hosted option; round-robin and routing forms; free tier plus paid plans; self-hosting",Needs verification,Fetch failed 2026-11-04
+A070,HubSpot Meetings,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Personal and round-robin meeting links logged to contact record; rotate-owner workflows; round-robin needs paid sales seats",Needs verification,Fetch failed 2026-11-04
+A070,Chili Piper,https://www.chilipiper.com/pricing,official-pricing,2026-11-04,"Separate products: Concierge (inbound routing and booking), Distro (lead distribution), Handoff; Salesforce and HubSpot integrations; priced per user by product",Needs verification,Fetch failed 2026-11-04
+A070,Default,https://www.default.com/pricing,official-pricing,2026-11-04,"Forms, qualification, routing and scheduling for inbound teams; tiered plans",Needs verification,Fetch failed 2026-11-04; pricing URL should be confirmed
+A070,RevenueHero,https://www.revenuehero.io/pricing,official-pricing,2026-11-04,"Qualifying, routing and booking demo requests from website forms; tiered plans",Needs verification,Fetch failed 2026-11-04; pricing URL should be confirmed
+A070,LeanData,https://www.leandata.com/,official-site,2026-11-04,"Lead-to-account matching and visual routing flows in Salesforce; scheduling available; quote-based",Needs verification,Fetch failed 2026-11-04
+A070,Seat cost model,,editorial-knowledge,2026-11-04,"Formula only: (bookable reps + admins) x per-seat price x 12 plus separate routing product",Needs verification,No vendor prices used
+A070,Response-time metrics,,editorial-knowledge,2026-11-04,"Speed to lead, form-to-meeting, booked-to-held, reassignment rate, SLA breaches",Needs verification,Definitions only; no statistics stated
+A070,All plan prices and tier names,,editorial-knowledge,2026-11-04,,Not stated,Deliberately cut because no pricing page could be fetched in this session
+A070,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

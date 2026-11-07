@@ -1,0 +1,12 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A064,HubSpot Marketing Hub,https://www.hubspot.com/pricing/marketing,official-pricing,2026-11-04,"Forms, landing pages, email and campaign reporting on the CRM record; tiered pricing with marketing contact limits",Needs verification,"Fetch blocked (vendor hosts not in session network allowlist; Firecrawl out of credits); no prices stated"
+A064,Typeform,https://www.typeform.com/pricing/,official-pricing,2026-11-04,"Conversational forms with logic; CRM and automation integrations; tiered by responses and features",Needs verification,Fetch blocked
+A064,Chili Piper,https://www.chilipiper.com/pricing,official-pricing,2026-11-04,"Inbound routing and instant meeting booking after form submit; per-user pricing by product",Needs verification,Fetch blocked
+A064,Apollo.io,https://www.apollo.io/pricing,official-pricing,2026-11-04,"Contact database plus sequencing; free plan; paid seats with credit allowances",Needs verification,Fetch blocked; free plan stated from general knowledge and must be confirmed
+A064,LinkedIn Sales Navigator,https://business.linkedin.com/sales-solutions/compare-plans,official-pricing,2026-11-04,"Advanced search, lead and account lists, alerts; per-seat tiers; not an email database",Needs verification,Fetch blocked
+A064,Clay,https://www.clay.com/pricing,official-pricing,2026-11-04,"Multi-provider enrichment workspace with chained research and AI steps; credit-based tiers",Needs verification,Fetch blocked
+A064,Dealfront,https://www.dealfront.com/pricing/,official-pricing,2026-11-04,"Company-level website visitor identification plus B2B data; European focus; formed from Leadfeeder and Echobot",Needs verification,Fetch blocked
+A064,ZoomInfo,https://www.zoominfo.com/pricing,official-pricing,2026-11-04,"Contact and company data, intent and CRM enrichment; quote-based annual contracts",Needs verification,Fetch blocked
+A064,Data accuracy or coverage figures,,editorial-knowledge,2026-11-04,,Not stated,No accuracy or coverage statistics claimed for any vendor
+A064,All vendor prices,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A064,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

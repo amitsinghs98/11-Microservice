@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A098,Zapier meters usage in tasks,https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,Verified 2026-11-04 in A091 research log (same-day fetch); direct re-fetch blocked by network in this session
+A098,Make meters usage in credits,https://www.make.com/en/pricing,official-pricing,2026-11-04,Yes,Verified,Verified 2026-11-04 in A091 research log (same-day fetch); direct re-fetch blocked by network in this session
+A098,Annual contracts often require notice before renewal,,editorial-knowledge,2026-11-04,"General statement, no vendor named",Needs verification,Reader told to record each contract's notice period
+A098,Audit spreadsheet schema and scoring method,,editorial-knowledge,2026-11-04,Editorial method,Not stated,"Original framework; no external claim; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A098,Worked example (five-person B2B team),,editorial-knowledge,2026-11-04,Hypothetical,Not stated,"Illustrative only; not a real client; QA 2026-11-05: relabelled from Verified (editorial calculation or method, not a fetched fact)"
+A098,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

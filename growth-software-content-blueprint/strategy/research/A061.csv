@@ -1,0 +1,14 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A061,Pipedrive,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Lite US$14, Growth US$39, Premium US$59, Ultimate US$79 per seat per month billed annually",Verified,"Fetched in the v1 pass on 2026-11-04; v2 re-fetch blocked (host not in session network allowlist), figures carried over unchanged"
+A061,Pipedrive free trial,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,14-day free trial,Verified,Fetched in v1 pass 2026-11-04
+A061,Pipedrive add-ons,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"LeadBooster, Projects, Campaigns, Web Visitors and Smart Docs sold as add-ons",Verified,Add-on prices not stated in article
+A061,Pipedrive cost at 3/10/25 users,https://www.pipedrive.com/en/pricing,official-pricing,2026-11-04,"Seats x verified monthly annual-billing price x 12 for Lite, Growth, Premium, Ultimate",Verified,"Arithmetic from verified figures; excludes add-ons, tax and monthly-billing premium"
+A061,HubSpot,https://www.hubspot.com/pricing/sales,official-pricing,2026-11-04,"Free CRM tools; per-seat paid tiers by hub; possible onboarding fee on higher tiers",Needs verification,"Fetch blocked (www.hubspot.com not in network allowlist; Firecrawl out of credits); stated qualitatively, reader told to confirm onboarding fee"
+A061,Zoho CRM,https://www.zoho.com/crm/zohocrm-pricing.html,official-pricing,2026-11-04,"Per-user editions; custom modules, workflow rules, wider Zoho suite; free entry point",Needs verification,Fetch blocked; no prices or free-edition user limit stated
+A061,Freshsales,https://www.freshworks.com/crm/pricing/,official-pricing,2026-11-04,"Per-user tiers; built-in phone and email",Needs verification,Fetch blocked; free-plan availability left to vendor page
+A061,Salesforce Starter Suite,https://www.salesforce.com/sales/pricing/,official-pricing,2026-11-04,Per-user entry suite with path to Sales Cloud and AppExchange,Needs verification,Fetch blocked; no price or contract term stated
+A061,monday CRM,https://monday.com/crm/pricing,official-pricing,2026-11-04,Per-seat pricing; seat options may not match team size exactly,Needs verification,Fetch blocked; v1 bundle-size claim softened
+A061,Less Annoying CRM,https://www.lessannoyingcrm.com/pricing,official-pricing,2026-11-04,"Narrow scope (contacts, calendar, tasks, pipelines, notes); per-user pricing",Needs verification,Fetch blocked; price not stated
+A061,Copper,https://www.copper.com/pricing,official-pricing,2026-11-04,Per-seat tiers; works inside Gmail and Google Calendar,Needs verification,Fetch blocked
+A061,Competitor prices other than Pipedrive,,editorial-knowledge,2026-11-04,,Not stated,Omitted because official pages could not be fetched
+A061,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

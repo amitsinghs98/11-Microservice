@@ -1,0 +1,5 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+A280,"Zapier Free plan: 100 tasks/month, two-step Zaps",https://zapier.com/pricing,official-pricing,2026-11-04,Yes,Verified,"Verified by earlier writer (A091 log, fetched 2026-11-04); direct re-fetch blocked in this session"
+A280,Lean and scaling stack examples,,editorial-knowledge,2026-11-04,"Hypothetical illustrations, labelled; team-size ranges and tool counts removed",Not stated,Calculation-free editorial examples from stated assumptions
+A280,System-of-record template and 90-day rollout,,editorial-knowledge,2026-11-04,Editorial template,Not stated,Editorial framework; no vendor claims
+A280,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used

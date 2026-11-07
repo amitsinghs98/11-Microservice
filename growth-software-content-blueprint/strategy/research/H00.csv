@@ -1,0 +1,7 @@
+article_id,product_or_claim,source_url,source_type,date_checked,claim_supported,verification_status,notes
+H00,Hub scope and directory descriptions,,editorial-knowledge,2026-11-04,"Category boundaries and one-to-two-sentence summaries of linked articles, drawn from url-manifest.json angles and briefs",Not stated,"Navigation hub: no product prices, plan limits or feature claims made; product facts live on the linked articles with their own sources"
+H00,Product-specific claims,,editorial-knowledge,2026-11-04,None made; products referenced only by category or by linked article title,Not stated,"No vendor fetch required, none attempted"
+H00,Lean stack size ('four to eight paid products'),,editorial-knowledge,2026-11-05,Unsourced count removed; now 'a small number of paid products',Not stated,"Fact-check: no source for the number, so it was made qualitative"
+H00,Mature tools share core features,,editorial-knowledge,2026-11-05,Softened from 'most' to 'often'; general qualitative statement,Needs verification,Fact-check: no vendor claim involved
+H00,"Common pricing traps (annual seat lock-in, contact billing on inactive records, add-ons)",,editorial-knowledge,2026-11-05,"General qualitative description of pricing structures, no vendor or figure named",Needs verification,Fact-check: kept qualitative
+H00,Affiliate program,,,2026-11-04,,Not confirmed,No affiliate links used
