@@ -32,6 +32,8 @@ const SITE = {
   // Drafts are not approved for publication yet: every page gets noindex and robots.txt
   // disallows crawling until this is switched to true (see web/README.md).
   indexable: cfg.indexable === true,
+  // Byline shown on every page. Use a real reviewer's name only; never an invented persona.
+  author: cfg.author || `${cfg.brand_name || 'BRAND_NAME'} Editorial Team`,
 };
 // =====================================
 
@@ -144,7 +146,8 @@ const FOOTER = (() => {
 })();
 
 function head({ title, description, canonical, jsonld, ogImage, type = 'article' }) {
-  const full = title.includes(SITE.brand) ? title : `${title} | ${SITE.brand}`;
+  // Brand suffix only when the whole title still fits Google's ~60-character display.
+  const full = title.includes(SITE.brand) || (title + ' | ' + SITE.brand).length > 60 ? title : `${title} | ${SITE.brand}`;
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -218,9 +221,11 @@ function renderPage(p, d) {
   const pill = hub ? `<a class="cluster-pill" href="${hub.public_path}">${esc(HUB_META[hub.public_path] ? HUB_META[hub.public_path][0] : 'Growth Stack')}</a>` : '';
   let more = '';
   if (p.counted) {
-    const sib = articles.filter(a => a.cluster_num === p.cluster_num && a.id !== p.id);
-    const pickT = sib.filter(a => a.page_type !== p.page_type);
-    const picks = [...pickT, ...sib].filter((a, i, arr) => arr.indexOf(a) === i).slice(0, 3);
+    // Rotate through the cluster (next 3 articles after this one, wrapping) so every article
+    // receives exactly 3 same-silo inbound links from these blocks.
+    const ring = articles.filter(a => a.cluster_num === p.cluster_num);
+    const at = ring.indexOf(p);
+    const picks = [1, 2, 3].map(k => ring[(at + k) % ring.length]);
     more = `<section class="section keep-reading" aria-labelledby="keep-reading"><div class="sec-head"><h2 id="keep-reading">Keep reading</h2>` +
       `<a class="sec-more" href="${p.parent_hub}">All ${esc(HUB_META[p.parent_hub][0])} guides &rarr;</a></div>` +
       `<div class="blog-grid">${picks.map(blogCard).join('')}</div></section>`;
@@ -230,7 +235,7 @@ function renderPage(p, d) {
   <nav class="crumbs" aria-label="Breadcrumb">${crumbs.join('<span class="crumb-sep">›</span>')}</nav>
   <h1>${esc(d.h1)}</h1>
   ${d.deck ? `<p class="sub">${d.deck}</p>` : ''}
-  <p class="page-meta">${pill}<span>${KIND[p.page_type]}</span><span>Updated <time datetime="${cfg.draft_date}">${new Date(cfg.draft_date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></span>${SITE.indexable ? '' : '<span class="draft-pill">Draft</span>'}</p>
+  <p class="page-meta">${pill}<span>${KIND[p.page_type]}</span><span>By ${esc(SITE.author)}</span><span>Updated <time datetime="${cfg.draft_date}">${new Date(cfg.draft_date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</time></span>${SITE.indexable ? '' : '<span class="draft-pill">Draft</span>'}</p>
 </div></div>
 <div class="container content article" data-article-id="${p.id}">
 ${d.body}

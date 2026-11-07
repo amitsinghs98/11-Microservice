@@ -55,7 +55,7 @@ They are busy, numerate and sceptical of vendor marketing. They want a shortlist
 
 ## Author
 
-**Not supplied.** No byline, bio or credentials may be invented. Author bio blocks are omitted until a real author is named.
+Byline: **InsightToolz Editorial Team** (set 7 November 2026 in `site.config.json` → `author`). No fictional person, bio or credentials may be invented. Replace it with a real reviewer's name and bio when one exists.
 
 ## First-hand experience
 
