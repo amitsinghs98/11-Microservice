@@ -7,13 +7,13 @@ H04,/crm-lead-gen/,QA-passed,True,1793,True,25,0,2,,
 H05,/automation-analytics/,QA-passed,True,1727,True,25,0,2,,
 H06,/content-operations/,QA-passed,True,2765,True,26,0,2,,
 H07,/paid-media/,QA-passed,True,2480,True,26,0,2,,
-H08,/ecommerce-growth/,QA-passed,True,2382,True,30,0,3,,
+H08,/ecommerce-growth/,QA-passed,True,2382,True,30,0,4,,
 H09,/customer-retention/,QA-passed,True,2547,True,29,0,3,,
 H10,/affiliate-partnerships/,QA-passed,True,2418,True,29,0,3,,primary keyword not verbatim in H1 (H1 kept as source title)
 H11,/website-experience/,QA-passed,True,2547,True,29,0,3,,
-H12,/data-revops/,QA-passed,True,2660,True,37,0,2,,
+H12,/data-revops/,QA-passed,True,2660,True,37,0,1,,
 H13,/webinars-demand-gen/,QA-passed,True,2631,True,30,0,2,,primary keyword not verbatim in H1 (H1 kept as source title)
-H14,/agency-operations/,QA-passed,True,2777,True,32,0,2,,primary keyword not verbatim in H1 (H1 kept as source title)
+H14,/agency-operations/,QA-passed,True,2777,True,32,0,3,,primary keyword not verbatim in H1 (H1 kept as source title)
 H15,/product-led-growth/,QA-passed,True,2611,True,30,0,2,,primary keyword not verbatim in H1 (H1 kept as source title)
 A001,/best-seo-software/,QA-passed,True,2701,True,18,26,8,,
 A002,/best-keyword-research-tools/,QA-passed,True,2197,True,7,16,10,,
@@ -115,7 +115,7 @@ A097,/marketing-automation-pricing/,QA-passed,True,2291,True,9,9,2,,
 A098,/marketing-stack-audit/,QA-passed,True,1721,True,16,2,1,,primary keyword not verbatim in H1 (H1 kept as source title)
 A099,/b2b-growth-stack/,QA-passed,True,2358,True,33,9,0,,primary keyword not verbatim in H1 (H1 kept as source title)
 A100,/marketing-attribution-tools-for-small-business/,QA-passed,True,1538,True,9,8,7,,primary keyword not verbatim in H1 (H1 kept as source title)
-A101,/best-content-marketing-platforms-for-b2b-teams/,QA-passed,True,2995,True,22,15,6,,
+A101,/best-content-marketing-platforms-for-b2b-teams/,QA-passed,True,2995,True,22,15,2,,
 A102,/best-editorial-calendar-software-for-multi-author-teams/,QA-passed,True,2185,True,7,14,7,,
 A103,/best-content-workflow-software-for-marketing-agencies/,QA-passed,True,2093,True,8,12,6,,
 A104,/best-cms-platforms-for-growing-marketing-teams/,QA-passed,True,2158,True,10,14,7,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -135,7 +135,7 @@ A117,/best-content-governance-tools-for-distributed-marketing-teams/,QA-passed,T
 A118,/best-digital-content-rights-and-usage-management-tools/,QA-passed,True,2145,True,5,14,8,,primary keyword not verbatim in H1 (H1 kept as source title)
 A119,/best-content-repurposing-workflow-platforms-for-marketing-teams/,QA-passed,True,1993,True,5,14,7,,primary keyword not verbatim in H1 (H1 kept as source title)
 A120,/how-to-build-a-content-operations-system-for-a-small-marketing-team/,QA-passed,True,1707,True,10,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
-A121,/best-ppc-management-software-for-agencies/,QA-passed,True,3014,True,21,25,9,,
+A121,/best-ppc-management-software-for-agencies/,QA-passed,True,3014,True,21,25,3,,
 A122,/best-google-ads-management-tools-for-multi-account-teams/,QA-passed,True,1832,True,8,16,9,,
 A123,/best-paid-social-advertising-management-platforms/,QA-passed,True,1762,True,7,14,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A124,/best-cross-channel-paid-media-reporting-tools/,QA-passed,True,1709,True,5,14,8,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -155,7 +155,7 @@ A137,/best-linkedin-ads-management-and-reporting-tools-for-b2b/,QA-passed,True,1
 A138,/best-ppc-audit-tools-for-finding-wasted-ad-spend/,QA-passed,True,1791,True,7,14,7,,
 A139,/how-to-build-a-paid-media-measurement-plan-before-launch/,QA-passed,True,1649,True,8,2,3,,
 A140,/how-to-run-a-monthly-paid-media-account-review-for-clients/,QA-passed,True,1505,True,7,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
-A141,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,QA-passed,True,2998,True,22,19,8,,primary keyword not verbatim in H1 (H1 kept as source title)
+A141,/best-ecommerce-platforms-for-growing-direct-to-consumer-brands/,QA-passed,True,2998,True,22,19,3,,primary keyword not verbatim in H1 (H1 kept as source title)
 A142,/best-shopify-apps-for-improving-store-conversion/,QA-passed,True,1966,True,9,17,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A143,/best-ecommerce-personalization-software-for-product-discovery/,QA-passed,True,1841,True,8,16,8,,
 A144,/best-product-recommendation-engines-for-online-stores/,QA-passed,True,1767,True,7,16,8,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -175,7 +175,7 @@ A157,/best-order-management-software-for-growing-ecommerce-brands/,QA-passed,Tru
 A158,/best-ecommerce-merchandising-analytics-tools/,QA-passed,True,2016,True,9,19,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A159,/shopify-alternatives-for-brands-requiring-more-store-control/,QA-passed,True,1631,True,6,19,10,,
 A160,/how-to-build-an-ecommerce-growth-stack-without-app-overload/,QA-passed,True,1696,True,12,1,1,,
-A161,/best-customer-success-platforms-for-b2b-saas-teams/,QA-passed,True,3111,True,22,20,8,,primary keyword not verbatim in H1 (H1 kept as source title)
+A161,/best-customer-success-platforms-for-b2b-saas-teams/,QA-passed,True,3111,True,22,20,3,,primary keyword not verbatim in H1 (H1 kept as source title)
 A162,/best-customer-onboarding-software-for-saas-companies/,QA-passed,True,2050,True,5,14,7,,
 A163,/best-customer-education-platforms-for-saas-and-b2b-companies/,QA-passed,True,1946,True,6,14,7,,
 A164,/best-in-app-messaging-platforms-for-saas-product-teams/,QA-passed,True,2089,True,5,14,7,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -195,7 +195,7 @@ A177,/best-voice-of-customer-software-for-product-and-marketing-teams/,QA-passed
 A178,/best-customer-journey-analytics-platforms-for-lifecycle-teams/,QA-passed,True,2090,True,5,14,7,,primary keyword not verbatim in H1 (H1 kept as source title)
 A179,/customer-support-suite-vs-shared-inbox-which-does-a-small-team-need/,QA-passed,True,1898,True,6,8,8,,primary keyword not verbatim in H1 (H1 kept as source title)
 A180,/how-to-build-a-customer-retention-tech-stack-for-a-small-saas-team/,QA-passed,True,1895,True,8,0,0,,
-A181,/best-affiliate-marketing-platforms-for-saas-companies/,QA-passed,True,3325,True,23,16,6,,
+A181,/best-affiliate-marketing-platforms-for-saas-companies/,QA-passed,True,3325,True,23,16,1,,
 A182,/best-affiliate-tracking-software-for-ecommerce-brands/,QA-passed,True,1974,True,7,14,7,,
 A183,/best-partner-relationship-management-software-for-b2b-companies/,QA-passed,True,1898,True,7,14,7,,
 A184,/best-influencer-marketing-platforms-for-b2b-brands/,QA-passed,True,1839,True,9,14,7,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -215,7 +215,7 @@ A197,/best-creator-link-in-bio-and-campaign-landing-page-tools/,QA-passed,True,1
 A198,/affiliate-network-vs-affiliate-software-which-model-fits-a-saas-brand/,QA-passed,True,1736,True,6,4,8,,
 A199,/how-to-build-a-b2b-partner-and-affiliate-program-from-scratch/,QA-passed,True,1750,True,8,4,4,,primary keyword not verbatim in H1 (H1 kept as source title)
 A200,/how-to-evaluate-influencer-campaign-roi-without-vanity-metrics/,QA-passed,True,1555,True,11,1,1,,primary keyword not verbatim in H1 (H1 kept as source title)
-A201,/best-website-builders-for-b2b-marketing-teams/,QA-passed,True,2997,True,22,16,6,,
+A201,/best-website-builders-for-b2b-marketing-teams/,QA-passed,True,2997,True,22,16,3,,
 A202,/best-composable-cms-platforms-for-enterprise-marketing-teams/,QA-passed,True,2078,True,5,14,7,,
 A203,/best-website-personalization-software-for-b2b-lead-generation/,QA-passed,True,1866,True,7,12,7,,primary keyword not verbatim in H1 (H1 kept as source title)
 A204,/best-landing-page-builders-for-saas-demo-and-trial-funnels/,QA-passed,True,1834,True,6,10,6,,
@@ -235,7 +235,7 @@ A217,/best-website-migration-tools-for-seo-safe-platform-changes/,QA-passed,True
 A218,/best-website-experimentation-platforms-for-marketing-teams/,QA-passed,True,1881,True,6,15,8,,
 A219,/website-builder-vs-cms-how-a-growing-marketing-team-should-choose/,QA-passed,True,1717,True,7,7,6,,
 A220,/how-to-plan-a-website-replatforming-project-without-losing-search-equity/,QA-passed,True,1713,True,7,7,7,,primary keyword not verbatim in H1 (H1 kept as source title)
-A221,/best-customer-data-platforms-for-b2b-marketing-teams/,QA-passed,True,3150,True,22,19,9,,primary keyword not verbatim in H1 (H1 kept as source title)
+A221,/best-customer-data-platforms-for-b2b-marketing-teams/,QA-passed,True,3150,True,22,19,6,,primary keyword not verbatim in H1 (H1 kept as source title)
 A222,/best-b2b-customer-data-platforms-for-account-based-marketing/,QA-passed,True,1966,True,7,16,9,,primary keyword not verbatim in H1 (H1 kept as source title)
 A223,/best-reverse-etl-tools-for-activating-warehouse-data/,QA-passed,True,1974,True,5,14,9,,
 A224,/best-marketing-data-integration-platforms-for-lean-teams/,QA-passed,True,1868,True,6,12,5,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -275,7 +275,7 @@ A257,/best-event-lead-capture-apps-for-exhibitors-and-sponsors/,QA-passed,True,2
 A258,/best-event-marketing-automation-integrations-for-b2b-teams/,QA-passed,True,1813,True,6,14,8,,primary keyword not verbatim in H1 (H1 kept as source title)
 A259,/how-to-build-a-webinar-funnel-from-registration-to-sales-follow-up/,QA-passed,True,1670,True,8,0,0,,primary keyword not verbatim in H1 (H1 kept as source title)
 A260,/content-syndication-vs-webinars-which-b2b-demand-channel-fits/,QA-passed,True,2158,True,6,0,0,,
-A261,/best-project-management-software-for-digital-marketing-agencies/,QA-passed,True,3006,True,21,18,10,,primary keyword not verbatim in H1 (H1 kept as source title)
+A261,/best-project-management-software-for-digital-marketing-agencies/,QA-passed,True,3006,True,21,18,3,,primary keyword not verbatim in H1 (H1 kept as source title)
 A262,/best-client-portal-software-for-marketing-and-seo-agencies/,QA-passed,True,1902,True,8,14,10,,
 A263,/best-time-tracking-software-for-marketing-agencies/,QA-passed,True,1818,True,7,14,11,,
 A264,/best-resource-planning-software-for-creative-and-marketing-agencies/,QA-passed,True,1802,True,7,14,10,,primary keyword not verbatim in H1 (H1 kept as source title)
@@ -295,7 +295,7 @@ A277,/best-capacity-planning-software-for-small-service-agencies/,QA-passed,True
 A278,/best-freelancer-and-contractor-management-platforms-for-agencies/,QA-passed,True,1900,True,6,12,7,,primary keyword not verbatim in H1 (H1 kept as source title)
 A279,/best-rfp-and-proposal-management-software-for-b2b-agencies/,QA-passed,True,1957,True,7,12,6,,primary keyword not verbatim in H1 (H1 kept as source title)
 A280,/how-to-build-an-agency-operating-stack-that-protects-delivery-margins/,QA-passed,True,1612,True,12,1,0,,
-A281,/best-product-analytics-software-for-saas-startups/,QA-passed,True,2999,True,22,17,8,,primary keyword not verbatim in H1 (H1 kept as source title)
+A281,/best-product-analytics-software-for-saas-startups/,QA-passed,True,2999,True,22,17,1,,primary keyword not verbatim in H1 (H1 kept as source title)
 A282,/best-feature-flag-management-platforms-for-saas-teams/,QA-passed,True,1880,True,6,18,10,,primary keyword not verbatim in H1 (H1 kept as source title)
 A283,/best-product-experimentation-platforms-for-growth-teams/,QA-passed,True,1656,True,7,17,10,,
 A284,/best-digital-adoption-platforms-for-complex-saas-products/,QA-passed,True,1694,True,7,12,7,,
